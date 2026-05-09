@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-board: #1c2742;
+  --color-board-deep: #151e36;
+  --color-board-darker: #0f1729;
+  --color-gold: #c9a96a;
+  --color-gold-bright: #e0c280;
+  --color-correct: #6bb37a;
+  --color-wrong: #c46666;
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+html, body {
+  background: var(--color-board);
+  color: #ece6d8;
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  background-image:
+    radial-gradient(circle at 50% -20%, rgba(255, 255, 255, 0.025), transparent 65%);
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}

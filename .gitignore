@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+
+# Claude project metadata (kept out of source)
+.claude/
+
+# Node / Next.js (covers the clueboard/ workspace)
+node_modules/
+.next/
+out/
+build/
+coverage/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.pem
+*.tsbuildinfo
+next-env.d.ts
