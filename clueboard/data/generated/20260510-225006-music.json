@@ -1,0 +1,102 @@
+{
+  "batch_id": "20260510-225006-music",
+  "generated_at": "2026-05-10T22:50:06.500Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "MUSIC",
+  "categories": [
+    {
+      "title": "COVERED IN GLORY",
+      "theme": "Famous cover songs — answer is the ORIGINAL RECORDING ARTIST who first released the song",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Miley Cyrus put her stamp on this song, but a classic British rock band recorded it first back in 1975.",
+          "answer": "Fleetwood Mac",
+          "source_id": "tapi:636a5230990390307063f3a6"
+        },
+        {
+          "value": 400,
+          "clue": "The Fugees brought it back to the charts in 1996, but this singer first broke hearts with the story of a song heard on the radio in 1973.",
+          "answer": "Roberta Flack",
+          "source_id": "tapi:636a5280990390307063f3a0"
+        },
+        {
+          "value": 600,
+          "clue": "Gary Jules and Michael Andrews made this melancholy track a holiday hit in 2003, but it was this British new-wave duo who wrote and recorded it in 1982.",
+          "answer": "Tears for Fears",
+          "source_id": "tapi:636a528e990390307063f3a6"
+        },
+        {
+          "value": 800,
+          "clue": "William Shatner put a spoken-word spin on this sardonic anthem about class, but it was originally released by this Britpop band in 1995.",
+          "answer": "Pulp",
+          "source_id": "tapi:636a5237990390307063f380"
+        },
+        {
+          "value": 1000,
+          "clue": "Lil Nas X's genre-bending smash 'Old Town Road' sampled a track called '34 Ghosts IV' from this industrial rock band's 2008 album.",
+          "answer": "Nine Inch Nails",
+          "source_id": "otdb:ev2a54"
+        }
+      ]
+    },
+    {
+      "title": "BEHIND THE BAND",
+      "theme": "Hidden hands in music — answer is the PERSON or ACT who secretly contributed to a song or album",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This King of Pop co-wrote the 1983 hit 'Say Say Say' alongside Paul McCartney, serving as his duet partner on the track.",
+          "answer": "Michael Jackson",
+          "source_id": "tapi:6488deec50a27f7378a91de4"
+        },
+        {
+          "value": 400,
+          "clue": "Paul McCartney formed this group after the Fab Four split, recording hits throughout the 1970s.",
+          "answer": "Wings",
+          "source_id": "tapi:622a1c387cc59eab6f950b9e"
+        },
+        {
+          "value": 600,
+          "clue": "This producer, known for his work with Chic, helmed David Bowie's massively commercial 1983 album 'Let's Dance'.",
+          "answer": "Nile Rodgers",
+          "source_id": "tapi:645cb19b7d263fd5097043e5"
+        },
+        {
+          "value": 800,
+          "clue": "This pop superstar secretly penned the Bangles' 1986 hit 'Manic Monday', releasing it under a pseudonym.",
+          "answer": "Prince",
+          "source_id": "tapi:622a1c357cc59eab6f94fd89"
+        },
+        {
+          "value": 1000,
+          "clue": "Before his solo fame, this soul legend began his career singing with the Moonglows alongside Harvey Fuqua, brother-in-law of Motown founder Berry Gordy.",
+          "answer": "Marvin Gaye",
+          "source_id": "tapi:622a1c357cc59eab6f94fd99"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "ROCK HALL MILESTONE",
+      "topic": "MUSIC",
+      "clue": "When the Rock & Roll Hall of Fame held its very first induction ceremony in 1986, this pioneering guitarist and songwriter was the first performer inducted, cementing his legacy as the father of rock and roll.",
+      "answer": "Chuck Berry",
+      "source_id": "tapi:645a6490158db1bd1779f19a"
+    },
+    {
+      "title": "FIRST SPIN",
+      "topic": "MUSIC",
+      "clue": "Long before his 1965 chart dominance with 'In the Midnight Hour', this Alabama-born soul singer scored his first solo top 40 hit with a track named for the late hours of the night.",
+      "answer": "Wilson Pickett",
+      "source_id": "tapi:646339a001d576cfac3aa393"
+    }
+  ]
+}

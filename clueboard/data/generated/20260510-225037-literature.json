@@ -1,0 +1,102 @@
+{
+  "batch_id": "20260510-225037-literature",
+  "generated_at": "2026-05-10T22:50:37.417Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "LITERATURE",
+  "categories": [
+    {
+      "title": "WHO WROTE THAT?",
+      "theme": "Literary works matched to their authors — answer is the AUTHOR'S NAME",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British author gave us Pip, Miss Havisham, and the ghost of Jacob Marley across beloved Victorian novels.",
+          "answer": "Charles Dickens",
+          "source_id": "tapi:622a1c397cc59eab6f950ef1"
+        },
+        {
+          "value": 400,
+          "clue": "Born Adeline Virginia Stephen, this modernist writer published groundbreaking novels under a married surname.",
+          "answer": "Woolf",
+          "source_id": "tapi:6471e4297206d7c314606f77"
+        },
+        {
+          "value": 600,
+          "clue": "This Spanish author created the knight-errant Don Quixote, widely considered the first modern novel.",
+          "answer": "Miguel de Cervantes",
+          "source_id": "tapi:622a1c397cc59eab6f950e01"
+        },
+        {
+          "value": 800,
+          "clue": "This French author penned the sweeping multi-volume work 'In Search of Lost Time', one of the longest novels ever written.",
+          "answer": "Marcel Proust",
+          "source_id": "tapi:622a1c397cc59eab6f950e1d"
+        },
+        {
+          "value": 1000,
+          "clue": "The short story collection 'Evenings on a Farm Near Dikanka' was an early work by this Russian author also known for 'The Overcoat'.",
+          "answer": "Nikolai Gogol",
+          "source_id": "tapi:622a1c397cc59eab6f950ed1"
+        }
+      ]
+    },
+    {
+      "title": "WHO WROTE THAT?",
+      "theme": "Famous literary works and their authors — answer is the AUTHOR",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British author gave the world the boy wizard Harry Potter and his friends at Hogwarts.",
+          "answer": "J.K. Rowling",
+          "source_id": "otdb:1b2luhe"
+        },
+        {
+          "value": 400,
+          "clue": "This Victorian author penned the ghost story 'A Christmas Carol', featuring the miserly Ebenezer Scrooge.",
+          "answer": "Charles Dickens",
+          "source_id": "tapi:622a1c397cc59eab6f950ef2"
+        },
+        {
+          "value": 600,
+          "clue": "This Colombian Nobel laureate wrote a sweeping romance set against a backdrop of disease, exploring Florentino Ariza's decades-long devotion.",
+          "answer": "Gabriel García Márquez",
+          "source_id": "tapi:622a1c397cc59eab6f950e6a"
+        },
+        {
+          "value": 800,
+          "clue": "This American authored 'The Legend of Sleepy Hollow', introducing readers to the terrifying Headless Horseman of a Hudson Valley town.",
+          "answer": "Washington Irving",
+          "source_id": "tapi:622a1c397cc59eab6f950e54"
+        },
+        {
+          "value": 1000,
+          "clue": "This Irish-born author, best known for modernist fiction, penned the semi-autobiographical 'A Portrait of the Artist as a Young Man' in 1916.",
+          "answer": "James Joyce",
+          "source_id": "tapi:622a1c397cc59eab6f950eca"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "DYSTOPIAN DETAILS",
+      "topic": "LITERATURE",
+      "clue": "In this Aldous Huxley novel set in a World State, the words 'Mother' and 'Father' are considered obscene, and citizens are conditioned from birth to accept their place in a rigid caste system.",
+      "answer": "Brave New World",
+      "source_id": "tapi:6494b7cbd7601042f7eaa939"
+    },
+    {
+      "title": "LITERARY HEROINES",
+      "topic": "LITERATURE",
+      "clue": "In Ayn Rand's 1957 novel, this character — whose name is also a question posed throughout the book — persuades the world's leading industrialists to abandon their companies and withdraw from society.",
+      "answer": "John Galt",
+      "source_id": "tapi:648891854cd3f064f443dc1f"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "batch_id": "20260510-225147-language",
+  "generated_at": "2026-05-10T22:51:47.662Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "LANGUAGE",
+  "categories": [
+    {
+      "title": "WORD ORIGINS & DEFINITIONS",
+      "theme": "Words and their meanings or origins — answer is the WORD or TERM being described",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This part of speech modifies a verb, adjective, or another of its kind — 'hastily' is a classic example.",
+          "answer": "Adverb",
+          "source_id": "tapi:65056ef77a97013de78b539f"
+        },
+        {
+          "value": 400,
+          "clue": "This everyday English word, meaning 'a commotion or fuss', likely blends Scottish and Irish dialect roots.",
+          "answer": "Kerfuffle",
+          "source_id": "tapi:622a1c357cc59eab6f94fc6e"
+        },
+        {
+          "value": 600,
+          "clue": "This verb meaning 'to rigidly categorize' derives from the small compartments once built into wooden writing desks.",
+          "answer": "Pigeonhole",
+          "source_id": "tapi:647638d1f05ea6d6f587a150"
+        },
+        {
+          "value": 800,
+          "clue": "This word describes coarsely abusive language, named after a London fish market notorious for foul-mouthed traders.",
+          "answer": "Billingsgate",
+          "source_id": "tapi:622a1c357cc59eab6f94fc95"
+        },
+        {
+          "value": 1000,
+          "clue": "Cried from Edinburgh windows in the 18th century before slops were hurled into the street below, this warning word has since fallen out of use.",
+          "answer": "Gardyloo",
+          "source_id": "tapi:622a1c357cc59eab6f94fc7e"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "WORD ORIGINS & DEFINITIONS",
+      "topic": "LANGUAGE",
+      "clue": "This obscure old Scottish word, meaning to chase girls around among the haystacks after dark, is a fine example of a term too vivid to forget — and too specific to survive.",
+      "answer": "Sprunt",
+      "source_id": "tapi:622a1c357cc59eab6f94fc5c"
+    }
+  ]
+}

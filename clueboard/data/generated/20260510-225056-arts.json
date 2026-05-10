@@ -1,0 +1,102 @@
+{
+  "batch_id": "20260510-225056-arts",
+  "generated_at": "2026-05-10T22:50:56.709Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "ARTS",
+  "categories": [
+    {
+      "title": "PAINTED MASTERPIECES",
+      "theme": "Famous paintings and the art movements they belong to — answer is the ART MOVEMENT",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Salvador Dalí's melting clocks in 'The Persistence of Memory' belong to this dreamlike movement that defied rational thought.",
+          "answer": "Surrealism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa23"
+        },
+        {
+          "value": 400,
+          "clue": "Michelangelo's 'Creation of Adam', painted on the Sistine Chapel ceiling, is a pinnacle of this cultural and artistic rebirth.",
+          "answer": "Renaissance",
+          "source_id": "tapi:622a1c347cc59eab6f94fa29"
+        },
+        {
+          "value": 600,
+          "clue": "Grant Wood's 'American Gothic', depicting a farmer and his daughter, is classified under this broad early 20th-century movement.",
+          "answer": "Modernism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa49"
+        },
+        {
+          "value": 800,
+          "clue": "Édouard Manet's nude 'Olympia', which caused scandal at the 1865 Paris Salon, belongs to this movement that sought truth over idealization.",
+          "answer": "Realism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa33"
+        },
+        {
+          "value": 1000,
+          "clue": "Leonardo da Vinci's enigmatically smiling portrait 'Mona Lisa' is classified under this specific, refined phase of a broader Italian movement.",
+          "answer": "High Renaissance",
+          "source_id": "tapi:622a1c347cc59eab6f94fa39"
+        }
+      ]
+    },
+    {
+      "title": "ART TECHNIQUES & TERMS",
+      "theme": "Vocabulary and techniques of visual art — answer is the ART TERM or TECHNIQUE",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Artists use this flat board to hold and blend their colors while they work.",
+          "answer": "A Palette",
+          "source_id": "tapi:622a1c3a7cc59eab6f951367"
+        },
+        {
+          "value": 400,
+          "clue": "A large painting applied directly onto a wall, such as those found in public buildings and cathedrals, is known by this term.",
+          "answer": "Mural",
+          "source_id": "tapi:622a1c3a7cc59eab6f951364"
+        },
+        {
+          "value": 600,
+          "clue": "This late 18th- to mid-19th-century movement prized emotion, nature, and spontaneous expression over cold rationality.",
+          "answer": "Romanticism",
+          "source_id": "tapi:622a1c3a7cc59eab6f95136b"
+        },
+        {
+          "value": 800,
+          "clue": "This analytic movement, pioneered in the early 20th century, broke objects into geometric fragments and depicted them from multiple viewpoints simultaneously.",
+          "answer": "Cubism",
+          "source_id": "tapi:622a1c3a7cc59eab6f951358"
+        },
+        {
+          "value": 1000,
+          "clue": "Georges Seurat developed this technique of applying tiny dabs of pure color intended to optically blend in the viewer's eye rather than on the canvas.",
+          "answer": "Pointillism",
+          "source_id": "tapi:622a1c3a7cc59eab6f951371"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "THE PAINTER BEHIND THE CANVAS",
+      "topic": "ARTS",
+      "clue": "This French Impressionist painter created 'Impression, Sunrise' in 1872 — the work that inadvertently gave an entire art movement its name.",
+      "answer": "Claude Monet",
+      "source_id": "tapi:622a1c347cc59eab6f94fa16"
+    },
+    {
+      "title": "SCANDALOUS STROKES",
+      "topic": "ARTS",
+      "clue": "His 1865 painting 'Olympia' shocked Paris with its unapologetic depiction of a nude woman meeting the viewer's gaze, upending classical tradition and sparking fierce debate about what constituted acceptable art.",
+      "answer": "Édouard Manet",
+      "source_id": "tapi:622a1c347cc59eab6f94f9fb"
+    }
+  ]
+}

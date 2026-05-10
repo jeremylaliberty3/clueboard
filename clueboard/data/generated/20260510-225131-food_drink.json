@@ -1,0 +1,102 @@
+{
+  "batch_id": "20260510-225131-food_drink",
+  "generated_at": "2026-05-10T22:51:31.390Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "FOOD_DRINK",
+  "categories": [
+    {
+      "title": "WHAT'S IN A NAME?",
+      "theme": "Food and drink items whose names have a literal meaning in another language — answer is the FOOD or DRINK item",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This word for a beloved Italian pasta literally means 'little twine' in its home language.",
+          "answer": "Spaghetti",
+          "source_id": "tapi:625007020d86c8f685d80f0d"
+        },
+        {
+          "value": 400,
+          "clue": "The Yiddish word for 'ring' or 'bracelet' gives us the name of this breakfast staple, often topped with cream cheese.",
+          "answer": "A bagel",
+          "source_id": "tapi:647f9da93a4302a7192715f1"
+        },
+        {
+          "value": 600,
+          "clue": "In Italian, this tube-shaped pasta's name translates to 'small thimbles.'",
+          "answer": "Ditalini",
+          "source_id": "tapi:625006940d86c8f685d80eed"
+        },
+        {
+          "value": 800,
+          "clue": "This Mexican dish's name is Spanish for 'little donkey,' perhaps owing to the stuffed, rolled shape.",
+          "answer": "Burrito",
+          "source_id": "tapi:622a1c367cc59eab6f9502d7"
+        },
+        {
+          "value": 1000,
+          "clue": "In Russian, this fermented grain beverage's name literally means 'little water,' echoing vodka's humbler cousin.",
+          "answer": "Kvass",
+          "source_id": "tapi:622a1c367cc59eab6f950263"
+        }
+      ]
+    },
+    {
+      "title": "PASSPORT, PLEASE",
+      "theme": "Dishes and drinks strongly associated with a specific country or region — answer is the COUNTRY or REGION",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pack your chopsticks — Ramen, that hearty noodle soup, is most closely associated with this island nation.",
+          "answer": "Japan",
+          "source_id": "tapi:624c60c095b12387e142c79b"
+        },
+        {
+          "value": 400,
+          "clue": "Poutine — fries topped with cheese curds and gravy — is the beloved comfort food of this North American country.",
+          "answer": "Canada",
+          "source_id": "tapi:624c606250d1a5e051325a57"
+        },
+        {
+          "value": 600,
+          "clue": "Stamppot, a hearty mash of potatoes and vegetables, is a traditional dish of this Western European nation known for tulips and windmills.",
+          "answer": "Netherlands",
+          "source_id": "tapi:624c60dc50d1a5e051325a78"
+        },
+        {
+          "value": 800,
+          "clue": "Gallo Pinto, a dish of rice and beans, is the national staple of this Central American country.",
+          "answer": "Costa Rica",
+          "source_id": "tapi:624c606950d1a5e051325a59"
+        },
+        {
+          "value": 1000,
+          "clue": "Plov, a fragrant rice dish cooked with lamb and carrots, is most closely associated with this Central Asian republic along the Silk Road.",
+          "answer": "Uzbekistan",
+          "source_id": "tapi:624c614bbadf21197f98f772"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "A LAYERED LEGACY",
+      "topic": "FOOD_DRINK",
+      "clue": "This British cheese, created by layering two distinct varieties, pairs creamy Double Gloucester with the pungent blue veins of Stilton.",
+      "answer": "Huntsman Cheese",
+      "source_id": "tapi:622a1c367cc59eab6f95022d"
+    },
+    {
+      "title": "HOTEL BAR HISTORY",
+      "topic": "FOOD_DRINK",
+      "clue": "First mixed at a legendary colonial-era hotel in Singapore, this gin-based cocktail shares its name with the city-state where it was born.",
+      "answer": "Singapore Sling",
+      "source_id": "tapi:6233880f0161109f922aac62"
+    }
+  ]
+}

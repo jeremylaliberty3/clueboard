@@ -1,0 +1,56 @@
+{
+  "batch_id": "20260510-225108-sports",
+  "generated_at": "2026-05-10T22:51:08.594Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "SPORTS",
+  "categories": [
+    {
+      "title": "FORMULA FOR SUCCESS",
+      "theme": "Facts about Formula 1 racing history — answer is the DRIVER, TEAM, or CIRCUIT named",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This seven-time world champion is the most decorated driver in Formula 1 history.",
+          "answer": "Michael Schumacher",
+          "source_id": "otdb:m43lqs"
+        },
+        {
+          "value": 400,
+          "clue": "Jenson Button claimed his first and only Formula One World Drivers' Championship in this year.",
+          "answer": "2009",
+          "source_id": "otdb:6hua6u"
+        },
+        {
+          "value": 600,
+          "clue": "The future seven-time champion made his Formula One debut at the 1991 Belgian Grand Prix with this team.",
+          "answer": "Jordan",
+          "source_id": "otdb:wxcvrs"
+        },
+        {
+          "value": 800,
+          "clue": "He won the 1994 San Marino Grand Prix, the very race overshadowed by the fatal crash of Ayrton Senna.",
+          "answer": "Michael Schumacher",
+          "source_id": "otdb:1igqij9"
+        },
+        {
+          "value": 1000,
+          "clue": "This German circuit hosted its last Formula 1 race in 1976, the year Niki Lauda suffered his near-fatal crash there.",
+          "answer": "Nurburgring",
+          "source_id": "tapi:622a1c367cc59eab6f9503a6"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "RACING FIRSTS",
+      "topic": "SPORTS",
+      "clue": "In 1977, this pioneering driver shattered a gender barrier by becoming the first woman to compete in the Indianapolis 500.",
+      "answer": "Janet Guthrie",
+      "source_id": "tapi:6477bb12550bc819ad646b6d"
+    }
+  ]
+}

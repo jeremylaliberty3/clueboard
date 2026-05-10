@@ -1,0 +1,102 @@
+{
+  "batch_id": "20260510-224941-pop_culture",
+  "generated_at": "2026-05-10T22:49:41.791Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "POP_CULTURE",
+  "categories": [
+    {
+      "title": "LIGHTS, CAMERA, ACTION!",
+      "theme": "Film clues about iconic movies and the actors who starred in them — answer is the FILM TITLE or ACTOR NAME as specified",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Harrison Ford cracked his whip in this 1981 adventure classic, playing an archaeologist chasing a biblical artifact.",
+          "answer": "Raiders of the Lost Ark",
+          "source_id": "tapi:622a1c347cc59eab6f94f8bb"
+        },
+        {
+          "value": 400,
+          "clue": "Jack Nicholson descended into madness at the Overlook Hotel in this 1980 Stanley Kubrick horror film.",
+          "answer": "The Shining",
+          "source_id": "tapi:622a1c347cc59eab6f94f910"
+        },
+        {
+          "value": 600,
+          "clue": "This 1994 Oliver Stone film features the infamous quote 'We rob banks,' spoken by its outlaw title characters.",
+          "answer": "Bonnie and Clyde",
+          "source_id": "tapi:622a1c347cc59eab6f94fc27"
+        },
+        {
+          "value": 800,
+          "clue": "Steve Buscemi played the color-coded alias Mr. Pink in this Quentin Tarantino debut about a heist gone wrong.",
+          "answer": "Reservoir Dogs",
+          "source_id": "tapi:64824ead7778562fd76a9681"
+        },
+        {
+          "value": 1000,
+          "clue": "This actor, who appeared in both Pulp Fiction and The Incredible Hulk, also played General Thaddeus Ross's adversary onscreen.",
+          "answer": "Tim Roth",
+          "source_id": "tapi:622a1c377cc59eab6f950679"
+        }
+      ]
+    },
+    {
+      "title": "LIGHTS, CAMERA, OSCAR!",
+      "theme": "Academy Award acting wins tied to specific roles — answer is the ACTOR OR ACTRESS who won",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "He took home the Best Actor statue in 1994 for his portrayal of a slow-witted but big-hearted Alabaman running through American history.",
+          "answer": "Tom Hanks",
+          "source_id": "tapi:622a1c347cc59eab6f94fadd"
+        },
+        {
+          "value": 400,
+          "clue": "This actress earned Best Actress honors in 2018 for her cunning portrayal of Queen Anne in the darkly comic period film 'The Favourite.'",
+          "answer": "Olivia Colman",
+          "source_id": "tapi:622a1c347cc59eab6f94faf7"
+        },
+        {
+          "value": 600,
+          "clue": "Her role as the emotionally volatile Tiffany in 'Silver Linings Playbook' earned this actress the Best Actress Oscar in 2012.",
+          "answer": "Jennifer Lawrence",
+          "source_id": "tapi:622a1c347cc59eab6f94fb00"
+        },
+        {
+          "value": 800,
+          "clue": "This veteran British actor won Best Actor in 2017 for transforming into a wartime prime minister in 'Darkest Hour.'",
+          "answer": "Gary Oldman",
+          "source_id": "tapi:622a1c347cc59eab6f94fac0"
+        },
+        {
+          "value": 1000,
+          "clue": "This film about identity, sexuality, and growing up in Miami took the Best Picture prize in 2016 — name the film, not the actors.",
+          "answer": "Moonlight",
+          "source_id": "tapi:622a1c347cc59eab6f94fb38"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "BEHIND THE CAMERA",
+      "topic": "POP_CULTURE",
+      "clue": "Before becoming synonymous with talking aliens and sharp suits, this director helmed Men in Black in 1997 — a fact often overshadowed by the film's stars Will Smith and Tommy Lee Jones.",
+      "answer": "Barry Sonnenfeld",
+      "source_id": "tapi:622a1c367cc59eab6f9501d8"
+    },
+    {
+      "title": "BOND SONGS",
+      "topic": "POP_CULTURE",
+      "clue": "This British new-wave band, better known for 'Hungry Like the Wolf,' performed the title track for the 1985 James Bond film set partly in Paris and San Francisco.",
+      "answer": "Duran Duran",
+      "source_id": "tapi:624dba22de6018633d31f6b6"
+    }
+  ]
+}
