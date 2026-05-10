@@ -6,9 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "fetch-sources": "tsx scripts/fetch-sources.ts",
+    "generate-clues": "tsx --env-file=.env.local scripts/generate-clues.ts",
+    "review": "tsx --env-file=.env.local scripts/review.ts",
+    "import-clues": "tsx --env-file=.env.local scripts/import-clues.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.95.1",
+    "@supabase/supabase-js": "^2.105.4",
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
@@ -22,6 +28,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }

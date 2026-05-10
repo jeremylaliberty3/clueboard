@@ -1,6 +1,6 @@
 # Clueboard — Build Spec
 
-A daily trivia game in the style of classic American TV trivia shows. Every day, all users see the same board of 6 categories × 5 clues, drawn from a public dataset of real trivia clues. Users play once per day and share a Wordle-style score card. Optional sign-in saves stats and history.
+A daily trivia game in the style of classic American TV trivia shows. Every day, all users see the same board of 6 categories × 5 clues, written by Claude in a Jeopardy-style declarative voice and grounded in facts drawn from freely-licensed public trivia datasets. Users play once per day and share a Wordle-style score card. Optional sign-in saves stats and history.
 
 **Domain:** [clueboard.app](https://clueboard.app) (registered via Cloudflare Registrar).
 
@@ -29,8 +29,8 @@ The product is named **Clueboard**, deliberately chosen to avoid trademark confl
 
 **Do:**
 - Use the name "Clueboard" everywhere — UI, OAuth consent screens, social sharing, app stores.
-- Credit the data source factually using nominative fair use, e.g. on the About page and footer:
-  > *Clues sourced from real Jeopardy! episodes via the public [jwolle1/jeopardy_clue_dataset](https://github.com/jwolle1/jeopardy_clue_dataset). Clueboard is not affiliated with, endorsed by, or sponsored by Sony Pictures Television or Jeopardy Productions, Inc.*
+- Credit the underlying source datasets factually on the About page and footer:
+  > *Trivia content sourced from the [Open Trivia Database](https://opentdb.com) (CC BY-SA 4.0) and [The Trivia API](https://the-trivia-api.com) (CC BY 4.0), then rewritten in our own voice. Clueboard is an independent project; not affiliated with, endorsed by, or sponsored by Sony Pictures Television or Jeopardy Productions, Inc.*
 - Use a generic deep-blue + gold visual palette for the board (the colors themselves aren't trademarked in isolation).
 
 **Don't:**
@@ -54,7 +54,8 @@ This posture keeps the product safe for indefinite operation, including monetiza
 | Auth | Supabase Auth (Google OAuth) |
 | Styling | Tailwind CSS + shadcn/ui |
 | LLM judge (validation layer 5) | Claude Haiku via Anthropic API |
-| Question dataset | jwolle1/jeopardy_clue_dataset (one-time import) |
+| Source fact bank | Open Trivia DB + The Trivia API (one-time fetch, periodic refresh) |
+| Clue authoring | Claude (Sonnet/Haiku) — designs categories and rewrites source facts as Jeopardy-style clues |
 
 Server components for the marketing page and profile shell. Client components for the interactive board and clue modal. Game state writes go through Next.js Route Handlers / Server Actions, never direct from client to Supabase, so answer validation and scoring stay server-side and tamper-resistant.
 
