@@ -362,10 +362,12 @@ async function main() {
 
     let droppedClues = 0, droppedCats = 0, droppedFinals = 0;
     const cleanedCats = (parsed.categories ?? []).map((c) => {
-      const before = c.clues?.length ?? 0;
+      const seenFacts = new Set<string>();
       const cleaned = (c.clues ?? []).filter((cl) => {
         if (!validateAnswer(cl.answer)) { droppedClues++; return false; }
         if (!noLeak(cl.clue, cl.answer)) { droppedClues++; return false; }
+        if (seenFacts.has(cl.source_id)) { droppedClues++; return false; }  // no within-category fact reuse
+        seenFacts.add(cl.source_id);
         return true;
       });
       if (cleaned.length < 5) droppedCats++;
