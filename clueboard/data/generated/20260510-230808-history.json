@@ -1,0 +1,106 @@
+{
+  "batch_id": "20260510-230808-history",
+  "generated_at": "2026-05-10T23:08:08.388Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "HISTORY",
+  "categories": [
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Wall Street Crash, which triggered the Great Depression, occurred in this year.",
+          "answer": "1929",
+          "source_id": "otdb:1sig77v",
+          "fit_justification": "Source answer is literally '1929', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "Construction of the Suez Canal, connecting the Mediterranean and Red Sea, was completed in this year.",
+          "answer": "1869",
+          "source_id": "otdb:15kcljv",
+          "fit_justification": "Source answer is literally '1869', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "The collapse of the Byzantine Empire took place in this year.",
+          "answer": "1453",
+          "source_id": "otdb:xeh0vo",
+          "fit_justification": "Source answer is literally '1453', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "Joan of Arc was burned at the stake in this year.",
+          "answer": "1431",
+          "source_id": "tapi:622a1c367cc59eab6f950413",
+          "fit_justification": "Source answer is literally '1431', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "The Gregorian Calendar, now used as the international standard, was first adopted in this year.",
+          "answer": "1582",
+          "source_id": "otdb:1sgn27f",
+          "fit_justification": "Source answer is literally '1582', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "ANCIENT ROME",
+      "theme": "Questions directly about people, practices, or facts of Ancient Rome",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This was the name given to someone who fought professionally in Roman arenas for the entertainment of crowds.",
+          "answer": "A Gladiator",
+          "source_id": "tapi:622a1c3c7cc59eab6f951a90",
+          "fit_justification": "Source question asks 'what was the name of someone who fought professionally in Roman arenas'; answer is 'A Gladiator', directly about Ancient Rome."
+        },
+        {
+          "value": 400,
+          "clue": "This Roman practice involved executing every tenth man of a mutinous cohort as a punishment.",
+          "answer": "Decimate",
+          "source_id": "tapi:622a1c367cc59eab6f9503d7",
+          "fit_justification": "Source question references 'killing every tenth man in a mutinous Roman Cohort'; answer is 'Decimate', directly about Ancient Roman practice."
+        },
+        {
+          "value": 600,
+          "clue": "This Roman Emperor is notorious for appointing his horse to the Senate.",
+          "answer": "Caligula",
+          "source_id": "tapi:622a1c3c7cc59eab6f9517d2",
+          "fit_justification": "Source question asks 'Which Roman Emperor made his horse a senator'; answer is 'Caligula', directly about a Roman Emperor."
+        },
+        {
+          "value": 800,
+          "clue": "This Roman gladiator led an unsuccessful slave revolt against Rome in 73 BC.",
+          "answer": "Spartacus",
+          "source_id": "tapi:622a1c3c7cc59eab6f951aaa",
+          "fit_justification": "Source question asks 'Which Roman Gladiator Lead An Unsuccessful Revolt Against Rome'; answer is 'Spartacus', directly about an Ancient Roman figure."
+        },
+        {
+          "value": 1000,
+          "clue": "After his defeat at the Battle of Actium in 31 BC, this Roman general took his own life.",
+          "answer": "Marc Antony",
+          "source_id": "tapi:622a1c3c7cc59eab6f951a16",
+          "fit_justification": "Source question asks 'Which Roman killed himself after his defeat at Actium'; answer is 'Marc Antony', directly about an Ancient Roman historical figure."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "HISTORIC DECIPHERMENTS",
+      "topic": "HISTORY",
+      "clue": "Carved in 196 B.C. and discovered in 1799, this ancient stone tablet bearing the same text in three scripts allowed scholars to finally decode Egyptian hieroglyphics.",
+      "answer": "The Rosetta Stone",
+      "source_id": "tapi:646140774d46e537ca8cd9bc",
+      "fit_justification": "Source question describes 'the ancient stone tablet that was carved in 196 B.C., and helped scholars decipher Egyptian hieroglyphs'; answer is 'The Rosetta Stone', a substantive and well-known historical artifact appropriate for a final clue."
+    }
+  ]
+}

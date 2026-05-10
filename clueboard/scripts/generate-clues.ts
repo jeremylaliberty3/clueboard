@@ -68,6 +68,7 @@ type GeneratedClue = {
   clue: string;
   answer: string;
   source_id: string;
+  fit_justification: string;
 };
 
 type CategoryStyle = "knowledge" | "wordplay" | "themed";
@@ -88,6 +89,7 @@ type GeneratedFinal = {
   clue: string;
   answer: string;
   source_id: string;
+  fit_justification: string;
 };
 
 type GenerationBatch = {
@@ -104,40 +106,87 @@ type GenerationBatch = {
 // ============================================================
 const SYSTEM_PROMPT = `You are the writer's room for Clueboard, a daily trivia game in the style of classic American TV trivia shows.
 
-Your job is to take verified factual question/answer pairs and rewrite them as Jeopardy-style clues, organized into clever categories with appropriate difficulty progression.
+You take VERIFIED FACTUAL QUESTION/ANSWER PAIRS and organize them into Jeopardy-style categories. You do NOT invent facts. You do NOT rewrite answers. You ONLY pick clusters of facts that share an obvious, mechanically-verifiable theme.
 
 ═══════════════════════════════════════════════════════
-META-RULE: QUALITY OVER QUANTITY
+META-RULE: DISCOVER, DON'T INVENT
 ═══════════════════════════════════════════════════════
 
-The caller asks for N categories but DOES NOT WANT N IF THE THEMES DON'T FIT.
+This is the most important rule. Read it twice.
 
-The caller silently discards any category that has fewer than 5 clues. So if a theme can only support 3 strong clues, returning a 3-clue category throws away your whole effort. Don't pad — pick a different theme that you can genuinely fill 5 strong clues for.
+WRONG WORKFLOW: "I'll design a clever category like 'MOVIE QUOTES'. Now let me find 5 facts that I can frame as fitting."
 
-Returning fewer categories than requested is the CORRECT, EXPECTED behavior when source facts don't support more.
+CORRECT WORKFLOW: "Let me scan the facts. Do I see 5+ facts whose questions LITERALLY contain a movie quote and whose answers are film titles? If yes → category. If no → keep scanning for other clusters."
+
+You are NOT looking for facts that COULD be framed as fitting a theme. You are looking for facts that ALREADY mechanically demonstrate the theme in their literal text.
+
+If you can only find 3 strong fits for a theme you like, DROP that theme entirely. The caller would rather have 4 great categories than 7 mixed-quality ones. Returning fewer than requested is the correct, expected behavior.
 
 ═══════════════════════════════════════════════════════
-THE SIX INVIOLABLE RULES
+STRICT FIT — WHAT COUNTS AS MECHANICALLY VERIFIABLE
 ═══════════════════════════════════════════════════════
 
-RULE 1 — STAY ON THEME.
-Every clue in a category MUST satisfy the theme. THEMES MUST DECLARE THE ANSWER TYPE — bad: "Famous movie quotes." Good: "Famous movie quotes — answer is the FILM TITLE in which the line was spoken." If you can't write the theme as "[topic] — answer is [the X]", reject it.
+For every clue you include, you MUST be able to write a "fit_justification" string that points to SPECIFIC TEXT in the source fact that proves the fit. The justification quotes or names what you see in the source.
 
-RULE 2 — GROUNDING IS MECHANICAL.
-The clue's answer MUST match the source fact's answer in canonical form. Don't invent details, change spellings, or combine facts. If wanting to write something the fact doesn't support, pick a different fact.
+GOOD fit + good justification:
+  Theme: "Movie quotes — answer is the FILM that contains the quote"
+  Source: Q="Which film features the line 'You're gonna need a bigger boat'?" A="Jaws"
+  fit_justification: "Source question literally contains the quoted line 'You're gonna need a bigger boat'; source answer 'Jaws' is a film title."
+  ✓ Justification names specific source text.
 
-RULE 3 — ANSWER FORM.
-Every answer must be: a proper noun, a 1–4 word common noun phrase, a number/year, or a single-word verb/adjective for wordplay categories.
-NEVER: a sentence, "True"/"False", a list, or the literal word the clue is defining.
+BAD fit (REJECT, don't include):
+  Theme: "Movie quotes"
+  Source: Q="What 1975 Spielberg film features a great white shark?" A="Jaws"
+  fit_justification (would be): "This is about Jaws, a movie famous for the bigger-boat quote."
+  ✗ The source question doesn't contain any quote. You're filling in the theme from outside knowledge. REJECT.
 
-RULE 4 — CLUE FORM.
-Declarative statement (not a question). 1–2 sentences, ~60–200 chars. No media references ("shown above"). No show-specific trademarks ("Jeopardy!").
+GOOD fit examples:
+- Theme "Years — answer is a YEAR": source answer matches the pattern of a 4-digit year (e.g. "1989").
+- Theme "Answers starting with M": source answer's first letter is literally M.
+- Theme "5-letter answers": source answer is exactly 5 letters, no spaces.
+- Theme "Scientific names": source question contains "scientific name" or "Latin name" or "binomial".
+- Theme "Capitals — answer is the CAPITAL CITY": source question contains "capital" AND source answer is named as a capital.
+- Theme "Olympics — answer is the HOST CITY": source question contains "Olympics" or "Olympic Games", source answer is a city.
 
-RULE 5 — DIFFICULTY MONOTONICITY.
-$200 → $1000 increasing difficulty. $200 = pop-culture-common, $1000 = niche/specialized. Noticeable leap from $800 to $1000.
+BAD fits (always REJECT):
+- A theme that requires outside knowledge to verify ("answer is a Pulitzer winner" without the source mentioning Pulitzer).
+- A theme that's true of the topic but not stated in the source ("Famous physicists" picking facts about Einstein where Einstein is in the answer but the source question is about water).
+- Anything where you have to STRETCH the source to make it fit.
 
-RULE 6 — NO ANSWER LEAKAGE.
-The answer string must NOT appear (case-insensitive) inside the clue text. If it does, rewrite the clue or pick a different fact.
+If you find yourself wanting to write a fit_justification that says "this relates to..." or "this is adjacent to..." — that fact does not fit. Drop it.
+
+═══════════════════════════════════════════════════════
+WORDPLAY / STRUCTURAL THEMES ARE WELCOME
+═══════════════════════════════════════════════════════
+
+The strict-fit rule makes wordplay/structural categories VERY achievable, because the fit is mechanical:
+
+- "ANSWERS ENDING IN -TION" → check each answer's last 4 letters. If 5 facts have answers ending in -tion, you have a category.
+- "ALL ONE-WORD ANSWERS" → check each answer has no spaces.
+- "ANSWERS BEGINNING WITH B" → first letter check.
+- "YEAR ANSWERS" → answer is a 4-digit year.
+- "BEFORE & AFTER" — these need facts where two of three parts of the answer link. Harder to find naturally; only attempt if the pool has obvious fits.
+
+Mix these in. They satisfy strict-fit easily and add real Jeopardy flavor.
+
+═══════════════════════════════════════════════════════
+ADDITIONAL RULES
+═══════════════════════════════════════════════════════
+
+RULE A — ANSWER PRESERVATION.
+The clue's answer field MUST match the source fact's answer in canonical form. Allowed: drop leading "The/A/An", fix obvious capitalization, trim trailing punctuation. NOT allowed: change spelling, abbreviate, expand abbreviations, swap variants.
+
+RULE B — CLUE TEXT CAN BE REWRITTEN.
+You may rewrite the source fact's question as a Jeopardy-style declarative clue. 1–2 sentences, ~60–200 chars. NO media references ("shown above", "pictured"). NO trademark phrases ("Jeopardy!"). The answer must NOT appear (case-insensitive) inside the clue.
+
+RULE C — ANSWER FORM.
+Each answer must be: a proper noun, a 1–4 word common noun phrase, a number/year, or a single-word verb/adjective. NOT a sentence, "True"/"False", or a list.
+
+RULE D — DIFFICULTY MONOTONICITY.
+Within each category, $200 → $1000 ramps up in difficulty. $200 is pop-culture-common; $1000 is genuinely niche. Noticeable leap from $800 to $1000.
+
+RULE E — NO DUPLICATE FACTS WITHIN A CATEGORY.
+Each of the 5 clues in a category uses a distinct source_id.
 
 ═══════════════════════════════════════════════════════
 NEW: CATEGORY METADATA YOU MUST OUTPUT
@@ -166,28 +215,16 @@ Each category must declare these three fields in addition to title/theme/clues:
   - hard_leaning: $200 already requires some specific knowledge; $1000 is genuinely niche. For deep-domain categories.
 
 ═══════════════════════════════════════════════════════
-WORKED EXAMPLE
-═══════════════════════════════════════════════════════
-
-Theme: "World capitals on rivers — answer is the CAPITAL CITY"
-$200  This British capital, home of Big Ben, sits on the Thames.                        → London
-$400  France's capital, host of the 2024 Olympics, sits on the Seine.                   → Paris
-$600  Hungary's capital, an amalgam of two cities on the Danube, has thermal baths.     → Budapest
-$800  Iraq's capital, founded in 762 AD on the Tigris, was the heart of the Abbasid caliphate. → Baghdad
-$1000 Mali's capital, sitting on the Niger, shares its name with a hippopotamus.        → Bamako
-
-Metadata: topic=GEOGRAPHY, category_style=knowledge, difficulty_profile=balanced.
-
-═══════════════════════════════════════════════════════
 ANTI-PATTERNS — REJECT YOUR OWN OUTPUT IF
 ═══════════════════════════════════════════════════════
 
 ✗  A clue's answer is "True", "False", a sentence, or a list of items.
 ✗  A clue defines its own answer ("This term, 'diphthong', refers to...").
 ✗  A category's theme is "British monarchs" but the $1000 clue is about Mussolini.
-✗  You invent a word that isn't in the source fact (e.g. "Azuro" for Italian "blue").
 ✗  Two clues in the same category use the same source fact.
-✗  A category's declared topic doesn't actually match its content.
+✗  A category's declared topic doesn't match its content.
+✗  A fit_justification that says "this relates to" or "this is about" without naming specific source text.
+✗  A category whose theme can't be mechanically verified from the source facts alone.
 
 ═══════════════════════════════════════════════════════
 OUTPUT FORMAT
@@ -198,17 +235,27 @@ Return ONLY strict JSON, no markdown fences, no prose. The exact shape:
 {
   "categories": [
     {
-      "title": "POTENT POTABLES",
-      "theme": "Famous alcoholic drinks and their origins — answer is the SPIRIT or DRINK",
-      "topic": "FOOD_DRINK",
-      "category_style": "knowledge",
+      "title": "ANSWERS ENDING IN -ITION",
+      "theme": "Answers all end in the letters -ITION",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
       "difficulty_profile": "balanced",
       "clues": [
-        {"value": 200, "clue": "...", "answer": "...", "source_id": "otdb:abc123"},
-        {"value": 400, "clue": "...", "answer": "...", "source_id": "otdb:def456"},
-        {"value": 600, "clue": "...", "answer": "...", "source_id": "otdb:..."},
-        {"value": 800, "clue": "...", "answer": "...", "source_id": "otdb:..."},
-        {"value": 1000, "clue": "...", "answer": "...", "source_id": "otdb:..."}
+        {
+          "value": 200,
+          "clue": "...",
+          "answer": "Tradition",
+          "source_id": "tapi:abc",
+          "fit_justification": "Source answer 'Tradition' literally ends in -ITION."
+        },
+        {
+          "value": 400,
+          "clue": "...",
+          "answer": "Nutrition",
+          "source_id": "otdb:def",
+          "fit_justification": "Source answer 'Nutrition' literally ends in -ITION."
+        }
+        // ... etc
       ]
     }
   ],
@@ -216,14 +263,15 @@ Return ONLY strict JSON, no markdown fences, no prose. The exact shape:
     {
       "title": "FAMOUS SPEECHES",
       "topic": "HISTORY",
-      "clue": "In 1963, this American civil rights leader delivered a speech beginning 'I have a dream' from the Lincoln Memorial steps.",
+      "clue": "...",
       "answer": "Martin Luther King Jr.",
-      "source_id": "tapi:..."
+      "source_id": "tapi:...",
+      "fit_justification": "Source question literally references the 'I have a dream' speech and the Lincoln Memorial; answer is MLK."
     }
   ]
 }
 
-Categories with fewer than 5 clues will be discarded by the caller.`;
+Categories with fewer than 5 clues will be discarded by the caller. Returning 4 strong categories is better than 7 mixed-quality ones.`;
 
 const USER_PROMPT_TEMPLATE = (
   numCategories: number,
@@ -235,17 +283,22 @@ const USER_PROMPT_TEMPLATE = (
     `[${f.source_id}] (${f.difficulty}, ${f.category}) Q: ${f.question} | A: ${f.answer}`
   ).join("\n");
   const topicHeader = topicFilter
-    ? `\nALL categories must have topic="${topicFilter}". Design themes that genuinely fit this topic.\n`
-    : `\nVary the categories: don't make all from the same topic. Mix wordplay/themed with pure-knowledge categories.\n`;
-  return `Design ${numCategories} categories and ${numFinals} final clue${numFinals === 1 ? "" : "s"}.
-${topicHeader}
-Each category needs 5 clues spanning $200–$1000. Each final clue should be challenging — the kind of thing a player wagers on at the end of a board.
+    ? `Target topic: ${topicFilter}. Only output categories with topic="${topicFilter}".\n`
+    : `You may output categories of any topic. Mix knowledge with wordplay/themed.\n`;
+  return `Scan the source facts below and DISCOVER up to ${numCategories} categories that the facts genuinely support, plus up to ${numFinals} final clue${numFinals === 1 ? "" : "s"}.
 
-Available source facts (use ONLY these for grounding):
+${topicHeader}
+A category is only valid if you can find 5 source facts whose literal question or answer text demonstrates the theme. For every clue you include, write a fit_justification that names specific text from the source. If a justification reads as a stretch, drop that fact and either find a stronger fit or abandon the category.
+
+If the source pool doesn't support ${numCategories} valid categories, return fewer. The caller would rather have 3 great categories than 5 weak ones.
+
+Wordplay/structural categories are encouraged when the answer pool naturally supports them (e.g. multiple answers ending in the same suffix, multiple year answers, multiple single-word answers in the same letter-class).
+
+Available source facts:
 
 ${factLines}
 
-Return strict JSON now, including topic, category_style, and difficulty_profile fields per category.`;
+Return strict JSON now, with full metadata (topic, category_style, difficulty_profile) per category and fit_justification on every clue.`;
 };
 
 // ============================================================
@@ -333,8 +386,8 @@ async function main() {
   }
   const numCategories = parseInt(argMap.get("categories") ?? "10", 10);
   const numFinals = parseInt(argMap.get("finals") ?? "5", 10);
-  const factsPerCall = parseInt(argMap.get("facts") ?? "120", 10);
-  const categoriesPerCall = parseInt(argMap.get("per-call") ?? "5", 10);
+  const factsPerCall = parseInt(argMap.get("facts") ?? "200", 10);
+  const categoriesPerCall = parseInt(argMap.get("per-call") ?? "4", 10);
   const model = argMap.get("model") ?? "claude-sonnet-4-6";
   const topicArg = argMap.get("topic")?.toUpperCase() as Topic | undefined;
   if (topicArg && !TOPICS.includes(topicArg as Topic)) {
@@ -387,7 +440,7 @@ async function main() {
     const t0 = Date.now();
     const response = await client.messages.create({
       model,
-      max_tokens: 8192,
+      max_tokens: 12000,
       system: [{ type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } }],
       messages: [{ role: "user", content: userPrompt }],
     });
@@ -428,11 +481,57 @@ async function main() {
     const validStyle = (s: unknown): s is CategoryStyle => s === "knowledge" || s === "wordplay" || s === "themed";
     const validProfile = (p: unknown): p is DifficultyProfile => p === "easy_leaning" || p === "balanced" || p === "hard_leaning";
 
-    let droppedClues = 0, droppedCats = 0, droppedFinals = 0;
+    // fit_justification must be present and at least ~30 chars to indicate
+    // the model actually wrote something concrete rather than a stock phrase.
+    // Stock phrases like "this relates to" or "this is about" are red flags.
+    const STOCK_PHRASES = /\b(this relates to|this is about|adjacent to|connected to|associated with the theme)\b/i;
+    const validJustification = (j: string | undefined) => {
+      if (!j) return false;
+      const trimmed = j.trim();
+      if (trimmed.length < 30) return false;
+      if (STOCK_PHRASES.test(trimmed)) return false;
+      return true;
+    };
+
+    // Mechanical theme-fit verification for structural categories. We
+    // detect the category type from its title and check the answers
+    // demonstrate that structure literally.
+    const verifyStructuralFit = (title: string, theme: string, answer: string): boolean => {
+      const t = `${title} ${theme}`.toLowerCase();
+      const a = answer.trim();
+
+      // "Year answers" or "years"
+      if (/\byear(s)?\b/.test(t) && /answer/.test(t)) {
+        return /^\d{4}$/.test(a);
+      }
+      // "Ending in -X" or "ends in X"
+      const endsIn = t.match(/end(?:ing|s)?\s+(?:in|with)\s+["'`-]?([a-z]{1,6})["'`-]?/i);
+      if (endsIn) {
+        const suffix = endsIn[1].toLowerCase().replace(/[^a-z]/g, "");
+        return a.toLowerCase().replace(/[^a-z]/g, "").endsWith(suffix);
+      }
+      // "Starts with X" or "beginning with X"
+      const startsWith = t.match(/(?:start|begin)(?:ing|s)?\s+with\s+["'`-]?([a-z])["'`-]?/i);
+      if (startsWith) {
+        const letter = startsWith[1].toLowerCase();
+        return a.toLowerCase().startsWith(letter);
+      }
+      // "N-letter answers" or "N letter words"
+      const nLetters = t.match(/(\d+)[-\s]letter/);
+      if (nLetters) {
+        const n = parseInt(nLetters[1], 10);
+        return a.replace(/\s/g, "").length === n;
+      }
+      // "One-word" / "single-word"
+      if (/(one|single)[-\s]word/.test(t)) {
+        return !/\s/.test(a);
+      }
+      // Default: no structural rule detected.
+      return true;
+    };
+
+    let droppedClues = 0, droppedCats = 0, droppedFinals = 0, droppedJustif = 0, droppedStruct = 0;
     const cleanedCats = (parsed.categories ?? []).map((c) => {
-      // Default missing metadata to safe values rather than dropping the
-      // category outright. Topic mismatches relative to the requested topic
-      // are caught by the caller.
       if (!validTopic(c.topic)) c.topic = topic ?? "MISC";
       if (!validStyle(c.category_style)) c.category_style = "knowledge";
       if (!validProfile(c.difficulty_profile)) c.difficulty_profile = "balanced";
@@ -443,6 +542,8 @@ async function main() {
         if (!noLeak(cl.clue, cl.answer)) { droppedClues++; return false; }
         if (seenFacts.has(cl.source_id)) { droppedClues++; return false; }
         if (usedIds.has(cl.source_id)) { droppedClues++; return false; }
+        if (!validJustification(cl.fit_justification)) { droppedJustif++; return false; }
+        if (!verifyStructuralFit(c.title, c.theme, cl.answer)) { droppedStruct++; return false; }
         seenFacts.add(cl.source_id);
         return true;
       });
@@ -454,12 +555,19 @@ async function main() {
       if (!validateAnswer(f.answer)) { droppedFinals++; return false; }
       if (!noLeak(f.clue, f.answer)) { droppedFinals++; return false; }
       if (usedIds.has(f.source_id)) { droppedFinals++; return false; }
+      if (!validJustification(f.fit_justification)) { droppedFinals++; return false; }
       if (!validTopic(f.topic)) f.topic = topic ?? "MISC";
       return true;
     });
 
-    if (droppedClues || droppedCats || droppedFinals) {
-      console.log(`  filters: dropped ${droppedClues} clues, ${droppedCats} categories, ${droppedFinals} finals`);
+    if (droppedClues || droppedCats || droppedFinals || droppedJustif || droppedStruct) {
+      const parts: string[] = [];
+      if (droppedClues) parts.push(`${droppedClues} clues (basic)`);
+      if (droppedJustif) parts.push(`${droppedJustif} clues (weak fit_justification)`);
+      if (droppedStruct) parts.push(`${droppedStruct} clues (structural mismatch)`);
+      if (droppedCats) parts.push(`${droppedCats} categories (below 5 clues)`);
+      if (droppedFinals) parts.push(`${droppedFinals} finals`);
+      console.log(`  filters: dropped ${parts.join(", ")}`);
     }
 
     // Mark new source IDs as used so subsequent batches won't reuse them.

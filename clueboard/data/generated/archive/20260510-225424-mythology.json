@@ -1,0 +1,56 @@
+{
+  "batch_id": "20260510-225424-mythology",
+  "generated_at": "2026-05-10T22:54:24.961Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "MYTHOLOGY",
+  "categories": [
+    {
+      "title": "GODS & THEIR DOMAINS",
+      "theme": "Mythology and religion — answer is the GOD or DEITY being described",
+      "topic": "MYTHOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Norse mythology, this all-father god had the Valkyries as his handmaidens and ruled from Asgard.",
+          "answer": "Odin",
+          "source_id": "tapi:622a1c367cc59eab6f950207"
+        },
+        {
+          "value": 400,
+          "clue": "In Egyptian mythology, this god presided over the underworld and judged the souls of the dead.",
+          "answer": "Osiris",
+          "source_id": "tapi:622a1c3a7cc59eab6f9511da"
+        },
+        {
+          "value": 600,
+          "clue": "In the Bible, this firstborn son of Adam and Eve murdered his own brother out of jealousy.",
+          "answer": "Cain",
+          "source_id": "tapi:649b45ba828109028d236238"
+        },
+        {
+          "value": 800,
+          "clue": "The biblical name meaning 'who prevails with God' was given to Jacob after he wrestled with an angel, and became the name of a nation.",
+          "answer": "Israel",
+          "source_id": "tapi:645a6490158db1bd1779f198"
+        },
+        {
+          "value": 1000,
+          "clue": "The Rongorongo script, still undeciphered, was found on this remote Polynesian island whose indigenous culture features giant stone figures called moai.",
+          "answer": "Easter Island",
+          "source_id": "tapi:64730798cf09068746f6377d"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "MYTHOLOGICAL UNDERWORLDS",
+      "topic": "MYTHOLOGY",
+      "clue": "In this classic Tchaikovsky ballet, a prince falls in love with an enchanted princess cursed by the sorcerer Rothbart — and the two lovers choose death together at the end rather than live apart, breaking the spell.",
+      "answer": "Swan Lake",
+      "source_id": "tapi:645bb13cf09106226db23592"
+    }
+  ]
+}

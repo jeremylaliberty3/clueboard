@@ -1,0 +1,102 @@
+{
+  "batch_id": "20260510-225506-animals_nature",
+  "generated_at": "2026-05-10T22:55:06.429Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "ANIMALS_NATURE",
+  "categories": [
+    {
+      "title": "ANIMAL ANATOMY",
+      "theme": "Facts about the physical characteristics or body parts of animals — answer is the ANIMAL, BODY PART, or MATERIAL described",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is what a baby bat is called, a term it shares with young dogs and seals.",
+          "answer": "Pup",
+          "source_id": "otdb:1ds0w71"
+        },
+        {
+          "value": 400,
+          "clue": "Human nails and rhino horns are both made of this tough structural protein.",
+          "answer": "Keratin",
+          "source_id": "otdb:1cyjqly"
+        },
+        {
+          "value": 600,
+          "clue": "Snakes and lizards flick their tongues primarily to perform this function.",
+          "answer": "Capture scent particles",
+          "source_id": "otdb:129hmh5"
+        },
+        {
+          "value": 800,
+          "clue": "An adult rabbit carries this many teeth — more than you might expect from a small herbivore.",
+          "answer": "28",
+          "source_id": "otdb:1eqrzs1"
+        },
+        {
+          "value": 1000,
+          "clue": "Unlike most other salamanders, this specific feature on a newt is distinctly flat rather than rounded.",
+          "answer": "Tail",
+          "source_id": "otdb:1ruwbl3"
+        }
+      ]
+    },
+    {
+      "title": "WHAT'S MY NAME?",
+      "theme": "Scientific names, classifications, or Latin terms for animals — answer is the ANIMAL or its SCIENTIFIC DESIGNATION",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "'Hippocampus' is the Latin genus name for this small, upright-swimming marine creature.",
+          "answer": "Seahorse",
+          "source_id": "otdb:1yl0gna"
+        },
+        {
+          "value": 400,
+          "clue": "This speedy spotted cat, the fastest land animal, carries the scientific name Acinonyx jubatus.",
+          "answer": "Cheetah",
+          "source_id": "otdb:9wyh5y"
+        },
+        {
+          "value": 600,
+          "clue": "The family Hyaenidae belongs to this scientific suborder, placing hyenas closer to cats than dogs.",
+          "answer": "Feliformia",
+          "source_id": "otdb:157sk4r"
+        },
+        {
+          "value": 800,
+          "clue": "The aardwolf, despite its name, belongs to this family — the same as spotted and striped hyenas.",
+          "answer": "Hyaenidae",
+          "source_id": "otdb:xcoggt"
+        },
+        {
+          "value": 1000,
+          "clue": "The Western Lowland Gorilla holds the unusual distinction of having the same word repeated three times in its full scientific trinomial name.",
+          "answer": "Gorilla Gorilla Gorilla",
+          "source_id": "otdb:1ss2mge"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "DEEP SEA DWELLERS",
+      "topic": "ANIMALS_NATURE",
+      "clue": "Named for the Greek word for 'bottomless,' this zone of the ocean — deeper than 4,000 meters — is the permanent home of abyssopelagic creatures.",
+      "answer": "At the bottom of the ocean",
+      "source_id": "otdb:4kbhb2"
+    },
+    {
+      "title": "HUNGRY OTTERS",
+      "topic": "ANIMALS_NATURE",
+      "clue": "To maintain their high metabolism in cold Pacific waters, sea otters must consume this remarkable fraction of their own body weight in food every single day.",
+      "answer": "25%",
+      "source_id": "otdb:1nnmlea"
+    }
+  ]
+}

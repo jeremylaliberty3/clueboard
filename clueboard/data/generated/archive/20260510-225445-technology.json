@@ -1,0 +1,102 @@
+{
+  "batch_id": "20260510-225445-technology",
+  "generated_at": "2026-05-10T22:54:45.643Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "TECHNOLOGY",
+  "categories": [
+    {
+      "title": "WHAT'S IN A NAME?",
+      "theme": "Tech companies, products, and protocols known by one name but originally called something else — answer is the ORIGINAL or BETTER-KNOWN NAME",
+      "topic": "TECHNOLOGY",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Steve Jobs, Steve Wozniak, and Ronald Wayne founded this company on April 1st, 1976.",
+          "answer": "Apple",
+          "source_id": "otdb:1xb3nm"
+        },
+        {
+          "value": 400,
+          "clue": "This internet giant began life under the working name 'Cadabra' before pivoting from books to everything.",
+          "answer": "Amazon",
+          "source_id": "otdb:1giv22x"
+        },
+        {
+          "value": 600,
+          "clue": "Microsoft's beloved Windows XP was developed under this single-word codename, borrowed from a ski resort town in British Columbia.",
+          "answer": "Whistler",
+          "source_id": "otdb:1scu2sf"
+        },
+        {
+          "value": 800,
+          "clue": "The Tor anonymity network's name is an acronym — these three words are what it originally stood for.",
+          "answer": "The Onion Router",
+          "source_id": "otdb:nvygf6"
+        },
+        {
+          "value": 1000,
+          "clue": "Before it became the dominant dial-up service of the 1990s, America Online ran under this earlier brand name.",
+          "answer": "Quantum Link",
+          "source_id": "otdb:1tgha0r"
+        }
+      ]
+    },
+    {
+      "title": "BITS & BYTES",
+      "theme": "Fundamental concepts in computer data, memory, and binary representation — answer is the TERM, NUMBER, or UNIT",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is how many bits make up a single nibble — half of a byte.",
+          "answer": "4",
+          "source_id": "otdb:ts72ts"
+        },
+        {
+          "value": 400,
+          "clue": "A single byte can represent exactly this many distinct values, from 0 to 255.",
+          "answer": "256",
+          "source_id": "otdb:rafhl1"
+        },
+        {
+          "value": 600,
+          "clue": "Unlike the marketing kilobyte of 1000 bytes, the International System of Quantities uses this precise term for exactly 1024 bytes.",
+          "answer": "Kibibyte",
+          "source_id": "otdb:5x5zoq"
+        },
+        {
+          "value": 800,
+          "clue": "A single-precision floating-point number reserves exactly this many bits for its significand portion.",
+          "answer": "23",
+          "source_id": "otdb:1555zop"
+        },
+        {
+          "value": 1000,
+          "clue": "On a 32-bit signed integer system, arithmetic cannot go higher than this maximum positive value — roughly 2.1 billion.",
+          "answer": "2,147,483,647",
+          "source_id": "otdb:1tgu91m"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "SECURITY VULNERABILITIES",
+      "topic": "TECHNOLOGY",
+      "clue": "Discovered in April 2014, this critical flaw in the OpenSSL cryptography library allowed attackers to read protected memory from servers, exposing passwords and private keys worldwide.",
+      "answer": "Heartbleed",
+      "source_id": "otdb:1as09kc"
+    },
+    {
+      "title": "NETWORKING PIONEERS",
+      "topic": "TECHNOLOGY",
+      "clue": "Often called the 'Mother of the Internet,' this engineer invented the Spanning Tree Protocol, which prevents network loops in Ethernet bridging.",
+      "answer": "Radia Perlman",
+      "source_id": "otdb:30ws90"
+    }
+  ]
+}

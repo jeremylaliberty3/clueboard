@@ -15,7 +15,13 @@ import { fileURLToPath } from "node:url";
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
 const GEN_DIR = join(SCRIPT_DIR, "..", "data", "generated");
 
-type Clue = { value: number | null; clue: string; answer: string; source_id: string };
+type Clue = {
+  value: number | null;
+  clue: string;
+  answer: string;
+  source_id: string;
+  fit_justification?: string;
+};
 type Category = {
   title: string;
   theme: string;
@@ -24,7 +30,14 @@ type Category = {
   difficulty_profile?: string;
   clues: Clue[];
 };
-type Final = { title: string; topic?: string; clue: string; answer: string; source_id: string };
+type Final = {
+  title: string;
+  topic?: string;
+  clue: string;
+  answer: string;
+  source_id: string;
+  fit_justification?: string;
+};
 type Batch = {
   batch_id: string;
   topic_filter?: string | null;
@@ -141,6 +154,24 @@ async function main() {
   if (missingMeta === 0) console.log(C.green("    ✓ All categories have full metadata"));
   else console.log(C.yellow(`    ⚠ ${missingMeta} categories missing metadata`));
 
+  // Fit justification quality
+  let missingJustif = 0;
+  let weakJustif = 0;
+  const STOCK = /\b(this relates to|this is about|adjacent to|connected to|associated with the theme)\b/i;
+  for (const c of categories) {
+    for (const cl of c.clues) {
+      const j = cl.fit_justification?.trim() ?? "";
+      if (!j) missingJustif++;
+      else if (j.length < 30 || STOCK.test(j)) weakJustif++;
+    }
+  }
+  if (missingJustif === 0 && weakJustif === 0) {
+    console.log(C.green("    ✓ All clues have specific fit_justification"));
+  } else {
+    if (missingJustif > 0) console.log(C.red(`    ✗ ${missingJustif} clues missing fit_justification`));
+    if (weakJustif > 0) console.log(C.yellow(`    ⚠ ${weakJustif} clues have weak/stock fit_justification`));
+  }
+
   // Variety-rule pre-check
   const topicCount = Object.keys(byTopic).length;
   if (topicCount >= 6) console.log(C.green(`    ✓ ${topicCount} distinct topics — rule 1 (one-per-topic) satisfiable`));
@@ -172,6 +203,9 @@ async function main() {
         const mark = safe ? " " : C.red("!");
         console.log(`  ${mark}${pad(v, 6)} ${cl.clue}`);
         console.log(`            ${C.dim("→ " + cl.answer)}  ${C.dim("[" + cl.source_id + "]")}`);
+        if (cl.fit_justification) {
+          console.log(`            ${C.dim("fit: " + cl.fit_justification)}`);
+        }
       }
     }
     console.log();

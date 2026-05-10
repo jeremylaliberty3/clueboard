@@ -1,0 +1,56 @@
+{
+  "batch_id": "20260510-225530-misc",
+  "generated_at": "2026-05-10T22:55:30.484Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "MISC",
+  "categories": [
+    {
+      "title": "SLOGANS & SYMBOLS",
+      "theme": "Brand slogans, marketing phrases, and cultural symbols — answer is the BRAND, COMPANY, or CULTURAL TERM",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "\"Have it your way\" is the famous marketing slogan of this fast-food chain known for the Whopper.",
+          "answer": "Burger King",
+          "source_id": "tapi:626288354b176d54800e3d90"
+        },
+        {
+          "value": 400,
+          "clue": "\"The Best a Man Can Get\" is the long-running tagline of this razor and grooming brand.",
+          "answer": "Gillette",
+          "source_id": "tapi:62628849014f58b5fc1a3fd4"
+        },
+        {
+          "value": 600,
+          "clue": "This Swedish automaker, whose name means 'I roll' in Latin, was founded in 1927 and is associated with safety.",
+          "answer": "Volvo",
+          "source_id": "otdb:1rjgkz"
+        },
+        {
+          "value": 800,
+          "clue": "This pagan Celtic festival of the dead, celebrated at the end of October, is the ancient origin of Halloween.",
+          "answer": "Samhain",
+          "source_id": "tapi:622a1c377cc59eab6f950444"
+        },
+        {
+          "value": 1000,
+          "clue": "Mexico's national tree, towering over the country's ancient sites, bears this name honoring an Aztec emperor.",
+          "answer": "Montezuma Cypress",
+          "source_id": "tapi:63b058884799123c67712f54"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "PRESIDENTIAL RECORDS",
+      "topic": "MISC",
+      "clue": "He is the only U.S. president to have been elected to the nation's highest office four times, serving from 1933 until his death in office in 1945.",
+      "answer": "Franklin Roosevelt",
+      "source_id": "tapi:622a1c3d7cc59eab6f951bc8"
+    }
+  ]
+}

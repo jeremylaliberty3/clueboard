@@ -1,0 +1,56 @@
+{
+  "batch_id": "20260510-225412-wordplay",
+  "generated_at": "2026-05-10T22:54:12.354Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "WORDPLAY",
+  "categories": [
+    {
+      "title": "HIDDEN ANIMALS",
+      "theme": "Each clue describes a person, place, or thing whose name conceals a hidden animal within it — answer is the ANIMAL hidden inside the name",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The famous Mexican dish made with a folded tortilla hides this barnyard animal inside its name.",
+          "answer": "Cow",
+          "source_id": "tapi:63b058784799123c67712f38"
+        },
+        {
+          "value": 400,
+          "clue": "India's national animal lurks inside the name of this sport associated with athlete Jesse Owens.",
+          "answer": "Tiger",
+          "source_id": "otdb:1xbnagf"
+        },
+        {
+          "value": 600,
+          "clue": "The science of Coleopterology hides this six-legged insect right inside the word itself.",
+          "answer": "Beetle",
+          "source_id": "tapi:622a1c377cc59eab6f950576"
+        },
+        {
+          "value": 800,
+          "clue": "A male duck is known by a name that hides a mythical fire-breathing reptile within its four letters.",
+          "answer": "Drake",
+          "source_id": "tapi:624333bbcfaae40c129613fe"
+        },
+        {
+          "value": 1000,
+          "clue": "The capital of Kiribati conceals this large seabird associated with tropical islands within its seven letters.",
+          "answer": "Ibis",
+          "source_id": "tapi:622a1c357cc59eab6f94fe29"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "WORD WITHIN A WORD",
+      "topic": "WORDPLAY",
+      "clue": "This 3-letter word can precede 'cord,' 'current,' 'off,' and 'saw' to form compound words — and it is also entirely contained within the name of the hockey team based in Buffalo, New York.",
+      "answer": "Rip",
+      "source_id": "tapi:6461403f4d46e537ca8cd9ad"
+    }
+  ]
+}
