@@ -1,0 +1,106 @@
+{
+  "batch_id": "20260510-230842-geography",
+  "generated_at": "2026-05-10T23:08:42.286Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "GEOGRAPHY",
+  "categories": [
+    {
+      "title": "COUNTRY CODE TOP-LEVEL DOMAINS",
+      "theme": "Each clue asks which region/country uses a specific internet country code (e.g. '.in', '.sa'); answers are the corresponding country or region",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This South Asian nation, home to over a billion people, claims the internet country code '.in'.",
+          "answer": "India",
+          "source_id": "tapi:6237353fcfe13103f55eb512",
+          "fit_justification": "Source question literally reads 'Which region of the world uses .in at the end of its web addresses?' and source answer is 'India'."
+        },
+        {
+          "value": 400,
+          "clue": "The two-letter code '.sa' belongs to this kingdom on the Arabian Peninsula.",
+          "answer": "Saudi Arabia",
+          "source_id": "tapi:623735c9cfe13103f55eb56b",
+          "fit_justification": "Source question literally reads 'Which region of the world uses .sa at the end of its web addresses?' and source answer is 'Saudi Arabia'."
+        },
+        {
+          "value": 600,
+          "clue": "The code '.pa' is assigned to this Central American nation, famous for its canal.",
+          "answer": "Panama",
+          "source_id": "tapi:623735aacfe13103f55eb556",
+          "fit_justification": "Source question literally reads 'Which region of the world uses .pa at the end of its web addresses?' and source answer is 'Panama'."
+        },
+        {
+          "value": 800,
+          "clue": "Websites ending in '.ma' belong to this North African kingdom.",
+          "answer": "Morocco",
+          "source_id": "tapi:6237358bcfe13103f55eb541",
+          "fit_justification": "Source question literally reads 'Which region of the world uses .ma at the end of its web addresses?' and source answer is 'Morocco'."
+        },
+        {
+          "value": 1000,
+          "clue": "The internet suffix '.ss' was assigned to this East African nation, the world's newest country as of 2011.",
+          "answer": "South Sudan",
+          "source_id": "tapi:623735ddcfe13103f55eb578",
+          "fit_justification": "Source question literally reads 'Which region of the world uses .ss at the end of its web addresses?' and source answer is 'South Sudan'."
+        }
+      ]
+    },
+    {
+      "title": "WORLD CAPITALS",
+      "theme": "Each answer is the capital city of a named country",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city on the banks of the Tiber River serves as the capital of Italy.",
+          "answer": "Rome",
+          "source_id": "tapi:623740ddcb85f7ce9e949d2a",
+          "fit_justification": "Source question asks 'What is the capital city of Italy?' and source answer is 'Rome', a capital city."
+        },
+        {
+          "value": 400,
+          "clue": "This Indonesian capital, home to over 10 million people, sits on the northwest coast of Java.",
+          "answer": "Jakarta",
+          "source_id": "tapi:623740c4cb85f7ce9e949d20",
+          "fit_justification": "Source question asks 'What is the capital city of Indonesia?' and source answer is 'Jakarta', a capital city."
+        },
+        {
+          "value": 600,
+          "clue": "This South American capital city shares its name with a famous Uruguayan football club.",
+          "answer": "Montevideo",
+          "source_id": "tapi:623742dbcb85f7ce9e949df8",
+          "fit_justification": "Source question asks 'What is the capital city of Uruguay?' and source answer is 'Montevideo', a capital city."
+        },
+        {
+          "value": 800,
+          "clue": "Located on the White Nile, this city is the capital of Africa's third-largest country by area.",
+          "answer": "Khartoum",
+          "source_id": "tapi:6237426ecb85f7ce9e949dcc",
+          "fit_justification": "Source question asks 'What is the capital city of Sudan?' and source answer is 'Khartoum', a capital city."
+        },
+        {
+          "value": 1000,
+          "clue": "This tiny capital is the seat of government of a West African island nation whose largest island is São Tiago.",
+          "answer": "Praia",
+          "source_id": "tapi:62373fdacb85f7ce9e949cc2",
+          "fit_justification": "Source question asks 'What is the capital city of Cabo Verde?' and source answer is 'Praia', a capital city."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "FAMOUS WATERWAYS",
+      "topic": "GEOGRAPHY",
+      "clue": "This 50-mile waterway stretches from Limon Bay on the Caribbean Sea to the Bridge of the Americas on the Pacific Ocean, connecting two great oceans.",
+      "answer": "The Panama Canal",
+      "source_id": "tapi:649b4f4f828109028d236250",
+      "fit_justification": "Source question literally reads 'What is the name of the 50-mile waterway that stretches from Limon Bay on the Caribbean to the Bridge of the Americas on the Pacific Ocean?' and source answer is 'The Panama Canal'."
+    }
+  ]
+}

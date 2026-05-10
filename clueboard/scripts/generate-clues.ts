@@ -230,6 +230,8 @@ ANTI-PATTERNS — REJECT YOUR OWN OUTPUT IF
 OUTPUT FORMAT
 ═══════════════════════════════════════════════════════
 
+CRITICAL: Output STRICT JSON ONLY. Do not write any reasoning, scratch work, "let me scan...", "checking patterns...", or other prose. The first character of your response must be { and the last must be }. If you need to think, do it silently before composing the JSON.
+
 Return ONLY strict JSON, no markdown fences, no prose. The exact shape:
 
 {
@@ -352,6 +354,125 @@ function pickFacts(
   return shuffle([...easy.slice(0, each), ...med.slice(0, each), ...hard.slice(0, n - 2 * each)]);
 }
 
+// ============================================================
+// Wordplay pre-clustering
+// ============================================================
+// For WORDPLAY topic generation, instead of asking Claude to scan a
+// random pool for patterns, we mechanically pre-cluster facts by
+// structural property and hand it ready-made groups to choose from.
+// This is what makes wordplay categories reliably feasible.
+
+type WordplayCluster = {
+  label: string;       // human-readable cluster name, e.g. "Answers ending in -ITION"
+  rule: string;        // mechanical rule, e.g. "answer.toLowerCase().endsWith('ition')"
+  facts: SourceFact[]; // facts that match
+};
+
+function buildWordplayClusters(usable: SourceFact[]): WordplayCluster[] {
+  const out: WordplayCluster[] = [];
+  const cleanAnswer = (a: string) => a.trim().replace(/^(the|a|an)\s+/i, "");
+
+  // Year answers
+  out.push({
+    label: "Year answers (4-digit year)",
+    rule: "answer is a 4-digit year",
+    facts: usable.filter((f) => /^\d{4}$/.test(cleanAnswer(f.answer))),
+  });
+
+  // Single-letter / single-digit answers
+  out.push({
+    label: "Single-character answers",
+    rule: "answer is exactly one character",
+    facts: usable.filter((f) => cleanAnswer(f.answer).length === 1),
+  });
+
+  // N-letter single-word answers, for N = 3..7
+  for (let n = 3; n <= 7; n++) {
+    out.push({
+      label: `${n}-letter single-word answers`,
+      rule: `answer is a single word exactly ${n} letters long`,
+      facts: usable.filter((f) => {
+        const a = cleanAnswer(f.answer);
+        return /^[A-Za-z]+$/.test(a) && a.length === n;
+      }),
+    });
+  }
+
+  // Suffix clusters
+  const suffixes = ["tion", "ology", "ism", "ing", "ous", "ery", "ette", "land", "stan"];
+  for (const suf of suffixes) {
+    out.push({
+      label: `Answers ending in -${suf.toUpperCase()}`,
+      rule: `answer ends in the letters '${suf}' (case-insensitive)`,
+      facts: usable.filter((f) => cleanAnswer(f.answer).toLowerCase().endsWith(suf)),
+    });
+  }
+
+  // Initial-letter clusters: keep ones with enough fits
+  for (const ch of "ABCDEFGHIJKLMNOPQRSTUVWXYZ") {
+    out.push({
+      label: `Answers starting with '${ch}'`,
+      rule: `first letter of answer is '${ch}' (case-insensitive)`,
+      facts: usable.filter((f) =>
+        cleanAnswer(f.answer).toUpperCase().startsWith(ch),
+      ),
+    });
+  }
+
+  // All-caps abbreviation answers (e.g. "DNA", "NATO")
+  out.push({
+    label: "All-caps abbreviation answers",
+    rule: "answer is 2-5 uppercase letters with no spaces",
+    facts: usable.filter((f) => /^[A-Z]{2,5}$/.test(cleanAnswer(f.answer))),
+  });
+
+  // Numeric answers (not necessarily years)
+  out.push({
+    label: "Number answers",
+    rule: "answer is a number (digits only, with optional decimal)",
+    facts: usable.filter((f) => /^\d+(\.\d+)?$/.test(cleanAnswer(f.answer))),
+  });
+
+  // Keep only clusters with at least 8 fits (need 5 for a category + buffer
+  // for Claude to pick the best 5).
+  return out.filter((c) => c.facts.length >= 8);
+}
+
+function pickWordplayFacts(
+  all: SourceFact[],
+  excludeIds: Set<string>,
+  numClusters: number,
+  perCluster: number,
+): { facts: SourceFact[]; clusterHints: string } {
+  const usable = all.filter(isUsableFact).filter((f) => !excludeIds.has(f.source_id));
+  const clusters = shuffle(buildWordplayClusters(usable));
+  const chosen = clusters.slice(0, numClusters);
+
+  if (chosen.length === 0) {
+    return { facts: [], clusterHints: "" };
+  }
+
+  // For each cluster, include up to perCluster facts in the prompt.
+  const facts: SourceFact[] = [];
+  const lines: string[] = [];
+  for (const cluster of chosen) {
+    const sample = shuffle(cluster.facts).slice(0, perCluster);
+    facts.push(...sample);
+    lines.push(
+      `  Cluster "${cluster.label}" (${cluster.rule}):\n` +
+      sample.map((f) => `    [${f.source_id}] A: ${f.answer}`).join("\n"),
+    );
+  }
+  const clusterHints =
+    "WORDPLAY MODE: The fact pool has been pre-clustered by structural property. " +
+    "Pick the strongest cluster (one with the cleanest, most varied 5 answers) and " +
+    "build ONE category from it. The category's theme must be exactly the cluster's rule. " +
+    "Verify each clue's answer literally matches the rule.\n\n" +
+    "Available clusters (showing the answer pattern; full questions are in the main fact list below):\n" +
+    lines.join("\n\n");
+  return { facts, clusterHints };
+}
+
 function parseStrictJSON(s: string): unknown {
   const stripped = s.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
   return JSON.parse(stripped);
@@ -429,12 +550,29 @@ async function main() {
     );
     if (cThisCall === 0 && fThisCall === 0) break;
 
-    const facts = pickFacts(sources, factsPerCall, usedIds, topic);
-    if (facts.length < 25) {
-      console.warn(`  source pool exhausted for topic=${topic ?? "any"} (${facts.length} candidates). Stopping.`);
-      break;
+    let facts: SourceFact[];
+    let clusterHints = "";
+    if (topic === "WORDPLAY") {
+      // Wordplay generation uses mechanical pre-clustering instead of a
+      // random pool. Claude picks the best cluster and writes 5 strong
+      // clues from it.
+      const result = pickWordplayFacts(sources, usedIds, /* clusters */ 5, /* per */ 25);
+      facts = result.facts;
+      clusterHints = result.clusterHints;
+      if (facts.length < 25) {
+        console.warn(`  no wordplay clusters with enough fits. Stopping.`);
+        break;
+      }
+    } else {
+      facts = pickFacts(sources, factsPerCall, usedIds, topic);
+      if (facts.length < 25) {
+        console.warn(`  source pool exhausted for topic=${topic ?? "any"} (${facts.length} candidates). Stopping.`);
+        break;
+      }
     }
-    const userPrompt = USER_PROMPT_TEMPLATE(cThisCall, fThisCall, facts, topic);
+    const userPrompt = clusterHints
+      ? `${clusterHints}\n\n${USER_PROMPT_TEMPLATE(cThisCall, fThisCall, facts, topic)}`
+      : USER_PROMPT_TEMPLATE(cThisCall, fThisCall, facts, topic);
 
     console.log(`\n[call ${callIdx}] requesting ${cThisCall} categories + ${fThisCall} finals…`);
     const t0 = Date.now();
