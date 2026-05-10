@@ -8,6 +8,21 @@ import { createServerClient } from "@supabase/ssr";
  * sessions when the access token expires.
  */
 export async function proxy(request: NextRequest) {
+  // Recover from a Supabase redirect-allow-list misconfig: if an OAuth
+  // `code` lands anywhere other than /auth/callback, rewrite the request
+  // there so the handler can exchange it. Without this, a misconfigured
+  // Site URL silently lands the user on `/` with the code stranded in
+  // the query string and no session cookies set.
+  const pathname = request.nextUrl.pathname;
+  const code = request.nextUrl.searchParams.get("code");
+  if (code && pathname !== "/auth/callback" && !pathname.startsWith("/auth/")) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/auth/callback";
+    url.searchParams.set("code", code);
+    if (!url.searchParams.has("next")) url.searchParams.set("next", "/play");
+    return NextResponse.redirect(url);
+  }
+
   let response = NextResponse.next({ request });
 
   const supabase = createServerClient(
