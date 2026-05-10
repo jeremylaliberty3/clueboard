@@ -40,8 +40,10 @@ export default function Landing() {
           <a className="underline hover:text-white" href="https://the-trivia-api.com" target="_blank" rel="noreferrer">The Trivia API</a>{" "}
           (CC BY 4.0). Clueboard is not affiliated with Sony Pictures Television or Jeopardy Productions, Inc.
         </p>
-        <p className="mt-3">
+        <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 justify-center">
           <Link href="/about" className="hover:text-white">About</Link>
+          <Link href="/privacy" className="hover:text-white">Privacy</Link>
+          <Link href="/terms" className="hover:text-white">Terms</Link>
         </p>
       </footer>
     </main>

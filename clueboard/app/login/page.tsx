@@ -42,6 +42,12 @@ export default async function LoginPage({
         <p className="text-xs text-white/40 mt-10 max-w-xs">
           Until our OAuth app is verified, Google may show a &ldquo;hasn&rsquo;t verified this app&rdquo; warning. Click <em>Continue</em> to proceed.
         </p>
+        <p className="text-xs text-white/40 mt-6">
+          By signing in you agree to our{" "}
+          <Link href="/terms" className="underline hover:text-white">Terms</Link>{" "}
+          and{" "}
+          <Link href="/privacy" className="underline hover:text-white">Privacy Policy</Link>.
+        </p>
       </section>
     </main>
   );
