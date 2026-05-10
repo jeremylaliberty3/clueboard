@@ -1,4 +1,7 @@
 import Link from "next/link";
+import AuthButton from "@/components/AuthButton";
+
+export const dynamic = "force-dynamic";
 
 export default function AboutPage() {
   return (
@@ -7,9 +10,12 @@ export default function AboutPage() {
         <Link href="/" className="font-serif text-xl font-black text-gold-bright">
           Clueboard
         </Link>
-        <Link href="/play" className="text-sm text-white/70 hover:text-white">
-          Play today &rarr;
-        </Link>
+        <div className="flex items-center gap-4">
+          <Link href="/play" className="text-sm text-white/70 hover:text-white">
+            Play today &rarr;
+          </Link>
+          <AuthButton next="/play" />
+        </div>
       </header>
       <article className="flex-1 px-4 sm:px-6 py-10 max-w-2xl mx-auto w-full prose prose-invert">
         <h1 className="font-serif text-4xl font-black text-gold-bright mb-4">

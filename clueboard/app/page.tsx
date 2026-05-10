@@ -1,4 +1,7 @@
 import Link from "next/link";
+import AuthButton from "@/components/AuthButton";
+
+export const dynamic = "force-dynamic";
 
 export default function Landing() {
   return (
@@ -7,8 +10,9 @@ export default function Landing() {
         <div className="font-serif text-2xl font-black text-gold-bright tracking-tight">
           Clueboard
         </div>
-        <nav className="text-sm text-white/70">
+        <nav className="flex items-center gap-4 text-sm text-white/70">
           <Link href="/about" className="hover:text-white">About</Link>
+          <AuthButton next="/play" />
         </nav>
       </header>
 
