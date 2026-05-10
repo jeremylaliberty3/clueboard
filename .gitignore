@@ -43,3 +43,6 @@ next-env.d.ts
 # Source-fact bank (regenerable via `npm run fetch-sources`); track only
 # the curated outputs in clueboard/data/generated/ instead.
 clueboard/data/sources.json
+
+# Browser dev-tools HAR exports occasionally pasted in for debugging
+*.har
