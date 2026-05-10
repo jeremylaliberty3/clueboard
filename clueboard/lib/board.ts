@@ -1,5 +1,5 @@
 import "server-only";
-import { SINGLE_CLUES, FINAL_CLUES, clueById } from "./clues";
+import { getSupabase } from "./supabase";
 import type { Clue, ClueForClient, DailyBoard } from "./types";
 
 // Mulberry32 PRNG — deterministic for a given seed.
@@ -37,7 +37,6 @@ export function todayDateString(): string {
 }
 
 function seedFromDate(date: string): number {
-  // "2026-05-09" -> 20260509
   return parseInt(date.replaceAll("-", ""), 10);
 }
 
@@ -52,13 +51,49 @@ function stripAnswer(c: Clue): ClueForClient {
   };
 }
 
-export function getDailyBoard(date: string = todayDateString()): DailyBoard {
+// Cache the full clue pool for the lifetime of the server process.
+// 140 rows is trivially small and never changes mid-run.
+let _allCluesCache: { single: Clue[]; final: Clue[] } | null = null;
+
+async function loadAllClues(): Promise<{ single: Clue[]; final: Clue[] }> {
+  if (_allCluesCache) return _allCluesCache;
+  const supabase = getSupabase();
+  const { data, error } = await supabase
+    .from("clues")
+    .select("id, category, category_tag, clue, answer, value, round");
+  if (error) throw new Error(`Supabase error loading clues: ${error.message}`);
+  if (!data) throw new Error("No clue data returned from Supabase.");
+
+  const all: Clue[] = data.map((row) => ({
+    id: row.id,
+    category: row.category,
+    categoryTag: row.category_tag ?? "",
+    clue: row.clue,
+    answer: row.answer,
+    value: row.value,
+    round: row.round as "single" | "final",
+  }));
+  _allCluesCache = {
+    single: all.filter((c) => c.round === "single"),
+    final: all.filter((c) => c.round === "final"),
+  };
+  return _allCluesCache;
+}
+
+// Cache rendered boards by date so repeat requests don't redo the seeded shuffle.
+const _boardCache = new Map<string, DailyBoard>();
+
+export async function getDailyBoard(date: string = todayDateString()): Promise<DailyBoard> {
+  const cached = _boardCache.get(date);
+  if (cached) return cached;
+
+  const { single, final } = await loadAllClues();
   const seed = seedFromDate(date);
   const rng = mulberry32(seed);
 
   // Group eligible single-round clues by category, only keep categories with all 5 standard values.
   const byCat: Record<string, Clue[]> = {};
-  for (const cl of SINGLE_CLUES) {
+  for (const cl of single) {
     (byCat[cl.category] ||= []).push(cl);
   }
   const eligibleCategories = Object.keys(byCat).filter((cat) => {
@@ -69,7 +104,7 @@ export function getDailyBoard(date: string = todayDateString()): DailyBoard {
   const chosenCategories = shuffle(eligibleCategories, rng).slice(0, 6);
   if (chosenCategories.length < 6) {
     throw new Error(
-      `Not enough eligible categories (need 6, have ${chosenCategories.length}). Add more clues in lib/clues.ts.`,
+      `Not enough eligible categories in Supabase (need 6, have ${chosenCategories.length}).`,
     );
   }
 
@@ -84,26 +119,30 @@ export function getDailyBoard(date: string = todayDateString()): DailyBoard {
     cellsByCategory[cat] = picked;
   }
 
-  const finalIdx = Math.floor(rng() * FINAL_CLUES.length);
-  const finalClue = stripAnswer(FINAL_CLUES[finalIdx]);
+  if (final.length === 0) throw new Error("No final-round clues in Supabase.");
+  const finalIdx = Math.floor(rng() * final.length);
+  const finalClue = stripAnswer(final[finalIdx]);
 
-  return {
+  const board: DailyBoard = {
     date,
     categories: chosenCategories,
     cellsByCategory,
     finalClue,
   };
+  _boardCache.set(date, board);
+  return board;
 }
 
-export function isClueOnBoard(clueId: number, date: string): boolean {
-  const board = getDailyBoard(date);
+export async function isClueOnBoard(clueId: number, date: string): Promise<boolean> {
+  const board = await getDailyBoard(date);
   for (const cat of board.categories) {
     if (board.cellsByCategory[cat].some((c) => c.id === clueId)) return true;
   }
   return board.finalClue.id === clueId;
 }
 
-export function getClueWithAnswer(clueId: number, date: string): Clue | undefined {
-  if (!isClueOnBoard(clueId, date)) return undefined;
-  return clueById(clueId);
+export async function getClueWithAnswer(clueId: number, date: string): Promise<Clue | undefined> {
+  if (!(await isClueOnBoard(clueId, date))) return undefined;
+  const { single, final } = await loadAllClues();
+  return [...single, ...final].find((c) => c.id === clueId);
 }

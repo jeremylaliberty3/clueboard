@@ -30,16 +30,11 @@ export default function Landing() {
 
       <footer className="px-6 py-8 text-xs text-white/50 text-center max-w-3xl mx-auto">
         <p>
-          Clues sourced from real Jeopardy! episodes via the public{" "}
-          <a
-            className="underline hover:text-white"
-            href="https://github.com/jwolle1/jeopardy_clue_dataset"
-            target="_blank"
-            rel="noreferrer"
-          >
-            jwolle1 dataset
-          </a>
-          . Clueboard is not affiliated with, endorsed by, or sponsored by Sony Pictures Television or Jeopardy Productions, Inc.
+          Clues written by Claude AI, grounded in facts from{" "}
+          <a className="underline hover:text-white" href="https://opentdb.com" target="_blank" rel="noreferrer">Open Trivia DB</a>{" "}
+          (CC BY-SA 4.0) and{" "}
+          <a className="underline hover:text-white" href="https://the-trivia-api.com" target="_blank" rel="noreferrer">The Trivia API</a>{" "}
+          (CC BY 4.0). Clueboard is not affiliated with Sony Pictures Television or Jeopardy Productions, Inc.
         </p>
         <p className="mt-3">
           <Link href="/about" className="hover:text-white">About</Link>

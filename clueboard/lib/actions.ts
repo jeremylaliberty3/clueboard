@@ -12,7 +12,7 @@ export async function submitAnswerAction(
   if (date !== todayDateString()) {
     return { ok: false as const, error: "Board is no longer current." };
   }
-  const clue = getClueWithAnswer(clueId, date);
+  const clue = await getClueWithAnswer(clueId, date);
   if (!clue) return { ok: false as const, error: "Clue not on today's board." };
   if (clue.round !== "single") return { ok: false as const, error: "Use submitFinalAnswer for the Final Clue." };
   const verdict = judgeAnswer(userAnswer, clue.answer);
@@ -33,7 +33,7 @@ export async function submitFinalAnswerAction(
   if (date !== todayDateString()) {
     return { ok: false as const, error: "Board is no longer current." };
   }
-  const clue = getClueWithAnswer(clueId, date);
+  const clue = await getClueWithAnswer(clueId, date);
   if (!clue || clue.round !== "final") {
     return { ok: false as const, error: "Final clue not found." };
   }
@@ -50,7 +50,7 @@ export async function skipClueAction(date: string, clueId: number) {
   if (date !== todayDateString()) {
     return { ok: false as const, error: "Board is no longer current." };
   }
-  const clue = getClueWithAnswer(clueId, date);
+  const clue = await getClueWithAnswer(clueId, date);
   if (!clue || clue.round !== "single") {
     return { ok: false as const, error: "Clue not on today's board." };
   }
@@ -62,5 +62,5 @@ export async function skipClueAction(date: string, clueId: number) {
 }
 
 export async function getTodayBoardAction(): Promise<{ board: DailyBoard }> {
-  return { board: getDailyBoard() };
+  return { board: await getDailyBoard() };
 }

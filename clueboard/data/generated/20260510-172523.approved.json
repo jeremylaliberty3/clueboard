@@ -1,0 +1,1065 @@
+{
+  "batch_id": "20260510-172523",
+  "generated_at": "2026-05-10T17:25:23.212Z",
+  "model": "claude-sonnet-4-6",
+  "approved_at": "2026-05-10T17:58:17.645Z",
+  "categories": [
+    {
+      "title": "SOUNDS LIKE HISTORY",
+      "theme": "World history events and figures — answer is the person, place, or year being described",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Britain and France declared war on Germany in 1939 after Hitler's forces invaded this country.",
+          "answer": "Poland",
+          "source_id": "otdb:enplfl"
+        },
+        {
+          "value": 400,
+          "clue": "This nuclear power plant, located in Soviet Ukraine, suffered a catastrophic meltdown in 1986.",
+          "answer": "Chernobyl",
+          "source_id": "otdb:8q357r"
+        },
+        {
+          "value": 600,
+          "clue": "During World War II, this Alpine nation famously remained neutral while its neighbors were engulfed in conflict.",
+          "answer": "Switzerland",
+          "source_id": "otdb:1l9wa8d"
+        },
+        {
+          "value": 800,
+          "clue": "Bolivia lost its coastal territory — and all access to the Pacific Ocean — after being defeated by this neighboring country in the War of the Pacific.",
+          "answer": "Chile",
+          "source_id": "otdb:1oja25q"
+        },
+        {
+          "value": 1000,
+          "clue": "This lawyer and religious fanatic shot President James A. Garfield at a Washington train station in 1881, believing he was owed a diplomatic post.",
+          "answer": "Charles Guiteau",
+          "source_id": "otdb:1xd5mly"
+        }
+      ]
+    },
+    {
+      "title": "WRITTEN WORDS",
+      "theme": "Authors and their famous literary works — answer is the author's name",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The boy wizard Harry Potter and his nemesis Lord Voldemort first appeared in a beloved series by this British author.",
+          "answer": "J.K. Rowling",
+          "source_id": "tapi:622a1c3a7cc59eab6f95139f"
+        },
+        {
+          "value": 400,
+          "clue": "This French novelist, who also wrote 'Les Misérables,' authored the gothic tale set around a deformed bell-ringer in a famous Parisian cathedral.",
+          "answer": "Victor Hugo",
+          "source_id": "tapi:622a1c397cc59eab6f950efe"
+        },
+        {
+          "value": 600,
+          "clue": "White Fang, a novel about a wild wolf-dog in the Yukon, was penned by this American adventure writer.",
+          "answer": "Jack London",
+          "source_id": "tapi:622a1c397cc59eab6f950eec"
+        },
+        {
+          "value": 800,
+          "clue": "The 1817 novel 'Persuasion,' a story of second chances in love among the English gentry, was the final completed work of this author of 'Pride and Prejudice.'",
+          "answer": "Jane Austen",
+          "source_id": "tapi:622a1c397cc59eab6f950e31"
+        },
+        {
+          "value": 1000,
+          "clue": "The 1839 novel 'The Charterhouse of Parma,' a sweeping tale of Italian intrigue and passion, was written by this French author who used a single-word pen name.",
+          "answer": "Stendhal",
+          "source_id": "tapi:622a1c397cc59eab6f950e0f"
+        }
+      ]
+    },
+    {
+      "title": "FACE THE MUSIC",
+      "theme": "Rock, pop, and classical music facts — answer is the artist, band, song, or composition being described",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This iconic anthem begins with the lyrics 'Is this the real life? Is this just fantasy?' and was released by the British rock band Queen.",
+          "answer": "Bohemian Rhapsody",
+          "source_id": "tapi:622a1c347cc59eab6f94fb91"
+        },
+        {
+          "value": 400,
+          "clue": "The youngest of the four iconic Liverpool lads, he was born in 1943 and played lead guitar.",
+          "answer": "George Harrison",
+          "source_id": "otdb:10dl8at"
+        },
+        {
+          "value": 600,
+          "clue": "Ludwig van Beethoven's Piano Sonata No. 14 in C-sharp minor is popularly known by this celestial two-word title.",
+          "answer": "Moonlight Sonata",
+          "source_id": "tapi:65056e097a97013de78b5253"
+        },
+        {
+          "value": 800,
+          "clue": "This Grateful Dead co-founder and guitarist became one of rock's most celebrated improvisational musicians before his death in 1995.",
+          "answer": "Jerry Garcia",
+          "source_id": "tapi:622a1c387cc59eab6f950b0f"
+        },
+        {
+          "value": 1000,
+          "clue": "The Bangles' 1986 hit 'Manic Monday' was secretly penned by this Minneapolis musical genius under the pseudonym Christopher.",
+          "answer": "Prince",
+          "source_id": "tapi:622a1c357cc59eab6f94fd89"
+        }
+      ]
+    },
+    {
+      "title": "WORLD ON THE MAP",
+      "theme": "Geography of countries, cities, and landmarks — answer is the place name being described",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This island nation's capital city is Kingston, and it is famous for reggae music and world-class sprinters.",
+          "answer": "Jamaica",
+          "source_id": "otdb:92eqh1"
+        },
+        {
+          "value": 400,
+          "clue": "Until 1989, this Southeast Asian country was known by a different name — the one British colonizers used.",
+          "answer": "Burma",
+          "source_id": "tapi:622a1c357cc59eab6f94fe47"
+        },
+        {
+          "value": 600,
+          "clue": "The sun-drenched Mediterranean coastline of southern France is popularly known by this English name.",
+          "answer": "The Riviera",
+          "source_id": "tapi:64cf43067f0714b9a0ca5e76"
+        },
+        {
+          "value": 800,
+          "clue": "This city serves as the capital of Cameroon, a country in west-central Africa.",
+          "answer": "Yaounde",
+          "source_id": "tapi:62373fe4cb85f7ce9e949cc6"
+        },
+        {
+          "value": 1000,
+          "clue": "This South American country is home to the Pantanal, the world's largest tropical wetland, spanning an area larger than many European nations.",
+          "answer": "Brazil",
+          "source_id": "tapi:64f4e5cbd361046b195e5801"
+        }
+      ]
+    },
+    {
+      "title": "HIT THE RIGHT NOTE",
+      "theme": "Music history and artists — answer is a SONG TITLE, BAND NAME, or ARTIST NAME",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This English rock band, formed in Liverpool, released both 'I Want to Hold Your Hand' and 'Get Back.'",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d2b"
+        },
+        {
+          "value": 400,
+          "clue": "Whitney Houston had a massive 1992 hit with this power ballad, originally written and recorded by Dolly Parton.",
+          "answer": "I Will Always Love You",
+          "source_id": "tapi:645c9f8f42ea81e2554c5f57"
+        },
+        {
+          "value": 600,
+          "clue": "ABBA won the 1974 Eurovision Song Contest with this song, the name of which is also a famous Napoleonic battle.",
+          "answer": "Waterloo",
+          "source_id": "tapi:622a1c357cc59eab6f94fe4b"
+        },
+        {
+          "value": 800,
+          "clue": "This debut 1983 studio album by a Bay Area thrash metal band opened with 'Hit the Lights' and included 'Seek & Destroy.'",
+          "answer": "Kill 'Em All",
+          "source_id": "tapi:622a1c397cc59eab6f950c8f"
+        },
+        {
+          "value": 1000,
+          "clue": "Jiles Perry Richardson, a DJ and singer who died in the 1959 plane crash also known as 'The Day the Music Died,' was more commonly known by this colorful stage name.",
+          "answer": "The Big Bopper",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b71"
+        }
+      ]
+    },
+    {
+      "title": "BODY OF KNOWLEDGE",
+      "theme": "Human health and biology — answer is the medical or scientific term",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The (+) or (–) marker appended to your blood type, such as O-positive, takes its name from this primate whose blood was used in its discovery.",
+          "answer": "Rhesus Monkeys",
+          "source_id": "otdb:ytrzv8"
+        },
+        {
+          "value": 400,
+          "clue": "Doctors use this two-letter abbreviation to name an infectious lung disease caused by Mycobacterium tuberculosis.",
+          "answer": "TB",
+          "source_id": "tapi:645fcc91541c4d4fc8cf30b1"
+        },
+        {
+          "value": 600,
+          "clue": "When a diabetic's blood sugar dips dangerously low, a physician would record this condition on their chart.",
+          "answer": "Hypoglycemia",
+          "source_id": "otdb:1p2ajgi"
+        },
+        {
+          "value": 800,
+          "clue": "Skeletal muscle is built from bundles of long, thin structures called these, whose name derives from the Greek for 'muscle thread'.",
+          "answer": "Myofibrils",
+          "source_id": "otdb:1q27tth"
+        },
+        {
+          "value": 1000,
+          "clue": "Saturn's moon shares a name with this scientific concept: the branch of biology concerned with synthesizing or studying life-forms that are not of terrestrial origin.",
+          "answer": "Xenobiology",
+          "source_id": "tapi:622a1c377cc59eab6f95078b"
+        }
+      ]
+    },
+    {
+      "title": "WRITTEN IN HISTORY",
+      "theme": "Famous authors and the works they wrote — answer is the author's name",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author opened his great American novel with the immortal line 'Call me Ishmael,' plunging readers into an obsessive hunt for a white whale.",
+          "answer": "Herman Melville",
+          "source_id": "otdb:177tvd1"
+        },
+        {
+          "value": 400,
+          "clue": "The story of a young girl named Dorothy Gale, swept away to a magical land, originated in a book by this American author before it became a beloved film.",
+          "answer": "L. Frank Baum",
+          "source_id": "tapi:622a1c347cc59eab6f94f916"
+        },
+        {
+          "value": 600,
+          "clue": "The tale of a vain emperor fooled by two swindlers into wearing invisible clothes was written by this Danish fairy-tale master.",
+          "answer": "Hans Christian Andersen",
+          "source_id": "tapi:622a1c397cc59eab6f950f23"
+        },
+        {
+          "value": 800,
+          "clue": "This Japanese author's novel 'Norwegian Wood' takes its title from a Beatles song and follows a college student mourning a lost friend in 1960s Tokyo.",
+          "answer": "Haruki Murakami",
+          "source_id": "tapi:622a1c397cc59eab6f950ec8"
+        },
+        {
+          "value": 1000,
+          "clue": "The beloved Chinese wuxia novel 'The Return of the Condor Heroes' was penned under a pen name by this author, whose real name was Louis Cha.",
+          "answer": "Jin Yong",
+          "source_id": "tapi:622a1c397cc59eab6f950e48"
+        }
+      ]
+    },
+    {
+      "title": "MYTHOLOGY & LEGEND",
+      "theme": "Characters and creatures from mythology and folklore — answer is the name of the character or creature",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "According to folklore, this supernatural creature only leaves its grave and prowls when the moon is completely full.",
+          "answer": "Werewolf",
+          "source_id": "tapi:622a1c3c7cc59eab6f95187b"
+        },
+        {
+          "value": 400,
+          "clue": "In the fairy tale 'Goldilocks and the Three Bears', the young intruder samples three bowls of this food before finding one that's just right.",
+          "answer": "Porridge",
+          "source_id": "tapi:69a561ae03d8987f10a83b14"
+        },
+        {
+          "value": 600,
+          "clue": "This mythological enchantress, daughter of the sun god Helios, famously transformed the crew of Odysseus into pigs on her island of Aeaea.",
+          "answer": "Circe",
+          "source_id": "tapi:646140b54d46e537ca8cda06"
+        },
+        {
+          "value": 800,
+          "clue": "In Greek mythology, the god Zeus took the form of this animal in order to seduce the Phoenician princess Europa.",
+          "answer": "Bull",
+          "source_id": "tapi:622a1c367cc59eab6f95012f"
+        },
+        {
+          "value": 1000,
+          "clue": "This old Scottish word, meaning to chase girls around haystacks after dark, sounds more pastoral than scandalous.",
+          "answer": "Sprunt",
+          "source_id": "tapi:622a1c357cc59eab6f94fc5c"
+        }
+      ]
+    },
+    {
+      "title": "SOUNDS LIKE SCIENCE",
+      "theme": "Science and nature facts — answers are scientific terms or concepts",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Often called the 'powerhouse' of the eukaryotic animal cell, this organelle generates most of the cell's supply of ATP.",
+          "answer": "Mitochondria",
+          "source_id": "otdb:h15d9r"
+        },
+        {
+          "value": 400,
+          "clue": "Fingernails and toenails are both composed of this tough fibrous protein, also found in hair and animal horns.",
+          "answer": "Keratin",
+          "source_id": "otdb:1cyjqly"
+        },
+        {
+          "value": 600,
+          "clue": "This psychological effect describes the tendency of unskilled individuals to overestimate their own competence due to their inability to recognize their own limitations.",
+          "answer": "Dunning-Kruger effect",
+          "source_id": "otdb:1saj6ho"
+        },
+        {
+          "value": 800,
+          "clue": "More formally known as dihydrogen monoxide, this compound makes up roughly 60% of the adult human body.",
+          "answer": "Water",
+          "source_id": "tapi:622a1c3e7cc59eab6f95227e"
+        },
+        {
+          "value": 1000,
+          "clue": "C6H12O6 is the molecular formula for this simple sugar that serves as the primary energy source for living cells.",
+          "answer": "Glucose",
+          "source_id": "otdb:1dezzd5"
+        }
+      ]
+    },
+    {
+      "title": "LIGHTS, CAMERA, ACTION!",
+      "theme": "Classic and iconic films — answers are film titles",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In this beloved musical, an aspiring nun is sent to be governess to the seven children of a widowed Austrian naval officer.",
+          "answer": "The Sound of Music",
+          "source_id": "tapi:625741049da29df7b05f7408"
+        },
+        {
+          "value": 400,
+          "clue": "Tom Hanks names a volleyball companion 'Wilson' in this survival drama about a FedEx employee stranded on a deserted island.",
+          "answer": "Cast Away",
+          "source_id": "otdb:18pfnx0"
+        },
+        {
+          "value": 600,
+          "clue": "This 1962 epic follows a British officer who unites Arab tribal forces against the Ottoman Empire during World War I.",
+          "answer": "Lawrence of Arabia",
+          "source_id": "tapi:62573ff59da29df7b05f73b9"
+        },
+        {
+          "value": 800,
+          "clue": "Al Pacino's character shouts 'Attica! Attica!' at police in this 1975 Sidney Lumet crime drama based on a true New York bank robbery.",
+          "answer": "Dog Day Afternoon",
+          "source_id": "tapi:622a1c347cc59eab6f94f8f5"
+        },
+        {
+          "value": 1000,
+          "clue": "Peter Lorre plays a tormented serial killer being hunted by both police and the criminal underworld in this 1931 Fritz Lang masterpiece.",
+          "answer": "M",
+          "source_id": "tapi:622a1c347cc59eab6f94f8f5"
+        }
+      ]
+    },
+    {
+      "title": "CAPITAL GAINS",
+      "theme": "World capital cities — answer is the NAME OF THE CAPITAL CITY",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city of nearly 30 million people serves as the capital of the world's most populous democracy, India.",
+          "answer": "New Delhi",
+          "source_id": "tapi:623740bfcb85f7ce9e949d1e"
+        },
+        {
+          "value": 400,
+          "clue": "Sitting on the Mediterranean coast, this city is both the largest urban center and the seat of government of Algeria.",
+          "answer": "Algiers",
+          "source_id": "tapi:622a1c357cc59eab6f94fff8"
+        },
+        {
+          "value": 600,
+          "clue": "Named for a Portuguese explorer's ship, this Atlantic-facing capital is the largest city in Angola.",
+          "answer": "Luanda",
+          "source_id": "tapi:62373f63cb85f7ce9e949c94"
+        },
+        {
+          "value": 800,
+          "clue": "This Scandinavian nation is one of the rare countries whose capital city begins with the same letter as the country itself — 'S' in both cases.",
+          "answer": "Stockholm",
+          "source_id": "tapi:64746b6f5a4c31088dd9d058"
+        },
+        {
+          "value": 1000,
+          "clue": "With a population under 400, this remote capital of the Pacific island nation of Palau is the least-populous national capital on Earth.",
+          "answer": "Ngerulmud",
+          "source_id": "tapi:623741d4cb85f7ce9e949d8e"
+        }
+      ]
+    },
+    {
+      "title": "MUSIC TO MY EARS",
+      "theme": "Pop and rock music acts and their hits — answer is the BAND OR ARTIST NAME",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Benny Andersson and Björn Ulvaeus were two of the four members of this iconic Swedish pop group.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950d92"
+        },
+        {
+          "value": 400,
+          "clue": "This American duo scored a soft-pop hit with the lines 'Why do birds suddenly appear, every time you are near?' in 'Close to You'.",
+          "answer": "The Carpenters",
+          "source_id": "tapi:647c9856f89e0968cfbc1a3a"
+        },
+        {
+          "value": 600,
+          "clue": "This New York new-wave group, fronted by Debbie Harry, recorded the landmark 1978 album 'Parallel Lines'.",
+          "answer": "Blondie",
+          "source_id": "otdb:1k0twh"
+        },
+        {
+          "value": 800,
+          "clue": "This Brooklyn indie-electro duo is known for the psychedelic anthems 'Kids', 'Electric Feel', and 'Time to Pretend'.",
+          "answer": "MGMT",
+          "source_id": "otdb:yhw3hs"
+        },
+        {
+          "value": 1000,
+          "clue": "Annie Lennox formed one half of this British synth-pop duo, whose name evokes a pair of therapeutic devices.",
+          "answer": "Eurythmics",
+          "source_id": "tapi:622a1c3d7cc59eab6f951c44"
+        }
+      ]
+    },
+    {
+      "title": "FOOD FOR THOUGHT",
+      "theme": "Food, drink, and culinary facts — answer is a FOOD ITEM, DRINK, OR CULINARY TERM",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This clear spirit distilled from potatoes or grains has its origins in Poland and Russia.",
+          "answer": "Vodka",
+          "source_id": "otdb:1n3utof"
+        },
+        {
+          "value": 400,
+          "clue": "Cultivated for thousands of years, this sweet fruit beloved in Mediterranean cooking traces its origins to the Middle East.",
+          "answer": "Figs",
+          "source_id": "tapi:624ab0ad348a461bfc67068e"
+        },
+        {
+          "value": 600,
+          "clue": "A Nebuchadnezzar, the largest standard champagne bottle size, holds the equivalent of twenty of these.",
+          "answer": "Standard bottles",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515a8"
+        },
+        {
+          "value": 800,
+          "clue": "Newberg sauce — made with cream, cognac, and egg yolks — is most classically served over this crustacean.",
+          "answer": "Lobster",
+          "source_id": "tapi:647f9d363a4302a719271573"
+        },
+        {
+          "value": 1000,
+          "clue": "Ring-shaped and small enough to float in a broth, the Italian pasta called anelli belongs to this broad culinary category.",
+          "answer": "Soup pasta",
+          "source_id": "tapi:625006480d86c8f685d80edf"
+        }
+      ]
+    },
+    {
+      "title": "PAGES OF HISTORY",
+      "theme": "Historical events and facts — answer is a PERSON, PLACE, COUNTRY, or TERM",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "On August 21, 1959, this island chain in the Pacific Ocean was admitted as the 50th state of the United States.",
+          "answer": "Hawaii",
+          "source_id": "tapi:622a1c367cc59eab6f9503f5"
+        },
+        {
+          "value": 400,
+          "clue": "The physical demolition of this divided city's famous Cold War barrier began in 1990.",
+          "answer": "Berlin Wall",
+          "source_id": "tapi:62611f7b4b176d54800e3d5c"
+        },
+        {
+          "value": 600,
+          "clue": "A 1971 war between India and Pakistan over the eastern province led to the birth of this new sovereign nation.",
+          "answer": "Bangladesh",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515a8"
+        },
+        {
+          "value": 800,
+          "clue": "The stock market collapse that triggered the Great Depression struck on October 24, 1929, a day remembered by this ominous name.",
+          "answer": "Black Thursday",
+          "source_id": "tapi:63a039c3c7d86251f9b65cb0"
+        },
+        {
+          "value": 1000,
+          "clue": "Often cited as the world's oldest continuously inhabited walled city, this ancient settlement in the Jordan Valley has been occupied for over 10,000 years.",
+          "answer": "Jericho",
+          "source_id": "tapi:622a1c367cc59eab6f9503a1"
+        }
+      ]
+    },
+    {
+      "title": "OSCAR GOLD",
+      "theme": "Academy Award winners — answers are the names of people or films that won an Oscar",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This master of suspense directed 'Topaz' in 1969, though he is far better remembered for 'Psycho' and 'The Birds.'",
+          "answer": "Hitchcock",
+          "source_id": "tapi:64e6fd9b0b79e5bedd55c8bd"
+        },
+        {
+          "value": 400,
+          "clue": "This 1978 Vietnam War epic starring Robert De Niro and Meryl Streep won the Academy Award for Best Picture.",
+          "answer": "The Deer Hunter",
+          "source_id": "tapi:622a1c347cc59eab6f94fb4e"
+        },
+        {
+          "value": 600,
+          "clue": "She took home the Best Leading Actress Oscar in 1998 for portraying a fictional lover of Shakespeare in a romantic comedy.",
+          "answer": "Gwyneth Paltrow",
+          "source_id": "tapi:622a1c347cc59eab6f94fb04"
+        },
+        {
+          "value": 800,
+          "clue": "This actor won Best Supporting Actor at the 2016 Academy Awards for his portrayal of a drug dealer named Juan in 'Moonlight.'",
+          "answer": "Mahershala Ali",
+          "source_id": "tapi:622a1c347cc59eab6f94fa63"
+        },
+        {
+          "value": 1000,
+          "clue": "The musical stage show featuring 'It's the Hard-Knock Life' and 'Little Girls' — originally a Broadway production — is named for this red-headed orphan.",
+          "answer": "Annie",
+          "source_id": "tapi:6498aef29acaa77d9ad7c507"
+        }
+      ]
+    },
+    {
+      "title": "BEAT THE CLOCK",
+      "theme": "Numbers and dates in history, science, and pop culture — answers are specific numbers or years",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "World War I broke out in this year, triggering a cascade of alliances across Europe.",
+          "answer": "1914",
+          "source_id": "otdb:1g7h24v"
+        },
+        {
+          "value": 400,
+          "clue": "When Twitter first launched, users were limited to this many characters per post.",
+          "answer": "140",
+          "source_id": "otdb:1hbetp"
+        },
+        {
+          "value": 600,
+          "clue": "Tommy Wiseau self-financed his cult film 'The Room' at an astonishing cost of approximately this many millions of dollars.",
+          "answer": "$6 Million",
+          "source_id": "otdb:6xmf3r"
+        },
+        {
+          "value": 800,
+          "clue": "The popular card game Hearthstone, developed by Blizzard Entertainment, was officially released to the public in this year.",
+          "answer": "2014",
+          "source_id": "otdb:10imfje"
+        },
+        {
+          "value": 1000,
+          "clue": "In Dungeons & Dragons Fifth Edition, this is the highest level a character can achieve within a single class.",
+          "answer": "20",
+          "source_id": "otdb:18o052c"
+        }
+      ]
+    },
+    {
+      "title": "PHILOSOPHICALLY SPEAKING",
+      "theme": "Famous thinkers and their ideas — answers are names or works associated with philosophers",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ancient Greek philosophers like Plato and Aristotle famously taught their students in this type of building.",
+          "answer": "Gymnasium",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b51"
+        },
+        {
+          "value": 400,
+          "clue": "This Roman Stoic philosopher is credited with saying 'Even while they teach, men learn.'",
+          "answer": "Seneca the Younger",
+          "source_id": "tapi:622a1c357cc59eab6f94fd29"
+        },
+        {
+          "value": 600,
+          "clue": "The sweeping French reference work 'Encyclopédie,' a landmark of the Enlightenment, was written by this philosopher and satirist.",
+          "answer": "Voltaire",
+          "source_id": "tapi:622a1c397cc59eab6f950e8e"
+        },
+        {
+          "value": 800,
+          "clue": "This 19th-century German philosopher declared 'God is dead! He remains dead! And we have killed him.' in his provocative writings.",
+          "answer": "Friedrich Nietzsche",
+          "source_id": "tapi:622a1c357cc59eab6f94fd30"
+        },
+        {
+          "value": 1000,
+          "clue": "This Latin phrase, attributed to the Enlightenment ideal of free press, translates to 'Freedom will flood all things with light.'",
+          "answer": "Libertas perfundet omnia luce",
+          "source_id": "tapi:637162601bf863c45ca6c371"
+        }
+      ]
+    },
+    {
+      "title": "STRINGS & SKINS",
+      "theme": "Musical knowledge — answers are names, terms, or facts about music and musicians",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A bongo belongs to this broad family of musical instruments, which are played by striking.",
+          "answer": "Percussion",
+          "source_id": "tapi:6266bb34ff7b6ee0496ec784"
+        },
+        {
+          "value": 400,
+          "clue": "This iconic pop star, famous for his moonwalk and sequined glove, released the electrifying track 'Beat It.'",
+          "answer": "Michael Jackson",
+          "source_id": "tapi:622a1c357cc59eab6f94ff35"
+        },
+        {
+          "value": 600,
+          "clue": "A musical composition written for exactly nine instruments goes by this name.",
+          "answer": "Nonet",
+          "source_id": "tapi:649601ffe831b1ab5aa1112c"
+        },
+        {
+          "value": 800,
+          "clue": "Nancy Sinatra, daughter of Ol' Blue Eyes, performed the haunting theme song to this James Bond film.",
+          "answer": "You Only Live Twice",
+          "source_id": "tapi:624dba30de6018633d31f6b9"
+        },
+        {
+          "value": 1000,
+          "clue": "The avant-garde ballets 'Petrushka' and 'The Rite of Spring' were composed by this Russian-born musical innovator.",
+          "answer": "Stravinsky",
+          "source_id": "tapi:622a1c357cc59eab6f94fd68"
+        }
+      ]
+    },
+    {
+      "title": "BODY OF KNOWLEDGE II",
+      "theme": "Human anatomy and medical terms — answer is the anatomical or medical term",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Doctors wear this listening device around their necks to hear your heartbeat.",
+          "answer": "Stethoscope",
+          "source_id": "tapi:622a1c3e7cc59eab6f952312"
+        },
+        {
+          "value": 400,
+          "clue": "The 'M' in this medical imaging acronym stands for this word, referring to the force that aligns hydrogen atoms in the body.",
+          "answer": "Magnetic",
+          "source_id": "tapi:6505703d7a97013de78b5563"
+        },
+        {
+          "value": 600,
+          "clue": "This small, disc-shaped bone sits at the front of the human knee joint.",
+          "answer": "Patella",
+          "source_id": "otdb:a29kdp"
+        },
+        {
+          "value": 800,
+          "clue": "Despite its grand-sounding Latin name, this muscle — the body's largest — is simply located in your posterior.",
+          "answer": "Gluteus Maximus",
+          "source_id": "otdb:5hfzxx"
+        },
+        {
+          "value": 1000,
+          "clue": "This element, number 72 on the periodic table, was named after the Danish capital city where it was discovered in 1923.",
+          "answer": "Hafnium",
+          "source_id": "otdb:12phe59"
+        }
+      ]
+    },
+    {
+      "title": "NAME THAT TUNE",
+      "theme": "Pop music facts — answer is a song title, artist name, or band name",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Swedish quartet, famous for 'Dancing Queen', released the disco hit 'Gimme! Gimme! Gimme! (A Man After Midnight)'.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950c2c"
+        },
+        {
+          "value": 400,
+          "clue": "The theme song of a beloved 90s sitcom about a Fresh Prince begins: 'Now this is the story all about how / My life got flipped, turned upside down...'",
+          "answer": "Yo Home to Bel-Air",
+          "source_id": "tapi:622a1c347cc59eab6f94fbb1"
+        },
+        {
+          "value": 600,
+          "clue": "Though Sinéad O'Connor made it famous, this pop legend originally wrote 'Nothing Compares 2 U' for his side project The Family.",
+          "answer": "Prince",
+          "source_id": "otdb:13z1a7a"
+        },
+        {
+          "value": 800,
+          "clue": "This New Zealand singer, known professionally by a single-word stage name, curated the official soundtrack for 'The Hunger Games: Mockingjay - Part 1'.",
+          "answer": "Lorde",
+          "source_id": "otdb:ygou9f"
+        },
+        {
+          "value": 1000,
+          "clue": "Critics have called this American band's sole album both the worst record ever made and a work of unintentional brilliance; they were three sisters from New Hampshire.",
+          "answer": "The Shaggs",
+          "source_id": "tapi:639612d5e55fa75b149597bd"
+        }
+      ]
+    },
+    {
+      "title": "SOUNDS LIKE HISTORY II",
+      "theme": "Historical events and figures — answer is a person's name or a short identifying term",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Roman arena fighters who greeted the emperor with the Latin phrase 'those about to die salute you' were known by this title.",
+          "answer": "Gladiators",
+          "source_id": "tapi:622a1c3c7cc59eab6f951a31"
+        },
+        {
+          "value": 400,
+          "clue": "Mount Vesuvius buried this ancient Roman city under ash and pumice in 79 AD.",
+          "answer": "Pompeii",
+          "source_id": "otdb:1arfsku"
+        },
+        {
+          "value": 600,
+          "clue": "This Polish astronomer, born in 1473, had his heliocentric writings placed under church censorship in 1616.",
+          "answer": "Nicolaus Copernicus",
+          "source_id": "tapi:645cb12a602ff42ca52fb42c"
+        },
+        {
+          "value": 800,
+          "clue": "The assassination of this Austro-Hungarian heir to the throne in Sarajevo in 1914 triggered the outbreak of World War I.",
+          "answer": "Archduke Franz Ferdinand",
+          "source_id": "otdb:1ql45ke"
+        },
+        {
+          "value": 1000,
+          "clue": "Elected General Secretary of the Soviet Communist Party in March 1985, this leader initiated glasnost and perestroika policies that reshaped the USSR.",
+          "answer": "Gorbachev",
+          "source_id": "tapi:6477baa2550bc819ad646b07"
+        }
+      ]
+    },
+    {
+      "title": "ON THE MUSIC STAND",
+      "theme": "Music knowledge spanning pop, rock, and classical — answer is an artist, band, or song title",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The lowest-pitched member of the brass family in a symphony orchestra, this instrument's name comes from Latin for 'trumpet'.",
+          "answer": "Tuba",
+          "source_id": "otdb:5zfxnj"
+        },
+        {
+          "value": 400,
+          "clue": "This legendary British rock band released the warm acoustic classic 'Here Comes the Sun' in 1969.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d11"
+        },
+        {
+          "value": 600,
+          "clue": "Stevie Nicks rose to global fame as the vocalist of this iconic rock band, famous for the album 'Rumours'.",
+          "answer": "Fleetwood Mac",
+          "source_id": "tapi:622a1c397cc59eab6f950d4c"
+        },
+        {
+          "value": 800,
+          "clue": "This Swedish pop group, responsible for the disco anthem 'Gimme! Gimme! Gimme!', also released the debut album 'Ring Ring' in 1973.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c3e7cc59eab6f952316"
+        },
+        {
+          "value": 1000,
+          "clue": "This British singer-songwriter and record producer released the debut studio album 'The Kick Inside' in 1978, featuring the song 'Wuthering Heights'.",
+          "answer": "Kate Bush",
+          "source_id": "tapi:622a1c357cc59eab6f94fec6"
+        }
+      ]
+    },
+    {
+      "title": "SILVER SCREEN ICONS",
+      "theme": "Classic and notable film roles — answer is the ACTOR who played the named character or role",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Hollywood action legend strapped on the leather jacket and played the whip-cracking archaeologist in Raiders of the Lost Ark.",
+          "answer": "Harrison Ford",
+          "source_id": "tapi:622a1c347cc59eab6f94f8bb"
+        },
+        {
+          "value": 400,
+          "clue": "He portrayed the crooked detective Alonzo Harris in Training Day, earning the 2001 Academy Award for Best Leading Actor.",
+          "answer": "Denzel Washington",
+          "source_id": "tapi:622a1c347cc59eab6f94fad1"
+        },
+        {
+          "value": 600,
+          "clue": "This actor played the gritty private eye Jake Gittes in Roman Polanski's 1974 noir thriller set in Los Angeles.",
+          "answer": "Jack Nicholson",
+          "source_id": "tapi:622a1c347cc59eab6f94f8d4"
+        },
+        {
+          "value": 800,
+          "clue": "He won a Best Supporting Actor nomination for portraying the ailing, limping street hustler Ratso Rizzo opposite Jon Voight in Midnight Cowboy.",
+          "answer": "Dustin Hoffman",
+          "source_id": "tapi:622a1c347cc59eab6f94f8d1"
+        },
+        {
+          "value": 1000,
+          "clue": "This relatively unknown actor played the gender-ambiguous title character Dil in Neil Jordan's 1992 film The Crying Game.",
+          "answer": "Jaye Davidson",
+          "source_id": "tapi:622a1c347cc59eab6f94f8fc"
+        }
+      ]
+    },
+    {
+      "title": "HIT THE BOOKS",
+      "theme": "Classic and notable works of literature — answer is the TITLE of the book or work",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Herman Melville's epic novel about the obsessive Captain Ahab and his pursuit of a great white whale opens with the line 'Call me Ishmael.'",
+          "answer": "Moby Dick",
+          "source_id": "otdb:177tvd1"
+        },
+        {
+          "value": 400,
+          "clue": "George Orwell wrote this dystopian novel, named for the year it is set in, as a chilling statement on totalitarian government surveillance.",
+          "answer": "1984",
+          "source_id": "otdb:1uh1o65"
+        },
+        {
+          "value": 600,
+          "clue": "Antoine de Saint-Exupéry wrote this beloved fable about a young royal traveler from a tiny asteroid who visits Earth and befriends a pilot.",
+          "answer": "The Little Prince",
+          "source_id": "otdb:1amlyh5"
+        },
+        {
+          "value": 800,
+          "clue": "William Shakespeare wrote this comedy featuring the fairy king Oberon, the mischievous Puck, and four young Athenian lovers lost in an enchanted forest.",
+          "answer": "A Midsummer Night's Dream",
+          "source_id": "tapi:622a1c397cc59eab6f950ee8"
+        },
+        {
+          "value": 1000,
+          "clue": "John Bunyan wrote this allegorical dream narrative, published in two parts in 1678 and 1684, following a character named Christian on his journey to the Celestial City.",
+          "answer": "The Pilgrim's Progress",
+          "source_id": "tapi:645f9476541c4d4fc8cf2e17"
+        }
+      ]
+    },
+    {
+      "title": "HISTORY IN THE MAKING",
+      "theme": "Notable events and figures from world history — answer is a person, place, or event name",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This ancient city, founded according to tradition in 753 BC, grew from seven hills on the Tiber River into the capital of a vast empire.",
+          "answer": "Rome",
+          "source_id": "tapi:622a1c367cc59eab6f9503f2"
+        },
+        {
+          "value": 400,
+          "clue": "Established in the 2nd century BCE, this vast network of overland and maritime routes connected China to the Mediterranean, facilitating trade in spices, silk, and ideas.",
+          "answer": "The Silk Road",
+          "source_id": "tapi:63989c325c9a75021f31048a"
+        },
+        {
+          "value": 600,
+          "clue": "This Norse explorer, whose name evokes a fiery hue, is credited with founding the first European settlements on Greenland around 985 AD.",
+          "answer": "Erik The Red",
+          "source_id": "tapi:623389590161109f922aace2"
+        },
+        {
+          "value": 800,
+          "clue": "The Roman Emperor who expanded the empire to its greatest-ever territorial extent, pushing into Mesopotamia and Dacia.",
+          "answer": "Trajan",
+          "source_id": "otdb:15fy24a"
+        },
+        {
+          "value": 1000,
+          "clue": "The siege of this Virginia town in 1781, where Cornwallis surrendered to Washington and Rochambeau, effectively ended the American Revolution.",
+          "answer": "Yorktown",
+          "source_id": "tapi:63a039aac7d86251f9b65c9c"
+        }
+      ]
+    },
+    {
+      "title": "ONE-HIT WONDERS",
+      "theme": "Artists or songs known as one-hit wonders from specific years — answer is the ARTIST or SONG TITLE as clued",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Prince wrote this hit for Sinead O'Connor, which became her signature song and one of the best-selling singles of 1990.",
+          "answer": "Nothing Compares 2 U",
+          "source_id": "otdb:13z1a7a"
+        },
+        {
+          "value": 400,
+          "clue": "Billy Ray Cyrus rode this country line-dance anthem to fame in 1992, a song whose title refers to the organ whose breaking it laments.",
+          "answer": "Achy Breaky Heart",
+          "source_id": "tapi:625064c9e12f6dec240bdfcd"
+        },
+        {
+          "value": 600,
+          "clue": "The artist Taco scored a memorable one-hit wonder in 1983 with a jazzy, top-hat-and-tails revival of an Irving Berlin standard about dressing up.",
+          "answer": "Puttin' on the Ritz",
+          "source_id": "tapi:625064c9e12f6dec240bdfcd"
+        },
+        {
+          "value": 800,
+          "clue": "This British new-wave band, whose name sounds like a baby's babble, hit the top of the charts in 1983 with their synth-pop track 'Too Shy.'",
+          "answer": "Kajagoogoo",
+          "source_id": "tapi:625063efe12f6dec240bdf8d"
+        },
+        {
+          "value": 1000,
+          "clue": "Kate Bush released this 1980 studio album, her third, which featured the singles 'Babooshka' and 'Army Dreamers' and marked her first foray into full production control.",
+          "answer": "Never for Ever",
+          "source_id": "tapi:622a1c357cc59eab6f94fed9"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "AVIATION FIRSTS",
+      "clue": "On July 25, 1909, this French aviator completed a historic 37-minute flight across the English Channel, landing near Dover Castle and winning a £1,000 prize from the Daily Mail.",
+      "answer": "Louis Bleriot",
+      "source_id": "tapi:622a1c367cc59eab6f95030b"
+    },
+    {
+      "title": "ART HISTORY",
+      "clue": "This French Post-Impressionist painter developed the technique of Pointillism and spent two years applying millions of tiny dots of color to complete his monumental 1886 canvas depicting Parisian leisure on a riverbank.",
+      "answer": "Georges Seurat",
+      "source_id": "tapi:622a1c347cc59eab6f94fa1a"
+    },
+    {
+      "title": "SCIENCE & DISCOVERY",
+      "clue": "Though often credited with many astronomical achievements, this Italian scientist is also recognized as the inventor of the telescope, a claim that remains debated but is attached to his name in popular history.",
+      "answer": "Galileo Galilei",
+      "source_id": "tapi:622a1c397cc59eab6f950fbc"
+    },
+    {
+      "title": "MATHEMATICAL CURVES",
+      "clue": "This plane curve, defined by the equation x³ + y³ = 3axy, was devised by a French mathematician specifically to challenge a rival's techniques for finding extrema, and bears that mathematician's name.",
+      "answer": "Folium of Descartes",
+      "source_id": "otdb:85vs76"
+    },
+    {
+      "title": "ANCIENT SCRIPTURE",
+      "clue": "Comprising 700 verses across 18 chapters, this Sanskrit text records a philosophical conversation on the battlefield of Kurukshetra between a warrior prince and his divine charioteer, and forms part of the epic Mahabharata.",
+      "answer": "The Bhagavad Gita",
+      "source_id": "tapi:639c9dbf929b90846f2fc9b0"
+    },
+    {
+      "title": "LOST KINGDOMS",
+      "clue": "Before gaining its modern name, this Southeast Asian country was known for centuries as 'Lan Xang,' meaning 'Land of a Million Elephants,' and was a powerful kingdom along the Mekong River.",
+      "answer": "Laos",
+      "source_id": "otdb:1f1v6k4"
+    },
+    {
+      "title": "INK & PAPER TRAIL",
+      "clue": "This British civil servant and reformer, who worked in the Post Office in the 1830s, is widely credited with inventing the adhesive postage stamp and establishing the foundation of the modern postal system.",
+      "answer": "Sir Rowland Hill",
+      "source_id": "tapi:6396edc26017b1e8e09020d1"
+    },
+    {
+      "title": "LITERARY LEGACY",
+      "clue": "This author, the son of J.R.R. Tolkien, spent decades editing and publishing his father's unfinished manuscripts, including the 1980 volume 'Unfinished Tales of Númenor and Middle-earth'.",
+      "answer": "Christopher Tolkien",
+      "source_id": "tapi:622a1c397cc59eab6f950e49"
+    },
+    {
+      "title": "PRESIDENTIAL FIRSTS",
+      "clue": "All of his predecessors were born in one of the original thirteen colonies, but this 16th president — born in a Kentucky log cabin — broke that mold when he took office in 1861.",
+      "answer": "Abraham Lincoln",
+      "source_id": "tapi:622a1c367cc59eab6f95002e"
+    },
+    {
+      "title": "LITERARY LEGACIES",
+      "clue": "Published in two parts — 1678 and 1684 — this allegorical dream narrative by English preacher John Bunyan follows a character named Christian on his journey from the City of Destruction to the Celestial City, and remains one of the best-selling books in the English language.",
+      "answer": "The Pilgrim's Progress",
+      "source_id": "tapi:645f9476541c4d4fc8cf2e17"
+    }
+  ],
+  "reviewed_category_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "reviewed_final_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ]
+}

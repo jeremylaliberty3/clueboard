@@ -1,0 +1,19 @@
+import "server-only";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+
+let _client: SupabaseClient | null = null;
+
+/**
+ * Server-side Supabase client using the anon key (RLS read policies apply).
+ * The service_role key is only for the import script, never the running app.
+ */
+export function getSupabase(): SupabaseClient {
+  if (_client) return _client;
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!url || !key) {
+    throw new Error("Missing NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_ANON_KEY in env.");
+  }
+  _client = createClient(url, key, { auth: { persistSession: false } });
+  return _client;
+}

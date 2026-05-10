@@ -3,7 +3,7 @@ import PlayClient from "@/components/PlayClient";
 
 export const dynamic = "force-dynamic";
 
-export default function PlayPage() {
-  const board = getDailyBoard();
+export default async function PlayPage() {
+  const board = await getDailyBoard();
   return <PlayClient board={board} />;
 }
