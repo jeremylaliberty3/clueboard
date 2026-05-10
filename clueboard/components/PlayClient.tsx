@@ -14,10 +14,17 @@ import ClueModal from "./ClueModal";
 import FinalClue from "./FinalClue";
 import ResultScreen from "./ResultScreen";
 import ReviewBoard from "./ReviewBoard";
+import SignOutButton from "./SignOutButton";
 
 type View = "grid" | "accordion";
 
-export default function PlayClient({ board }: { board: DailyBoard }) {
+export default function PlayClient({
+  board,
+  displayName,
+}: {
+  board: DailyBoard;
+  displayName: string | null;
+}) {
   const [state, setState] = useState<GameState | null>(null);
   const [view, setView] = useState<View>("grid");
   const [activeClue, setActiveClue] = useState<ClueForClient | null>(null);
@@ -194,6 +201,19 @@ export default function PlayClient({ board }: { board: DailyBoard }) {
           >
             {view === "grid" ? "Accordion" : "Grid"}
           </button>
+          {displayName ? (
+            <div className="hidden sm:flex items-center gap-2">
+              <span className="text-white/70 text-xs">{displayName}</span>
+              <SignOutButton />
+            </div>
+          ) : (
+            <Link
+              href={`/login?next=${encodeURIComponent("/play")}`}
+              className="text-xs text-white/70 hover:text-white border border-white/20 px-3 py-2 rounded"
+            >
+              Sign in
+            </Link>
+          )}
         </div>
       </header>
 
