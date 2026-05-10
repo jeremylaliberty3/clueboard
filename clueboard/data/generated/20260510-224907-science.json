@@ -1,0 +1,102 @@
+{
+  "batch_id": "20260510-224907-science",
+  "generated_at": "2026-05-10T22:49:07.919Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "SCIENCE",
+  "categories": [
+    {
+      "title": "THE -OLOGY FILES",
+      "theme": "Fields of scientific study ending in '-ology' — answer is WHAT THAT FIELD STUDIES",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This branch of science predicts rain, shine, and everything in between by studying atmospheric conditions.",
+          "answer": "Weather",
+          "source_id": "tapi:622a1c3f7cc59eab6f9504fc"
+        },
+        {
+          "value": 400,
+          "clue": "Hydrogeologists spend their careers focused on this — specifically, water found beneath the Earth's surface.",
+          "answer": "Underground water",
+          "source_id": "tapi:622a1c377cc59eab6f950514"
+        },
+        {
+          "value": 600,
+          "clue": "Gerontologists devote their research to this stage of the human lifespan, studying its diseases and social challenges.",
+          "answer": "Old age",
+          "source_id": "tapi:622a1c377cc59eab6f950529"
+        },
+        {
+          "value": 800,
+          "clue": "Asteroseismologists listen to subtle vibrations passing through distant stellar bodies in order to learn about this.",
+          "answer": "The internal structures of stars",
+          "source_id": "tapi:622a1c377cc59eab6f950596"
+        },
+        {
+          "value": 1000,
+          "clue": "The rare discipline of Oneirology takes place largely while its researchers are unconscious, studying this nocturnal mental phenomenon.",
+          "answer": "Dreams",
+          "source_id": "tapi:622a1c377cc59eab6f9504ec"
+        }
+      ]
+    },
+    {
+      "title": "BODY OF KNOWLEDGE",
+      "theme": "Facts about the human body and its systems — answer is the BODY PART, SUBSTANCE, or MEDICAL TERM",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This sac-like organ in the lower abdomen holds liquid waste until you visit the restroom.",
+          "answer": "Bladder",
+          "source_id": "tapi:63e13a32106de6ffa7d4a7b2"
+        },
+        {
+          "value": 400,
+          "clue": "These paired bean-shaped organs filter toxins and waste products from the bloodstream, producing urine.",
+          "answer": "Kidney",
+          "source_id": "tapi:63e13a19106de6ffa7d4a794"
+        },
+        {
+          "value": 600,
+          "clue": "Network of glands including the thyroid and adrenal glands, these are collectively responsible for secreting hormones into the bloodstream.",
+          "answer": "Endocrine glands",
+          "source_id": "tapi:63e13a2d106de6ffa7d4a7ac"
+        },
+        {
+          "value": 800,
+          "clue": "This tree-like extension on a nerve cell receives incoming chemical signals from neighboring neurons at its many branches.",
+          "answer": "Dendrite",
+          "source_id": "tapi:647f9db33a4302a719271621"
+        },
+        {
+          "value": 1000,
+          "clue": "Weighing roughly 1.5 kilograms in a typical adult, this organ uses about 20% of the body's total energy despite being only 2% of its mass.",
+          "answer": "1.5kg",
+          "source_id": "tapi:622a1c3a7cc59eab6f951080"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "LAWS OF NATURE",
+      "topic": "SCIENCE",
+      "clue": "Named for a 17th-century Irish scientist, this chemistry law states that at constant temperature, the pressure and volume of a gas are inversely proportional — double the pressure, halve the volume.",
+      "answer": "Boyle's Law",
+      "source_id": "tapi:64902c3a6c4575eaf97c8ae1"
+    },
+    {
+      "title": "ASTRONOMICAL ODDITIES",
+      "topic": "SCIENCE",
+      "clue": "Unlike every other planet, this innermost world of our solar system can never be seen against a fully dark sky — it always sets before true darkness falls or rises with the dawn.",
+      "answer": "Mercury",
+      "source_id": "tapi:64626208ab138b829b81e99e"
+    }
+  ]
+}

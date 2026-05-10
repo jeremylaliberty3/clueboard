@@ -1,0 +1,102 @@
+{
+  "batch_id": "20260510-224845-geography",
+  "generated_at": "2026-05-10T22:48:45.467Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "GEOGRAPHY",
+  "categories": [
+    {
+      "title": "CAPITALS OF THE WORLD",
+      "theme": "National or regional capital cities — answer is the CAPITAL CITY",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city on the Seine River is the capital of France and home to the Eiffel Tower.",
+          "answer": "Paris",
+          "source_id": "tapi:622a1c357cc59eab6f94ffe6"
+        },
+        {
+          "value": 400,
+          "clue": "This Eastern European capital, on the Dnieper River, is the largest city in Ukraine.",
+          "answer": "Kyiv",
+          "source_id": "tapi:623742c8cb85f7ce9e949df0"
+        },
+        {
+          "value": 600,
+          "clue": "This Gulf-state capital, home to Al Jazeera's headquarters, sits on a small peninsula jutting into the Persian Gulf.",
+          "answer": "Doha",
+          "source_id": "tapi:623741fccb85f7ce9e949d9e"
+        },
+        {
+          "value": 800,
+          "clue": "This small Caribbean island nation's capital is named after the patron saint of England.",
+          "answer": "Port of Spain",
+          "source_id": "tapi:623742aacb85f7ce9e949de4"
+        },
+        {
+          "value": 1000,
+          "clue": "Relocated from Rangoon in 2006, this purpose-built city became the administrative seat of its Southeast Asian nation.",
+          "answer": "Naypyidaw",
+          "source_id": "tapi:6237418ecb85f7ce9e949d72"
+        }
+      ]
+    },
+    {
+      "title": "COUNTRY CODE",
+      "theme": "Country-code top-level domains (.xx) — answer is the COUNTRY or TERRITORY that uses the domain",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Websites ending in '.th' belong to this Southeast Asian nation, home of Bangkok and Muay Thai.",
+          "answer": "Thailand",
+          "source_id": "tapi:623735f1cfe13103f55eb585"
+        },
+        {
+          "value": 400,
+          "clue": "The '.nl' domain belongs to this low-lying European country, famous for its windmills and tulips.",
+          "answer": "Netherlands",
+          "source_id": "tapi:62373594cfe13103f55eb547"
+        },
+        {
+          "value": 600,
+          "clue": "Barcelona and Madrid are among the cities whose national sites often end in '.es' — name the country.",
+          "answer": "Spain",
+          "source_id": "tapi:623735decfe13103f55eb579"
+        },
+        {
+          "value": 800,
+          "clue": "The '.pa' country-code domain belongs to this Central American nation that shares its name with a famous canal.",
+          "answer": "Panama",
+          "source_id": "tapi:623735aacfe13103f55eb556"
+        },
+        {
+          "value": 1000,
+          "clue": "The '.sl' domain is assigned to this West African country whose capital city is Freetown.",
+          "answer": "Sierra Leone",
+          "source_id": "tapi:623735d1cfe13103f55eb570"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "EXTREME GEOGRAPHY",
+      "topic": "GEOGRAPHY",
+      "clue": "By volume, this Siberian rift lake holds roughly 20% of the world's unfrozen surface fresh water — more than all of North America's Great Lakes combined.",
+      "answer": "Lake Baikal",
+      "source_id": "otdb:d91evp"
+    },
+    {
+      "title": "TINY BUT MIGHTY",
+      "topic": "GEOGRAPHY",
+      "clue": "The world's smallest internationally recognized state covers just 0.44 square kilometers and is entirely surrounded by the city of Rome.",
+      "answer": "Vatican City",
+      "source_id": "otdb:wx25l0"
+    }
+  ]
+}

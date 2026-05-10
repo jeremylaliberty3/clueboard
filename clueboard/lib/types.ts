@@ -8,6 +8,11 @@ export type Clue = {
   answer: string;
   value: number | null;
   round: Round;
+  // Optional category-level metadata used by the board generator's
+  // variety rules. All five clues in a category share the same values.
+  topic?: string | null;
+  categoryStyle?: "knowledge" | "wordplay" | "themed" | null;
+  difficultyProfile?: "easy_leaning" | "balanced" | "hard_leaning" | null;
 };
 
 export type ClueForClient = {

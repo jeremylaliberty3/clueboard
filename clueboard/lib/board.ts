@@ -26,7 +26,6 @@ function shuffle<T>(arr: T[], rng: () => number): T[] {
 const STANDARD_VALUES = [200, 400, 600, 800, 1000];
 
 export function todayDateString(): string {
-  // US/Eastern calendar date, YYYY-MM-DD.
   const fmt = new Intl.DateTimeFormat("en-CA", {
     timeZone: "America/New_York",
     year: "numeric",
@@ -51,8 +50,6 @@ function stripAnswer(c: Clue): ClueForClient {
   };
 }
 
-// Cache the full clue pool for the lifetime of the server process.
-// 140 rows is trivially small and never changes mid-run.
 let _allCluesCache: { single: Clue[]; final: Clue[] } | null = null;
 
 async function loadAllClues(): Promise<{ single: Clue[]; final: Clue[] }> {
@@ -60,7 +57,7 @@ async function loadAllClues(): Promise<{ single: Clue[]; final: Clue[] }> {
   const supabase = getSupabase();
   const { data, error } = await supabase
     .from("clues")
-    .select("id, category, category_tag, clue, answer, value, round");
+    .select("id, category, category_tag, clue, answer, value, round, topic, category_style, difficulty_profile");
   if (error) throw new Error(`Supabase error loading clues: ${error.message}`);
   if (!data) throw new Error("No clue data returned from Supabase.");
 
@@ -72,6 +69,9 @@ async function loadAllClues(): Promise<{ single: Clue[]; final: Clue[] }> {
     answer: row.answer,
     value: row.value,
     round: row.round as "single" | "final",
+    topic: row.topic ?? null,
+    categoryStyle: row.category_style ?? null,
+    difficultyProfile: row.difficulty_profile ?? null,
   }));
   _allCluesCache = {
     single: all.filter((c) => c.round === "single"),
@@ -80,7 +80,115 @@ async function loadAllClues(): Promise<{ single: Clue[]; final: Clue[] }> {
   return _allCluesCache;
 }
 
-// Cache rendered boards by date so repeat requests don't redo the seeded shuffle.
+// Per-category metadata derived from the first clue in each category.
+type CategoryMeta = {
+  topic: string;
+  style: "knowledge" | "wordplay" | "themed";
+  difficultyProfile: "easy_leaning" | "balanced" | "hard_leaning";
+};
+
+function buildCategoryMeta(byCat: Record<string, Clue[]>): Record<string, CategoryMeta> {
+  const out: Record<string, CategoryMeta> = {};
+  for (const [cat, clues] of Object.entries(byCat)) {
+    const first = clues[0];
+    out[cat] = {
+      topic: first.topic ?? "MISC",
+      style: (first.categoryStyle ?? "knowledge") as CategoryMeta["style"],
+      difficultyProfile: (first.difficultyProfile ?? "balanced") as CategoryMeta["difficultyProfile"],
+    };
+  }
+  return out;
+}
+
+/**
+ * Pick 6 categories for today's board using the variety rules, with
+ * soft relaxation when the bank can't satisfy them all.
+ *
+ *   Rule 1 (hard):  All 6 categories from distinct topics.
+ *                   Falls back to "shuffle and take 6" if <6 topics in bank.
+ *   Rule 2 (soft):  At least 1 wordplay or themed category.
+ *                   Skipped if no wordplay/themed in any chosen topic.
+ *   Rule 3 (soft):  At least 2 "balanced" difficulty profiles.
+ *                   Best-effort substitution within the chosen topics.
+ */
+function pickBoardCategories(
+  byCat: Record<string, Clue[]>,
+  meta: Record<string, CategoryMeta>,
+  rng: () => number,
+): string[] {
+  const allCats = Object.keys(byCat);
+  if (allCats.length < 6) {
+    throw new Error(`Not enough eligible categories (need 6, have ${allCats.length}).`);
+  }
+
+  // Group categories by topic.
+  const byTopic: Record<string, string[]> = {};
+  for (const cat of allCats) {
+    (byTopic[meta[cat].topic] ||= []).push(cat);
+  }
+  const topics = Object.keys(byTopic);
+
+  // Rule 1: if we don't have 6 distinct topics, abandon variety rules
+  // entirely and pick 6 random eligible categories. Only happens early
+  // in the bank's life or for very thin topics.
+  if (topics.length < 6) {
+    return shuffle(allCats, rng).slice(0, 6);
+  }
+
+  // Pick 6 topics, then one category per topic.
+  const chosenTopics = shuffle(topics, rng).slice(0, 6);
+  let chosen = chosenTopics.map((t) => shuffle(byTopic[t], rng)[0]);
+
+  // Rule 2: ensure at least one wordplay/themed category.
+  const isVariety = (cat: string) =>
+    meta[cat].style === "wordplay" || meta[cat].style === "themed";
+  if (!chosen.some(isVariety)) {
+    // First try: swap within already-chosen topics if a variety alternate exists.
+    let swapped = false;
+    for (let i = 0; i < chosenTopics.length && !swapped; i++) {
+      const t = chosenTopics[i];
+      const alternates = byTopic[t].filter(isVariety);
+      if (alternates.length > 0) {
+        chosen[i] = alternates[Math.floor(rng() * alternates.length)];
+        swapped = true;
+      }
+    }
+    // Second try: drop one chosen topic, replace with a topic that has
+    // a wordplay/themed category.
+    if (!swapped) {
+      const remainingTopics = topics.filter((t) => !chosenTopics.includes(t));
+      for (const t of shuffle(remainingTopics, rng)) {
+        const candidates = byTopic[t].filter(isVariety);
+        if (candidates.length > 0) {
+          // Replace the topic we're least attached to (last).
+          chosenTopics[chosenTopics.length - 1] = t;
+          chosen[chosen.length - 1] = candidates[Math.floor(rng() * candidates.length)];
+          break;
+        }
+      }
+    }
+    // If still none, accept — the bank has no variety categories yet.
+  }
+
+  // Rule 3: at least 2 "balanced" difficulty profiles.
+  const countBalanced = () =>
+    chosen.filter((c) => meta[c].difficultyProfile === "balanced").length;
+  if (countBalanced() < 2) {
+    // Try in-topic swaps to gain balanced categories.
+    for (let i = 0; i < chosen.length && countBalanced() < 2; i++) {
+      if (meta[chosen[i]].difficultyProfile === "balanced") continue;
+      const t = chosenTopics[i];
+      const balanced = byTopic[t].filter((c) => meta[c].difficultyProfile === "balanced");
+      if (balanced.length > 0) {
+        chosen[i] = balanced[Math.floor(rng() * balanced.length)];
+      }
+    }
+    // Stop trying — we did what we could.
+  }
+
+  return chosen;
+}
+
 const _boardCache = new Map<string, DailyBoard>();
 
 export async function getDailyBoard(date: string = todayDateString()): Promise<DailyBoard> {
@@ -91,37 +199,40 @@ export async function getDailyBoard(date: string = todayDateString()): Promise<D
   const seed = seedFromDate(date);
   const rng = mulberry32(seed);
 
-  // Group eligible single-round clues by category, only keep categories with all 5 standard values.
+  // Group single-round clues by category, keep only categories with all
+  // five standard $ values present (a complete column).
   const byCat: Record<string, Clue[]> = {};
   for (const cl of single) {
     (byCat[cl.category] ||= []).push(cl);
   }
-  const eligibleCategories = Object.keys(byCat).filter((cat) => {
-    const present = new Set(byCat[cat].map((c) => c.value));
-    return STANDARD_VALUES.every((v) => present.has(v));
-  });
-
-  const chosenCategories = shuffle(eligibleCategories, rng).slice(0, 6);
-  if (chosenCategories.length < 6) {
-    throw new Error(
-      `Not enough eligible categories in Supabase (need 6, have ${chosenCategories.length}).`,
-    );
+  const eligible: Record<string, Clue[]> = {};
+  for (const [cat, clues] of Object.entries(byCat)) {
+    const present = new Set(clues.map((c) => c.value));
+    if (STANDARD_VALUES.every((v) => present.has(v))) {
+      eligible[cat] = clues;
+    }
   }
+  const meta = buildCategoryMeta(eligible);
+
+  const chosenCategories = pickBoardCategories(eligible, meta, rng);
 
   const cellsByCategory: Record<string, ClueForClient[]> = {};
   for (const cat of chosenCategories) {
     const picked: ClueForClient[] = [];
     for (const v of STANDARD_VALUES) {
-      const candidates = byCat[cat].filter((c) => c.value === v);
+      const candidates = eligible[cat].filter((c) => c.value === v);
       const idx = Math.floor(rng() * candidates.length);
       picked.push(stripAnswer(candidates[idx]));
     }
     cellsByCategory[cat] = picked;
   }
 
+  // Rule 4 (soft): prefer a Final Clue from a topic that isn't on the board.
   if (final.length === 0) throw new Error("No final-round clues in Supabase.");
-  const finalIdx = Math.floor(rng() * final.length);
-  const finalClue = stripAnswer(final[finalIdx]);
+  const boardTopics = new Set(chosenCategories.map((c) => meta[c].topic));
+  const offBoardFinals = final.filter((f) => f.topic && !boardTopics.has(f.topic));
+  const finalPool = offBoardFinals.length > 0 ? offBoardFinals : final;
+  const finalClue = stripAnswer(finalPool[Math.floor(rng() * finalPool.length)]);
 
   const board: DailyBoard = {
     date,

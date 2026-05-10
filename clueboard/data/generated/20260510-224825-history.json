@@ -1,0 +1,102 @@
+{
+  "batch_id": "20260510-224825-history",
+  "generated_at": "2026-05-10T22:48:25.538Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "HISTORY",
+  "categories": [
+    {
+      "title": "YEARS IN HISTORY",
+      "theme": "Landmark historical events — answer is the YEAR the event occurred",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "World War I began in this year, setting off one of the deadliest conflicts in human history.",
+          "answer": "1914",
+          "source_id": "otdb:1g7h24v"
+        },
+        {
+          "value": 400,
+          "clue": "Christopher Columbus first made landfall in the Bahamas in this year, changing the course of world history.",
+          "answer": "1492",
+          "source_id": "tapi:65056e4f7a97013de78b52b5"
+        },
+        {
+          "value": 600,
+          "clue": "The Wall Street Crash, triggering the Great Depression, occurred on October 24th of this year.",
+          "answer": "1929",
+          "source_id": "tapi:622a1c3c7cc59eab6f951940"
+        },
+        {
+          "value": 800,
+          "clue": "The Spanish Civil War erupted in this year, eventually bringing Francisco Franco to power.",
+          "answer": "1936",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b41"
+        },
+        {
+          "value": 1000,
+          "clue": "The USSR detonated its first atomic bomb in this year, shocking the Western world and escalating the Cold War.",
+          "answer": "1949",
+          "source_id": "tapi:62611f284b176d54800e3d45"
+        }
+      ]
+    },
+    {
+      "title": "WORLD WAR II MILESTONES",
+      "theme": "Key events, people, and places of the Second World War — answer is the PERSON, PLACE, or THING",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This mustachioed German dictator led the Nazi regime that plunged Europe into war.",
+          "answer": "Adolf Hitler",
+          "source_id": "tapi:6398983b5c9a75021f310467"
+        },
+        {
+          "value": 400,
+          "clue": "Britain and France declared war on Germany in 1939 after it invaded this Eastern European country.",
+          "answer": "Poland",
+          "source_id": "otdb:enplfl"
+        },
+        {
+          "value": 600,
+          "clue": "From this French port, roughly 200,000 British troops were evacuated in 1940 in a desperate retreat.",
+          "answer": "Dunkirk",
+          "source_id": "tapi:622a1c3c7cc59eab6f95197e"
+        },
+        {
+          "value": 800,
+          "clue": "This naval engagement in the Pacific, fought in June 1942, is widely considered the turning point of the war against Japan.",
+          "answer": "Battle of Midway",
+          "source_id": "otdb:14qqef7"
+        },
+        {
+          "value": 1000,
+          "clue": "This Baltic seaport served as Nazi Germany's primary rocket research and development centre throughout the war.",
+          "answer": "Peenemunde",
+          "source_id": "tapi:622a1c3c7cc59eab6f951818"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "DEFENESTRATION OF PRAGUE",
+      "topic": "HISTORY",
+      "clue": "This act — Protestant nobles in Prague hurling Catholic Lords Regents from a castle window in 1618 — sparked the Bohemian Revolt and helped ignite a devastating European war that would last thirty years. What did those Protestants do to their lords?",
+      "answer": "Threw them out of a window",
+      "source_id": "otdb:yyksd1"
+    },
+    {
+      "title": "FIRST PRIME MINISTER",
+      "topic": "HISTORY",
+      "clue": "When Pakistan was created as an independent nation in 1947, this man became its very first Prime Minister, serving until his assassination in 1951.",
+      "answer": "Liaquat Ali Khan",
+      "source_id": "tapi:63d9530f168979b94b2e4f8b"
+    }
+  ]
+}
