@@ -29,6 +29,11 @@ export function saveState(state: GameState) {
   localStorage.setItem(KEY_PREFIX + state.date, JSON.stringify(state));
 }
 
+export function clearState(date: string) {
+  if (typeof window === "undefined") return;
+  localStorage.removeItem(KEY_PREFIX + date);
+}
+
 export function emptyState(date: string): GameState {
   return {
     date,

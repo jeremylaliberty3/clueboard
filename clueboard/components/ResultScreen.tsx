@@ -5,11 +5,12 @@ import Link from "next/link";
 import type { DailyBoard, GameState } from "@/lib/types";
 
 export default function ResultScreen({
-  board, state, onReview,
+  board, state, onReview, isSignedIn,
 }: {
   board: DailyBoard;
   state: GameState;
   onReview: () => void;
+  isSignedIn: boolean;
 }) {
   const [copied, setCopied] = useState(false);
   const finalScore = state.finalScore ?? state.score;
@@ -80,13 +81,29 @@ export default function ResultScreen({
           >
             Review board
           </button>
-          <Link
-            href="/profile"
-            className="px-6 py-3 border border-white/30 rounded hover:bg-white/10"
-          >
-            View stats
-          </Link>
+          {isSignedIn && (
+            <Link
+              href="/profile"
+              className="px-6 py-3 border border-white/30 rounded hover:bg-white/10"
+            >
+              View stats
+            </Link>
+          )}
         </div>
+
+        {!isSignedIn && (
+          <div className="mt-8 pt-6 border-t border-white/10">
+            <p className="text-sm text-white/80 mb-3">
+              Sign up to save this score and start a streak.
+            </p>
+            <Link
+              href="/login?next=/play"
+              className="inline-block px-5 py-2.5 bg-white text-board font-bold rounded hover:brightness-95"
+            >
+              Save with Google
+            </Link>
+          </div>
+        )}
 
         <p className="text-xs text-white/50 mt-6">
           Come back tomorrow at midnight Eastern for a new board.

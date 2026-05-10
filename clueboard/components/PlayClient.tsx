@@ -3,9 +3,12 @@
 import { useEffect, useState, useMemo, useCallback } from "react";
 import Link from "next/link";
 import type { DailyBoard, GameState, ClueForClient, AnswerRecord } from "@/lib/types";
-import { submitAnswerAction, submitFinalAnswerAction, skipClueAction } from "@/lib/actions";
 import {
-  loadState, saveState, emptyState, recordAnswer,
+  submitAnswerAction, submitFinalAnswerAction, skipClueAction,
+  saveGameStateAction, loadGameStateAction,
+} from "@/lib/actions";
+import {
+  loadState, saveState, clearState, emptyState, recordAnswer,
   loadView, saveView, appendHistory,
 } from "@/lib/storage";
 import GridBoard from "./GridBoard";
@@ -31,23 +34,60 @@ export default function PlayClient({
   const [hydrated, setHydrated] = useState(false);
   const [reviewing, setReviewing] = useState(false);
 
-  // Hydrate state + view from localStorage.
-  useEffect(() => {
-    const existing = loadState(board.date);
-    setState(existing ?? emptyState(board.date));
-    const savedView = loadView();
-    if (savedView) {
-      setView(savedView);
-    } else {
-      setView(window.innerWidth >= 768 ? "grid" : "accordion");
-    }
-    setHydrated(true);
-  }, [board.date]);
+  const isSignedIn = displayName !== null;
 
-  // Persist on every change.
+  // Hydrate state + view from the appropriate backend.
   useEffect(() => {
-    if (state && hydrated) saveState(state);
-  }, [state, hydrated]);
+    let cancelled = false;
+    (async () => {
+      let initial: GameState | null = null;
+      if (isSignedIn) {
+        // DB wins. If a row exists for today, use it (drops any stale local
+        // state from a prior anon session). Otherwise migrate any local
+        // state up to the DB on first sign-in.
+        const result = await loadGameStateAction();
+        if (cancelled) return;
+        if (result.ok && result.state) {
+          initial = result.state;
+          clearState(board.date);
+        } else {
+          const local = loadState(board.date);
+          if (local) {
+            await saveGameStateAction(local);
+            if (cancelled) return;
+            clearState(board.date);
+            initial = local;
+          }
+        }
+      } else {
+        initial = loadState(board.date);
+      }
+      if (cancelled) return;
+      setState(initial ?? emptyState(board.date));
+
+      const savedView = loadView();
+      setView(savedView ?? (window.innerWidth >= 768 ? "grid" : "accordion"));
+      setHydrated(true);
+    })();
+    return () => { cancelled = true; };
+  }, [board.date, isSignedIn]);
+
+  // Single helper for every state mutation: updates React state AND
+  // persists to the right backend. Replaces ad-hoc setState calls in the
+  // submit/skip/wager handlers.
+  const commitState = useCallback(
+    (next: GameState) => {
+      setState(next);
+      if (isSignedIn) {
+        // Fire-and-forget; failures here just mean the next save will
+        // catch up. No user-visible interruption.
+        void saveGameStateAction(next);
+      } else {
+        saveState(next);
+      }
+    },
+    [isSignedIn],
+  );
 
   const setViewPersist = (v: View) => {
     setView(v);
@@ -65,9 +105,9 @@ export default function PlayClient({
   useEffect(() => {
     if (!state) return;
     if (allAnswered && state.phase === "board") {
-      setState({ ...state, phase: "final_wager" });
+      commitState({ ...state, phase: "final_wager" });
     }
-  }, [allAnswered, state]);
+  }, [allAnswered, state, commitState]);
 
   const handleSelectClue = (clue: ClueForClient) => {
     if (!state) return;
@@ -88,10 +128,16 @@ export default function PlayClient({
         correctAnswer: result.correctAnswer,
         answeredAt: new Date().toISOString(),
       };
-      setState((prev) => (prev ? recordAnswer(prev, rec) : prev));
+      setState((prev) => {
+        if (!prev) return prev;
+        const next = recordAnswer(prev, rec);
+        if (isSignedIn) void saveGameStateAction(next);
+        else saveState(next);
+        return next;
+      });
       return { correct: result.correct, correctAnswer: result.correctAnswer };
     },
-    [board.date],
+    [board.date, isSignedIn],
   );
 
   const handleSkipClue = useCallback(
@@ -107,15 +153,21 @@ export default function PlayClient({
         correctAnswer: result.correctAnswer,
         answeredAt: new Date().toISOString(),
       };
-      setState((prev) => (prev ? recordAnswer(prev, rec) : prev));
+      setState((prev) => {
+        if (!prev) return prev;
+        const next = recordAnswer(prev, rec);
+        if (isSignedIn) void saveGameStateAction(next);
+        else saveState(next);
+        return next;
+      });
       return { correctAnswer: result.correctAnswer };
     },
-    [board.date],
+    [board.date, isSignedIn],
   );
 
   const handleSetWager = (wager: number) => {
     if (!state) return;
-    setState({
+    commitState({
       ...state,
       finalCategory: board.finalClue.category,
       finalWager: wager,
@@ -143,30 +195,34 @@ export default function PlayClient({
       // Stay on "final_clue" so the user can read the verdict + correct answer.
       // Advances to "done" only when they click "See your final score".
     };
-    setState(next);
-    // Write history entry for /profile.
-    const perCatMap = new Map<string, { correct: number; total: number }>();
-    for (const cat of board.categories) {
-      for (const cell of board.cellsByCategory[cat]) {
-        const tag = cell.categoryTag;
-        const rec = next.answers[cell.id];
-        if (!rec || rec.skipped) continue; // skipped doesn't count toward accuracy
-        const cur = perCatMap.get(tag) ?? { correct: 0, total: 0 };
-        cur.total += 1;
-        if (rec.correct) cur.correct += 1;
-        perCatMap.set(tag, cur);
+    commitState(next);
+    // Anonymous users get their /profile stats from a localStorage history
+    // index. Signed-in users' /profile (B.3) reads directly from the
+    // game_sessions DB table, so skip the local history append for them.
+    if (!isSignedIn) {
+      const perCatMap = new Map<string, { correct: number; total: number }>();
+      for (const cat of board.categories) {
+        for (const cell of board.cellsByCategory[cat]) {
+          const tag = cell.categoryTag;
+          const rec = next.answers[cell.id];
+          if (!rec || rec.skipped) continue; // skipped doesn't count toward accuracy
+          const cur = perCatMap.get(tag) ?? { correct: 0, total: 0 };
+          cur.total += 1;
+          if (rec.correct) cur.correct += 1;
+          perCatMap.set(tag, cur);
+        }
       }
+      appendHistory({
+        date: board.date,
+        finalScore,
+        baseScore: state.score,
+        finalCorrect: result.correct,
+        finalWager: wager,
+        perCategory: Array.from(perCatMap.entries()).map(([categoryTag, v]) => ({
+          categoryTag, ...v,
+        })),
+      });
     }
-    appendHistory({
-      date: board.date,
-      finalScore,
-      baseScore: state.score,
-      finalCorrect: result.correct,
-      finalWager: wager,
-      perCategory: Array.from(perCatMap.entries()).map(([categoryTag, v]) => ({
-        categoryTag, ...v,
-      })),
-    });
     return { correct: result.correct, correctAnswer: result.correctAnswer };
   };
 
@@ -243,7 +299,7 @@ export default function PlayClient({
             currentScore={state.score}
             wager={state.finalWager ?? 0}
             onSubmit={handleSubmitFinal}
-            onContinue={() => setState((s) => (s ? { ...s, phase: "done" } : s))}
+            onContinue={() => state && commitState({ ...state, phase: "done" })}
           />
         )}
 
@@ -252,6 +308,7 @@ export default function PlayClient({
             board={board}
             state={state}
             onReview={() => setReviewing(true)}
+            isSignedIn={isSignedIn}
           />
         )}
 
