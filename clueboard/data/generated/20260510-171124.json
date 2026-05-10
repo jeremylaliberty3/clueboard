@@ -1,0 +1,399 @@
+{
+  "batch_id": "20260510-171124",
+  "generated_at": "2026-05-10T17:11:24.480Z",
+  "model": "claude-sonnet-4-6",
+  "categories": [
+    {
+      "title": "SILVER SCREEN QUOTES",
+      "theme": "Famous lines spoken in Hollywood films, clued by the film they come from",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Dory's three-word motivational mantra keeps the adventure going in this 2003 Pixar classic.",
+          "answer": "Just keep swimming.",
+          "source_id": "tapi:622a1c347cc59eab6f94fbbf"
+        },
+        {
+          "value": 400,
+          "clue": "Chief Brody utters this classic line after his first close-up look at the great white shark in this 1975 thriller.",
+          "answer": "You're gonna need a bigger boat.",
+          "source_id": "tapi:622a1c347cc59eab6f94fc2d"
+        },
+        {
+          "value": 600,
+          "clue": "Harrison Ford plays the whip-cracking archaeologist who first appeared on screen in 1981's Raiders of the Lost Ark.",
+          "answer": "Harrison Ford",
+          "source_id": "tapi:622a1c347cc59eab6f94fa27"
+        },
+        {
+          "value": 800,
+          "clue": "King Leonidas bellows this defiant battle cry to the Persian messenger in the 2006 film based on the Battle of Thermopylae.",
+          "answer": "This is Sparta!",
+          "source_id": "tapi:622a1c347cc59eab6f94fbc9"
+        },
+        {
+          "value": 1000,
+          "clue": "F. Scott Fitzgerald's narrator opens his famous novel with these words, later adapted to film — and this actress appeared in both that film and American Horror Story.",
+          "answer": "Kathy Bates",
+          "source_id": "tapi:622a1c377cc59eab6f950719"
+        }
+      ]
+    },
+    {
+      "title": "EUROPEAN CAPITALS & RIVERS",
+      "theme": "European capital cities and the rivers or geographic features associated with them",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This European capital, home to the Prado museum and Royal Palace, sits on the Manzanares River.",
+          "answer": "Madrid",
+          "source_id": "tapi:622a1c357cc59eab6f94fe10"
+        },
+        {
+          "value": 400,
+          "clue": "Transylvania, the famed region associated with Dracula lore, lies within this modern European country.",
+          "answer": "Romania",
+          "source_id": "tapi:622a1c3c7cc59eab6f951afd"
+        },
+        {
+          "value": 600,
+          "clue": "This Caribbean twin-island nation's capital, Port of Spain, sits on the Gulf of Paria.",
+          "answer": "Port of Spain",
+          "source_id": "tapi:623742aacb85f7ce9e949de4"
+        },
+        {
+          "value": 800,
+          "clue": "Norway adopted its constitution in this year, the same year Napoleon was exiled to Elba.",
+          "answer": "1814",
+          "source_id": "otdb:18vx1du"
+        },
+        {
+          "value": 1000,
+          "clue": "The Hindu Kush mountain range, stretching roughly 800 miles, runs primarily through this Central Asian country.",
+          "answer": "Afghanistan",
+          "source_id": "tapi:622a1c357cc59eab6f94fe5b"
+        }
+      ]
+    },
+    {
+      "title": "KITCHEN & COCKTAIL",
+      "theme": "Food and drink facts covering dishes, ingredients, and iconic cocktails",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Iceberg, Boston, and Bibb are all varieties of this leafy green used in salads.",
+          "answer": "Lettuce",
+          "source_id": "tapi:622a1c3b7cc59eab6f95164a"
+        },
+        {
+          "value": 400,
+          "clue": "This dark, dense German bread is made from rye and is a staple of Northern European cuisine.",
+          "answer": "Pumpernickel",
+          "source_id": "tapi:622a1c3b7cc59eab6f951613"
+        },
+        {
+          "value": 600,
+          "clue": "Borscht, the vibrant beet-based soup, is most closely associated with this country's cuisine.",
+          "answer": "Russia",
+          "source_id": "tapi:624c6141badf21197f98f76f"
+        },
+        {
+          "value": 800,
+          "clue": "A kipper is a smoked, split, and cured version of this common North Atlantic fish.",
+          "answer": "Herring",
+          "source_id": "tapi:622a1c367cc59eab6f9502c2"
+        },
+        {
+          "value": 1000,
+          "clue": "This gin-based cocktail, featuring cherry liqueur and pineapple juice, was invented at the Raffles Hotel in Singapore.",
+          "answer": "Singapore Sling",
+          "source_id": "tapi:6233880f0161109f922aac62"
+        }
+      ]
+    },
+    {
+      "title": "GREAT MINDS",
+      "theme": "Famous philosophers, authors, and artists and their landmark works or quotes",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This English author completed his beloved Middle-earth saga with 'The Return of the King.'",
+          "answer": "J. R. R. Tolkien",
+          "source_id": "tapi:622a1c397cc59eab6f950f3d"
+        },
+        {
+          "value": 400,
+          "clue": "Victor Hugo penned this novel set in medieval Paris, whose title character is the bell-ringer Quasimodo.",
+          "answer": "The Hunchback of Notre Dame",
+          "source_id": "tapi:622a1c397cc59eab6f950efe"
+        },
+        {
+          "value": 600,
+          "clue": "This Dutch Golden Age master painted the monumental group portrait known as 'Night Watch.'",
+          "answer": "Rembrandt van Rijn",
+          "source_id": "tapi:622a1c347cc59eab6f94fa27"
+        },
+        {
+          "value": 800,
+          "clue": "Rodin's sculpture 'The Kiss' immortalizes this pair of ill-fated medieval lovers from Dante's Inferno.",
+          "answer": "The Kiss",
+          "source_id": "tapi:6461403a4d46e537ca8cd98f"
+        },
+        {
+          "value": 1000,
+          "clue": "This Enlightenment philosopher declared 'Man is born free, but is everywhere in chains' in his 1762 work 'The Social Contract.'",
+          "answer": "Jean-Jacques Rousseau",
+          "source_id": "tapi:622a1c357cc59eab6f94fd06"
+        }
+      ]
+    },
+    {
+      "title": "SCIENCE CLASS",
+      "theme": "Science facts spanning physics, biology, astronomy, and natural phenomena",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Forked, sheet, and ball are three distinct types of this dramatic atmospheric electrical discharge.",
+          "answer": "Lightning",
+          "source_id": "tapi:622a1c3e7cc59eab6f9522e0"
+        },
+        {
+          "value": 400,
+          "clue": "The SI unit for electric current, named after a French physicist, is this.",
+          "answer": "Ampere",
+          "source_id": "otdb:1g0bo3b"
+        },
+        {
+          "value": 600,
+          "clue": "The colorful light displays seen near Earth's poles, caused by charged solar particles colliding with the atmosphere, share this name.",
+          "answer": "Aurora",
+          "source_id": "tapi:650570257a97013de78b5541"
+        },
+        {
+          "value": 800,
+          "clue": "This large spiral galaxy, the closest to our own Milky Way, is visible to the naked eye on clear nights.",
+          "answer": "Andromeda",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510a9"
+        },
+        {
+          "value": 1000,
+          "clue": "The Turritopsis dohrnii jellyfish is remarkable for being considered potentially biologically immortal, capable of reverting to its juvenile state — it is commonly called this.",
+          "answer": "Immortal jellyfish",
+          "source_id": "tapi:650570287a97013de78b5546"
+        }
+      ]
+    },
+    {
+      "title": "WILD KINGDOM",
+      "theme": "Collective nouns and vocabulary about animals",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This massive reptile kills its prey by coiling around it and squeezing — a method called constriction.",
+          "answer": "Python",
+          "source_id": "tapi:650570277a97013de78b5544"
+        },
+        {
+          "value": 400,
+          "clue": "Snakes and lizards flick their tongues primarily to perform this function.",
+          "answer": "Capture scent particles",
+          "source_id": "otdb:129hmh5"
+        },
+        {
+          "value": 600,
+          "clue": "The Greek words for 'river' and 'horse' combine to give us the common name of this large African mammal.",
+          "answer": "Hippopotamus",
+          "source_id": "otdb:1wyjdor"
+        },
+        {
+          "value": 800,
+          "clue": "A band of primates swinging through the jungle might collectively be called this — the same word used for a military unit.",
+          "answer": "A troop",
+          "source_id": "tapi:6242cb63d543524f1b19c929"
+        },
+        {
+          "value": 1000,
+          "clue": "Despite its fierce reputation, a group of bears shares its collective noun with this slow-moving insect-eating mammal.",
+          "answer": "A sloth",
+          "source_id": "tapi:6242caf8d543524f1b19c8ff"
+        }
+      ]
+    },
+    {
+      "title": "FOOD FOR THOUGHT",
+      "theme": "The origins, names, and ingredients of foods and drinks",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Italian almond liqueur takes its name from the Italian word for 'bitter'.",
+          "answer": "Amaretto",
+          "source_id": "tapi:622a1c3b7cc59eab6f95162a"
+        },
+        {
+          "value": 400,
+          "clue": "This wheel-shaped pasta's name literally means 'little wheels' in Italian.",
+          "answer": "Rotelle",
+          "source_id": "tapi:625006fb0d86c8f685d80f0b"
+        },
+        {
+          "value": 600,
+          "clue": "Known as the 'gold of the Incas,' this high-protein grain is related to spinach and has become a modern health-food staple.",
+          "answer": "Quinoa",
+          "source_id": "tapi:64e6fda00b79e5bedd55c8ca"
+        },
+        {
+          "value": 800,
+          "clue": "Bourbon, fresh mint, and sugar syrup are the three key ingredients in this classic Southern cocktail.",
+          "answer": "Mint Julep",
+          "source_id": "tapi:622a1c3b7cc59eab6f951607"
+        },
+        {
+          "value": 1000,
+          "clue": "Herb Peterson, a McDonald's franchisee, is credited with inventing this breakfast sandwich in 1971.",
+          "answer": "Egg McMuffin",
+          "source_id": "tapi:622a1c367cc59eab6f9503ea"
+        }
+      ]
+    },
+    {
+      "title": "EINSTEIN ON THE CASE",
+      "theme": "Facts about Albert Einstein's life and scientific legacy",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This simple formula, H₂O, describes the molecular makeup of water — a substance Einstein famously used in thought experiments about light.",
+          "answer": "H2O",
+          "source_id": "otdb:1e9hd8a"
+        },
+        {
+          "value": 400,
+          "clue": "Einstein learned mathematics in the 1890s under this professor, whose name was later given to four-dimensional spacetime.",
+          "answer": "Hermann Minkowski",
+          "source_id": "tapi:6242cb63d543524f1b19c929"
+        },
+        {
+          "value": 600,
+          "clue": "Einstein was awarded the 1921 Nobel Prize in Physics for his explanation of this phenomenon, not for relativity.",
+          "answer": "Photoelectric Effect",
+          "source_id": "otdb:1hon0s6"
+        },
+        {
+          "value": 800,
+          "clue": "The atomic mass of carbon — the backbone of organic chemistry — is this number.",
+          "answer": "12",
+          "source_id": "otdb:1ba1e93"
+        },
+        {
+          "value": 1000,
+          "clue": "Ozone, the molecule that shields Earth from ultraviolet radiation, has this molecular formula.",
+          "answer": "O3",
+          "source_id": "otdb:cj90g7"
+        }
+      ]
+    },
+    {
+      "title": "WORDS & WORLDS",
+      "theme": "Classic and landmark works of literature and their characters or authors",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tigger makes his first appearance in this beloved children's book set in the Hundred Acre Wood.",
+          "answer": "Winnie-the-Pooh",
+          "source_id": "tapi:645b69d8f09106226db23564"
+        },
+        {
+          "value": 400,
+          "clue": "The character Alonso Quijano is the real name of the title knight in this 17th-century Spanish novel.",
+          "answer": "Don Quixote",
+          "source_id": "tapi:622a1c3a7cc59eab6f9513a7"
+        },
+        {
+          "value": 600,
+          "clue": "In this Aldous Huxley dystopian novel, the words 'Mother' and 'Father' are considered obscene and are forbidden.",
+          "answer": "Brave New World",
+          "source_id": "tapi:6494b7cbd7601042f7eaa939"
+        },
+        {
+          "value": 800,
+          "clue": "The character Tuor, a mortal man who weds an elf and fathers Eärendil, appears in this posthumous Tolkien mythology.",
+          "answer": "The Silmarillion",
+          "source_id": "tapi:622a1c367cc59eab6f9501a7"
+        },
+        {
+          "value": 1000,
+          "clue": "The sprawling fantasy 'Earthsea' series, featuring the wizard Ged, was written by this American author.",
+          "answer": "Ursula K. Le Guin",
+          "source_id": "tapi:622a1c397cc59eab6f950eff"
+        }
+      ]
+    },
+    {
+      "title": "HIDDEN CAPITALS",
+      "theme": "Capital cities of countries around the world",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This northernmost borough of New York City shares its name with a county in Ireland.",
+          "answer": "Bronx",
+          "source_id": "otdb:1gmc1ss"
+        },
+        {
+          "value": 400,
+          "clue": "Ho Chi Minh City, Vietnam's largest metropolis, was known by this French colonial-era name before 1975.",
+          "answer": "Saigon",
+          "source_id": "otdb:1uzzywq"
+        },
+        {
+          "value": 600,
+          "clue": "This Balkan city on the Sava and Danube rivers serves as the capital of Serbia.",
+          "answer": "Belgrade",
+          "source_id": "tapi:62374238cb85f7ce9e949db6"
+        },
+        {
+          "value": 800,
+          "clue": "This East African capital is the seat of government for the world's newest nation, which gained independence in 2011.",
+          "answer": "Juba",
+          "source_id": "tapi:62374262cb85f7ce9e949dc7"
+        },
+        {
+          "value": 1000,
+          "clue": "This small kingdom, entirely surrounded by South Africa, is the only country in the world contained wholly within another country's borders.",
+          "answer": "Lesotho",
+          "source_id": "otdb:11gk4w6"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "LITERARY FIRST LINES",
+      "clue": "The celebrated opening — 'In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since' — begins this iconic American novel.",
+      "answer": "The Great Gatsby",
+      "source_id": "tapi:622a1c367cc59eab6f9501bf"
+    },
+    {
+      "title": "MOTOR RACING HISTORY",
+      "clue": "At the 2016 24 Hours of Le Mans, this legendary German automaker claimed victory, continuing its storied endurance racing legacy.",
+      "answer": "Porsche",
+      "source_id": "otdb:1skxtvm"
+    },
+    {
+      "title": "PHILOSOPHY OF FREEDOM",
+      "clue": "This French existentialist philosopher, author of 'Being and Nothingness,' famously declared that 'Man is condemned to be free,' suggesting freedom is an inescapable burden.",
+      "answer": "Jean-Paul Sartre",
+      "source_id": "tapi:622a1c357cc59eab6f94fd10"
+    },
+    {
+      "title": "SILVER SCREEN SHADOWS",
+      "clue": "In this 1950 Billy Wilder classic, she played faded silent-film star Norma Desmond, delivering the iconic line 'I am big — it's the pictures that got small.'",
+      "answer": "Gloria Swanson",
+      "source_id": "tapi:622a1c347cc59eab6f94f8cf"
+    },
+    {
+      "title": "REVOLUTIONARY INK",
+      "clue": "Though Karl Marx is the more famous name on the cover, this German philosopher and textile heir co-authored 'The Communist Manifesto' in 1848.",
+      "answer": "Friedrich Engels",
+      "source_id": "otdb:gh1n64"
+    }
+  ]
+}

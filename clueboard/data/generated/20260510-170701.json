@@ -1,0 +1,399 @@
+{
+  "batch_id": "20260510-170701",
+  "generated_at": "2026-05-10T17:07:01.583Z",
+  "model": "claude-sonnet-4-6",
+  "categories": [
+    {
+      "title": "BODY OF KNOWLEDGE",
+      "theme": "Facts about the human body and biology",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The human heart is divided into this many chambers, two atria and two ventricles.",
+          "answer": "4",
+          "source_id": "otdb:ia9m32"
+        },
+        {
+          "value": 400,
+          "clue": "The biggest distinction between a eukaryotic cell and a prokaryotic cell is the presence or absence of this organelle.",
+          "answer": "nucleus",
+          "source_id": "otdb:58rm54"
+        },
+        {
+          "value": 600,
+          "clue": "Unlike the left lung, which has two lobes, the human right lung has this many lobes.",
+          "answer": "3",
+          "source_id": "otdb:1xme0th"
+        },
+        {
+          "value": 800,
+          "clue": "This soft, purplish organ filters blood and stores platelets, and is located in the upper left abdomen.",
+          "answer": "spleen",
+          "source_id": "tapi:647f9dc33a4302a719271644"
+        },
+        {
+          "value": 1000,
+          "clue": "This copper-rich protein is responsible for the blue blood found in the Antarctic octopus.",
+          "answer": "hemocyanin",
+          "source_id": "otdb:hgv0w1"
+        }
+      ]
+    },
+    {
+      "title": "PEAKS & LEGENDS",
+      "theme": "Famous mountains and their cultural or historical significance",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Vatican City, the world's smallest country, is fully enclosed within this nation, home to the Colosseum and the Sistine Chapel.",
+          "answer": "Italy",
+          "source_id": "otdb:7wmt21"
+        },
+        {
+          "value": 400,
+          "clue": "Ancient Greeks believed this mountain, home of the gods, was the center of the Earth.",
+          "answer": "Mount Olympus",
+          "source_id": "tapi:646089a9de964ebc39016c64"
+        },
+        {
+          "value": 600,
+          "clue": "This dormant volcano is the highest peak in Turkey and is deeply tied to the country's national identity, even appearing on its coat of arms.",
+          "answer": "Mount Ararat",
+          "source_id": "tapi:6610278f5b813cab24c99f53"
+        },
+        {
+          "value": 800,
+          "clue": "The Danube River, flowing through ten European countries, empties into this body of water.",
+          "answer": "The Black Sea",
+          "source_id": "tapi:622a1c357cc59eab6f94fe51"
+        },
+        {
+          "value": 1000,
+          "clue": "Archaeologists consider this ancient city in the West Bank — whose name means 'City of the Moon' in Arabic — to be the world's oldest walled city.",
+          "answer": "Jericho",
+          "source_id": "tapi:622a1c367cc59eab6f9503a1"
+        }
+      ]
+    },
+    {
+      "title": "SCREEN LEGENDS",
+      "theme": "Actors and iconic roles in film history",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This actor played Bruce Wayne and his caped alter ego in Tim Burton's 1989 blockbuster 'Batman'.",
+          "answer": "Michael Keaton",
+          "source_id": "otdb:1mwm1zk"
+        },
+        {
+          "value": 400,
+          "clue": "The Shawshank Redemption, widely regarded as one of the greatest films ever made, was released in this year.",
+          "answer": "1994",
+          "source_id": "tapi:625fd64adc0dd3b72da64ce5"
+        },
+        {
+          "value": 600,
+          "clue": "This Spanish actress, known for her collaborations with director Pedro Almodóvar, starred in both 'Volver' and 'All About My Mother'.",
+          "answer": "Penélope Cruz",
+          "source_id": "tapi:622a1c377cc59eab6f950738"
+        },
+        {
+          "value": 800,
+          "clue": "Peter Cushing portrayed Baron Victor Frankenstein in this 1957 Hammer horror film.",
+          "answer": "The Curse of Frankenstein",
+          "source_id": "otdb:1kv9wlb"
+        },
+        {
+          "value": 1000,
+          "clue": "Frances McDormand took home the Academy Award for Best Leading Actress in 2021 for playing this character in the film 'Nomadland'.",
+          "answer": "Fern",
+          "source_id": "tapi:622a1c347cc59eab6f94faf3"
+        }
+      ]
+    },
+    {
+      "title": "DOT COM GEOGRAPHY",
+      "theme": "Country-code top-level domains (.xx) matched to their nations",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The country-code domain '.ru' belongs to Russia; this Southeast Asian nation claims '.th' as its own.",
+          "answer": "Thailand",
+          "source_id": "tapi:623735f1cfe13103f55eb585"
+        },
+        {
+          "value": 400,
+          "clue": "Web addresses ending in '.nl' belong to this Western European nation, home to Amsterdam and the Rijksmuseum.",
+          "answer": "Netherlands",
+          "source_id": "tapi:62373594cfe13103f55eb547"
+        },
+        {
+          "value": 600,
+          "clue": "The country-code top-level domain '.sa' is registered to this oil-rich Middle Eastern kingdom.",
+          "answer": "Saudi Arabia",
+          "source_id": "tapi:623735c9cfe13103f55eb56b"
+        },
+        {
+          "value": 800,
+          "clue": "Alberta is a Canadian province, NOT an Australian state — this continent's territories use domains like '.au', while Alberta's country uses '.ca'.",
+          "answer": "Alberta",
+          "source_id": "otdb:10x6hug"
+        },
+        {
+          "value": 1000,
+          "clue": "The capital of this island nation off the southeast coast of Africa is Antananarivo, one of the longest capital city names in the world.",
+          "answer": "Madagascar",
+          "source_id": "tapi:6237413acb85f7ce9e949d50"
+        }
+      ]
+    },
+    {
+      "title": "FOOD FOR THOUGHT",
+      "theme": "Culinary facts about dishes, ingredients, and drinks",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This classic candy's marketing slogan invites you to 'Taste the rainbow.'",
+          "answer": "Skittles",
+          "source_id": "tapi:62628850014f58b5fc1a3fd5"
+        },
+        {
+          "value": 400,
+          "clue": "Marzipan, the confection used in pastries and sculpted decorations, is made primarily from these ground nuts.",
+          "answer": "almonds",
+          "source_id": "tapi:622a1c367cc59eab6f9502ad"
+        },
+        {
+          "value": 600,
+          "clue": "This refreshing yogurt-based drink — often blended with fruit, spices, or rose water — originated in India.",
+          "answer": "lassi",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515d0"
+        },
+        {
+          "value": 800,
+          "clue": "Scotland is the country most closely associated with this amber spirit, distilled from malted grain and aged in oak barrels.",
+          "answer": "whisky",
+          "source_id": "tapi:627164241ba117625baac94a"
+        },
+        {
+          "value": 1000,
+          "clue": "This Scandinavian delicacy consists of raw salmon cured without heat in a mixture of salt, sugar, and dill.",
+          "answer": "gravlax",
+          "source_id": "tapi:6477ba9d550bc819ad646ae3"
+        }
+      ]
+    },
+    {
+      "title": "THAT'S ITALIAN!",
+      "theme": "Things associated with Italy or the Italian language",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The legendary sports cars of this brand, including the F40 and Testarossa, are manufactured in Maranello, Italy.",
+          "answer": "Ferrari",
+          "source_id": "otdb:qc1q7x"
+        },
+        {
+          "value": 400,
+          "clue": "This Italian grape-based spirit, often sipped after dinner, is distilled from the skins and seeds left over from winemaking.",
+          "answer": "Grappa",
+          "source_id": "tapi:62716477d5d487fbab6b795a"
+        },
+        {
+          "value": 600,
+          "clue": "In Italian, this single word means the color 'green,' and is also familiar to English speakers as the name of a popular coffee chain's color palette.",
+          "answer": "Verde",
+          "source_id": "tapi:6266e5d0ff2394bd44dee01b"
+        },
+        {
+          "value": 800,
+          "clue": "This UNESCO-listed Berber oasis town in Libya, known for its ancient mud-brick architecture, shares its name with a region of North Africa long tied to trans-Saharan trade — but it sits in Libya, not Italy, unlike the desert drink that inspired many Italian travelers.",
+          "answer": "Ghadames",
+          "source_id": "tapi:623b5809fd6c701a92118393"
+        },
+        {
+          "value": 1000,
+          "clue": "Despite widespread belief, the Italian word for 'blue' is spelled this way — often misspelled by English speakers who assume it matches the French 'azur.'",
+          "answer": "Azuro",
+          "source_id": "tapi:6266e5a7ff2394bd44dee00f"
+        }
+      ]
+    },
+    {
+      "title": "OSCAR GOLD",
+      "theme": "Academy Award winners for acting roles",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Contrary to popular belief, Leonardo DiCaprio did NOT win an Oscar for Best Actor for his role in the 2004 Howard Hughes biopic 'The Aviator.'",
+          "answer": "False",
+          "source_id": "otdb:150rg1a"
+        },
+        {
+          "value": 400,
+          "clue": "This actress took home the 2016 Best Supporting Actress Oscar for her powerful portrayal of Rose Maxson opposite Denzel Washington in the film adaptation of August Wilson's 'Fences.'",
+          "answer": "Viola Davis",
+          "source_id": "tapi:622a1c347cc59eab6f94fa90"
+        },
+        {
+          "value": 600,
+          "clue": "He won the 2018 Best Supporting Actor Oscar for his role as classical pianist Dr. Donald Shirley in 'Green Book,' a film that also took home Best Picture.",
+          "answer": "Mahershala Ali",
+          "source_id": "tapi:622a1c387cc59eab6f950863"
+        },
+        {
+          "value": 800,
+          "clue": "This actor claimed the 2008 Best Leading Actor Oscar for his portrayal of slain San Francisco politician Harvey Milk in Gus Van Sant's biographical film.",
+          "answer": "Sean Penn",
+          "source_id": "otdb:1bpo5v"
+        },
+        {
+          "value": 1000,
+          "clue": "At the 2023 ceremony, the Oscars broke over 60 years of tradition when this famous pre-show walkway was changed from its iconic red color to a champagne hue.",
+          "answer": "The red carpet changed to a champagne carpet",
+          "source_id": "tapi:640d9ebb1a5b01e4d214a41c"
+        }
+      ]
+    },
+    {
+      "title": "ROYAL HEADACHES",
+      "theme": "British monarchs and their historical moments",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A classic mnemonic helps students remember the fates of Henry VIII's six wives in order: Divorced, Beheaded, Died, Divorced, Beheaded, and this final fate.",
+          "answer": "Survived",
+          "source_id": "otdb:ndrxwb"
+        },
+        {
+          "value": 400,
+          "clue": "This king of England, who died in 1547, is remembered for his six marriages and was survived by his final wife, Catherine Parr.",
+          "answer": "Henry VIII",
+          "source_id": "tapi:6470d79b423445f16131b4d0"
+        },
+        {
+          "value": 600,
+          "clue": "This British monarch sat on the throne during the entire American War of Independence from 1775 to 1783.",
+          "answer": "George III",
+          "source_id": "tapi:63a039cfc7d86251f9b65cba"
+        },
+        {
+          "value": 800,
+          "clue": "The famous exasperated phrase 'Will no one rid me of this turbulent priest?' — reportedly leading to the murder of Archbishop Thomas Becket — is attributed to this medieval English king.",
+          "answer": "Henry II",
+          "source_id": "tapi:622a1c367cc59eab6f95037b"
+        },
+        {
+          "value": 1000,
+          "clue": "Mussolini's Italy invaded this African nation in 1935, an act of aggression that weakened the League of Nations and drew global condemnation.",
+          "answer": "Ethiopia",
+          "source_id": "tapi:622a1c3c7cc59eab6f951ac6"
+        }
+      ]
+    },
+    {
+      "title": "SMALL BUT MIGHTY",
+      "theme": "Things that are smaller versions or smaller forms of something larger",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This woodwind instrument is essentially a half-sized flute, pitched an octave higher, and is the highest-voiced instrument in a standard orchestra.",
+          "answer": "Piccolo",
+          "source_id": "otdb:1grgbk3"
+        },
+        {
+          "value": 400,
+          "clue": "In mathematics, this single letter from the alphabet represents the imaginary unit — the square root of negative one.",
+          "answer": "i",
+          "source_id": "otdb:8iqm84"
+        },
+        {
+          "value": 600,
+          "clue": "This tiny island nation south of India is nicknamed the 'teardrop of India' for both its location off the subcontinent's southern tip and its distinctive shape.",
+          "answer": "Sri Lanka",
+          "source_id": "tapi:6498912f0752843c0d8aadea"
+        },
+        {
+          "value": 800,
+          "clue": "Andorra is one of Europe's smallest nations, sandwiched between Spain and this other country that forms its northern border.",
+          "answer": "France",
+          "source_id": "tapi:622a1c387cc59eab6f950adf"
+        },
+        {
+          "value": 1000,
+          "clue": "The domestic apple tree goes by this two-word Linnean scientific name, a far cry from the grand orchards it produces.",
+          "answer": "Malus pumila",
+          "source_id": "otdb:1nufj0d"
+        }
+      ]
+    },
+    {
+      "title": "WORD NERDS",
+      "theme": "Definitions, vocabulary, and linguistic trivia",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This short word is what the French word 'qui' translates to in English.",
+          "answer": "Who",
+          "source_id": "tapi:64b9a297fa11352f5124c35f"
+        },
+        {
+          "value": 400,
+          "clue": "In Portuguese, the word 'quatro' means this number.",
+          "answer": "Four",
+          "source_id": "tapi:6266e657ff2394bd44dee043"
+        },
+        {
+          "value": 600,
+          "clue": "A 'diphthong' is the linguistic term for two vowel sounds joined in one syllable, as heard in the 'ou' of 'out' or the 'oy' of this word meaning a young male.",
+          "answer": "Diphthong",
+          "source_id": "tapi:622a1c357cc59eab6f94fca0"
+        },
+        {
+          "value": 800,
+          "clue": "This adjective, meaning 'sad or miserable in appearance,' combines two smaller words and sounds like something straight out of a Victorian novel.",
+          "answer": "Woebegone",
+          "source_id": "tapi:622a1c357cc59eab6f94fc54"
+        },
+        {
+          "value": 1000,
+          "clue": "This verb, meaning 'to treat someone like a celebrity,' shares its root with the king of the jungle.",
+          "answer": "Lionize",
+          "source_id": "tapi:645cb19b7d263fd5097043ec"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "CROWNING ACHIEVEMENT",
+      "clue": "On Christmas Day in the year 800 AD, this pope placed the imperial crown on the head of Charlemagne, establishing him as Holy Roman Emperor.",
+      "answer": "Pope Leo III",
+      "source_id": "otdb:4khib"
+    },
+    {
+      "title": "FIRST IN THE CHEST",
+      "clue": "Performed in 1967, this medical milestone was the world's first successful operation of its kind — a surgeon replaced a dying patient's most vital organ with a donor's.",
+      "answer": "heart transplant",
+      "source_id": "tapi:62611f714b176d54800e3d59"
+    },
+    {
+      "title": "SPAGHETTI SEQUENCE",
+      "clue": "Director Sergio Leone's 'Dollars Trilogy' consists of three Westerns released between 1964 and 1966. Name all three films in order of release to win.",
+      "answer": "A Fistful of Dollars, For a Few Dollars More, The Good the Bad and the Ugly",
+      "source_id": "otdb:1p62cpl"
+    },
+    {
+      "title": "SCIENCE DEEP CUTS",
+      "clue": "Autosomal-dominant Compelling Helio-Ophthalmic Outburst syndrome — mercifully acronymed ACHOO — is the scientific name for the uncontrollable urge to do this when suddenly exposed to bright sunlight.",
+      "answer": "Sneeze",
+      "source_id": "otdb:1oj7eqr"
+    },
+    {
+      "title": "HISTORY'S REBELS",
+      "clue": "In early 19th-century England, the original members of this movement were not opponents of technology in general but were skilled craftsmen in this specific industry who smashed machinery that threatened their livelihoods — lending their name to modern anti-tech sentiment.",
+      "answer": "Textile",
+      "source_id": "otdb:1bpo5v"
+    }
+  ]
+}

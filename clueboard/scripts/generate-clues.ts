@@ -68,37 +68,106 @@ const SYSTEM_PROMPT = `You are the writer's room for Clueboard, a daily trivia g
 
 Your job is to take verified factual question/answer pairs and rewrite them as Jeopardy-style clues, organized into clever categories with appropriate difficulty progression.
 
-CLUE STYLE — every clue must be:
-- A DECLARATIVE STATEMENT, never a question. ("This Italian explorer landed in the Bahamas in 1492" — not "Who landed in the Bahamas in 1492?")
-- 1–2 sentences, ~80–180 characters.
-- Phrased so the correct answer is unambiguous. Players type one short response.
-- Self-contained. No "see the picture", "as shown", "above", "audio", or other media references.
-- Free of trademark or show-specific phrasing. Don't say "Jeopardy!" or "Final Jeopardy!".
+═══════════════════════════════════════════════════════
+META-RULE: QUALITY OVER QUANTITY
+═══════════════════════════════════════════════════════
 
-ANSWER STYLE — every answer must be:
-- A short, canonical form of the source fact's correct answer.
-- Without "What is" / "Who is" / "The" prefix (we'll handle those in our matcher).
-- Spelled clearly. Use the most-recognized spelling (e.g. "Tchaikovsky", not "Chaikovsky").
+The caller asks for N categories but DOES NOT WANT N IF THE THEMES DON'T FIT.
 
-CATEGORY STYLE — every category must:
-- Have an evocative TITLE in ALL CAPS, 3–30 characters. Wordplay welcome ("POTENT POTABLES", "STARTS & ENDS WITH 'A'", "BEFORE & AFTER", "19TH-CENTURY DOUBLE-TAKES").
-- Have an internal THEME — a topic, era, format, wordplay constraint, etc. — that ties all 5 clues together.
-- Have exactly 5 clues at $200, $400, $600, $800, $1000, with monotonically increasing difficulty.
-- Each clue uses a DIFFERENT source fact. No fact may be used twice in a single category.
+The caller silently discards any category that has fewer than 5 clues. So if a theme can only support 3 strong clues, returning a 3-clue category throws away your whole effort. Don't pad — pick a different theme that you can genuinely fill 5 strong clues for.
 
-DIFFICULTY GUIDELINES:
-- $200: well-known, taught in school, widely-shared cultural knowledge.
-- $400: still common knowledge but requires a moment.
-- $600: educated-adult level, may require domain familiarity.
-- $800: niche or specialized; a real challenge for a casual player.
-- $1000: hardest tier; rewards deep familiarity, wordplay, or lateral thinking.
+Returning fewer categories than requested is the CORRECT, EXPECTED behavior when source facts don't support more. The user would rather have 5 great categories than 10 mixed-quality ones.
 
-GROUNDING RULE (critical):
-- Every clue you write MUST be grounded in one of the source facts I provide. The clue's answer must match the source fact's answer (or a clearly equivalent canonical form).
-- Include the source_id of the fact you used. This lets us audit accuracy.
-- If a category needs 5 facts and you only see 4 fitting ones, DROP the category. Don't pad with facts that don't fit.
+═══════════════════════════════════════════════════════
+THE SIX INVIOLABLE RULES
+═══════════════════════════════════════════════════════
 
-FORMAT — return ONLY valid strict JSON. No prose before or after. No markdown fences. The exact shape:
+RULE 1 — STAY ON THEME.
+Every single clue in a category MUST satisfy that category's theme. The theme is a hard constraint, not a vibe. Before finalizing each clue, mentally test: "If a player saw this clue under this category title, would they nod or be confused?" If confused — drop that clue and find a different source fact.
+
+THEMES MUST DECLARE THE ANSWER TYPE. Bad theme: "Famous movie quotes." (What's the answer — the quote? the film? the actor?) Good theme: "Famous movie quotes — answer is the FILM TITLE in which the line was spoken."
+
+If you can't write the theme as "[topic] — answer is [the X]", reject the theme.
+
+RULE 2 — GROUNDING IS MECHANICAL.
+The clue's answer MUST match the source fact's answer in canonical form (allowing only minor formatting like dropping "the" or fixing capitalization). You may NOT:
+- invent details beyond what the source fact establishes
+- change spellings into something the fact didn't say
+- combine facts from multiple sources into one clue
+- use a source fact whose answer doesn't fit your intended clue
+
+If you find yourself wanting to write something the source fact doesn't support, pick a different source fact instead.
+
+RULE 3 — ANSWER FORM.
+Every answer must be ONE of these forms:
+- A proper noun (person, place, work, brand)
+- A common noun phrase (1–4 words)
+- A number, year, or simple count
+- A single-word verb or adjective for wordplay categories
+
+NEVER:
+- A full sentence or clause ("The red carpet changed to a champagne carpet")
+- "True" or "False"
+- A list of multiple things ("A Fistful of Dollars, For a Few Dollars More, ...")
+- The literal word the clue is defining (no circular definitions)
+
+If the source fact's answer is in a forbidden form, skip that fact.
+
+RULE 4 — CLUE FORM.
+Every clue must be:
+- A DECLARATIVE STATEMENT, never a question. ("This Italian explorer landed in the Bahamas in 1492." — not "Who landed in the Bahamas?")
+- 1–2 sentences, roughly 60–200 characters.
+- Self-contained. No references to images, audio, video, "above", "below", or "shown".
+- Free of show-specific trademarks. Don't say "Jeopardy!" or "Final Jeopardy!".
+- Phrased so a knowledgeable player can give one short canonical response. No riddles whose answer is a full sentence.
+
+RULE 5 — DIFFICULTY MONOTONICITY.
+Within each category the 5 clues must ramp from $200 (easy / school-level / pop-culture-common) up through $1000 (hard / specialized / rewards depth). Don't put a hard clue at $200 or a giveaway at $1000. The leap from $800 to $1000 should be noticeable.
+
+RULE 6 — NO ANSWER LEAKAGE.
+The answer string MUST NOT appear as a case-insensitive substring inside the clue text. If you write a clue and the answer is sitting in the clue, REWRITE the clue. Bad: clue "Rodin's sculpture 'The Kiss' depicts...", answer "The Kiss". Good: clue "Rodin's marble sculpture depicts the doomed lovers Paolo and Francesca locked in this affectionate act.", answer "The Kiss".
+
+Same goes for proper nouns: if the answer is a person's name and that name appears in the clue, that's leakage. Rewrite or pick a different fact.
+
+═══════════════════════════════════════════════════════
+WORKED EXAMPLE — what GOOD output looks like
+═══════════════════════════════════════════════════════
+
+Theme: "World capitals on rivers"
+$200  This British capital, home of Big Ben, sits on the Thames.                        → London
+$400  France's capital, host of the 2024 Olympics, sits on the Seine.                   → Paris
+$600  Hungary's capital, an amalgam of two cities on the Danube, has thermal baths.     → Budapest
+$800  This Russian capital, the world's northernmost capital with over 1M people, sits at the mouth of the Daugava... wait, that's Riga. Skip.
+$800  Iraq's capital, founded in 762 AD on the Tigris, was the heart of the Abbasid caliphate. → Baghdad
+$1000 Mali's capital, sitting on the Niger, shares its name with a hippopotamus.        → Bamako
+
+Notice: every clue mentions a river (theme honored), every answer is a single proper noun, the difficulty ramps. The model recognized a misfit and corrected mid-flight. That's the standard.
+
+═══════════════════════════════════════════════════════
+ANTI-PATTERNS — REJECT YOUR OWN OUTPUT IF
+═══════════════════════════════════════════════════════
+
+✗  A clue's answer is "True", "False", a sentence, or a list of items.
+✗  A clue defines its own answer ("This term, 'diphthong', refers to...") → the answer would just be "diphthong". Circular. Reject.
+✗  A category's theme is "British monarchs" but the $1000 clue is about Mussolini.
+✗  You invent a word that isn't in the source fact (e.g. claiming Italian for "blue" is "Azuro" when no source says so).
+✗  A clue requires the player to type more than ~5 words to answer.
+✗  Two clues in the same category use the same source fact.
+
+═══════════════════════════════════════════════════════
+CATEGORY STYLE
+═══════════════════════════════════════════════════════
+
+- TITLE in ALL CAPS, 3–30 characters. Wordplay welcome: "POTENT POTABLES", "STARTS & ENDS WITH 'A'", "BEFORE & AFTER", "19TH-CENTURY DOUBLE-TAKES", "STATE-IFIED CAPITALS".
+- THEME is a sentence the model writes for itself describing the unifying constraint. Treat it as a contract with the reader.
+- Mix category types across a batch: some knowledge (a topic, an era), some wordplay (sound, structure), some format ("answers all start with a vowel", "answers are all 4-letter words").
+
+═══════════════════════════════════════════════════════
+OUTPUT FORMAT
+═══════════════════════════════════════════════════════
+
+Return ONLY strict JSON, no markdown fences, no prose. The exact shape:
+
 {
   "categories": [
     {
@@ -121,7 +190,9 @@ FORMAT — return ONLY valid strict JSON. No prose before or after. No markdown 
       "source_id": "tapi:..."
     }
   ]
-}`;
+}
+
+Categories with fewer than 5 clues will be discarded by the caller. Returning 6 strong categories is better than 10 mixed-quality ones.`;
 
 const USER_PROMPT_TEMPLATE = (
   numCategories: number,
@@ -156,11 +227,29 @@ function shuffle<T>(arr: T[]): T[] {
   return out;
 }
 
+// Reject facts whose answer can't be cleanly used as a Jeopardy-style answer.
+// These slip through OTDB's true/false questions and Trivia API answers
+// that are full sentences or multi-item lists.
+function isUsableFact(f: SourceFact): boolean {
+  const a = f.answer.trim();
+  if (!a) return false;
+  if (a.length > 60) return false;                  // too long for a clean answer
+  if (/^(true|false)$/i.test(a)) return false;       // boolean
+  if (/[.!?]$/.test(a) && a.split(" ").length > 4) return false; // sentence
+  if (/,\s|\sand\s|\sor\s|;/.test(a)) return false;  // list/multi-part
+  if (a.split(" ").length > 6) return false;         // verbose phrase
+  // Question text must not depend on media references the player can't see.
+  const q = f.question.toLowerCase();
+  if (/\b(pictured|shown|above|below|this image|this picture|this audio|this video|highlighted|seen here)\b/.test(q)) return false;
+  return true;
+}
+
 function pickFacts(all: SourceFact[], n: number): SourceFact[] {
+  const usable = all.filter(isUsableFact);
   // Stratify by difficulty to give Claude balanced material to choose from.
-  const easy = shuffle(all.filter((f) => f.difficulty === "easy"));
-  const med = shuffle(all.filter((f) => f.difficulty === "medium"));
-  const hard = shuffle(all.filter((f) => f.difficulty === "hard"));
+  const easy = shuffle(usable.filter((f) => f.difficulty === "easy"));
+  const med = shuffle(usable.filter((f) => f.difficulty === "medium"));
+  const hard = shuffle(usable.filter((f) => f.difficulty === "hard"));
   const each = Math.floor(n / 3);
   return shuffle([...easy.slice(0, each), ...med.slice(0, each), ...hard.slice(0, n - 2 * each)]);
 }
@@ -252,8 +341,48 @@ async function main() {
       continue;
     }
 
-    const newCats = (parsed.categories ?? []).filter((c) => c.clues?.length === 5);
-    const newFinals = parsed.finals ?? [];
+    // Mechanical post-generation filters: catch the failure modes Claude
+    // sometimes slips on despite the prompt — answer leakage, sentence
+    // answers, list answers. Drop offending clues; drop the whole category
+    // if it falls below 5.
+    const validateAnswer = (answer: string) => {
+      const a = answer.trim();
+      if (!a || a.length > 60) return false;
+      if (/^(true|false)$/i.test(a)) return false;
+      if (/[.!?]$/.test(a) && a.split(" ").length > 4) return false;
+      if (/,\s|\sand\s|\sor\s|;/.test(a) && a.split(" ").length > 5) return false;
+      return true;
+    };
+    const noLeak = (clue: string, answer: string) => {
+      // Reject if the answer appears verbatim (case-insensitive) inside the clue.
+      // Allow very short answers (1–3 chars) since those create false positives.
+      if (answer.length <= 3) return true;
+      return !clue.toLowerCase().includes(answer.toLowerCase());
+    };
+
+    let droppedClues = 0, droppedCats = 0, droppedFinals = 0;
+    const cleanedCats = (parsed.categories ?? []).map((c) => {
+      const before = c.clues?.length ?? 0;
+      const cleaned = (c.clues ?? []).filter((cl) => {
+        if (!validateAnswer(cl.answer)) { droppedClues++; return false; }
+        if (!noLeak(cl.clue, cl.answer)) { droppedClues++; return false; }
+        return true;
+      });
+      if (cleaned.length < 5) droppedCats++;
+      return { ...c, clues: cleaned };
+    }).filter((c) => c.clues.length === 5);
+
+    const cleanedFinals = (parsed.finals ?? []).filter((f) => {
+      if (!validateAnswer(f.answer)) { droppedFinals++; return false; }
+      if (!noLeak(f.clue, f.answer)) { droppedFinals++; return false; }
+      return true;
+    });
+    if (droppedClues || droppedCats || droppedFinals) {
+      console.log(`  filters: dropped ${droppedClues} clues, ${droppedCats} categories, ${droppedFinals} finals`);
+    }
+
+    const newCats = cleanedCats;
+    const newFinals = cleanedFinals;
     collectedCategories.push(...newCats);
     collectedFinals.push(...newFinals);
     remainingCategories -= newCats.length;

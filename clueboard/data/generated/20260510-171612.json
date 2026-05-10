@@ -1,0 +1,399 @@
+{
+  "batch_id": "20260510-171612",
+  "generated_at": "2026-05-10T17:16:12.295Z",
+  "model": "claude-sonnet-4-6",
+  "categories": [
+    {
+      "title": "DOCTOR'S ORDERS",
+      "theme": "Clues about medicine, anatomy, and biology — answer is a scientific term or name",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This branch of science studies the development of a fertilized egg into a fetus.",
+          "answer": "Embryology",
+          "source_id": "tapi:645cb12a602ff42ca52fb428"
+        },
+        {
+          "value": 400,
+          "clue": "Jonas Salk is celebrated for developing a vaccine against this crippling disease.",
+          "answer": "Polio",
+          "source_id": "tapi:63d9531d168979b94b2e4f9d"
+        },
+        {
+          "value": 600,
+          "clue": "Cardiologists spend their careers studying this vital organ.",
+          "answer": "The heart",
+          "source_id": "tapi:622a1c377cc59eab6f95057f"
+        },
+        {
+          "value": 800,
+          "clue": "This tiny cell organelle is responsible for protein synthesis and is sometimes confused with the nucleus's job of housing DNA.",
+          "answer": "Ribosomes",
+          "source_id": "otdb:nfqg8k"
+        },
+        {
+          "value": 1000,
+          "clue": "Orthopedic surgeons refer to the kneecap by this Latin scientific name.",
+          "answer": "Patella",
+          "source_id": "otdb:a29kdp"
+        }
+      ]
+    },
+    {
+      "title": "ONE-HIT WONDERS",
+      "theme": "Clues about notable songs and their performing artists — answer is the song title or artist name as specified",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Elvis Presley classic features the lyric 'Everybody in the whole cell block was dancin' to the...' — name the song.",
+          "answer": "Jailhouse Rock",
+          "source_id": "tapi:6463394601d576cfac3aa32b"
+        },
+        {
+          "value": 400,
+          "clue": "Pat Benatar implored listeners to 'Hit Me With Your' this, in her rock anthem.",
+          "answer": "Best Shot",
+          "source_id": "tapi:622a1c357cc59eab6f94fdce"
+        },
+        {
+          "value": 600,
+          "clue": "Mariah Carey released this self-titled ballad as a single, later sampling it for a famous remix — it's also a word for strong feelings.",
+          "answer": "Emotions",
+          "source_id": "tapi:622a1c357cc59eab6f94fedc"
+        },
+        {
+          "value": 800,
+          "clue": "Norman Greenbaum rode this gospel-tinged 1969 track all the way to the top of the charts.",
+          "answer": "Spirit in the Sky",
+          "source_id": "tapi:625064bbe12f6dec240bdfc9"
+        },
+        {
+          "value": 1000,
+          "clue": "Lipps, Inc. scored a massive disco hit in 1980 with this song, named after a fictional city where everyone dances.",
+          "answer": "Funkytown",
+          "source_id": "tapi:62506485e12f6dec240bdfb9"
+        }
+      ]
+    },
+    {
+      "title": "EIGHT IS ENOUGH",
+      "theme": "Clues where the correct answer is the number eight or a thing associated with eight — answer must be the word or phrase that equals or represents eight",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In a standard game of pool, this is the color of the ball numbered eight.",
+          "answer": "Black",
+          "source_id": "tapi:622a1c367cc59eab6f950092"
+        },
+        {
+          "value": 400,
+          "clue": "A horse race is measured in furlongs; this many furlongs make exactly one mile.",
+          "answer": "Eight",
+          "source_id": "otdb:oidlld"
+        },
+        {
+          "value": 600,
+          "clue": "The Z tile in Scrabble is worth this many points.",
+          "answer": "10",
+          "source_id": "otdb:mf3411"
+        },
+        {
+          "value": 800,
+          "clue": "This is the German word for the number eight.",
+          "answer": "Acht",
+          "source_id": "tapi:6266e69bff2394bd44dee057"
+        },
+        {
+          "value": 1000,
+          "clue": "A large-format wine bottle called a Methuselah holds this many standard 750 ml bottles' worth of wine.",
+          "answer": "Eight",
+          "source_id": "tapi:622a1c367cc59eab6f9502e8"
+        }
+      ]
+    },
+    {
+      "title": "BODY OF KNOWLEDGE",
+      "theme": "Human anatomy and biological terms — answer is the anatomical or biological term",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This muscular organ has four chambers and pumps blood throughout the body.",
+          "answer": "Heart",
+          "source_id": "otdb:ia9m32"
+        },
+        {
+          "value": 400,
+          "clue": "Deoxyribonucleic acid is the full name of this famous double-helix molecule found in every cell.",
+          "answer": "DNA",
+          "source_id": "tapi:622a1c3e7cc59eab6f95231a"
+        },
+        {
+          "value": 600,
+          "clue": "Singers rely on this structure, the biological name for the voice box, to produce sound.",
+          "answer": "Larynx",
+          "source_id": "tapi:622a1c3a7cc59eab6f951040"
+        },
+        {
+          "value": 800,
+          "clue": "The term for a mutually beneficial relationship between two different species living together.",
+          "answer": "Symbiosis",
+          "source_id": "tapi:622a1c3f7cc59eab6f952397"
+        },
+        {
+          "value": 1000,
+          "clue": "A clear, watery fluid called the 'aqueous humor' is found inside this sensory organ.",
+          "answer": "Eye",
+          "source_id": "tapi:622a1c3e7cc59eab6f95222f"
+        }
+      ]
+    },
+    {
+      "title": "WRITTEN IN HISTORY",
+      "theme": "Famous works of literature and their authors — answer is the author's name",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Bard of Avon penned the enchanted forest comedy 'A Midsummer Night's Dream'.",
+          "answer": "William Shakespeare",
+          "source_id": "tapi:622a1c397cc59eab6f950e0e"
+        },
+        {
+          "value": 400,
+          "clue": "A subtitle reading 'The Modern Prometheus' belongs to this Gothic novel about a creature assembled from corpse parts.",
+          "answer": "Frankenstein",
+          "source_id": "otdb:1madx8k"
+        },
+        {
+          "value": 600,
+          "clue": "This Colorado-born author penned the bestselling young adult tearjerker about teens Hazel and Augustus.",
+          "answer": "John Green",
+          "source_id": "otdb:ei29nv"
+        },
+        {
+          "value": 800,
+          "clue": "The dystopian cyberpunk novel 'Neuromancer,' which coined the term 'cyberspace,' was written by this author.",
+          "answer": "William Gibson",
+          "source_id": "tapi:622a1c397cc59eab6f950e5f"
+        },
+        {
+          "value": 1000,
+          "clue": "The novel that opens with the line 'Stately, plump Buck Mulligan came from the stairhead' was written by this Irish modernist.",
+          "answer": "James Joyce",
+          "source_id": "tapi:622a1c367cc59eab6f9501ca"
+        }
+      ]
+    },
+    {
+      "title": "WORLD ON THE MAP",
+      "theme": "Geography questions about cities, countries, and landmarks — answer is a place name",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This South American nation is home to the megacity of São Paulo.",
+          "answer": "Brazil",
+          "source_id": "tapi:62602d884b176d54800e3c9f"
+        },
+        {
+          "value": 400,
+          "clue": "The notorious former island prison Alcatraz sits in the bay just off this California city.",
+          "answer": "San Francisco",
+          "source_id": "tapi:622a1c357cc59eab6f94ff97"
+        },
+        {
+          "value": 600,
+          "clue": "The Hagia Sophia, originally a Byzantine cathedral and later a mosque, stands in this city that straddles two continents.",
+          "answer": "Istanbul",
+          "source_id": "tapi:639c9d90929b90846f2fc951"
+        },
+        {
+          "value": 800,
+          "clue": "This mountain range, running roughly east to west, forms the natural border between Spain and France.",
+          "answer": "Pyrenees",
+          "source_id": "otdb:1xyhaoa"
+        },
+        {
+          "value": 1000,
+          "clue": "This West African capital city shares its name with the concept of liberty, reflecting its founding by freed slaves.",
+          "answer": "Freetown",
+          "source_id": "tapi:622a1c357cc59eab6f94ff87"
+        }
+      ]
+    },
+    {
+      "title": "WORDS FROM THE ANCIENTS",
+      "theme": "English words, phrases, or concepts derived from ancient Greek or Latin — answer is the English word or concept",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This eight-sided geometric shape takes its name from the Greek word for 'eight angles'.",
+          "answer": "Octagon",
+          "source_id": "otdb:1wee4u2"
+        },
+        {
+          "value": 400,
+          "clue": "Named after the Greek goddess of love Aphrodite, this word describes food or substances believed to boost romantic desire.",
+          "answer": "Aphrodisiacs",
+          "source_id": "tapi:64e927cd0b0fc0be2ff5aa33"
+        },
+        {
+          "value": 600,
+          "clue": "The ancient Greek word 'atomos,' meaning this, gave us the name for the smallest unit of an element.",
+          "answer": "Indivisible",
+          "source_id": "tapi:65056efc7a97013de78b53a7"
+        },
+        {
+          "value": 800,
+          "clue": "English belongs to this broad language family that also includes Hindi, Persian, and most European tongues.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fcf1"
+        },
+        {
+          "value": 1000,
+          "clue": "In phonetics, the initial consonant sound in the word 'zoo' is classified as this type, produced by forcing air through a narrow channel.",
+          "answer": "Fricative",
+          "source_id": "tapi:6355b7dde8b368eed3a68231"
+        }
+      ]
+    },
+    {
+      "title": "ROCK RÉSUMÉS",
+      "theme": "Rock and pop music acts identified by their history, members, or catalog — answer is the BAND OR ARTIST NAME",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Houston-born superstar released 'Crazy in Love,' cementing her status as a solo icon after leaving Destiny's Child.",
+          "answer": "Beyoncé",
+          "source_id": "tapi:622a1c357cc59eab6f94feba"
+        },
+        {
+          "value": 400,
+          "clue": "Rod Stewart was a member of this British rock band before launching his solo career.",
+          "answer": "The Faces",
+          "source_id": "tapi:622a1c3c7cc59eab6f951812"
+        },
+        {
+          "value": 600,
+          "clue": "This Anglo-Australian group, famous for falsetto harmonies, released the 1967 album 'Horizontal.'",
+          "answer": "Bee Gees",
+          "source_id": "tapi:622a1c397cc59eab6f950ee7"
+        },
+        {
+          "value": 800,
+          "clue": "The brooding 1982 track 'Hallowed Be Thy Name' is a fan favourite by this English heavy metal band.",
+          "answer": "Iron Maiden",
+          "source_id": "tapi:622a1c397cc59eab6f950c55"
+        },
+        {
+          "value": 1000,
+          "clue": "This Southern rock band, known for 'Sweet Home Alabama,' took its name from the gym teacher of its founding members.",
+          "answer": "Lynyrd Skynyrd",
+          "source_id": "otdb:bjjllk"
+        }
+      ]
+    },
+    {
+      "title": "WORLD CAPITALS",
+      "theme": "Geography clues about world capitals — answer is the COUNTRY whose capital city is described",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Jakarta is the capital of this Southeast Asian archipelago nation, the world's most populous Muslim-majority country.",
+          "answer": "Indonesia",
+          "source_id": "otdb:1kty1zy"
+        },
+        {
+          "value": 400,
+          "clue": "Pennsylvania Avenue connects the White House to the Capitol in this nation's ceremonial heart.",
+          "answer": "United States",
+          "source_id": "tapi:645cb1257d263fd50970439f"
+        },
+        {
+          "value": 600,
+          "clue": "Lviv, a city in this Eastern European country, has been a focal point of international attention since 2022.",
+          "answer": "Ukraine",
+          "source_id": "tapi:626030954b176d54800e3d2f"
+        },
+        {
+          "value": 800,
+          "clue": "Maseru is the capital of this small kingdom entirely surrounded by South Africa.",
+          "answer": "Lesotho",
+          "source_id": "tapi:6237411acb85f7ce9e949d43"
+        },
+        {
+          "value": 1000,
+          "clue": "Juba serves as the capital of this landlocked nation, the world's youngest country, having gained independence in 2011.",
+          "answer": "South Sudan",
+          "source_id": "tapi:62374262cb85f7ce9e949dc7"
+        }
+      ]
+    },
+    {
+      "title": "WHAT AM I?",
+      "theme": "Clues describing a person, creature, or thing by their defining trait or role — answer is the word or name being described",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the thigh bone, the single longest and strongest bone found in the human body.",
+          "answer": "Femur",
+          "source_id": "otdb:hbrr8u"
+        },
+        {
+          "value": 400,
+          "clue": "This iridescent material lines the inside of abalone shells and is also used in jewelry and decorative inlay.",
+          "answer": "Mother of Pearl",
+          "source_id": "tapi:6476390cf05ea6d6f587a180"
+        },
+        {
+          "value": 600,
+          "clue": "In quantum physics, this theorised force-carrying particle responsible for gravity has not yet been directly observed.",
+          "answer": "Graviton",
+          "source_id": "otdb:1clqwhk"
+        },
+        {
+          "value": 800,
+          "clue": "This is the branch of science concerned with the process by which yeast converts sugars into alcohol and carbon dioxide.",
+          "answer": "Fermentation",
+          "source_id": "tapi:622a1c377cc59eab6f950461"
+        },
+        {
+          "value": 1000,
+          "clue": "This archaic English verb means to look amorously or longingly after somebody.",
+          "answer": "Smicker",
+          "source_id": "tapi:622a1c357cc59eab6f94fc5f"
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "HISTORY'S MATHEMATICIANS",
+      "clue": "After the death of the great Danish astronomer Tycho Brahe in 1601, this German mathematician was appointed imperial mathematician to the Holy Roman Emperor and went on to formulate his famous laws of planetary motion.",
+      "answer": "Johannes Kepler",
+      "source_id": "tapi:645c9fc142ea81e2554c5f5c"
+    },
+    {
+      "title": "WARTIME WORDS",
+      "clue": "Standing before the House of Commons in May 1940, this British leader rallied a nation with the declaration: 'I have nothing to offer but blood, tears, toil and sweat.'",
+      "answer": "Winston Churchill",
+      "source_id": "tapi:622a1c3d7cc59eab6f951bf3"
+    },
+    {
+      "title": "ANCIENT GEOGRAPHY",
+      "clue": "In the power-sharing arrangement of 42 BCE, the Roman triumvir Marcus Aemilius Lepidus was assigned governance of this western peninsula of Europe, corresponding roughly to modern-day Spain and Portugal.",
+      "answer": "Hispania",
+      "source_id": "otdb:1ne0n1b"
+    },
+    {
+      "title": "PHILOSOPHY ON RECORD",
+      "clue": "This ancient Stoic philosopher, born a slave in Hierapolis, is credited with the maxim that freedom comes not from satisfying desires but from extinguishing them entirely.",
+      "answer": "Epictetus",
+      "source_id": "tapi:622a1c357cc59eab6f94fcfe"
+    },
+    {
+      "title": "ELEMENTS OF THE PERIODIC TABLE",
+      "clue": "Element 72 on the periodic table, a lustrous transition metal used in nuclear reactor control rods, was named after the Latinized form of this Scandinavian capital city where it was discovered in 1923.",
+      "answer": "Copenhagen",
+      "source_id": "otdb:12phe59"
+    }
+  ]
+}
