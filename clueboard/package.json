@@ -9,6 +9,7 @@
     "lint": "eslint",
     "fetch-sources": "tsx scripts/fetch-sources.ts",
     "generate-clues": "tsx --env-file=.env.local scripts/generate-clues.ts",
+    "generate-bank": "tsx --env-file=.env.local scripts/generate-bank.ts",
     "review": "tsx scripts/review.ts",
     "patch-clues": "tsx --env-file=.env.local scripts/patch-clues.ts",
     "import-clues": "tsx --env-file=.env.local scripts/import-clues.ts"

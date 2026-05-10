@@ -19,8 +19,21 @@ const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
 const GEN_DIR = join(SCRIPT_DIR, "..", "data", "generated");
 
 type Clue = { value: number | null; clue: string; answer: string; source_id: string };
-type Category = { title: string; theme: string; clues: Clue[] };
-type Final = { title: string; clue: string; answer: string; source_id: string };
+type Category = {
+  title: string;
+  theme: string;
+  topic?: string;
+  category_style?: string;
+  difficulty_profile?: string;
+  clues: Clue[];
+};
+type Final = {
+  title: string;
+  topic?: string;
+  clue: string;
+  answer: string;
+  source_id: string;
+};
 type Approved = {
   batch_id: string;
   generated_at: string;
@@ -37,6 +50,9 @@ type ClueRow = {
   answer: string;
   value: number | null;
   round: "single" | "final";
+  topic: string | null;
+  category_style: string | null;
+  difficulty_profile: string | null;
 };
 
 async function pickBatch(): Promise<string> {
@@ -75,6 +91,9 @@ async function main() {
         answer: c.answer,
         value: c.value,
         round: "single",
+        topic: cat.topic ?? null,
+        category_style: cat.category_style ?? null,
+        difficulty_profile: cat.difficulty_profile ?? null,
       });
     }
   }
@@ -86,6 +105,9 @@ async function main() {
       answer: f.answer,
       value: null,
       round: "final",
+      topic: f.topic ?? null,
+      category_style: null,
+      difficulty_profile: null,
     });
   }
 
