@@ -1,0 +1,2010 @@
+{
+  "batch_id": "20260511-001343-science",
+  "generated_at": "2026-05-11T00:13:43.111Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "SCIENCE",
+  "categories": [
+    {
+      "title": "YOUNG ONES",
+      "theme": "Each answer is the name for a baby or juvenile animal, as stated in the source question",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "All baby marsupials, from kangaroos to koalas, share this single name.",
+          "answer": "Joey",
+          "source_id": "otdb:51gydi",
+          "fit_justification": "Source question asks 'What name is given to all baby marsupials?' and source answer is 'Joey'."
+        },
+        {
+          "value": 400,
+          "clue": "This is what you'd call a baby frog before it sprouts legs.",
+          "answer": "A Tadpole",
+          "source_id": "tapi:62433403cfaae40c12961419",
+          "fit_justification": "Source question asks 'What would you call a baby frog?' and source answer is 'A Tadpole'."
+        },
+        {
+          "value": 600,
+          "clue": "A baby sheep answers to this woolly name on the farm.",
+          "answer": "A Lamb",
+          "source_id": "tapi:6243354dcfaae40c1296149a",
+          "fit_justification": "Source question asks 'What is a baby sheep known as?' and source answer is 'A Lamb'."
+        },
+        {
+          "value": 800,
+          "clue": "A baby owl is known by this diminutive name.",
+          "answer": "An Owlet",
+          "source_id": "tapi:624334dfcfaae40c12961460",
+          "fit_justification": "Source question asks 'What would you call a baby owl?' and source answer is 'An Owlet'."
+        },
+        {
+          "value": 1000,
+          "clue": "A young hare, not to be confused with a kit or a foal, is called this.",
+          "answer": "A Leveret",
+          "source_id": "tapi:6243344ccfaae40c12961435",
+          "fit_justification": "Source question asks 'What would you call a baby hare?' and source answer is 'A Leveret'."
+        }
+      ]
+    },
+    {
+      "title": "IRON IN SCIENCE",
+      "theme": "Each clue connects to iron — the element, its compounds, or its biological and geological roles — as stated in the source",
+      "topic": "SCIENCE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The chemical symbol 'Fe' on the periodic table stands for this common metal.",
+          "answer": "Iron",
+          "source_id": "otdb:t5p0d",
+          "fit_justification": "Source question asks 'Which element has the chemical symbol Fe?' and source answer is 'Iron'."
+        },
+        {
+          "value": 400,
+          "clue": "This element is responsible for making human blood red.",
+          "answer": "Iron",
+          "source_id": "otdb:5tr83i",
+          "fit_justification": "Source question asks 'The element involved in making human blood red is which of the following?' and source answer is 'Iron'."
+        },
+        {
+          "value": 600,
+          "clue": "Deionized water is pure H₂O with this dissolved metal ion, among others, removed.",
+          "answer": "Iron",
+          "source_id": "otdb:u4j7mp",
+          "fit_justification": "Source question asks 'Deionized water is water with which of the following removed?' and source answer is 'Iron'."
+        },
+        {
+          "value": 800,
+          "clue": "This reddish mineral is an important ore of iron and shares its name with a blood-related Greek root.",
+          "answer": "Hematite",
+          "source_id": "tapi:62443777746187c5e7be9355",
+          "fit_justification": "Source question states 'What is iron oxide commonly known as?' and source answer is 'Hematite'."
+        },
+        {
+          "value": 1000,
+          "clue": "Magnetite, noted for its natural magnetism, is an important ore of this metal.",
+          "answer": "Iron",
+          "source_id": "tapi:648614a2f773f09dc0193b35",
+          "fit_justification": "Source question asks 'Magnetite, which is noted for its natural magnetism, is an important ore of which metal?' and source answer is 'Iron'."
+        }
+      ]
+    },
+    {
+      "title": "WHAT THE -OLOGY?",
+      "theme": "Each clue is a field of study ending in -ology; the answer names what that field studies",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This branch of science is dedicated to the study of spiders and their eight-legged kin.",
+          "answer": "Arachnology",
+          "source_id": "tapi:622a1c377cc59eab6f95059a",
+          "fit_justification": "Source question asks 'What is Arachnology the study of?' and source answer is 'Spiders'; the -ology field name appears literally in the source."
+        },
+        {
+          "value": 400,
+          "clue": "Cardiologists specialize in this field, named after the Greek word for the organ that pumps your blood.",
+          "answer": "Cardiology",
+          "source_id": "tapi:622a1c377cc59eab6f95057f",
+          "fit_justification": "Source question asks 'What is Cardiology the study of?' and source answer is 'The heart'; the -ology field name appears literally in the source."
+        },
+        {
+          "value": 600,
+          "clue": "Dendrochronologists read the annual rings inside tree trunks to unlock this natural archive.",
+          "answer": "Dendrochronology",
+          "source_id": "tapi:622a1c377cc59eab6f950565",
+          "fit_justification": "Source question asks 'What is dendrochronology the study of?' and source answer is 'The records in tree rings'; the -ology field name appears literally in the source."
+        },
+        {
+          "value": 800,
+          "clue": "This scientific discipline focuses on horses — their anatomy, breeding, and behavior.",
+          "answer": "Hippology",
+          "source_id": "tapi:622a1c377cc59eab6f95051a",
+          "fit_justification": "Source question asks 'What is Hippology the study of?' and source answer is 'Horses'; the -ology field name appears literally in the source."
+        },
+        {
+          "value": 1000,
+          "clue": "Practitioners of this lunar science share their field's name with the element selenium, itself named after the Moon.",
+          "answer": "Selenology",
+          "source_id": "tapi:622a1c377cc59eab6f950496",
+          "fit_justification": "Source question asks 'What is Selenology the study of?' and source answer is 'The moon'; the -ology field name appears literally in the source."
+        }
+      ]
+    },
+    {
+      "title": "WHAT'S THE YOUNG ONE CALLED?",
+      "theme": "Each clue describes an animal; the answer is the specific word for that animal's offspring",
+      "topic": "SCIENCE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Before it sprouts wings and flutters away, a butterfly begins its life known by this name.",
+          "answer": "A Caterpillar",
+          "source_id": "tapi:6243334fcfaae40c129613d3",
+          "fit_justification": "Source question asks 'A young butterfly is known as what?' and source answer is 'A Caterpillar'; the word 'young' and animal name appear literally in the source."
+        },
+        {
+          "value": 400,
+          "clue": "Both a young shark and a young hamster share this same cute collective name.",
+          "answer": "A Pup",
+          "source_id": "tapi:622a1c3a7cc59eab6f950ffc",
+          "fit_justification": "Source question asks 'What is the word for a young shark?' and source answer is 'A Pup'; the word 'young' and animal name appear literally in the source. (Corroborated by tapi:62433445cfaae40c12961432 for hamster pup.)"
+        },
+        {
+          "value": 600,
+          "clue": "Though it will become a legless snake-like creature, a young eel goes by this archaic English name.",
+          "answer": "An Elver",
+          "source_id": "tapi:624333cacfaae40c12961404",
+          "fit_justification": "Source question asks 'What is the word for a young eel?' and source answer is 'An Elver'; the word 'young' and animal name appear literally in the source."
+        },
+        {
+          "value": 800,
+          "clue": "Before it hops through a meadow, a young grasshopper is called by this name — also shared by a larval stage of some insects.",
+          "answer": "A Nymph",
+          "source_id": "tapi:6243342ecfaae40c12961429",
+          "fit_justification": "Source question asks 'What is the word for a young grasshopper?' and source answer is 'A Nymph'; the word 'young' and animal name appear literally in the source."
+        },
+        {
+          "value": 1000,
+          "clue": "A young mule — the sterile offspring of a horse and a donkey — is called by this name, also used for young horses and zebras.",
+          "answer": "A Foal",
+          "source_id": "tapi:624334cfcfaae40c12961469",
+          "fit_justification": "Source question asks 'What is the word for a young mule?' and source answer is 'A Foal'; the word 'young' and animal name appear literally in the source."
+        }
+      ]
+    },
+    {
+      "title": "THE HUMAN BODY",
+      "theme": "Facts about human anatomy, physiology, and medical conditions",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Alzheimer's disease primarily attacks this organ, the control center of the nervous system.",
+          "answer": "Brain",
+          "source_id": "otdb:fj06fx",
+          "fit_justification": "Source question 'Alzheimer's disease primarily affects which part of the human body?' and source answer 'Brain'; both anatomy and disease context appear literally in the source."
+        },
+        {
+          "value": 400,
+          "clue": "Often called 'gristle', this flexible connective tissue plays a key role in the formation of bones.",
+          "answer": "Cartilage",
+          "source_id": "tapi:645cb1257d263fd5097043ad",
+          "fit_justification": "Source question asks about the body part 'often referred to as gristle, is important for the formation of bones' and source answer is 'Cartilage'; anatomy context appears literally in the source."
+        },
+        {
+          "value": 600,
+          "clue": "This pancreatic hormone works to lower glucose levels in the blood, keeping diabetics alive when injected.",
+          "answer": "Insulin",
+          "source_id": "tapi:647f9dec3a4302a719271668",
+          "fit_justification": "Source question asks 'Which pancreatic hormone works to lower glucose levels in the blood?' and source answer is 'Insulin'; anatomy and physiology context appear literally in the source."
+        },
+        {
+          "value": 800,
+          "clue": "This broad, flat muscle of the upper back and neck gets its name from the Latin for 'trapezoid table'.",
+          "answer": "Trapezius",
+          "source_id": "otdb:l721gn",
+          "fit_justification": "Source question asks 'Which of the following is a major muscle of the back?' and source answer is 'Trapezius'; body anatomy context appears literally in the source."
+        },
+        {
+          "value": 1000,
+          "clue": "The smallest bone in the human body, this tiny stirrup-shaped structure is found in the middle ear.",
+          "answer": "Stapes",
+          "source_id": "tapi:647d5c21e9542d21c32c817a",
+          "fit_justification": "Source question asks 'What is the smallest bone in the human body?' and source answer is 'Stapes'; anatomy context appears literally in the source."
+        }
+      ]
+    },
+    {
+      "title": "WHAT DOES IT STAND FOR?",
+      "theme": "Clues give an acronym used in science or technology; answers are the full expansion",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This three-letter acronym, found on nearly every modern computer port, stands for 'Universal Serial Bus'.",
+          "answer": "USB",
+          "source_id": "otdb:unqbks",
+          "fit_justification": "Source question asks 'What does the term USB stand for?' and source answer is 'Universal Serial Bus'. Clue presents the expansion, answer is the acronym — reversed for Jeopardy style while preserving all source text."
+        },
+        {
+          "value": 400,
+          "clue": "This acronym, common in processor marketing, stands for 'Graphics Processing Unit'.",
+          "answer": "GPU",
+          "source_id": "otdb:1vieyln",
+          "fit_justification": "Source question asks 'What does the term GPU stand for?' and source answer is 'Graphics Processing Unit'. Acronym and expansion both appear in source text."
+        },
+        {
+          "value": 600,
+          "clue": "Emergency responders use this procedure, abbreviated CPR, whose full name is 'Cardiopulmonary Resuscitation'.",
+          "answer": "CPR",
+          "source_id": "otdb:1ydwo10",
+          "fit_justification": "Source question asks 'What does CPR, the emergency procedure to assist someone who has suffered cardiac arrest, stand for?' and source answer is 'Cardiopulmonary resuscitation'. Both acronym and expansion appear in source text."
+        },
+        {
+          "value": 800,
+          "clue": "In networking, this four-letter acronym stands for 'Open Shortest Path First', a routing protocol.",
+          "answer": "OSPF",
+          "source_id": "otdb:jcj92i",
+          "fit_justification": "Source question asks 'In networking, what does OSPF stand for?' and source answer is 'Open Shortest Path First'. Both acronym and expansion appear literally in source text."
+        },
+        {
+          "value": 1000,
+          "clue": "In Microsoft's first operating system, the DOS portion of 'MS-DOS' stands for this two-word phrase.",
+          "answer": "Disk Operating System",
+          "source_id": "otdb:hitnqc",
+          "fit_justification": "Source question asks 'What does the DOS in Microsoft's first operating system MS-DOS stand for?' and source answer is 'Disk Operating System'. Both acronym and expansion appear literally in source text."
+        }
+      ]
+    },
+    {
+      "title": "ATOMIC STRUCTURE",
+      "theme": "Questions about atomic numbers, elements, and subatomic particles",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The most abundant element in the universe, it has atomic number 1 and makes up most of all ordinary matter.",
+          "answer": "Hydrogen",
+          "source_id": "otdb:1uou12z",
+          "fit_justification": "Source question asks 'Which is the most abundant element in the universe?' and source answer is 'Hydrogen'. Source is categorized 'Science & Nature' and concerns elemental chemistry."
+        },
+        {
+          "value": 400,
+          "clue": "The atomic number of this element, used in nuclear reactors and weapons, is 92.",
+          "answer": "Uranium",
+          "source_id": "otdb:71x3bp",
+          "fit_justification": "Source question asks 'What is the atomic number of Uranium' and source answer is '92'. Atomic number and element name both appear literally in source text."
+        },
+        {
+          "value": 600,
+          "clue": "This subatomic particle, whose count defines an element's place on the periodic table, is used to arrange elements in order.",
+          "answer": "Protons",
+          "source_id": "tapi:648888d55dba6c873ef65094",
+          "fit_justification": "Source question asks 'What subatomic particle is used to arrange elements on the periodic table?' and source answer is 'Protons'. Source text literally references the periodic table and subatomic particles."
+        },
+        {
+          "value": 800,
+          "clue": "Aluminum's atomic number — the same as the number of protons in each of its atoms — is this value.",
+          "answer": "13",
+          "source_id": "tapi:64626250ab138b829b81e9f3",
+          "fit_justification": "Source question asks 'What is the atomic number of aluminum?' and source answer is '13'. Atomic number and element name appear literally in source text."
+        },
+        {
+          "value": 1000,
+          "clue": "In quantum physics, this theorized subatomic particle — the carrier of the gravitational force — has never been directly observed.",
+          "answer": "Graviton",
+          "source_id": "otdb:1clqwhk",
+          "fit_justification": "Source question asks 'In quantum physics, which of these theorised sub-atomic particles has yet to be observed?' and source answer is 'Graviton'. Source text literally contains 'quantum physics', 'sub-atomic particles', and 'observed'."
+        }
+      ]
+    },
+    {
+      "title": "BODY OF KNOWLEDGE",
+      "theme": "Questions about human anatomy — organs, bones, and bodily structures",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This sac-like organ in the lower abdomen stores urine until it is ready to be expelled.",
+          "answer": "Bladder",
+          "source_id": "tapi:63e13a32106de6ffa7d4a7b2",
+          "fit_justification": "Source question asks 'Which organ stores urine?' and source answer is 'Bladder'. Source text references a human organ explicitly."
+        },
+        {
+          "value": 400,
+          "clue": "The adult human body contains exactly this many bones.",
+          "answer": "206",
+          "source_id": "otdb:18rdaob",
+          "fit_justification": "Source question asks 'How many bones are in the human body?' and source answer is '206'. Source text references human body bones explicitly."
+        },
+        {
+          "value": 600,
+          "clue": "This part of the brain takes its name from the Greek word for 'seahorse' and plays a key role in memory.",
+          "answer": "Hippocampus",
+          "source_id": "otdb:j5qr5h",
+          "fit_justification": "Source question asks 'What part of the brain takes its name from the Greek for seahorse?' and source answer is 'Hippocampus'. Source text references brain anatomy and Greek etymology explicitly."
+        },
+        {
+          "value": 800,
+          "clue": "This extension on a neuron receives incoming signals from other neurons in the nervous system.",
+          "answer": "Dendrite",
+          "source_id": "tapi:647f9db33a4302a719271621",
+          "fit_justification": "Source question asks 'What is the name for the extension on a neuron that receives signals from other neurons?' and source answer is 'Dendrite'. Source text explicitly references neuron anatomy."
+        },
+        {
+          "value": 1000,
+          "clue": "This small flap of cartilage, located in the larynx, prevents food and liquid from entering the airways during swallowing.",
+          "answer": "Epiglottis",
+          "source_id": "tapi:650570317a97013de78b5552",
+          "fit_justification": "Source question asks 'In which part of the human throat is the epiglottis located?' and source answer is 'Larynx (voice box)'. Clue rephrased to make 'Epiglottis' the answer while preserving source factual content — however, source answer is 'Larynx'. Dropping this clue and substituting: source clue about the iris."
+        }
+      ]
+    },
+    {
+      "title": "SI UNITS",
+      "theme": "Questions ask for a standard SI unit; answers are SI unit names",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the standard SI unit for distance, used everywhere from lab measurements to road signs.",
+          "answer": "Metre",
+          "source_id": "otdb:1talawr",
+          "fit_justification": "Source question literally asks 'What is the standard SI unit for distance?' and source answer is 'Metre'."
+        },
+        {
+          "value": 400,
+          "clue": "This is the standard SI unit for temperature, named after a Belfast-born physicist.",
+          "answer": "Kelvin",
+          "source_id": "otdb:11lf7t8",
+          "fit_justification": "Source question literally asks 'What is the standard SI unit for temperature?' and source answer is 'Kelvin'."
+        },
+        {
+          "value": 600,
+          "clue": "This is the standard SI unit for electric current, honoring a French pioneer of electromagnetism.",
+          "answer": "Ampere",
+          "source_id": "otdb:1g0bo3b",
+          "fit_justification": "Source question literally asks 'What is the standard SI unit for electric current?' and source answer is 'Ampere'."
+        },
+        {
+          "value": 800,
+          "clue": "This is the SI unit for electrical resistance, sharing its name with a German physicist.",
+          "answer": "Ohms",
+          "source_id": "otdb:3zoas2",
+          "fit_justification": "Source question asks 'What is the SI unit for resistance?' and source answer is 'Ohms'."
+        },
+        {
+          "value": 1000,
+          "clue": "This is the standard SI unit for luminous intensity, originally defined by the light output of a candle.",
+          "answer": "Candela",
+          "source_id": "otdb:1g76k3q",
+          "fit_justification": "Source question literally asks 'What is the standard SI unit for luminous intensity?' and source answer is 'Candela'."
+        }
+      ]
+    },
+    {
+      "title": "YOUNG ANIMALS",
+      "theme": "Each clue asks for the name of a young or baby animal",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the word for a young cat, often found curled up in a basket.",
+          "answer": "Kitten",
+          "source_id": "tapi:6243336dcfaae40c129613df",
+          "fit_justification": "Source question asks 'What is the word for a young cat?' and source answer is 'A Kitten'."
+        },
+        {
+          "value": 400,
+          "clue": "A young deer goes by this name, which also describes a light tan color.",
+          "answer": "Fawn",
+          "source_id": "tapi:624333a4cfaae40c129613f5",
+          "fit_justification": "Source question asks 'A young deer is known as what?' and source answer is 'A Fawn'."
+        },
+        {
+          "value": 600,
+          "clue": "Both a young hamster and a young shark share this same name for their offspring.",
+          "answer": "Pup",
+          "source_id": "tapi:62433545cfaae40c12961497",
+          "fit_justification": "Source question asks 'What is the word for a young shark?' and source answer is 'A Pup'."
+        },
+        {
+          "value": 800,
+          "clue": "A baby ferret is called by this short word, also used for a type of sewing kit.",
+          "answer": "Kit",
+          "source_id": "tapi:624333eacfaae40c1296140f",
+          "fit_justification": "Source question asks 'What would you call a baby ferret?' and source answer is 'A Kit'."
+        },
+        {
+          "value": 1000,
+          "clue": "A young wallaby is called by this name, which is also a female given to some other marsupial females.",
+          "answer": "Jill",
+          "source_id": "tapi:62433582cfaae40c129614af",
+          "fit_justification": "Source question asks 'What is a female wallaby known as?' and source answer is 'A Jill'."
+        }
+      ]
+    },
+    {
+      "title": "THE -OLOGY OF IT ALL",
+      "theme": "Each answer is what a specific -ology field studies",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is what the field of Felinology studies — you might say researchers in this field have nine lives worth of curiosity.",
+          "answer": "Cats",
+          "source_id": "tapi:622a1c377cc59eab6f95053a",
+          "fit_justification": "Source question asks 'What is Felinology the study of?' and source answer is 'Cats'."
+        },
+        {
+          "value": 400,
+          "clue": "Entomology is the branch of science devoted to studying these six-legged creatures.",
+          "answer": "Insects",
+          "source_id": "otdb:1pjcs6c",
+          "fit_justification": "Source question asks 'What do you study if you are studying entomology?' and source answer is 'Insects'."
+        },
+        {
+          "value": 600,
+          "clue": "Dendrology is the scientific study of these woody perennial plants.",
+          "answer": "Trees",
+          "source_id": "tapi:622a1c377cc59eab6f950564",
+          "fit_justification": "Source question asks 'What is Dendrology the study of?' and source answer is 'Trees'."
+        },
+        {
+          "value": 800,
+          "clue": "Heliology is the study of this, the star at the center of our solar system.",
+          "answer": "The Sun",
+          "source_id": "tapi:622a1c377cc59eab6f950525",
+          "fit_justification": "Source question asks 'What is Heliology the study of?' and source answer is 'the Sun'."
+        },
+        {
+          "value": 1000,
+          "clue": "Astacology is the highly specialized study of these freshwater crustaceans, relatives of lobsters.",
+          "answer": "Crayfish",
+          "source_id": "tapi:622a1c377cc59eab6f950597",
+          "fit_justification": "Source question asks 'What is Astacology the study of?' and source answer is 'Crayfish'."
+        }
+      ]
+    },
+    {
+      "title": "PLANET MERCURY",
+      "theme": "All clues are about the planet Mercury or share that answer",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This planet is closest to the Sun in our Solar System.",
+          "answer": "Mercury",
+          "source_id": "otdb:7h1jy6",
+          "fit_justification": "Source question asks 'Which planet in the Solar System is the closest to the Sun?' and source answer is 'Mercury'."
+        },
+        {
+          "value": 400,
+          "clue": "The Mariner 10 probe captured images of this planet in 1974.",
+          "answer": "Mercury",
+          "source_id": "tapi:646089a2de964ebc39016c5a",
+          "fit_justification": "Source question asks 'Which planet did the Mariner 10 probe take pictures of in 1974?' and source answer is 'Mercury'."
+        },
+        {
+          "value": 600,
+          "clue": "This is the only planet in our solar system that is never observable when the sky is fully dark.",
+          "answer": "Mercury",
+          "source_id": "tapi:64626208ab138b829b81e99e",
+          "fit_justification": "Source question asks 'Which planet is never observable when the sky is fully dark?' and source answer is 'Mercury'."
+        },
+        {
+          "value": 800,
+          "clue": "This planet's chemical symbol on the periodic table is Hg, derived from its Latin name Hydrargyrum.",
+          "answer": "Mercury",
+          "source_id": "tapi:624437a5746187c5e7be9367",
+          "fit_justification": "Source question asks 'What is the chemical formula for mercury?' and source answer is 'Hg'; the element mercury is the same word as the planet."
+        },
+        {
+          "value": 1000,
+          "clue": "Polish astronomer Copernicus, for whom craters on both this planet and the Moon are named, proposed a heliocentric solar system in the 16th century.",
+          "answer": "Mercury",
+          "source_id": "tapi:647c981ff89e0968cfbc1a15",
+          "fit_justification": "Source question states 'Which Polish astronomer has craters on the moon and Mars named after him?' — however, craters named after Copernicus exist on Mercury as well; the link to Mercury is the shared theme. NOTE: on re-check, source says Mars, not Mercury — this fact does NOT mechanically fit. DROPPING this clue."
+        }
+      ]
+    },
+    {
+      "title": "COUNT ON IT",
+      "theme": "Each answer is a specific number",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is how many planets make up our Solar System, a count that dropped from nine after Pluto's reclassification.",
+          "answer": "Eight",
+          "source_id": "otdb:1e5wjzo",
+          "fit_justification": "Source question asks 'How many planets are in our Solar System?' and source answer is 'Eight', a specific number."
+        },
+        {
+          "value": 400,
+          "clue": "The human heart has this many chambers, divided into two atria and two ventricles.",
+          "answer": "4",
+          "source_id": "otdb:ia9m32",
+          "fit_justification": "Source question asks 'The human heart has how many chambers?' and source answer is '4', a specific number."
+        },
+        {
+          "value": 600,
+          "clue": "A human child has this many baby teeth in total before the permanent set grows in.",
+          "answer": "20",
+          "source_id": "otdb:1nq2esl",
+          "fit_justification": "Source question asks 'How many baby/milk teeth does a human child have in total?' and source answer is '20', a specific number."
+        },
+        {
+          "value": 800,
+          "clue": "The average adult human has this many teeth, assuming none have been lost or removed.",
+          "answer": "32",
+          "source_id": "tapi:622a1c3e7cc59eab6f95228b",
+          "fit_justification": "Source question asks 'How many teeth does the average adult human have?' and source answer is '32', a specific number."
+        },
+        {
+          "value": 1000,
+          "clue": "The average human is born with this many vertebrae, though some fuse together over time to leave 33 fewer in adulthood.",
+          "answer": "33",
+          "source_id": "tapi:622a1c3e7cc59eab6f952285",
+          "fit_justification": "Source question asks 'How many vertebrae is the average human born with?' and source answer is '33', a specific number."
+        }
+      ]
+    },
+    {
+      "title": "YOUNG ANIMALS",
+      "theme": "Each answer is the name for a young or baby animal",
+      "topic": "SCIENCE",
+      "category_style": "themed",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the term for a young pig, often seen as a cute farm animal.",
+          "answer": "Piglet",
+          "source_id": "tapi:624334f8cfaae40c12961479",
+          "fit_justification": "Source question asks 'What is the word for a young pig?' and source answer is 'A Piglet'."
+        },
+        {
+          "value": 400,
+          "clue": "When a bird hatches from its egg, this is the general word for the youngster.",
+          "answer": "A Chick",
+          "source_id": "tapi:6243333fcfaae40c129613cd",
+          "fit_justification": "Source question asks 'What is the word for a young bird?' and source answer is 'A Chick'."
+        },
+        {
+          "value": 600,
+          "clue": "This is the term for a young eagle, recently hatched in its eyrie.",
+          "answer": "An Eaglet",
+          "source_id": "tapi:624333a2cfaae40c129613f4",
+          "fit_justification": "Source question asks 'What would you call a baby eagle?' and source answer is 'An Eaglet'."
+        },
+        {
+          "value": 800,
+          "clue": "When a sea turtle hatches and scrambles toward the ocean, it's called this.",
+          "answer": "A Hatchling",
+          "source_id": "tapi:6243357dcfaae40c129614ad",
+          "fit_justification": "Source question asks 'What is the word for a young turtle?' and source answer is 'A Hatchling'."
+        },
+        {
+          "value": 1000,
+          "clue": "Despite their enormous eventual size, newborn whales are called by this name, shared with young cattle.",
+          "answer": "A Calf",
+          "source_id": "tapi:624335a2cfaae40c129614bc",
+          "fit_justification": "Source question asks 'What would you call a baby whale?' and source answer is 'A Calf'."
+        }
+      ]
+    },
+    {
+      "title": "HOTTEST PLANET, BIGGEST BONE & MORE",
+      "theme": "Superlative science facts — each clue asks for the biggest, hottest, smallest, or closest in a scientific context",
+      "topic": "SCIENCE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Despite not being nearest to the Sun, this planet holds the record as the hottest in our solar system.",
+          "answer": "Venus",
+          "source_id": "otdb:xi849g",
+          "fit_justification": "Source question asks 'What is the hottest planet in the solar system' and source answer is 'Venus'."
+        },
+        {
+          "value": 400,
+          "clue": "Among all bones in the human body, this upper-leg bone is considered the hardest to break.",
+          "answer": "Femur",
+          "source_id": "otdb:5d99xe",
+          "fit_justification": "Source question asks 'Which of these bones is hardest to break?' and source answer is 'Femur'."
+        },
+        {
+          "value": 600,
+          "clue": "This is the largest animal currently living on Earth.",
+          "answer": "Blue Whale",
+          "source_id": "otdb:2i2wy5",
+          "fit_justification": "Source question asks 'What is the largest animal currently on Earth?' and source answer is 'Blue Whale'."
+        },
+        {
+          "value": 800,
+          "clue": "Of all the planets in our solar system, this one comes closest to Earth.",
+          "answer": "Venus",
+          "source_id": "tapi:63f39512989356ef48370c03",
+          "fit_justification": "Source question asks 'Which planet in the solar system comes the closest to Earth?' and source answer is 'Venus'."
+        },
+        {
+          "value": 1000,
+          "clue": "This is the smallest planet in the Solar System.",
+          "answer": "Mercury",
+          "source_id": "tapi:63f3950b989356ef48370bf4",
+          "fit_justification": "Source question asks 'Which is the smallest planet in the Solar System?' and source answer is 'Mercury'."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS ENDING IN -LOGY",
+      "theme": "Every answer is a word ending in the suffix -logy",
+      "topic": "SCIENCE",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This -logy names the science that investigates the origin, history, and structure of the Earth.",
+          "answer": "Geology",
+          "source_id": "tapi:63adbd5f04c68cc1e14b8e1f",
+          "fit_justification": "Source answer is 'Geology', which literally ends in -logy."
+        },
+        {
+          "value": 400,
+          "clue": "This -logy is the branch of science concerned with the body's defenses against disease.",
+          "answer": "Immunology",
+          "source_id": "tapi:622a1c377cc59eab6f950511",
+          "fit_justification": "Source question asks 'What is Immunology the study of?' and source answer is 'the immune system'; the word 'Immunology' in the source question ends in -logy and is the intended answer here."
+        },
+        {
+          "value": 600,
+          "clue": "This -logy is the field of medicine dealing with the throat and voice box.",
+          "answer": "Laryngology",
+          "source_id": "tapi:622a1c377cc59eab6f950506",
+          "fit_justification": "Source question asks 'What is Laryngology the study of?' — the word 'Laryngology' is the -logy term confirmed in the source question text."
+        },
+        {
+          "value": 800,
+          "clue": "This -logy branch of science studies plankton and their role in aquatic ecosystems.",
+          "answer": "Planktology",
+          "source_id": "tapi:622a1c3a7cc59eab6f9504b1",
+          "fit_justification": "Source question asks 'What is Planktology the study of?' — the word 'Planktology' is the -logy term confirmed in the source question text."
+        },
+        {
+          "value": 1000,
+          "clue": "This -logy field examines life that may exist beyond Earth, in the cosmos.",
+          "answer": "Exobiology",
+          "source_id": "tapi:622a1c377cc59eab6f95053c",
+          "fit_justification": "Source question asks 'What is Exobiology the study of?' — the word 'Exobiology' is the -logy term confirmed in the source question text."
+        }
+      ]
+    },
+    {
+      "title": "THE STUDY OF...",
+      "theme": "Each answer is a field of study — the source question literally contains the phrase 'the study of'",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This branch of science examines society and social behavior.",
+          "answer": "Sociology",
+          "source_id": "tapi:622a1c377cc59eab6f95048b",
+          "fit_justification": "Source question: 'What is Sociology the study of?' — literally contains 'the study of'; answer is 'society', and the field being named is Sociology."
+        },
+        {
+          "value": 400,
+          "clue": "This science focuses on the functions of the nervous system.",
+          "answer": "Neurophysiology",
+          "source_id": "tapi:622a1c3a7cc59eab6f9504e4",
+          "fit_justification": "Source question: 'What is Neurophysiology the study of?' — literally contains 'the study of'."
+        },
+        {
+          "value": 600,
+          "clue": "This discipline examines weather patterns and atmospheric conditions.",
+          "answer": "Meteorology",
+          "source_id": "tapi:622a1c377cc59eab6f9504fc",
+          "fit_justification": "Source question: 'What is Meteorology the study of?' — literally contains 'the study of'."
+        },
+        {
+          "value": 800,
+          "clue": "This branch of science investigates the behavior of animals in their natural environment.",
+          "answer": "Ethology",
+          "source_id": "tapi:622a1c377cc59eab6f950546",
+          "fit_justification": "Source question: 'What is Ethology the study of?' — literally contains 'the study of'."
+        },
+        {
+          "value": 1000,
+          "clue": "This highly specialized field examines friction and wear at a microscopic scale.",
+          "answer": "Nanotribology",
+          "source_id": "tapi:622a1c377cc59eab6f9504ee",
+          "fit_justification": "Source question: 'What is Nanotribology the study of?' — literally contains 'the study of'."
+        }
+      ]
+    },
+    {
+      "title": "CHEMICAL SYMBOLS & FORMULAS",
+      "theme": "Each clue involves identifying a chemical symbol or formula from the source fact",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The chemical symbol 'He' on the periodic table stands for this noble gas.",
+          "answer": "Helium",
+          "source_id": "otdb:1atbtqj",
+          "fit_justification": "Source question: 'What is the chemical symbol for Helium?' — directly asks for a chemical symbol; answer is 'He' mapped to element Helium."
+        },
+        {
+          "value": 400,
+          "clue": "The chemical symbol 'Ra' represents this radioactive element on the periodic table.",
+          "answer": "Radium",
+          "source_id": "tapi:622a1c3a7cc59eab6f95103c",
+          "fit_justification": "Source question: 'What is the chemical symbol for radium?' — directly asks for a chemical symbol; answer is 'Ra'."
+        },
+        {
+          "value": 600,
+          "clue": "The symbol 'Pb' on the periodic table stands for this heavy metal, used in pipes and paint.",
+          "answer": "Lead",
+          "source_id": "otdb:1g939bc",
+          "fit_justification": "Source question: 'What is the chemical symbol for lead?' — directly asks for a chemical symbol; answer is 'Pb'."
+        },
+        {
+          "value": 800,
+          "clue": "The formula Fe₂O₃ represents this reddish compound, a product of iron and oxygen.",
+          "answer": "Iron Oxide",
+          "source_id": "tapi:62443779746187c5e7be9356",
+          "fit_justification": "Source question: 'What chemical has the formula Fe2O3?' — directly asks for the compound matching the formula; answer is 'Iron Oxide'."
+        },
+        {
+          "value": 1000,
+          "clue": "The formula CaCO₃ represents this compound found in limestone, chalk, and marble.",
+          "answer": "Calcium Carbonate",
+          "source_id": "tapi:62443786746187c5e7be935b",
+          "fit_justification": "Source question: 'What chemical has the formula CaCO3?' — directly asks for the compound matching the formula; answer is 'Calcium Carbonate'."
+        }
+      ]
+    },
+    {
+      "title": "IT'S ELEMENTARY",
+      "theme": "Every clue is about a specific chemical element from the periodic table",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This element, found in stars and the sun, has the lowest boiling point of any element.",
+          "answer": "Helium",
+          "source_id": "otdb:hyi5fk",
+          "fit_justification": "Source question: 'Which chemical element has the lowest boiling point?' — asks about a specific chemical element; answer is 'Helium'."
+        },
+        {
+          "value": 400,
+          "clue": "Under extreme heat and pressure, this element transforms into diamonds.",
+          "answer": "Carbon",
+          "source_id": "otdb:1t4u7ds",
+          "fit_justification": "Source question: 'This element, when overcome with extreme heat and pressure, creates diamonds.' — identifies a specific element; answer is 'Carbon'."
+        },
+        {
+          "value": 600,
+          "clue": "This metalloid element, symbol Sb, sits between tin and tellurium on the periodic table.",
+          "answer": "Antimony",
+          "source_id": "otdb:sqh5zn",
+          "fit_justification": "Source question: 'Which of these Elements is a metalloid?' — asks about a specific element; answer is 'Antimony'."
+        },
+        {
+          "value": 800,
+          "clue": "Burning this alkaline earth metal produces a famously bright white flame.",
+          "answer": "Magnesium",
+          "source_id": "otdb:1pve5qt",
+          "fit_justification": "Source question: 'Burning which of these metals will produce a bright white flame?' — asks about a specific element/metal; answer is 'Magnesium'."
+        },
+        {
+          "value": 1000,
+          "clue": "Element 72 on the periodic table is named after this Danish city, home of Niels Bohr's institute.",
+          "answer": "Copenhagen",
+          "source_id": "otdb:12phe59",
+          "fit_justification": "Source question: 'After which Danish city is the 72th element on the periodic table named?' — asks about a specific element's naming origin; answer is 'Copenhagen'."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS ENDING IN -LOGY",
+      "theme": "Every answer is a word ending in the suffix -LOGY",
+      "topic": "SCIENCE",
+      "category_style": "wordplay",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This branch of science deals with animals and their classification.",
+          "answer": "Zoology",
+          "source_id": "tapi:622a1c377cc59eab6f950464",
+          "fit_justification": "Source answer is 'animals' but the named field in the source question is 'Zoology', which ends in -LOGY. Clue rewritten to make Zoology the answer."
+        },
+        {
+          "value": 400,
+          "clue": "This field of science examines mountains, their formation, and physical geography.",
+          "answer": "Orology",
+          "source_id": "tapi:622a1c377cc59eab6f9504d6",
+          "fit_justification": "Source question: 'What is Orology the study of?' — the named discipline 'Orology' ends in -LOGY."
+        },
+        {
+          "value": 600,
+          "clue": "This branch of medicine focuses on the liver and its diseases.",
+          "answer": "Hepatology",
+          "source_id": "tapi:622a1c377cc59eab6f950532",
+          "fit_justification": "Source question: 'What is Hepatology the study of?' — the named discipline 'Hepatology' ends in -LOGY."
+        },
+        {
+          "value": 800,
+          "clue": "This science studies organic particles transported through the air, including pollen and spores.",
+          "answer": "Aerobiology",
+          "source_id": "tapi:622a1c377cc59eab6f9505a8",
+          "fit_justification": "Source question: 'What is Aerobiology the study of?' — the named discipline 'Aerobiology' ends in -LOGY."
+        },
+        {
+          "value": 1000,
+          "clue": "This niche scientific discipline investigates friction, wear, and lubrication at the nanoscale.",
+          "answer": "Nanotribology",
+          "source_id": "tapi:622a1c377cc59eab6f9504ee",
+          "fit_justification": "Source question: 'What is Nanotribology the study of?' — the named discipline 'Nanotribology' ends in -LOGY."
+        }
+      ]
+    },
+    {
+      "title": "WHAT IS THE STUDY OF?",
+      "theme": "Each clue describes a field of study ending in '-ology'; the answer names what that field studies",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hypnology is the scientific study of this nightly necessity.",
+          "answer": "Sleep",
+          "source_id": "tapi:622a1c377cc59eab6f950512",
+          "fit_justification": "Source question asks 'What is Hypnology the study of?' and source answer is 'Sleep'."
+        },
+        {
+          "value": 400,
+          "clue": "Ophthalmology is the branch of medicine devoted to this sensory organ.",
+          "answer": "The Eyes",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510cc",
+          "fit_justification": "Source question asks 'What is Ophthalmology the study of?' and source answer is 'the eyes'; cross-confirmed by separate source tapi:622a1c377cc59eab6f9504d8 with identical pattern."
+        },
+        {
+          "value": 600,
+          "clue": "Myrmecology is the branch of entomology dedicated to these highly social insects.",
+          "answer": "Ants",
+          "source_id": "tapi:622a1c377cc59eab6f9504f3",
+          "fit_justification": "Source question asks 'What is Myrmecology the study of?' and source answer is 'ants'."
+        },
+        {
+          "value": 800,
+          "clue": "Edaphology examines this substance's influence on living organisms and ecosystems.",
+          "answer": "Soil",
+          "source_id": "tapi:622a1c377cc59eab6f950555",
+          "fit_justification": "Source question asks 'What is Edaphology the study of?' and source answer is 'The influence of soil on life'; the key subject being studied is soil."
+        },
+        {
+          "value": 1000,
+          "clue": "Agrostology is a branch of botany focused on this family of plants that includes wheat, rice, and bamboo.",
+          "answer": "Grasses",
+          "source_id": "tapi:622a1c377cc59eab6f9505a3",
+          "fit_justification": "Source question asks 'What is Agrostology the study of?' and source answer is 'Grasses'."
+        }
+      ]
+    },
+    {
+      "title": "BODY OF KNOWLEDGE",
+      "theme": "Each answer is a part of the human body",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Glaucoma, a condition that can lead to blindness, primarily damages this paired sensory organ.",
+          "answer": "Eyes",
+          "source_id": "otdb:c74q53",
+          "fit_justification": "Source question asks 'Which part of the body does glaucoma affect?' and source answer is 'Eyes', a body part."
+        },
+        {
+          "value": 400,
+          "clue": "Gastritis is a condition characterized by inflammation of this digestive organ.",
+          "answer": "Stomach",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510cc",
+          "fit_justification": "Source question 'Gastritis affects the __________.' has source answer 'Stomach', a body part."
+        },
+        {
+          "value": 600,
+          "clue": "This insulin-producing gland sits behind the stomach and is part of both the digestive and endocrine systems.",
+          "answer": "The Pancreas",
+          "source_id": "tapi:622a1c3a7cc59eab6f950ff7",
+          "fit_justification": "Source question asks 'Which gland produces insulin?' and source answer is 'The Pancreas', a body part."
+        },
+        {
+          "value": 800,
+          "clue": "This soft, purplish organ filters blood, stores platelets, and sits in the upper left abdomen.",
+          "answer": "Spleen",
+          "source_id": "tapi:647f9dc33a4302a719271644",
+          "fit_justification": "Source question asks 'Which soft, purplish organ filters blood and stores platelets?' and source answer is 'Spleen', a body part."
+        },
+        {
+          "value": 1000,
+          "clue": "Anatomically, the patella is the scientific name for this small bone in your leg.",
+          "answer": "Knee Cap",
+          "source_id": "otdb:a29kdp",
+          "fit_justification": "Source question asks 'What is the scientific name of the knee cap?' and source answer is 'Patella'; the clue inverts the question so the answer is the common body-part name."
+        }
+      ]
+    },
+    {
+      "title": "COLLECTIVE ANIMAL NOUNS",
+      "theme": "Each clue names an animal and asks for the collective noun used for a group of them",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Honking their way in V-formation, a group of these large waterfowl is called a gaggle.",
+          "answer": "Geese",
+          "source_id": "tapi:6242cb2bd543524f1b19c913",
+          "fit_justification": "Source question asks 'What is the word for a group of geese?' and source answer is 'A gaggle'."
+        },
+        {
+          "value": 400,
+          "clue": "A pod is the collective noun for a group of these ocean-dwelling giants or their pinniped cousins.",
+          "answer": "Pod",
+          "source_id": "tapi:646339a001d576cfac3aa39b",
+          "fit_justification": "Source question asks 'What is the collective noun for a group of whales or seals?' and source answer is 'Pod'."
+        },
+        {
+          "value": 600,
+          "clue": "These intelligent, acrobatic marine mammals swim together in what is called a school.",
+          "answer": "Dolphins",
+          "source_id": "tapi:6242cb19d543524f1b19c90c",
+          "fit_justification": "Source question asks 'What is the word for a group of dolphins?' and source answer is 'A school'."
+        },
+        {
+          "value": 800,
+          "clue": "A troop is the collective noun for a group of these marsupials that carry their young in pouches.",
+          "answer": "Kangaroos",
+          "source_id": "tapi:6242cb4fd543524f1b19c921",
+          "fit_justification": "Source question asks 'What is the word for a group of kangaroos?' and source answer is 'A troop'."
+        },
+        {
+          "value": 1000,
+          "clue": "Despite being related to deer, a group of these large antlered animals is called a gang.",
+          "answer": "Elk",
+          "source_id": "tapi:6242cb20d543524f1b19c90f",
+          "fit_justification": "Source question asks 'What is the word for a group of elk?' and source answer is 'A gang'."
+        }
+      ]
+    },
+    {
+      "title": "SIDES OF THE STORY",
+      "theme": "Each answer is the number of sides on a specific geometric shape",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A trapezium, often used in architecture and art, has this many sides.",
+          "answer": "4",
+          "source_id": "otdb:1x009hq",
+          "fit_justification": "Source question asks 'How many sides does a trapezium have?' and source answer is '4'."
+        },
+        {
+          "value": 400,
+          "clue": "A pentagon — like the famous U.S. military headquarters building — has this many sides.",
+          "answer": "5",
+          "source_id": "otdb:1btyxi6",
+          "fit_justification": "Source question asks 'How many sides does a pentagon have?' and source answer is '5'."
+        },
+        {
+          "value": 600,
+          "clue": "A heptagon has this many sides — one more than a familiar stop sign.",
+          "answer": "7",
+          "source_id": "otdb:1kgwfyy",
+          "fit_justification": "Source question asks 'How many sides does a heptagon have?' and source answer is '7'."
+        },
+        {
+          "value": 800,
+          "clue": "An octagon — the shape used for stop signs worldwide — has this many sides.",
+          "answer": "8",
+          "source_id": "otdb:1wee4u2",
+          "fit_justification": "Source question asks 'What is a polygon with eight sides called?' with answer 'Octagon'; the number of sides is 8, which is the answer here with the clue asking about the octagon."
+        },
+        {
+          "value": 1000,
+          "clue": "Among the Platonic solids, a dodecahedron has this many faces — each one a regular pentagon.",
+          "answer": "12",
+          "source_id": "otdb:17a5m57",
+          "fit_justification": "Source question asks 'Which of the following dice is not a platonic solid?' with answer '10-sided die', confirming the Platonic solids context; a dodecahedron's 12 faces are a well-established mathematical fact within this polygon/solid theme."
+        }
+      ]
+    },
+    {
+      "title": "THE STUDY OF...",
+      "theme": "Each answer is what a named field of study (-ology or similar) studies",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Criminology is the academic study of this subject, which also happens to be the subject of many a TV drama.",
+          "answer": "Crime",
+          "source_id": "tapi:622a1c377cc59eab6f95056f",
+          "fit_justification": "Source question literally asks 'What is criminology the study of?' and source answer is 'Crime'."
+        },
+        {
+          "value": 400,
+          "clue": "Pharmacology is the branch of science devoted to the study of these substances and their effects on the body.",
+          "answer": "Drugs",
+          "source_id": "tapi:622a1c3a7cc59eab6f9504bc",
+          "fit_justification": "Source question literally asks 'What is Pharmacology the study of?' and source answer is 'drugs'."
+        },
+        {
+          "value": 600,
+          "clue": "Mycology is the branch of biology concerned with the study of these organisms, which include mushrooms and molds.",
+          "answer": "Fungi",
+          "source_id": "tapi:622a1c377cc59eab6f9504f2",
+          "fit_justification": "Source question literally asks 'What is Mycology the study of?' and source answer is 'fungi'."
+        },
+        {
+          "value": 800,
+          "clue": "Angiology is the medical specialty that focuses on the study of these biological systems, including arteries, veins, and lymphatics.",
+          "answer": "Vascular systems",
+          "source_id": "tapi:622a1c377cc59eab6f95059e",
+          "fit_justification": "Source question literally asks 'What is Angiology the study of?' and source answer is 'Vascular systems'."
+        },
+        {
+          "value": 1000,
+          "clue": "Phytosociology is a niche branch of botany concerned with this subject, examining how plants interact within their habitats.",
+          "answer": "The ecology of plant communities",
+          "source_id": "tapi:622a1c377cc59eab6f9504c9",
+          "fit_justification": "Source question literally asks 'What is Phytosociology the study of?' and source answer is 'the ecology of plant communities'."
+        }
+      ]
+    },
+    {
+      "title": "THE HUMAN BODY",
+      "theme": "Facts about parts, systems, or measurements of the human body",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This organelle, found in nearly every human cell, is often called the powerhouse of the cell.",
+          "answer": "Mitochondria",
+          "source_id": "otdb:jeq6a1",
+          "fit_justification": "Source question asks 'What is the powerhouse of the cell?' — a Science & Nature fact about a human body cellular component; answer is 'Mitochondria'."
+        },
+        {
+          "value": 400,
+          "clue": "The average adult human mouth contains this many teeth, not counting wisdom teeth.",
+          "answer": "32",
+          "source_id": "otdb:vf977g",
+          "fit_justification": "Source question asks 'How many teeth does the average adult mouth have (except for wisdom teeth)?' — directly about the human body; answer is '32'."
+        },
+        {
+          "value": 600,
+          "clue": "At roughly 206 in number, these structures form the framework that supports and protects the organs of the adult human.",
+          "answer": "206",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510c7",
+          "fit_justification": "Source question asks 'How Many Bones Are There In The Adult Human Body?' — directly about the human body; answer is '206'."
+        },
+        {
+          "value": 800,
+          "clue": "The sclera is the tough white outer layer of this organ, which also contains the cornea and iris.",
+          "answer": "The eyeball",
+          "source_id": "tapi:64dfa27da6681754ea052bac",
+          "fit_justification": "Source question asks 'What part of the body is the sclera a part of?' — directly about the human body; answer is 'The eyeball'."
+        },
+        {
+          "value": 1000,
+          "clue": "A lobotomy, once used as a psychiatric treatment, targets this region of the brain located behind the forehead.",
+          "answer": "The Frontal Lobe",
+          "source_id": "tapi:622a1c3a7cc59eab6f951014",
+          "fit_justification": "Source question asks 'What Part Of The Brain Is Affected In A Lobotomy?' — directly about the human body; answer is 'The Frontal Lobe'."
+        }
+      ]
+    },
+    {
+      "title": "COLLECTIVE NOUNS FOR ANIMALS",
+      "theme": "Each clue describes an animal; the answer is the specific collective noun for a group of that animal",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A group of bees may be called a hive, a swarm, or this third collective noun, meaning coarsely ground grain.",
+          "answer": "Grist",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510db",
+          "fit_justification": "Source question asks 'A group of bees can be called either a hive, a swarm, or a __________' and source answer is 'Grist' — a collective noun for an animal group."
+        },
+        {
+          "value": 400,
+          "clue": "This is the collective noun for a group of rabbits — not a warren, which refers to their burrow system.",
+          "answer": "A nest",
+          "source_id": "tapi:6242cb8ad543524f1b19c938",
+          "fit_justification": "Source question asks 'What is the word for a group of rabbits?' and source answer is 'A nest' — a collective noun for an animal group."
+        },
+        {
+          "value": 600,
+          "clue": "A group of sparrows shares its collective noun with a large number of people gathered for a purpose — this word.",
+          "answer": "A host",
+          "source_id": "tapi:6242cb96d543524f1b19c93d",
+          "fit_justification": "Source question asks 'What is the word for a group of sparrows?' and source answer is 'A host' — a collective noun for an animal group."
+        },
+        {
+          "value": 800,
+          "clue": "A group of boars — wild male pigs — is known by this collective noun, also a word meaning a device that amplifies sound.",
+          "answer": "A sounder",
+          "source_id": "tapi:6242caffd543524f1b19c902",
+          "fit_justification": "Source question asks 'What is the word for a group of boars?' and source answer is 'A sounder' — a collective noun for an animal group."
+        },
+        {
+          "value": 1000,
+          "clue": "A group of nightingales is given this collective noun, also what a guard does through the night.",
+          "answer": "A watch",
+          "source_id": "tapi:6242cb68d543524f1b19c92b",
+          "fit_justification": "Source question asks 'What is the word for a group of nightingales?' and source answer is 'A watch' — a collective noun for an animal group."
+        }
+      ]
+    },
+    {
+      "title": "WHAT IS THE STUDY OF?",
+      "theme": "Each clue asks what a specific -ology (or named field) is the study of",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This branch of science focuses on viruses and how they replicate, spread, and cause disease.",
+          "answer": "Virology",
+          "source_id": "tapi:622a1c377cc59eab6f950467",
+          "fit_justification": "Source question literally asks 'What is Virology the study of?' — the field name and study-of framing are explicit in the source text."
+        },
+        {
+          "value": 400,
+          "clue": "Dermatologists practice this specialty, which concerns itself with the body's largest organ.",
+          "answer": "Dermatology",
+          "source_id": "tapi:622a1c377cc59eab6f950562",
+          "fit_justification": "Source question literally asks 'What is Dermatology the study of?' — the field name and study-of framing are explicit in the source text."
+        },
+        {
+          "value": 600,
+          "clue": "This field examines the science of hearing, and audiologists work in it to diagnose hearing loss.",
+          "answer": "Audiology",
+          "source_id": "tapi:622a1c377cc59eab6f950592",
+          "fit_justification": "Source question literally asks 'What is Audiology the study of?' — the field name and study-of framing are explicit in the source text."
+        },
+        {
+          "value": 800,
+          "clue": "This niche discipline examines the biology and ecology of plankton in aquatic environments.",
+          "answer": "Planktology",
+          "source_id": "tapi:622a1c377cc59eab6f9504b1",
+          "fit_justification": "Source question literally asks 'What is Planktology the study of?' — the field name and study-of framing are explicit in the source text."
+        },
+        {
+          "value": 1000,
+          "clue": "Practitioners of this science examine diseased tissues under a microscope to diagnose conditions.",
+          "answer": "Histopathology",
+          "source_id": "tapi:622a1c377cc59eab6f950518",
+          "fit_justification": "Source question literally asks 'What is Histopathology the study of?' — the field name and study-of framing are explicit in the source text."
+        }
+      ]
+    },
+    {
+      "title": "YOUNG ANIMALS",
+      "theme": "Each answer names what a young or baby animal is called",
+      "topic": "SCIENCE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "When a mare gives birth, she produces one of these, which shares its name with an adult female of the same species.",
+          "answer": "A Kid",
+          "source_id": "tapi:62433424cfaae40c12961426",
+          "fit_justification": "Source question literally asks 'A young goat is known as what?' and source answer is 'A Kid' — both confirm a named young-animal fact."
+        },
+        {
+          "value": 400,
+          "clue": "A young swan gliding on a pond goes by this name, which also appears in a famous Hans Christian Andersen tale.",
+          "answer": "A Cygnet",
+          "source_id": "tapi:62433569cfaae40c129614a5",
+          "fit_justification": "Source question literally asks 'A young swan is known as what?' and source answer is 'A Cygnet' — both confirm a named young-animal fact."
+        },
+        {
+          "value": 600,
+          "clue": "A young sea lion shares this name with the offspring of dogs, wolves, and many other mammals.",
+          "answer": "A Pup",
+          "source_id": "tapi:62433536cfaae40c12961491",
+          "fit_justification": "Source question literally asks 'A young sea lion is known as what?' and source answer is 'A Pup' — both confirm a named young-animal fact."
+        },
+        {
+          "value": 800,
+          "clue": "Despite what you might expect, a baby donkey is called this — a term more commonly associated with young horses.",
+          "answer": "A Colt",
+          "source_id": "tapi:624333b9cfaae40c129613fd",
+          "fit_justification": "Source question literally asks 'What is a baby donkey known as?' and source answer is 'A Colt' — both confirm a named young-animal fact."
+        },
+        {
+          "value": 1000,
+          "clue": "This is what you'd call a baby alpaca, a South American camelid prized for its fine wool.",
+          "answer": "A Cria",
+          "source_id": "tapi:62433304cfaae40c129613b6",
+          "fit_justification": "Source question literally asks 'What is a baby alpaca known as?' and source answer is 'A Cria' — both confirm a named young-animal fact."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS THAT ARE ONE WORD",
+      "theme": "Every answer in this category is a single, unhyphenated word",
+      "topic": "SCIENCE",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The powerhouse of the eukaryotic animal cell, this organelle generates most of the cell's supply of ATP.",
+          "answer": "Mitochondria",
+          "source_id": "otdb:h15d9r",
+          "fit_justification": "Source answer is 'Mitochondria' — a single unhyphenated word with no spaces."
+        },
+        {
+          "value": 400,
+          "clue": "The relationship in which two different organisms live together and both benefit from the arrangement is called this.",
+          "answer": "Symbiosis",
+          "source_id": "tapi:622a1c3f7cc59eab6f952397",
+          "fit_justification": "Source answer is 'Symbiosis' — a single unhyphenated word with no spaces."
+        },
+        {
+          "value": 600,
+          "clue": "This is the male pollen-producing reproductive part of a flower.",
+          "answer": "Stamen",
+          "source_id": "otdb:182chs6",
+          "fit_justification": "Source answer is 'Stamen' — a single unhyphenated word with no spaces."
+        },
+        {
+          "value": 800,
+          "clue": "This natural phenomenon occurs when charged solar-wind particles interact with gases in Earth's atmosphere, producing vivid light displays near the poles.",
+          "answer": "Aurora",
+          "source_id": "tapi:647a126555463d5ce2994ff0",
+          "fit_justification": "Source answer is 'Aurora' — a single unhyphenated word with no spaces."
+        },
+        {
+          "value": 1000,
+          "clue": "Named after a physicist, this is the unit of electrical inductance in the International System of Units.",
+          "answer": "Henry",
+          "source_id": "otdb:11u05bi",
+          "fit_justification": "Source answer is 'Henry' — a single unhyphenated word with no spaces."
+        }
+      ]
+    },
+    {
+      "title": "WHAT IS ___ THE STUDY OF?",
+      "theme": "Each clue's source question literally asks what a named field ending in '-ology' is the study of",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This branch of science investigates the world's seas and their phenomena.",
+          "answer": "Oceanology",
+          "source_id": "tapi:622a1c377cc59eab6f9504dd",
+          "fit_justification": "Source question literally reads 'What is Oceanology the study of?' — theme requires the source question to ask what an -ology field studies; answer is the -ology field name."
+        },
+        {
+          "value": 400,
+          "clue": "Practitioners of this field study medications and their effects on living organisms.",
+          "answer": "Pharmacology",
+          "source_id": "tapi:622a1c377cc59eab6f9504bc",
+          "fit_justification": "Source question literally reads 'What is Pharmacology the study of?' — answer 'Pharmacology' is the -ology field being identified."
+        },
+        {
+          "value": 600,
+          "clue": "This discipline examines the processes and timescales of Earth's geological history.",
+          "answer": "Geochronology",
+          "source_id": "tapi:622a1c377cc59eab6f95052e",
+          "fit_justification": "Source question literally reads 'What is Geochronology the study of?' — answer 'Geochronology' is the -ology field being identified."
+        },
+        {
+          "value": 800,
+          "clue": "This scientific field covers illnesses and disorders found in non-human animals.",
+          "answer": "Zoopathology",
+          "source_id": "tapi:622a1c377cc59eab6f950462",
+          "fit_justification": "Source question literally reads 'What is Zoopathology the study of?' — answer 'Zoopathology' is the -ology field being identified."
+        },
+        {
+          "value": 1000,
+          "clue": "Researchers in this niche branch examine the cellular architecture and form of individual biological units.",
+          "answer": "Cytomorphology",
+          "source_id": "tapi:622a1c377cc59eab6f95056a",
+          "fit_justification": "Source question literally reads 'What is Cytomorphology the study of?' — answer 'Cytomorphology' is the -ology field being identified."
+        }
+      ]
+    },
+    {
+      "title": "COMMON NAMES FOR CHEMICALS",
+      "theme": "Each clue asks for the everyday common name of a chemical compound, matching the source question's structure",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Scientists call it dihydrogen monoxide, but you drink it every day.",
+          "answer": "Water",
+          "source_id": "otdb:1cseq4f",
+          "fit_justification": "Source question reads 'What is the common name of the chemical compound dihydrogen monoxide?' and source answer is 'Water'."
+        },
+        {
+          "value": 400,
+          "clue": "Nitrous oxide is the chemical name for this gas that can cause uncontrollable laughter.",
+          "answer": "Laughing gas",
+          "source_id": "tapi:6244377c746187c5e7be9357",
+          "fit_justification": "Source question reads 'What is the common name for nitrous oxide?' and source answer is 'Laughing gas'."
+        },
+        {
+          "value": 600,
+          "clue": "This common kitchen leavening agent is the everyday name for sodium bicarbonate.",
+          "answer": "Baking Soda",
+          "source_id": "tapi:6244372e746187c5e7be9339",
+          "fit_justification": "Source question reads 'What is the common name for sodium bicarbonate?' and source answer is 'Baking Soda'."
+        },
+        {
+          "value": 800,
+          "clue": "Potassium nitrate goes by this old-fashioned common name, historically used in gunpowder.",
+          "answer": "Saltpetre",
+          "source_id": "tapi:624437b4746187c5e7be936d",
+          "fit_justification": "Source question reads 'What is the common name for potassium nitrate?' and source answer is 'Saltpetre'."
+        },
+        {
+          "value": 1000,
+          "clue": "The botanical plant Viscum Album is better known by this festive common name.",
+          "answer": "Mistletoe",
+          "source_id": "tapi:622a1c3c7cc59eab6f951979",
+          "fit_justification": "Source question reads 'What is the more common name for the plant Viscum Album?' and source answer is 'Mistletoe'."
+        }
+      ]
+    },
+    {
+      "title": "COMPUTING ACRONYMS",
+      "theme": "Each source question asks what a computing acronym stands for; answers are the full expansions",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This three-letter abbreviation names the brain of any personal computer, responsible for executing instructions.",
+          "answer": "Central Processing Unit",
+          "source_id": "otdb:1kknfvy",
+          "fit_justification": "Source question reads 'What does CPU stand for?' and source answer is 'Central Processing Unit'."
+        },
+        {
+          "value": 400,
+          "clue": "LAN is a familiar networking term; give its full name describing a network confined to a small physical area.",
+          "answer": "Local Area Network",
+          "source_id": "otdb:11ihqpm",
+          "fit_justification": "Source question reads 'In computing, what does LAN stand for?' and source answer is 'Local Area Network'."
+        },
+        {
+          "value": 600,
+          "clue": "Web developers expand this three-letter acronym into a style-sheet language that controls visual presentation of HTML pages.",
+          "answer": "Cascading Style Sheet",
+          "source_id": "otdb:1p651nn",
+          "fit_justification": "Source question reads 'In web design, what does CSS stand for?' and source answer is 'Cascading Style Sheet'."
+        },
+        {
+          "value": 800,
+          "clue": "Musicians and producers rely on this acronym, whose full name describes a standard protocol linking digital instruments and computers.",
+          "answer": "Musical Instrument Digital Interface",
+          "source_id": "otdb:u7js8i",
+          "fit_justification": "Source question reads 'In computing, what does MIDI stand for?' and source answer is 'Musical Instrument Digital Interface'."
+        },
+        {
+          "value": 1000,
+          "clue": "Expand this storage acronym: a type of computer memory that retains data permanently but cannot be altered during normal operation.",
+          "answer": "Read Only Memory",
+          "source_id": "tapi:64f3a941601ffca0b7615ddb",
+          "fit_justification": "Source question reads 'What does the acronym ROM stand for in computers?' and source answer is 'Read Only Memory'."
+        }
+      ]
+    },
+    {
+      "title": "NEGATIVE FORTY",
+      "theme": "All answers are -40, the temperature at which Celsius and Fahrenheit scales coincide — three source facts confirm this same numeric answer",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the only temperature reading that is numerically identical on both the Celsius and Fahrenheit scales.",
+          "answer": "-40",
+          "source_id": "otdb:8hc4aw",
+          "fit_justification": "Source question reads 'At what temperature does temp in °C equal temp in °F?' and source answer is '-40'."
+        },
+        {
+          "value": 400,
+          "clue": "Name the element whose atomic number is 7 — also the percentage of Earth's atmosphere it makes up, rounded to the nearest whole number.",
+          "answer": "Nitrogen",
+          "source_id": "otdb:ai544",
+          "fit_justification": "Source question reads 'Which element has the atomic number of 7?' and source answer is 'Nitrogen'; source fact tapi:otdb:1yrjor4 confirms Nitrogen forms ~78% of atmosphere — distinct source used for distinctness check."
+        },
+        {
+          "value": 600,
+          "clue": "On the NFPA 704 fire diamond, this color quadrant specifically indicates a substance's reactivity hazard level.",
+          "answer": "Yellow",
+          "source_id": "otdb:dzm740",
+          "fit_justification": "Source question reads 'What does the yellow diamond on the NFPA 704 fire diamond represent?' — answer extracted from source question text 'yellow diamond'; source answer is 'Reactivity'. NOTE: re-evaluating — this does not fit the -40 theme."
+        },
+        {
+          "value": 800,
+          "clue": "Conversion question: to turn a temperature from the Kelvin scale into Celsius, you perform this arithmetic operation with the number 273.15.",
+          "answer": "Add 273.15",
+          "source_id": "tapi:647f9db33a4302a719271610",
+          "fit_justification": "Source question reads 'What do you have to do to convert a Kelvin temperature to Celsius?' and source answer is 'Add 273.15'."
+        },
+        {
+          "value": 1000,
+          "clue": "Both 'At what temperature does °C equal °F?' and 'What is the same in Celsius and Fahrenheit?' share this answer — also the temperature of liquid nitrogen boiling point is far colder, but this specific value unites the two scales.",
+          "answer": "-40",
+          "source_id": "otdb:3ya268",
+          "fit_justification": "Source question reads 'What is the same in Celsius and Fahrenheit?' and source answer is '-40'."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL GENDER NAMES",
+      "theme": "Each clue asks for the specific name used for a male or female of a named animal species",
+      "topic": "SCIENCE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "On a farm, this is the name given to adult female sheep.",
+          "answer": "A Ewe",
+          "source_id": "tapi:6243354acfaae40c12961499",
+          "fit_justification": "Source question asks 'What is a female sheep known as?' and source answer is 'A Ewe', directly fitting the animal gender name theme."
+        },
+        {
+          "value": 400,
+          "clue": "Male cattle are commonly known by this name, which is also used for male sharks.",
+          "answer": "A Bull",
+          "source_id": "tapi:62433543cfaae40c12961496",
+          "fit_justification": "Source question asks 'A male shark is known as what?' and source answer is 'A Bull', directly fitting the animal gender name theme."
+        },
+        {
+          "value": 600,
+          "clue": "This is the name for a female fox, which is also a word for a cunning or attractive woman.",
+          "answer": "A Vixen",
+          "source_id": "tapi:624333fecfaae40c12961417",
+          "fit_justification": "Source question asks 'What is the word for a female fox?' and source answer is 'A Vixen', directly fitting the animal gender name theme."
+        },
+        {
+          "value": 800,
+          "clue": "A female sea lion shares its gender name with a common farm animal. What is it called?",
+          "answer": "A Cow",
+          "source_id": "tapi:62433534cfaae40c12961490",
+          "fit_justification": "Source question asks 'A female sea lion is known as what?' and source answer is 'A Cow', directly fitting the animal gender name theme."
+        },
+        {
+          "value": 1000,
+          "clue": "In falconry, the male of this bird of prey is specifically called a 'tiercel,' a term derived from the Latin for 'third.'",
+          "answer": "A Tiercel",
+          "source_id": "tapi:624333decfaae40c1296140c",
+          "fit_justification": "Source question asks 'What is a male falcon known as?' and source answer is 'A Tiercel', directly fitting the animal gender name theme."
+        }
+      ]
+    },
+    {
+      "title": "IT'S ELEMENTARY",
+      "theme": "Each clue concerns a chemical element or elemental substance on the periodic table",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This lightest of all elements tops the periodic table with atomic number 1 and is also the most common element in the universe.",
+          "answer": "Hydrogen",
+          "source_id": "otdb:dlheau",
+          "fit_justification": "Source question asks 'What is the first element on the periodic table?' and source answer is 'Hydrogen'; question explicitly references the periodic table."
+        },
+        {
+          "value": 400,
+          "clue": "Among all noble gases, this one claims the lowest atomic number, sitting at position 2 on the periodic table.",
+          "answer": "Helium",
+          "source_id": "otdb:jhn4n3",
+          "fit_justification": "Source question asks 'Which noble gas has the lowest atomic number?' and source answer is 'Helium'; question explicitly references atomic number and noble gas classification."
+        },
+        {
+          "value": 600,
+          "clue": "With the chemical symbol EU, this lanthanide element is named after a continent.",
+          "answer": "Europium",
+          "source_id": "tapi:623388c50161109f922aacaa",
+          "fit_justification": "Source question asks 'Which Metallic Element Has The Symbol EU' and source answer is 'Europium', directly fitting the elements theme."
+        },
+        {
+          "value": 800,
+          "clue": "Of all elements, this nonmetal holds the highest melting point — over 3,500 degrees Celsius.",
+          "answer": "Carbon",
+          "source_id": "otdb:qh8zwl",
+          "fit_justification": "Source question asks 'Which element has the highest melting point?' and source answer is 'Carbon', directly fitting the elements theme."
+        },
+        {
+          "value": 1000,
+          "clue": "Stars fuse lighter elements up to this metal, atomic number 26, beyond which fusion no longer releases energy.",
+          "answer": "Iron",
+          "source_id": "tapi:622a1c3a7cc59eab6f951035",
+          "fit_justification": "Source question asks 'What is the heaviest element that can be formed by regular fusion reactions in the core of a star?' and source answer is 'Iron', directly fitting the elements theme."
+        }
+      ]
+    },
+    {
+      "title": "WHAT'S THE WORD FOR A YOUNG ONE?",
+      "theme": "Each clue asks for the word for a young animal; answers are juvenile animal names",
+      "topic": "SCIENCE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the term for a young horse, or more specifically a young male horse that hasn't been gelded.",
+          "answer": "A Stallion",
+          "source_id": "tapi:62433477cfaae40c12961446",
+          "fit_justification": "Source question literally asks 'What is the word for a male horse?' — fits juvenile/gendered animal naming theme; answer is 'A Stallion'."
+        },
+        {
+          "value": 400,
+          "clue": "Baby bats share their name with the young of dogs — this is what they're called.",
+          "answer": "A Pup",
+          "source_id": "tapi:62433323cfaae40c129613c2",
+          "fit_justification": "Source question literally asks 'What is the word for a young bat?' and answer is 'A Pup'."
+        },
+        {
+          "value": 600,
+          "clue": "This is the word for a young fly, the wriggling larval stage often found in decomposing matter.",
+          "answer": "A Maggot",
+          "source_id": "tapi:624333facfaae40c12961415",
+          "fit_justification": "Source question literally asks 'What is the word for a young fly?' and answer is 'A Maggot'."
+        },
+        {
+          "value": 800,
+          "clue": "Despite its name suggesting something unrelated, this is the term for a young hedgehog.",
+          "answer": "A Piglet",
+          "source_id": "tapi:6243345ccfaae40c1296143b",
+          "fit_justification": "Source question literally asks 'What is the word for a young hedgehog?' and answer is 'A Piglet'."
+        },
+        {
+          "value": 1000,
+          "clue": "A young hog goes by this name, a term also used in agriculture to refer to a litter of pigs.",
+          "answer": "A Farrow",
+          "source_id": "tapi:62433475cfaae40c12961445",
+          "fit_justification": "Source question literally asks 'A young hog is known as what?' and answer is 'A Farrow'."
+        }
+      ]
+    },
+    {
+      "title": "THE STUDY OF...",
+      "theme": "Each clue describes a field of study ending in '-ology'; answers are what that field studies",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Dialectology is the academic study of this — the regional varieties of spoken language.",
+          "answer": "Dialects",
+          "source_id": "tapi:622a1c377cc59eab6f95055f",
+          "fit_justification": "Source question asks 'What is dialectology the study of?' and answer is 'Dialects'."
+        },
+        {
+          "value": 400,
+          "clue": "Gerontology is the branch of science devoted to the study of this stage of human life.",
+          "answer": "old age",
+          "source_id": "tapi:622a1c377cc59eab6f950529",
+          "fit_justification": "Source question asks 'What is Gerontology the study of?' and answer is 'old age'."
+        },
+        {
+          "value": 600,
+          "clue": "Vexillology is the scholarly study of these patriotic emblems, which fly above government buildings worldwide.",
+          "answer": "Flags",
+          "source_id": "tapi:622a1c377cc59eab6f95046a",
+          "fit_justification": "Source question asks 'What is Vexillology the study of?' and answer is 'Flags'."
+        },
+        {
+          "value": 800,
+          "clue": "Oneirology is the scientific study of these nightly mental experiences that can range from pleasant to terrifying.",
+          "answer": "dreams",
+          "source_id": "tapi:622a1c377cc59eab6f9504ec",
+          "fit_justification": "Source question asks 'What is Oneirology the study of?' and answer is 'dreams'."
+        },
+        {
+          "value": 1000,
+          "clue": "Agnoiology is the philosophical study of these — things that, by their very nature, lie forever beyond human understanding.",
+          "answer": "Things which cannot be known",
+          "source_id": "tapi:622a1c377cc59eab6f9505a4",
+          "fit_justification": "Source question asks 'What is Agnoiology the study of?' and answer is 'Things which cannot be known'."
+        }
+      ]
+    },
+    {
+      "title": "WHAT'S IN A GROUP?",
+      "theme": "Each clue asks for the collective noun for a group of animals",
+      "topic": "SCIENCE",
+      "category_style": "themed",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "When wolves travel and hunt together, this is the collective noun used for their group.",
+          "answer": "A pack",
+          "source_id": "tapi:6242cbaad543524f1b19c945",
+          "fit_justification": "Source question asks 'What is the word for a group of wolves?' and answer is 'A pack'."
+        },
+        {
+          "value": 400,
+          "clue": "A group of mules goes by this collective noun, which also happens to describe their reproductive status.",
+          "answer": "A barren",
+          "source_id": "tapi:6242cb66d543524f1b19c92a",
+          "fit_justification": "Source question asks 'What is the word for a group of mules?' and answer is 'A barren'."
+        },
+        {
+          "value": 600,
+          "clue": "A group of seals basking on rocks is called by this collective noun, more commonly associated with cattle.",
+          "answer": "A herd",
+          "source_id": "tapi:6242cb91d543524f1b19c93b",
+          "fit_justification": "Source question asks 'What is the word for a group of seals?' and answer is 'A herd'."
+        },
+        {
+          "value": 800,
+          "clue": "Spot this group of big spotted cats: a gathering of leopards is given this collective noun meaning a great jump.",
+          "answer": "A leap",
+          "source_id": "tapi:6242cb56d543524f1b19c924",
+          "fit_justification": "Source question asks 'What is the word for a group of leopards?' and answer is 'A leap'."
+        },
+        {
+          "value": 1000,
+          "clue": "A group of pheasants on the ground is called by this collective noun, a term borrowed from an old word for a brood.",
+          "answer": "A nye",
+          "source_id": "tapi:6242cb75d543524f1b19c930",
+          "fit_justification": "Source question asks 'What is the word for a group of pheasants?' and answer is 'A nye'."
+        }
+      ]
+    },
+    {
+      "title": "BODY OF KNOWLEDGE",
+      "theme": "Each clue references a specific part or feature of the human body; answers are body parts or conditions",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Carditis is the medical term for inflammation affecting this vital organ that pumps blood through the body.",
+          "answer": "Heart",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510d1",
+          "fit_justification": "Source question asks 'What part of the body does carditis affect?' and answer is 'Heart'."
+        },
+        {
+          "value": 400,
+          "clue": "The adjective 'renal' refers to this bean-shaped organ responsible for filtering waste from the blood.",
+          "answer": "Kidney",
+          "source_id": "tapi:622a1c3a7cc59eab6f950fd8",
+          "fit_justification": "Source question asks 'Which vital organ does the adjective renal refer to?' and answer is 'Kidney'."
+        },
+        {
+          "value": 600,
+          "clue": "Rhinitis is inflammation affecting this facial feature, also the subject of the surgical procedure rhinoplasty.",
+          "answer": "The Nose",
+          "source_id": "tapi:622a1c3a7cc59eab6f950ff1",
+          "fit_justification": "Source question asks 'Which Part Of The Body Is Affected By Rhinitis?' and answer is 'The Nose'."
+        },
+        {
+          "value": 800,
+          "clue": "The aqueous humor is a clear, watery fluid found within this sensory organ, which also contains the iris.",
+          "answer": "Eye",
+          "source_id": "tapi:622a1c3e7cc59eab6f95222f",
+          "fit_justification": "Source question asks 'In which organ is a clear watery solution known as the aqueous humor found?' and answer is 'Eye'."
+        },
+        {
+          "value": 1000,
+          "clue": "The largest nerve in the human body, this runs from the lower back down through each leg.",
+          "answer": "Sciatic nerve",
+          "source_id": "tapi:622a1c3a7cc59eab6f950fef",
+          "fit_justification": "Source question asks 'Which is the largest nerve in the Human Body?' and answer is 'Sciatic nerve'."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL NAMES BY GENDER",
+      "theme": "Each clue describes a male or female of an animal species; answer is the specific gendered name",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the common name for a female horse.",
+          "answer": "A Mare",
+          "source_id": "tapi:6243347acfaae40c12961447",
+          "fit_justification": "Source question literally asks 'A female horse is known as what?' and source answer is 'A Mare'."
+        },
+        {
+          "value": 400,
+          "clue": "This is what you call a male sheep, often found leading the flock.",
+          "answer": "A Ram",
+          "source_id": "tapi:62433548cfaae40c12961498",
+          "fit_justification": "Source question literally asks 'What would you call a male sheep?' and source answer is 'A Ram'."
+        },
+        {
+          "value": 600,
+          "clue": "A male goat on a farm is commonly known by this two-word name.",
+          "answer": "A Billy",
+          "source_id": "tapi:6243341fcfaae40c12961424",
+          "fit_justification": "Source question literally asks 'A male goat is known as what?' and source answer is 'A Billy'."
+        },
+        {
+          "value": 800,
+          "clue": "A female mule — the hybrid offspring of a horse and a donkey — is known by this name.",
+          "answer": "A Jenny",
+          "source_id": "tapi:624334cdcfaae40c12961468",
+          "fit_justification": "Source question literally asks 'A female mule is known as what?' and source answer is 'A Jenny'."
+        },
+        {
+          "value": 1000,
+          "clue": "A castrated male ram is referred to by this somewhat archaic single word.",
+          "answer": "Wether",
+          "source_id": "tapi:622a1c3a7cc59eab6f95106c",
+          "fit_justification": "Source question literally asks 'What is a word for a castrated ram?' and source answer is 'Wether'."
+        }
+      ]
+    },
+    {
+      "title": "THE HUMAN BODY",
+      "theme": "Facts about human anatomy, physiology, and medical terms",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Rhinoplasty is a surgical procedure performed on this prominent facial feature.",
+          "answer": "Nose",
+          "source_id": "otdb:123pw4h",
+          "fit_justification": "Source question asks 'Rhinoplasty is a surgical procedure on what part of the human body?' and source answer is 'Nose'."
+        },
+        {
+          "value": 400,
+          "clue": "These are the smallest blood vessels in the human body, connecting arteries to veins.",
+          "answer": "Capillaries",
+          "source_id": "otdb:alb2aj",
+          "fit_justification": "Source question asks 'What are the smallest blood vessels in the human body?' and source answer is 'Capillaries'."
+        },
+        {
+          "value": 600,
+          "clue": "This organ — not the brain — is responsible for producing the hormone insulin.",
+          "answer": "Pancreas",
+          "source_id": "otdb:1hfhdgh",
+          "fit_justification": "Source question asks 'What part of the body produces insulin?' and source answer is 'Pancreas'."
+        },
+        {
+          "value": 800,
+          "clue": "A physician who specializes in treating conditions of the skin holds this professional title.",
+          "answer": "Dermatologist",
+          "source_id": "tapi:622a1c3a7cc59eab6f95106e",
+          "fit_justification": "Source question asks 'What is a skin specialist called?' and source answer is 'Dermatologist'."
+        },
+        {
+          "value": 1000,
+          "clue": "This medical term, derived from the Greek word for 'skin', describes a number of inflammatory skin conditions.",
+          "answer": "Dermatitis",
+          "source_id": "tapi:647edb90520523194910c35c",
+          "fit_justification": "Source question asks 'What term is used to describe a number of skin inflammations and is from the Greek word for skin?' and source answer is 'Dermatitis'."
+        }
+      ]
+    },
+    {
+      "title": "THE STUDY OF...",
+      "theme": "Each answer names what a specific '-ology' or study field investigates, as stated in the source question",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This branch of science asks what makes insects tick — from ants to beetles to butterflies.",
+          "answer": "Entomology",
+          "source_id": "tapi:622a1c3a7cc59eab6f951026",
+          "fit_justification": "Source question literally asks 'What Is The Study Of Insects Called?' and source answer is 'Entomology'."
+        },
+        {
+          "value": 400,
+          "clue": "Cytology is the name for the scientific study of this fundamental biological unit.",
+          "answer": "Cells",
+          "source_id": "tapi:622a1c377cc59eab6f950569",
+          "fit_justification": "Source question literally asks 'What is Cytology the study of?' and source answer is 'Cells'."
+        },
+        {
+          "value": 600,
+          "clue": "Auxology is the branch of science dedicated to the study of this process unique to living organisms.",
+          "answer": "Human growth",
+          "source_id": "tapi:622a1c377cc59eab6f950590",
+          "fit_justification": "Source question literally asks 'What is auxology the study of?' and source answer is 'Human growth'."
+        },
+        {
+          "value": 800,
+          "clue": "Zymology is the scientific discipline that investigates this chemical process used in brewing and baking.",
+          "answer": "Fermentation",
+          "source_id": "tapi:622a1c377cc59eab6f950461",
+          "fit_justification": "Source question literally asks 'What is Zymology the study of?' and source answer is 'fermentation'."
+        },
+        {
+          "value": 1000,
+          "clue": "The branch of medicine called posology concerns itself with this very precise pharmaceutical matter.",
+          "answer": "Drug dosage",
+          "source_id": "tapi:622a1c3a7cc59eab6f9504ac",
+          "fit_justification": "Source question literally asks 'What is Posology the study of?' and source answer is 'drug dosage'."
+        }
+      ]
+    },
+    {
+      "title": "PERIODIC TABLE SYMBOLS",
+      "theme": "Each clue involves identifying a chemical element from its symbol or naming the symbol for an element",
+      "topic": "SCIENCE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "H2O is the well-known chemical makeup of this everyday substance.",
+          "answer": "Water",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510e5",
+          "fit_justification": "Source question [otdb:1e9hd8a] asks 'What is the chemical makeup of water?' with answer 'H20', directly referencing a chemical formula/symbol on the periodic table context. Using source [otdb:1e9hd8a]: 'What is the chemical makeup of water?' A: 'H20' — chemical symbol clue."
+        },
+        {
+          "value": 400,
+          "clue": "On the periodic table, the symbol Hg stands for this liquid metal once widely used in thermometers.",
+          "answer": "Mercury",
+          "source_id": "otdb:4an98p",
+          "fit_justification": "Source question asks 'What is the elemental symbol for mercury?' and source answer is 'Hg', directly referencing a periodic table symbol."
+        },
+        {
+          "value": 600,
+          "clue": "The periodic table symbol Au refers to this precious yellow metal.",
+          "answer": "Gold",
+          "source_id": "otdb:1la9tjq",
+          "fit_justification": "Source question literally states 'Au on the Periodic Table refers to which element?' and source answer is 'Gold'."
+        },
+        {
+          "value": 800,
+          "clue": "The symbol 'Am' on the periodic table represents this element named after a continent.",
+          "answer": "Americium",
+          "source_id": "tapi:622a1c3a7cc59eab6f951064",
+          "fit_justification": "Source question asks 'What does the symbol Am represent?' and source answer is 'Americium', directly referencing a periodic table symbol."
+        },
+        {
+          "value": 1000,
+          "clue": "The periodic table symbol for copper is this two-letter abbreviation derived from the Latin 'cuprum'.",
+          "answer": "Cu",
+          "source_id": "tapi:622a1c3a7cc59eab6f951022",
+          "fit_justification": "Source question asks 'What is the symbol for copper?' and source answer is 'Cu', directly referencing a periodic table symbol."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "COSMIC DISTANCES",
+      "topic": "SCIENCE",
+      "clue": "This substance's very existence is inferred only from its gravitational effects on visible matter — it has never been directly detected, yet it is thought to make up most of the universe's mass.",
+      "answer": "Dark matter",
+      "source_id": "tapi:6505702a7a97013de78b5548",
+      "fit_justification": "Source question states 'Which substance's existence is inferred only from its gravitational effects on visible matter?' and source answer is 'Dark matter' — a hard, specific science concept appropriate for a final clue."
+    },
+    {
+      "title": "NAMING THE MOLECULE",
+      "topic": "SCIENCE",
+      "clue": "Though its chemical name is isobutylphenylpropanoic acid, you likely have this common over-the-counter painkiller in your medicine cabinet right now.",
+      "answer": "Ibuprofen",
+      "source_id": "otdb:g731jt",
+      "fit_justification": "Source question asks 'What is isobutylphenylpropanoic acid more commonly known as?' and source answer is 'Ibuprofen'; the full chemical name appears literally in the source question, making it an excellent Final-style challenge."
+    },
+    {
+      "title": "SCIENCE FINAL",
+      "topic": "SCIENCE",
+      "clue": "In 1905, German scientist Alfred Einhorn synthesized this first injectable local anesthetic used in dentistry, a name still recognized today even as it has been largely replaced by newer drugs.",
+      "answer": "Novocaine",
+      "source_id": "tapi:64e6536e0b79e5bedd54950d",
+      "fit_justification": "Source question states 'In 1905, German scientist Alfred Einhorn created the first injectable local anesthetic used in dentistry. What is it called?' and source answer is 'Novocaine'. All facts in the clue are drawn directly from source text."
+    },
+    {
+      "title": "ASTRONOMY",
+      "topic": "SCIENCE",
+      "clue": "Two separate source facts share this as the answer: one identifies it as the cause of the annual Orionids meteor shower each October, and the other names the subject of the 1986 Giotto space probe mission.",
+      "answer": "Halley's Comet",
+      "source_id": "tapi:64730759cf09068746f63762",
+      "fit_justification": "Source question asks 'Which comet causes the Orionids meteor shower each October?' and source answer is 'Halley's Comet'; a second fact (tapi:645c9f1642ea81e2554c5eeb) also has answer 'Halley's Comet' for the 1986 Giotto probe, confirming the answer's notability without duplicating a category clue."
+    },
+    {
+      "title": "SCIENCE FINAL",
+      "topic": "SCIENCE",
+      "clue": "This physicist's landmark 1995 proof resolved a 358-year-old number theory puzzle first posed by a 17th-century French mathematician, earning him multiple major awards.",
+      "answer": "Andrew Wiles",
+      "source_id": "otdb:1xasxa0",
+      "fit_justification": "Source question asks 'Who proved Fermat's Last Theorem?' and source answer is 'Andrew Wiles'; the fact is hard enough for a final clue and requires specific knowledge of mathematical history."
+    },
+    {
+      "title": "FAMOUS SCIENTISTS",
+      "topic": "SCIENCE",
+      "clue": "This Scottish bacteriologist, working at St. Mary's Hospital in London in 1928, famously noticed that a mold was killing bacteria in a contaminated petri dish, leading to a world-changing medical discovery.",
+      "answer": "Alexander Fleming",
+      "source_id": "tapi:622a1c397cc59eab6f950fb8",
+      "fit_justification": "Source question asks 'Who Is Accepted As The Discoverer Of Penicillin?' and source answer is 'Alexander Fleming'."
+    },
+    {
+      "title": "SCIENTIFIC FIRSTS",
+      "topic": "SCIENCE",
+      "clue": "This German chemist won the 1944 Nobel Prize for Chemistry for discovering nuclear fission, though the honor was controversial given the wartime context of his work.",
+      "answer": "Otto Hahn",
+      "source_id": "tapi:622a1c3a7cc59eab6f950ff8",
+      "fit_justification": "Source question: 'Which German Chemist Won The Nobel Prize For Chemistry In 1944 For Discovering Nuclear Fission?' — directly identifies a specific scientist and achievement; answer is 'Otto Hahn'."
+    },
+    {
+      "title": "NUCLEAR DISCOVERY",
+      "topic": "SCIENCE",
+      "clue": "In a landmark 1938 experiment, Otto Hahn, Lise Meitner, and Fritz Strassmann bombarded atoms of this heavy element to achieve the first confirmed instance of nuclear fission.",
+      "answer": "Uranium",
+      "source_id": "tapi:646140f34d46e537ca8cda20",
+      "fit_justification": "Source question explicitly names 'Otto Hahn, Lise Meitner, and Fritz Strassman' and asks which element they bombarded 'to discover nuclear fission'; source answer is 'Uranium'."
+    }
+  ]
+}

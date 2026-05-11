@@ -19,7 +19,8 @@ export default function ResultScreen({
     board.cellsByCategory[cat].map((cell) => {
       const ans = state.answers[cell.id];
       if (!ans) return "⬜";
-      if (ans.skipped) return "⬜";
+      // Skipped without penalty = white square. DD skip counts as wrong.
+      if (ans.skipped && !ans.isDailyDouble) return "⬜";
       return ans.correct ? "🟦" : "🟥";
     }).join(""),
   ).join("\n");

@@ -40,7 +40,7 @@ export default function GridBoard({
                 }`}
               >
                 {ans ? (
-                  ans.skipped ? (
+                  ans.skipped && !ans.isDailyDouble ? (
                     <span className="text-white/50 text-2xl">—</span>
                   ) : (
                     <span className={ans.correct ? "text-correct" : "text-wrong"}>

@@ -22,6 +22,7 @@ export type ClueForClient = {
   clue: string;
   value: number | null;
   round: Round;
+  isDailyDouble?: boolean;
 };
 
 export type DailyBoard = {
@@ -36,7 +37,10 @@ export type AnswerRecord = {
   userAnswer: string;
   correct: boolean;
   skipped: boolean;
+  /** Score-affecting magnitude. For regular clues this is the clue's dollar
+   *  value. For a Daily Double this is the player's wager. */
   value: number;
+  isDailyDouble?: boolean;
   correctAnswer: string;
   answeredAt: string;
 };

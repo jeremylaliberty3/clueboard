@@ -33,7 +33,7 @@ export default function AccordionBoard({
                     }`}
                   >
                     {ans ? (
-                      ans.skipped ? (
+                      ans.skipped && !ans.isDailyDouble ? (
                         <span className="text-white/50">—</span>
                       ) : (
                         <span className={ans.correct ? "text-correct" : "text-wrong"}>

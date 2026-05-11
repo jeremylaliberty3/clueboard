@@ -1,0 +1,1922 @@
+{
+  "batch_id": "20260511-000201-geography",
+  "generated_at": "2026-05-11T00:02:01.054Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "GEOGRAPHY",
+  "categories": [
+    {
+      "title": "INTERNET COUNTRY CODES",
+      "theme": "Questions ask which region of the world uses a specific country-code top-level domain (ccTLD); answers are the countries/regions",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The '.uk' country-code top-level domain belongs to this island nation west of continental Europe.",
+          "answer": "The United Kingdom",
+          "source_id": "tapi:62373602cfe13103f55eb591",
+          "fit_justification": "Source question literally asks 'Which region of the world uses \".uk\" at the end of its web addresses?' and source answer is 'The United Kingdom'."
+        },
+        {
+          "value": 400,
+          "clue": "The code '.va' is the internet country code for this tiny sovereign state inside Rome, home to the Pope.",
+          "answer": "Vatican City",
+          "source_id": "tapi:62373609cfe13103f55eb596",
+          "fit_justification": "Source question literally asks 'Which region of the world uses \".va\" at the end of its web addresses?' and source answer is 'Vatican City'."
+        },
+        {
+          "value": 600,
+          "clue": "The internet country code '.za' is assigned to this nation at the southern tip of the African continent.",
+          "answer": "South Africa",
+          "source_id": "tapi:623735dbcfe13103f55eb577",
+          "fit_justification": "Source question literally asks 'Which region of the world uses \".za\" at the end of its web addresses?' and source answer is 'South Africa'."
+        },
+        {
+          "value": 800,
+          "clue": "The '.sd' top-level domain belongs to this northeastern African country whose name references a directional compass point.",
+          "answer": "Sudan",
+          "source_id": "tapi:623735e1cfe13103f55eb57b",
+          "fit_justification": "Source question literally asks 'Which region of the world uses \".sd\" at the end of its web addresses?' and source answer is 'Sudan'."
+        },
+        {
+          "value": 1000,
+          "clue": "Central America's '.ni' internet country code belongs to this nation whose capital is Managua.",
+          "answer": "Nicaragua",
+          "source_id": "tapi:62373599cfe13103f55eb54a",
+          "fit_justification": "Source question literally asks 'Which region of the world uses \".ni\" at the end of its web addresses?' and source answer is 'Nicaragua'."
+        }
+      ]
+    },
+    {
+      "title": "RIVERS & MOUNTAINS",
+      "theme": "Questions ask about specific rivers or mountain ranges and where they are located or what they are called",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This river, the longest in France, flows through the heart of Paris on its way to the English Channel.",
+          "answer": "The Seine",
+          "source_id": "tapi:622a1c357cc59eab6f94fdf9",
+          "fit_justification": "Source question literally asks 'Which River Flows Through Paris?' and source answer is 'The Seine', a river."
+        },
+        {
+          "value": 400,
+          "clue": "This mountain range forms the natural border between Spain and France.",
+          "answer": "Pyrenees",
+          "source_id": "otdb:1xyhaoa",
+          "fit_justification": "Source question literally asks 'What mountain range lines the border between Spain and France?' and source answer is 'Pyrenees', a mountain range."
+        },
+        {
+          "value": 600,
+          "clue": "Formed by the collision of the Eurasian and Indian tectonic plates, this is the mountain system that contains the world's highest peaks.",
+          "answer": "The Himalayas",
+          "source_id": "tapi:64dfa27da6681754ea052ba6",
+          "fit_justification": "Source question literally asks 'Which mountain system was formed by the collision of the Eurasian and Indian tectonic plates?' and source answer is 'The Himalayas', a mountain range."
+        },
+        {
+          "value": 800,
+          "clue": "This river in England connects the locations of Welford-on- and Bidford-on-, and shares its name with a famous playwright's hometown.",
+          "answer": "The Avon",
+          "source_id": "tapi:64720cd93bbb58c31f411cd9",
+          "fit_justification": "Source question literally asks 'Which river in England has both a Welford-on- and a Bidford-on- location?' and source answer is 'The Avon', a river."
+        },
+        {
+          "value": 1000,
+          "clue": "The ancient city of Mohenjo-daro, one of the earliest urban centers in history, lies along this river in Pakistan.",
+          "answer": "The Indus",
+          "source_id": "tapi:64a48a10db01fd81937c97cb",
+          "fit_justification": "Source question literally asks 'The ancient city of Mohenjo-daro lies along which river in Pakistan?' and source answer is 'The Indus', a river."
+        }
+      ]
+    },
+    {
+      "title": "CAPITAL CITIES",
+      "theme": "Each clue asks for or identifies a capital city; the answer is that capital city",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This European capital is home to the Rijksmuseum and sits along the Amstel River.",
+          "answer": "Amsterdam",
+          "source_id": "tapi:623741a0cb85f7ce9e949d79",
+          "fit_justification": "Source question states 'Amsterdam is the capital city of which country?' confirming Amsterdam is a capital city; source answer is 'Netherlands' but the fact establishes Amsterdam as a capital — reframed so the answer IS the capital. CORRECTION: source answer is Netherlands; Amsterdam IS confirmed as the capital in the question text. Clue asks which city, answer Amsterdam is named in the source question as the capital."
+        },
+        {
+          "value": 400,
+          "clue": "This South American capital, not to be confused with the country's largest city São Paulo, was purpose-built in the late 1950s.",
+          "answer": "Brasilia",
+          "source_id": "tapi:62373fc0cb85f7ce9e949cb8",
+          "fit_justification": "Source question: 'What is the capital city of Brazil?' Source answer: 'Brasilia'. Answer is a capital city."
+        },
+        {
+          "value": 600,
+          "clue": "This city on the Mekong River is the capital of Vietnam, not the country's largest city.",
+          "answer": "Hanoi",
+          "source_id": "otdb:ggi0x5",
+          "fit_justification": "Source question: 'What is the capital of Vietnam?' Source answer: 'Hanoi'. Answer is a capital city."
+        },
+        {
+          "value": 800,
+          "clue": "This landlocked capital of Paraguay shares its name with a Spanish word meaning 'assumption.'",
+          "answer": "Asunción",
+          "source_id": "tapi:623741e3cb85f7ce9e949d94",
+          "fit_justification": "Source question: 'What is the capital city of Paraguay?' Source answer: 'Asunción'. Answer is a capital city."
+        },
+        {
+          "value": 1000,
+          "clue": "This tiny Pacific island nation's 'capital' is technically a district, not a city — the smallest capital in the world by population.",
+          "answer": "Yaren District",
+          "source_id": "tapi:62374198cb85f7ce9e949d76",
+          "fit_justification": "Source question: 'What is the capital city of Nauru?' Source answer: 'Yaren District'. Answer is a capital city."
+        }
+      ]
+    },
+    {
+      "title": "FLAGS OF THE WORLD",
+      "theme": "Each clue describes a national flag; the answer is the country that flag belongs to",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This country's flag features a white background with a single red circle, representing the sun.",
+          "answer": "Japan",
+          "source_id": "tapi:625e9ede796f721e95543f72",
+          "fit_justification": "Source question: 'Which of these colors would you find on the flag of Japan?' confirms Japan has a flag with red; source answer is 'Red'. Clue reframed around the flag description with Japan as the answer."
+        },
+        {
+          "value": 400,
+          "clue": "This country's flag is described as 'Black and green triangles divided by a yellow cross.'",
+          "answer": "Jamaica",
+          "source_id": "tapi:625e9efd796f721e95543f7b",
+          "fit_justification": "Source question: 'Which country's flag can be described as \"Black and green triangles divided by a yellow cross.\"?' Source answer: 'Jamaica'. Answer is the country whose flag matches the description."
+        },
+        {
+          "value": 600,
+          "clue": "This North African country's flag features two equal vertical bands of green and white, with a red crescent and star in the center.",
+          "answer": "Algeria",
+          "source_id": "tapi:625e9dd2796f721e95543f2f",
+          "fit_justification": "Source question: 'Which country's flag fits the description of \"Two equal vertical bands of green and white, with a red crescent and star in the center.\"?' Source answer: 'Algeria'. Answer is the country whose flag matches the description."
+        },
+        {
+          "value": 800,
+          "clue": "This Middle Eastern country's flag is described as 'Green, with large white script and a sword.'",
+          "answer": "Saudi Arabia",
+          "source_id": "tapi:625e9fc3796f721e95543fb5",
+          "fit_justification": "Source question: 'Which country's flag fits the description of \"Green, with large white script and a sword.\"?' Source answer: 'Saudi Arabia'. Answer is the country whose flag matches the description."
+        },
+        {
+          "value": 1000,
+          "clue": "This country's flag features 'Red with a green five-pointed star in the center.'",
+          "answer": "Morocco",
+          "source_id": "tapi:625e9f41796f721e95543f8f",
+          "fit_justification": "Source question: 'Which country's flag can be described as \"Red with a green five-pointed star in the center.\"?' Source answer: 'Morocco'. Answer is the country whose flag matches the description."
+        }
+      ]
+    },
+    {
+      "title": "AFRICAN GEOGRAPHY",
+      "theme": "Each clue is about a country, city, landmark, or geographic fact on the continent of Africa",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This East African country, formerly known as Abyssinia, is the most populous landlocked nation in the world.",
+          "answer": "Ethiopia",
+          "source_id": "tapi:623387b30161109f922aac3e",
+          "fit_justification": "Source question: 'Which country was previously called Abyssinia?' Source answer: 'Ethiopia'. Ethiopia is an African country; source fact is tagged geography."
+        },
+        {
+          "value": 400,
+          "clue": "This small kingdom is the only country in the world completely surrounded by South Africa.",
+          "answer": "Lesotho",
+          "source_id": "otdb:1kxx1ny",
+          "fit_justification": "Source question: 'Which country is completely landlocked by South Africa?' Source answer: 'Lesotho'. Lesotho is an African country entirely enclosed by another African country."
+        },
+        {
+          "value": 600,
+          "clue": "This African country has parts of both the Arabian and Libyan deserts within its borders.",
+          "answer": "Egypt",
+          "source_id": "tapi:64824ee47778562fd76a969d",
+          "fit_justification": "Source question: 'What African country has parts of both the Arabian and Libyan deserts?' Source answer: 'Egypt'. Clue text taken directly from source; Egypt is an African country."
+        },
+        {
+          "value": 800,
+          "clue": "This West African country's capital is Lomé, situated on the Gulf of Guinea.",
+          "answer": "Togo",
+          "source_id": "tapi:623742a0cb85f7ce9e949de0",
+          "fit_justification": "Source question: 'What is the capital city of Togo?' Source answer: 'Lomé'. Togo is an African country; clue reframed so country is the answer."
+        },
+        {
+          "value": 1000,
+          "clue": "This West African nation's capital, Ouagadougou, is one of the most difficult capital names to spell.",
+          "answer": "Burkina Faso",
+          "source_id": "otdb:116c8jt",
+          "fit_justification": "Source question: 'What is the capital of Burkina Faso?' Source answer: 'Ouagadougou'. Burkina Faso is an African country; clue reframed so the country is the answer."
+        }
+      ]
+    },
+    {
+      "title": "WORLD CAPITALS",
+      "theme": "Each clue asks for or identifies the capital city of a country",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city on the banks of the Thames serves as the seat of the UK government and home to Buckingham Palace.",
+          "answer": "London",
+          "source_id": "tapi:622a1c357cc59eab6f94ff80",
+          "fit_justification": "Source question asks 'What is the capital of the United Kingdom'; source answer is 'London', a capital city."
+        },
+        {
+          "value": 400,
+          "clue": "Situated on the Chao Phraya River, this city is home to the Grand Palace and is the seat of power in its Southeast Asian nation.",
+          "answer": "Bangkok",
+          "source_id": "tapi:62374296cb85f7ce9e949ddc",
+          "fit_justification": "Source question asks 'What is the capital city of Thailand'; source answer is 'Bangkok', a capital city."
+        },
+        {
+          "value": 600,
+          "clue": "This South American capital city shares its name with a 19th-century Chilean independence hero and sits in a central valley ringed by the Andes.",
+          "answer": "Santiago",
+          "source_id": "otdb:yxbyzr",
+          "fit_justification": "Source question asks 'What is the capital of Chile'; source answer is 'Santiago', a capital city."
+        },
+        {
+          "value": 800,
+          "clue": "This landlocked capital of the world's largest landlocked country sits on the Tuul River and endures some of the coldest winter temperatures of any national capital.",
+          "answer": "Ulaanbaatar",
+          "source_id": "tapi:6237417acb85f7ce9e949d6a",
+          "fit_justification": "Source question asks 'What is the capital city of Mongolia'; source answer is 'Ulaanbaatar', a capital city."
+        },
+        {
+          "value": 1000,
+          "clue": "This city on Babeldaob Island is the least populous national capital in the world, serving a Pacific island nation of fewer than 20,000 people.",
+          "answer": "Ngerulmud",
+          "source_id": "tapi:623741d4cb85f7ce9e949d8e",
+          "fit_justification": "Source question asks 'What is the capital city of Palau'; source answer is 'Ngerulmud', a capital city."
+        }
+      ]
+    },
+    {
+      "title": "COUNTRY CODE TOP-LEVEL DOMAINS",
+      "theme": "Each clue gives a country-code internet domain extension; the answer is the country or region it belongs to",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Websites ending in '.th' belong to this Southeast Asian kingdom, home to Bangkok and beautiful temples.",
+          "answer": "Thailand",
+          "source_id": "tapi:623735f1cfe13103f55eb585",
+          "fit_justification": "Source question asks 'Which region of the world uses .th at the end of its web addresses'; source answer is 'Thailand'."
+        },
+        {
+          "value": 400,
+          "clue": "The country code '.nl' belongs to this Western European nation, famous for windmills, tulips, and its canal-lined capital Amsterdam.",
+          "answer": "Netherlands",
+          "source_id": "tapi:62373594cfe13103f55eb547",
+          "fit_justification": "Source question asks 'Which region of the world uses .nl at the end of its web addresses'; source answer is 'Netherlands'."
+        },
+        {
+          "value": 600,
+          "clue": "Websites from this West African nation — whose longest river shares its name — end in '.ne'.",
+          "answer": "Niger",
+          "source_id": "tapi:6237359acfe13103f55eb54b",
+          "fit_justification": "Source question asks 'Which region of the world uses .ne at the end of its web addresses'; source answer is 'Niger'."
+        },
+        {
+          "value": 800,
+          "clue": "The country code '.sl' is assigned to this West African nation, home to the capital Freetown.",
+          "answer": "Sierra Leone",
+          "source_id": "tapi:623735d1cfe13103f55eb570",
+          "fit_justification": "Source question asks 'Which region of the world uses .sl at the end of its web addresses'; source answer is 'Sierra Leone'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Gulf nation, home to Dubai and Abu Dhabi, uses the domain extension '.ae' for its websites.",
+          "answer": "United Arab Emirates",
+          "source_id": "tapi:62373600cfe13103f55eb590",
+          "fit_justification": "Source question asks 'Which region of the world uses .ae at the end of its web addresses'; source answer is 'United Arab Emirates'."
+        }
+      ]
+    },
+    {
+      "title": "US STATE CAPITALS",
+      "theme": "Each clue leads to the capital city of a US state",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Live music capital of the world and seat of the Texas state government, this city sits on the Colorado River.",
+          "answer": "Austin",
+          "source_id": "otdb:izxff1",
+          "fit_justification": "Source question asks 'What is the capital city of the U.S. state of Texas'; source answer is 'Austin', a US state capital."
+        },
+        {
+          "value": 400,
+          "clue": "This Louisiana capital, whose name translates to 'red stick' in French, sits on the Mississippi River.",
+          "answer": "Baton Rouge",
+          "source_id": "tapi:623384aa62eaad73716a8c22",
+          "fit_justification": "Source question asks 'What is the state capital of Louisiana'; source answer is 'Baton Rouge', a US state capital."
+        },
+        {
+          "value": 600,
+          "clue": "This small city on the Missouri River is the capital of South Dakota, despite not being the state's largest city.",
+          "answer": "Pierre",
+          "source_id": "otdb:1kmf2gb",
+          "fit_justification": "Source question asks 'What is the state capital of South Dakota'; source answer is 'Pierre', a US state capital."
+        },
+        {
+          "value": 800,
+          "clue": "Far from the lower 48, this city on Gastineau Channel is the capital of the largest US state by area.",
+          "answer": "Juneau",
+          "source_id": "tapi:645cb162602ff42ca52fb438",
+          "fit_justification": "Source question asks 'What is the capital city of Alaska'; source answer is 'Juneau', a US state capital."
+        },
+        {
+          "value": 1000,
+          "clue": "Though Chicago dominates in fame, this city on the Illinois River is actually the capital of the Prairie State.",
+          "answer": "Lansing",
+          "source_id": "otdb:pmcsui",
+          "fit_justification": "Source question asks 'Which city is the capital of Michigan'; source answer is 'Lansing', a US state capital."
+        }
+      ]
+    },
+    {
+      "title": "CAPITAL CITIES",
+      "theme": "Each answer is the capital city of the country named in the question",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Asian metropolis, home to the Imperial Palace, is the seat of Japan's national government.",
+          "answer": "Tokyo",
+          "source_id": "tapi:623740e7cb85f7ce9e949d2e",
+          "fit_justification": "Source question asks 'What is the capital city of Japan?' and source answer is 'Tokyo', a capital city."
+        },
+        {
+          "value": 400,
+          "clue": "Sitting on the Dnieper River, this Eastern European city is the capital of the country whose flag features blue and yellow horizontal bands.",
+          "answer": "Kyiv",
+          "source_id": "tapi:623742c8cb85f7ce9e949df0",
+          "fit_justification": "Source question asks 'What is the capital city of Ukraine?' and source answer is 'Kyiv', a capital city."
+        },
+        {
+          "value": 600,
+          "clue": "This port city on New Providence Island serves as the capital of a Caribbean island nation.",
+          "answer": "Nassau",
+          "source_id": "tapi:62373f86cb85f7ce9e949ca1",
+          "fit_justification": "Source question asks 'Nassau is the capital city of which country?' and source answer is 'Bahamas'; Nassau is explicitly called a capital city in the source."
+        },
+        {
+          "value": 800,
+          "clue": "Landlocked within South Africa, this small kingdom's capital shares its name with a city in France.",
+          "answer": "Maseru",
+          "source_id": "tapi:6237411acb85f7ce9e949d43",
+          "fit_justification": "Source question asks 'Maseru is the capital city of which country?' and source answer is 'Lesotho'; Maseru is explicitly called a capital city in the source."
+        },
+        {
+          "value": 1000,
+          "clue": "This city, formerly known as Frunze, is the capital of a Central Asian republic that borders China, Kazakhstan, Tajikistan, and Uzbekistan.",
+          "answer": "Bishkek",
+          "source_id": "tapi:623742e0cb85f7ce9e949dfa",
+          "fit_justification": "Source question asks 'What is the capital city of Uzbekistan?' — noting the pool also contains [tapi:623742e0cb85f7ce9e949dfa] whose answer is 'Tashkent'; using that source: source question asks 'What is the capital city of Uzbekistan?' and source answer is 'Tashkent', a capital city."
+        }
+      ]
+    },
+    {
+      "title": "FLAG COLORS",
+      "theme": "Each clue asks which color appears on a named country's flag; answers are color names",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "India's tricolor flag features saffron at the top, white in the middle with the Ashoka Chakra, and this color at the bottom.",
+          "answer": "Orange",
+          "source_id": "tapi:625e9eb5796f721e95543f67",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of India?' and source answer is 'Orange'."
+        },
+        {
+          "value": 400,
+          "clue": "The flag of Indonesia consists of two equal horizontal bands: the top band is this color, and the bottom is white.",
+          "answer": "Red",
+          "source_id": "tapi:625e9ea727d267462ff91758",
+          "fit_justification": "Source question asks 'Which of these colors would you find on the flag of Indonesia?' and source answer is 'Red'."
+        },
+        {
+          "value": 600,
+          "clue": "Iran's tricolor flag features this color in both its top and bottom bands, with white in the center and the national emblem.",
+          "answer": "Red",
+          "source_id": "tapi:625e9ed0796f721e95543f6e",
+          "fit_justification": "Source question asks 'Which of these colors would you find on the flag of Iran?' and source answer is 'Red'."
+        },
+        {
+          "value": 800,
+          "clue": "Portugal's flag is divided into unequal vertical bands of this color and red, with the national coat of arms at the border.",
+          "answer": "Green",
+          "source_id": "tapi:625e9f97796f721e95543fa8",
+          "fit_justification": "Source question asks 'Which of these colors would you find on the flag of Portugal?' and source answer is 'Green'."
+        },
+        {
+          "value": 1000,
+          "clue": "Mali's vertical tricolor flag features this color in its rightmost band, alongside yellow and green.",
+          "answer": "Red",
+          "source_id": "tapi:625e9f37796f721e95543f8c",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Mali?' and source answer is 'Red'."
+        }
+      ]
+    },
+    {
+      "title": "WORLD CAPITAL CITIES",
+      "theme": "Each answer is a national capital city; the source question asks for the capital of a named country",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city on the island of Honshu serves as the capital of Japan — and home to the Imperial Palace.",
+          "answer": "Tokyo",
+          "source_id": "tapi:6476390bf05ea6d6f587a16f",
+          "fit_justification": "Source question asks 'In which city is Edo Castle located?' and the answer 'Tokyo' is the capital of Japan; Edo Castle is the Imperial Palace site in Tokyo."
+        },
+        {
+          "value": 400,
+          "clue": "Named partly after the Malay word for 'muddy confluence,' this Southeast Asian city is the capital of Malaysia.",
+          "answer": "Kuala Lumpur",
+          "source_id": "tapi:62374144cb85f7ce9e949d54",
+          "fit_justification": "Source question asks 'What is the capital city of Malaysia?' and the answer is 'Kuala Lumpur.'"
+        },
+        {
+          "value": 600,
+          "clue": "This West African capital sits on the Gulf of Guinea and is the seat of government for Ghana.",
+          "answer": "Accra",
+          "source_id": "tapi:62374088cb85f7ce9e949d08",
+          "fit_justification": "Source question asks 'What is the capital city of Ghana?' and the answer is 'Accra.'"
+        },
+        {
+          "value": 800,
+          "clue": "Landlocked in the Mekong basin, this is the capital of Cambodia — a city whose name means 'four faces.'",
+          "answer": "Phnom Penh",
+          "source_id": "tapi:62373fdfcb85f7ce9e949cc4",
+          "fit_justification": "Source question asks 'What is the capital city of Cambodia?' and the answer is 'Phnom Penh.'"
+        },
+        {
+          "value": 1000,
+          "clue": "Built from scratch in a central location, this planned city replaced Abidjan as the official capital of Cote d'Ivoire in 1983.",
+          "answer": "Yamoussoukro",
+          "source_id": "tapi:6237401acb85f7ce9e949cdc",
+          "fit_justification": "Source question asks 'What is the capital city of Cote d'Ivoire?' and the answer is 'Yamoussoukro.'"
+        }
+      ]
+    },
+    {
+      "title": "FLAGS OF THE WORLD",
+      "theme": "Each clue asks which color appears on a named country's flag; source questions literally ask about flag colors",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This color appears on Brazil's flag — the same hue as the large diamond shape at its center.",
+          "answer": "Green",
+          "source_id": "tapi:625e9e03796f721e95543f39",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Brazil?' and the answer is 'Green.'"
+        },
+        {
+          "value": 400,
+          "clue": "Nigeria's flag is a simple vertical triband: two of these on the outside, white in the middle.",
+          "answer": "Green",
+          "source_id": "tapi:625e9f74796f721e95543f9e",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Nigeria?' and the answer is 'Green.' Different country from Brazil clue; same answer letter is permissible as answers are independently verified."
+        },
+        {
+          "value": 400,
+          "clue": "Canada's maple leaf flag features this color as its background field on both outer bands.",
+          "answer": "White",
+          "source_id": "tapi:625e9e18796f721e95543f3e",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Canada?' and the answer is 'White.'"
+        },
+        {
+          "value": 600,
+          "clue": "Uruguay's flag has nine horizontal stripes and a sun symbol; this color fills the alternating stripes.",
+          "answer": "Blue",
+          "source_id": "tapi:625ea019796f721e95543fce",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Uruguay?' and the answer is 'Blue.'"
+        },
+        {
+          "value": 1000,
+          "clue": "The flag of Luxembourg features three horizontal bands: red, white, and this color on the bottom.",
+          "answer": "Red",
+          "source_id": "tapi:625e9f30796f721e95543f8a",
+          "fit_justification": "Source question asks 'Which of these colors would you find on the flag of Luxembourg?' and the answer is 'Red.'"
+        }
+      ]
+    },
+    {
+      "title": "IN WHICH COUNTRY WOULD YOU FIND…",
+      "theme": "Each source question literally begins 'In which country would you find' a named landmark or place",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "You'd find Mount Fuji, the iconic snow-capped stratovolcano, in this island nation.",
+          "answer": "Japan",
+          "source_id": "tapi:623b5848fd6c701a921183ac",
+          "fit_justification": "Source question literally reads 'In which country would you find Mount Fuji?' and the answer is 'Japan.'"
+        },
+        {
+          "value": 400,
+          "clue": "The ancient walled city of Bagan, filled with thousands of Buddhist temples, is found in this Southeast Asian country.",
+          "answer": "Myanmar",
+          "source_id": "tapi:623b57c2fd6c701a9211837a",
+          "fit_justification": "Source question literally reads 'In which country would you find the Ancient City of Bagan?' and the answer is 'Myanmar.'"
+        },
+        {
+          "value": 600,
+          "clue": "The Plitvice Lakes National Park, a UNESCO World Heritage site of cascading turquoise lakes, is found in this Balkan country.",
+          "answer": "Croatia",
+          "source_id": "tapi:623b57bafd6c701a92118377",
+          "fit_justification": "Source question literally reads 'In which country would you find the Plitvice Lakes National Park?' and the answer is 'Croatia.'"
+        },
+        {
+          "value": 800,
+          "clue": "The Los Glaciares National Park, home to the Perito Moreno Glacier, is found in this South American country.",
+          "answer": "Argentina",
+          "source_id": "tapi:623b57b5fd6c701a92118375",
+          "fit_justification": "Source question literally reads 'In which country would you find the Los Glaciares National Park?' and the answer is 'Argentina.'"
+        },
+        {
+          "value": 1000,
+          "clue": "Geirangerfjord and Nærøyfjord, two of the world's most dramatic fjords, are UNESCO sites found in this Scandinavian country.",
+          "answer": "Norway",
+          "source_id": "tapi:623b581ffd6c701a9211839c",
+          "fit_justification": "Source question literally reads 'In which country would you find the UNESCO World Heritage site of Geirangerfjord and Nærøyfjord?' and the answer is 'Norway.'"
+        }
+      ]
+    },
+    {
+      "title": "AFRICAN CAPITALS",
+      "theme": "Each answer is the capital city of an African nation; source questions ask for the capital of a named African country",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This West African mega-city of over 20 million people serves as the capital of Nigeria.",
+          "answer": "Abuja",
+          "source_id": "tapi:623741b4cb85f7ce9e949d81",
+          "fit_justification": "Source question asks 'Abuja is the capital city of which country?' — the answer named is Nigeria, and Abuja is an African capital; clue rephrases to ask for the capital."
+        },
+        {
+          "value": 400,
+          "clue": "Sitting on the shores of Lake Victoria, this city is the capital of Tanzania — though Dar es Salaam remains larger.",
+          "answer": "Dodoma",
+          "source_id": "tapi:62374291cb85f7ce9e949dda",
+          "fit_justification": "Source question asks 'What is the capital city of Tanzania?' and the answer is 'Dodoma'; Tanzania is an African country."
+        },
+        {
+          "value": 600,
+          "clue": "Zambia's capital sits on the high Copperbelt plateau; this city's name means 'don't let the fish go off' in Nyanja.",
+          "answer": "Lusaka",
+          "source_id": "tapi:623742fecb85f7ce9e949e06",
+          "fit_justification": "Source question asks 'What is the capital city of Zambia?' and the answer is 'Lusaka'; Zambia is an African country."
+        },
+        {
+          "value": 800,
+          "clue": "This coastal city is the capital of Guinea, West Africa's only French-speaking country on the Atlantic coast.",
+          "answer": "Conakry",
+          "source_id": "tapi:6237409ccb85f7ce9e949d10",
+          "fit_justification": "Source question asks 'What is the capital city of Guinea?' and the answer is 'Conakry'; Guinea is an African country."
+        },
+        {
+          "value": 1000,
+          "clue": "The smallest country in mainland Africa by area, Benin's capital is this coastal city — not to be confused with the country's largest city, Cotonou.",
+          "answer": "Porto-Novo",
+          "source_id": "tapi:62373fadcb85f7ce9e949cb0",
+          "fit_justification": "Source question asks 'What is the capital city of Benin?' and the answer is 'Porto-Novo'; Benin is an African country."
+        }
+      ]
+    },
+    {
+      "title": "WORLD CAPITALS",
+      "theme": "Each answer is a national capital city, and the source question explicitly asks for the capital of a country",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Scandinavian capital is home to the Little Mermaid statue and the Tivoli Gardens.",
+          "answer": "Copenhagen",
+          "source_id": "otdb:1og1ar0",
+          "fit_justification": "Source question literally asks 'What is the capital of Denmark?' and source answer is 'Copenhagen', a national capital."
+        },
+        {
+          "value": 400,
+          "clue": "This Caribbean island nation's capital shares its name with a Jamaican parish.",
+          "answer": "Kingston",
+          "source_id": "otdb:92eqh1",
+          "fit_justification": "Source question literally asks 'What is the capital of Jamaica?' and source answer is 'Kingston', a national capital."
+        },
+        {
+          "value": 600,
+          "clue": "Nestled in the Andes, this city is the capital of Peru and South America's third-largest city.",
+          "answer": "Lima",
+          "source_id": "tapi:623741e8cb85f7ce9e949d96",
+          "fit_justification": "Source question literally asks 'What is the capital city of Peru?' and source answer is 'Lima', a national capital."
+        },
+        {
+          "value": 800,
+          "clue": "This capital of Mozambique sits on a natural harbor on the Indian Ocean coast.",
+          "answer": "Maputo",
+          "source_id": "tapi:62374189cb85f7ce9e949d70",
+          "fit_justification": "Source question literally asks 'What is the capital city of Mozambique?' and source answer is 'Maputo', a national capital."
+        },
+        {
+          "value": 1000,
+          "clue": "This compact Pacific island nation's capital is the least-populous national capital in the world.",
+          "answer": "Palikir",
+          "source_id": "tapi:6237416bcb85f7ce9e949d64",
+          "fit_justification": "Source question literally asks 'What is the capital city of Micronesia?' and source answer is 'Palikir', a national capital."
+        }
+      ]
+    },
+    {
+      "title": "COUNTRY CODE TLD",
+      "theme": "Each clue describes a country's internet country-code top-level domain (ccTLD); the answer is the country that uses it",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Websites ending in '.de' are registered in this European nation, home to Berlin and the Autobahn.",
+          "answer": "Germany",
+          "source_id": "tapi:62373525cfe13103f55eb500",
+          "fit_justification": "Source question asks 'Which region of the world uses \".de\" at the end of its web addresses?' and source answer is 'Germany'."
+        },
+        {
+          "value": 400,
+          "clue": "The country code '.ru' belongs to this vast nation stretching across eleven time zones.",
+          "answer": "Russia",
+          "source_id": "tapi:623735bccfe13103f55eb562",
+          "fit_justification": "Source question asks 'Which region of the world uses \".ru\" at the end of its web addresses?' and source answer is 'Russia'."
+        },
+        {
+          "value": 600,
+          "clue": "Websites ending in '.ie' hail from this island nation whose name means 'land of the Gaels'.",
+          "answer": "Ireland",
+          "source_id": "tapi:62373545cfe13103f55eb516",
+          "fit_justification": "Source question asks 'Which region of the world uses \".ie\" at the end of its web addresses?' and source answer is 'Ireland'."
+        },
+        {
+          "value": 800,
+          "clue": "The top-level domain '.es' belongs to this country on the Iberian Peninsula.",
+          "answer": "Spain",
+          "source_id": "tapi:623735decfe13103f55eb579",
+          "fit_justification": "Source question asks 'Which region of the world uses \".es\" at the end of its web addresses?' and source answer is 'Spain'."
+        },
+        {
+          "value": 1000,
+          "clue": "The country code '.sb' belongs to this Pacific archipelago nation whose flag features a blue triangle representing its surrounding ocean.",
+          "answer": "Solomon Islands",
+          "source_id": "tapi:623735d7cfe13103f55eb574",
+          "fit_justification": "Source question asks 'Which region of the world uses \".sb\" at the end of its web addresses?' and source answer is 'Solomon Islands'."
+        }
+      ]
+    },
+    {
+      "title": "FLAGS OF THE WORLD",
+      "theme": "Each clue describes a flag's design or colors; the answer is the country whose flag is being described",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Western European nation's tricolor flag features blue, white, and red vertical stripes.",
+          "answer": "France",
+          "source_id": "tapi:625e9e85796f721e95543f5c",
+          "fit_justification": "Source question asks 'Which of these countries has white on its flag?' with answer 'France'; source directly links the country to its flag colors."
+        },
+        {
+          "value": 400,
+          "clue": "This Eastern European country's flag features three equal horizontal bands of blue and yellow.",
+          "answer": "Ukraine",
+          "source_id": "tapi:625ea004796f721e95543fc8",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Ukraine?' and source answer is 'Blue', confirming Ukraine's flag."
+        },
+        {
+          "value": 600,
+          "clue": "Described as 'blue with a red cross outlined in white extending to the edges,' this is the flag of which Nordic nation?",
+          "answer": "Iceland",
+          "source_id": "tapi:625e9ec6796f721e95543f6b",
+          "fit_justification": "Source question asks 'Which country's flag can be described as \"Blue with a red cross outlined in white extending to the edges\"?' and source answer is 'Iceland'."
+        },
+        {
+          "value": 800,
+          "clue": "This Middle Eastern country's flag features three equal horizontal bands of green, white, and red.",
+          "answer": "Iran",
+          "source_id": "tapi:625e9ecd796f721e95543f6d",
+          "fit_justification": "Source question asks 'Which country's flag fits the description of \"Three equal horizontal bands of green white and red\"?' and source answer is 'Iran'."
+        },
+        {
+          "value": 1000,
+          "clue": "This African nation displays an AK-47 on its flag, making it one of the few countries with a weapon on its national banner.",
+          "answer": "Mozambique",
+          "source_id": "otdb:1rh97ye",
+          "fit_justification": "Source question asks 'Which of these African countries displays a gun on their flag?' and source answer is 'Mozambique'."
+        }
+      ]
+    },
+    {
+      "title": "UNESCO WORLD HERITAGE SITES",
+      "theme": "Each clue asks about a UNESCO World Heritage Site; the answer is the country where it is found",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The ancient rose-red city of Petra, carved into rock cliffs, is a UNESCO World Heritage Site in this Middle Eastern country.",
+          "answer": "Jordan",
+          "source_id": "tapi:623b57d4fd6c701a92118381",
+          "fit_justification": "Source question asks 'In which country would you find the UNESCO World Heritage site of Petra?' and source answer is 'Jordan'."
+        },
+        {
+          "value": 400,
+          "clue": "The Agra Fort, a UNESCO World Heritage Site near the Taj Mahal, is found in this South Asian country.",
+          "answer": "India",
+          "source_id": "tapi:623b5822fd6c701a9211839d",
+          "fit_justification": "Source question asks 'In which country would you find the UNESCO World Heritage site of Agra Fort?' and source answer is 'India'."
+        },
+        {
+          "value": 600,
+          "clue": "La Grand-Place, one of Europe's most ornate town squares and a UNESCO World Heritage Site, is located in this country.",
+          "answer": "Belgium",
+          "source_id": "tapi:623b57f5fd6c701a9211838c",
+          "fit_justification": "Source question asks 'In which country would you find the UNESCO World Heritage site of La Grand-Place?' and source answer is 'Belgium'."
+        },
+        {
+          "value": 800,
+          "clue": "The dramatic ruins of Hampi, a UNESCO World Heritage Site featuring ancient Vijayanagara Empire temples, are found in this country.",
+          "answer": "India",
+          "source_id": "tapi:623b57c0fd6c701a92118379",
+          "fit_justification": "Source question asks 'In which country would you find the ancient temple complexes of Hampi?' and source answer is 'India'."
+        },
+        {
+          "value": 1000,
+          "clue": "The remote archipelago of St. Kilda, a dual UNESCO World Heritage Site for both its nature and culture, belongs to this country.",
+          "answer": "Scotland",
+          "source_id": "tapi:623b57f2fd6c701a9211838b",
+          "fit_justification": "Source question asks 'In which country would you find the UNESCO World Heritage site of St. Kilda?' and source answer is 'Scotland'."
+        }
+      ]
+    },
+    {
+      "title": "WORLD CAPITALS",
+      "theme": "Each clue asks for the capital city of a country; answers are capital cities.",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This European city on the Danube is the capital of Austria.",
+          "answer": "Vienna",
+          "source_id": "tapi:62373f7fcb85f7ce9e949c9e",
+          "fit_justification": "Source question asks 'What is the capital city of Austria?' and source answer is 'Vienna', a capital city."
+        },
+        {
+          "value": 400,
+          "clue": "This South American city high in the Andes is the capital of Ecuador.",
+          "answer": "Quito",
+          "source_id": "otdb:lu48ih",
+          "fit_justification": "Source question asks 'What is the capital of Ecuador?' and source answer is 'Quito', a capital city."
+        },
+        {
+          "value": 600,
+          "clue": "The capital of Jamaica, this city shares its name with a borough of London.",
+          "answer": "Kingston",
+          "source_id": "tapi:623740e2cb85f7ce9e949d2c",
+          "fit_justification": "Source question asks 'What is the capital city of Jamaica?' and source answer is 'Kingston', a capital city."
+        },
+        {
+          "value": 800,
+          "clue": "This Central American capital is the seat of government of Honduras and one of the longest capital city names in the world.",
+          "answer": "Tegucigalpa",
+          "source_id": "tapi:623740b1cb85f7ce9e949d18",
+          "fit_justification": "Source question asks 'What is the capital city of Honduras?' and source answer is 'Tegucigalpa', a capital city."
+        },
+        {
+          "value": 1000,
+          "clue": "This small atoll in the Pacific serves as the capital of Kiribati.",
+          "answer": "Bairiki",
+          "source_id": "tapi:622a1c357cc59eab6f94fe29",
+          "fit_justification": "Source question asks 'What is the capital of Kiribati?' and source answer is 'Bairiki', a capital city."
+        }
+      ]
+    },
+    {
+      "title": "FLAGS OF THE WORLD",
+      "theme": "Each clue is about a color or symbol featured on a country's national flag.",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This country's flag features a maple leaf as its central symbol.",
+          "answer": "Canada",
+          "source_id": "otdb:1iay15x",
+          "fit_justification": "Source question asks 'Which country features a maple leaf on its flag?' and source answer is 'Canada'."
+        },
+        {
+          "value": 400,
+          "clue": "The Dharma Chakra, or 'Wheel of Law', appears on the flag of this South Asian nation.",
+          "answer": "India",
+          "source_id": "tapi:648ee4224fe93387161138a4",
+          "fit_justification": "Source question asks 'The Dharma Chakra or Wheel of Law appears on the flag of which country?' and source answer is 'India'."
+        },
+        {
+          "value": 600,
+          "clue": "A lion brandishing a sword is depicted on the national flag of this island nation off India's southern tip.",
+          "answer": "Sri Lanka",
+          "source_id": "otdb:bryrat",
+          "fit_justification": "Source question asks 'A lion brandishing a sword is depicted on the national flag of which country?' and source answer is 'Sri Lanka'."
+        },
+        {
+          "value": 800,
+          "clue": "This country's flag is described as five equal horizontal bands of red alternating with white, with a blue triangle on the left containing a white star.",
+          "answer": "Puerto Rico",
+          "source_id": "tapi:625e9fab796f721e95543fad",
+          "fit_justification": "Source question asks 'Which country's flag fits the description of five equal horizontal bands of red alternating with white, a blue triangle on the left containing a white star?' and source answer is 'Puerto Rico'."
+        },
+        {
+          "value": 1000,
+          "clue": "After the 1936 Olympics, this tiny European principality added a crown to its flag to distinguish it from Haiti's.",
+          "answer": "Liechtenstein",
+          "source_id": "otdb:1dkynt3",
+          "fit_justification": "Source question asks 'What event led to Liechtenstein adding a crown to its flag?' referencing the flag directly; source answer is 'The 1936 Olympics'; clue rephrases to make Liechtenstein the answer without revealing it in the clue text."
+        }
+      ]
+    },
+    {
+      "title": "COUNTRY CAPITALS",
+      "theme": "Each clue asks for or about the capital city of a country",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city on the Iberian Peninsula serves as the seat of government for the country of Spain.",
+          "answer": "Madrid",
+          "source_id": "otdb:1678vsm",
+          "fit_justification": "Source question 'What is the capital of Spain?' and source answer 'Madrid' — literal capital city question."
+        },
+        {
+          "value": 400,
+          "clue": "The Hagia Sophia, once a church and then a mosque, stands in this city that is also the Turkish capital of culture.",
+          "answer": "Istanbul",
+          "source_id": "tapi:639c9d90929b90846f2fc951",
+          "fit_justification": "Source question 'The Hagia Sophia is an iconic structure in what city?' and source answer 'Istanbul' — answer is a city."
+        },
+        {
+          "value": 600,
+          "clue": "Home to the famed Manneken Pis statue, this city is the capital of Belgium and headquarters of the EU.",
+          "answer": "Brussels",
+          "source_id": "tapi:6233867262eaad73716a8cd3",
+          "fit_justification": "Source question asks where 'Le Petit Pissoir' statue is; source answer 'Brussels' — Brussels is the capital of Belgium, and the clue references the city without naming it."
+        },
+        {
+          "value": 800,
+          "clue": "This landlocked African city serves as the capital of Niger, one of the world's largest countries by area.",
+          "answer": "Niamey",
+          "source_id": "tapi:623741b2cb85f7ce9e949d80",
+          "fit_justification": "Source question 'What is the capital city of Niger?' and source answer 'Niamey' — literal capital city question."
+        },
+        {
+          "value": 1000,
+          "clue": "Situated on Guadalcanal island in the South Pacific, this city is the capital of the Solomon Islands.",
+          "answer": "Honiara",
+          "source_id": "tapi:62374253cb85f7ce9e949dc1",
+          "fit_justification": "Source question 'Honiara is the capital city of which country?' and source answer 'Solomon Islands' — answer repurposed; clue asks for the capital, answer is 'Honiara' from source question text."
+        }
+      ]
+    },
+    {
+      "title": "WORLD RIVERS",
+      "theme": "Each clue is about a notable river; answer is the river's name",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Known as 'Old Man River,' this mighty American waterway flows south through the heart of the United States to the Gulf of Mexico.",
+          "answer": "The Mississippi",
+          "source_id": "tapi:6233852962eaad73716a8c53",
+          "fit_justification": "Source question 'What river is called Old Man River?' and source answer 'The Mississippi' — literal river question."
+        },
+        {
+          "value": 400,
+          "clue": "The city of New York stands on the banks of this river, which empties into Upper New York Bay.",
+          "answer": "The Hudson",
+          "source_id": "tapi:622a1c357cc59eab6f94fe3e",
+          "fit_justification": "Source question 'On which River does the City of New York stand?' and source answer 'The Hudson' — literal river question."
+        },
+        {
+          "value": 600,
+          "clue": "Düsseldorf is an important port on this major European river, which flows through Germany and the Netherlands before reaching the North Sea.",
+          "answer": "The Rhine",
+          "source_id": "tapi:6473075ccf09068746f63767",
+          "fit_justification": "Source question 'Which river is Dusseldorf an important port on?' and source answer 'The Rhine' — literal river question."
+        },
+        {
+          "value": 800,
+          "clue": "This river, which runs through Tokyo, is immortalized in many Japanese woodblock prints and shares its name with a famous sumo stable.",
+          "answer": "Sumida River",
+          "source_id": "tapi:63f39500989356ef48370bdd",
+          "fit_justification": "Source question 'Which river runs through Tokyo?' and source answer 'Sumida River' — literal river question."
+        },
+        {
+          "value": 1000,
+          "clue": "This river was dammed to create Gatun Lake, a crucial stretch of water for ships traversing the Panama Canal.",
+          "answer": "Chagres River",
+          "source_id": "otdb:1gkqtev",
+          "fit_justification": "Source question 'Which river was dammed to create Gatun Lake and the Panama Canal?' and source answer 'Chagres River' — literal river question."
+        }
+      ]
+    },
+    {
+      "title": "UNESCO WORLD HERITAGE SITES",
+      "theme": "Each clue describes a UNESCO World Heritage site; answer is the country where it is found",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Taj Mahal, a UNESCO World Heritage site and symbol of eternal love, is found in this South Asian nation.",
+          "answer": "India",
+          "source_id": "tapi:623b577afd6c701a9211835e",
+          "fit_justification": "Source question 'In which country would you find the Taj Mahal?' and source answer 'India' — clue rephrased to reference UNESCO heritage context matching theme."
+        },
+        {
+          "value": 400,
+          "clue": "The Al-Hijr Archaeological Site, a vast necropolis of Nabataean tombs carved into sandstone, is a UNESCO treasure of this country.",
+          "answer": "Saudi Arabia",
+          "source_id": "tapi:623b57cafd6c701a9211837d",
+          "fit_justification": "Source question 'In which country would you find the UNESCO World Heritage site of Al-Hijr Archaeological Site?' and source answer 'Saudi Arabia' — literal UNESCO heritage question."
+        },
+        {
+          "value": 600,
+          "clue": "Bryggen, a row of Hanseatic wooden buildings lining the wharf of a historic port city, is a UNESCO site in this Nordic nation.",
+          "answer": "Norway",
+          "source_id": "tapi:623b5845fd6c701a921183ab",
+          "fit_justification": "Source question 'In which country would you find the UNESCO World Heritage site of Bryggen?' and source answer 'Norway' — literal UNESCO heritage question."
+        },
+        {
+          "value": 800,
+          "clue": "Ceský Krumlov, a breathtaking medieval town built around a Gothic castle, is a UNESCO site in this Central European country.",
+          "answer": "Czech Republic",
+          "source_id": "tapi:623b57dafd6c701a92118383",
+          "fit_justification": "Source question 'In which country would you find the UNESCO World Heritage site of Cesky Krumlov?' and source answer 'Czech Republic' — literal UNESCO heritage question."
+        },
+        {
+          "value": 1000,
+          "clue": "The ancient Erbil Citadel, one of the oldest continuously inhabited sites on Earth, is a UNESCO World Heritage site in this Middle Eastern country.",
+          "answer": "Iraq",
+          "source_id": "tapi:623b5852fd6c701a921183b0",
+          "fit_justification": "Source question 'In which country would you find the UNESCO World Heritage site of The Erbil Citadel?' and source answer 'Iraq' — literal UNESCO heritage question."
+        }
+      ]
+    },
+    {
+      "title": "WORLD CAPITALS",
+      "theme": "Each answer is the capital city of the country named in the question",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city on the Seine has served as France's seat of government for centuries.",
+          "answer": "Paris",
+          "source_id": "tapi:622a1c357cc59eab6f94ffe6",
+          "fit_justification": "Source question asks 'What is the capital of France?' and source answer is 'Paris', a capital city."
+        },
+        {
+          "value": 400,
+          "clue": "This Eastern Mediterranean island nation's capital shares its name with a goddess of victory.",
+          "answer": "Nicosia",
+          "source_id": "otdb:clko22",
+          "fit_justification": "Source question asks 'What is the capital of Cyprus?' and source answer is 'Nicosia', a capital city."
+        },
+        {
+          "value": 600,
+          "clue": "Home to tango and wide boulevards, this city is the capital of South America's second-largest country by area.",
+          "answer": "Buenos Aires",
+          "source_id": "tapi:62373f70cb85f7ce9e949c99",
+          "fit_justification": "Source question asks 'What is the capital city of Argentina?' and source answer is 'Buenos Aires', a capital city."
+        },
+        {
+          "value": 800,
+          "clue": "This landlocked capital of Botswana grew from a small settlement into a modern city in just decades after independence.",
+          "answer": "Gaborone",
+          "source_id": "tapi:62373fbccb85f7ce9e949cb6",
+          "fit_justification": "Source question asks 'What is the capital city of Botswana?' and source answer is 'Gaborone', a capital city."
+        },
+        {
+          "value": 1000,
+          "clue": "This capital of Tuvalu, one of the world's least-visited nations, sits on a narrow coral atoll in the Pacific.",
+          "answer": "Funafuti",
+          "source_id": "tapi:623742becb85f7ce9e949dec",
+          "fit_justification": "Source question asks 'What is the capital city of Tuvalu?' and source answer is 'Funafuti', a capital city."
+        }
+      ]
+    },
+    {
+      "title": "FLAG COLORS",
+      "theme": "Each clue names a country whose flag contains the given color, confirmed by the source question",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This South American country's flag features a green field with a yellow diamond and a blue celestial globe.",
+          "answer": "Brazil",
+          "source_id": "tapi:625e9dff796f721e95543f38",
+          "fit_justification": "Source question asks which country's flag is 'Green with a yellow diamond in the center with a blue celestial globe' and source answer is 'Brazil'."
+        },
+        {
+          "value": 400,
+          "clue": "The flag of this Mediterranean nation features blue and white stripes along with a white cross.",
+          "answer": "Greece",
+          "source_id": "tapi:625e9e99796f721e95543f60",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Greece?' confirming Blue; source answer is 'Blue' verifying the flag color of Greece."
+        },
+        {
+          "value": 600,
+          "clue": "The flag of this Caribbean island territory displays a lone star on a tricolor of red, white, and blue.",
+          "answer": "Puerto Rico",
+          "source_id": "tapi:625e9fab796f721e95543fae",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Puerto Rico?' and source answer is 'Red', confirming the flag color of Puerto Rico."
+        },
+        {
+          "value": 800,
+          "clue": "This West African nation's flag uses the Pan-African colors of red, yellow, and green in vertical stripes.",
+          "answer": "Guinea",
+          "source_id": "tapi:625e9ebc796f721e95543f69",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Guinea?' and source answer is 'Yellow', confirming the flag color of Guinea."
+        },
+        {
+          "value": 1000,
+          "clue": "The flag of this Southeast Asian nation depicts Angkor Wat in white on a red field with blue stripes.",
+          "answer": "Cambodia",
+          "source_id": "tapi:625e9e0d796f721e95543f3b",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Cambodia?' and source answer is 'Red', confirming the flag color of Cambodia."
+        }
+      ]
+    },
+    {
+      "title": "CAPITAL CITIES",
+      "theme": "Each answer is the capital city of the named country or territory",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This European city on the Manzanares River serves as the capital of Spain.",
+          "answer": "Madrid",
+          "source_id": "tapi:6237426acb85f7ce9e949dca",
+          "fit_justification": "Source question asks 'What is the capital city of Spain?' and source answer is 'Madrid'."
+        },
+        {
+          "value": 400,
+          "clue": "Situated in northern Europe, this city is the capital of Finland.",
+          "answer": "Helsinki",
+          "source_id": "otdb:1a8ufxx",
+          "fit_justification": "Source question asks 'What is the capital of Finland?' and source answer is 'Helsinki'."
+        },
+        {
+          "value": 600,
+          "clue": "This city on the Danube is the capital of Slovenia.",
+          "answer": "Ljubljana",
+          "source_id": "otdb:1939uyn",
+          "fit_justification": "Source question asks 'What is the capital city of Slovenia?' and source answer is 'Ljubljana'."
+        },
+        {
+          "value": 800,
+          "clue": "This West African city is the capital of Mauritania.",
+          "answer": "Nouakchott",
+          "source_id": "tapi:6237415ccb85f7ce9e949d5e",
+          "fit_justification": "Source question asks 'What is the capital city of Mauritania?' and source answer is 'Nouakchott'."
+        },
+        {
+          "value": 1000,
+          "clue": "The capital of the small island nation of Comoros, it shares its name with a city in Nigeria.",
+          "answer": "Moroni",
+          "source_id": "tapi:62374006cb85f7ce9e949cd4",
+          "fit_justification": "Source question asks 'What is the capital city of Comoros?' and source answer is 'Moroni'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH COUNTRY IS THAT CITY IN?",
+      "theme": "Each clue names a city and asks for the country it is located in",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The ancient port city of Istanbul, straddling Europe and Asia, belongs to this country.",
+          "answer": "Turkey",
+          "source_id": "tapi:62602d524b176d54800e3c8f",
+          "fit_justification": "Source question asks 'Which of these cities is in Turkey?' with answer 'Istanbul'; rephrased to name city and ask for country."
+        },
+        {
+          "value": 400,
+          "clue": "Kyoto, renowned for its traditional temples and shrines, is a city in this country.",
+          "answer": "Japan",
+          "source_id": "tapi:623b5843fd6c701a921183aa",
+          "fit_justification": "Source question asks 'In which country would you find city of Kyoto?' and source answer is 'Japan'."
+        },
+        {
+          "value": 600,
+          "clue": "Lviv, a city known for its well-preserved medieval architecture, is located in this Eastern European country.",
+          "answer": "Ukraine",
+          "source_id": "tapi:626030954b176d54800e3d2f",
+          "fit_justification": "Source question asks 'Lviv is a city in which country?' and source answer is 'Ukraine'."
+        },
+        {
+          "value": 800,
+          "clue": "Cartagena, a walled colonial city on the Caribbean coast, is in this South American country.",
+          "answer": "Colombia",
+          "source_id": "tapi:626030844b176d54800e3d2a",
+          "fit_justification": "Source question asks 'Which of these cities is in Colombia?' and source answer is 'Cartagena'."
+        },
+        {
+          "value": 1000,
+          "clue": "Cali, Colombia's third-largest city famous for salsa dancing, shares its country name with this nation — wait, no: the city of Cordoba, known for its Moorish architecture, is in this South American country.",
+          "answer": "Argentina",
+          "source_id": "tapi:62602ecc4b176d54800e3cf6",
+          "fit_justification": "Source question asks 'In which country is the city of Cordoba?' and source answer is 'Argentina'."
+        }
+      ]
+    },
+    {
+      "title": "CAPITAL CITIES OF THE WORLD",
+      "theme": "Each clue asks for or identifies the capital city of a country; answers are capital cities",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This South Asian city of over 30 million people serves as the seat of government for the world's most populous democracy.",
+          "answer": "New Delhi",
+          "source_id": "otdb:r815en",
+          "fit_justification": "Source question asks 'What is the capital of India?' and source answer is 'New Delhi', a capital city."
+        },
+        {
+          "value": 400,
+          "clue": "The ancient city of Athens holds this honor as the seat of government for its Mediterranean nation.",
+          "answer": "Greece",
+          "source_id": "tapi:6237408acb85f7ce9e949d09",
+          "fit_justification": "Source question asks 'Athens is the capital city of which country?' and source answer is 'Greece'; the clue inverts the capital-country relationship mechanically."
+        },
+        {
+          "value": 600,
+          "clue": "Charlottetown, known for its Victorian architecture and role in Confederation history, is the capital of this Canadian province.",
+          "answer": "Prince Edward Island",
+          "source_id": "otdb:11fqs89",
+          "fit_justification": "Source question asks 'Which Canadian province has Charlottetown as its capital?' and source answer is 'Prince Edward Island'; Charlottetown is named as a capital in the source."
+        },
+        {
+          "value": 800,
+          "clue": "Ouagadougou, one of the longest-named capitals on Earth, is the seat of government for this landlocked West African nation.",
+          "answer": "Burkina Faso",
+          "source_id": "otdb:1epl6di",
+          "fit_justification": "Source question asks 'Ouagadougou is the capital of which African country?' and source answer is 'Burkina Faso'; Ouagadougou is identified as a capital in the source."
+        },
+        {
+          "value": 1000,
+          "clue": "In 2019, this landlocked East African country moved its capital from Bujumbura to a city whose name translates to 'heart of the country.'",
+          "answer": "Gitega",
+          "source_id": "tapi:62373fd5cb85f7ce9e949cc0",
+          "fit_justification": "Source question asks 'What is the capital city of Burundi?' and source answer is 'Gitega'; the source identifies Gitega explicitly as a capital city."
+        }
+      ]
+    },
+    {
+      "title": "WORLD CAPITALS",
+      "theme": "Each answer is the capital city of a named country",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city on the banks of the Spree River has served as the seat of German government since reunification in 1990.",
+          "answer": "Berlin",
+          "source_id": "tapi:62374083cb85f7ce9e949d06",
+          "fit_justification": "Source question asks 'What is the capital city of Germany?' and source answer is 'Berlin', a capital city."
+        },
+        {
+          "value": 400,
+          "clue": "Sitting at over 9,000 feet above sea level, this Andean city is one of the highest capitals in the world and shares its name with its country.",
+          "answer": "Quito",
+          "source_id": "tapi:62374044cb85f7ce9e949ced",
+          "fit_justification": "Source question asks 'Quito is the capital city of which country?' and source answer is 'Ecuador'; Quito is the capital being asked about."
+        },
+        {
+          "value": 600,
+          "clue": "This capital of Bangladesh, home to over 20 million people, sits on the Buriganga River in the heart of the Bengal delta.",
+          "answer": "Dhaka",
+          "source_id": "tapi:62373f93cb85f7ce9e949ca6",
+          "fit_justification": "Source question asks 'What is the capital city of Bangladesh?' and source answer is 'Dhaka', a capital city."
+        },
+        {
+          "value": 800,
+          "clue": "The name of this capital of Belize is derived from Mayan for 'at the place of the fallen stones.'",
+          "answer": "Belmopan",
+          "source_id": "tapi:62373fa8cb85f7ce9e949cae",
+          "fit_justification": "Source question asks 'What is the capital city of Belize?' and source answer is 'Belmopan', a capital city."
+        },
+        {
+          "value": 1000,
+          "clue": "Built from scratch in a jungle clearing in the 1960s, this purpose-built capital of Myanmar replaced Rangoon as the seat of government in 2006.",
+          "answer": "Naypyidaw",
+          "source_id": "tapi:6237418ecb85f7ce9e949d72",
+          "fit_justification": "Source question asks 'What is the capital city of Myanmar?' and source answer is 'Naypyidaw', a capital city."
+        }
+      ]
+    },
+    {
+      "title": "WORLD CAPITALS",
+      "theme": "Each clue asks for the capital city of a country; answers are capital cities",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city on the Han River serves as the capital of South Korea.",
+          "answer": "Seoul",
+          "source_id": "otdb:1x7mg77",
+          "fit_justification": "Source question asks 'What is the capital of South Korea?' and source answer is 'Seoul', a capital city."
+        },
+        {
+          "value": 400,
+          "clue": "This Egyptian capital, home to the Great Pyramids nearby, sits at the apex of the Nile Delta.",
+          "answer": "Cairo",
+          "source_id": "tapi:6237404ccb85f7ce9e949cf0",
+          "fit_justification": "Source question asks 'What is the capital city of Egypt?' and source answer is 'Cairo', a capital city."
+        },
+        {
+          "value": 600,
+          "clue": "This landlocked capital of Afghanistan has been a crossroads of Central Asian trade for centuries.",
+          "answer": "Kabul",
+          "source_id": "tapi:62373f50cb85f7ce9e949c8e",
+          "fit_justification": "Source question asks 'What is the capital city of Afghanistan?' and source answer is 'Kabul', a capital city."
+        },
+        {
+          "value": 800,
+          "clue": "This capital of Bhutan sits in the Himalayan foothills and translates to 'dragon citadel'.",
+          "answer": "Thimphu",
+          "source_id": "tapi:62373fb2cb85f7ce9e949cb2",
+          "fit_justification": "Source question asks 'What is the capital city of Bhutan?' and source answer is 'Thimphu', a capital city."
+        },
+        {
+          "value": 1000,
+          "clue": "This city is the capital of the Central African Republic and sits at the confluence of the Ubangi and Mpoko rivers.",
+          "answer": "Bangui",
+          "source_id": "tapi:62373fedcb85f7ce9e949cca",
+          "fit_justification": "Source question asks 'What is the capital city of Central African Republic?' and source answer is 'Bangui', a capital city."
+        }
+      ]
+    },
+    {
+      "title": "FLAG COLORS",
+      "theme": "Each clue involves the color(s) appearing on a specific country's national flag",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The flag of this East Asian nation features nothing but a red circle on a white background.",
+          "answer": "Japan",
+          "source_id": "tapi:6233875d0161109f922aac1d",
+          "fit_justification": "Source question asks 'Which country has a flag of a red circle on a white background?' and source answer is 'Japan'; question is literally about flag colors."
+        },
+        {
+          "value": 400,
+          "clue": "Red is one of the colors you'll find on the tricolor flag of this Low Countries nation.",
+          "answer": "Netherlands",
+          "source_id": "tapi:625e9f6a796f721e95543f9b",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Netherlands?' and source answer is 'Red'; question is literally about a flag color."
+        },
+        {
+          "value": 600,
+          "clue": "Yellow is among the colors on the flag of this South American country, whose banner also features a sun emblem.",
+          "answer": "Argentina",
+          "source_id": "tapi:625e9dcb796f721e95543f2d",
+          "fit_justification": "Source question asks 'Which of these colors is included on the flag of Argentina?' and source answer is 'Yellow'; question is literally about a flag color."
+        },
+        {
+          "value": 800,
+          "clue": "Blue is one of the colors on the flag of this landlocked Central Asian nation, which also features the soyombo symbol.",
+          "answer": "Mongolia",
+          "source_id": "tapi:625e9f3e796f721e95543f8e",
+          "fit_justification": "Source question asks 'Which of these colors would you find on the flag of Mongolia?' and source answer is 'Blue'; question is literally about a flag color."
+        },
+        {
+          "value": 1000,
+          "clue": "Green is one of the three horizontal stripes on the flag of this Central European country, whose banner also features red and white.",
+          "answer": "Hungary",
+          "source_id": "tapi:625e9ed7796f721e95543f70",
+          "fit_justification": "Source question asks 'Which of these colors would you find on the flag of Hungary?' and source answer is 'Green'; question is literally about a flag color."
+        }
+      ]
+    },
+    {
+      "title": "CAPITAL CITIES",
+      "theme": "Each answer is the capital city of the country or state named in the question",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city on the banks of the Potomac serves as the seat of government for the United States of America.",
+          "answer": "Washington D.C",
+          "source_id": "otdb:540i12",
+          "fit_justification": "Source question asks 'Which city is the capital of the United States of America?' and source answer is 'Washington D.C', a capital city."
+        },
+        {
+          "value": 400,
+          "clue": "This Chinese capital has been the political heart of the nation for centuries and is home to the Forbidden City.",
+          "answer": "Beijing",
+          "source_id": "tapi:62373ffccb85f7ce9e949cd0",
+          "fit_justification": "Source question asks 'What is the capital city of China?' and source answer is 'Beijing', a capital city."
+        },
+        {
+          "value": 600,
+          "clue": "This tropical capital city is the seat of government for the US state known for its volcanoes and surfing culture.",
+          "answer": "Honolulu",
+          "source_id": "tapi:622a1c357cc59eab6f94ffe5",
+          "fit_justification": "Source question asks 'What is the capital of Hawaii?' and source answer is 'Honolulu', a capital city."
+        },
+        {
+          "value": 800,
+          "clue": "This capital of Trinidad and Tobago shares its name with a region in France, fitting for this former French colony.",
+          "answer": "Port of Spain",
+          "source_id": "tapi:623742aacb85f7ce9e949de4",
+          "fit_justification": "Source question asks 'What is the capital city of Trinidad and Tobago?' and source answer is 'Port of Spain', a capital city."
+        },
+        {
+          "value": 1000,
+          "clue": "The capital of Madagascar, this city's name — meaning 'City of Thousands' — is one of the longest capital city names in the world.",
+          "answer": "Antananarivo",
+          "source_id": "tapi:6237413acb85f7ce9e949d50",
+          "fit_justification": "Source question asks 'What is the capital city of Madagascar?' and source answer is 'Antananarivo', a capital city."
+        }
+      ]
+    },
+    {
+      "title": "CITY NICKNAMES",
+      "theme": "Each clue describes a city by its famous nickname; the answer is the city's real name",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Known as the 'City of Light', this European capital is famous for its art, fashion, and the Eiffel Tower.",
+          "answer": "Paris",
+          "source_id": "otdb:l46ilc",
+          "fit_justification": "Source question asks 'Which European city is known as the \"City of Light\"?' and source answer is 'Paris'; the nickname appears literally in the source question."
+        },
+        {
+          "value": 400,
+          "clue": "Blustery Lake Michigan winds gave this Illinois metropolis its enduring 'Windy City' moniker.",
+          "answer": "Chicago",
+          "source_id": "tapi:6233870a0161109f922aabfc",
+          "fit_justification": "Source question asks 'Which city is known as the Windy City?' and source answer is 'Chicago'; the nickname appears literally in the source question."
+        },
+        {
+          "value": 600,
+          "clue": "This Texas panhandle city goes by the name 'The Yellow Rose of Texas', sharing its name with a shade of yellow-orange.",
+          "answer": "Amarillo",
+          "source_id": "otdb:1w5ua1n",
+          "fit_justification": "Source question asks 'What Texas city is nicknamed \"The Yellow Rose of Texas\"?' and source answer is 'Amarillo'; the nickname appears literally in the source question."
+        },
+        {
+          "value": 800,
+          "clue": "The name 'Motown' is derived from this Michigan city's nickname, 'Motor City', birthplace of American auto manufacturing.",
+          "answer": "Detroit",
+          "source_id": "tapi:623387050161109f922aabfa",
+          "fit_justification": "Source question asks 'From which city's nickname is Motown's name derived?' and source answer is 'Detroit'; the question literally references a nickname and Motown's derivation."
+        },
+        {
+          "value": 1000,
+          "clue": "Known as 'Insurance City', this Connecticut state capital was once the world's leading hub for the insurance industry.",
+          "answer": "Hartford",
+          "source_id": "tapi:6233857b62eaad73716a8c73",
+          "fit_justification": "Source question asks 'What U.S city is known as Insurance City?' and source answer is 'Hartford'; the nickname appears literally in the source question."
+        }
+      ]
+    },
+    {
+      "title": "FLAGS OF THE WORLD",
+      "theme": "Each clue asks about a color or feature found on a specific country's flag; source questions contain 'flag'",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This UK nation, whose patron saint is David, is the only one of the four home nations to feature a dragon on its flag.",
+          "answer": "Wales",
+          "source_id": "otdb:6dzhax",
+          "fit_justification": "Source question reads 'Which UK country features a dragon on their flag?' and source answer is 'Wales'."
+        },
+        {
+          "value": 400,
+          "clue": "This tiny principality on the French Riviera has a flag that is simply a horizontal bicolor of red on top and white on the bottom.",
+          "answer": "Monaco",
+          "source_id": "otdb:fcsmv9",
+          "fit_justification": "Source question reads 'What country has a horizontal bicolor red and white flag?' and source answer is 'Monaco'."
+        },
+        {
+          "value": 600,
+          "clue": "Yellow appears on the flag of this Balkan nation, whose flag also features a blue triangle containing a white star on the left side.",
+          "answer": "Bosnia and Herzegovina",
+          "source_id": "tapi:625e9df5796f721e95543f36",
+          "fit_justification": "Source question reads 'Which of these colors is included on the flag of Bosnia and Herzegovina?' and source answer is 'Yellow'."
+        },
+        {
+          "value": 800,
+          "clue": "This South Asian island nation's flag features a yellow lion wielding a sword on a dark red background.",
+          "answer": "Sri Lanka",
+          "source_id": "otdb:11qzhlo",
+          "fit_justification": "Source question reads 'Which of the following countries has a flag featuring a yellow lion wielding a sword on a dark red background?' and source answer is 'Sri Lanka'."
+        },
+        {
+          "value": 1000,
+          "clue": "Black appears on the flag of this Middle Eastern country whose flag also bears red, white, and the Takbir in Arabic script.",
+          "answer": "Iraq",
+          "source_id": "tapi:625e9eae796f721e95543f65",
+          "fit_justification": "Source question reads 'Which of these countries has black on its flag?' and source answer is 'Iraq'."
+        }
+      ]
+    },
+    {
+      "title": "WHERE IN THE WORLD?",
+      "theme": "Each source question asks 'Where would you find the city of [X]?' and the answer is a country",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "You'd find the city of Barcelona, home to the iconic Sagrada Família cathedral, in this European country.",
+          "answer": "Spain",
+          "source_id": "tapi:62602d174b176d54800e3c7e",
+          "fit_justification": "Source question reads 'Where would you find the city of Barcelona?' and source answer is 'Spain'."
+        },
+        {
+          "value": 400,
+          "clue": "Douala, this central African country's largest city and economic capital, sits at the mouth of the Wouri estuary.",
+          "answer": "Cameroon",
+          "source_id": "tapi:626030cc4b176d54800e3d3f",
+          "fit_justification": "Source question reads 'Where would you find the city of Douala?' and source answer is 'Cameroon'."
+        },
+        {
+          "value": 600,
+          "clue": "You'd find the sprawling port city of Karachi, once the national capital, in this South Asian country.",
+          "answer": "Pakistan",
+          "source_id": "tapi:62602ecf4b176d54800e3cf7",
+          "fit_justification": "Source question reads 'Where would you find the city of Karachi?' and source answer is 'Pakistan'."
+        },
+        {
+          "value": 800,
+          "clue": "Novosibirsk, the largest city in Siberia, can be found in this country — the world's largest by area.",
+          "answer": "Russia",
+          "source_id": "tapi:62602fed4b176d54800e3d04",
+          "fit_justification": "Source question reads 'Where would you find the city of Novosibirsk?' and source answer is 'Russia'."
+        },
+        {
+          "value": 1000,
+          "clue": "Haarlem, a city famous for its tulip markets and historic windmills just west of Amsterdam, is located in this country.",
+          "answer": "The Netherlands",
+          "source_id": "otdb:qbkbep",
+          "fit_justification": "Source question reads 'Where is the city of Haarlem located?' and source answer is 'The Netherlands'."
+        }
+      ]
+    },
+    {
+      "title": "CAPITAL CITIES",
+      "theme": "Each clue asks for or identifies the capital city of a country",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city on the island of Java serves as the capital of the world's fourth most populous nation, Indonesia.",
+          "answer": "Jakarta",
+          "source_id": "otdb:1kty1zy",
+          "fit_justification": "Source question asks 'What is the capital of Indonesia?' and source answer is 'Jakarta'."
+        },
+        {
+          "value": 400,
+          "clue": "This Eastern European city on the Danube River is the capital of Slovakia.",
+          "answer": "Bratislava",
+          "source_id": "otdb:145c745",
+          "fit_justification": "Source question asks 'What is the capital of Slovakia?' and source answer is 'Bratislava'."
+        },
+        {
+          "value": 600,
+          "clue": "This Baltic city, whose medieval old town is a UNESCO World Heritage site, is the capital of Estonia.",
+          "answer": "Tallinn",
+          "source_id": "otdb:1j22vmb",
+          "fit_justification": "Source question asks 'What is the capital of Estonia?' and source answer is 'Tallinn'."
+        },
+        {
+          "value": 800,
+          "clue": "This South American city, perched over 11,900 feet above sea level in the Andes, is the administrative capital of Bolivia.",
+          "answer": "La Paz",
+          "source_id": "tapi:622a1c357cc59eab6f94fff6",
+          "fit_justification": "Source question asks 'What is the capital of Bolivia?' and source answer is 'La Paz'."
+        },
+        {
+          "value": 1000,
+          "clue": "The capital of Chad, this city sits at the confluence of the Chari and Logone rivers near the Lake Chad basin.",
+          "answer": "N'Djamena",
+          "source_id": "tapi:62373ff3cb85f7ce9e949ccc",
+          "fit_justification": "Source question asks 'What is the capital city of Chad?' and source answer is 'N'Djamena'."
+        }
+      ]
+    },
+    {
+      "title": "IN WHICH COUNTRY?",
+      "theme": "Each clue names a city or landmark and asks which country it is in",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The canals and gondolas of this city make it one of the most visited in Europe — you'll find it in this Mediterranean country.",
+          "answer": "Italy",
+          "source_id": "tapi:623b57b8fd6c701a92118376",
+          "fit_justification": "Source question asks 'In which country would you find the city of Venice?' and source answer is 'Italy'."
+        },
+        {
+          "value": 400,
+          "clue": "The Kremlin and Red Square, symbols of state power for centuries, are found in this vast nation.",
+          "answer": "Russia",
+          "source_id": "tapi:623b584dfd6c701a921183ae",
+          "fit_justification": "Source question asks 'In which country would you find The Kremlin and Red Square?' and source answer is 'Russia'."
+        },
+        {
+          "value": 600,
+          "clue": "The Abu Simbel temples, carved from a mountainside under Ramesses II, are found in this North African country.",
+          "answer": "Egypt",
+          "source_id": "tapi:623b57a4fd6c701a9211836e",
+          "fit_justification": "Source question asks 'In which country would you find the Abu Simbel temples?' and source answer is 'Egypt'."
+        },
+        {
+          "value": 800,
+          "clue": "The terracotta warriors, thousands of life-size clay soldiers guarding an emperor's tomb, are found in this nation.",
+          "answer": "China",
+          "source_id": "tapi:64746b6f5a4c31088dd9d057",
+          "fit_justification": "Source question asks 'In which country would you find the terracotta warriors?' and source answer is 'China'."
+        },
+        {
+          "value": 1000,
+          "clue": "The UNESCO World Heritage site of Meteora, featuring monasteries perched atop towering rock pillars, is found in this country.",
+          "answer": "Greece",
+          "source_id": "tapi:623b5813fd6c701a92118397",
+          "fit_justification": "Source question asks 'In which country would you find the UNESCO World Heritage site of Meteora?' and source answer is 'Greece'."
+        }
+      ]
+    },
+    {
+      "title": "COUNTRY BORDERS",
+      "theme": "Each clue asks which country borders a named country",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This large country shares its northern border with Brazil, Uruguay, and Bolivia, among others.",
+          "answer": "Argentina",
+          "source_id": "tapi:622a1c387cc59eab6f950a87",
+          "fit_justification": "Source question asks 'Which of these countries borders Brazil?' and source answer is 'Argentina'."
+        },
+        {
+          "value": 400,
+          "clue": "Sharing a long border with Argentina to the east, this long, narrow South American country also borders Argentina.",
+          "answer": "Chile",
+          "source_id": "tapi:622a1c387cc59eab6f950a51",
+          "fit_justification": "Source question asks 'Which of these countries borders Argentina?' and source answer is 'Chile'."
+        },
+        {
+          "value": 600,
+          "clue": "This Central American country, home to ancient Maya ruins, shares its northern border with Mexico.",
+          "answer": "Guatemala",
+          "source_id": "tapi:622a1c387cc59eab6f950ac6",
+          "fit_justification": "Source question asks 'Which of these countries borders Mexico?' and source answer is 'Guatemala'."
+        },
+        {
+          "value": 800,
+          "clue": "This southern African nation, home to the Kalahari Desert, shares its border with Botswana.",
+          "answer": "South Africa",
+          "source_id": "tapi:622a1c387cc59eab6f9508ae",
+          "fit_justification": "Source question asks 'Which of these countries borders Botswana?' and source answer is 'South Africa'."
+        },
+        {
+          "value": 1000,
+          "clue": "Surprisingly, this country is listed among the land borders of the Kingdom of the Netherlands due to its Caribbean territories.",
+          "answer": "France",
+          "source_id": "tapi:622a1c387cc59eab6f950a1a",
+          "fit_justification": "Source question asks 'Which of these countries borders Kingdom of the Netherlands?' and source answer is 'France'."
+        }
+      ]
+    },
+    {
+      "title": "WEB ADDRESSES & FLAGS",
+      "theme": "Clues involve a country's flag colors or internet country code top-level domain",
+      "topic": "GEOGRAPHY",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The flag of this island nation can be described as white with a blue star centered between two equal horizontal blue bands.",
+          "answer": "Israel",
+          "source_id": "tapi:625e9ef6796f721e95543f79",
+          "fit_justification": "Source question asks 'Which country's flag can be described as White with a blue star centered between two equal horizontal blue bands?' and source answer is 'Israel'."
+        },
+        {
+          "value": 400,
+          "clue": "The flag of Austria features this color prominently, appearing as the top and bottom horizontal stripes.",
+          "answer": "Red",
+          "source_id": "tapi:625e9dc4796f721e95543f2b",
+          "fit_justification": "Source question asks 'Which of these colors would you find on the flag of Austria?' and source answer is 'Red'."
+        },
+        {
+          "value": 600,
+          "clue": "Internet users in this East African nation log on with the country code '.so' at the end of their web addresses.",
+          "answer": "Somalia",
+          "source_id": "tapi:623735d8cfe13103f55eb575",
+          "fit_justification": "Source question asks 'Which region of the world uses .so at the end of its web addresses?' and source answer is 'Somalia'."
+        },
+        {
+          "value": 800,
+          "clue": "The flag of this Middle Eastern country includes the color white, appearing as a single horizontal band.",
+          "answer": "Yemen",
+          "source_id": "tapi:625ea007796f721e95543fc9",
+          "fit_justification": "Source question asks 'Which of these colors would you find on the flag of Yemen?' and source answer is 'White'... wait — source answer is 'White' not 'Yemen'. Correcting: using source tapi:625e9fff796f721e95543fc4 for Yemen flag white."
+        },
+        {
+          "value": 1000,
+          "clue": "Internet users in this small southern African kingdom — formerly called Swaziland — use the country code '.sz' at the end of their web addresses.",
+          "answer": "Eswatini",
+          "source_id": "tapi:623735e5cfe13103f55eb57d",
+          "fit_justification": "Source question asks 'Which region of the world uses .sz at the end of its web addresses?' and source answer is 'Eswatini'."
+        }
+      ]
+    },
+    {
+      "title": "CAPITAL CITIES",
+      "theme": "Each clue asks for the capital city of a country or territory; answers are capital cities",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This island nation off Africa's southeast coast has Port Louis as its seat of government.",
+          "answer": "Mauritius",
+          "source_id": "otdb:1qmlvu0",
+          "fit_justification": "Source question asks 'What is the capital of Mauritius?' — answer is a capital city; clue asks players to name the country."
+        },
+        {
+          "value": 400,
+          "clue": "Havana is the capital city of this Caribbean island nation.",
+          "answer": "Cuba",
+          "source_id": "tapi:62374024cb85f7ce9e949ce0",
+          "fit_justification": "Source question asks 'What is the capital city of Cuba?' A: Havana — capital city fact; clue inverts to ask the country."
+        },
+        {
+          "value": 600,
+          "clue": "Vaduz is the tiny capital of this European microstate sandwiched between Switzerland and Austria.",
+          "answer": "Liechtenstein",
+          "source_id": "tapi:6237412ccb85f7ce9e949d4a",
+          "fit_justification": "Source question asks 'What is the capital city of Liechtenstein?' A: Vaduz — capital city fact."
+        },
+        {
+          "value": 800,
+          "clue": "Nuku'alofa is the capital of this South Pacific island kingdom.",
+          "answer": "Tonga",
+          "source_id": "tapi:623742a5cb85f7ce9e949de2",
+          "fit_justification": "Source question asks 'What is the capital city of Tonga?' A: Nuku'alofa — capital city fact."
+        },
+        {
+          "value": 1000,
+          "clue": "Dili is the capital of this young Southeast Asian nation that gained independence in 2002.",
+          "answer": "Timor-Leste",
+          "source_id": "tapi:6237429bcb85f7ce9e949dde",
+          "fit_justification": "Source question asks 'What is the capital city of Timor-Leste?' A: Dili — capital city fact."
+        }
+      ]
+    },
+    {
+      "title": "WHICH CONTINENT?",
+      "theme": "Each clue names a country; the answer is the continent that country is located on",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Gambia, a thin sliver of a nation almost entirely surrounded by Senegal, sits on this continent.",
+          "answer": "Africa",
+          "source_id": "tapi:622a1c387cc59eab6f950805",
+          "fit_justification": "Source question asks 'The country of The Gambia is on which continent?' A: Africa — continent identification fact."
+        },
+        {
+          "value": 400,
+          "clue": "The Bahamas, a Caribbean island chain north of Cuba, belongs to this continent grouping.",
+          "answer": "North America",
+          "source_id": "tapi:622a1c387cc59eab6f95080a",
+          "fit_justification": "Source question asks 'The country of The Bahamas is on which continent?' A: North America — continent identification fact."
+        },
+        {
+          "value": 600,
+          "clue": "Barbados, the easternmost island in the Caribbean, is counted as part of this continent.",
+          "answer": "North America",
+          "source_id": "tapi:622a1c387cc59eab6f9507f9",
+          "fit_justification": "Source question asks 'The country of Barbados is on which continent?' A: North America — continent identification fact."
+        },
+        {
+          "value": 800,
+          "clue": "Eswatini, formerly Swaziland, is a landlocked monarchy on this continent.",
+          "answer": "Africa",
+          "source_id": "tapi:622a1c387cc59eab6f9507f8",
+          "fit_justification": "Source question asks 'The country of Eswatini is on which continent?' A: Africa — continent identification fact."
+        },
+        {
+          "value": 1000,
+          "clue": "The Maldives, a low-lying archipelago in the Indian Ocean, is counted as part of this continent.",
+          "answer": "Asia",
+          "source_id": "tapi:622a1c387cc59eab6f9507fc",
+          "fit_justification": "Source question asks 'The country of Maldives is on which continent?' A: Asia — continent identification fact."
+        }
+      ]
+    },
+    {
+      "title": "IN WHICH COUNTRY?",
+      "theme": "Each clue names a notable city, park, or landmark; the answer is the country where it is found",
+      "topic": "GEOGRAPHY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The ancient ruins of Pompeii, buried by Mount Vesuvius in 79 AD, are found in this country.",
+          "answer": "Italy",
+          "source_id": "otdb:46xaod",
+          "fit_justification": "Source question asks 'Where was the ancient city of Pompeii?' A: Italy — country identification fact."
+        },
+        {
+          "value": 400,
+          "clue": "The Serengeti National Park, famous for the Great Migration of wildebeest, is located in this country.",
+          "answer": "Tanzania",
+          "source_id": "tapi:623b57c7fd6c701a9211837c",
+          "fit_justification": "Source question asks 'In which country would you find the Serengeti National Park?' A: Tanzania — country identification fact."
+        },
+        {
+          "value": 600,
+          "clue": "The UNESCO World Heritage site of Valletta, a fortified city dating to the 16th century, is in this small Mediterranean country.",
+          "answer": "Malta",
+          "source_id": "tapi:623b5861fd6c701a921183b6",
+          "fit_justification": "Source question asks 'In which country would you find the UNESCO World Heritage site of Valletta?' A: Malta — country identification fact."
+        },
+        {
+          "value": 800,
+          "clue": "The Tongariro National Park, a UNESCO dual World Heritage site with active volcanoes, is found in this Pacific nation.",
+          "answer": "New Zealand",
+          "source_id": "tapi:623b57f7fd6c701a9211838d",
+          "fit_justification": "Source question asks 'In which country would you find the Tongariro National Park?' A: New Zealand — country identification fact."
+        },
+        {
+          "value": 1000,
+          "clue": "The UNESCO World Heritage site of Cappadocia, known for its striking 'fairy chimney' rock formations, lies in this country.",
+          "answer": "Turkey",
+          "source_id": "tapi:623b57b1fd6c701a92118373",
+          "fit_justification": "Source question asks 'In which country would you find the UNESCO World Heritage site of Cappadocia?' A: Turkey — country identification fact."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "DOUBLY LANDLOCKED",
+      "topic": "GEOGRAPHY",
+      "clue": "Of the world's only two doubly landlocked countries — surrounded entirely by other landlocked countries — this Central Asian nation is the larger one by population, with its capital at Tashkent.",
+      "answer": "Uzbekistan",
+      "source_id": "otdb:1i3b661",
+      "fit_justification": "Source question asks 'Which of these countries is \"doubly landlocked\" (surrounded entirely by one or more landlocked countries)?' and source answer is 'Uzbekistan', a doubly landlocked nation."
+    },
+    {
+      "title": "FAMOUS LANDMARKS",
+      "topic": "GEOGRAPHY",
+      "clue": "Known locally as 'The Coathanger,' this iconic steel arch bridge spans the largest natural harbour in the world and opened in 1932.",
+      "answer": "Sydney Harbour Bridge",
+      "source_id": "tapi:6233880c0161109f922aac61",
+      "fit_justification": "Source question: 'Which Famous City Bridge Is Known Locally As The Coathanger?' Source answer: 'Sydney Harbour Bridge'. The source question literally contains the nickname 'Coathanger' and the answer is a named landmark."
+    },
+    {
+      "title": "GEOGRAPHY FINAL",
+      "topic": "GEOGRAPHY",
+      "clue": "Derived from an Indigenous word meaning 'the edge of Tibet,' this small Himalayan kingdom borders India and China and is famous for measuring national happiness rather than GDP.",
+      "answer": "Bhutan",
+      "source_id": "tapi:622a1c357cc59eab6f950012",
+      "fit_justification": "Source question states the name 'is derived from the Indian word Bhotanta, meaning the edge of Tibet' and that it is located in Asia near the eastern Himalayas; source answer is 'Bhutan'."
+    },
+    {
+      "title": "GEOGRAPHY FINAL",
+      "topic": "GEOGRAPHY",
+      "clue": "Described by the French as 'la Manche' — meaning 'the sleeve' — this body of water separates southern England from northern France and connects the North Sea to the Atlantic Ocean.",
+      "answer": "The English Channel",
+      "source_id": "tapi:647203881068407b3d7e9718",
+      "fit_justification": "Source question asks 'What geographical feature is referred to as la Manche (the sleeve) by the French?' and source answer is 'The English Channel'."
+    },
+    {
+      "title": "WORLD WONDERS",
+      "topic": "GEOGRAPHY",
+      "clue": "Serving as the last tributary of the world's longest river, the Atbarah River joins this waterway in northern Sudan before it flows on to the Mediterranean.",
+      "answer": "The Nile",
+      "source_id": "tapi:645cb12a602ff42ca52fb425",
+      "fit_justification": "Source question asks 'Which river is joined by the Atbarah River in northern Sudan as its last tributary?' and the answer is 'The Nile'; the clue also echoes the world's-longest-river fact from source otdb:7xatde, making this a satisfying final with double geographic grounding."
+    },
+    {
+      "title": "LANDLOCKED NATIONS",
+      "topic": "GEOGRAPHY",
+      "clue": "This southern African country is entirely surrounded by the borders of a single neighboring nation, making it one of only three enclaved countries in the world.",
+      "answer": "Lesotho",
+      "source_id": "otdb:11gk4w6",
+      "fit_justification": "Source question asks 'Which of the following landlocked countries is entirely contained within another country?' and source answer is 'Lesotho', a geographically remarkable enclave nation."
+    },
+    {
+      "title": "GEOGRAPHY FINAL",
+      "topic": "GEOGRAPHY",
+      "clue": "This narrow strip of land connects North America and South America and gives its name to a famous canal completed in 1914.",
+      "answer": "Isthmus of Panama",
+      "source_id": "otdb:1kajfzl",
+      "fit_justification": "Source question asks 'What is the land connecting North America and South America?' and source answer is 'Isthmus of Panama'; question text literally describes the geographic feature connecting the two continents."
+    },
+    {
+      "title": "GEOGRAPHY FINAL",
+      "topic": "GEOGRAPHY",
+      "clue": "Known as 'China's Sorrow,' this river has caused catastrophic floods throughout Chinese history and is the second longest river in the country.",
+      "answer": "The Yellow River",
+      "source_id": "tapi:6233852c62eaad73716a8c54",
+      "fit_justification": "Source question 'What river is known as China's sorrow because of its flooding?' and source answer 'The Yellow River' — niche geographic nickname makes this ideal for a Final clue."
+    }
+  ]
+}

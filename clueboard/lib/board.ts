@@ -227,6 +227,17 @@ export async function getDailyBoard(date: string = todayDateString()): Promise<D
     cellsByCategory[cat] = picked;
   }
 
+  // Daily Double — deterministically pick one cell on the board. Seeded
+  // so all players see the same DD on the same day. Bias toward the
+  // middle/lower rows ($400+) so it isn't sitting on the $200 freebie.
+  {
+    const ddCatIdx = Math.floor(rng() * chosenCategories.length);
+    // Values weighted away from $200; pick from indices 1..4 ($400-$1000).
+    const ddValueIdx = 1 + Math.floor(rng() * 4);
+    const ddCat = chosenCategories[ddCatIdx];
+    cellsByCategory[ddCat][ddValueIdx].isDailyDouble = true;
+  }
+
   // Rule 4 (soft): prefer a Final Clue from a topic that isn't on the board.
   if (final.length === 0) throw new Error("No final-round clues in Supabase.");
   const boardTopics = new Set(chosenCategories.map((c) => meta[c].topic));

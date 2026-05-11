@@ -116,15 +116,18 @@ export default function PlayClient({
   };
 
   const handleSubmitClue = useCallback(
-    async (clue: ClueForClient, userAnswer: string) => {
+    async (clue: ClueForClient, userAnswer: string, wager?: number) => {
       const result = await submitAnswerAction(board.date, clue.id, userAnswer);
       if (!result.ok) return { correct: false, correctAnswer: "", error: result.error };
+      const isDD = !!clue.isDailyDouble;
+      const recordedValue = isDD ? (wager ?? 0) : result.value;
       const rec: AnswerRecord = {
         clueId: clue.id,
         userAnswer,
         correct: result.correct,
         skipped: false,
-        value: result.value,
+        value: recordedValue,
+        isDailyDouble: isDD || undefined,
         correctAnswer: result.correctAnswer,
         answeredAt: new Date().toISOString(),
       };
@@ -141,15 +144,18 @@ export default function PlayClient({
   );
 
   const handleSkipClue = useCallback(
-    async (clue: ClueForClient) => {
+    async (clue: ClueForClient, wager?: number) => {
       const result = await skipClueAction(board.date, clue.id);
       if (!result.ok) return { correctAnswer: "" };
+      const isDD = !!clue.isDailyDouble;
+      const recordedValue = isDD ? (wager ?? 0) : result.value;
       const rec: AnswerRecord = {
         clueId: clue.id,
         userAnswer: "",
         correct: false,
         skipped: true,
-        value: result.value,
+        value: recordedValue,
+        isDailyDouble: isDD || undefined,
         correctAnswer: result.correctAnswer,
         answeredAt: new Date().toISOString(),
       };
@@ -324,9 +330,10 @@ export default function PlayClient({
       {activeClue && (
         <ClueModal
           clue={activeClue}
+          currentScore={state.score}
           onClose={() => setActiveClue(null)}
-          onSubmit={async (answer) => handleSubmitClue(activeClue, answer)}
-          onSkip={async () => handleSkipClue(activeClue)}
+          onSubmit={async (answer, wager) => handleSubmitClue(activeClue, answer, wager)}
+          onSkip={async (wager) => handleSkipClue(activeClue, wager)}
         />
       )}
     </main>

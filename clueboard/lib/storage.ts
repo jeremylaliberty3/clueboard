@@ -44,7 +44,16 @@ export function emptyState(date: string): GameState {
 }
 
 export function recordAnswer(state: GameState, rec: AnswerRecord): GameState {
-  const delta = rec.skipped ? 0 : rec.correct ? rec.value : -rec.value;
+  // Daily Doubles can't be skipped without penalty: a skipped DD applies
+  // the wager as a negative, same as an incorrect answer.
+  let delta: number;
+  if (rec.correct) {
+    delta = rec.value;
+  } else if (rec.skipped && !rec.isDailyDouble) {
+    delta = 0;
+  } else {
+    delta = -rec.value;
+  }
   return {
     ...state,
     answers: { ...state.answers, [rec.clueId]: rec },
