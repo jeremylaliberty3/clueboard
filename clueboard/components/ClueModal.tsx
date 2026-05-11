@@ -30,6 +30,32 @@ export default function ClueModal({
 
   const [answer, setAnswer] = useState("");
   const [submitting, setSubmitting] = useState(false);
+
+  // Lock body scroll while the modal is open. When the soft keyboard
+  // opens on mobile, the underlying document would otherwise scroll
+  // (Safari/Chrome auto-scroll the focused input into view), leaving
+  // the page at a different position when the modal closes. Freezing
+  // the body and snapping it back on unmount keeps the player's place.
+  useEffect(() => {
+    const scrollY = window.scrollY;
+    const original = {
+      position: document.body.style.position,
+      top: document.body.style.top,
+      width: document.body.style.width,
+      overflow: document.body.style.overflow,
+    };
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.width = "100%";
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.position = original.position;
+      document.body.style.top = original.top;
+      document.body.style.width = original.width;
+      document.body.style.overflow = original.overflow;
+      window.scrollTo(0, scrollY);
+    };
+  }, []);
   const [result, setResult] = useState<
     | { kind: "correct"; delta: number }
     | { kind: "wrong"; delta: number; correctAnswer: string }
@@ -92,8 +118,8 @@ export default function ClueModal({
     const n = parseInt(wagerInput, 10);
     const valid = !isNaN(n) && n >= 0 && n <= maxWager;
     return (
-      <div className="fixed inset-0 bg-black/70 flex items-center justify-center p-4 z-50">
-        <div className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-6 sm:p-10 shadow-2xl text-center">
+      <div className="fixed inset-0 bg-black/70 flex items-start sm:items-center justify-center p-4 z-50 overflow-y-auto">
+        <div className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-6 sm:p-10 shadow-2xl text-center max-h-[calc(100dvh-2rem)] overflow-y-auto">
           <div className="text-gold-bright uppercase text-sm font-bold tracking-wide mb-2">
             {clue.category} · ${clue.value}
           </div>
@@ -141,8 +167,8 @@ export default function ClueModal({
 
   // ── Regular / DD answer phase ───────────────────────────────
   return (
-    <div className="fixed inset-0 bg-black/70 flex items-center justify-center p-4 z-50">
-      <div className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-6 sm:p-10 shadow-2xl">
+    <div className="fixed inset-0 bg-black/70 flex items-start sm:items-center justify-center p-4 z-50 overflow-y-auto">
+      <div className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-6 sm:p-10 shadow-2xl max-h-[calc(100dvh-2rem)] overflow-y-auto">
         <div className="flex items-center justify-between text-gold-bright text-sm font-bold mb-4">
           <span className="uppercase tracking-wide">
             {clue.category}

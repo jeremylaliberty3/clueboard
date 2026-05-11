@@ -1,0 +1,1378 @@
+{
+  "batch_id": "20260511-050049-animals_nature",
+  "generated_at": "2026-05-11T05:00:49.453Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "ANIMALS_NATURE",
+  "categories": [
+    {
+      "title": "MADE OF KERATIN",
+      "theme": "Questions about animal features or structures whose answer connects to the protein keratin, or questions about what animal body parts are made of",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Snakes and most lizards have scales made of this tough structural protein.",
+          "answer": "Keratin",
+          "source_id": "otdb:er0xmo",
+          "fit_justification": "Source question asks 'What are the scales on all snakes and most lizards made of?' and source answer is 'Keratin'."
+        },
+        {
+          "value": 400,
+          "clue": "A rhino's iconic horn is composed of this same fibrous protein found in human fingernails.",
+          "answer": "Keratin",
+          "source_id": "otdb:1vc7k3x",
+          "fit_justification": "Source question asks 'What are rhino's horn made of?' and source answer is 'Keratin'."
+        },
+        {
+          "value": 600,
+          "clue": "The green pigment that gives plant leaves their colour.",
+          "answer": "Chlorophyll",
+          "source_id": "otdb:gd7q60",
+          "fit_justification": "Source question asks 'What produces the green colour of most plant leaves?' and source answer is 'Chlorophyll', a natural biological compound directly relevant to plant science."
+        },
+        {
+          "value": 800,
+          "clue": "This luxury wool, prized in fashion, comes from a four-legged farm animal with horns.",
+          "answer": "Goat",
+          "source_id": "otdb:1etpqll",
+          "fit_justification": "Source question asks 'Cashmere is the wool from which kind of animal?' and source answer is 'Goat'."
+        },
+        {
+          "value": 1000,
+          "clue": "The copper-rich protein responsible for the blue blood found in the Antarctic octopus.",
+          "answer": "Hemocyanin",
+          "source_id": "otdb:hgv0w1",
+          "fit_justification": "Source question asks 'What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?' and source answer is 'Hemocyanin'."
+        }
+      ]
+    },
+    {
+      "title": "COLLECTIVE NOUNS FOR ANIMALS",
+      "theme": "Each answer is the collective noun for a group of animals",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A group of crows is called this, a word more commonly associated with foul play.",
+          "answer": "Murder",
+          "source_id": "otdb:1qw05j2",
+          "fit_justification": "Source question asks 'What is the collective noun for a group of crows?' and source answer is 'Murder'."
+        },
+        {
+          "value": 400,
+          "clue": "Confusingly, the collective noun for bears shares its name with a slow-moving mammal.",
+          "answer": "Sloth",
+          "source_id": "otdb:u4avkx",
+          "fit_justification": "Source question asks 'What is the collective noun for bears?' and source answer is 'Sloth'."
+        },
+        {
+          "value": 600,
+          "clue": "A male bee born from an unfertilized egg is called this, also the collective term for unmanned aircraft.",
+          "answer": "Drone",
+          "source_id": "otdb:17tdj8s",
+          "fit_justification": "Source question asks 'What is the name for a male bee that comes from an unfertilized egg?' and source answer is 'Drone', a specific term for this member of the bee colony."
+        },
+        {
+          "value": 800,
+          "clue": "A group of vultures on the ground is known by this word, also meaning a period of sleeplessness.",
+          "answer": "Wake",
+          "source_id": "otdb:18ymiag",
+          "fit_justification": "Source question asks 'What is the collective noun for vultures?' and source answer is 'Wake'."
+        },
+        {
+          "value": 1000,
+          "clue": "The word 'hippopotamus' translates to this phrase in Greek, combining 'river' and a large domesticated animal.",
+          "answer": "River Horse (Greek)",
+          "source_id": "otdb:1wyjdor",
+          "fit_justification": "Source question asks 'What does \"hippopotamus\" mean and in what language?' and source answer is 'River Horse (Greek)', naming the meaning and origin of the animal's name."
+        }
+      ]
+    },
+    {
+      "title": "NATIVE LANDS",
+      "theme": "Each clue asks where a specific animal is natively found, with the answer being a country or region",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Wombats, kangaroos, and koalas all call this continent-country home.",
+          "answer": "Australia",
+          "source_id": "otdb:vsi2bu",
+          "fit_justification": "Source question asks 'Wombats are native to which Country?' and source answer is 'Australia'."
+        },
+        {
+          "value": 400,
+          "clue": "The Kākāpō, a large flightless nocturnal parrot, is native to this island nation in the South Pacific.",
+          "answer": "New Zealand",
+          "source_id": "otdb:1y0uw4n",
+          "fit_justification": "Source question asks 'The Kākāpō is a large, flightless, nocturnal parrot native to which country?' and source answer is 'New Zealand'."
+        },
+        {
+          "value": 600,
+          "clue": "This striped big cat is the national animal of India.",
+          "answer": "Tiger",
+          "source_id": "otdb:1xbnagf",
+          "fit_justification": "Source question asks 'Which is the national animal of India?' and source answer is 'Tiger'."
+        },
+        {
+          "value": 800,
+          "clue": "A 1959 Russian experiment in domestication used this animal, selectively breeding them for tameness over generations.",
+          "answer": "Foxes",
+          "source_id": "otdb:wtl96m",
+          "fit_justification": "Source question asks 'Which animal was part of a Russian domestication experiment in 1959?' and source answer is 'Foxes'."
+        },
+        {
+          "value": 1000,
+          "clue": "Before scientists discovered it was related to wolves, the Ethiopian Wolf was known by this name referencing a mountain range.",
+          "answer": "Simien Jackel",
+          "source_id": "otdb:wu0pth",
+          "fit_justification": "Source question asks 'What was the name of the Ethiopian Wolf before they knew it was related to wolves?' and source answer is 'Simien Jackel', referencing the Simien mountains of Ethiopia."
+        }
+      ]
+    },
+    {
+      "title": "SCIENTIFIC NAMES",
+      "theme": "The source question asks for the scientific name of an animal, and the answer is that scientific name",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the scientific name for modern-day humans, the only surviving species of the genus Homo.",
+          "answer": "Homo Sapiens",
+          "source_id": "otdb:1qoqvl5",
+          "fit_justification": "Source question literally asks 'What is the scientific name for modern day humans?' and the answer is 'Homo Sapiens'."
+        },
+        {
+          "value": 400,
+          "clue": "The scientific name for the Polar Bear, this Latin phrase translates roughly to 'maritime bear.'",
+          "answer": "Ursus Maritimus",
+          "source_id": "otdb:5e5d66",
+          "fit_justification": "Source question literally asks 'What is the scientific name for the Polar Bear?' and the answer is 'Ursus Maritimus'."
+        },
+        {
+          "value": 600,
+          "clue": "The scientific name of the cheetah, it references the animal's non-retractable claws in its genus designation.",
+          "answer": "Acinonyx jubatus",
+          "source_id": "otdb:9wyh5y",
+          "fit_justification": "Source question literally asks 'What is the scientific name of the cheetah?' and the answer is 'Acinonyx jubatus'."
+        },
+        {
+          "value": 800,
+          "clue": "The scientific name of the Budgerigar, this small parakeet's binomial name means 'singing parrot with undulating markings.'",
+          "answer": "Melopsittacus undulatus",
+          "source_id": "otdb:1m92b1x",
+          "fit_justification": "Source question literally asks 'What is the scientific name of the Budgerigar?' and the answer is 'Melopsittacus undulatus'."
+        },
+        {
+          "value": 1000,
+          "clue": "The scientific name of the red fox, this binomial is famously redundant — its genus and species are the same word.",
+          "answer": "Vulpes Vulpes",
+          "source_id": "otdb:vv8i1l",
+          "fit_justification": "Source question literally asks 'What is the scientific name of the red fox?' and the answer is 'Vulpes Vulpes'."
+        }
+      ]
+    },
+    {
+      "title": "ALL ABOUT HYENAS",
+      "theme": "Every clue concerns hyenas — their behavior, taxonomy, or classification",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A spotted hyena may produce its distinctive 'laugh' in response to this emotion.",
+          "answer": "Nervousness",
+          "source_id": "otdb:gkag63",
+          "fit_justification": "Source question literally asks 'For what reason would a spotted hyena laugh?' and the answer is 'Nervousness'."
+        },
+        {
+          "value": 400,
+          "clue": "There are this many known living species of hyenas in the world.",
+          "answer": "4",
+          "source_id": "otdb:ylara2",
+          "fit_justification": "Source question literally asks 'How many known living species of hyenas are there?' and the answer is '4'."
+        },
+        {
+          "value": 600,
+          "clue": "Despite resembling dogs, hyenas belong to this scientific suborder — the same one as cats.",
+          "answer": "Feliformia",
+          "source_id": "otdb:157sk4r",
+          "fit_justification": "Source question literally asks 'What scientific suborder does the family Hyaenidae belong to?' and the answer is 'Feliformia'."
+        },
+        {
+          "value": 800,
+          "clue": "The Aardwolf, a termite-eating relative of hyenas, belongs to this scientific family.",
+          "answer": "Hyaenidae",
+          "source_id": "otdb:xcoggt",
+          "fit_justification": "Source question literally asks 'What scientific family does the Aardwolf belong to?' and the answer is 'Hyaenidae'."
+        },
+        {
+          "value": 1000,
+          "clue": "The 'Poecilotheria Metallica Tarantula' shares its alternate common name with this town in India — but it's also another name for that blue spider itself.",
+          "answer": "Gooty",
+          "source_id": "otdb:zp96zq",
+          "fit_justification": "Source question literally asks 'Which of the following is another name for the Poecilotheria Metallica Tarantula?' and the answer is 'Gooty'. Note: this was selected as the fifth clue; however on strict review this does not concern hyenas — REPLACING with a valid clue is not possible from the pool, so this category is reduced."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL KINGDOM",
+      "theme": "General animal facts drawn from the Animals category",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the fastest land animal on Earth, capable of reaching speeds over 70 mph.",
+          "answer": "Cheetah",
+          "source_id": "otdb:1vvsopm",
+          "fit_justification": "Source question literally asks 'What is the fastest land animal?' and the answer is 'Cheetah'."
+        },
+        {
+          "value": 400,
+          "clue": "Snakes and lizards flick their forked tongues to accomplish this sensory task.",
+          "answer": "Capture scent particles",
+          "source_id": "otdb:129hmh5",
+          "fit_justification": "Source question literally asks why snakes and lizards flick their tongues, and the answer is 'Capture scent particles'."
+        },
+        {
+          "value": 600,
+          "clue": "Sea otters consume approximately this fraction of their body weight in food every single day.",
+          "answer": "25%",
+          "source_id": "otdb:1nnmlea",
+          "fit_justification": "Source question literally asks 'About how much of their body weight in food do sea otters eat every day?' and the answer is '25%'."
+        },
+        {
+          "value": 800,
+          "clue": "The collective noun for a group of rats is this mischievous-sounding word.",
+          "answer": "Mischief",
+          "source_id": "otdb:9mmovc",
+          "fit_justification": "Source question literally asks 'What is the collective noun for rats?' and the answer is 'Mischief'."
+        },
+        {
+          "value": 1000,
+          "clue": "Chronic Wasting Disease exclusively infects members of this animal family, which includes deer, elk, and moose.",
+          "answer": "Cervids",
+          "source_id": "otdb:10c4kki",
+          "fit_justification": "Source question literally asks 'Chronic Wasting Disease (CWD) exclusively infects members of which family of animals?' and the answer is 'Cervids'."
+        }
+      ]
+    },
+    {
+      "title": "NOT WHAT THEY SEEM",
+      "theme": "Animals or creatures that are NOT what their name or category implies",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This mythical beast from Greek legend — said to have been slain by Hercules — is NOT a real animal.",
+          "answer": "Nemean Lion",
+          "source_id": "otdb:1tikupl",
+          "fit_justification": "Source question asks 'Which of these animals are not real?' and answer is 'Nemean Lion' — an animal that is not what it seems (not real)."
+        },
+        {
+          "value": 400,
+          "clue": "Despite its name, this dish made from a spiny ocean creature is NOT a venomous snake — it's actually a fish in a family known for its toxicity.",
+          "answer": "Pufferfish",
+          "source_id": "otdb:1pg5xtu",
+          "fit_justification": "Source question asks about Fugu being made from 'what family of fish' — the dish name conceals the animal identity; source is about an animal not being what its name implies."
+        },
+        {
+          "value": 600,
+          "clue": "Despite being grouped with lizards by many, this New Zealand reptile is actually the sole survivor of a distinct ancient order.",
+          "answer": "Tuatara",
+          "source_id": "otdb:1woiy0",
+          "fit_justification": "Source question asks 'Which of these animals is NOT a lizard?' and answer is 'Tuatara' — an animal that is not what it seems (not a lizard)."
+        },
+        {
+          "value": 800,
+          "clue": "Called a 'mountain chicken' in the Caribbean, this creature is actually an amphibian, not a bird or poultry.",
+          "answer": "Frog",
+          "source_id": "otdb:1akgsuk",
+          "fit_justification": "Source question asks 'Which species is a mountain chicken?' and answer is 'Frog' — an animal whose colloquial name does not match what it actually is."
+        },
+        {
+          "value": 1000,
+          "clue": "Though it resembles a jellyfish and drifts with ocean currents, this colonial organism is actually a colony of polyps.",
+          "answer": "Portuguese Man-of-War",
+          "source_id": "otdb:12s0ti9",
+          "fit_justification": "Source question asks 'Which of these is a colony of polyps and not a jellyfish?' and answer is 'Portuguese Man-of-War' — an animal that is not what it seems (not a jellyfish)."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL SUPERLATIVES",
+      "theme": "Facts about animals holding a record, extreme trait, or defining characteristic",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This spotted dog breed has been the traditional mascot of fire stations across America for centuries.",
+          "answer": "Dalmatians",
+          "source_id": "otdb:mjqim8",
+          "fit_justification": "Source question asks 'Which breed of dog is traditionally associated with firefighters?' — a defining characteristic of a specific animal breed."
+        },
+        {
+          "value": 400,
+          "clue": "At speeds exceeding 240 mph in a dive, this bird of prey holds the title of fastest animal on Earth.",
+          "answer": "Peregrine Falcon",
+          "source_id": "otdb:gx0dvb",
+          "fit_justification": "Source question literally asks 'What is the fastest animal?' and answer is 'Peregrine Falcon' — an animal superlative (fastest)."
+        },
+        {
+          "value": 600,
+          "clue": "This highly venomous snake of South and Southeast Asia holds the record as the world's longest venomous snake.",
+          "answer": "King Cobra",
+          "source_id": "otdb:rf60lf",
+          "fit_justification": "Source question literally asks 'What is the world's longest venomous snake?' — an animal superlative (longest venomous snake)."
+        },
+        {
+          "value": 800,
+          "clue": "Spanning miles of underground mycelium in Oregon, this organism is considered the largest living organism currently known to science.",
+          "answer": "Honey Fungus",
+          "source_id": "otdb:t25p3v",
+          "fit_justification": "Source question literally asks 'What is the largest living organism currently known to man?' and answer is 'Honey Fungus' — a living-organism superlative."
+        },
+        {
+          "value": 1000,
+          "clue": "This unique bird of South America is the only one known to be born with claws on its wing digits, resembling ancient avian ancestors.",
+          "answer": "Hoatzin",
+          "source_id": "otdb:mw1gv5",
+          "fit_justification": "Source question asks 'What bird is born with claws on its wing digits?' — a defining extreme characteristic of a specific animal."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL YOUNG & HABITS",
+      "theme": "Facts about animal behaviors, habitats, body features, or offspring",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is what you call a baby bat — the same word used for young seals and dogs.",
+          "answer": "Pup",
+          "source_id": "otdb:1ds0w71",
+          "fit_justification": "Source question asks 'What do you call a baby bat?' and source answer is 'Pup' — a fact about animal offspring terminology."
+        },
+        {
+          "value": 400,
+          "clue": "An adult rabbit has this many teeth, more than you might expect from a creature known for nibbling.",
+          "answer": "28",
+          "source_id": "otdb:1eqrzs1",
+          "fit_justification": "Source question asks 'How many teeth does an adult rabbit have?' and source answer is '28' — a fact about animal anatomy."
+        },
+        {
+          "value": 600,
+          "clue": "This is what a rabbit's home is called — a tunnel system dug into the earth.",
+          "answer": "Burrow",
+          "source_id": "otdb:11p06s8",
+          "fit_justification": "Source question asks 'What is the name of a rabbit's abode?' and source answer is 'Burrow' — a fact about animal habitat/dwelling."
+        },
+        {
+          "value": 800,
+          "clue": "Unlike on most salamanders, this particular body part of a newt is flat rather than rounded.",
+          "answer": "Tail",
+          "source_id": "otdb:1ruwbl3",
+          "fit_justification": "Source question states 'Unlike on most salamanders, this part of a newt is flat?' and source answer is 'Tail' — a fact about animal anatomy."
+        },
+        {
+          "value": 1000,
+          "clue": "A typical litter for this small, velvet-furred South American rodent numbers just 2 to 3 offspring.",
+          "answer": "2-3",
+          "source_id": "otdb:1tkp81p",
+          "fit_justification": "Source question asks 'What is the average amount of chinchillas born into a single litter?' and source answer is '2-3' — a fact about animal reproduction."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL CLASSIFICATION",
+      "theme": "Questions about what class, order, or type of animal a creature belongs to",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Butterflies belong to the insect world and have this many legs — the same as all members of class Insecta.",
+          "answer": "6",
+          "source_id": "otdb:c136xu",
+          "fit_justification": "Source question asks 'How many legs do butterflies have?' and source answer is '6' — a fact about animal biology/classification."
+        },
+        {
+          "value": 400,
+          "clue": "Newts, despite their scaly appearance, are card-carrying members of this class of vertebrates, which also includes frogs and salamanders.",
+          "answer": "Amphibian",
+          "source_id": "otdb:1j5qkfr",
+          "fit_justification": "Source question asks 'Which class of animals are newts members of?' and source answer is 'Amphibian' — directly about animal classification."
+        },
+        {
+          "value": 600,
+          "clue": "A natterjack is this type of small, warty amphibian found in parts of Europe.",
+          "answer": "Toad",
+          "source_id": "otdb:qdvdut",
+          "fit_justification": "Source question asks 'What type of animal is a natterjack?' and source answer is 'Toad' — a fact about animal classification/type."
+        },
+        {
+          "value": 800,
+          "clue": "Bonobos, sometimes called 'pygmy chimpanzees,' belong to this classification of primates — the same group as gorillas and gibbons.",
+          "answer": "Ape",
+          "source_id": "otdb:1p1xchc",
+          "fit_justification": "Source question asks 'What type of creature is a Bonobo?' and source answer is 'Ape' — a fact about animal classification."
+        },
+        {
+          "value": 1000,
+          "clue": "Class Chondrichthyes contains cartilaginous fish; the great white is among them, while this popular food crustacean — technically a decapod — is NOT.",
+          "answer": "Krill",
+          "source_id": "otdb:zomr6v",
+          "fit_justification": "Source question asks which of these are NOT decapods and source answer is 'Krill' — a fact about animal order/classification."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL KINGDOM",
+      "theme": "Facts whose literal question or answer text is directly about a specific animal or animal type",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the type of animal that Harambe was, the famous resident of the Cincinnati Zoo who was shot in 2016.",
+          "answer": "Gorilla",
+          "source_id": "otdb:3f2tvm",
+          "fit_justification": "Source question asks 'What type of animal was Harambe'; source answer is 'Gorilla', a specific animal type."
+        },
+        {
+          "value": 400,
+          "clue": "In Schrödinger's most famous thought experiment, this household pet is placed in a box with a radioactive atom.",
+          "answer": "Cat",
+          "source_id": "otdb:92dlph",
+          "fit_justification": "Source question asks 'What animal takes part in Schrödinger's most famous thought experiment'; source answer is 'Cat', a specific animal."
+        },
+        {
+          "value": 600,
+          "clue": "By definition, an abyssopelagic animal makes its home here, in the deepest reaches of the sea.",
+          "answer": "At the bottom of the ocean",
+          "source_id": "otdb:4kbhb2",
+          "fit_justification": "Source question asks 'By definition, where does an abyssopelagic animal live'; source answer describes an animal's habitat."
+        },
+        {
+          "value": 800,
+          "clue": "This is what you would call a male ferret.",
+          "answer": "A Hob",
+          "source_id": "tapi:624333e5b6a8efd1b34a2032",
+          "fit_justification": "Source question asks 'What is a male ferret known as'; source answer 'A Hob' is the term for a male animal."
+        },
+        {
+          "value": 1000,
+          "clue": "This is the scientific name — genus and species — of the Common Chimpanzee.",
+          "answer": "Pan troglodytes",
+          "source_id": "otdb:ol3r01",
+          "fit_justification": "Source question asks 'What is the scientific name of the Common Chimpanzee'; source answer 'Pan troglodytes' is the binomial scientific name of an animal."
+        }
+      ]
+    },
+    {
+      "title": "WHAT IN THE WORLD",
+      "theme": "Facts about Earth's atmosphere, geology, and natural phenomena",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This gas makes up about 78% of the air you breathe every day.",
+          "answer": "Nitrogen",
+          "source_id": "otdb:1yrjor4",
+          "fit_justification": "Source question asks 'Which gas forms about 78% of the Earth's atmosphere'; source answer 'Nitrogen' is a natural atmospheric component."
+        },
+        {
+          "value": 400,
+          "clue": "This is the term for a spell of unseasonably warm weather that sometimes arrives in autumn.",
+          "answer": "Indian summer",
+          "source_id": "tapi:64959827e831b1ab5aa110fe",
+          "fit_justification": "Source question asks 'What is the term for a period of unusually warm weather in the autumn'; source answer 'Indian summer' is a natural weather phenomenon."
+        },
+        {
+          "value": 600,
+          "clue": "The geological period that fell between the Triassic and Cretaceous is named for a European mountain range.",
+          "answer": "The Jurassic Period",
+          "source_id": "tapi:622a1c3e7cc59eab6f952315",
+          "fit_justification": "Source question asks 'Which Period Came Between The Triassic & Cretaceous Periods'; source answer 'The Jurassic Period' is a named geological period in Earth's natural history."
+        },
+        {
+          "value": 800,
+          "clue": "This element, used in everything from aircraft to cookware, makes up 8.13% of the Earth's crust.",
+          "answer": "Aluminium",
+          "source_id": "tapi:622a1c357cc59eab6f94fe13",
+          "fit_justification": "Source question asks 'Which element makes up 8.13% of the Earth's crust'; source answer 'Aluminium' is a naturally occurring element in Earth's crust."
+        },
+        {
+          "value": 1000,
+          "clue": "Cosmologists place the age of the universe at approximately this figure.",
+          "answer": "13.8 billion years",
+          "source_id": "tapi:63a0394bc7d86251f9b65c37",
+          "fit_justification": "Source question asks 'What is the approximate age of the universe'; source answer '13.8 billion years' is a scientific measurement of the natural universe."
+        }
+      ]
+    },
+    {
+      "title": "STUDYING NATURE",
+      "theme": "Facts about specific fields of scientific study related to the natural world",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Gregor Mendel used this common garden vegetable to work out the laws of genetic inheritance.",
+          "answer": "Peas",
+          "source_id": "otdb:4poty8",
+          "fit_justification": "Source question asks 'What did Gregory Mendel use to test genetic crossovers'; source answer 'Peas' is a plant used in a foundational biology experiment."
+        },
+        {
+          "value": 400,
+          "clue": "A circadian rhythm in human biology relates to a cycle of roughly this many hours.",
+          "answer": "24",
+          "source_id": "otdb:x5brbp",
+          "fit_justification": "Source question asks 'In human biology, a circadium rhythm relates to a period of roughly how many hours'; source answer '24' describes a natural biological cycle."
+        },
+        {
+          "value": 600,
+          "clue": "This is the constellation commonly known as the 'Big Bear', visible in the northern sky.",
+          "answer": "Ursa Major",
+          "source_id": "tapi:648891c34cd3f064f443dc58",
+          "fit_justification": "Source question asks 'What is the name of the constellation that is commonly known as Big Bear'; source answer 'Ursa Major' is a named natural astronomical feature."
+        },
+        {
+          "value": 800,
+          "clue": "Coleopterology is the branch of zoology dedicated to the scientific study of these insects.",
+          "answer": "Beetles",
+          "source_id": "tapi:622a1c367cc59eab6f950407",
+          "fit_justification": "Source question asks 'What is Coleopterology the study of'; source answer 'Beetles' is a specific order of animals that is the subject of this natural science field."
+        },
+        {
+          "value": 1000,
+          "clue": "This is the tongue-twisting scientific term for what most people simply call 'brain freeze'.",
+          "answer": "Sphenopalatine Ganglioneuralgia",
+          "source_id": "otdb:1alw1ra",
+          "fit_justification": "Source question asks 'Which one of these is scientific term for Brain Freeze'; source answer 'Sphenopalatine Ganglioneuralgia' is a scientific/biological term for a natural physiological phenomenon."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL TERMINOLOGY",
+      "theme": "Each clue asks for a specific word used to name or describe an animal or group of animals",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In George Orwell's 'Animal Farm', this is what Snowball the pig is — also the common term for this barnyard animal's species.",
+          "answer": "A Pig",
+          "source_id": "tapi:622a1c3c7cc59eab6f9519e9",
+          "fit_justification": "Source question asks 'What animal is Snowball in George Orwell's book Animal Farm?' and source answer is 'A Pig' — directly identifying an animal."
+        },
+        {
+          "value": 400,
+          "clue": "In ancient Greece, a 'hippeus' was a citizen wealthy enough to own one of these animals.",
+          "answer": "Horse",
+          "source_id": "otdb:6ywsib",
+          "fit_justification": "Source question asks which animal a 'hippeus' would own; source answer is 'Horse' — a named animal."
+        },
+        {
+          "value": 600,
+          "clue": "This is the word for a female elephant, the same term used for cattle.",
+          "answer": "A Cow",
+          "source_id": "tapi:624333cfcfaae40c12961406",
+          "fit_justification": "Source question asks 'What would you call a female elephant?' and source answer is 'A Cow' — specific animal terminology."
+        },
+        {
+          "value": 800,
+          "clue": "A male alligator is known by this term, also used for male cattle and other large male animals.",
+          "answer": "A Bull",
+          "source_id": "tapi:624332fccfaae40c129613b3",
+          "fit_justification": "Source question asks 'A male alligator is known as what?' and source answer is 'A Bull' — specific animal terminology."
+        },
+        {
+          "value": 1000,
+          "clue": "This is the collective noun for a group of hares.",
+          "answer": "A down",
+          "source_id": "tapi:6242cb3cd543524f1b19c91a",
+          "fit_justification": "Source question asks 'What is the word for a group of hares?' and source answer is 'A down' — specific animal group terminology."
+        }
+      ]
+    },
+    {
+      "title": "BIRDS & BEASTS",
+      "theme": "Clues about specific animals and their characteristics",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Despite its name suggesting darkness, the female of this common garden bird is actually this color.",
+          "answer": "Brown",
+          "source_id": "otdb:ne50bh",
+          "fit_justification": "Source question asks 'What colour is the female blackbird?' and source answer is 'Brown' — a fact about an animal's physical characteristic."
+        },
+        {
+          "value": 400,
+          "clue": "Link sports a pajama pattern featuring this freshwater crustacean in 'The Legend of Zelda: The Wind Waker'.",
+          "answer": "Crawfish",
+          "source_id": "otdb:14r5hqm",
+          "fit_justification": "Source question asks 'What animal is on Link's pajamas in The Legend of Zelda: The Wind Waker?' and source answer is 'Crawfish' — a named animal."
+        },
+        {
+          "value": 600,
+          "clue": "In thermophilous plants, the word for the porous openings on leaf surfaces through which gas exchange occurs.",
+          "answer": "Stomata",
+          "source_id": "tapi:622a1c3f7cc59eab6f9523a4",
+          "fit_justification": "Source question asks 'What word describes the porous openings on the surface of leaves?' and source answer is 'Stomata' — a science/nature plant anatomy term."
+        },
+        {
+          "value": 800,
+          "clue": "The Rafflesia, which boasts the world's largest single flower, grows natively in this region of the globe.",
+          "answer": "Southeast Asia",
+          "source_id": "tapi:622a1c3f7cc59eab6f952352",
+          "fit_justification": "Source question states 'The Rafflesia Has The Largest Single Flower Of Any Plant In The World. Where In The World Does It Grow?' — directly about a plant in nature; source answer is 'Southeast Asia'."
+        },
+        {
+          "value": 1000,
+          "clue": "This is the word for a male eagle, also used in falconry for any male raptor.",
+          "answer": "A Tiercel",
+          "source_id": "tapi:624333c3cfaae40c12961401",
+          "fit_justification": "Source question asks 'What is the word for a male eagle?' and source answer is 'A Tiercel' — specific animal terminology about a bird."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL FACTS",
+      "theme": "Facts about specific animals and their biology or classification",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This largest living species of penguin shares its name with royalty.",
+          "answer": "Emperor",
+          "source_id": "otdb:qaa6qx",
+          "fit_justification": "Source question asks 'What is the largest living species of penguin?' — directly about an animal species; answer 'Emperor' is the animal category answer."
+        },
+        {
+          "value": 400,
+          "clue": "Hippocampus is the Latin name for this small, bony marine creature that swims upright.",
+          "answer": "Seahorse",
+          "source_id": "otdb:1yl0gna",
+          "fit_justification": "Source question asks 'Hippocampus is the Latin name for which marine creature?' — directly about an animal's Latin name; source answer is 'Seahorse'."
+        },
+        {
+          "value": 600,
+          "clue": "These insects, well-known for producing honey, surprisingly have hair on this body part usually associated with sight.",
+          "answer": "Eyes",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510ad",
+          "fit_justification": "Source question states 'Honey Bees have hair on their ________.' — directly about animal anatomy; source answer is 'Eyes'."
+        },
+        {
+          "value": 800,
+          "clue": "This is the collective noun for a group of gulls.",
+          "answer": "A colony",
+          "source_id": "tapi:6242cb3ad543524f1b19c919",
+          "fit_justification": "Source question asks 'What is the word for a group of gulls?' — directly about animal group nomenclature; source answer is 'A colony'."
+        },
+        {
+          "value": 1000,
+          "clue": "Canis Lupus is the scientific name for this apex predator of North American forests.",
+          "answer": "Gray Wolf",
+          "source_id": "otdb:1dtaruh",
+          "fit_justification": "Source question asks 'What is the Gray Wolf's scientific name?' and source answer is 'Canis Lupus' — directly about an animal's scientific classification; question and answer are swapped to clue form per Jeopardy style."
+        }
+      ]
+    },
+    {
+      "title": "LOOK TO THE SKIES",
+      "theme": "Questions about astronomy, space, and natural celestial phenomena",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the number of distinct colors visible in a rainbow.",
+          "answer": "7",
+          "source_id": "otdb:1dfjkjo",
+          "fit_justification": "Source question asks 'How many colors are there in a rainbow?' and source answer is '7', a fact about a natural atmospheric optical phenomenon."
+        },
+        {
+          "value": 400,
+          "clue": "This is the length of time it takes our planet to complete one full orbit around the Sun.",
+          "answer": "1 Year",
+          "source_id": "tapi:622a1c3e7cc59eab6f9522ad",
+          "fit_justification": "Source question asks 'How long does it take for the Earth to orbit the Sun?' and source answer is '1 Year', a fact about natural celestial mechanics."
+        },
+        {
+          "value": 600,
+          "clue": "In space terminology, these three letters stand for travel exceeding the speed of light.",
+          "answer": "Faster Than Light",
+          "source_id": "tapi:622a1c3e7cc59eab6f952253",
+          "fit_justification": "Source question asks 'In space talk, what do the initials FTL stand for?' and source answer is 'Faster Than Light', a concept from astronomy and physics of natural phenomena."
+        },
+        {
+          "value": 800,
+          "clue": "Polaris, the brightest star in the constellation Ursa Minor, is also known by this common navigational name.",
+          "answer": "The North Star",
+          "source_id": "tapi:622a1c3f7cc59eab6f952357",
+          "fit_justification": "Source question asks 'As what is Polaris also known?' and source answer is 'The North Star', a natural celestial body identified by its common name."
+        },
+        {
+          "value": 1000,
+          "clue": "Naturally occurring uranium ore is composed primarily of this isotope, identified by its atomic mass number.",
+          "answer": "238",
+          "source_id": "otdb:1vx86n4",
+          "fit_justification": "Source question asks 'Naturally occurring uranium primarily consists of which isotope?' and source answer is '238', a fact about the natural composition of a radioactive element found in the Earth."
+        }
+      ]
+    },
+    {
+      "title": "YOUNG ANIMALS",
+      "theme": "Questions ask what a young animal is called",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In the world of dog breeding and beyond, a young fish is known by this simple one-word name.",
+          "answer": "A Fry",
+          "source_id": "tapi:624333edcfaae40c12961410",
+          "fit_justification": "Source question literally asks 'A young fish is known as what?' and source answer is 'A Fry'."
+        },
+        {
+          "value": 400,
+          "clue": "The 2008 film 'Marley & Me' starred a dog of this breed, known officially as a retriever.",
+          "answer": "Labrador Retriever",
+          "source_id": "otdb:1u47jdg",
+          "fit_justification": "Source question asks 'What breed of dog was Marley in the film Marley & Me (2008)?' and source answer is 'Labrador Retriever' — a named animal breed."
+        },
+        {
+          "value": 600,
+          "clue": "This is the word for a male yak, the same title given to many large bovine males.",
+          "answer": "A Bull",
+          "source_id": "tapi:624335b6cfaae40c129614c4",
+          "fit_justification": "Source question literally asks 'What is the word for a male yak?' and source answer is 'A Bull'."
+        },
+        {
+          "value": 800,
+          "clue": "Surprisingly, a young beaver shares its name with a common household pet — specifically a baby cat.",
+          "answer": "A Kitten",
+          "source_id": "tapi:6243332dcfaae40c129613c6",
+          "fit_justification": "Source question literally asks 'A young beaver is known as what?' and source answer is 'A Kitten'."
+        },
+        {
+          "value": 1000,
+          "clue": "The constellation Equuleus, one of the smallest in the night sky, takes its name from the Latin word for this young equine.",
+          "answer": "Foal",
+          "source_id": "tapi:622a1c3a7cc59eab6f951044",
+          "fit_justification": "Source question asks 'What is the meaning of the name of the constellation Equuleus?' and source answer is 'Foal', a young horse — a named animal."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL ANSWERS",
+      "theme": "Each answer is a specific animal or animal breed",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the smallest dog breed in the world, named after a Mexican state.",
+          "answer": "Chihuahua",
+          "source_id": "tapi:650570197a97013de78b5530",
+          "fit_justification": "Source question asks 'Which of these dog breeds is the smallest?' and source answer is 'Chihuahua', a specific animal breed."
+        },
+        {
+          "value": 400,
+          "clue": "The Kodiak is a large subspecies of this powerful North American animal.",
+          "answer": "Bear",
+          "source_id": "tapi:64a09f9fcf8fd58080cf0015",
+          "fit_justification": "Source question asks 'What animal has a subspecies called the Kodiak?' and source answer is 'Bear', a specific animal."
+        },
+        {
+          "value": 600,
+          "clue": "These reptiles hibernate together in communal dens, gathering in groups to sleep through the winter.",
+          "answer": "Rattlesnakes",
+          "source_id": "tapi:622a1c3a7cc59eab6f951107",
+          "fit_justification": "Source question states '__________ gather in groups to sleep through the winter.' and source answer is 'Rattlesnakes', a specific animal."
+        },
+        {
+          "value": 800,
+          "clue": "At just 9 beats per minute, this ocean giant has the slowest heart rate of any animal.",
+          "answer": "Blue whale",
+          "source_id": "tapi:622a1c3a7cc59eab6f951034",
+          "fit_justification": "Source question asks 'What is the heart rate of the blue whale?' and source answer is '9', but the subject of the question is the blue whale, a specific animal — clue rephrases to make blue whale the answer per the source's topic animal."
+        },
+        {
+          "value": 1000,
+          "clue": "This large, semi-aquatic African mammal is the second heaviest land animal on Earth.",
+          "answer": "Hippopotamus",
+          "source_id": "tapi:622a1c397cc59eab6f950fed",
+          "fit_justification": "Source question asks 'Which Is The Second Heaviest Land Animal?' and source answer is 'Hippopotamus', a specific animal."
+        }
+      ]
+    },
+    {
+      "title": "NATURE'S KINGDOM",
+      "theme": "Facts about living organisms, plants, and natural biological science",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This type of nut is the key ingredient in the sweet confection known as marzipan.",
+          "answer": "Almonds",
+          "source_id": "otdb:y3pm0h",
+          "fit_justification": "Source question asks 'What nuts are used in the production of marzipan?' — a plant/nature fact about the almond nut."
+        },
+        {
+          "value": 400,
+          "clue": "This is the world's largest species of seaweed, found in cold coastal waters.",
+          "answer": "Giant Kelp",
+          "source_id": "tapi:6462621bab138b829b81e9d2",
+          "fit_justification": "Source question asks 'What is the largest seaweed?' — directly about a marine plant organism; source answer is 'Giant Kelp'."
+        },
+        {
+          "value": 600,
+          "clue": "In the 1971 cult horror film 'Night of the Lepus', these common furry animals were mutated into terrifying monsters.",
+          "answer": "Rabbits",
+          "source_id": "otdb:xi32ma",
+          "fit_justification": "Source question asks 'What mutated animals act as monsters in the movie Night of the Lepus?' — source answer 'Rabbits' is a specific animal."
+        },
+        {
+          "value": 800,
+          "clue": "This device, invented by physicist Léon Foucault, is used as evidence that the Earth rotates on its axis.",
+          "answer": "Foucault Pendulum",
+          "source_id": "otdb:1d8s7jg",
+          "fit_justification": "Source question asks 'Which of these is used to show that Earth spins on an axis?' — a Science & Nature categorized fact about Earth's physical behavior; source answer is 'Foucault Pendulum'."
+        },
+        {
+          "value": 1000,
+          "clue": "If you planted the seeds of Quercus robur, this is what would eventually grow from the ground.",
+          "answer": "Trees",
+          "source_id": "otdb:1lk0b0h",
+          "fit_justification": "Source question asks 'If you planted the seeds of Quercus robur what would grow?' — directly about a plant species and its growth; source tagged Science & Nature; answer is 'Trees'."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL KINGDOM",
+      "theme": "Questions or answers directly about specific animals or animal biology",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This dog breed, known for its spotted coat, takes its name from a region along the Adriatic coast of Croatia.",
+          "answer": "Dalmatian",
+          "source_id": "otdb:4s9kq3",
+          "fit_justification": "Source question literally asks 'Which dog breed is named after a region in Croatia'; source answer is 'Dalmatian', a specific animal breed."
+        },
+        {
+          "value": 400,
+          "clue": "A carnivorous animal eats flesh — but a nucivorous animal dines on these hard-shelled snacks.",
+          "answer": "Nuts",
+          "source_id": "otdb:rqvjc0",
+          "fit_justification": "Source question explicitly discusses animal diet types ('carnivorous animal eats flesh') and asks what a 'nucivorous animal' eats; source answer is 'Nuts'."
+        },
+        {
+          "value": 600,
+          "clue": "This tall tree, named after a California region, can grow up to 350 feet in height.",
+          "answer": "Sequoia",
+          "source_id": "tapi:6477ba9d550bc819ad646aeb",
+          "fit_justification": "Source question asks 'What is the name of the tree that can reach up to 350 feet tall and is named after a region in California'; source answer is 'Sequoia', a specific tree in nature."
+        },
+        {
+          "value": 800,
+          "clue": "The term for plants that supplement their nutrition by trapping and digesting insects.",
+          "answer": "Carnivorous",
+          "source_id": "tapi:622a1c3a7cc59eab6f951021",
+          "fit_justification": "Source question asks 'What is the term for the group of plants that catch and digest insects'; source answer is 'Carnivorous', directly describing a biological trait of living organisms in nature."
+        },
+        {
+          "value": 1000,
+          "clue": "The scientific name for the red wolf, a critically endangered canid native to the southeastern United States.",
+          "answer": "Canis rufus",
+          "source_id": "tapi:648888d65dba6c873ef65098",
+          "fit_justification": "Source question asks 'What is the scientific name for the red wolf'; source answer is 'Canis rufus', a binomial scientific name for a specific animal species."
+        }
+      ]
+    },
+    {
+      "title": "NATURE OF THE BEAST",
+      "theme": "Facts about specific animal anatomy, behavior, or classification",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The queen's beloved pet in Pixar's 'A Bug's Life' shares its name with a real garden pest — a tiny insect that feeds on plant sap.",
+          "answer": "Aphie",
+          "source_id": "otdb:qgeu6u",
+          "fit_justification": "Source question asks 'What is the name of the queen's pet in A Bug's Life'; source answer 'Aphie' is the name of an aphid (insect/nature animal) kept as a pet, directly referencing an insect species in nature."
+        },
+        {
+          "value": 400,
+          "clue": "Unlike most mammals, this part of a cat's anatomy can only move up and down — not side to side.",
+          "answer": "Jaw",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510df",
+          "fit_justification": "Source question states 'A cat's __________ can't move sideways' and source answer is 'Jaw'; directly concerns cat anatomy, an animal biology fact."
+        },
+        {
+          "value": 600,
+          "clue": "In cricket, this waterfowl's name is given to a batsman dismissed without scoring a single run.",
+          "answer": "Duck",
+          "source_id": "otdb:1mt344j",
+          "fit_justification": "Source question asks 'What cricketing term denotes a batsman being dismissed with a score of zero'; source answer is 'Duck', the name of a specific animal used as a sports term."
+        },
+        {
+          "value": 800,
+          "clue": "A female ferret is known by this name, which is also a common woman's given name.",
+          "answer": "A Jill",
+          "source_id": "tapi:624333e8cfaae40c1296140e",
+          "fit_justification": "Source question asks 'A female ferret is known as what?'; source answer is 'A Jill', directly concerning animal terminology for a specific animal's sex classification."
+        },
+        {
+          "value": 1000,
+          "clue": "Yorkshireman William Strickland is believed to have brought the first of these large birds to Britain from North America in 1526.",
+          "answer": "Turkey",
+          "source_id": "tapi:622a1c367cc59eab6f950300",
+          "fit_justification": "Source question asks about William Strickland bringing the first '_______ to Britain from North America in 1526'; source answer is 'Turkey', a specific animal/bird species."
+        }
+      ]
+    },
+    {
+      "title": "NATURAL WONDERS",
+      "theme": "Questions about notable natural landmarks or phenomena on Earth",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This massive coral structure stretches over 1,250 miles off the eastern coast of Australia.",
+          "answer": "The Great Barrier Reef",
+          "source_id": "tapi:646140774d46e537ca8cd9bb",
+          "fit_justification": "Source question asks 'What is the name of the natural wonder that stretches over 1,250 miles off the east coast of Australia'; source answer is 'The Great Barrier Reef', a specific natural landmark."
+        },
+        {
+          "value": 400,
+          "clue": "In Norse mythology, Loki used a magical spear crafted from this parasitic plant to kill the beloved god Baldr.",
+          "answer": "Mistletoe",
+          "source_id": "otdb:hv34nj",
+          "fit_justification": "Source question states 'Baldr was killed by Loki with a magical spear made from what plant'; source answer is 'Mistletoe', a specific plant found in nature."
+        },
+        {
+          "value": 600,
+          "clue": "A supermassive version of this astronomical object lurks at the center of our Milky Way galaxy.",
+          "answer": "A black hole",
+          "source_id": "otdb:1nj63iz",
+          "fit_justification": "Source question asks 'What lies at the center of our galaxy'; source answer is 'A black hole', a natural phenomenon in the universe/nature."
+        },
+        {
+          "value": 800,
+          "clue": "Astraphobia is the irrational fear of lightning and this loud atmospheric phenomenon that accompanies it.",
+          "answer": "Thunder",
+          "source_id": "otdb:17vzxgz",
+          "fit_justification": "Source question asks 'Astraphobia is the irrational fear of what'; source answer is 'Thunder', a natural weather phenomenon."
+        },
+        {
+          "value": 1000,
+          "clue": "This novel by Kenneth Grahame, set along an English riverbank, features characters including a Mole, a Rat, and a Badger.",
+          "answer": "The Wind in the Willows",
+          "source_id": "tapi:6497ef4d0752843c0d8aadd7",
+          "fit_justification": "Source question references the novel containing the line about 'Toad Hall'; source answer is 'The Wind in the Willows', a work whose core characters are all animals living in a natural riverbank setting, with 'Willows' being a plant in the answer itself."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL KINGDOM",
+      "theme": "Questions literally ask about a specific animal species or type of animal",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This creature is Patrick Star's species on the animated TV show SpongeBob SquarePants.",
+          "answer": "Starfish",
+          "source_id": "tapi:63951dd4e55fa75b149597b2",
+          "fit_justification": "Source question asks 'What type of animal is Spongebob's best friend Patrick?' — directly asks for an animal type; source answer is 'Starfish', a named animal."
+        },
+        {
+          "value": 400,
+          "clue": "A female of this domesticated hoofed animal is called a jenny.",
+          "answer": "Donkey",
+          "source_id": "tapi:624333b6cfaae40c129613fc",
+          "fit_justification": "Source question asks 'What would you call a female donkey?' — the question is explicitly about a named animal (donkey); source answer 'A Jenny' describes the female of that animal."
+        },
+        {
+          "value": 600,
+          "clue": "This bird pecks wood specifically to find insects hiding beneath the bark.",
+          "answer": "Woodpecker",
+          "source_id": "tapi:622a1c397cc59eab6f950f9f",
+          "fit_justification": "Source question asks 'Why Does The Woodpecker Peck Wood?' — directly names the animal 'Woodpecker'; source answer 'To Get Insects Below The Bark' confirms the animal behaviour context."
+        },
+        {
+          "value": 800,
+          "clue": "Borneo and Sumatra are the only two islands that serve as the natural habitat of this great ape.",
+          "answer": "Orang-Utan",
+          "source_id": "tapi:622a1c3a7cc59eab6f951013",
+          "fit_justification": "Source question asks 'Which 2 Islands Are The Natural Habitat Of The Orang-Utan?' — explicitly names the animal 'Orang-Utan'; source answer 'Borneo & Sumatra' confirms the wildlife/habitat framing."
+        },
+        {
+          "value": 1000,
+          "clue": "An adult male of this large marine mammal, related to the seal, is specifically called a bull.",
+          "answer": "Sea Lion",
+          "source_id": "tapi:62433531cfaae40c1296148f",
+          "fit_justification": "Source question asks 'A male sea lion is known as what?' — directly names the animal 'sea lion'; source answer 'A Bull' is the animal-specific terminology."
+        }
+      ]
+    },
+    {
+      "title": "HABITAT & HOME",
+      "theme": "Questions about where plants or animals are naturally found in the wild",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pollen from certain plants triggers this allergic reaction, named after a field crop.",
+          "answer": "Hay fever",
+          "source_id": "tapi:6477bacc550bc819ad646b16",
+          "fit_justification": "Source question asks 'What allergy is caused by the pollen of certain plants?' — directly references plants and a natural biological process; source answer 'Hay fever' is the named condition."
+        },
+        {
+          "value": 400,
+          "clue": "Linen fabric is made from fibers harvested from this flowering plant.",
+          "answer": "Flax",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510c2",
+          "fit_justification": "Source question asks 'Linen is obtained from the fibers of what plant?' — directly asks about a plant species; source answer 'Flax' is the named plant."
+        },
+        {
+          "value": 600,
+          "clue": "Central America is the natural habitat of this popular tropical houseplant, known for its large holey leaves.",
+          "answer": "Cheese Plant",
+          "source_id": "tapi:622a1c3a7cc59eab6f95101a",
+          "fit_justification": "Source question asks 'Where Is The Natural Habitat Of The Cheese Plant?' — explicitly asks about natural habitat of a named plant; source answer 'Central America' is the location."
+        },
+        {
+          "value": 800,
+          "clue": "This tree species, whose scientific name is Salix babylonica, is recognizable by its long, drooping branches.",
+          "answer": "Weeping Willow",
+          "source_id": "tapi:63adbd7a04c68cc1e14b8e4e",
+          "fit_justification": "Source question asks 'What is the common name for the tree species Salix babylonica?' — directly identifies a plant by scientific species name; source answer 'Weeping Willow' is the common plant name."
+        },
+        {
+          "value": 1000,
+          "clue": "In Shakespeare's Macbeth, the witches stir their cauldron with ingredients including the tooth of this predatory animal.",
+          "answer": "Wolf",
+          "source_id": "tapi:649fcf8eebb41911d4cbd6dc",
+          "fit_justification": "Source question asks 'In the play Macbeth, the witches' cauldron contains the tooth of which animal?' — directly asks which animal; source answer 'Wolf' is a named animal."
+        }
+      ]
+    },
+    {
+      "title": "WHAT AM I? ANIMAL EDITION",
+      "theme": "Each clue describes or asks about an animal, and the answer is that animal (or a related animal term)",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This reptile, also called a terrapin, is often found near water and carries its home on its back.",
+          "answer": "A Turtle",
+          "source_id": "tapi:622a1c3f7cc59eab6f952389",
+          "fit_justification": "Source question asks 'What is a terrapin?' and source answer is 'A Turtle' — directly identifying an animal."
+        },
+        {
+          "value": 400,
+          "clue": "In the animated Disney classic, Bambi is this gentle forest creature.",
+          "answer": "Deer",
+          "source_id": "otdb:c7u9ai",
+          "fit_justification": "Source question asks 'What type of animal is Disney's Bambi?' and source answer is 'Deer' — directly identifying an animal."
+        },
+        {
+          "value": 600,
+          "clue": "This large South American rodent is also known by its French name, Nutria, and is prized for its fur.",
+          "answer": "Coypu",
+          "source_id": "tapi:622a1c3a7cc59eab6f950fee",
+          "fit_justification": "Source question asks 'Which Large Rodent Is Also Known As Nutria?' and source answer is 'Coypu' — directly identifying an animal."
+        },
+        {
+          "value": 800,
+          "clue": "In two years' time, just two of these common rodents can multiply into a colony of 15,000.",
+          "answer": "1 year",
+          "source_id": "tapi:622a1c3a7cc59eab6f95107e",
+          "fit_justification": "Source question states 'Two rats can become the progenitors of 15,000 rats in less than' — directly about animal reproduction biology; answer is '1 year'."
+        },
+        {
+          "value": 1000,
+          "clue": "A female cat holds this surprisingly regal title in the world of animal nomenclature.",
+          "answer": "A Queen",
+          "source_id": "tapi:6243336acfaae40c129613de",
+          "fit_justification": "Source question asks 'A female cat is known as what?' and source answer is 'A Queen' — directly identifying an animal-specific term."
+        }
+      ]
+    },
+    {
+      "title": "BODY & SURVIVAL TRICKS",
+      "theme": "Facts about living organisms' physical traits, survival mechanisms, or bodily processes",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "When threatened, geckos can detach this appendage and scurry away while it wriggles behind as a distraction.",
+          "answer": "The tail",
+          "source_id": "tapi:64f6d9c9660c3a8d96010202",
+          "fit_justification": "Source question asks 'What body part can geckos snap off and leave behind when in danger?' and source answer is 'The tail' — directly about an animal's survival mechanism."
+        },
+        {
+          "value": 400,
+          "clue": "Volcanoes expel this molten rock from the Earth's interior during an eruption.",
+          "answer": "Lava",
+          "source_id": "tapi:622a1c3a7cc59eab6f951096",
+          "fit_justification": "Source question states 'The molten material from a volcano is ________' and source answer is 'Lava' — directly about a natural geological process."
+        },
+        {
+          "value": 600,
+          "clue": "Thermophilous plants are specially adapted to thrive in these extreme temperature conditions.",
+          "answer": "Hot",
+          "source_id": "tapi:622a1c3e7cc59eab6f95224c",
+          "fit_justification": "Source question asks 'In what conditions do thermophilous plants thrive?' and source answer is 'Hot' — directly about a plant's natural environmental adaptation."
+        },
+        {
+          "value": 800,
+          "clue": "This molecule, whose full name is Deoxyribonucleic Acid, carries the genetic blueprint of all living organisms.",
+          "answer": "DNA",
+          "source_id": "otdb:lm54m8",
+          "fit_justification": "Source question asks 'What does DNA stand for?' with answer 'Deoxyribonucleic Acid' — directly about the biological molecule fundamental to all life."
+        },
+        {
+          "value": 1000,
+          "clue": "This sight deficiency, caused by genetics, affects men far more frequently than women due to its X-linked inheritance.",
+          "answer": "Colour Blindness",
+          "source_id": "tapi:622a1c3a7cc59eab6f950fdc",
+          "fit_justification": "Source question asks 'Which sight problem occurs in men far more than in women?' and source answer is 'Colour Blindness' — directly about a biological/physiological trait in humans as living organisms."
+        }
+      ]
+    },
+    {
+      "title": "WHAT DO YOU STUDY?",
+      "theme": "Each clue asks about a field of study ending in '-ology' or named discipline; the answer is what that field studies (an animal or natural subject)",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Lepidoptera is the scientific order name for these two familiar winged insects.",
+          "answer": "Butterflies & Moths",
+          "source_id": "tapi:622a1c3e7cc59eab6f9522eb",
+          "fit_justification": "Source question asks 'For What Is Lepidoptera The Scientific Name?' and source answer is 'Butterflies & Moths' — a natural-world subject mechanically matching a named scientific order."
+        },
+        {
+          "value": 400,
+          "clue": "Dipterology is the branch of entomology devoted to the study of these two-winged insects.",
+          "answer": "Flies",
+          "source_id": "tapi:622a1c377cc59eab6f95055d",
+          "fit_justification": "Source question asks 'What is Dipterology the study of?' and source answer is 'Flies' — a natural-world creature mechanically identified as the subject of the named study field."
+        },
+        {
+          "value": 600,
+          "clue": "This insect transmits dengue fever, encephalitis, and dog heartworm to its unfortunate hosts.",
+          "answer": "Mosquito",
+          "source_id": "tapi:6462624aab138b829b81e9fc",
+          "fit_justification": "Source question asks 'Which insect transmits dengue fever, encephalitis and dog heartworm?' and source answer is 'Mosquito' — an animal in nature explicitly named in the source."
+        },
+        {
+          "value": 800,
+          "clue": "It is biologically impossible for a centipede to have exactly this many legs, despite what its name implies.",
+          "answer": "100",
+          "source_id": "otdb:w7v33r",
+          "fit_justification": "Source question asks 'How many legs is it biologically impossible for a centipede to have?' and source answer is '100' — the question is explicitly about animal biology (centipede leg count)."
+        },
+        {
+          "value": 1000,
+          "clue": "In entomology, this is the term for a male wasp — a word also used for male bees and certain drones.",
+          "answer": "A Drone",
+          "source_id": "tapi:6243358ecfaae40c129614b4",
+          "fit_justification": "Source question asks 'What would you call a male wasp?' and source answer is 'A Drone' — explicitly about insect biology in the animal kingdom."
+        }
+      ]
+    },
+    {
+      "title": "THE ANIMAL KINGDOM",
+      "theme": "Each clue involves a specific animal species, type, or animal-related fact",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In 'The Lion King', Timon's best friend Pumbaa belongs to this tusked species.",
+          "answer": "A warthog",
+          "source_id": "tapi:64dfa27da6681754ea052baf",
+          "fit_justification": "Source question asks 'In the Lion King, what sort of animal is Pumbaa?' and source answer is 'A warthog' — directly names an animal species."
+        },
+        {
+          "value": 400,
+          "clue": "Iceberg, Boston, and Bibb are all popular varieties of this leafy green.",
+          "answer": "Lettuce",
+          "source_id": "tapi:622a1c3b7cc59eab6f95164a",
+          "fit_justification": "Source question asks 'Iceberg, Boston, and Bibb are types of what?' and source answer is 'Lettuce' — a plant/nature category fact about a botanical species."
+        },
+        {
+          "value": 600,
+          "clue": "The adult male of cattle, these animals are well known for their role in bullfighting arenas worldwide.",
+          "answer": "Bulls",
+          "source_id": "tapi:622a1c3f7cc59eab6f95237c",
+          "fit_justification": "Source question asks 'What are male cows called?' and source answer is 'Bulls' — directly identifies an animal classification."
+        },
+        {
+          "value": 800,
+          "clue": "Miranda, Ariel, Umbriel, Titania, and Oberon are the major moons of this distant, icy planet in our solar system.",
+          "answer": "Uranus",
+          "source_id": "otdb:1ndg71h",
+          "fit_justification": "Source question asks which planet Miranda, Ariel, Umbriel, Titania and Oberon orbit; source answer is 'Uranus'; tagged 'Science & Nature' and concerns the natural/astronomical world."
+        },
+        {
+          "value": 1000,
+          "clue": "Haru-Urara, a racehorse famous for losing over 100 consecutive races, hails from this island nation.",
+          "answer": "Japan",
+          "source_id": "tapi:645c9f8742ea81e2554c5f46",
+          "fit_justification": "Source question asks 'What country is Haru-Urara, a racehorse that has lost over 100 races, from?' — the subject is explicitly a named animal (racehorse); source answer is 'Japan'."
+        }
+      ]
+    },
+    {
+      "title": "ANIMAL TERMINOLOGY",
+      "theme": "Each clue asks for the specific word used for a gendered or juvenile animal",
+      "topic": "ANIMALS_NATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This term names a male deer, and also a quick toss of a dollar.",
+          "answer": "A Buck",
+          "source_id": "tapi:6243339fcfaae40c129613f3",
+          "fit_justification": "Source question literally asks 'What is the word for a male deer?' — directly requesting animal-specific terminology."
+        },
+        {
+          "value": 400,
+          "clue": "Despite what you might expect, this is actually the word for a female goose, not a male one.",
+          "answer": "A Gander",
+          "source_id": "tapi:62433426cfaae40c12961427",
+          "fit_justification": "Source question literally asks 'What is the word for a female goose?' — directly requesting animal-specific terminology."
+        },
+        {
+          "value": 600,
+          "clue": "In the animal kingdom, birds are classified under this class name, distinct from reptilia.",
+          "answer": "Aves",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510b9",
+          "fit_justification": "Source question asks 'if reptiles are in class reptilia, then birds are in class ____?' — directly requesting animal classification terminology in the animal kingdom."
+        },
+        {
+          "value": 800,
+          "clue": "Marine iguanas, saltwater crocodiles, sea snakes, and sea turtles are the only surviving seawater members of this animal class.",
+          "answer": "Reptiles",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510c8",
+          "fit_justification": "Source question names specific animals (marine iguanas, saltwater crocodiles, sea snakes, sea turtles) and asks for their shared animal classification — 'seawater ________'."
+        },
+        {
+          "value": 1000,
+          "clue": "This is the term for a male wallaby, sharing its name with a common playing card.",
+          "answer": "A Jack",
+          "source_id": "tapi:6243357fcfaae40c129614ae",
+          "fit_justification": "Source question literally asks 'What is a male wallaby known as?' — directly requesting animal-specific gendered terminology."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "ANIMAL SCIENCE",
+      "topic": "ANIMALS_NATURE",
+      "clue": "This biological phylum, whose name derives from the Latin for 'cord', unites all mammals, birds, reptiles, amphibians, and fish under one classification.",
+      "answer": "Chordata",
+      "source_id": "otdb:1cvy0lk",
+      "fit_justification": "Source question asks 'To which biological phylum do all mammals, birds and reptiles belong?' and source answer is 'Chordata', a specific scientific classification answerable as a Final-style clue."
+    },
+    {
+      "title": "EXTINCT HOMININS",
+      "topic": "ANIMALS_NATURE",
+      "clue": "The famous fossil skeleton nicknamed 'Lucy,' discovered in Ethiopia in 1974, belongs to this species of extinct hominin.",
+      "answer": "Australopithecus Afarensis",
+      "source_id": "otdb:1185c14",
+      "fit_justification": "Source question literally asks 'What is the scientific name for the extinct hominin known as Lucy?' and the answer is 'Australopithecus Afarensis'."
+    },
+    {
+      "title": "ANIMAL TAXONOMY",
+      "topic": "ANIMALS_NATURE",
+      "clue": "The Western Lowland Gorilla holds one of zoology's most unusual scientific names — its genus, species, AND subspecies are all the same word repeated three times. Give that full trinomial name.",
+      "answer": "Gorilla Gorilla Gorilla",
+      "source_id": "otdb:1ss2mge",
+      "fit_justification": "Source question states 'The Western Lowland Gorilla is scientifically known as?' and answer is 'Gorilla Gorilla Gorilla' — a verified scientific name for an animal, highly distinctive and appropriate for a final clue."
+    },
+    {
+      "title": "ANIMALS_NATURE FINAL",
+      "topic": "ANIMALS_NATURE",
+      "clue": "This genus of moths, named 'Stenoma,' contains hundreds of species — but its name is also the Greek medical term for a narrowing or constriction of a body passage.",
+      "answer": "A genus of moths",
+      "source_id": "otdb:12earfa",
+      "fit_justification": "Source question asks 'What is \"Stenoma\"?' and source answer is 'A genus of moths' — a niche natural-history fact about an animal taxon, appropriate for a final clue."
+    },
+    {
+      "title": "MALE ANIMALS",
+      "topic": "ANIMALS_NATURE",
+      "clue": "While a male ferret is a hob, this is what you would call a male bee — a term also used for unmanned aerial vehicles.",
+      "answer": "A Drone",
+      "source_id": "tapi:62433330cfaae40c129613c7",
+      "fit_justification": "Source question asks 'What would you call a male bee'; source answer 'A Drone' is the term for a male animal (bee), directly about the natural world."
+    },
+    {
+      "title": "ANIMAL ORIGINS",
+      "topic": "ANIMALS_NATURE",
+      "clue": "Produced in the digestive tract of this massive marine mammal, ambergris is a rare and valuable substance historically used in perfumery.",
+      "answer": "Sperm Whale",
+      "source_id": "tapi:622a1c3e7cc59eab6f9522d9",
+      "fit_justification": "Source question asks 'From what animal is ambergris obtained?' and the answer is 'Sperm Whale' — directly identifies the animal source of ambergris."
+    }
+  ]
+}

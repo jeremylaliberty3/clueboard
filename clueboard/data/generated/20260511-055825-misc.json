@@ -1,0 +1,1010 @@
+{
+  "batch_id": "20260511-055825-misc",
+  "generated_at": "2026-05-11T05:58:25.190Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "MISC",
+  "categories": [
+    {
+      "title": "FACE VALUE",
+      "theme": "Clues about card games, board games, or game-related number facts",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In poker, this hand contains three of a kind and a pair.",
+          "answer": "Full House",
+          "source_id": "otdb:2gdvld",
+          "fit_justification": "Source question asks 'What is the name of the poker hand containing three of a kind and a pair?' — a card/game fact. Answer is 'Full House'."
+        },
+        {
+          "value": 400,
+          "clue": "In a standard deck, Jacks, Queens, and Kings share this collective name.",
+          "answer": "Face cards",
+          "source_id": "tapi:647638a3f05ea6d6f587a131",
+          "fit_justification": "Source question asks 'What term is used to describe the cards in a deck that have either a Jack, Queen, or King on the card?' — a card-game fact. Answer is 'Face cards'."
+        },
+        {
+          "value": 600,
+          "clue": "This classic board game was first released on February 6th, 1935.",
+          "answer": "Monopoly",
+          "source_id": "otdb:e5wbip",
+          "fit_justification": "Source question asks 'Which board game was first released on February 6th, 1935?' — a board-game fact. Answer is 'Monopoly'."
+        },
+        {
+          "value": 800,
+          "clue": "In Dungeons & Dragons 5th Edition, this is the maximum level attainable in a single class.",
+          "answer": "20",
+          "source_id": "otdb:18o052c",
+          "fit_justification": "Source question asks 'What is the maximum level you can have in a single class in Dungeons and Dragons (5e)?' — a tabletop game fact. Answer is '20'."
+        },
+        {
+          "value": 1000,
+          "clue": "This character, whose name means 'misapplication,' invariably misused English words in a classic play.",
+          "answer": "Mrs Malaprop",
+          "source_id": "tapi:622a1c367cc59eab6f95017e",
+          "fit_justification": "Source question asks 'Which character invariably misused english words?' — a language/culture curiosity fact. Answer is 'Mrs Malaprop', and the category fits MISC themed around naming/game conventions."
+        }
+      ]
+    },
+    {
+      "title": "HOLIDAY TRADITIONS",
+      "theme": "Facts about holidays, celebrations, and seasonal traditions",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This saint is celebrated on February 14th, associated with love and romance.",
+          "answer": "St. Valentine",
+          "source_id": "tapi:6486be3159bc33d1c362f320",
+          "fit_justification": "Source question asks 'Which saint is celebrated on February 14th?' — a holiday tradition fact. Answer is 'St. Valentine'."
+        },
+        {
+          "value": 400,
+          "clue": "On Shrove Tuesday, this breakfast staple is traditionally eaten before the Lenten fast.",
+          "answer": "Pancakes",
+          "source_id": "tapi:622a1c367cc59eab6f950294",
+          "fit_justification": "Source question asks 'What Type Of Foodstuff Is Traditionally Eaten On Shrove Tuesday?' — a holiday tradition fact. Answer is 'Pancakes'."
+        },
+        {
+          "value": 600,
+          "clue": "The Jewish New Year goes by this name, meaning 'head of the year' in Hebrew.",
+          "answer": "Rosh Hashanah",
+          "source_id": "otdb:1f4vvrn",
+          "fit_justification": "Source question asks 'What is the name of the Jewish New Year?' — a holiday/celebration fact. Answer is 'Rosh Hashanah'."
+        },
+        {
+          "value": 800,
+          "clue": "The Austrian carol 'Stille Nacht' is known in English by this title.",
+          "answer": "Silent Night",
+          "source_id": "tapi:622a1c3c7cc59eab6f95196a",
+          "fit_justification": "Source question asks 'What is the English title of the Christmas carol written by the Austrian Josef Mohr, originally called Stille Nacht?' — a holiday tradition fact. Answer is 'Silent Night'."
+        },
+        {
+          "value": 1000,
+          "clue": "In the Christmas song 'Have Yourself A Merry Little Christmas,' this word describes what 'will be out of sight.'",
+          "answer": "Troubles",
+          "source_id": "tapi:622a1c3d7cc59eab6f951cb5",
+          "fit_justification": "Source question asks 'In the Christmas song Have Yourself A Merry Little Christmas what will be out of sight?' — a holiday-song trivia fact. Answer is 'Troubles'."
+        }
+      ]
+    },
+    {
+      "title": "WHAT'S IN A NAME?",
+      "theme": "Facts where a person or thing is better known by a name other than their official one",
+      "topic": "MISC",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "William Frederick Cody rode to fame under this legendary frontier nickname.",
+          "answer": "Buffalo Bill",
+          "source_id": "otdb:vphju7",
+          "fit_justification": "Source question asks 'What was William Frederick Cody better known as?' — explicitly a 'better known as' alias fact. Answer is 'Buffalo Bill'."
+        },
+        {
+          "value": 400,
+          "clue": "Richard Starkey is better known to millions of music fans by this stage name.",
+          "answer": "Ringo Starr",
+          "source_id": "tapi:622a1c377cc59eab6f95043f",
+          "fit_justification": "Source question asks 'How in the world of music is Richard Starkey more commonly known?' — a 'better known as' alias fact. Answer is 'Ringo Starr'."
+        },
+        {
+          "value": 600,
+          "clue": "Derived from the Latin for 'knowledge,' this church founded in 1954 in California goes by this official name.",
+          "answer": "Church of Scientology",
+          "source_id": "tapi:622a1c377cc59eab6f950456",
+          "fit_justification": "Source question states 'Deriving its name from the Latin word meaning knowledge, which church was founded in 1954 in California?' — a name-origin fact. Answer is 'Church of Scientology'."
+        },
+        {
+          "value": 800,
+          "clue": "The original name of this game before it became the world-famous building sandbox was 'Cave Game.'",
+          "answer": "Minecraft",
+          "source_id": "otdb:72nphx",
+          "fit_justification": "Source question asks 'What was the original name of Minecraft?' — a 'formerly known as' name fact. Answer is 'Minecraft'."
+        },
+        {
+          "value": 1000,
+          "clue": "This term, which comes from small desk compartments, means 'to rigidly categorize' in common usage.",
+          "answer": "Pigeonhole",
+          "source_id": "tapi:647638d1f05ea6d6f587a150",
+          "fit_justification": "Source question asks 'Which term meaning to rigidly categorize comes from small desk compartments?' — a word-origin/name-origin fact. Answer is 'Pigeonhole'."
+        }
+      ]
+    },
+    {
+      "title": "BOARD GAMES & CARD GAMES",
+      "theme": "Questions about board games, card games, or tabletop games",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This classic board game challenges players to spell words using lettered tiles on a grid.",
+          "answer": "Scrabble",
+          "source_id": "tapi:63a0397ec7d86251f9b65c6b",
+          "fit_justification": "Source question asks for 'the classic board game where players must spell words with tiles'; source answer is 'Scrabble', a board game."
+        },
+        {
+          "value": 400,
+          "clue": "In British Monopoly, this prestigious London property sits at the top of the board as the most valuable.",
+          "answer": "Mayfair",
+          "source_id": "tapi:622a1c367cc59eab6f95008a",
+          "fit_justification": "Source question explicitly asks 'What Is The Most Valuable Property In A Game Of British Monopoly'; source answer 'Mayfair' is a Monopoly property, a board game."
+        },
+        {
+          "value": 600,
+          "clue": "This Jackbox party game features a monster that can steal two hearts from others under certain conditions — that monster is a Serial Killer.",
+          "answer": "Monster Seeking Monster",
+          "source_id": "otdb:q5s9nv",
+          "fit_justification": "Source question references 'the Jackbox party game Monster Seeking Monster' and asks about a game mechanic; the game is a party/card-style game and the answer is its title."
+        },
+        {
+          "value": 800,
+          "clue": "In Magic: The Gathering, this dragon holds the distinction of being the first publicly released foil card.",
+          "answer": "Lightning Dragon",
+          "source_id": "otdb:11n7mrc",
+          "fit_justification": "Source question asks 'In Magic: The Gathering, which of the following was the first publicly released foil card'; Magic: The Gathering is explicitly a board/card game (Entertainment: Board Games category in source)."
+        },
+        {
+          "value": 1000,
+          "clue": "Counting only rooms and excluding hallways and staircases, this is how many rooms exist in the board game Clue.",
+          "answer": "9",
+          "source_id": "otdb:18r24yq",
+          "fit_justification": "Source question asks 'How many rooms are there, not including the hallways and the set of stairs, in the board game \"Clue\"'; source is tagged Entertainment: Board Games and answer is '9'."
+        }
+      ]
+    },
+    {
+      "title": "FAST FACTS: WHAT'S THE NUMBER?",
+      "theme": "Answers are all specific numbers or quantities",
+      "topic": "MISC",
+      "category_style": "wordplay",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A 'dozen' of anything refers to this many objects.",
+          "answer": "12",
+          "source_id": "otdb:pi1lzr",
+          "fit_justification": "Source question asks 'The word \"dozen\" usually refers to a group of how many objects'; source answer is '12', a number."
+        },
+        {
+          "value": 400,
+          "clue": "This is how many Harry Potter books J.K. Rowling wrote in the main series.",
+          "answer": "7",
+          "source_id": "otdb:1m0hz1c",
+          "fit_justification": "Source question asks 'How many Harry Potter books are there'; source answer is '7', a number."
+        },
+        {
+          "value": 600,
+          "clue": "In Roman numerals, XL equals this number.",
+          "answer": "40",
+          "source_id": "otdb:hchyw0",
+          "fit_justification": "Source question asks 'In Roman Numerals, what does XL equate to'; source answer is '40', a number."
+        },
+        {
+          "value": 800,
+          "clue": "Pure gold is measured at this many karats.",
+          "answer": "24 karat",
+          "source_id": "tapi:6505702d7a97013de78b554d",
+          "fit_justification": "Source question asks 'How many karats are in pure gold'; source answer is '24 karat', a numeric quantity."
+        },
+        {
+          "value": 1000,
+          "clue": "A concerto in the classical tradition is structured into this many movements.",
+          "answer": "3",
+          "source_id": "tapi:622a1c357cc59eab6f94fdca",
+          "fit_justification": "Source question asks 'How Many Movements Traditionally Make Up A Concerto'; source answer is '3', a number."
+        }
+      ]
+    },
+    {
+      "title": "WHAT ARE YOU AFRAID OF?",
+      "theme": "Questions about phobias, curses, poisons, or other things to fear",
+      "topic": "MISC",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Cynophobia is the irrational fear of these common household pets.",
+          "answer": "Dogs",
+          "source_id": "otdb:ssxjhr",
+          "fit_justification": "Source question asks 'What is Cynophobia the fear of'; source answer is 'Dogs'. The question is explicitly about a phobia — something to fear."
+        },
+        {
+          "value": 400,
+          "clue": "Toxicology is the scientific study of this dangerous category of substances.",
+          "answer": "poisons",
+          "source_id": "tapi:622a1c377cc59eab6f950473",
+          "fit_justification": "Source question asks 'What is Toxicology the study of'; source answer is 'poisons', a dangerous/fearsome subject fitting the theme."
+        },
+        {
+          "value": 600,
+          "clue": "Formerly used to make fireproof articles, this fibrous mineral is now known as a serious health hazard.",
+          "answer": "Asbestos",
+          "source_id": "tapi:6463395501d576cfac3aa34b",
+          "fit_justification": "Source question asks for 'the name of the fibrous mineral formerly used to make fireproof articles'; source answer 'Asbestos' is a well-known hazardous/feared substance."
+        },
+        {
+          "value": 800,
+          "clue": "In Greek mythology, this word describes the void from which Nyx and Erebus emerged — now used in English to describe a disordered mess.",
+          "answer": "Chaos",
+          "source_id": "tapi:645fcc80541c4d4fc8cf307d",
+          "fit_justification": "Source question explicitly invokes 'Greek mythology' and asks about 'the void from which Nyx and Erebus emerged'; source answer is 'Chaos', a primordial feared void."
+        },
+        {
+          "value": 1000,
+          "clue": "Though the golden touch was removed, King Midas was forever cursed by Athena to have the ears of this animal.",
+          "answer": "Donkey",
+          "source_id": "tapi:622a1c367cc59eab6f950128",
+          "fit_justification": "Source question references Midas being 'forever cursed by Athena'; source answer is 'Donkey'. The curse element fits the 'things to fear/suffer' theme."
+        }
+      ]
+    },
+    {
+      "title": "FOOD FOR THOUGHT",
+      "theme": "Questions about food and drink items from around the world",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This pungent bulb vegetable is notorious for making your eyes water when you slice it in the kitchen.",
+          "answer": "Onions",
+          "source_id": "tapi:65056e6e7a97013de78b52e0",
+          "fit_justification": "Source question asks 'What food makes your eyes water when cut?' — a food and drink fact with answer 'Onions'."
+        },
+        {
+          "value": 400,
+          "clue": "This thick Italian vegetable soup is a hearty staple of Mediterranean cuisine.",
+          "answer": "Minestrone",
+          "source_id": "tapi:647f9df73a4302a719271692",
+          "fit_justification": "Source question asks 'Which of these is a thick Italian vegetable soup?' with answer 'Minestrone' — a food and drink fact."
+        },
+        {
+          "value": 600,
+          "clue": "This almond-flavored Italian liqueur takes its name from the Italian word for 'bitter'.",
+          "answer": "Amaretto",
+          "source_id": "tapi:622a1c3b7cc59eab6f95162a",
+          "fit_justification": "Source question asks 'What drink is an almond liqueur that comes from the Italian word for bitter?' with answer 'Amaretto' — a food and drink fact."
+        },
+        {
+          "value": 800,
+          "clue": "This popular Spanish street treat is made by deep-frying choux pastry, often served with chocolate dipping sauce.",
+          "answer": "Churros",
+          "source_id": "tapi:648888265dba6c873ef6500c",
+          "fit_justification": "Source question asks 'What is the name of the Spanish treat which is made by deep frying choux pastry?' with answer 'Churros' — a food and drink fact."
+        },
+        {
+          "value": 1000,
+          "clue": "Though commonly associated with cucumbers, this widely-used salad vegetable actually originates from this Asian subcontinent nation.",
+          "answer": "India",
+          "source_id": "tapi:624ab0c6348a461bfc670698",
+          "fit_justification": "Source question asks 'From which part of the world does cucumber originate?' with answer 'India' — a hard food and drink fact."
+        }
+      ]
+    },
+    {
+      "title": "WHAT'S IN A NUMBER?",
+      "theme": "Questions whose answers are specific numbers or numerical quantities",
+      "topic": "MISC",
+      "category_style": "themed",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Our planet has exactly this many natural satellites orbiting it.",
+          "answer": "1",
+          "source_id": "otdb:y3y55k",
+          "fit_justification": "Source question asks 'How many moons does the Earth have?' with answer '1' — a specific numerical answer."
+        },
+        {
+          "value": 400,
+          "clue": "The number of manned moon landings that have successfully taken place throughout history.",
+          "answer": "6",
+          "source_id": "otdb:1o3t0vt",
+          "fit_justification": "Source question asks 'How many manned moon landings have there been?' with answer '6' — a specific numerical answer."
+        },
+        {
+          "value": 600,
+          "clue": "In a standard Gregorian calendar, this many months begin with the letter 'J'.",
+          "answer": "Three",
+          "source_id": "otdb:1w89ex3",
+          "fit_justification": "Source question asks 'In a standard Gregorian calendar, how many months begin with the letter J?' with answer 'Three' — a specific numerical answer."
+        },
+        {
+          "value": 800,
+          "clue": "At the start of a standard chess match, this many total pieces are present on the board.",
+          "answer": "32",
+          "source_id": "otdb:7gup1u",
+          "fit_justification": "Source question asks 'How many pieces are there on the board at the start of a game of chess?' with answer '32' — a specific numerical answer."
+        },
+        {
+          "value": 1000,
+          "clue": "This is the traditional count of witches said to make up a coven.",
+          "answer": "13",
+          "source_id": "tapi:622a1c377cc59eab6f950438",
+          "fit_justification": "Source question asks 'How many witches in a coven?' with answer '13' — a specific numerical answer."
+        }
+      ]
+    },
+    {
+      "title": "SOCIETY & CUSTOMS",
+      "theme": "Questions about cultural traditions, customs, and social institutions",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This financial institution is defined by its dual role of lending and borrowing money on behalf of customers.",
+          "answer": "Bank",
+          "source_id": "tapi:65056e867a97013de78b5301",
+          "fit_justification": "Source question asks 'What do you call a business that lends and borrows money?' with answer 'Bank' — a society and culture fact about a social institution."
+        },
+        {
+          "value": 400,
+          "clue": "This distinctive hairstyle, worn by Bob Marley and Lenny Kravitz among others, features long matted or coiled strands.",
+          "answer": "Dreadlocks",
+          "source_id": "tapi:647f9def3a4302a71927168a",
+          "fit_justification": "Source question asks 'Which hairstyle, characterized by long, matted or coiled strands of hair, was sported by Lennox Lewis, Lenny Kravitz, and Bob Marley?' with answer 'Dreadlocks' — a society and culture fact about a cultural custom."
+        },
+        {
+          "value": 600,
+          "clue": "The Yellow Oval Room is one of the most famous private chambers inside this iconic Washington D.C. building.",
+          "answer": "The White House",
+          "source_id": "tapi:6488914b4cd3f064f443dc01",
+          "fit_justification": "Source question asks 'In which iconic building is the Yellow Oval Room located?' with answer 'The White House' — a society and culture fact about a well-known institution."
+        },
+        {
+          "value": 800,
+          "clue": "The modern Halloween celebration is believed to have originated from this ancient Celtic pagan festival.",
+          "answer": "Samhain",
+          "source_id": "tapi:622a1c377cc59eab6f950444",
+          "fit_justification": "Source question asks 'Halloween originated from which Pagan festival?' with answer 'Samhain' — a society and culture fact about a cultural tradition."
+        },
+        {
+          "value": 1000,
+          "clue": "This distinctive Russian fur hat, characterized by ear flaps that can be tied up or down, is named from the Russian word for 'ear.'",
+          "answer": "Ushanka",
+          "source_id": "tapi:64dfa5baa6681754ea052bb8",
+          "fit_justification": "Source question asks 'What is the name given to the distinctive Russian fur hat?' with answer 'Ushanka' — a hard society and culture fact about a cultural custom."
+        }
+      ]
+    },
+    {
+      "title": "WHAT COMPANY OWNS THAT?",
+      "theme": "Questions asking which company owns or created a named brand or product",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Danish toy company, whose name means 'play well', was founded by carpenter Ole Kristiansen in 1932.",
+          "answer": "Lego",
+          "source_id": "tapi:622a1c3b7cc59eab6f951732",
+          "fit_justification": "Source question asks 'which company, with a name formed by contracting the Danish words for play well, was founded by carpenter Ole Kristiansen in 1932'; answer is 'Lego', a brand/company name."
+        },
+        {
+          "value": 400,
+          "clue": "The Aventador is among the exotic supercars produced by this Italian luxury automobile manufacturer.",
+          "answer": "Lamborghini",
+          "source_id": "otdb:pqhdhn",
+          "fit_justification": "Source question asks 'which car manufacturer created the Aventador'; answer is 'Lamborghini', a brand owner."
+        },
+        {
+          "value": 600,
+          "clue": "The Miata, the sporty two-seater roadster introduced in 1989, is made by this Japanese automaker.",
+          "answer": "Mazda",
+          "source_id": "tapi:64746af65a4c31088dd9cff6",
+          "fit_justification": "Source question asks 'what is the name of the sports car introduced by Mazda in 1989'; answer is 'The Miata', but source names Mazda as the owning company — clue flips to ask for company, fitting the category theme of brand ownership."
+        },
+        {
+          "value": 800,
+          "clue": "The Chevrolet brand of automobiles is owned by this American multinational corporation.",
+          "answer": "General Motors",
+          "source_id": "tapi:63dd25ca742e43ed64f1f01a",
+          "fit_justification": "Source question literally asks 'what company owns the brand Chevrolet'; answer is 'General Motors'."
+        },
+        {
+          "value": 1000,
+          "clue": "South Korean automotive giant that owns the Kia brand of vehicles.",
+          "answer": "Hyundai",
+          "source_id": "tapi:63dd25cc742e43ed64f1f01e",
+          "fit_justification": "Source question literally asks 'what company owns the motoring brand Kia'; answer is 'Hyundai'."
+        }
+      ]
+    },
+    {
+      "title": "BOARD GAMES & THEIR RULES",
+      "theme": "Facts about classic board games, their rules, and mechanics",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Players collect properties, build houses and hotels, and try to bankrupt their opponents in this classic board game.",
+          "answer": "Monopoly",
+          "source_id": "tapi:63a0397ac7d86251f9b65c65",
+          "fit_justification": "Source question asks 'what is the name of the classic board game where players must collect properties and build houses and hotels'; answer is 'Monopoly', a board game."
+        },
+        {
+          "value": 400,
+          "clue": "In Settlers of Catan, rolling this number on the dice triggers the Robber to attack.",
+          "answer": "7",
+          "source_id": "otdb:kqeygj",
+          "fit_justification": "Source question asks 'in the Board Game, Settlers of Catan, a die roll of what number causes the Robber to attack'; answer is '7', a board game rule."
+        },
+        {
+          "value": 600,
+          "clue": "In this card-based strategy game, the best rank a player can achieve is Rank 1 Legend.",
+          "answer": "Hearthstone",
+          "source_id": "otdb:1p8fgqn",
+          "fit_justification": "Source question asks 'in the game Hearthstone, what is the best rank possible'; answer implies Hearthstone is the game — clue asks for game name fitting board/card game theme; source is categorized as a game with rank rules."
+        },
+        {
+          "value": 800,
+          "clue": "This statistical method, involving reserve target scores, is used to settle interrupted matches in cricket.",
+          "answer": "Duckworth Lewis Method",
+          "source_id": "tapi:622a1c367cc59eab6f95009d",
+          "fit_justification": "Source question asks 'The Duckworth Lewis Method Is Used To Keep The Score In Which Sport'; answer is 'Cricket'. Clue rephrases to ask what the method is called, fitting a rules/scoring theme."
+        },
+        {
+          "value": 1000,
+          "clue": "In the tabletop RPG-adjacent digital card game, this is the only Valve title NOT based on a community mod.",
+          "answer": "Ricochet",
+          "source_id": "otdb:1qee9o8",
+          "fit_justification": "Source question asks 'which one of the following titles by Valve is not based on a Community Mod'; answer is 'Ricochet', a game title fitting a games-and-their-origins theme."
+        }
+      ]
+    },
+    {
+      "title": "INTERNET ABBREVIATIONS",
+      "theme": "Questions asking what an internet abbreviation or acronym stands for",
+      "topic": "MISC",
+      "category_style": "themed",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This 3-letter abbreviation typed in online chats expresses enthusiastic approval, as in 'That game is ___!'",
+          "answer": "For The Win",
+          "source_id": "tapi:6262af5a4b176d54800e3dc0",
+          "fit_justification": "Source question asks 'What do people mean when type the letters FTW in a message on the internet'; source answer is 'For The Win'."
+        },
+        {
+          "value": 400,
+          "clue": "These 4 letters typed in a chat message signal the sender is hedging their memory of something they're about to claim.",
+          "answer": "If I Remember Correctly",
+          "source_id": "tapi:6262af784b176d54800e3dc9",
+          "fit_justification": "Source question asks 'What do the letters IIRC mean on internet chats'; source answer is 'If I Remember Correctly'."
+        },
+        {
+          "value": 600,
+          "clue": "The initials JPEG, the ubiquitous image file format, stand for this organization's name.",
+          "answer": "Joint Photographic Experts Group",
+          "source_id": "tapi:622a1c3e7cc59eab6f95225c",
+          "fit_justification": "Source question asks 'In computing what do the initials JPEG stand for'; source answer is 'Joint Photographic Experts Group'."
+        },
+        {
+          "value": 800,
+          "clue": "Apple described their controversial removal of the headphone jack with this single bold word.",
+          "answer": "Courage",
+          "source_id": "otdb:1cipy1r",
+          "fit_justification": "Source question asks 'Which buzzword did Apple Inc. use to describe their removal of the headphone jack'; source answer is 'Courage'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Latin phrase, literally meaning 'seize the wine,' is a playful twist on a famous Horace motto.",
+          "answer": "Carpe vinum",
+          "source_id": "tapi:637162311bf863c45ca6c35c",
+          "fit_justification": "Source question asks 'Which of these Latin phrases means Seize the wine'; source answer is 'Carpe vinum'."
+        }
+      ]
+    },
+    {
+      "title": "BOARD GAME BASICS",
+      "theme": "Questions about board games, dice games, and tabletop games",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "On a standard Monopoly board, this square sits diagonally opposite from 'Go.'",
+          "answer": "Free Parking",
+          "source_id": "otdb:1xi1pe1",
+          "fit_justification": "Source question asks 'On a standard Monopoly board, which square is diagonally opposite Go'; source answer is 'Free Parking'."
+        },
+        {
+          "value": 400,
+          "clue": "Add up all the dots on a single standard die and you get this total.",
+          "answer": "21",
+          "source_id": "otdb:aimdfq",
+          "fit_justification": "Source question asks 'How many dots are on a single die'; source answer is '21'."
+        },
+        {
+          "value": 600,
+          "clue": "This Broadway musical about a group of bohemian artists in New York won the Tony Award for Best Musical.",
+          "answer": "Rent",
+          "source_id": "otdb:flpiai",
+          "fit_justification": "Source question asks 'Which of these musicals won the Tony Award for Best Musical'; source answer is 'Rent'."
+        },
+        {
+          "value": 800,
+          "clue": "Stephen Sondheim wrote the lyrics for this Leonard Bernstein 1957 Broadway musical set among rival New York gangs.",
+          "answer": "West Side Story",
+          "source_id": "otdb:120wdw5",
+          "fit_justification": "Source question asks 'Who wrote the lyrics for Leonard Bernstein's 1957 Broadway musical West Side Story'; source answer is 'Stephen Sondheim'. Clue repurposes the fact to make Sondheim the answer's hook while keeping West Side Story as the answer form."
+        },
+        {
+          "value": 1000,
+          "clue": "In Rīchi Mahjong, you declare this word when you've drawn your winning tile yourself rather than claiming it from another player.",
+          "answer": "Tsumo",
+          "source_id": "otdb:168lqoe",
+          "fit_justification": "Source question asks 'What do you declare in Rīchi Mahjong when you've drawn your winning tile'; source answer is 'Tsumo'."
+        }
+      ]
+    },
+    {
+      "title": "WHAT'S IN A NAME?",
+      "theme": "Questions asking what something is called, named, or known as — answers are common noun terms",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This term describes food that God instructed Adam not to eat in the Bible.",
+          "answer": "Forbidden fruit",
+          "source_id": "tapi:6494beb7d7601042f7eaa943",
+          "fit_justification": "Source question asks 'What is the term used to refer to the food that God instructed Adam not to eat'; answer is the common noun term 'Forbidden fruit'."
+        },
+        {
+          "value": 400,
+          "clue": "This word describes an object that is impossible to see through.",
+          "answer": "Opaque",
+          "source_id": "tapi:64824e697778562fd76a962d",
+          "fit_justification": "Source question asks 'What word means that an object is impossible to see through'; answer is the common noun/adjective 'Opaque'."
+        },
+        {
+          "value": 600,
+          "clue": "This is the term for a canis lupus that prefers to live independent of a pack.",
+          "answer": "Lone Wolf",
+          "source_id": "tapi:6463398e01d576cfac3aa38e",
+          "fit_justification": "Source question asks 'What is the term for a canis lupus that prefers to live independent of others or leaves its pack'; answer is the common noun phrase 'Lone Wolf'."
+        },
+        {
+          "value": 800,
+          "clue": "In board games, an additional or amended rule that applies to a specific group or location is informally known by this word.",
+          "answer": "House",
+          "source_id": "otdb:173wzt9",
+          "fit_justification": "Source question asks 'an additional or ammended rule that applies to a certain group or place is informally known as a \"what\" rule'; answer is the single word 'House'."
+        },
+        {
+          "value": 1000,
+          "clue": "This word, defined as 'copious but meaningless talk or writing', is rarely found outside a dictionary.",
+          "answer": "Argle-bargle",
+          "source_id": "tapi:622a1c357cc59eab6f94fc98",
+          "fit_justification": "Source question asks 'Which word is defined as copious but meaningless talk or writing'; answer is the single-word term 'Argle-bargle'."
+        }
+      ]
+    },
+    {
+      "title": "FASHION STATEMENTS",
+      "theme": "Questions about clothing, fashion trends, and style",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "These flared pants were a staple of the disco era.",
+          "answer": "Bell-bottoms",
+          "source_id": "tapi:64746b6f5a4c31088dd9d05b",
+          "fit_justification": "Source question asks 'What type of flared pants were popular during the era of disco music'; answer is the fashion term 'Bell-bottoms'."
+        },
+        {
+          "value": 400,
+          "clue": "This fashion trend, popularized in the 1960s, involves wearing bright colors and psychedelic patterns.",
+          "answer": "Hippie",
+          "source_id": "tapi:63bc3f9c0e893d6e5a6a0fc5",
+          "fit_justification": "Source question asks 'What is the name of the fashion trend popularized in the 1960s that involves wearing bright colors and psychedelic patterns'; answer is the fashion/cultural term 'Hippie'."
+        },
+        {
+          "value": 600,
+          "clue": "This American designer is famous for his red, white, and blue sportswear.",
+          "answer": "Tommy Hilfiger",
+          "source_id": "tapi:6462628bab138b829b81ea2b",
+          "fit_justification": "Source question asks 'Which American fashion designer is famous for his red, white and blue sportswear'; answer is the fashion designer 'Tommy Hilfiger'."
+        },
+        {
+          "value": 800,
+          "clue": "In England, someone who retails fresh vegetables and fruits goes by this occupational title.",
+          "answer": "A greengrocer",
+          "source_id": "tapi:64959827e831b1ab5aa11101",
+          "fit_justification": "Source question asks 'What is a retailer of fresh vegetables and fruits in England called'; answer is the occupational noun 'A greengrocer'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Paul Daniels and Debbie McGee-endorsed lager was advertised with the pair singing off-key around a piano.",
+          "answer": "Heineken Lager",
+          "source_id": "tapi:622a1c367cc59eab6f9502c8",
+          "fit_justification": "Source question asks 'What drink did Paul Daniels and Debbie McGee advertise singing off-key around a piano'; this is a brand/consumer product answer 'Heineken Lager', fitting MISC commercial/cultural trivia."
+        }
+      ]
+    },
+    {
+      "title": "HOLY TEXTS & SACRED THINGS",
+      "theme": "Questions about religious practices, scriptures, laws, and sacred sites",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "According to the Book of Genesis, God created the world in this many days.",
+          "answer": "Six",
+          "source_id": "otdb:10tzskt",
+          "fit_justification": "Source question asks 'According to the Book of Genesis in the Old Testament, how many days did it take God to create the world'; answer is 'Six', a number rooted in religious scripture."
+        },
+        {
+          "value": 400,
+          "clue": "This is the name of Islamic law.",
+          "answer": "Shari'a",
+          "source_id": "tapi:639c9d9a929b90846f2fc965",
+          "fit_justification": "Source question asks 'What is the name of the Islamic law'; answer is the religious/legal term 'Shari'a'."
+        },
+        {
+          "value": 600,
+          "clue": "The holy Kaaba is located in this sacred city.",
+          "answer": "Mecca",
+          "source_id": "tapi:6233865e62eaad73716a8ccc",
+          "fit_justification": "Source question asks 'Where is the Holy Kaaba'; answer is the sacred city 'Mecca'."
+        },
+        {
+          "value": 800,
+          "clue": "This Hebrew toast, meaning 'to life' or 'to good health', is raised at celebrations worldwide.",
+          "answer": "L'chaim",
+          "source_id": "tapi:6462628bab138b829b81ea26",
+          "fit_justification": "Source question asks 'What is the Hebrew phrase that is used as a toast to life or to good health'; answer is the Hebrew cultural/religious phrase 'L'chaim'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Hindu scripture contains the story of Sita.",
+          "answer": "The Ramayana",
+          "source_id": "tapi:639c9dbc929b90846f2fc9ac",
+          "fit_justification": "Source question asks 'What is the name of the Hindu scripture that contains the story of Sita'; answer is the sacred Hindu text 'The Ramayana'."
+        }
+      ]
+    },
+    {
+      "title": "BY THE NUMBERS",
+      "theme": "Questions whose answers are a specific number or numeric quantity",
+      "topic": "MISC",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is how many heads Cerberus, the mythological guardian of the underworld, has.",
+          "answer": "3",
+          "source_id": "otdb:v5iu6d",
+          "fit_justification": "Source question asks 'How many heads does Cerberus have'; answer is the numeric quantity '3'."
+        },
+        {
+          "value": 400,
+          "clue": "This is the number of players on a polo team.",
+          "answer": "4",
+          "source_id": "tapi:622a1c367cc59eab6f9500bc",
+          "fit_justification": "Source question asks 'How Many Players Are In A Polo Team'; answer is the numeric quantity '4'."
+        },
+        {
+          "value": 600,
+          "clue": "Atari sold this many copies of the notorious E.T. game for the Atari 2600.",
+          "answer": "1.5 Million",
+          "source_id": "otdb:10pp8u4",
+          "fit_justification": "Source question asks 'How many copies of the notorious E.T. game for the Atari 2600 did Atari end up selling'; answer is the numeric quantity '1.5 Million'."
+        },
+        {
+          "value": 800,
+          "clue": "This is the final scoreline of Germany's historic thrashing of Brazil at the 2014 FIFA World Cup.",
+          "answer": "7 - 1",
+          "source_id": "otdb:16f6lh5",
+          "fit_justification": "Source question asks 'What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match'; answer is the numeric score '7 - 1'."
+        },
+        {
+          "value": 1000,
+          "clue": "This is the maximum HP of the monster 'Punchy' in the video game Starbound.",
+          "answer": "50,000 HP",
+          "source_id": "otdb:ff30ii",
+          "fit_justification": "Source question asks 'what is the max HP of the monster Punchy' in Starbound; answer is the numeric quantity '50,000 HP'."
+        }
+      ]
+    },
+    {
+      "title": "WHAT'S THE STUDY OF?",
+      "theme": "Each answer names what a specific '-ology' or study field examines",
+      "topic": "MISC",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Futurology is the scientific study of this concept — what lies ahead for mankind.",
+          "answer": "The Future",
+          "source_id": "tapi:622a1c377cc59eab6f950534",
+          "fit_justification": "Source question literally asks 'What is futurology the study of?' and source answer is 'The Future'."
+        },
+        {
+          "value": 400,
+          "clue": "Tetsuya Fujita developed a famous scale for measuring the intensity of these violent, swirling weather events.",
+          "answer": "Tornadoes",
+          "source_id": "otdb:y0ksf3",
+          "fit_justification": "Source question asks what natural disaster Fujita's scale measures; source answer is 'Tornadoes'."
+        },
+        {
+          "value": 600,
+          "clue": "A scientist who studies scatology is examining this bodily output.",
+          "answer": "feces",
+          "source_id": "tapi:622a1c377cc59eab6f95049a",
+          "fit_justification": "Source question literally asks 'What is Scatology the study of?' and source answer is 'feces'."
+        },
+        {
+          "value": 800,
+          "clue": "This word, meaning 'coastal navigation' or the exclusive right of a country to control air traffic within its borders, also doubles as a technical term in trade law.",
+          "answer": "Cabotage",
+          "source_id": "tapi:622a1c357cc59eab6f94fc91",
+          "fit_justification": "Source question asks which word is defined as 'coastal navigation; the exclusive right of a country to control the air traffic within its borders'; source answer is 'Cabotage'."
+        },
+        {
+          "value": 1000,
+          "clue": "Campanology is the study and practice of this musical activity, often heard ringing out from church towers.",
+          "answer": "Bell ringing",
+          "source_id": "tapi:622a1c377cc59eab6f950583",
+          "fit_justification": "Source question literally asks 'What is campanology the study of?' and source answer is 'Bell ringing'."
+        }
+      ]
+    },
+    {
+      "title": "TEXTSPEAK DECODED",
+      "theme": "Each answer is the full phrase that a texting acronym stands for",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "If someone texts you 'OMW', this two-word-plus-preposition phrase is what they mean.",
+          "answer": "On My Way",
+          "source_id": "tapi:6262afa1014f58b5fc1a3fd8",
+          "fit_justification": "Source question asks 'If someone typed the letters OMW in a message, what would they mean?' and source answer is 'On My Way'."
+        },
+        {
+          "value": 400,
+          "clue": "The acronym 'OTOH' is shorthand for this four-word phrase used when presenting an alternative perspective.",
+          "answer": "On The Other Hand",
+          "source_id": "tapi:64746b075a4c31088dd9d017",
+          "fit_justification": "Source question asks 'What does the acronym OTOH stand for in textspeak?' and source answer is 'On The Other Hand'."
+        },
+        {
+          "value": 600,
+          "clue": "In a video game context, 'QED' stands for this three-word phrase describing a sci-fi contraption in 'Call of Duty: Zombies'.",
+          "answer": "Quantum Entanglement Device",
+          "source_id": "otdb:459x63",
+          "fit_justification": "Source question asks what 'QED' stands for in the 'Call Of Duty: Zombies' map 'Moon'; source answer is 'Quantum Entanglement Device'."
+        },
+        {
+          "value": 800,
+          "clue": "The internet domain '.tv' is actually the country code for this tiny Pacific island nation.",
+          "answer": ".tv",
+          "source_id": "otdb:zg6xwh",
+          "fit_justification": "Source question asks 'What is the domain name for the country Tuvalu?' and source answer is '.tv', a coded abbreviation directly tied to the country name."
+        },
+        {
+          "value": 1000,
+          "clue": "Nihongo is the name that the people of this country use to refer to their own language.",
+          "answer": "Japan",
+          "source_id": "tapi:622a1c357cc59eab6f94ffae",
+          "fit_justification": "Source question asks 'In what country do people speak the Language they call Nihongo?' and source answer is 'Japan'."
+        }
+      ]
+    },
+    {
+      "title": "ORIGINS OF FOOD",
+      "theme": "Each answer names the place where a food or ingredient originally comes from",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Panama hats, despite their name, are traditionally woven from this simple natural material.",
+          "answer": "Straw",
+          "source_id": "otdb:1wddze7",
+          "fit_justification": "Source question asks 'What are Panama hats made out of?' and source answer is 'Straw'; the hat's misleading geographic name fits the 'origins' theme."
+        },
+        {
+          "value": 400,
+          "clue": "This beloved breakfast staple — bread dipped in egg and milk, then fried golden — shares its name with a European nation.",
+          "answer": "French toast",
+          "source_id": "tapi:648888605dba6c873ef6503d",
+          "fit_justification": "Source question asks for the name of the dish made by dipping bread in eggs and milk and frying; source answer is 'French toast', whose name contains a geographic origin."
+        },
+        {
+          "value": 600,
+          "clue": "Artichokes, now grown worldwide, originally hail from this continent.",
+          "answer": "Africa",
+          "source_id": "tapi:624ab09d348a461bfc670688",
+          "fit_justification": "Source question asks 'Where in the world are artichokes originally from?' and source answer is 'Africa'."
+        },
+        {
+          "value": 800,
+          "clue": "Despite being associated with tropical cocktails and Mexican cuisine, limes originally come from this South Asian country.",
+          "answer": "India",
+          "source_id": "tapi:624ab0c9348a461bfc670699",
+          "fit_justification": "Source question asks 'From which part of the world do limes originally come from?' and source answer is 'India'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Costa Rican sugarcane spirit is a popular local drink, less known internationally than rum.",
+          "answer": "Guaro",
+          "source_id": "tapi:627164a11ba117625baac96a",
+          "fit_justification": "Source question asks 'Which of these is a popular drink in Costa Rica?' and source answer is 'Guaro', identifying a drink by its geographic origin."
+        }
+      ]
+    },
+    {
+      "title": "UNITS OF CURRENCY",
+      "theme": "Questions ask about or involve a country's unit of currency, or the answer is a currency-related term",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This card game's name is also Spanish for 'one,' fitting for a game played down to a single card.",
+          "answer": "Uno",
+          "source_id": "otdb:4j4y2f",
+          "fit_justification": "Source answer is 'Uno', the name of a card game that is also a word meaning 'one' — fitting a currency/number theme; source question references 'numbers and basic math'."
+        },
+        {
+          "value": 400,
+          "clue": "This sweet, dark syrup is drained from raw sugar during the refining process.",
+          "answer": "Molasses",
+          "source_id": "tapi:622a1c367cc59eab6f9502b4",
+          "fit_justification": "Source question asks 'What is the name of the syrup drained from raw sugar?' and answer is 'Molasses' — a commodity trade product historically tied to currency and trade economies."
+        },
+        {
+          "value": 600,
+          "clue": "The Lek is the official unit of currency used in this Balkan country.",
+          "answer": "Albania",
+          "source_id": "tapi:623387ae0161109f922aac3c",
+          "fit_justification": "Source question literally asks 'Which country uses a Lek as a unit of currency?' — directly about currency."
+        },
+        {
+          "value": 800,
+          "clue": "This hazelnut liqueur, named for a hermit monk said to have made it 600 years ago, is a key ingredient in many cocktails.",
+          "answer": "Frangelico",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515b9",
+          "fit_justification": "Source question asks 'Which hazelnut liqueur is named for the hermit monk who made it 600 years ago?' — answer 'Frangelico' is a named branded spirit, a MISC commodity product."
+        },
+        {
+          "value": 1000,
+          "clue": "The Guilder, or Florin, was replaced by the Euro in 2002 as the currency of the country whose seat of government is this city.",
+          "answer": "The Hague",
+          "source_id": "otdb:k8jv2b",
+          "fit_justification": "Source question asks 'Which city is the seat of government of the Netherlands?' — answer 'The Hague'; the Netherlands is the country whose former currency (Guilder) connects to a currency theme under MISC."
+        }
+      ]
+    },
+    {
+      "title": "SLOT MACHINES, SLOGANS & SANTA'S RIDE",
+      "theme": "General knowledge oddities and cultural trivia — answers are single common nouns or short phrases",
+      "topic": "MISC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This geometric shape, with eight sides, is generally used for stop signs.",
+          "answer": "Octagon",
+          "source_id": "otdb:8bz52g",
+          "fit_justification": "Source question asks 'What geometric shape is generally used for stop signs?' — general knowledge cultural/practical fact fitting MISC; answer 'Octagon' is a single common noun."
+        },
+        {
+          "value": 400,
+          "clue": "This term, often associated with a one-armed contraption in a casino, is also used to refer to slot machines.",
+          "answer": "One-armed bandit",
+          "source_id": "tapi:645c9f1642ea81e2554c5eed",
+          "fit_justification": "Source question asks 'Which of these terms is often used to refer to slot machines?' with answer 'One-armed bandit' — a colloquial general-knowledge MISC fact."
+        },
+        {
+          "value": 600,
+          "clue": "According to Sherlock Holmes, 'If you eliminate the impossible, whatever remains, however improbable, must be the...' this.",
+          "answer": "Truth",
+          "source_id": "otdb:q8mtan",
+          "fit_justification": "Source question is a fill-in-the-blank famous quote from Sherlock Holmes; answer 'Truth' is a single common noun — general knowledge MISC cultural quote."
+        },
+        {
+          "value": 800,
+          "clue": "When visiting Finland, tradition holds that Santa leaves his sleigh behind and instead rides on this animal.",
+          "answer": "A goat",
+          "source_id": "tapi:622a1c377cc59eab6f950630",
+          "fit_justification": "Source question asks 'When visiting Finland, Santa leaves his sleigh behind and rides on what?' — obscure cultural/holiday MISC trivia; answer 'A goat'."
+        },
+        {
+          "value": 1000,
+          "clue": "The word 'Honolulu,' the capital of Hawaii, translates to this in English.",
+          "answer": "Sheltered harbor",
+          "source_id": "tapi:623374c5460f87b3e0e71850",
+          "fit_justification": "Source question asks 'What is the meaning of Honolulu?' with answer 'Sheltered harbor' — etymology/place-name MISC trivia not fitting neatly into GEOGRAPHY or LANGUAGE as a pure category."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "FAMOUS EXPRESSIONS",
+      "topic": "MISC",
+      "clue": "This familiar two-word expression describes a diversionary tactic used to draw attention away from the main issue, often attributed to the practice of dragging smoked fish across a trail to mislead hounds.",
+      "answer": "Red Herring",
+      "source_id": "tapi:645cb16b7d263fd5097043d1",
+      "fit_justification": "Source question asks 'What is the familiar expression for something that draws attention away from the main issue?' — a common-expression MISC fact. Answer is 'Red Herring'."
+    },
+    {
+      "title": "CURRENCY OF THE WORLD",
+      "topic": "MISC",
+      "clue": "This South Asian nation's official currency is called the Rupee, used for everyday transactions from Mumbai to Chennai.",
+      "answer": "India",
+      "source_id": "tapi:63b0586d4799123c67712f27",
+      "fit_justification": "Source question asks 'What is the currency of India' and source answer is 'Rupee'; the clue reverses this to ask for the country, fitting a MISC/currency theme appropriate for a final clue."
+    },
+    {
+      "title": "WORLD RECORDS & FIRSTS",
+      "topic": "MISC",
+      "clue": "This South American country contains the Pantanal, recognized as the largest tropical wetland area on the entire planet, spanning over 150,000 square kilometers.",
+      "answer": "Brazil",
+      "source_id": "tapi:64f4e5cbd361046b195e5801",
+      "fit_justification": "Source question asks 'Which country is home to the Pantanal, the largest tropical wetland area in the world?' with answer 'Brazil' — a hard geography fact about a world record superlative, suitable as a Final clue."
+    },
+    {
+      "title": "SWORN TO HEAL",
+      "topic": "MISC",
+      "clue": "This oath, which originated in ancient Greece and is still associated with the medical profession today, is traditionally taken by doctors upon entering practice.",
+      "answer": "The Hippocratic Oath",
+      "source_id": "tapi:6463395701d576cfac3aa35c",
+      "fit_justification": "Source question asks 'what is the name of the oath traditionally taken by doctors, which originated in ancient Greece and is still associated with the medical profession today'; answer is 'The Hippocratic Oath', a cultural/societal institution fitting MISC topic."
+    }
+  ]
+}
