@@ -16,6 +16,7 @@
     "patch-clues": "tsx --env-file=.env.local scripts/patch-clues.ts",
     "import-clues": "tsx --env-file=.env.local scripts/import-clues.ts",
     "stage-boards": "tsx --env-file=.env.local scripts/stage-boards.ts",
+    "stage-today": "tsx --env-file=.env.local scripts/stage-today.ts",
     "preview-board": "tsx --env-file=.env.local scripts/preview-board.ts"
   },
   "dependencies": {
