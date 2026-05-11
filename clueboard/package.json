@@ -11,6 +11,7 @@
     "generate-clues": "tsx --env-file=.env.local scripts/generate-clues.ts",
     "generate-bank": "tsx --env-file=.env.local scripts/generate-bank.ts",
     "inspect-bank": "tsx scripts/inspect-bank.ts",
+    "list-clean": "tsx scripts/list-clean.ts",
     "review": "tsx scripts/review.ts",
     "patch-clues": "tsx --env-file=.env.local scripts/patch-clues.ts",
     "import-clues": "tsx --env-file=.env.local scripts/import-clues.ts"

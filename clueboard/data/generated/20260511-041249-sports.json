@@ -1,0 +1,1010 @@
+{
+  "batch_id": "20260511-041249-sports",
+  "generated_at": "2026-05-11T04:12:49.819Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "SPORTS",
+  "categories": [
+    {
+      "title": "ENGLISH FOOTBALL NICKNAMES",
+      "theme": "Each clue asks for the nickname of a named English football team — source questions literally ask 'What is the nickname of the English football team [X]?'",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This English football club from South London goes by the ferocious nickname 'The Lions'.",
+          "answer": "Millwall",
+          "source_id": "tapi:6242e860a22452794eaef217",
+          "fit_justification": "Source question literally reads 'What is the nickname of the English football team Millwall?' and source answer is 'The Lions'."
+        },
+        {
+          "value": 400,
+          "clue": "Derby County, a club from the English East Midlands, is known by this animal-inspired nickname.",
+          "answer": "The Rams",
+          "source_id": "tapi:6242e851a22452794eaef211",
+          "fit_justification": "Source question literally reads 'What is the nickname of the English football team Derby County?' and source answer is 'The Rams'."
+        },
+        {
+          "value": 600,
+          "clue": "Preston North End, one of the founding members of the Football League, carries this floral nickname.",
+          "answer": "The Lilywhites",
+          "source_id": "tapi:6242e866a22452794eaef219",
+          "fit_justification": "Source question literally reads 'What is the nickname of the English football team Preston North End?' and source answer is 'The Lilywhites'."
+        },
+        {
+          "value": 800,
+          "clue": "Queens Park Rangers, a West London club, is known by this circular-sounding nickname.",
+          "answer": "The Hoops",
+          "source_id": "tapi:6242e868a22452794eaef21a",
+          "fit_justification": "Source question literally reads 'What is the nickname of the English football team Queens Park Rangers?' and source answer is 'The Hoops'."
+        },
+        {
+          "value": 1000,
+          "clue": "Burnley FC, a Lancashire club with a rich history, is known by this colour-inspired nickname.",
+          "answer": "The Clarets",
+          "source_id": "tapi:6242e8188c2538f9601d2f93",
+          "fit_justification": "Source question literally reads 'What is the nickname of the English football team Burnley FC?' and source answer is 'The Clarets'."
+        }
+      ]
+    },
+    {
+      "title": "SPORT PLAYED AT THE...",
+      "theme": "Source questions literally ask 'Which sport is played at [named event/trophy]?' or 'What sport would you associate with [named event]?' — answers are sport names",
+      "topic": "SPORTS",
+      "category_style": "themed",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Super Bowl is the championship game of this sport, drawing over 100 million viewers each year.",
+          "answer": "American Football",
+          "source_id": "tapi:6384b44183dddfb71ee5e36a",
+          "fit_justification": "Source question reads 'Which sport is played at The Super Bowl?' and source answer is 'American Football'."
+        },
+        {
+          "value": 400,
+          "clue": "The Stanley Cup is the ultimate prize awarded in this sport, with the Montreal Canadiens holding the record for most wins.",
+          "answer": "Ice Hockey",
+          "source_id": "tapi:6384b43f83dddfb71ee5e369",
+          "fit_justification": "Source question reads 'Which sport is played at The Stanley Cup?' and source answer is 'Ice Hockey'."
+        },
+        {
+          "value": 600,
+          "clue": "The Ryder Cup is a biennial competition contested between teams from Europe and the United States in this sport.",
+          "answer": "Golf",
+          "source_id": "tapi:6384b42e83dddfb71ee5e362",
+          "fit_justification": "Source question reads 'Which sport is played at The Ryder Cup?' and source answer is 'Golf'."
+        },
+        {
+          "value": 800,
+          "clue": "The Kentucky Derby, held annually on the first Saturday in May at Churchill Downs, is associated with this sport.",
+          "answer": "Horse Racing",
+          "source_id": "tapi:6384b43a83dddfb71ee5e367",
+          "fit_justification": "Source question reads 'What sport would you associate with The Kentucky Derby?' and source answer is 'Horse Racing'."
+        },
+        {
+          "value": 1000,
+          "clue": "The Daytona 500, held each February in Florida, is associated with this broad sporting category.",
+          "answer": "Motorsports",
+          "source_id": "tapi:6384b45c83dddfb71ee5e375",
+          "fit_justification": "Source question reads 'What sport would you associate with The Daytona 500?' and source answer is 'Motorsports'."
+        }
+      ]
+    },
+    {
+      "title": "FIFA WORLD CUP WINNERS",
+      "theme": "Source question asks which country won or hosted a FIFA World Cup; answer is a nation",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This South American giant, home of Pelé and Cafu, produced some of football's greatest ever players.",
+          "answer": "Brazil",
+          "source_id": "otdb:1g42w6w",
+          "fit_justification": "Source question asks 'Which country produced football players such as Cafu, Roberto Carlos and Pelé?' and answer is 'Brazil'."
+        },
+        {
+          "value": 400,
+          "clue": "This European nation won the 2018 FIFA World Cup hosted in Russia, with goals from Mbappé and Griezmann.",
+          "answer": "France",
+          "source_id": "otdb:r5cavj",
+          "fit_justification": "Source question literally reads 'Which country won the 2018 FIFA World Cup hosted in Russia?' and answer is 'France'."
+        },
+        {
+          "value": 600,
+          "clue": "This nation won the 2014 FIFA World Cup hosted in Brazil, demolishing the hosts 7-1 in the semi-final.",
+          "answer": "Germany",
+          "source_id": "tapi:62399eccaf96521963a08708",
+          "fit_justification": "Source question literally reads 'Which country won the 2014 FIFA World Cup, hosted in Brazil?' and answer is 'Germany'."
+        },
+        {
+          "value": 800,
+          "clue": "This country won the 1966 FIFA World Cup on home soil, beating West Germany 4-2 in the final at Wembley.",
+          "answer": "England",
+          "source_id": "tapi:62399f10af96521963a08716",
+          "fit_justification": "Source question literally reads 'Which country won the 1966 FIFA World Cup, hosted in England?' and answer is 'England'."
+        },
+        {
+          "value": 1000,
+          "clue": "This nation won the 1974 FIFA World Cup on home turf, defeating the Netherlands in the final.",
+          "answer": "West Germany",
+          "source_id": "tapi:62399f06af96521963a08712",
+          "fit_justification": "Source question literally reads 'Which country won the 1974 FIFA World Cup, hosted in West Germany?' and answer is 'West Germany'."
+        }
+      ]
+    },
+    {
+      "title": "SPORTS TERMS & DEFINITIONS",
+      "theme": "Source question asks for the term or name for a specific action or concept in a sport",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In golf, this term describes a hole completed in two strokes under par — one better than a birdie.",
+          "answer": "Eagle",
+          "source_id": "otdb:5945g3",
+          "fit_justification": "Source question asks 'In golf, what name is given to a hole score of two under par?' and answer is 'Eagle'."
+        },
+        {
+          "value": 400,
+          "clue": "In bowling, rattling off three consecutive strikes earns you this festive-sounding name.",
+          "answer": "Turkey",
+          "source_id": "otdb:1a1e9s5",
+          "fit_justification": "Source question asks 'In bowling, what is the term used for getting three consecutive strikes?' and answer is 'Turkey'."
+        },
+        {
+          "value": 600,
+          "clue": "In tennis, this word is called out to indicate a score of zero for a player in a game.",
+          "answer": "Love",
+          "source_id": "tapi:62c92076a218dd4dc1ca17da",
+          "fit_justification": "Source question asks 'What word is used for a score of 0 in a game of tennis?' and answer is 'Love'."
+        },
+        {
+          "value": 800,
+          "clue": "In ice hockey and in its equivalent moment in hockey, play begins when the puck is dropped in this action.",
+          "answer": "A Face-off",
+          "source_id": "tapi:64879d54a754bb6010f8b041",
+          "fit_justification": "Source question asks 'What is the term for when the puck is dropped in ice hockey?' and answer is 'A Face-off'."
+        },
+        {
+          "value": 1000,
+          "clue": "In baseball, this is the term for when a pitcher deliberately plunks a batter with the ball.",
+          "answer": "A beanball",
+          "source_id": "tapi:64f3a941601ffca0b7615dd7",
+          "fit_justification": "Source question asks 'What is the baseball term for when a pitcher intentionally hits a batter with the pitch?' and answer is 'A beanball'."
+        }
+      ]
+    },
+    {
+      "title": "CITY OF CHAMPIONS",
+      "theme": "Each clue identifies a professional sports team by its home city — answers are the team names",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This NFL team based in Green Bay, Wisconsin, is the only publicly owned major-league professional sports franchise in the US.",
+          "answer": "Green Bay Packers",
+          "source_id": "tapi:62417d1e0f96c4efe8d773a6",
+          "fit_justification": "Source question reads 'Which of these is an American Football team based in Green Bay?' — team name and home city explicitly stated."
+        },
+        {
+          "value": 400,
+          "clue": "This NBA team based in Miami has won three championships, two of them with LeBron James in 2012 and 2013.",
+          "answer": "Miami Heat",
+          "source_id": "tapi:62417d410f96c4efe8d773b4",
+          "fit_justification": "Source question reads 'Which of these is a basketball team based in Miami?' — team name and home city explicitly stated."
+        },
+        {
+          "value": 600,
+          "clue": "This NHL team based in Boston has won six Stanley Cups, most recently in 2011.",
+          "answer": "Boston Bruins",
+          "source_id": "tapi:62417cd00f96c4efe8d77388",
+          "fit_justification": "Source question reads 'Which of these is a hockey team based in Boston?' — team name and home city explicitly stated."
+        },
+        {
+          "value": 800,
+          "clue": "This MLS soccer team based in Portland, Oregon, plays its home games at Providence Park and is known for its passionate supporter culture.",
+          "answer": "Portland Timbers",
+          "source_id": "tapi:62417d960f96c4efe8d773d6",
+          "fit_justification": "Source question reads 'Which of these is a soccer team based in Portland?' — team name and home city explicitly stated."
+        },
+        {
+          "value": 1000,
+          "clue": "This MLB team based in Kansas City won the 2015 World Series, defeating the New York Mets.",
+          "answer": "Kansas City Royals",
+          "source_id": "tapi:62417d2f0f96c4efe8d773ac",
+          "fit_justification": "Source question reads 'Which of these is a baseball team based in Kansas City?' — team name and home city explicitly stated."
+        }
+      ]
+    },
+    {
+      "title": "ON THE COURT",
+      "theme": "All clues are about tennis — players, venues, rules, or tournaments",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Love, deuce, match, and volley are terms used in this sport, famously played at Wimbledon.",
+          "answer": "Tennis",
+          "source_id": "otdb:16r14ep",
+          "fit_justification": "Source question reads 'What sport features the terms love, deuce, match and volley?' — answer is Tennis; source question also references Wimbledon."
+        },
+        {
+          "value": 400,
+          "clue": "The US Tennis Open takes place at this New York venue, also home to the US Open Grand Slam tournament.",
+          "answer": "Flushing Meadows",
+          "source_id": "tapi:622a1c367cc59eab6f950095",
+          "fit_justification": "Source question reads 'The US Tennis Open takes place at which venue?' — answer is Flushing Meadows, explicitly about tennis."
+        },
+        {
+          "value": 600,
+          "clue": "Often called 'the Maestro', this Swiss player is widely considered the greatest male tennis player of all time.",
+          "answer": "Roger Federer",
+          "source_id": "otdb:17axiel",
+          "fit_justification": "Source question reads 'Who is often called the Maestro in the men's tennis circuit?' — explicitly about tennis."
+        },
+        {
+          "value": 800,
+          "clue": "This 3-letter word is the term for a replayed point in tennis, often called when a serve clips the net.",
+          "answer": "Let",
+          "source_id": "tapi:622a1c367cc59eab6f950094",
+          "fit_justification": "Source question reads 'What 3 Letter Word Is The Name Given To A Replayed Point In Tennis?' — explicitly about tennis."
+        },
+        {
+          "value": 1000,
+          "clue": "This American won the US Open Men's Tennis title in 1990 at just 19 years old, going on to win 14 Grand Slam titles.",
+          "answer": "Pete Sampras",
+          "source_id": "tapi:622a1c367cc59eab6f950032",
+          "fit_justification": "Source question reads 'Who Won The US Open Men's Tennis Title in 1990 At The Age Of Just 19?' — explicitly about tennis."
+        }
+      ]
+    },
+    {
+      "title": "SPORT ASSOCIATIONS",
+      "theme": "Source questions literally ask 'With which sport is [person] associated?' — answers are the sport",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This legendary slugger with a .342 career batting average is forever linked to America's pastime.",
+          "answer": "Baseball",
+          "source_id": "tapi:622a1c367cc59eab6f950026",
+          "fit_justification": "Source question literally reads 'With which sport is Babe Ruth associated?' and the answer is 'Baseball'."
+        },
+        {
+          "value": 400,
+          "clue": "Rafael Nadal, a multiple French Open champion, is associated with this sport played on clay, grass, and hard courts.",
+          "answer": "Tennis",
+          "source_id": "tapi:622a1c347cc59eab6f94f875",
+          "fit_justification": "Source question literally reads 'With which sport is Rafael Nadal associated?' and the answer is 'Tennis'."
+        },
+        {
+          "value": 600,
+          "clue": "Michael Phelps, the most decorated Olympian of all time, is associated with this aquatic sport.",
+          "answer": "Swimming",
+          "source_id": "tapi:622a1c347cc59eab6f94f8ae",
+          "fit_justification": "Source question literally reads 'With which sport is Michael Phelps associated?' and the answer is 'Swimming'."
+        },
+        {
+          "value": 800,
+          "clue": "Sir Gary Sobers, widely regarded as the greatest all-rounder ever, is associated with this bat-and-ball sport.",
+          "answer": "Cricket",
+          "source_id": "tapi:622a1c347cc59eab6f94f86d",
+          "fit_justification": "Source question literally reads 'With which sport is Sir Gary Sobers associated?' and the answer is 'Cricket'."
+        },
+        {
+          "value": 1000,
+          "clue": "Emil Zatopek, the Czech long-distance legend who won three gold medals at the 1952 Helsinki Olympics, is associated with this sport.",
+          "answer": "Athletics",
+          "source_id": "tapi:622a1c347cc59eab6f94f8a3",
+          "fit_justification": "Source question literally reads 'With which sport is Emil Zatopek associated?' and the answer is 'Athletics'."
+        }
+      ]
+    },
+    {
+      "title": "ENGLISH FOOTBALL NICKNAMES",
+      "theme": "Source questions ask for the nickname of a specific English football team — answers are the nickname",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Leicester City, the 2015-16 Premier League surprise champions, go by this animal-themed nickname.",
+          "answer": "The Foxes",
+          "source_id": "otdb:tbetl0",
+          "fit_justification": "Source question reads 'Which English football club has the nickname 'The Foxes'?' and the answer is 'Leicester City'."
+        },
+        {
+          "value": 400,
+          "clue": "Wolverhampton Wanderers are commonly known by this shortened, lupine nickname.",
+          "answer": "Wolves",
+          "source_id": "tapi:6242e83da22452794eaef20b",
+          "fit_justification": "Source question reads 'What is the nickname of the English football team Wolverhampton Wanderers?' and the answer is 'Wolves'."
+        },
+        {
+          "value": 600,
+          "clue": "Southampton FC, a south-coast English club, are known by this saintly nickname.",
+          "answer": "The Saints",
+          "source_id": "tapi:6242e835a22452794eaef208",
+          "fit_justification": "Source question reads 'What is the nickname of the English football team Southampton?' and the answer is 'The Saints'."
+        },
+        {
+          "value": 800,
+          "clue": "Newcastle United, whose home kit is black and white stripes, fly under this avian banner.",
+          "answer": "The Magpies",
+          "source_id": "tapi:6242e830a22452794eaef206",
+          "fit_justification": "Source question reads 'What is the nickname of the English football team Newcastle United?' and the answer is 'The Magpies'."
+        },
+        {
+          "value": 1000,
+          "clue": "Coventry City, a club from the West Midlands, are nicknamed after this distinctive shade of azure.",
+          "answer": "The Sky Blues",
+          "source_id": "tapi:6242e84fa22452794eaef210",
+          "fit_justification": "Source question reads 'What is the nickname of the English football team Coventry City?' and the answer is 'The Sky Blues'."
+        }
+      ]
+    },
+    {
+      "title": "NFL CITY MATCH-UP",
+      "theme": "Source questions ask which American Football (NFL) team is based in a given city",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Mile High City's NFL franchise goes by this name, featuring an iconic bucking horse on its helmet.",
+          "answer": "Denver Broncos",
+          "source_id": "tapi:62417d0c0f96c4efe8d7739f",
+          "fit_justification": "Source question literally reads 'Which of these is an American Football team based in Denver?'; source answer is 'Denver Broncos'."
+        },
+        {
+          "value": 400,
+          "clue": "This Bay Area NFL team played in four Super Bowls in the 1980s and is named for prospectors who came west in 1849.",
+          "answer": "San Francisco 49ers",
+          "source_id": "tapi:62417da50f96c4efe8d773db",
+          "fit_justification": "Source question literally reads 'Which of these is an American Football team based in San Francisco?'; source answer is 'San Francisco 49ers'."
+        },
+        {
+          "value": 600,
+          "clue": "This NFL franchise, based in Florida's First Coast city, is named after a large spotted cat.",
+          "answer": "Jacksonville Jaguars",
+          "source_id": "tapi:62417d2d0f96c4efe8d773ac",
+          "fit_justification": "Source question literally reads 'Which of these is an American Football team based in Jacksonville?'; source answer is 'Jacksonville Jaguars'."
+        },
+        {
+          "value": 800,
+          "clue": "This Texas-based NFL team shares its home city with the Astros and Rockets, playing at NRG Stadium.",
+          "answer": "Houston Texans",
+          "source_id": "tapi:62417d230f96c4efe8d773a8",
+          "fit_justification": "Source question literally reads 'Which of these is an American Football team based in Houston?'; source answer is 'Houston Texans'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Silver and Black NFL franchise now calls Sin City home after relocating from Oakland in 2020.",
+          "answer": "Las Vegas Raiders",
+          "source_id": "tapi:62417d370f96c4efe8d773b0",
+          "fit_justification": "Source question literally reads 'Which of these is an American Football team based in Las Vegas?'; source answer is 'Las Vegas Raiders'."
+        }
+      ]
+    },
+    {
+      "title": "FIFA WORLD CUP HOSTS",
+      "theme": "Each clue asks which country hosted a specific FIFA World Cup tournament",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This North African nation became the first Middle Eastern country to host the FIFA World Cup when the tournament arrived in 2022.",
+          "answer": "Qatar",
+          "source_id": "otdb:1joki21",
+          "fit_justification": "Source question reads 'Which country is hosting the 2022 FIFA World Cup?' and source answer is 'Qatar'."
+        },
+        {
+          "value": 400,
+          "clue": "This European nation hosted the 1986 FIFA World Cup, during which Diego Maradona scored both the infamous 'Hand of God' goal and the 'Goal of the Century'.",
+          "answer": "Mexico",
+          "source_id": "tapi:62399ef9af96521963a0870e",
+          "fit_justification": "Source question reads 'Which country hosted the 1986 FIFA World Cup?' and source answer is 'Mexico'."
+        },
+        {
+          "value": 600,
+          "clue": "The 2006 FIFA World Cup was held in this European nation, where Italy claimed their fourth World Cup title.",
+          "answer": "Germany",
+          "source_id": "otdb:s9sahg",
+          "fit_justification": "Source question reads 'Which nation hosted the FIFA World Cup in 2006?' and source answer is 'Germany'."
+        },
+        {
+          "value": 800,
+          "clue": "This South American country hosted the 1978 FIFA World Cup, in which the host nation controversially claimed the trophy.",
+          "answer": "Argentina",
+          "source_id": "tapi:62399f03af96521963a08711",
+          "fit_justification": "Source question reads 'Which country hosted the 1978 FIFA World Cup?' and source answer is 'Argentina'."
+        },
+        {
+          "value": 1000,
+          "clue": "The 1938 FIFA World Cup was held in this country, the last tournament before World War II interrupted international football for 12 years.",
+          "answer": "France",
+          "source_id": "tapi:62399f2caf96521963a08721",
+          "fit_justification": "Source question reads 'Which country hosted the 1938 FIFA World Cup?' and source answer is 'France'."
+        }
+      ]
+    },
+    {
+      "title": "AMERICAN SPORTS TEAMS BY CITY",
+      "theme": "Each source question asks 'Which of these is a [sport] team based in [city]?'",
+      "topic": "SPORTS",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This NFL franchise based in New England is one of the most successful in league history, winning multiple Super Bowls under coach Bill Belichick.",
+          "answer": "Patriots",
+          "source_id": "otdb:hnsqlr",
+          "fit_justification": "Source question reads 'Which NFL team plays for New England?' and source answer is 'Patriots'."
+        },
+        {
+          "value": 400,
+          "clue": "This AFC North NFL franchise, whose striped helmets evoke their jungle cat namesake, is based in Cincinnati.",
+          "answer": "Cincinnati Bengals",
+          "source_id": "tapi:62417cf00f96c4efe8d77394",
+          "fit_justification": "Source question reads 'Which of these is an American Football team based in Cincinnati?' and source answer is 'Cincinnati Bengals'."
+        },
+        {
+          "value": 600,
+          "clue": "This NBA franchise based in Philadelphia honors the year America was founded, wearing '76' on their jerseys.",
+          "answer": "Philadelphia 76ers",
+          "source_id": "tapi:62417d820f96c4efe8d773ce",
+          "fit_justification": "Source question reads 'Which of these is a basketball team based in Philadelphia?' and source answer is 'Philadelphia 76ers'."
+        },
+        {
+          "value": 800,
+          "clue": "This NHL franchise based in Toronto is the third-most valuable hockey team in the world and holds the NHL record for longest Stanley Cup drought.",
+          "answer": "Toronto Maple Leafs",
+          "source_id": "tapi:62417dc70f96c4efe8d773e9",
+          "fit_justification": "Source question reads 'Which of these is a hockey team based in Toronto?' and source answer is 'Toronto Maple Leafs'."
+        },
+        {
+          "value": 1000,
+          "clue": "This MLB team based in Oakland is famously known for their 'Moneyball' era under general manager Billy Beane in the early 2000s.",
+          "answer": "Oakland A's",
+          "source_id": "tapi:62417d700f96c4efe8d773c7",
+          "fit_justification": "Source question reads 'Which of these is a baseball team based in Oakland?' and source answer is 'Oakland A's'."
+        }
+      ]
+    },
+    {
+      "title": "FORMULA ONE",
+      "theme": "Facts about Formula One racing, drivers, and championships",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British driver won the 2015 and 2017 Formula One World Drivers' Championship.",
+          "answer": "Lewis Hamilton",
+          "source_id": "tapi:622a1c347cc59eab6f94f896",
+          "fit_justification": "Source question asks 'Who won the 2015 Formula 1 World Championship?' and source answer is 'Lewis Hamilton', directly about F1."
+        },
+        {
+          "value": 400,
+          "clue": "Jenson Button clinched his one and only Formula One World Drivers' Championship in this year.",
+          "answer": "2009",
+          "source_id": "otdb:6hua6u",
+          "fit_justification": "Source question literally reads 'Which year did Jenson Button won his first ever Formula One World Drivers' Championship?' and source answer is '2009'."
+        },
+        {
+          "value": 600,
+          "clue": "Known as 'The Professor' for his analytical approach, this French driver was a four-time Formula One world champion.",
+          "answer": "Alain Prost",
+          "source_id": "otdb:1kl5lvx",
+          "fit_justification": "Source question literally reads 'Which Formula One driver was nicknamed \"The Professor\"?' and source answer is 'Alain Prost'."
+        },
+        {
+          "value": 800,
+          "clue": "This German Grand Prix circuit hosted its last Formula 1 race in 1976, the year Niki Lauda suffered his near-fatal crash.",
+          "answer": "Nurburgring",
+          "source_id": "tapi:622a1c367cc59eab6f9503a6",
+          "fit_justification": "Source question literally reads 'Which German Grand Prix circuit was used for a Formula 1 race for the last time in 1976, when Niki Lauda was almost killed?' and source answer is 'Nurburgring'."
+        },
+        {
+          "value": 1000,
+          "clue": "This surname is shared by Damon, Graham, and Phil — three Formula One world champions of the 20th century.",
+          "answer": "Hill",
+          "source_id": "tapi:622a1c367cc59eab6f95007c",
+          "fit_justification": "Source question literally reads 'What Surname Has Been Shared By Three Formula One Champions Of The 20th Century?' and source answer is 'Hill'."
+        }
+      ]
+    },
+    {
+      "title": "TENNIS",
+      "theme": "Facts about the sport of tennis, its players, and tournaments",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This iconic tournament held in London is famously played on grass courts and is considered the oldest Grand Slam.",
+          "answer": "Tennis",
+          "source_id": "tapi:65056e207a97013de78b5273",
+          "fit_justification": "Source question literally reads 'What sport is famously played at Wimbledon?' and source answer is 'Tennis'."
+        },
+        {
+          "value": 400,
+          "clue": "Roland-Garros, the famous clay-court venue in Paris, hosts the French Open in this sport.",
+          "answer": "Tennis",
+          "source_id": "tapi:6384b46a83dddfb71ee5e37b",
+          "fit_justification": "Source question literally reads 'Which sport is played at Roland-Garros?' and source answer is 'Tennis'."
+        },
+        {
+          "value": 600,
+          "clue": "In April 2003, this American became the oldest man rated No. 1 in the world tennis rankings at the age of 33.",
+          "answer": "Andre Agassi",
+          "source_id": "tapi:622a1c367cc59eab6f9500b1",
+          "fit_justification": "Source question literally reads 'In April 2003 Who Became The Oldest Man To Be Rated No1 In The World Tennis Association Rankings At The Age Of 33?' and source answer is 'Andre Agassi'."
+        },
+        {
+          "value": 800,
+          "clue": "Swedish legend Bjorn Borg won this many consecutive Wimbledon titles.",
+          "answer": "Five",
+          "source_id": "tapi:622a1c367cc59eab6f9500c8",
+          "fit_justification": "Source question literally reads 'How Many Consecutive Wimbledon Titles Did Bjorn Borg Win?' and source answer is 'Five'."
+        },
+        {
+          "value": 1000,
+          "clue": "The Cyclops system, which uses infrared beams to detect service line faults, is used within which sport?",
+          "answer": "Tennis",
+          "source_id": "tapi:622a1c357cc59eab6f950020",
+          "fit_justification": "Source question literally reads 'Within Which Sport Might You Encounter The Cyclops System?' and source answer is 'Tennis'."
+        }
+      ]
+    },
+    {
+      "title": "FIFA WORLD CUP WINNERS",
+      "theme": "Facts about which country won a specific FIFA World Cup tournament",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This European nation beat Argentina in the 2014 FIFA World Cup final held in Brazil.",
+          "answer": "Germany",
+          "source_id": "otdb:119a3cp",
+          "fit_justification": "Source question literally reads 'Which team won 2014 FIFA World Cup in Brazil?' and source answer is 'Germany'."
+        },
+        {
+          "value": 400,
+          "clue": "England defeated this nation in the 1966 World Cup final at Wembley to claim their only World Cup title.",
+          "answer": "West Germany",
+          "source_id": "otdb:edz4kq",
+          "fit_justification": "Source question literally reads 'What team did England beat to win in the 1966 World Cup final?' and source answer is 'West Germany'."
+        },
+        {
+          "value": 600,
+          "clue": "This country won the 2010 FIFA World Cup hosted in South Africa, claiming their first-ever world title.",
+          "answer": "Spain",
+          "source_id": "tapi:62399ed21437c7031fbe41d0",
+          "fit_justification": "Source question literally reads 'Which country won the 2010 FIFA World Cup, hosted in South Africa?' and source answer is 'Spain'."
+        },
+        {
+          "value": 800,
+          "clue": "This South American giant won the 1970 FIFA World Cup hosted in Mexico, led by the legendary Pelé.",
+          "answer": "Brazil",
+          "source_id": "tapi:62399f0aaf96521963a08714",
+          "fit_justification": "Source question literally reads 'Which country won the 1970 FIFA World Cup, hosted in Mexico?' and source answer is 'Brazil'."
+        },
+        {
+          "value": 1000,
+          "clue": "A young Pelé helped this country win the 1958 FIFA World Cup, hosted in Sweden.",
+          "answer": "Brazil",
+          "source_id": "tapi:62399f1aaf96521963a0871a",
+          "fit_justification": "Source question literally reads 'Which country won the 1958 FIFA World Cup, hosted in Sweden?' and source answer is 'Brazil'."
+        }
+      ]
+    },
+    {
+      "title": "FORMULA ONE",
+      "theme": "All clues are about Formula One racing — drivers, teams, and championships",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British driver won the 2017 Formula One World Drivers' Championship, one of his many titles with Mercedes.",
+          "answer": "Lewis Hamilton",
+          "source_id": "otdb:aoj4c2",
+          "fit_justification": "Source question reads 'Who won the 2017 Formula One World Drivers' Championship?' and source answer is 'Lewis Hamilton'."
+        },
+        {
+          "value": 400,
+          "clue": "This German driver won the 2016 Formula 1 World Driver's Championship in what turned out to be his final season.",
+          "answer": "Nico Rosberg",
+          "source_id": "otdb:1506mbl",
+          "fit_justification": "Source question reads 'Who won the 2016 Formula 1 World Driver's Championship?' and source answer is 'Nico Rosberg'."
+        },
+        {
+          "value": 600,
+          "clue": "In 2016, this constructor won the Formula 1 World Constructor's Championship for the third consecutive year.",
+          "answer": "Mercedes-AMG Petronas",
+          "source_id": "otdb:15431i3",
+          "fit_justification": "Source question reads 'In 2016, who won the Formula 1 World Constructor's Championship for the third time in a row?' and source answer is 'Mercedes-AMG Petronas'."
+        },
+        {
+          "value": 800,
+          "clue": "This Finnish driver claimed the 2007 Formula One Drivers' Championship in a dramatic final-race finish.",
+          "answer": "Kimi Raikkonen",
+          "source_id": "tapi:622a1c367cc59eab6f950051",
+          "fit_justification": "Source question reads 'Who Won The Formula One Drivers Championship In 2007?' and source answer is 'Kimi Raikkonen'."
+        },
+        {
+          "value": 1000,
+          "clue": "In 1995, this British driver signed for McLaren but had to be released from his contract because he physically could not fit inside the car.",
+          "answer": "Nigel Mansell",
+          "source_id": "tapi:622a1c367cc59eab6f9500b9",
+          "fit_justification": "Source question reads 'In 1995 Which Formula One Driver Signed For McLaren But Couldn't Fit In The Car?' and source answer is 'Nigel Mansell'."
+        }
+      ]
+    },
+    {
+      "title": "TENNIS PLAYERS",
+      "theme": "All clues are about specific tennis players and their careers",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Swiss maestro is widely considered one of the greatest players of all time, having won a record number of Grand Slams.",
+          "answer": "Tennis",
+          "source_id": "tapi:622a1c347cc59eab6f94f8be",
+          "fit_justification": "Source question reads 'With which sport is Roger Federer associated?' and source answer is 'Tennis'; clue is about Federer specifically."
+        },
+        {
+          "value": 400,
+          "clue": "Known for his explosive temper on court, this player famously shouted 'You cannot be serious!' at a Wimbledon umpire.",
+          "answer": "John McEnroe",
+          "source_id": "tapi:622a1c367cc59eab6f950068",
+          "fit_justification": "Source question reads 'Which tennis player was famous for the 'You cannot be serious' outburst?' and source answer is 'John McEnroe'."
+        },
+        {
+          "value": 600,
+          "clue": "This German champion won the last of her tennis Grand Slam Tournament titles in Paris in 1999.",
+          "answer": "Steffi Graff",
+          "source_id": "tapi:622a1c367cc59eab6f950063",
+          "fit_justification": "Source question reads 'Which player won her last tennis Grand Slam Tournament in Paris in 1999?' and source answer is 'Steffi Graff'."
+        },
+        {
+          "value": 800,
+          "clue": "This Czech-American player won the 1978 Wimbledon Women's Singles title, the first of her record nine Wimbledon singles crowns.",
+          "answer": "Martina Navratilova",
+          "source_id": "tapi:622a1c367cc59eab6f950057",
+          "fit_justification": "Source question reads 'Who was the 1978 Wimbledon Women's Singles champ?' and source answer is 'Martina Navratilova'."
+        },
+        {
+          "value": 1000,
+          "clue": "American Chris Evert Lloyd is identified with this sport, winning 18 Grand Slam singles titles across her career.",
+          "answer": "Tennis",
+          "source_id": "tapi:622a1c367cc59eab6f950024",
+          "fit_justification": "Source question reads 'With which sport is Chris Evert Lloyd identified?' and source answer is 'Tennis'."
+        }
+      ]
+    },
+    {
+      "title": "FIFA WORLD CUP WINNERS",
+      "theme": "All clues ask about the winning country of a specific FIFA World Cup tournament",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This South American nation hosted and won the very first FIFA World Cup in 1930.",
+          "answer": "Uruguay",
+          "source_id": "tapi:62399f33af96521963a08724",
+          "fit_justification": "Source question reads 'Which country won the 1930 FIFA World Cup, hosted in Uruguay?' and source answer is 'Uruguay'."
+        },
+        {
+          "value": 400,
+          "clue": "This South American giant won the 1994 FIFA World Cup, hosted in the United States, on penalty kicks.",
+          "answer": "Brazil",
+          "source_id": "tapi:62399eeb43254f1dbcdd082d",
+          "fit_justification": "Source question reads 'Which country won the 1994 FIFA World Cup, hosted in United States?' and source answer is 'Brazil'."
+        },
+        {
+          "value": 600,
+          "clue": "This European nation won the 1982 FIFA World Cup, held in Spain, defeating West Germany in the final.",
+          "answer": "Italy",
+          "source_id": "tapi:622a1c367cc59eab6f950033",
+          "fit_justification": "Source question reads 'Who won the 1982 FIFA World Cup?' and source answer is 'Italy'."
+        },
+        {
+          "value": 800,
+          "clue": "This South American country won the 1950 FIFA World Cup, hosted on home soil in Brazil, defeating the host nation in the final match.",
+          "answer": "Uruguay",
+          "source_id": "tapi:62399f24af96521963a0871e",
+          "fit_justification": "Source question reads 'Which country won the 1950 FIFA World Cup, hosted in Brazil?' and source answer is 'Uruguay'."
+        },
+        {
+          "value": 1000,
+          "clue": "This nation won the 1954 FIFA World Cup, hosted in Switzerland, in what became known as the 'Miracle of Bern'.",
+          "answer": "West Germany",
+          "source_id": "tapi:62399f1faf96521963a0871c",
+          "fit_justification": "Source question reads 'Which country won the 1954 FIFA World Cup, hosted in Switzerland?' and source answer is 'West Germany'."
+        }
+      ]
+    },
+    {
+      "title": "SPORTS TEAM NICKNAMES",
+      "theme": "Each clue asks for or identifies the nickname of a sports team",
+      "topic": "SPORTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This NFL franchise from Indiana features a blue horseshoe on its helmet.",
+          "answer": "The Indianapolis Colts",
+          "source_id": "tapi:6496ac48e831b1ab5aa11147",
+          "fit_justification": "Source question reads 'What is the name of the NFL team whose logo features a blue horseshoe?'; answer is 'The Indianapolis Colts', identifying the team by its nickname."
+        },
+        {
+          "value": 400,
+          "clue": "The NBA team based in Washington goes by this name, a nod to sorcerers of the hardwood.",
+          "answer": "Washington Wizards",
+          "source_id": "tapi:62417dd70f96c4efe8d773ef",
+          "fit_justification": "Source question reads 'Which of these is a basketball team based in Washington?'; answer is 'Washington Wizards', a team nickname."
+        },
+        {
+          "value": 600,
+          "clue": "Northampton Town's rugby union club shares its nickname with an NFL team from New Orleans.",
+          "answer": "Saints",
+          "source_id": "otdb:1ixshmk",
+          "fit_justification": "Source question reads 'What is the nickname of Northampton town's rugby union club?'; answer is 'Saints'."
+        },
+        {
+          "value": 800,
+          "clue": "This English football club from Cardiff soars under a bird-themed nickname that reflects its sky-blue colours.",
+          "answer": "The Bluebirds",
+          "source_id": "tapi:6242e84c8c2538f9601d2f9c",
+          "fit_justification": "Source question literally reads 'What is the nickname of the English football team Cardiff City?'; answer is 'The Bluebirds'."
+        },
+        {
+          "value": 1000,
+          "clue": "West London's Brentford FC buzzes along under this insect-themed nickname.",
+          "answer": "The Bees",
+          "source_id": "tapi:6242e8128c2538f9601d2f91",
+          "fit_justification": "Source question literally reads 'What is the nickname of the English football team Brentford?'; answer is 'The Bees'."
+        }
+      ]
+    },
+    {
+      "title": "WITH WHICH SPORT IS ___ ASSOCIATED?",
+      "theme": "Each source question literally asks 'With which sport is [person] associated?'",
+      "topic": "SPORTS",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Australian leg-spin legend took 708 Test wickets and is widely considered the greatest bowler of all time.",
+          "answer": "Cricket",
+          "source_id": "tapi:622a1c347cc59eab6f94f89d",
+          "fit_justification": "Source question literally reads 'With which sport is Shane Warne associated?'; source answer is 'Cricket'."
+        },
+        {
+          "value": 400,
+          "clue": "Serena Williams, winner of 23 Grand Slam singles titles, is associated with this sport.",
+          "answer": "Tennis",
+          "source_id": "tapi:622a1c347cc59eab6f94f8c9",
+          "fit_justification": "Source question literally reads 'With which sport is Serena Williams associated?'; source answer is 'Tennis'."
+        },
+        {
+          "value": 600,
+          "clue": "Norwegian Grete Waitz won nine New York City Marathon titles and is celebrated in this sport.",
+          "answer": "Athletics",
+          "source_id": "tapi:622a1c347cc59eab6f94f868",
+          "fit_justification": "Source question literally reads 'With which sport is Grete Waitz associated?'; source answer is 'Athletics'."
+        },
+        {
+          "value": 800,
+          "clue": "Dutch cyclist who won the Tour de France five times and is regarded as one of the greatest time trialists ever, Jacques Anquetil is associated with this sport.",
+          "answer": "Cycling",
+          "source_id": "tapi:622a1c347cc59eab6f94f88f",
+          "fit_justification": "Source question literally reads 'With which sport is Jacques Anquetil associated?'; source answer is 'Cycling'."
+        },
+        {
+          "value": 1000,
+          "clue": "Finnish runner Paavo Nurmi, known as the 'Flying Finn,' won nine Olympic gold medals in this sport.",
+          "answer": "Athletics",
+          "source_id": "tapi:622a1c347cc59eab6f94f876",
+          "fit_justification": "Source question literally reads 'With which sport is Paavo Nurmi associated?'; source answer is 'Athletics'."
+        }
+      ]
+    },
+    {
+      "title": "CITY-BASED SPORTS TEAMS",
+      "theme": "Each source question asks 'Which of these is a [sport] team based in [city]?' — answer is the team name",
+      "topic": "SPORTS",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This NHL franchise, whose name evokes a powerful electrical storm, plays its home games on the shores of Tampa Bay.",
+          "answer": "Tampa Bay Lightening",
+          "source_id": "tapi:62417cbf8c3137686862d736",
+          "fit_justification": "Source question literally reads 'Which of these is a hockey team based in Tampa?'; source answer is 'Tampa Bay Lightening'."
+        },
+        {
+          "value": 400,
+          "clue": "Named after a fierce bird of prey, this NBA team calls Atlanta, Georgia home.",
+          "answer": "Atlanta Hawks",
+          "source_id": "tapi:62417cdb0f96c4efe8d7738c",
+          "fit_justification": "Source question literally reads 'Which of these is a basketball team based in Atlanta?'; source answer is 'Atlanta Hawks'."
+        },
+        {
+          "value": 600,
+          "clue": "This NFL franchise, whose name evokes a dangerous bird of prey, represents the Pacific Northwest city of Seattle.",
+          "answer": "Seattle Seahawks",
+          "source_id": "tapi:62417db40f96c4efe8d773e1",
+          "fit_justification": "Source question literally reads 'Which of these is an American Football team based in Seattle?'; source answer is 'Seattle Seahawks'."
+        },
+        {
+          "value": 800,
+          "clue": "Sharing its city name with a famous coffee brand, this NHL team — the Kraken — plays in the Pacific Northwest.",
+          "answer": "Seattle Kraken",
+          "source_id": "tapi:62417db60f96c4efe8d773e2",
+          "fit_justification": "Source question literally reads 'Which of these is a hockey team based in Seattle?'; source answer is 'Seattle Kraken'."
+        },
+        {
+          "value": 1000,
+          "clue": "This MLS club, whose badge features a purple lion, plays in Tennessee's country music capital.",
+          "answer": "Nashville SC",
+          "source_id": "tapi:62417d520f96c4efe8d773bb",
+          "fit_justification": "Source question literally reads 'Which of these is a soccer team based in Nashville?'; source answer is 'Nashville SC'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH OF THESE IS A TEAM BASED IN...?",
+      "theme": "Source question literally asks 'Which of these is a [sport] team based in [city]?' — answer is the team name",
+      "topic": "SPORTS",
+      "category_style": "themed",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This MLB team, whose name evokes the color of their signature red hosiery, is based in Boston.",
+          "answer": "Boston Red Sox",
+          "source_id": "tapi:62417ccb8c3137686862d73b",
+          "fit_justification": "Source question literally reads 'Which of these is a baseball team based in Boston?' A: Boston Red Sox."
+        },
+        {
+          "value": 400,
+          "clue": "This NFL franchise, known for their black and gold colors and multiple Super Bowl wins, is based in Pittsburgh.",
+          "answer": "Pittsburgh Steelers",
+          "source_id": "tapi:62417d8e0f96c4efe8d773d3",
+          "fit_justification": "Source question literally reads 'Which of these is an American Football team based in Pittsburgh?' A: Pittsburgh Steelers."
+        },
+        {
+          "value": 600,
+          "clue": "This NBA team, known for their grizzly bear mascot, is based in Memphis.",
+          "answer": "Memphis Grizzlies",
+          "source_id": "tapi:62417d3a0f96c4efe8d773b1",
+          "fit_justification": "Source question literally reads 'Which of these is a basketball team based in Memphis?' A: Memphis Grizzlies."
+        },
+        {
+          "value": 800,
+          "clue": "This MLS club, whose name references a historic labor movement, is based in Philadelphia.",
+          "answer": "Philadelphia Union",
+          "source_id": "tapi:62417d870f96c4efe8d773d0",
+          "fit_justification": "Source question literally reads 'Which of these is a soccer team based in Philadelphia?' A: Philadelphia Union."
+        },
+        {
+          "value": 1000,
+          "clue": "This NHL team, whose name references the city's history as a hub for fur trading and exploration, is based in Columbus.",
+          "answer": "Columbus Blue Jackets",
+          "source_id": "tapi:62417cfd0f96c4efe8d77399",
+          "fit_justification": "Source question literally reads 'Which of these is a hockey team based in Columbus?' A: Columbus Blue Jackets."
+        }
+      ]
+    },
+    {
+      "title": "WITH WHICH SPORT IS ___ ASSOCIATED?",
+      "theme": "Each clue is drawn from a source fact whose literal question asks 'With which sport is [person] associated?'",
+      "topic": "SPORTS",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Brazilian legend, widely considered the greatest footballer of all time, is associated with soccer.",
+          "answer": "Pelé",
+          "source_id": "tapi:622a1c357cc59eab6f950021",
+          "fit_justification": "Source question literally reads 'With which sport is Pelé associated?' and source answer is 'Soccer'."
+        },
+        {
+          "value": 400,
+          "clue": "This American swimmer won seven gold medals at the 1972 Munich Olympics and is associated with swimming.",
+          "answer": "Mark Spitz",
+          "source_id": "tapi:622a1c347cc59eab6f94f884",
+          "fit_justification": "Source question literally reads 'With which sport is Mark Spitz associated?' and source answer is 'Swimming'."
+        },
+        {
+          "value": 600,
+          "clue": "This British marathon runner, who set a world record in 2003, is associated with athletics.",
+          "answer": "Paula Radcliffe",
+          "source_id": "tapi:622a1c347cc59eab6f94f854",
+          "fit_justification": "Source question literally reads 'With which sport is Paula Radcliffe associated?' and source answer is 'Athletics'."
+        },
+        {
+          "value": 800,
+          "clue": "This Swedish golfer, one of the greatest female players ever, won 72 LPGA Tour events and is associated with golf.",
+          "answer": "Annika Sörenstam",
+          "source_id": "tapi:622a1c347cc59eab6f94f85e",
+          "fit_justification": "Source question literally reads 'With which sport is Annika Sörenstam associated?' and source answer is 'Golf'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Moroccan middle-distance runner set world records in both the mile and 1500 meters and is associated with athletics.",
+          "answer": "Hicham El Guerrouj",
+          "source_id": "tapi:622a1c347cc59eab6f94f879",
+          "fit_justification": "Source question literally reads 'With which sport is Hicham El Guerrouj associated?' and source answer is 'Athletics'."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "SPORTS FIRSTS",
+      "topic": "SPORTS",
+      "clue": "In 1954, this Englishman became the first person to run a mile in under four minutes, finishing in 3 minutes 59.4 seconds at Oxford's Iffley Road track.",
+      "answer": "Roger Bannister",
+      "source_id": "tapi:647a126555463d5ce2994ff1",
+      "fit_justification": "Source question reads 'In 1954, what did Roger Bannister become the first person to do in under four minutes?' with answer 'Run a mile'; Roger Bannister is the named subject of this historic first and serves as a strong final answer."
+    },
+    {
+      "title": "WIMBLEDON CHAMPIONS",
+      "topic": "SPORTS",
+      "clue": "This Czech-American left-hander won the Wimbledon Singles Championship nine times, a record that stood for decades, and also claimed the 1978 title in her first of many triumphs there.",
+      "answer": "Martina Navratilova",
+      "source_id": "otdb:j6c59d",
+      "fit_justification": "Source question asks 'How many times did Martina Navratilova win the Wimbledon Singles Championship?' with answer 'Nine'; a second source (tapi:622a1c367cc59eab6f950057) confirms her 1978 win. Clue combines both verified facts without revealing the answer."
+    },
+    {
+      "title": "FORMULA ONE CHAMPIONS",
+      "topic": "SPORTS",
+      "clue": "This German driver holds the Formula 1 record with seven World Championship titles, winning five consecutively from 2000 to 2004 with Ferrari.",
+      "answer": "Michael Schumacher",
+      "source_id": "otdb:m43lqs",
+      "fit_justification": "Source question reads 'Which driver has been the Formula 1 world champion for a record 7 times?' — answer is Michael Schumacher, explicitly about Formula 1."
+    },
+    {
+      "title": "BOXING BOUTS",
+      "topic": "SPORTS",
+      "clue": "Muhammad Ali faced this man in the legendary 1975 bout known as 'The Thrilla in Manila', held in the Philippines.",
+      "answer": "Joe Frazier",
+      "source_id": "tapi:622a1c367cc59eab6f950056",
+      "fit_justification": "Source question reads 'Who Was Beaten By Muhammad Ali In The Bout Entitled 'The Thriller In Manilla'?' and the answer is 'Joe Frazier'. Source text literally names the bout and both fighters."
+    }
+  ]
+}

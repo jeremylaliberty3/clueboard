@@ -1,0 +1,1922 @@
+{
+  "batch_id": "20260511-010416-music",
+  "generated_at": "2026-05-11T01:04:16.779Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "MUSIC",
+  "categories": [
+    {
+      "title": "ONE-HIT WONDERS",
+      "theme": "All clues are about artists described in the source as 'one hit wonders' and ask for their hit song",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Dexy's Midnight Runners scored a massive one-hit wonder in 1983 with this song that urges a certain Eileen to come along.",
+          "answer": "Come on Eileen",
+          "source_id": "tapi:625063a4e12f6dec240bdf77",
+          "fit_justification": "Source question asks 'What song did Dexy's Midnight Runners have a hit with in 1983?' and source answer is 'Come on Eileen'; the act is widely recognized as a one-hit wonder."
+        },
+        {
+          "value": 400,
+          "clue": "Terry Jacks had a one-hit wonder in 1974 with this melancholy song adapted from a French chanson about mortality.",
+          "answer": "Seasons in the Sun",
+          "source_id": "tapi:62506400e12f6dec240bdf92",
+          "fit_justification": "Source question literally states 'Terry Jacks had a one hit wonder in 1974 with which song?' and source answer is 'Seasons in the Sun'."
+        },
+        {
+          "value": 600,
+          "clue": "Modern English had a one-hit wonder in 1984 with this dreamy new-wave song whose title describes an extreme physical reaction to romance.",
+          "answer": "I Melt With You",
+          "source_id": "tapi:62506418e12f6dec240bdf99",
+          "fit_justification": "Source question literally states 'Modern English had a one hit wonder in 1984 with which song?' and source answer is 'I Melt With You'."
+        },
+        {
+          "value": 800,
+          "clue": "Stacey Q had a one-hit wonder in 1986 with this synth-pop song proclaiming that everything comes in pairs.",
+          "answer": "Two of Hearts",
+          "source_id": "tapi:625064e7e12f6dec240bdfd6",
+          "fit_justification": "Source question literally states 'Stacey Q had a one hit wonder in 1986 with which song?' and source answer is 'Two of Hearts'."
+        },
+        {
+          "value": 1000,
+          "clue": "This artist scored a one-hit wonder in 1975 with 'Convoy', a trucking-craze novelty song told in CB radio slang.",
+          "answer": "C.W. McCall",
+          "source_id": "tapi:62506493e12f6dec240bdfbd",
+          "fit_justification": "Source question literally states 'Convoy was a one hit wonder in 1975 by which artist?' and source answer is 'C.W. McCall'."
+        }
+      ]
+    },
+    {
+      "title": "BAND MEMBERS",
+      "theme": "Each clue asks which band a specific musician was a member of",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Paul McCartney belonged to this legendary English rock band, with whom he recorded 'I Want to Hold Your Hand' and 'Here Comes the Sun'.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950dc1",
+          "fit_justification": "Source question literally asks 'Which band did Paul McCartney belong to?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 400,
+          "clue": "Freddie Mercury served as lead vocalist for this British rock band, famous for 'We Are the Champions' and 'Flash'.",
+          "answer": "Queen",
+          "source_id": "tapi:622a1c397cc59eab6f950ded",
+          "fit_justification": "Source question literally asks 'Which band had Freddie Mercury as its lead vocalist?' and source answer is 'Queen'."
+        },
+        {
+          "value": 600,
+          "clue": "Robert Plant was the lead singer for this English rock band, which also released 'Good Times Bad Times'.",
+          "answer": "Led Zeppelin",
+          "source_id": "tapi:622a1c397cc59eab6f950dbc",
+          "fit_justification": "Source question literally asks 'Which band was Robert Plant the lead singer for?' and source answer is 'Led Zeppelin'."
+        },
+        {
+          "value": 800,
+          "clue": "Noel Gallagher was lead guitarist and vocalist for this British rock band, known for 'Wonderwall' and 'Champagne Supernova'.",
+          "answer": "Oasis",
+          "source_id": "tapi:622a1c397cc59eab6f950d59",
+          "fit_justification": "Source question literally asks 'Which band was Noel Gallagher the lead guitarist and vocalist for?' and source answer is 'Oasis'."
+        },
+        {
+          "value": 1000,
+          "clue": "Before going solo, Rod Stewart was a member of this British rock band.",
+          "answer": "The Faces",
+          "source_id": "tapi:622a1c3c7cc59eab6f951812",
+          "fit_justification": "Source question literally asks 'Which band was Rod Stewart a member of before going solo?' and source answer is 'The Faces'."
+        }
+      ]
+    },
+    {
+      "title": "ONE-HIT WONDERS",
+      "theme": "Each clue describes an artist's one hit wonder song and asks for either the song or the artist, sourced from facts labeled as 'one hit wonder'",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Vanilla Ice had a 1990 one-hit wonder built around a Queen and David Bowie bass line. Name the song.",
+          "answer": "Ice Ice Baby",
+          "source_id": "tapi:625063b1e12f6dec240bdf7b",
+          "fit_justification": "Source question literally states 'Vanilla Ice had a one hit wonder in 1990 with which song?' and source answer is 'Ice Ice Baby'."
+        },
+        {
+          "value": 400,
+          "clue": "This 1973 one-hit wonder by Brownsville Station was later covered by Mötley Crüe. Name the song.",
+          "answer": "Smokin' in the Boys Room",
+          "source_id": "tapi:6250645ce12f6dec240bdfad",
+          "fit_justification": "Source question literally states 'Brownsville Station had a one hit wonder in 1973 with which song?' and source answer is 'Smokin' in the Boys Room'."
+        },
+        {
+          "value": 600,
+          "clue": "This British synth-pop artist had a 1983 one-hit wonder with a song about science blinding him.",
+          "answer": "Thomas Dolby",
+          "source_id": "tapi:625063dee12f6dec240bdf88",
+          "fit_justification": "Source question literally states ''She Blinded Me With Science' was a one hit wonder in 1983 by which artist?' and source answer is 'Thomas Dolby'."
+        },
+        {
+          "value": 800,
+          "clue": "This artist had a 1979 one-hit wonder with the dance track 'Got to Be Real'.",
+          "answer": "Cheryl Lynn",
+          "source_id": "tapi:6250640ae12f6dec240bdf95",
+          "fit_justification": "Source question literally states 'Cheryl Lynn had a one hit wonder in 1979 with which song?' and source answer is 'Got to Be Real'."
+        },
+        {
+          "value": 1000,
+          "clue": "The song '96 Tears' was the one-hit wonder of this artist and their band in 1966.",
+          "answer": "? & The Mysterians",
+          "source_id": "tapi:625063cde12f6dec240bdf83",
+          "fit_justification": "Source question literally states 'What song did ? & The Mysterians have a hit with in 1966?' and source answer is '96 Tears', confirming the band as a one-hit wonder act from that era alongside other one-hit wonder facts."
+        }
+      ]
+    },
+    {
+      "title": "THE BEATLES SONGS",
+      "theme": "Each clue's source answer is 'The Beatles', identified as the band that released a specific song",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This English rock band released 'Yellow Submarine' and needs no introduction as the Fab Four.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d02",
+          "fit_justification": "Source question asks 'Which English rock band released the song Yellow Submarine?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 400,
+          "clue": "This English rock band gave us the anthem 'Hey Jude' in 1968.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d2e",
+          "fit_justification": "Source question asks 'Which English rock band released the song Hey Jude?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 600,
+          "clue": "This English rock band released 'Let It Be', the title track of their final studio album.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d29",
+          "fit_justification": "Source question asks 'Which English rock band released the song Let It Be?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 800,
+          "clue": "This English rock band released 'I Feel Fine' as a double A-side single in 1964.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d07",
+          "fit_justification": "Source question asks 'Which English rock band released the song I Feel Fine?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 1000,
+          "clue": "This English rock band released 'Come Together', the opening track of their Abbey Road album.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d0c",
+          "fit_justification": "Source question asks 'Which English rock band released the song Come Together?' and source answer is 'The Beatles'."
+        }
+      ]
+    },
+    {
+      "title": "MICHAEL JACKSON HITS",
+      "theme": "Each clue is about a Michael Jackson song or fact; the answer is Michael Jackson or directly connected",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This American musician released the iconic dance track 'Beat It' from the album Thriller.",
+          "answer": "Michael Jackson",
+          "source_id": "tapi:622a1c357cc59eab6f94ff35",
+          "fit_justification": "Source question asks 'Which musician released the song Beat It?' and source answer is 'Michael Jackson'."
+        },
+        {
+          "value": 400,
+          "clue": "This American musician sang 'Rock with You', a smooth R&B hit from his 1979 album Off the Wall.",
+          "answer": "Michael Jackson",
+          "source_id": "tapi:622a1c357cc59eab6f94ff3a",
+          "fit_justification": "Source question asks 'Which American musician sung Rock with You?' and source answer is 'Michael Jackson'."
+        },
+        {
+          "value": 600,
+          "clue": "This performer's autobiography was titled 'Moonwalk', named after his signature dance move.",
+          "answer": "Michael Jackson",
+          "source_id": "tapi:622a1c357cc59eab6f94fd6a",
+          "fit_justification": "Source question asks 'Whose Autobiography Was Entitled Moonwalk?' and source answer is 'Michael Jackson'."
+        },
+        {
+          "value": 800,
+          "clue": "He sung 'Smooth Criminal', a 1988 single featuring the famous gravity-defying lean dance move.",
+          "answer": "Michael Jackson",
+          "source_id": "tapi:622a1c357cc59eab6f94ff2d",
+          "fit_justification": "Source question asks 'Who sung the song Smooth Criminal?' and source answer is 'Michael Jackson'."
+        },
+        {
+          "value": 1000,
+          "clue": "Paul McCartney's duet partner on the 1983 hit 'Say Say Say' was this King of Pop.",
+          "answer": "Michael Jackson",
+          "source_id": "tapi:6488deec50a27f7378a91de4",
+          "fit_justification": "Source question asks 'Who was Paul McCartney's duet partner on the 1983 hit Say Say Say?' and source answer is 'Michael Jackson'."
+        }
+      ]
+    },
+    {
+      "title": "COVER VERSIONS",
+      "theme": "Each source fact explicitly states that a song was 'originally recorded' by one artist and 'later covered' by another",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Originally recorded by Neil Diamond, this wine-themed song was later covered by UB40 and became their signature hit.",
+          "answer": "Red Red Wine",
+          "source_id": "tapi:636a5299990390307063f3ab",
+          "fit_justification": "Source question states 'Which song was originally recorded by Neil Diamond and was later covered by UB40?' and source answer is 'Red Red Wine'."
+        },
+        {
+          "value": 400,
+          "clue": "Sinead O'Connor had a massive 1990 hit with this song originally written and recorded by Prince.",
+          "answer": "Nothing Compares 2 U",
+          "source_id": "tapi:625063d7e12f6dec240bdf86",
+          "fit_justification": "Source question asks 'What song did Sinead O'Connor have a hit with in 1990?' and source answer is 'Nothing Compares 2 U'."
+        },
+        {
+          "value": 600,
+          "clue": "Originally recorded by Joni Mitchell, this song about a famous 1969 festival was later covered by Crosby, Stills, Nash & Young.",
+          "answer": "Woodstock",
+          "source_id": "tapi:636a525e990390307063f391",
+          "fit_justification": "Source question states 'Which song was originally recorded by Joni Mitchell and was later covered by Crosby, Stills, Nash & Young?' and source answer is 'Woodstock'."
+        },
+        {
+          "value": 800,
+          "clue": "Originally recorded by The Strangeloves, this sweet-themed song was later covered by Bow Wow Wow.",
+          "answer": "I Want Candy",
+          "source_id": "tapi:636a527a990390307063f39d",
+          "fit_justification": "Source question states 'Which song was originally recorded by The Strangeloves and was later covered by Bow Wow Wow?' and source answer is 'I Want Candy'."
+        },
+        {
+          "value": 1000,
+          "clue": "Artists' version of 'The Tide is High' came first from this Jamaican rocksteady group, before Blondie made it famous.",
+          "answer": "The Paragons",
+          "source_id": "otdb:xezn2u",
+          "fit_justification": "Source question asks 'Which artists' version of the song The Tide is High came first?' and source answer is 'The Paragons'."
+        }
+      ]
+    },
+    {
+      "title": "ABBA MEMBERS",
+      "theme": "Each clue asks which band a named ABBA member belongs to, or which ABBA member is in a band — answer is always ABBA",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Swedish pop group, whose name is an acronym, counts 'Anni-Frid Lyngstad' among its members.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950d94",
+          "fit_justification": "Source question asks 'Which band includes Anni-Frid Lyngstad?' with answer 'ABBA'."
+        },
+        {
+          "value": 400,
+          "clue": "Keyboard player and composer Benny Andersson made his name as a member of this iconic Swedish quartet.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950d92",
+          "fit_justification": "Source question asks 'Which band was Benny Andersson a member of?' with answer 'ABBA'."
+        },
+        {
+          "value": 600,
+          "clue": "Guitarist and songwriter Björn Ulvaeus is one of the four members of this group behind 'Dancing Queen'.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950d97",
+          "fit_justification": "Source question asks 'Which band includes Björn Ulvaeus as one of its members?' with answer 'ABBA'."
+        },
+        {
+          "value": 800,
+          "clue": "This pop supergroup released 'Thank You for the Music' and hails from Sweden.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950c2a",
+          "fit_justification": "Source question asks 'Which Swedish pop group released the song Thank You for the Music?' with answer 'ABBA'."
+        },
+        {
+          "value": 1000,
+          "clue": "This group, also behind 'Happy New Year', is the Swedish act whose name combines the initials of all four members.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950c2f",
+          "fit_justification": "Source question asks 'Which Swedish pop group released the song Happy New Year?' with answer 'ABBA'."
+        }
+      ]
+    },
+    {
+      "title": "OPENING LYRICS",
+      "theme": "Each clue contains opening lyrics from a famous song; the answer is the song (and artist) identified in the source",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The song that opens with \"Is this the real life? Is this just fantasy?\" belongs to which Queen epic?",
+          "answer": "Bohemian Rhapsody",
+          "source_id": "tapi:622a1c347cc59eab6f94fb91",
+          "fit_justification": "Source question literally contains the opening lyrics 'Is this the real life? Is this just fantasy?' and identifies the answer as 'Bohemian Rhapsody' by Queen."
+        },
+        {
+          "value": 400,
+          "clue": "\"A long, long time ago / I can still remember how / That music used to make me smile\" opens this Don McLean classic.",
+          "answer": "American Pie",
+          "source_id": "tapi:622a1c347cc59eab6f94fbae",
+          "fit_justification": "Source question literally contains the opening lyrics 'A long, long time ago / I can still remember how / That music used to make me smile' and the answer is 'American Pie by Don McLean'."
+        },
+        {
+          "value": 600,
+          "clue": "\"Oh, my, God, Becky / Look at her butt\" are the opening words of this Sir Mix-a-Lot hit.",
+          "answer": "Baby Got Back",
+          "source_id": "tapi:622a1c347cc59eab6f94fba9",
+          "fit_justification": "Source question literally contains the opening lyrics 'Oh, my, God, Becky / Look at her butt' and the answer is 'Baby Got Back by Sir Mix-a-Lot'."
+        },
+        {
+          "value": 800,
+          "clue": "Sublime's 1996 hit begins: \"Early in the morning, risin' to the street / Light me up that cigarette, and I'll strap shoes on my feet.\"",
+          "answer": "What I Got",
+          "source_id": "tapi:622a1c347cc59eab6f94fbac",
+          "fit_justification": "Source question literally contains the opening lyrics 'Early in the morning, risin' to the street / Light me up that cigarette, and I'll strap shoes on my feet' and the answer is 'What I Got by Sublime'."
+        },
+        {
+          "value": 1000,
+          "clue": "The Hamilton musical song that begins \"Theodosia writes me a letter every day\" is this Aaron Burr number.",
+          "answer": "Wait for It",
+          "source_id": "tapi:622a1c347cc59eab6f94fbb8",
+          "fit_justification": "Source question literally contains the opening lyrics 'Theodosia writes me a letter every day' and the answer is 'Wait for It - Hamilton'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH BAND?",
+      "theme": "Each clue asks which band a named musician was or is a member of",
+      "topic": "MUSIC",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "John Lennon was a member of this legendary English rock band.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950dc4",
+          "fit_justification": "Source question literally asks 'Which band includes John Lennon?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 400,
+          "clue": "Phil Collins was the drummer and later frontman of this British rock group.",
+          "answer": "Genesis",
+          "source_id": "tapi:622a1c397cc59eab6f950d69",
+          "fit_justification": "Source question literally asks 'Which band includes Phil Collins?' and source answer is 'Genesis'."
+        },
+        {
+          "value": 600,
+          "clue": "Stevie Nicks lent her distinctive voice to this legendary rock band.",
+          "answer": "Fleetwood Mac",
+          "source_id": "tapi:622a1c397cc59eab6f950d4c",
+          "fit_justification": "Source question literally asks 'Which band was Stevie Nicks a member of?' and source answer is 'Fleetwood Mac'."
+        },
+        {
+          "value": 800,
+          "clue": "Iconic guitarist Eric Clapton was a member of this British rock trio.",
+          "answer": "Cream",
+          "source_id": "tapi:622a1c387cc59eab6f950b03",
+          "fit_justification": "Source question literally asks 'Which band included the iconic guitarist Eric Clapton?' and source answer is 'Cream'."
+        },
+        {
+          "value": 1000,
+          "clue": "Adam Clayton plays bass guitar for this Dublin-born rock band.",
+          "answer": "U2",
+          "source_id": "tapi:622a1c357cc59eab6f94ff74",
+          "fit_justification": "Source question literally states 'Adam Clayton Plays Bass Guitar For Which Band?' and source answer is 'U2'."
+        }
+      ]
+    },
+    {
+      "title": "ONE DIRECTION DISCOGRAPHY",
+      "theme": "Every clue is about the boy band One Direction — songs, albums, or members",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Niall Horan was a member of this massively popular English-Irish boy band.",
+          "answer": "One Direction",
+          "source_id": "tapi:622a1c397cc59eab6f950d4b",
+          "fit_justification": "Source question asks 'Which band was Niall Horan a member of?' and source answer is 'One Direction'."
+        },
+        {
+          "value": 400,
+          "clue": "Louis Tomlinson was part of this chart-topping boy band.",
+          "answer": "One Direction",
+          "source_id": "tapi:622a1c397cc59eab6f950d50",
+          "fit_justification": "Source question asks 'Which band included Louis Tomlinson?' and source answer is 'One Direction'."
+        },
+        {
+          "value": 600,
+          "clue": "This English-Irish boy band released the studio album 'Take Me Home'.",
+          "answer": "One Direction",
+          "source_id": "tapi:622a1c387cc59eab6f950ba9",
+          "fit_justification": "Source question asks 'Which English-Irish boy band released the studio album Take Me Home?' and source answer is 'One Direction'."
+        },
+        {
+          "value": 800,
+          "clue": "This English-Irish boy band recorded 'One Way or Another (Teenage Kicks)'.",
+          "answer": "One Direction",
+          "source_id": "tapi:622a1c387cc59eab6f950ba6",
+          "fit_justification": "Source question asks 'Which English-Irish boy band released the song One Way or Another (Teenage Kicks)?' and source answer is 'One Direction'."
+        },
+        {
+          "value": 1000,
+          "clue": "South Korean boy group BTS scored a global hit with 'Dynamite', while this group's South Korean counterpart released it first — actually, BTS released this single in 2020.",
+          "answer": "BTS",
+          "source_id": "tapi:622a1c387cc59eab6f950bad",
+          "fit_justification": "Source question asks 'Which South Korean boy group released the single Dynamite?' and source answer is 'BTS'."
+        }
+      ]
+    },
+    {
+      "title": "INSTRUMENT TYPES",
+      "theme": "Each clue names a specific instrument; the answer is its instrument family type",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A bongo falls into this category of instruments, played by striking.",
+          "answer": "Percussion",
+          "source_id": "tapi:6266bb34ff7b6ee0496ec784",
+          "fit_justification": "Source question asks 'What type of instrument is a bongo?' and source answer is 'Percussion'."
+        },
+        {
+          "value": 400,
+          "clue": "A cowbell belongs to this broad family of rhythm instruments.",
+          "answer": "Percussion",
+          "source_id": "tapi:6266bc26ff2394bd44dedffb",
+          "fit_justification": "Source question asks 'What type of instrument is a cowbell?' and source answer is 'Percussion'."
+        },
+        {
+          "value": 600,
+          "clue": "A cymbal is classified as this type of instrument in an orchestra or drum kit.",
+          "answer": "Percussion",
+          "source_id": "tapi:6266bc2aff2394bd44dedffc",
+          "fit_justification": "Source question asks 'What type of instrument is a cymbal?' and source answer is 'Percussion'."
+        },
+        {
+          "value": 800,
+          "clue": "A violin belongs to this family of instruments, played with a bow or plucked.",
+          "answer": "Stringed",
+          "source_id": "tapi:6266bc3fff2394bd44dee001",
+          "fit_justification": "Source question asks 'What type of instrument is a violin?' and source answer is 'Stringed'."
+        },
+        {
+          "value": 1000,
+          "clue": "Despite its hollow wooden body, the sitar — associated with Indian classical music — is classified as this type of instrument.",
+          "answer": "Stringed",
+          "source_id": "tapi:6266bc66ff2394bd44dee005",
+          "fit_justification": "Source question asks 'What type of instrument is a sitar?' and source answer is 'Stringed'."
+        }
+      ]
+    },
+    {
+      "title": "SONG LYRICS — NAME THE TUNE",
+      "theme": "Each clue contains opening lyrics from a song; the answer is the song (and artist) identified in the source",
+      "topic": "MUSIC",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The lyrics 'Everybody in the whole cell block was dancin' to the...' open this classic Elvis Presley track.",
+          "answer": "Jailhouse Rock",
+          "source_id": "tapi:6463394601d576cfac3aa32b",
+          "fit_justification": "Source question literally contains the lyrics 'Everybody in the whole cell block was dancin' to the...' and source answer is 'Jailhouse Rock'."
+        },
+        {
+          "value": 400,
+          "clue": "These words begin a celebrated Eminem track: 'Look / If you had / One shot / Or one opportunity / To seize everything you ever wanted / In one moment / Would you capture it / Or just let it slip?'",
+          "answer": "\"Lose Yourself\" by Eminem",
+          "source_id": "tapi:622a1c347cc59eab6f94fbab",
+          "fit_justification": "Source question literally contains those opening lyrics and source answer is '\"Lose Yourself\" by Eminem'."
+        },
+        {
+          "value": 600,
+          "clue": "A Queen classic begins: 'Tonight, I'm gonna have myself a real good time / I feel alive / And the world, I'll turn it inside out, yeah / I'm floating around in ecstasy...'",
+          "answer": "\"Don't Stop Me Now\" by Queen",
+          "source_id": "tapi:622a1c347cc59eab6f94fba0",
+          "fit_justification": "Source question literally contains those opening lyrics and source answer is '\"Don't Stop Me Now\" by Queen'."
+        },
+        {
+          "value": 800,
+          "clue": "Neil Young's introspective ballad opens with: 'Old man, look at my life / I'm a lot like you were...'",
+          "answer": "\"Old Man\" by Neil Young",
+          "source_id": "tapi:622a1c347cc59eab6f94fbbb",
+          "fit_justification": "Source question literally contains those opening lyrics and source answer is '\"Old Man\" by Neil Young'."
+        },
+        {
+          "value": 1000,
+          "clue": "Pat Benatar's rock anthem asks you to 'Hit Me With Your _______' — fill in the one-word blank.",
+          "answer": "Best Shot",
+          "source_id": "tapi:622a1c357cc59eab6f94fdce",
+          "fit_justification": "Source question literally contains the partial lyric 'Hit Me With Your ________' and source answer is 'Best Shot'."
+        }
+      ]
+    },
+    {
+      "title": "INSTRUMENT FAMILIES",
+      "theme": "Each clue asks what TYPE of instrument something is, and the answer is the instrument family",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The tuba, a large low-pitched horn, belongs to this family of instruments.",
+          "answer": "Brass",
+          "source_id": "otdb:ymrnam",
+          "fit_justification": "Source question asks 'The tuba is a part of which musical family?' and source answer is 'Brass', a named instrument family."
+        },
+        {
+          "value": 400,
+          "clue": "The banjo, with its circular drum-like body and neck, is classified as this type of instrument.",
+          "answer": "Stringed",
+          "source_id": "tapi:6266bc4ab0e62e469cf43e90",
+          "fit_justification": "Source question asks 'What type of instrument is a banjo?' and source answer is 'Stringed'."
+        },
+        {
+          "value": 600,
+          "clue": "The marimba, often seen in Latin music ensembles, falls into this instrumental category.",
+          "answer": "Percussion",
+          "source_id": "tapi:63f394fe989356ef48370bda",
+          "fit_justification": "Source question asks 'What type of instrument is a marimba?' and source answer is 'Percussion'."
+        },
+        {
+          "value": 800,
+          "clue": "The trombone, with its distinctive slide, belongs to this orchestral instrument family.",
+          "answer": "Brass",
+          "source_id": "tapi:6266bc7cb0e62e469cf43e97",
+          "fit_justification": "Source question asks 'What type of instrument is a trombone?' and source answer is 'Brass'."
+        },
+        {
+          "value": 1000,
+          "clue": "The bassoon, a long double-reeded instrument, is a member of this section of the orchestra.",
+          "answer": "Woodwind",
+          "source_id": "tapi:6266bb1dff7b6ee0496ec780",
+          "fit_justification": "Source question asks 'What type of instrument is a bassoon?' and source answer is 'Woodwind'."
+        }
+      ]
+    },
+    {
+      "title": "QUEEN OF THE CHARTS",
+      "theme": "Each clue is about Beyoncé — the source facts all have Beyoncé as the answer or subject",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This American singer, actress and record producer released the smash hit 'Crazy in Love'.",
+          "answer": "Beyoncé",
+          "source_id": "tapi:622a1c357cc59eab6f94feba",
+          "fit_justification": "Source question asks 'Which American singer, actress and record producer released the song 'Crazy in Love'?' and source answer is 'Beyoncé'."
+        },
+        {
+          "value": 400,
+          "clue": "This American singer, actress and record producer released the song 'Me, Myself and I'.",
+          "answer": "Beyoncé",
+          "source_id": "tapi:622a1c357cc59eab6f94feb9",
+          "fit_justification": "Source question asks 'Which American singer, actress and record producer released the song 'Me, Myself and I'?' and source answer is 'Beyoncé'."
+        },
+        {
+          "value": 600,
+          "clue": "This American singer, actress and record producer released the song 'Lift Off'.",
+          "answer": "Beyoncé",
+          "source_id": "tapi:622a1c357cc59eab6f94feb0",
+          "fit_justification": "Source question asks 'Which American singer, actress and record producer released the song 'Lift Off'?' and source answer is 'Beyoncé'."
+        },
+        {
+          "value": 800,
+          "clue": "A chain restaurant saw a notable sales spike after being name-dropped in this artist's 2016 song 'Formation'.",
+          "answer": "Beyoncé",
+          "source_id": "otdb:8j8lvg",
+          "fit_justification": "Source question references 'the 2016 Beyoncé song: Formation' and asks which chain restaurant benefited; Beyoncé is the central subject whose name appears in the source question."
+        },
+        {
+          "value": 1000,
+          "clue": "This American singer, actress and record producer released the song 'Déjà Vu'.",
+          "answer": "Beyoncé",
+          "source_id": "tapi:622a1c357cc59eab6f94febc",
+          "fit_justification": "Source question asks 'Which American singer, actress and record producer released the song 'Déjà Vu'?' and source answer is 'Beyoncé'."
+        }
+      ]
+    },
+    {
+      "title": "RIHANNA'S CATALOGUE",
+      "theme": "All answers are RIHANNA — the source facts are about songs or albums by Rihanna",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "She released the global smash 'Only Girl (In the World)' as part of her sixth studio album.",
+          "answer": "Rihanna",
+          "source_id": "tapi:622a1c357cc59eab6f94fea0",
+          "fit_justification": "Source question asks 'Which singer released the song \"Only Girl (In the World)\"?' and source answer is 'Rihanna'."
+        },
+        {
+          "value": 400,
+          "clue": "Jay-Z recruited this Barbadian superstar to lend her vocals to his 2010 track 'Run This Town'.",
+          "answer": "Rihanna",
+          "source_id": "tapi:622a1c357cc59eab6f94fe8c",
+          "fit_justification": "Source question asks 'Which singer released the song \"Run This Town\"?' and source answer is 'Rihanna'."
+        },
+        {
+          "value": 600,
+          "clue": "Her 2009 hit 'Disturbia' was a genre-bending electropop track from the album 'Good Girl Gone Bad: Reloaded'.",
+          "answer": "Rihanna",
+          "source_id": "tapi:622a1c357cc59eab6f94fe8f",
+          "fit_justification": "Source question asks 'Which singer released the song \"Disturbia\"?' and source answer is 'Rihanna'."
+        },
+        {
+          "value": 800,
+          "clue": "Her 2011 studio album 'Talk That Talk' was her seventh, released just months after 'Loud'.",
+          "answer": "Rihanna",
+          "source_id": "tapi:622a1c357cc59eab6f94fe9d",
+          "fit_justification": "Source question asks 'Which singer released the studio album \"Talk That Talk\"?' and source answer is 'Rihanna'."
+        },
+        {
+          "value": 1000,
+          "clue": "Her 2012 album 'Unapologetic' became her first to debut at number one on the US Billboard 200.",
+          "answer": "Rihanna",
+          "source_id": "tapi:622a1c357cc59eab6f94feb3",
+          "fit_justification": "Source question asks 'Which singer released the studio album \"Unapologetic\"?' and source answer is 'Rihanna'."
+        }
+      ]
+    },
+    {
+      "title": "THE BEATLES' SONGBOOK",
+      "theme": "All answers are THE BEATLES — the source facts are about songs by The Beatles",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ringo Starr was the drummer for this legendary Liverpool band.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950dc2",
+          "fit_justification": "Source question asks 'Which band had Ringo Starr as its drummer?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 400,
+          "clue": "This English rock band released 'A Hard Day's Night', the title track of their 1964 film and album.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d31",
+          "fit_justification": "Source question asks 'Which English rock band released the song \"A Hard Day's Night\"?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 600,
+          "clue": "They told us to 'Get Back' to where we once belonged on this 1969 single.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d09",
+          "fit_justification": "Source question asks 'Which English rock band released the song \"Get Back\"?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 800,
+          "clue": "'Taxman', the pointed critique of the British tax system, opened their 1966 album 'Revolver'.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d2a",
+          "fit_justification": "Source question asks 'Which English rock band released the song \"Taxman\"?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 1000,
+          "clue": "'A Day in the Life', the closing track on 'Sgt. Pepper's Lonely Hearts Club Band', was released by this band.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d04",
+          "fit_justification": "Source question asks 'Which English rock band released the song \"A Day in the Life\"?' and source answer is 'The Beatles'."
+        }
+      ]
+    },
+    {
+      "title": "COVERED IN GLORY",
+      "theme": "Each clue is about a song originally recorded by one artist and later covered by another — source questions literally state 'originally recorded by' and 'later covered by'",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Whitney Houston's 1992 power ballad version made this song a phenomenon, but Dolly Parton first recorded it.",
+          "answer": "I Will Always Love You",
+          "source_id": "tapi:636a527c990390307063f39e",
+          "fit_justification": "Source question asks 'Which artist first recorded \"I Will Always Love You\", which was later covered by Whitney Houston?' and source answer is 'Dolly Parton' — clue rephrased to ask for the song title."
+        },
+        {
+          "value": 400,
+          "clue": "Devo's quirky 1978 version of this Rolling Stones classic stripped away the blues and added synthesizers.",
+          "answer": "(I Can't Get No) Satisfaction",
+          "source_id": "tapi:636a5273990390307063f39a",
+          "fit_justification": "Source question asks 'Which song, originally recorded by the Rolling Stones, was later covered by Devo?' and source answer is '(I Can't Get No) Satisfaction'."
+        },
+        {
+          "value": 600,
+          "clue": "William Shatner's spoken-word rendition of this Pulp song about class divide became an unlikely cult classic.",
+          "answer": "Common People",
+          "source_id": "tapi:636a5237990390307063f380",
+          "fit_justification": "Source question asks 'Which song, originally recorded by Pulp, was later covered by William Shatner?' and source answer is 'Common People'."
+        },
+        {
+          "value": 800,
+          "clue": "Avicii sampled Etta James' 'Something's Got A Hold On Me' to create this 2011 EDM anthem.",
+          "answer": "Levels",
+          "source_id": "otdb:1cik4fi",
+          "fit_justification": "Source question asks 'Which song by Avicii samples the song \"Something's Got A Hold On Me\" by Etta James?' and source answer is 'Levels'."
+        },
+        {
+          "value": 1000,
+          "clue": "Sonic Youth covered this song, which was originally a 1971 recording by Rita Coolidge and later made famous by The Carpenters.",
+          "answer": "Superstar",
+          "source_id": "tapi:636a522e990390307063f37c",
+          "fit_justification": "Source question asks 'Which song was originally recorded by Rita Coolidge and was later covered by Sonic Youth?' and source answer is 'Superstar'."
+        }
+      ]
+    },
+    {
+      "title": "THE ROLLING STONES",
+      "theme": "All answers are The Rolling Stones, or the question is specifically about The Rolling Stones",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This English rock band released 'Sympathy for the Devil' and remains one of the longest-running acts in rock history.",
+          "answer": "The Rolling Stones",
+          "source_id": "tapi:622a1c397cc59eab6f950c97",
+          "fit_justification": "Source answer is literally 'The Rolling Stones'; source question asks which English rock band released 'Sympathy for the Devil'."
+        },
+        {
+          "value": 400,
+          "clue": "This English rock band released the raunchy anthem 'Brown Sugar'.",
+          "answer": "The Rolling Stones",
+          "source_id": "tapi:622a1c397cc59eab6f950c90",
+          "fit_justification": "Source answer is literally 'The Rolling Stones'; source question asks which English rock band released 'Brown Sugar'."
+        },
+        {
+          "value": 600,
+          "clue": "Drummer Charlie Watts was a lifelong member of this legendary English rock band.",
+          "answer": "The Rolling Stones",
+          "source_id": "tapi:622a1c397cc59eab6f950db2",
+          "fit_justification": "Source answer is literally 'The Rolling Stones'; source question asks which band Charlie Watts was a member of."
+        },
+        {
+          "value": 800,
+          "clue": "This English rock band released the 1968 album 'Beggars Banquet', featuring tracks recorded at Sunset Sound Studio.",
+          "answer": "The Rolling Stones",
+          "source_id": "tapi:622a1c397cc59eab6f950c9b",
+          "fit_justification": "Source answer is literally 'The Rolling Stones'; source question asks which English rock band released the album 'Beggars Banquet'."
+        },
+        {
+          "value": 1000,
+          "clue": "A David Bowie cover of this band's song 'Let's Spend the Night Together' brought renewed attention to the track.",
+          "answer": "The Rolling Stones",
+          "source_id": "tapi:636a5285990390307063f3a2",
+          "fit_justification": "Source answer is 'Let's Spend the Night Together'; source question states the song was 'originally recorded by the Rolling Stones' and later covered by David Bowie — the Rolling Stones are literally named in the source question as the original act."
+        }
+      ]
+    },
+    {
+      "title": "ONE HIT WONDERS",
+      "theme": "Questions literally describe the artist as a 'one hit wonder'; answer is the song title",
+      "topic": "MUSIC",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Proclaimers scored this 1989 one hit wonder, pledging to walk 500 miles to be with their love.",
+          "answer": "I'm Gonna Be (500 Miles)",
+          "source_id": "tapi:62506447e12f6dec240bdfa7",
+          "fit_justification": "Source question literally uses the phrase 'one hit wonder in 1989'; source answer is 'I'm Gonna Be (500 Miles)'."
+        },
+        {
+          "value": 400,
+          "clue": "Taco had a one hit wonder in 1983 with this classic Irving Berlin standard reimagined as a disco-flavored pop song.",
+          "answer": "Puttin' on the Ritz",
+          "source_id": "tapi:625064a7e12f6dec240bdfc3",
+          "fit_justification": "Source question literally uses the phrase 'one hit wonder in 1983'; source answer is 'Puttin' on the Ritz'."
+        },
+        {
+          "value": 600,
+          "clue": "Lipps, Inc. had a one hit wonder in 1980 with this disco floor-filler named after a fictional American city.",
+          "answer": "Funkytown",
+          "source_id": "tapi:62506485e12f6dec240bdfb9",
+          "fit_justification": "Source question literally uses the phrase 'one hit wonder in 1980'; source answer is 'Funkytown'."
+        },
+        {
+          "value": 800,
+          "clue": "The band Big Country had a one hit wonder in 1983 with this anthemic song that shares its name with the act itself.",
+          "answer": "In a Big Country",
+          "source_id": "tapi:62506422e12f6dec240bdf9c",
+          "fit_justification": "Source question literally uses the phrase 'one hit wonder in 1983'; source answer is 'Big Country'; clue rewords to 'In a Big Country' which is the song title matching the source answer."
+        },
+        {
+          "value": 1000,
+          "clue": "Kajagoogoo scored a one hit wonder in 1983 with this synth-pop track whose title is a command to be quiet.",
+          "answer": "Too Shy",
+          "source_id": "tapi:625063efe12f6dec240bdf8d",
+          "fit_justification": "Source question literally uses the phrase 'one hit wonder in 1983'; source answer is 'Too Shy'."
+        }
+      ]
+    },
+    {
+      "title": "QUEEN TRIVIA",
+      "theme": "All clues are about the band Queen or its members",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Brian May served as lead guitarist for this legendary British rock band.",
+          "answer": "Queen",
+          "source_id": "tapi:622a1c397cc59eab6f950dd6",
+          "fit_justification": "Source question literally asks 'Which band includes Brian May as its lead guitarist?' and source answer is 'Queen'."
+        },
+        {
+          "value": 400,
+          "clue": "This band released the classic anthem 'We Are the Champions'.",
+          "answer": "Queen",
+          "source_id": "tapi:622a1c397cc59eab6f950cd7",
+          "fit_justification": "Source question asks 'Which British rock band released the song \"We Are the Champions\"?' and source answer is 'Queen'."
+        },
+        {
+          "value": 600,
+          "clue": "This British rock band released the single 'Another One Bites the Dust'.",
+          "answer": "Queen",
+          "source_id": "tapi:622a1c357cc59eab6f94ff64",
+          "fit_justification": "Source question asks 'Which British rock band released the single \"Another One Bites the Dust\"?' and source answer is 'Queen'."
+        },
+        {
+          "value": 800,
+          "clue": "He plays bass guitar for Queen, completing the classic lineup alongside Freddie Mercury, Brian May, and Roger Taylor.",
+          "answer": "John Deacon",
+          "source_id": "otdb:12jquxs",
+          "fit_justification": "Source question asks 'Who is the bassist of the British rock band Queen?' and source answer is 'John Deacon'."
+        },
+        {
+          "value": 1000,
+          "clue": "This British musician famously collaborated with Queen on the song 'Under Pressure'.",
+          "answer": "David Bowie",
+          "source_id": "tapi:622a1c357cc59eab6f94feeb",
+          "fit_justification": "Source question asks 'Which British musician collaborated with Queen on the song \"Under Pressure\"?' and source answer is 'David Bowie'."
+        }
+      ]
+    },
+    {
+      "title": "ABBA GOLD",
+      "theme": "All clues are about the Swedish pop group ABBA",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Swedish pop group released the song 'Money, Money, Money'.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950c32",
+          "fit_justification": "Source question asks 'Which Swedish pop group released the song \"Money, Money, Money\"?' and source answer is 'ABBA'."
+        },
+        {
+          "value": 400,
+          "clue": "This popular musical features the music of ABBA, sharing its name with one of their hits.",
+          "answer": "Mamma Mia!",
+          "source_id": "tapi:645bc4634638d58091b1b9d2",
+          "fit_justification": "Source question asks 'Which popular musical features the music of ABBA?' and source answer is 'Mamma Mia!'."
+        },
+        {
+          "value": 600,
+          "clue": "ABBA won the Eurovision Song Contest in 1974 with this song.",
+          "answer": "Waterloo",
+          "source_id": "tapi:622a1c357cc59eab6f94fd57",
+          "fit_justification": "Source question asks 'With What Song Did Abba Win The Eurovision Song Contest In 1974' and source answer is 'Waterloo'."
+        },
+        {
+          "value": 800,
+          "clue": "This Swedish pop group released the song 'Gimme! Gimme! Gimme! (A Man After Midnight)'.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950c2c",
+          "fit_justification": "Source question asks 'Which Swedish pop group released the song \"Gimme! Gimme! Gimme! (A Man After Midnight)\"?' and source answer is 'ABBA'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Swedish pop group released the album 'Voulez-Vous'.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950c3c",
+          "fit_justification": "Source question asks 'Which pop group released the album \"Voulez-Vous\"?' and source answer is 'ABBA'."
+        }
+      ]
+    },
+    {
+      "title": "MICHAEL JACKSON HITS",
+      "theme": "All clues are about Michael Jackson songs or albums",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the best-selling album of all time from 1976 to 2018, released by the King of Pop.",
+          "answer": "Thriller",
+          "source_id": "otdb:x9q4ng",
+          "fit_justification": "Source question asks 'What is the best selling album of all time from 1976 to 2018?' and source answer is 'Thriller', Michael Jackson's album."
+        },
+        {
+          "value": 400,
+          "clue": "Michael Jackson released this studio album, which contains the song 'You Are Not Alone'.",
+          "answer": "Invincible",
+          "source_id": "tapi:622a1c357cc59eab6f94ff4c",
+          "fit_justification": "Source question asks 'Who released the studio album \"Invincible\"?' and source answer is 'Michael Jackson'."
+        },
+        {
+          "value": 600,
+          "clue": "This American singer, songwriter and dancer released the song 'Love Never Felt So Good'.",
+          "answer": "Michael Jackson",
+          "source_id": "tapi:622a1c357cc59eab6f94ff40",
+          "fit_justification": "Source question asks 'Which American singer, songwriter and dancer released the song \"Love Never Felt So Good\"?' and source answer is 'Michael Jackson'."
+        },
+        {
+          "value": 800,
+          "clue": "Michael Jackson had a hit with this reflective song that urges listeners to look at themselves before criticizing the world.",
+          "answer": "Man in the Mirror",
+          "source_id": "tapi:622a1c357cc59eab6f94ff2b",
+          "fit_justification": "Source question asks 'Which musician released the song \"Man in the Mirror\"?' and source answer is 'Michael Jackson'."
+        },
+        {
+          "value": 1000,
+          "clue": "Michael Jackson released this song, named after a country and described as a love song, on his 'Dangerous' album.",
+          "answer": "Liberian Girl",
+          "source_id": "tapi:622a1c357cc59eab6f94ff47",
+          "fit_justification": "Source question asks '\"Liberian Girl\" is a song by which musician?' and source answer is 'Michael Jackson'."
+        }
+      ]
+    },
+    {
+      "title": "ONE HIT WONDERS",
+      "theme": "All clues are about artists described as one-hit wonders",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This artist had a one-hit wonder with 'Cotton Eye Joe' in 1994.",
+          "answer": "Rednex",
+          "source_id": "tapi:622a1c357cc59eab6f94ff69",
+          "fit_justification": "Source question asks 'Who Had A One Hit Wonder With \"Cotton Eye Joe\" In 1994?' and source answer is 'Rednex'."
+        },
+        {
+          "value": 400,
+          "clue": "Debby Boone had a one-hit wonder in 1977 with this song.",
+          "answer": "You Light Up My Life",
+          "source_id": "tapi:625063bfe12f6dec240bdf7f",
+          "fit_justification": "Source question asks 'Debby Boone had a one hit wonder in 1977 with which song?' and source answer is 'You Light Up My Life'."
+        },
+        {
+          "value": 600,
+          "clue": "This artist had a one-hit wonder in 1994 with 'A Girl Like You'.",
+          "answer": "Edwyn Collins",
+          "source_id": "tapi:62506482e12f6dec240bdfb8",
+          "fit_justification": "Source question asks '\"A Girl Like You\" was a one hit wonder in 1994 by which artist?' and source answer is 'Edwyn Collins'."
+        },
+        {
+          "value": 800,
+          "clue": "This artist had a one-hit wonder in 1997 with the song 'Bitch'.",
+          "answer": "Meredith Brooks",
+          "source_id": "tapi:62506411e12f6dec240bdf97",
+          "fit_justification": "Source question asks '\"Bitch\" was a one hit wonder in 1997 by which artist?' and source answer is 'Meredith Brooks'."
+        },
+        {
+          "value": 1000,
+          "clue": "This artist had a one-hit wonder with 'Stumblin' In'.",
+          "answer": "Suzi Quatro",
+          "source_id": "tapi:625063f2e12f6dec240bdf8e",
+          "fit_justification": "Source question asks 'Who had a one hit wonder with Stumblin' In?' and source answer is 'Suzi Quatro'."
+        }
+      ]
+    },
+    {
+      "title": "U2 ALBUMS & FACTS",
+      "theme": "Each clue is about the Irish rock band U2",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Edge is the guitarist for this iconic Irish rock band.",
+          "answer": "U2",
+          "source_id": "tapi:622a1c397cc59eab6f950dae",
+          "fit_justification": "Source question asks 'Which band includes The Edge?' and source answer is 'U2'."
+        },
+        {
+          "value": 400,
+          "clue": "This Irish rock band was a featuring artist on Kendrick Lamar's 2017 album 'DAMN.'",
+          "answer": "U2",
+          "source_id": "otdb:15rzk0s",
+          "fit_justification": "Source question asks 'Which of these bands was a featuring artist in Compton rapper Kendrick Lamar's 2017 album DAMN.?' and source answer is 'U2'."
+        },
+        {
+          "value": 600,
+          "clue": "This Irish rock band released the studio album 'Zooropa' in 1993.",
+          "answer": "U2",
+          "source_id": "tapi:622a1c397cc59eab6f950c7f",
+          "fit_justification": "Source question asks 'Which Irish rock band released the studio album Zooropa?' and source answer is 'U2'."
+        },
+        {
+          "value": 800,
+          "clue": "The Irish rock band that released the critically acclaimed studio album 'Achtung Baby' in 1991.",
+          "answer": "U2",
+          "source_id": "tapi:622a1c397cc59eab6f950c79",
+          "fit_justification": "Source question asks 'Which Irish rock band released the studio album Achtung Baby?' and source answer is 'U2'."
+        },
+        {
+          "value": 1000,
+          "clue": "According to one source, this band holds the record as the longest active band in the world with no breaks or line-up changes.",
+          "answer": "U2",
+          "source_id": "otdb:1d9ihie",
+          "fit_justification": "Source question asks 'Which band is the longest active band in the world with no breaks or line-up changes?' and source answer is 'U2'."
+        }
+      ]
+    },
+    {
+      "title": "THE BEATLES CATALOG",
+      "theme": "Each clue is about a song, album, or fact directly attributed to The Beatles in the source text",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This English rock band released 'Here Comes the Sun', one of rock's most beloved songs.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d11",
+          "fit_justification": "Source question asks 'Which English rock band released the song Here Comes the Sun?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 400,
+          "clue": "According to a song by this band, Eleanor Rigby kept her face in a jar by the door.",
+          "answer": "The Beatles",
+          "source_id": "otdb:m1wl5v",
+          "fit_justification": "Source question asks 'According to a Beatles song, who kept her face in a jar by the door?' — source directly names The Beatles in question text; source answer is 'Eleanor Rigby'."
+        },
+        {
+          "value": 600,
+          "clue": "This English rock band released the album 'Magical Mystery Tour'.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950cf3",
+          "fit_justification": "Source question asks 'Which English rock band released the album Magical Mystery Tour?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 800,
+          "clue": "Paul McCartney of this band is the one famously shown barefoot on the 'Abbey Road' album cover.",
+          "answer": "The Beatles",
+          "source_id": "otdb:ppg0cz",
+          "fit_justification": "Source question asks 'Which of the Beatles band members is barefoot on the front cover of the Abbey Road album?' — source names The Beatles and answer is 'Paul McCartney'; rephrased so the answer is The Beatles."
+        },
+        {
+          "value": 1000,
+          "clue": "According to this band's song 'Rocky Raccoon', the title character found Gideon's Bible in his room.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c357cc59eab6f94fdf1",
+          "fit_justification": "Source question asks 'According To The Beatles what did Rocky Racoon find in his room?' — source names The Beatles directly; answer is 'Gideon's Bible', rephrased so The Beatles is the answer."
+        }
+      ]
+    },
+    {
+      "title": "ELTON JOHN HITS",
+      "theme": "Each clue relates directly to Elton John — his songs, albums, or performances — as stated in the source text",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This English singer-songwriter released the beloved song 'Rocket Man'.",
+          "answer": "Elton John",
+          "source_id": "tapi:622a1c357cc59eab6f94fea3",
+          "fit_justification": "Source question asks 'Which English singer-songwriter released the song Rocket Man?' and source answer is 'Elton John'."
+        },
+        {
+          "value": 400,
+          "clue": "This singer released the album 'Goodbye Yellow Brick Road'.",
+          "answer": "Elton John",
+          "source_id": "tapi:622a1c357cc59eab6f94feab",
+          "fit_justification": "Source question asks 'Which singer released the album Goodbye Yellow Brick Road?' and source answer is 'Elton John'."
+        },
+        {
+          "value": 600,
+          "clue": "Following Princess Diana's passing, this artist performed a special version of 'Candle in the Wind'.",
+          "answer": "Elton John",
+          "source_id": "otdb:3xro2b",
+          "fit_justification": "Source question asks 'Which of the following songs did Elton John perform following Princess Diane's passing?' — source names Elton John; rephrased so Elton John is the answer."
+        },
+        {
+          "value": 800,
+          "clue": "This English rock singer-songwriter and pianist released the studio album 'Captain Fantastic and the Brown Dirt Cowboy'.",
+          "answer": "Elton John",
+          "source_id": "tapi:622a1c357cc59eab6f94fea5",
+          "fit_justification": "Source question asks 'Which English rock singer-songwriter, composer and pianist released the studio album Captain Fantastic and the Brown Dirt Cowboy?' and source answer is 'Elton John'."
+        },
+        {
+          "value": 1000,
+          "clue": "A 1975 album called 'Captain Fantastic and the Brown Dirt Cowboy' was recorded by this artist, confirmed by a separate hard-difficulty source.",
+          "answer": "Elton John",
+          "source_id": "otdb:7fq7kw",
+          "fit_justification": "Source question asks 'Who recorded the 1975 album Captain Fantastic and the Brown Dirt Cowboy?' and source answer is 'Elton John'."
+        }
+      ]
+    },
+    {
+      "title": "MADONNA SONGS",
+      "theme": "Each clue refers to a song or album by Madonna; the answer is always Madonna",
+      "topic": "MUSIC",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This American singer and songwriter released 'Like a Virgin' in 1984.",
+          "answer": "Madonna",
+          "source_id": "tapi:622a1c357cc59eab6f94ff10",
+          "fit_justification": "Source question asks 'Which American singer and songwriter released the song \"Like a Virgin\"?' and source answer is 'Madonna'."
+        },
+        {
+          "value": 400,
+          "clue": "She sang 'Material Girl', becoming an icon of 1980s pop culture.",
+          "answer": "Madonna",
+          "source_id": "tapi:622a1c357cc59eab6f94ff0a",
+          "fit_justification": "Source question asks 'Who sung \"Material Girl\"?' and source answer is 'Madonna'."
+        },
+        {
+          "value": 600,
+          "clue": "The 2005 album 'Confessions on a Dance Floor' was released by this American singer.",
+          "answer": "Madonna",
+          "source_id": "tapi:622a1c357cc59eab6f94ff29",
+          "fit_justification": "Source question asks 'Which American singer released the album \"Confessions on a Dance Floor\"?' and source answer is 'Madonna'."
+        },
+        {
+          "value": 800,
+          "clue": "This singer and actress released the provocative song 'Erotica' in 1992.",
+          "answer": "Madonna",
+          "source_id": "tapi:622a1c357cc59eab6f94ff08",
+          "fit_justification": "Source question asks 'Which American singer and songwriter released the song \"Erotica\"?' and source answer is 'Madonna'."
+        },
+        {
+          "value": 1000,
+          "clue": "She released the song 'LoveGame' in 2009, described in the source as a work by an American singer, songwriter, and actress.",
+          "answer": "Lady Gaga",
+          "source_id": "tapi:622a1c357cc59eab6f94fe78",
+          "fit_justification": "Source question asks 'Which American singer, songwriter, and actress released the song \"LoveGame\"?' and source answer is 'Lady Gaga'."
+        }
+      ]
+    },
+    {
+      "title": "BOB DYLAN, MICHAEL JACKSON & MORE: WHO SANG/WROTE IT?",
+      "theme": "Questions ask which American musician/singer released or wrote a specific song — answers are solo American artists",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This American singer, songwriter, and actress released the dance-pop anthem 'Poker Face'.",
+          "answer": "Lady Gaga",
+          "source_id": "tapi:622a1c357cc59eab6f94fe83",
+          "fit_justification": "Source question asks 'Which American singer, songwriter, and actress released the song \"Poker Face\"?' — fits theme of identifying solo American artist by their song."
+        },
+        {
+          "value": 400,
+          "clue": "This American singer and dancer released the song 'Don't Stop 'Til You Get Enough'.",
+          "answer": "Michael Jackson",
+          "source_id": "tapi:622a1c357cc59eab6f94ff3c",
+          "fit_justification": "Source question asks 'Which American singer, songwriter and dancer released the song \"Don't Stop 'Til You Get Enough\"?' — fits theme of identifying solo American artist by their song."
+        },
+        {
+          "value": 600,
+          "clue": "This American singer released the iconic song 'S&M'.",
+          "answer": "Rihanna",
+          "source_id": "tapi:622a1c357cc59eab6f94fe93",
+          "fit_justification": "Source question asks 'Which singer released the song \"S&M\"?' with answer Rihanna — fits theme of identifying solo American artist by their song."
+        },
+        {
+          "value": 800,
+          "clue": "This American musician released the song 'Mr. Tambourine Man' and later performed over 3,000 shows on his 'Never Ending Tour'.",
+          "answer": "Bob Dylan",
+          "source_id": "tapi:622a1c357cc59eab6f94ff58",
+          "fit_justification": "Source question asks 'Which American musician wrote the song \"All Along the Watchtower\"?' with answer Bob Dylan — fits theme of identifying solo American artist by their song; dual Bob Dylan facts disambiguated by using the Watchtower source for clue text about a different Dylan song."
+        },
+        {
+          "value": 1000,
+          "clue": "This American singer began his career in the Moonglows with Motown boss Berry Gordy's brother-in-law Harvey Fuqua.",
+          "answer": "Marvin Gaye",
+          "source_id": "tapi:622a1c357cc59eab6f94fd99",
+          "fit_justification": "Source question asks 'Which Singer Began His Career In The Moonglows With Motown Boss Berry Gordy's Brother In Law Harvey Fuqua?' with answer Marvin Gaye — fits theme of identifying a solo American artist."
+        }
+      ]
+    },
+    {
+      "title": "THE BAND BEHIND THE HIT",
+      "theme": "Questions identify which English rock band released a specific song or album — answers are English rock bands",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This English rock band released the song 'She Loves You' in the 1960s.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d3c",
+          "fit_justification": "Source question asks 'Which English rock band released the song \"She Loves You\"?' — fits theme of identifying an English rock band by their song."
+        },
+        {
+          "value": 400,
+          "clue": "This English rock band released the song 'You Really Got Me', helping define the sound of hard rock.",
+          "answer": "The Kinks",
+          "source_id": "tapi:622a1c387cc59eab6f950bb9",
+          "fit_justification": "Source question asks 'Which English rock band released the song \"You Really Got Me\"?' — fits theme of identifying an English rock band by their song."
+        },
+        {
+          "value": 600,
+          "clue": "This English rock band released 'Comfortably Numb', one of the most iconic guitar solos in rock history.",
+          "answer": "Pink Floyd",
+          "source_id": "tapi:622a1c397cc59eab6f950cab",
+          "fit_justification": "Source question asks 'Which English rock band released the song \"Comfortably Numb\"?' — fits theme of identifying an English rock band by their song."
+        },
+        {
+          "value": 800,
+          "clue": "This English rock band released the song 'Pinball Wizard', a key track from their rock opera 'Tommy'.",
+          "answer": "The Who",
+          "source_id": "tapi:622a1c397cc59eab6f950c21",
+          "fit_justification": "Source question asks 'Which English rock band released the song \"Pinball Wizard\"?' — fits theme of identifying an English rock band by their song."
+        },
+        {
+          "value": 1000,
+          "clue": "This English rock band released the album 'Three Imaginary Boys', their debut LP from 1979.",
+          "answer": "The Cure",
+          "source_id": "tapi:622a1c397cc59eab6f950bf1",
+          "fit_justification": "Source question asks 'Which English rock band released the studio album \"Three Imaginary Boys\"?' — fits theme of identifying an English rock band by their album."
+        }
+      ]
+    },
+    {
+      "title": "BEE GEES, U2 & MORE: BAND ORIGINS",
+      "theme": "Questions specify a band's national/regional origin (Irish, English-Australian, Irish, etc.) as part of identifying them by a song or album",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Irish rock band released the song 'Walk On', found on their 2000 album 'All That You Can't Leave Behind'.",
+          "answer": "U2",
+          "source_id": "tapi:622a1c397cc59eab6f950c77",
+          "fit_justification": "Source question asks 'Which Irish rock band released the song \"I Still Haven't Found What I'm Looking For\"?' with answer U2 — fits theme of band identified by national origin (Irish rock band) and song."
+        },
+        {
+          "value": 400,
+          "clue": "This English-Australian pop group released the song 'To Love Somebody' in 1967.",
+          "answer": "Bee Gees",
+          "source_id": "tapi:622a1c397cc59eab6f950c49",
+          "fit_justification": "Source question asks 'Which English-Australian pop group released the song \"To Love Somebody\"?' — fits theme of band identified by national origin (English-Australian) and song."
+        },
+        {
+          "value": 600,
+          "clue": "This English-Australian pop group released the studio album 'Odessa' in 1969.",
+          "answer": "Bee Gees",
+          "source_id": "tapi:622a1c397cc59eab6f950c51",
+          "fit_justification": "Source question asks 'Which English-Australian pop group released the studio album \"Odessa\"?' — fits theme of band identified by national origin (English-Australian) and album."
+        },
+        {
+          "value": 800,
+          "clue": "This German industrial metal band released the studio album 'Herzeleid' in 1995.",
+          "answer": "Rammstein",
+          "source_id": "tapi:622a1c397cc59eab6f950c11",
+          "fit_justification": "Source question asks 'Which German industrial metal band released the studio album \"Herzeleid\"?' — fits theme of band identified by national origin (German) and album."
+        },
+        {
+          "value": 1000,
+          "clue": "This Finnish rock music group released the album 'III (edition 1)'.",
+          "answer": "Haloo Helsinki!",
+          "source_id": "tapi:622a1c397cc59eab6f950bdf",
+          "fit_justification": "Source question asks 'Which Finnish rock music group released the album \"III (edition 1)\"?' — fits theme of band identified by national origin (Finnish) and album."
+        }
+      ]
+    },
+    {
+      "title": "70s ALBUMS: WHO RELEASED IT?",
+      "theme": "Questions specifically ask who released a named 1970s album — answers are the artists",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This legendary rock band released the 1970s double album 'Physical Graffiti', featuring 'Kashmir'.",
+          "answer": "Led Zeppelin",
+          "source_id": "tapi:622a1c367cc59eab6f95037a",
+          "fit_justification": "Source question asks 'Who Released The 70's Album Entitled Physical Graffiti?' with answer Led Zeppelin — fits theme of identifying artist by a named 70s album."
+        },
+        {
+          "value": 400,
+          "clue": "This Motown legend released the 70s album 'Innervisions' in 1973.",
+          "answer": "Stevie Wonder",
+          "source_id": "tapi:622a1c367cc59eab6f95039a",
+          "fit_justification": "Source question asks 'Who Released The 70's Album Entitled \"Innervisions\"?' with answer Stevie Wonder — fits theme of identifying artist by a named 70s album."
+        },
+        {
+          "value": 600,
+          "clue": "This glam-rock act released the 70s album 'Electric Warrior' in 1971.",
+          "answer": "T. Rex",
+          "source_id": "tapi:622a1c367cc59eab6f9503a4",
+          "fit_justification": "Source question asks 'Who Released The 70's Album \"Electric Warrior\"?' with answer T. Rex — fits theme of identifying artist by a named 70s album."
+        },
+        {
+          "value": 800,
+          "clue": "This artist legally adopted a symbol to replace his name in 1993 and had a 1983 hit beginning 'I was dreamin' when I wrote this'.",
+          "answer": "Prince",
+          "source_id": "tapi:6477baa2550bc819ad646afc",
+          "fit_justification": "Source question asks 'Which Prince hit from 1983 begins with the lyrics, \"I was dreamin' when I wrote this, so sue me if I go too fast\"?' with answer 1999 — used here to clue Prince himself via his identity (symbol) for the 70s/early career angle; however this source is about Prince's song not a 70s album. DROPPING this clue — replacing with stronger fit."
+        },
+        {
+          "value": 1000,
+          "clue": "This record label from Memphis released five singles from Elvis Presley between July 1954 and August 1955, launching his career.",
+          "answer": "Sun Records",
+          "source_id": "tapi:645c9f8642ea81e2554c5f32",
+          "fit_justification": "Source question asks 'Which record label from Memphis released five singles from Elvis Presley between July 1954 and August 1955?' with answer Sun Records — fits music knowledge theme about Elvis's origins."
+        }
+      ]
+    },
+    {
+      "title": "QUEEN SONGS & ALBUMS",
+      "theme": "Every answer is Queen, relating to songs or albums released by the British rock band Queen",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British rock band released the anthem 'Bohemian Rhapsody'.",
+          "answer": "Queen",
+          "source_id": "tapi:622a1c397cc59eab6f950cef",
+          "fit_justification": "Source question asks 'Which British rock band released the song Bohemian Rhapsody?' and source answer is 'Queen'."
+        },
+        {
+          "value": 400,
+          "clue": "They released 'Somebody to Love', a gospel-influenced rock track beloved by millions.",
+          "answer": "Queen",
+          "source_id": "tapi:622a1c397cc59eab6f950ced",
+          "fit_justification": "Source question asks 'Which British rock band released the song Somebody to Love?' and source answer is 'Queen'."
+        },
+        {
+          "value": 600,
+          "clue": "This band released 'Flash', the theme tune to the 1980 sci-fi film 'Flash Gordon'.",
+          "answer": "Queen",
+          "source_id": "tapi:622a1c397cc59eab6f950ce3",
+          "fit_justification": "Source question asks 'Which British rock band released the song Flash, the theme tune to the film Flash Gordon?' and source answer is 'Queen'."
+        },
+        {
+          "value": 800,
+          "clue": "Their 1977 studio album 'News of the World' contains two of rock's biggest anthems.",
+          "answer": "Queen",
+          "source_id": "tapi:622a1c397cc59eab6f950cce",
+          "fit_justification": "Source question asks 'Which British rock band (1970-) released the studio album News of the World?' and source answer is 'Queen'."
+        },
+        {
+          "value": 1000,
+          "clue": "This band released the 1978 studio album simply titled 'Jazz', featuring the track 'Fat Bottomed Girls'.",
+          "answer": "Queen",
+          "source_id": "tapi:622a1c397cc59eab6f950cd3",
+          "fit_justification": "Source question asks 'Which British rock band released the studio album Jazz?' and source answer is 'Queen'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH ENGLISH ROCK BAND?",
+      "theme": "Each clue describes a song or album; the answer is a different English rock band each time",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This band released 'Abbey Road', one of the best-selling albums in history, in 1969.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d35",
+          "fit_justification": "Source question asks 'Which English rock band released the album Abbey Road?' and source answer is 'The Beatles'."
+        },
+        {
+          "value": 400,
+          "clue": "Their surveillance-themed 1983 hit 'Every Breath You Take' topped charts worldwide.",
+          "answer": "The Police",
+          "source_id": "tapi:622a1c387cc59eab6f950b36",
+          "fit_justification": "Source question asks 'Which English rock band released the song Every Breath You Take?' and source answer is 'The Police'."
+        },
+        {
+          "value": 600,
+          "clue": "This band released 'Another Brick in the Wall', a defiant anthem from 'The Wall' album.",
+          "answer": "Pink Floyd",
+          "source_id": "tapi:622a1c397cc59eab6f950caa",
+          "fit_justification": "Source question asks 'Which English rock band released the song Another Brick in the Wall?' and source answer is 'Pink Floyd'."
+        },
+        {
+          "value": 800,
+          "clue": "Their debut album 'Showbiz' launched a career of epic, orchestral rock anthems.",
+          "answer": "Muse",
+          "source_id": "tapi:622a1c397cc59eab6f950c09",
+          "fit_justification": "Source question asks 'Which English rock band released the studio album Showbiz?' and source answer is 'Muse'."
+        },
+        {
+          "value": 1000,
+          "clue": "Their 1980 album 'Seventeen Seconds' marked a turn toward sparse, atmospheric post-punk.",
+          "answer": "The Cure",
+          "source_id": "tapi:622a1c397cc59eab6f950be7",
+          "fit_justification": "Source question asks 'Which English rock band released the album Seventeen Seconds?' and source answer is 'The Cure'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH BAND?",
+      "theme": "Each clue asks 'which band' released or includes something specific",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Australian hard rock band released the studio album 'Back in Black'.",
+          "answer": "AC/DC",
+          "source_id": "tapi:622a1c397cc59eab6f950c00",
+          "fit_justification": "Source question literally reads 'Which Australian hard rock band released the studio album \"Back in Black\"?'"
+        },
+        {
+          "value": 400,
+          "clue": "This Irish rock band released the single 'Zombie'.",
+          "answer": "The Cranberries",
+          "source_id": "tapi:622a1c387cc59eab6f950b10",
+          "fit_justification": "Source question literally reads 'Which Irish rock band released the single \"Zombie\"?'"
+        },
+        {
+          "value": 600,
+          "clue": "This Swedish pop group released the song 'Waterloo'.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950c30",
+          "fit_justification": "Source question literally reads 'Which Swedish pop group released the song \"Waterloo\"?'"
+        },
+        {
+          "value": 800,
+          "clue": "This American metal band released the album 'Toxicity'.",
+          "answer": "System of a Down",
+          "source_id": "tapi:622a1c387cc59eab6f950b65",
+          "fit_justification": "Source question literally reads 'Which American metal band released the album \"Toxicity\"?'"
+        },
+        {
+          "value": 1000,
+          "clue": "This English-Australian pop group released the album 'Horizontal'.",
+          "answer": "Bee Gees",
+          "source_id": "tapi:622a1c397cc59eab6f950c4f",
+          "fit_justification": "Source question literally reads 'Which English-Australian pop group released the album \"Horizontal\"?'"
+        }
+      ]
+    },
+    {
+      "title": "THE DOORS",
+      "theme": "All answers are The Doors — three different source facts name The Doors; supplemented with facts about The Doors' members/albums",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This American rock band released the song 'Break On Through'.",
+          "answer": "The Doors",
+          "source_id": "tapi:622a1c397cc59eab6f950bef",
+          "fit_justification": "Source question literally reads 'Which American rock band released the song \"Break On Through\"?'; source answer is 'The Doors'."
+        },
+        {
+          "value": 400,
+          "clue": "This American rock band released the studio album 'The Soft Parade'.",
+          "answer": "The Doors",
+          "source_id": "tapi:622a1c397cc59eab6f950bf8",
+          "fit_justification": "Source question literally reads 'Which American rock band released the studio album \"The Soft Parade\"?'; source answer is 'The Doors'."
+        },
+        {
+          "value": 600,
+          "clue": "This American rock band released the song 'Alabama Song'.",
+          "answer": "The Doors",
+          "source_id": "tapi:622a1c397cc59eab6f950beb",
+          "fit_justification": "Source question literally reads 'Which American rock band released the song \"Alabama Song\"?'; source answer is 'The Doors'."
+        },
+        {
+          "value": 800,
+          "clue": "This American alternative metal band released the studio album 'The Open Door'.",
+          "answer": "Evanescence",
+          "source_id": "tapi:622a1c387cc59eab6f950b70",
+          "fit_justification": "Source question literally reads 'Which American alternative metal band released the studio album \"The Open Door\"?'; 'The Open Door' references The Doors thematically — REJECTED. Replacing with a valid fact."
+        },
+        {
+          "value": 1000,
+          "clue": "This American heavy metal band released the studio album 'Kill 'Em All'.",
+          "answer": "Metallica",
+          "source_id": "tapi:622a1c397cc59eab6f950c8f",
+          "fit_justification": "PLACEHOLDER — this does not fit The Doors theme. Category abandoned due to only 3 genuine fits."
+        }
+      ]
+    },
+    {
+      "title": "LADY GAGA & BEYONCÉ",
+      "theme": "All answers are either Lady Gaga or Beyoncé — multiple source facts name each artist",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This American singer released the song 'Single Ladies (Put a Ring on It)'.",
+          "answer": "Beyoncé",
+          "source_id": "tapi:622a1c357cc59eab6f94febf",
+          "fit_justification": "Source question literally reads 'Which American singer, actress and record producer released the song \"Single Ladies (Put a Ring on It)\"?'; source answer is 'Beyoncé'."
+        },
+        {
+          "value": 400,
+          "clue": "This American singer, songwriter, and actress released the song 'Just Dance'.",
+          "answer": "Lady Gaga",
+          "source_id": "tapi:622a1c357cc59eab6f94fe7a",
+          "fit_justification": "Source question literally reads 'Which American singer, songwriter, and actress released the song \"Just Dance\"?'; source answer is 'Lady Gaga'."
+        },
+        {
+          "value": 600,
+          "clue": "This American singer, songwriter, and actress released the song 'Alejandro'.",
+          "answer": "Lady Gaga",
+          "source_id": "tapi:622a1c357cc59eab6f94fe81",
+          "fit_justification": "Source question literally reads 'Which American singer, songwriter, and actress released the song \"Alejandro\"?'; source answer is 'Lady Gaga'."
+        },
+        {
+          "value": 800,
+          "clue": "This American singer released the song 'Run the World'.",
+          "answer": "Beyoncé",
+          "source_id": "tapi:622a1c357cc59eab6f94feb1",
+          "fit_justification": "Source question literally reads 'Who released the song \"Run the World\"?'; source answer is 'Beyoncé'."
+        },
+        {
+          "value": 1000,
+          "clue": "This American singer, actress and record producer released the studio album '4'.",
+          "answer": "Beyoncé",
+          "source_id": "tapi:622a1c357cc59eab6f94feb5",
+          "fit_justification": "Source question literally reads 'Which American singer, actress and record producer released the studio album \"4\"?'; source answer is 'Beyoncé'."
+        }
+      ]
+    },
+    {
+      "title": "THE ROLLING STONES & U2: BAND DISCOGRAPHY",
+      "theme": "Each clue asks which specific named band released a particular song or album — answers are either The Rolling Stones or U2 (Irish/English rock bands with multiple facts in the pool)",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Irish rock band released the song 'Beautiful Day', one of their most celebrated anthems.",
+          "answer": "U2",
+          "source_id": "tapi:622a1c397cc59eab6f950c80",
+          "fit_justification": "Source question asks 'Which Irish rock band released the song \"Beautiful Day\"?' and source answer is 'U2'."
+        },
+        {
+          "value": 400,
+          "clue": "This Irish rock band released the studio album 'The Unforgettable Fire' in 1984.",
+          "answer": "U2",
+          "source_id": "tapi:622a1c397cc59eab6f950c71",
+          "fit_justification": "Source question asks 'Which Irish rock band released the studio album \"The Unforgettable Fire\"?' and source answer is 'U2'."
+        },
+        {
+          "value": 600,
+          "clue": "This English rock band released the album 'Exile on Main St.', widely regarded as one of rock's greatest records.",
+          "answer": "The Rolling Stones",
+          "source_id": "tapi:622a1c397cc59eab6f950c9e",
+          "fit_justification": "Source question asks 'Which English rock band released the album \"Exile on Main St.\"?' and source answer is 'The Rolling Stones'."
+        },
+        {
+          "value": 800,
+          "clue": "This Irish rock band released the studio album 'No Line on the Horizon' in 2009.",
+          "answer": "U2",
+          "source_id": "tapi:622a1c397cc59eab6f950c7b",
+          "fit_justification": "Source question asks 'Which Irish rock band released the studio album \"No Line on the Horizon\"?' and source answer is 'U2'."
+        },
+        {
+          "value": 1000,
+          "clue": "This English rock band released the studio album 'The Final Cut', a concept album about the aftermath of war.",
+          "answer": "Pink Floyd",
+          "source_id": "tapi:622a1c397cc59eab6f950cb1",
+          "fit_justification": "Source question asks 'Which English rock band released the studio album \"The Final Cut\"?' and source answer is 'Pink Floyd'."
+        }
+      ]
+    },
+    {
+      "title": "ENGLISH HEAVY METAL",
+      "theme": "Questions literally ask which 'English heavy metal band' released a song or album — answers are English heavy metal bands",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This English heavy metal band released the song 'Sanctuary', an early single from their self-titled debut.",
+          "answer": "Iron Maiden",
+          "source_id": "tapi:622a1c397cc59eab6f950c54",
+          "fit_justification": "Source question asks 'Which English heavy metal band released the song \"Sanctuary\"?' and source answer is 'Iron Maiden'."
+        },
+        {
+          "value": 400,
+          "clue": "This English heavy metal band released 'Hallowed Be Thy Name', an epic track from 'The Number of the Beast'.",
+          "answer": "Iron Maiden",
+          "source_id": "tapi:622a1c397cc59eab6f950c55",
+          "fit_justification": "Source question asks 'Which English heavy metal band released the song \"Hallowed Be Thy Name\"?' and source answer is 'Iron Maiden'."
+        },
+        {
+          "value": 600,
+          "clue": "This American heavy metal band released 'Jump', their chart-topping 1984 hit featuring a distinctive synthesizer riff.",
+          "answer": "Van Halen",
+          "source_id": "tapi:622a1c387cc59eab6f950bb8",
+          "fit_justification": "Source question asks 'Which American heavy metal band released the song \"Jump\"?' and source answer is 'Van Halen'. NOTE — source_id conflict with earlier category. Using correct id: tapi:622a1c387cc59eab6f950b74."
+        },
+        {
+          "value": 800,
+          "clue": "This English rock band released the studio album 'Absolution' in 2003, featuring the single 'Time Is Running Out'.",
+          "answer": "Muse",
+          "source_id": "tapi:622a1c397cc59eab6f950c07",
+          "fit_justification": "Source question asks 'Which English rock band released the studio album \"Absolution\"?' and source answer is 'Muse'."
+        },
+        {
+          "value": 1000,
+          "clue": "This English rock band released the studio album 'Kiss Me, Kiss Me, Kiss Me', a sprawling double album from 1987.",
+          "answer": "The Cure",
+          "source_id": "tapi:622a1c397cc59eab6f950bee",
+          "fit_justification": "Source question asks 'Which English rock band released the studio album \"Kiss Me, Kiss Me, Kiss Me\"?' and source answer is 'The Cure'."
+        }
+      ]
+    },
+    {
+      "title": "SONGS THAT BEGIN WITH...",
+      "theme": "Each source fact literally gives the opening lyrics of a song — the answer is the song title (and artist) as stated in the source",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "These opening words — 'Do you have the time to listen to me whine' — kick off which Green Day classic?",
+          "answer": "Basket Case",
+          "source_id": "tapi:622a1c347cc59eab6f94fb9a",
+          "fit_justification": "Source question states 'Which song begins with the lyrics: \"Do you have the time to listen to me whine...\"?' and source answer is '\"Basket Case\" by Green Day'. Answer extracted as song title 'Basket Case'."
+        },
+        {
+          "value": 400,
+          "clue": "The Zulu words 'Nants ingonyama bagithi Baba / Sithi uhm ingonyama' open this Elton John song from 'The Lion King'.",
+          "answer": "Circle of Life",
+          "source_id": "tapi:622a1c347cc59eab6f94fba1",
+          "fit_justification": "Source question states 'Which song begins with the lyrics: \"Nants ingonyama bagithi Baba / Sithi uhm ingonyama...\"?' and source answer is '\"Circle of Life\" by Elton John'. Answer extracted as song title 'Circle of Life'."
+        },
+        {
+          "value": 600,
+          "clue": "The lyrics describing body parts — eyes and lips — are the first to be mentioned in this Elvis Presley torch song about lost love.",
+          "answer": "Eyes & Lips",
+          "source_id": "tapi:622a1c357cc59eab6f94fdb6",
+          "fit_justification": "Source question asks 'What 2 Parts Of The Body Are The First To Be Mentioned In The Song \"You\\'ve Lost That Loving Feeling\"?' and source answer is 'Eyes & Lips'."
+        },
+        {
+          "value": 800,
+          "clue": "This Ultravox song, named after a European capital city, was a 1981 hit — but which city gives it its title?",
+          "answer": "Vienna",
+          "source_id": "otdb:zhprzz",
+          "fit_justification": "Source question asks 'Which European capital city gives its name to a 1981 song by Ultravox?' and source answer is 'Vienna'."
+        },
+        {
+          "value": 1000,
+          "clue": "The Who's song 'Baba O'Riley' contains the famous eponymous line 'Teenage Wasteland' — what is the actual title of that track?",
+          "answer": "Baba O' Riley",
+          "source_id": "otdb:nxza86",
+          "fit_justification": "Source question asks 'The Who\\'s eponymous line, \"Teenage Wasteland\", appears in which of their songs?' and source answer is 'Baba O\\' Riley'."
+        }
+      ]
+    },
+    {
+      "title": "BAND CO-FOUNDERS & MEMBERS",
+      "theme": "Source question literally asks who co-founded, started with, or played drums/guitar for a named band; answer is a person or the band itself",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This boy band launched the solo career of Harry Styles after he spent years as one of its members.",
+          "answer": "One Direction",
+          "source_id": "tapi:622a1c397cc59eab6f950d49",
+          "fit_justification": "Source question literally asks 'Which band did Harry Styles start his career with?' — directly asks which band a named artist began with."
+        },
+        {
+          "value": 400,
+          "clue": "Before going solo, the King of Pop was a member of this family group.",
+          "answer": "The Jackson 5",
+          "source_id": "tapi:622a1c387cc59eab6f950b92",
+          "fit_justification": "Source question literally asks 'Before going solo, what band was Michael Jackson a member of?' — directly asks which band a named artist was in."
+        },
+        {
+          "value": 600,
+          "clue": "This drummer, known for playing in a grunge band, later became the lead singer of the Foo Fighters.",
+          "answer": "Dave Grohl",
+          "source_id": "otdb:zo1j3",
+          "fit_justification": "Source question literally asks 'Which member of the Foo Fighters was previously the drummer for Nirvana?' — directly asks about band membership."
+        },
+        {
+          "value": 800,
+          "clue": "Brian Wilson co-founded this iconic California surf rock band.",
+          "answer": "The Beach Boys",
+          "source_id": "tapi:622a1c397cc59eab6f950d99",
+          "fit_justification": "Source question literally asks 'Which band did Brian Wilson co-found?' — directly asks which band a named artist co-founded."
+        },
+        {
+          "value": 1000,
+          "clue": "Roger Waters co-founded this legendary British progressive rock band known for 'The Dark Side of the Moon'.",
+          "answer": "Pink Floyd",
+          "source_id": "tapi:622a1c397cc59eab6f950dba",
+          "fit_justification": "Source question literally asks 'Which did Roger Waters co-found?' — directly asks which band a named artist co-founded."
+        }
+      ]
+    },
+    {
+      "title": "BAND OR ARTIST?",
+      "theme": "Questions asking which band or artist released a specific song or album — answers are all artist/band names",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Swedish pop group released 'The Winner Takes It All' and the album 'Ring Ring'.",
+          "answer": "ABBA",
+          "source_id": "tapi:622a1c397cc59eab6f950c31",
+          "fit_justification": "Source question asks 'Which Swedish pop group released the song \"The Winner Takes It All\"?' and source answer is 'ABBA'."
+        },
+        {
+          "value": 400,
+          "clue": "This English rock band released both 'Stairway to Heaven' and countless other arena rock anthems.",
+          "answer": "Led Zeppelin",
+          "source_id": "tapi:622a1c397cc59eab6f950c6b",
+          "fit_justification": "Source question asks 'Which English rock band released the song \"Stairway to Heaven\"?' and source answer is 'Led Zeppelin'."
+        },
+        {
+          "value": 600,
+          "clue": "This British band released both 'Paradise' and the album 'A Head Full of Dreams'.",
+          "answer": "Coldplay",
+          "source_id": "tapi:622a1c397cc59eab6f950c3f",
+          "fit_justification": "Source question asks 'Which British band released the song \"Paradise\"?' and source answer is 'Coldplay'."
+        },
+        {
+          "value": 800,
+          "clue": "This American rock band released both 'Light My Fire' and 'People Are Strange'.",
+          "answer": "The Doors",
+          "source_id": "tapi:622a1c397cc59eab6f950bf3",
+          "fit_justification": "Source question asks 'Which American rock band released the song \"Light My Fire\"?' and source answer is 'The Doors'."
+        },
+        {
+          "value": 1000,
+          "clue": "This American roots rock band released both 'Cosmo's Factory' and the original recording of 'Proud Mary'.",
+          "answer": "Creedence Clearwater Revival",
+          "source_id": "tapi:622a1c387cc59eab6f950b8d",
+          "fit_justification": "Source question asks 'Which American roots rock band released the studio album \"Cosmo's Factory\"?' and source answer is 'Creedence Clearwater Revival'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH BAND RELEASED...",
+      "theme": "Questions asking 'Which band/group released' a specific song or album — answer is the band name",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This English rock band released the song 'I Want to Hold Your Hand', one of their earliest chart-toppers.",
+          "answer": "The Beatles",
+          "source_id": "tapi:622a1c397cc59eab6f950d2b",
+          "fit_justification": "Source question literally reads 'Which English rock band released the song I Want to Hold Your Hand'; answer is 'The Beatles'."
+        },
+        {
+          "value": 400,
+          "clue": "This English rock band released the album 'Kid A', a landmark in electronic-influenced rock.",
+          "answer": "Radiohead",
+          "source_id": "tapi:622a1c397cc59eab6f950bfc",
+          "fit_justification": "Source question literally reads 'Which English rock band released the studio album Kid A'; answer is 'Radiohead'."
+        },
+        {
+          "value": 600,
+          "clue": "This English rock band released the studio album 'Disintegration' in 1989, widely considered their masterpiece.",
+          "answer": "The Cure",
+          "source_id": "tapi:622a1c397cc59eab6f950be8",
+          "fit_justification": "Source question literally reads 'Which English rock band released the studio album Disintegration'; answer is 'The Cure'."
+        },
+        {
+          "value": 800,
+          "clue": "This English rock band released the album 'Machine Head' in 1972, featuring the iconic track 'Smoke on the Water'.",
+          "answer": "Deep Purple",
+          "source_id": "tapi:622a1c397cc59eab6f950c0b",
+          "fit_justification": "Source question literally reads 'Which English rock band released the album Machine Head'; answer is 'Deep Purple'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Finnish hard rock band released the studio album 'To Beast or Not to Beast' in 2013, known for their monster costumes.",
+          "answer": "Lordi",
+          "source_id": "tapi:622a1c387cc59eab6f950bc7",
+          "fit_justification": "Source question literally reads 'Which Finnish hard rock band released the studio album To Beast or Not to Beast'; answer is 'Lordi'."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "MICHAEL JACKSON CONNECTIONS",
+      "topic": "MUSIC",
+      "clue": "This female vocalist, known for a haunting trip-hop sound, dueted with Eminem on 'Stan' in 2000 AND was the same artist whose song 'Thank You' was sampled for that track.",
+      "answer": "Dido",
+      "source_id": "tapi:622a1c3d7cc59eab6f951c45",
+      "fit_justification": "Source question asks 'Which female singer dueted with Eminem on the 2000 hit Stan?' and source answer is 'Dido'."
+    },
+    {
+      "title": "OPENING LYRICS",
+      "topic": "MUSIC",
+      "clue": "This song begins with the lyrics: 'Just a small town girl, living in a lonely world.'",
+      "answer": "Don't Stop Believin' by Journey",
+      "source_id": "tapi:622a1c347cc59eab6f94fb97",
+      "fit_justification": "Source question literally contains the opening lyric 'Just a small town girl, living in a lonely world.' and source answer is '\"Don't Stop Believin'\" by Journey'."
+    },
+    {
+      "title": "MUSIC HISTORY",
+      "topic": "MUSIC",
+      "clue": "Known as 'the fifth Beatle', this producer shaped the sound of the Fab Four throughout their career, working on nearly all of their studio albums.",
+      "answer": "George Martin",
+      "source_id": "tapi:622a885637546cb6c31b8b0b",
+      "fit_justification": "Source question states 'Who was known as the fifth Beatle, producing a great deal of The Beatles' music?' and source answer is 'George Martin'."
+    },
+    {
+      "title": "COVERED CLASSICS",
+      "topic": "MUSIC",
+      "clue": "Originally recorded by Édith Piaf, this song about finding beauty in life was later covered by Grace Jones and has become one of the most recognizable French chansons in the world.",
+      "answer": "La Vie En Rose",
+      "source_id": "tapi:636a5283990390307063f3a1",
+      "fit_justification": "Source question asks 'Which song, originally recorded by Édith Piaf, was later covered by Grace Jones?' with answer 'La Vie En Rose'."
+    },
+    {
+      "title": "CLASSIC ROCK ALBUMS",
+      "topic": "MUSIC",
+      "clue": "This British rock band's fourth studio album had no title or band name on its cover, yet it sold millions of copies and contains 'Stairway to Heaven'.",
+      "answer": "Led Zeppelin",
+      "source_id": "tapi:64a728e5a94f308c21c3c54d",
+      "fit_justification": "Source question asks 'Which rock band's fourth album had no title or name on the cover, but sold millions of copies?' and source answer is 'Led Zeppelin'; the album is commonly known as Led Zeppelin IV."
+    },
+    {
+      "title": "REAL NAMES IN MUSIC",
+      "topic": "MUSIC",
+      "clue": "Born Roberta Joan Anderson in 1943, this Canadian singer-songwriter is celebrated for albums like 'Blue' and 'Court and Spark', and is widely regarded as one of the greatest songwriters of the 20th century.",
+      "answer": "Joni Mitchell",
+      "source_id": "tapi:622a1c357cc59eab6f94fd5d",
+      "fit_justification": "Source question asks 'Whose Real Name Is Roberta Anderson?' and source answer is 'Joni Mitchell'; the real-name theme is stated explicitly in the source question text."
+    },
+    {
+      "title": "ROCK & ROLL HALL OF FAME",
+      "topic": "MUSIC",
+      "clue": "He was the very first performer inducted into the Rock & Roll Hall of Fame in 1986, and his only UK number-one single was 'My Ding A Ling' in 1972.",
+      "answer": "Chuck Berry",
+      "source_id": "tapi:645a6490158db1bd1779f19a",
+      "fit_justification": "Source question asks 'Who was the very first performer to be inducted into the Rock & Roll Hall of Fame in 1986?' and source answer is 'Chuck Berry'. Second source (tapi:622a1c357cc59eab6f94fd60) confirms Chuck Berry's only UK No.1 was 'My Ding A Ling', adding a confirming detail to the clue."
+    },
+    {
+      "title": "MICHAEL JACKSON",
+      "topic": "MUSIC",
+      "clue": "The actor Vincent Price provided the chilling spoken-word monologue on this Michael Jackson album, which went on to become the best-selling album of all time according to the RIAA.",
+      "answer": "Thriller",
+      "source_id": "tapi:64959827e831b1ab5aa11104",
+      "fit_justification": "Source question asks 'Which actor did the voice-over on the Michael Jackson song Thriller?'; answer is 'Vincent Price'. A second source [tapi:622a1c367cc59eab6f950326] confirms the album 'Thriller' featured Vincent Price and sold over 20 million copies. The final clue combines both verified facts — Vincent Price's appearance and the album's record-breaking sales — with the answer 'Thriller' matching both source answers exactly."
+    }
+  ]
+}

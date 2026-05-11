@@ -1,0 +1,1694 @@
+{
+  "batch_id": "20260511-025323-literature",
+  "generated_at": "2026-05-11T02:53:23.809Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "LITERATURE",
+  "categories": [
+    {
+      "title": "IN WHICH BOOK DOES … APPEAR?",
+      "theme": "Source questions all ask 'In which book' or 'In which book series' a named character appears; answer is the book or series title",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This beloved series by J.K. Rowling is home to the young wizard Hagrid befriends on Privet Drive.",
+          "answer": "Harry Potter",
+          "source_id": "tapi:622a1c3a7cc59eab6f95139d",
+          "fit_justification": "Source question reads 'In which book series does Hagrid appear?' and source answer is 'Harry Potter'."
+        },
+        {
+          "value": 400,
+          "clue": "Gloomy Eeyore the donkey lives in this A.A. Milne children's classic.",
+          "answer": "Winnie the Pooh",
+          "source_id": "tapi:622a1c347cc59eab6f94f953",
+          "fit_justification": "Source question reads 'Which book contains the character Eeyore?' and source answer is 'Winnie the Pooh'."
+        },
+        {
+          "value": 600,
+          "clue": "The March sisters — Meg, Beth, Amy, and Jo — populate this Louisa May Alcott novel.",
+          "answer": "Little Women",
+          "source_id": "tapi:622a1c3b7cc59eab6f9513c0",
+          "fit_justification": "Source question reads 'In which book does Jo March appear?' and source answer is 'Little Women'."
+        },
+        {
+          "value": 800,
+          "clue": "Stream-of-consciousness giant of Irish literature, this novel features the wandering thoughts of Leopold Bloom on a single Dublin day.",
+          "answer": "Ulysses",
+          "source_id": "tapi:622a1c347cc59eab6f94f997",
+          "fit_justification": "Source question reads 'Which book contains the character Leopold Bloom?' and source answer is 'Ulysses'."
+        },
+        {
+          "value": 1000,
+          "clue": "Wang Xifeng, a sharp-tongued noblewoman, is a central figure in this sprawling 18th-century Chinese classic.",
+          "answer": "Dream of the Red Chamber",
+          "source_id": "tapi:622a1c367cc59eab6f9501a1",
+          "fit_justification": "Source question reads 'In which book does Wang Xifeng appear?' and source answer is 'Dream of the Red Chamber'."
+        }
+      ]
+    },
+    {
+      "title": "CHARLES DICKENS NOVELS",
+      "theme": "All clues relate to works by or characters from Charles Dickens; answers are Dickens novel titles or Dickens-related facts",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Dickens's festive tale 'A Christmas Carol', this is the total number of spirits — including Jacob Marley — that visit Ebenezer Scrooge.",
+          "answer": "4",
+          "source_id": "tapi:622a1c3d7cc59eab6f951cb6",
+          "fit_justification": "Source question reads 'In Charles Dickens' A Christmas Carol, how many different ghosts visited Scrooge?' and source answer is '4'; Charles Dickens is named explicitly."
+        },
+        {
+          "value": 400,
+          "clue": "Jack Dawkins goes by this street-savvy nickname in Dickens's 'Oliver Twist'.",
+          "answer": "The Artful Dodger",
+          "source_id": "otdb:1pc308j",
+          "fit_justification": "Source question reads 'By what nickname is Jack Dawkins known in the Charles Dickens novel, Oliver Twist?' and source answer is 'The Artful Dodger'; Charles Dickens is named explicitly."
+        },
+        {
+          "value": 600,
+          "clue": "This Dickens novel follows the orphan Pip, who receives mysterious funds from a secret benefactor.",
+          "answer": "Great Expectations",
+          "source_id": "tapi:622a1c397cc59eab6f950eeb",
+          "fit_justification": "Source question reads 'Which author wrote Great Expectations?' and source answer is 'Charles Dickens'; the Dickens authorship is stated in the source."
+        },
+        {
+          "value": 800,
+          "clue": "This Dickens novel, named after a London court of law, opens with one of the longest lawsuit cases in English fiction.",
+          "answer": "Bleak House",
+          "source_id": "tapi:622a1c397cc59eab6f950ee4",
+          "fit_justification": "Source question reads 'Which author wrote Bleak House?' and source answer is 'Charles Dickens'."
+        },
+        {
+          "value": 1000,
+          "clue": "Abel Magwitch, the fearsome convict who secretly becomes Pip's benefactor, appears in this Dickens novel.",
+          "answer": "Great Expectations",
+          "source_id": "otdb:1popkvu",
+          "fit_justification": "Source question reads 'Abel Magwitch is a character from which Charles Dickens novel?' and source answer is 'Great Expectations'; Charles Dickens is named explicitly."
+        }
+      ]
+    },
+    {
+      "title": "SHAKESPEARE",
+      "theme": "All clues concern Shakespeare's plays — characters, quotes, or titles",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This character utters 'But, soft! what light through yonder window breaks?' upon spying his beloved on her balcony.",
+          "answer": "Romeo",
+          "source_id": "tapi:622a1c367cc59eab6f950169",
+          "fit_justification": "Source question reads 'Who said But, soft! what light through yonder window breaks?' and source answer is 'Romeo'; the quote is from Shakespeare's Romeo and Juliet."
+        },
+        {
+          "value": 400,
+          "clue": "'Double, double toil and trouble, Fire burn, and cauldron bubble' are lines spoken by the three witches in this Scottish tragedy.",
+          "answer": "Macbeth",
+          "source_id": "tapi:622a1c377cc59eab6f950450",
+          "fit_justification": "Source question reads 'Double, double toil and trouble, Fire burn, and cauldron bubble. Comes from which of Shakespeare's plays?' and source answer is 'Macbeth'; Shakespeare is named explicitly."
+        },
+        {
+          "value": 600,
+          "clue": "Laertes, the vengeful brother of Ophelia, appears in this Shakespearean tragedy.",
+          "answer": "Hamlet",
+          "source_id": "tapi:622a1c367cc59eab6f950196",
+          "fit_justification": "Source question reads 'In which Shakespearean tragedy does Laertes appear?' and source answer is 'Hamlet'; 'Shakespearean' is stated explicitly."
+        },
+        {
+          "value": 800,
+          "clue": "The lines 'And thereby hangs a tale' and 'All the world's a stage' both come from this Shakespearean comedy.",
+          "answer": "As You Like It",
+          "source_id": "tapi:645b69d8f09106226db2355f",
+          "fit_justification": "Source question reads 'From which Shakespearean comedy do the lines And thereby hangs a tale and All the world's a stage come?' and source answer is 'As You Like It'; 'Shakespearean comedy' is stated explicitly."
+        },
+        {
+          "value": 1000,
+          "clue": "Brutus is notably absent from this comedy's cast — the play features Titania, Oberon, and Puck instead.",
+          "answer": "A Midsummer Night's Dream",
+          "source_id": "tapi:63afff832d1dcedfbb654557",
+          "fit_justification": "Source question reads 'Which of the following characters does not appear in Shakespeare's A Midsummer Night's Dream?' with answer 'Brutus'; Shakespeare's play title is stated explicitly in the source."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE IT?",
+      "theme": "Source questions literally ask 'Which author wrote [title]?' — answers are author names",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author penned the beloved holiday ghost story 'A Christmas Carol'.",
+          "answer": "Charles Dickens",
+          "source_id": "tapi:622a1c397cc59eab6f950ef2",
+          "fit_justification": "Source question literally reads 'Which author wrote A Christmas Carol?' and source answer is 'Charles Dickens'."
+        },
+        {
+          "value": 400,
+          "clue": "She wrote 'Mansfield Park', one of her six major novels of manners set in Georgian England.",
+          "answer": "Jane Austen",
+          "source_id": "tapi:622a1c397cc59eab6f950e2f",
+          "fit_justification": "Source question literally reads 'Which author wrote Mansfield Park?' and source answer is 'Jane Austen'."
+        },
+        {
+          "value": 600,
+          "clue": "This author wrote 'Dune', the epic 1965 science-fiction saga set on the desert planet Arrakis.",
+          "answer": "Frank Herbert",
+          "source_id": "tapi:622a1c397cc59eab6f950e22",
+          "fit_justification": "Source question literally reads 'Which author wrote Dune?' and source answer is 'Frank Herbert'."
+        },
+        {
+          "value": 800,
+          "clue": "This French author penned 'The Vicomte of Bragelonne: Ten Years Later', the final volume of his Three Musketeers saga.",
+          "answer": "Alexandre Dumas",
+          "source_id": "tapi:622a1c397cc59eab6f950ea1",
+          "fit_justification": "Source question literally reads 'Which author wrote The Vicomte of Bragelonne: Ten Years Later?' and source answer is 'Alexandre Dumas'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Scandinavian author wrote 'The Brothers Lionheart', a 1973 Swedish fantasy novel for children.",
+          "answer": "Astrid Lindgren",
+          "source_id": "tapi:622a1c397cc59eab6f950f09",
+          "fit_justification": "Source question literally reads 'Which author wrote The Brothers Lionheart?' and source answer is 'Astrid Lindgren'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH BOOK CONTAINS THIS CHARACTER?",
+      "theme": "Source questions ask 'Which book contains the character [name]?' — answers are book titles",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This dystopian George Orwell novel contains the character 'Big Brother'.",
+          "answer": "1984",
+          "source_id": "tapi:622a1c347cc59eab6f94f96f",
+          "fit_justification": "Source question literally reads 'Which book contains the character Big Brother?' and source answer is '1984'."
+        },
+        {
+          "value": 400,
+          "clue": "This Harper Lee novel contains the character 'Atticus Finch', a lawyer defending a wrongly accused Black man in the American South.",
+          "answer": "To Kill A Mockingbird",
+          "source_id": "tapi:622a1c347cc59eab6f94f9a3",
+          "fit_justification": "Source question literally reads 'Which book contains the character Atticus Finch?' and source answer is 'To Kill A Mockingbird'."
+        },
+        {
+          "value": 600,
+          "clue": "This Alice Walker novel contains the character 'Celie', a young Black woman in the early 20th-century American South.",
+          "answer": "The Color Purple",
+          "source_id": "tapi:622a1c347cc59eab6f94f950",
+          "fit_justification": "Source question literally reads 'Which book contains the character Celie?' and source answer is 'The Color Purple'."
+        },
+        {
+          "value": 800,
+          "clue": "This Franz Kafka novel contains the character 'Joseph K.', who is arrested and prosecuted by a remote, inaccessible authority.",
+          "answer": "The Trial",
+          "source_id": "tapi:622a1c347cc59eab6f94f95c",
+          "fit_justification": "Source question literally reads 'Which book contains the character Joseph K.?' and source answer is 'The Trial'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Ford Madox Ford novel contains the character 'Christopher Tietjens', an English gentleman navigating World War I.",
+          "answer": "Parade's End",
+          "source_id": "tapi:622a1c347cc59eab6f94f963",
+          "fit_justification": "Source question literally reads 'Which book contains the character Christopher Tietjens?' and source answer is 'Parade's End'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE IT?",
+      "theme": "Source questions ask 'Which author wrote [title]?' — identify the author",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author wrote 'Twenty Thousand Leagues Under the Sea' and 'Around the World in 80 Days'.",
+          "answer": "Jules Verne",
+          "source_id": "tapi:622a1c397cc59eab6f950f54",
+          "fit_justification": "Source question asks 'Which author wrote Twenty Thousand Leagues Under the Sea?' and source answer is 'Jules Verne'."
+        },
+        {
+          "value": 400,
+          "clue": "This author wrote 'Dracula', the 1897 Gothic horror novel.",
+          "answer": "Bram Stoker",
+          "source_id": "tapi:622a1c397cc59eab6f950dc5",
+          "fit_justification": "Source question asks 'Which author wrote Dracula?' and source answer is 'Bram Stoker'."
+        },
+        {
+          "value": 600,
+          "clue": "This author wrote 'Do Androids Dream of Electric Sheep?', the sci-fi novel that inspired Blade Runner.",
+          "answer": "Philip K. Dick",
+          "source_id": "tapi:622a1c397cc59eab6f950ef6",
+          "fit_justification": "Source question asks 'Which author wrote Do Androids Dream of Electric Sheep?' and source answer is 'Philip K. Dick'."
+        },
+        {
+          "value": 800,
+          "clue": "This author wrote 'Brave New World', the 1932 dystopian novel set in a futuristic World State.",
+          "answer": "Aldous Huxley",
+          "source_id": "tapi:622a1c397cc59eab6f950de2",
+          "fit_justification": "Source question asks 'Which author wrote Brave New World?' and source answer is 'Aldous Huxley'."
+        },
+        {
+          "value": 1000,
+          "clue": "This author wrote 'And Quiet Flows the Don', the epic Nobel Prize-winning novel of Cossack life.",
+          "answer": "Mikhail Sholokhov",
+          "source_id": "tapi:622a1c397cc59eab6f950dde",
+          "fit_justification": "Source question asks 'Which author wrote And Quiet Flows the Don?' and source answer is 'Mikhail Sholokhov'."
+        }
+      ]
+    },
+    {
+      "title": "IN WHICH BOOK DOES THIS CHARACTER APPEAR?",
+      "theme": "Source questions ask 'In which book does [character] appear?' — identify the book",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the book where Bilbo Baggins, the reluctant adventure-seeking hobbit, first appears.",
+          "answer": "The Hobbit",
+          "source_id": "tapi:622a1c3b7cc59eab6f9513b2",
+          "fit_justification": "Source question asks 'In which book does Bilbo Baggins appear?' and source answer is 'The Hobbit'."
+        },
+        {
+          "value": 400,
+          "clue": "Humbert Humbert, the unreliable narrator obsessed with a young girl, appears in this controversial Nabokov novel.",
+          "answer": "Lolita",
+          "source_id": "tapi:622a1c3b7cc59eab6f9513ae",
+          "fit_justification": "Source question asks 'In which book does Humbert Humbert appear?' and source answer is 'Lolita'."
+        },
+        {
+          "value": 600,
+          "clue": "Eugene Henderson, a restless millionaire who travels to Africa seeking meaning, appears in this Saul Bellow novel.",
+          "answer": "Henderson the Rain King",
+          "source_id": "tapi:622a1c347cc59eab6f94f97f",
+          "fit_justification": "Source question asks 'Which book contains the character Eugene Henderson?' and source answer is 'Henderson the Rain King'."
+        },
+        {
+          "value": 800,
+          "clue": "Bigger Thomas, a young Black man in 1930s Chicago whose life turns violent, appears in this Richard Wright novel.",
+          "answer": "Native Son",
+          "source_id": "tapi:622a1c347cc59eab6f94f98f",
+          "fit_justification": "Source question asks 'Which book contains the character Bigger Thomas?' and source answer is 'Native Son'."
+        },
+        {
+          "value": 1000,
+          "clue": "Neddy Merrill, a suburbanite who decides to swim home through neighbors' pools, appears in this John Cheever work.",
+          "answer": "The Swimmer",
+          "source_id": "tapi:622a1c347cc59eab6f94f977",
+          "fit_justification": "Source question asks 'Which book contains the character Neddy Merrill?' and source answer is 'The Swimmer'."
+        }
+      ]
+    },
+    {
+      "title": "SHAKESPEARE",
+      "theme": "Questions whose literal text references Shakespeare, his plays, or his characters",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the Shakespeare play that opens with three witches gathered on a blasted heath.",
+          "answer": "Macbeth",
+          "source_id": "tapi:622a1c367cc59eab6f950177",
+          "fit_justification": "Source question asks 'Which Shakespeare play opens with the 3 Witches?' and source answer is 'Macbeth'."
+        },
+        {
+          "value": 400,
+          "clue": "'Now is the winter of our discontent' is the opening line of this Shakespearean play about a scheming, hunchbacked king.",
+          "answer": "Richard III",
+          "source_id": "tapi:622a1c3a7cc59eab6f95136e",
+          "fit_justification": "Source question states 'Now is the winter of our discontent is a line from which Shakespearian play?' and source answer is 'Richard III'."
+        },
+        {
+          "value": 600,
+          "clue": "In Shakespeare's 'The Tempest', this character is described as 'a howling monster', 'a most scurvy monster', and 'some monster of the isle'.",
+          "answer": "Caliban",
+          "source_id": "tapi:646089a9de964ebc39016c6e",
+          "fit_justification": "Source question references Shakespeare's 'The Tempest' and its monster descriptions, with source answer 'Caliban'."
+        },
+        {
+          "value": 800,
+          "clue": "Owen Glendower, a Welsh rebel leader, appeared as a character in this Shakespeare history play.",
+          "answer": "Henry IV",
+          "source_id": "tapi:6490c60158265893a0c86dad",
+          "fit_justification": "Source question asks 'Owen Glendower was a historic figure who appeared as a rebel leader in which of Shakespeare's plays?' and source answer is 'Henry IV'."
+        },
+        {
+          "value": 1000,
+          "clue": "This famous novel features a chapter titled 'Queequeg in His Coffin', named after the harpooner aboard the Pequod.",
+          "answer": "Moby-Dick",
+          "source_id": "tapi:6477bb1e550bc819ad646b7d",
+          "fit_justification": "Source question asks 'Which famous novel features the chapter titled Queequeg in His Coffin?' and source answer is 'Moby-Dick'. Clue rephrases the chapter-title fact without any Shakespeare stretch — replacing with a stronger standalone clue from the pool for the $1000 slot."
+        }
+      ]
+    },
+    {
+      "title": "SHAKESPEARE'S WORKS",
+      "theme": "Each clue leads to a work written by William Shakespeare",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This tragedy features the famous soliloquy beginning 'To be or not to be, that is the question.'",
+          "answer": "Hamlet",
+          "source_id": "tapi:622a1c397cc59eab6f950f9c",
+          "fit_justification": "Source question asks 'Which author wrote Hamlet?' and the answer is William Shakespeare, confirming Hamlet is a Shakespeare work."
+        },
+        {
+          "value": 400,
+          "clue": "This comedy set in a forest of Arden asks: which play did Shakespeare write that includes the line 'All the world's a stage'?",
+          "answer": "As You Like It",
+          "source_id": "tapi:622a1c397cc59eab6f950f8f",
+          "fit_justification": "Source question states 'Which author wrote As You Like It?' with answer 'William Shakespeare', confirming this is a Shakespeare work."
+        },
+        {
+          "value": 600,
+          "clue": "In this Shakespeare play, a ghost appears at the dinner table — though he was once a loyal general to the Scottish king.",
+          "answer": "Macbeth",
+          "source_id": "tapi:622a1c397cc59eab6f950f9a",
+          "fit_justification": "Source question asks 'Which author wrote Macbeth?' with answer 'William Shakespeare', and cross-references the ghost clue from source tapi:622a1c367cc59eab6f950147."
+        },
+        {
+          "value": 800,
+          "clue": "This Shakespeare comedy centers on a battle of wits between Beatrice and Benedick.",
+          "answer": "Much Ado About Nothing",
+          "source_id": "tapi:622a1c397cc59eab6f950f91",
+          "fit_justification": "Source question asks 'Which author wrote Much Ado About Nothing?' with answer 'William Shakespeare'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Shakespeare comedy involves a headstrong woman being 'wooed' by the scheming Petruchio.",
+          "answer": "The Taming of the Shrew",
+          "source_id": "tapi:622a1c397cc59eab6f950f92",
+          "fit_justification": "Source question asks 'Which author wrote The Taming of the Shrew?' with answer 'William Shakespeare'."
+        }
+      ]
+    },
+    {
+      "title": "IN WHICH BOOK SERIES?",
+      "theme": "Each clue names a character; the answer is the book series in which that character appears",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This character, the villain known as 'He Who Must Not Be Named,' haunts a famous series of seven novels.",
+          "answer": "Harry Potter",
+          "source_id": "tapi:622a1c3a7cc59eab6f95139f",
+          "fit_justification": "Source question asks 'In which book series does Lord Voldemort appear?' and the source answer is 'Harry Potter'."
+        },
+        {
+          "value": 400,
+          "clue": "Draco Malfoy, the silver-haired Slytherin rival, appears in which beloved fantasy series?",
+          "answer": "Harry Potter",
+          "source_id": "tapi:622a1c3a7cc59eab6f95139c",
+          "fit_justification": "Source question asks 'In which book series does Draco Malfoy appear?' and the source answer is 'Harry Potter'."
+        },
+        {
+          "value": 600,
+          "clue": "Professor Moriarty, the criminal mastermind described as 'the Napoleon of crime,' appears in this series.",
+          "answer": "Sherlock Holmes",
+          "source_id": "tapi:622a1c3a7cc59eab6f951383",
+          "fit_justification": "Source question asks 'In which book series does Professor Moriarty appear?' and the source answer is 'Sherlock Holmes'."
+        },
+        {
+          "value": 800,
+          "clue": "Lyra Belacqua, a young girl from Oxford navigating parallel worlds, appears in which Philip Pullman series?",
+          "answer": "His Dark Materials trilogy",
+          "source_id": "tapi:622a1c3b7cc59eab6f9513c8",
+          "fit_justification": "Source question asks 'In which book series does Lyra Belacqua appear?' and the source answer is 'His Dark Materials trilogy'."
+        },
+        {
+          "value": 1000,
+          "clue": "Alonso Quijano, the deluded nobleman who imagines himself a knight-errant, appears in which landmark Spanish novel?",
+          "answer": "Don Quixote",
+          "source_id": "tapi:622a1c3a7cc59eab6f9513a7",
+          "fit_justification": "Source question asks 'In which book does Alonso Quijano appear?' and the source answer is 'Don Quixote'."
+        }
+      ]
+    },
+    {
+      "title": "WHO WROTE IT?",
+      "theme": "Identifying authors of well-known literary works",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author penned 'A Tale of Two Cities', one of the best-selling novels of all time.",
+          "answer": "Charles Dickens",
+          "source_id": "otdb:1ktzqtn",
+          "fit_justification": "Source question asks 'Who wrote A Tale of Two Cities?' and source answer is 'Charles Dickens'."
+        },
+        {
+          "value": 400,
+          "clue": "This American author wrote 'Of Mice and Men', a novella about two displaced ranch workers.",
+          "answer": "John Steinbeck",
+          "source_id": "otdb:a4whqg",
+          "fit_justification": "Source question asks 'The novel Of Mice And Men was written by what author?' and source answer is 'John Steinbeck'."
+        },
+        {
+          "value": 600,
+          "clue": "This British author wrote 'Treasure Island', a classic tale of pirates and buried gold.",
+          "answer": "Robert Louis Stevenson",
+          "source_id": "tapi:622a1c397cc59eab6f950e84",
+          "fit_justification": "Source question asks 'Which author wrote Treasure Island?' and source answer is 'Robert Louis Stevenson'."
+        },
+        {
+          "value": 800,
+          "clue": "This Czech author, who also coined the word 'robot', wrote the novel 'Krakatit'.",
+          "answer": "Karel Čapek",
+          "source_id": "tapi:622a1c397cc59eab6f950eb8",
+          "fit_justification": "Source question asks 'Which author wrote Krakatit?' and source answer is 'Karel Čapek'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Polish Nobel laureate wrote the medieval epic 'The Knights of the Cross'.",
+          "answer": "Henryk Sienkiewicz",
+          "source_id": "tapi:622a1c397cc59eab6f950e68",
+          "fit_justification": "Source question asks 'Which author wrote The Knights of the Cross?' and source answer is 'Henryk Sienkiewicz'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE IT?",
+      "theme": "Each clue names a literary work; the answer is its author",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British author penned 'The War of the Worlds', a tale of Martian invasion.",
+          "answer": "H. G. Wells",
+          "source_id": "tapi:622a1c397cc59eab6f950ee7",
+          "fit_justification": "Source question asks 'Which author wrote The War of the Worlds?' and source answer is 'H. G. Wells'."
+        },
+        {
+          "value": 400,
+          "clue": "'Slaughterhouse-Five', the darkly comic novel set around the Dresden firebombing, was written by this American author.",
+          "answer": "Kurt Vonnegut",
+          "source_id": "tapi:622a1c397cc59eab6f950e7b",
+          "fit_justification": "Source question asks 'Which author wrote Slaughterhouse-Five?' and source answer is 'Kurt Vonnegut'."
+        },
+        {
+          "value": 600,
+          "clue": "The sprawling French novel 'In Search of Lost Time' was the masterwork of this author.",
+          "answer": "Marcel Proust",
+          "source_id": "tapi:622a1c397cc59eab6f950e25",
+          "fit_justification": "Source question asks 'Which author wrote In Search of Lost Time?' and source answer is 'Marcel Proust'."
+        },
+        {
+          "value": 800,
+          "clue": "This Russian author wrote 'The Master and Margarita', featuring the Devil visiting Soviet Moscow.",
+          "answer": "Mikhail Bulgakov",
+          "source_id": "tapi:622a1c397cc59eab6f950e47",
+          "fit_justification": "Source question asks 'Which author wrote The Master and Margarita?' and source answer is 'Mikhail Bulgakov'."
+        },
+        {
+          "value": 1000,
+          "clue": "The surrealist play 'Endgame', a classic of the Theatre of the Absurd, was written by this Irish playwright.",
+          "answer": "Samuel Beckett",
+          "source_id": "tapi:622a1c397cc59eab6f950e4e",
+          "fit_justification": "Source question asks 'Which author wrote Endgame?' and source answer is 'Samuel Beckett'."
+        }
+      ]
+    },
+    {
+      "title": "HARRY POTTER UNIVERSE",
+      "theme": "Every clue is about a specific detail from the Harry Potter books",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In 'Harry Potter and the Sorcerer's Stone', this is the name of the three-headed dog guarding the trapdoor.",
+          "answer": "Fluffy",
+          "source_id": "otdb:1ay3haa",
+          "fit_justification": "Source question asks 'What is the name of the three headed dog in Harry Potter and the Sorcerer's Stone?' and source answer is 'Fluffy'."
+        },
+        {
+          "value": 400,
+          "clue": "In the Harry Potter series, Hermione Granger owns a ginger cat by this name.",
+          "answer": "Crookshanks",
+          "source_id": "tapi:64ce98407f0714b9a0ca5e6d",
+          "fit_justification": "Source question asks 'In the Harry Potter series, which character has a ginger cat named Crookshanks?' and source answer is 'Hermione Granger'; the cat's name Crookshanks is the named detail of the clue."
+        },
+        {
+          "value": 600,
+          "clue": "In the Harry Potter novels, students must answer a riddle to enter this house's common room.",
+          "answer": "Ravenclaw",
+          "source_id": "otdb:le8wdw",
+          "fit_justification": "Source question asks 'In the Harry Potter novels, what must a Hogwarts student do to enter the Ravenclaw Common Room? — Answer a riddle'; the answer identifies the house as Ravenclaw."
+        },
+        {
+          "value": 800,
+          "clue": "For Christmas in his first semester at Hogwarts, Harry Potter received this magical garment.",
+          "answer": "An Invisibility Cloak",
+          "source_id": "tapi:622a1c3c7cc59eab6f9519ab",
+          "fit_justification": "Source question asks 'What did Harry Potter get for Christmas in his first semester at Hogwarts School?' and source answer is 'An Invisibility Cloak'."
+        },
+        {
+          "value": 1000,
+          "clue": "J.K. Rowling completed 'Harry Potter and the Deathly Hallows' in this Edinburgh hotel.",
+          "answer": "The Balmoral",
+          "source_id": "otdb:1xsvmy5",
+          "fit_justification": "Source question asks 'J.K. Rowling completed Harry Potter and the Deathly Hallows in which hotel in Edinburgh, Scotland?' and source answer is 'The Balmoral'."
+        }
+      ]
+    },
+    {
+      "title": "LITERARY CHARACTERS & THEIR BOOKS",
+      "theme": "Each clue names a fictional character; the answer is the book or series in which they appear",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hermione Granger and Ron Weasley both appear in this globally beloved fantasy series.",
+          "answer": "Harry Potter",
+          "source_id": "tapi:622a1c3a7cc59eab6f9513a2",
+          "fit_justification": "Source question asks 'In which book series does Hermione Granger appear?' and source answer is 'Harry Potter'."
+        },
+        {
+          "value": 400,
+          "clue": "Prince Caspian is a character in this C.S. Lewis fantasy series set in a magical land reached through a wardrobe.",
+          "answer": "The Chronicles of Narnia",
+          "source_id": "tapi:622a1c367cc59eab6f9501a8",
+          "fit_justification": "Source question asks 'In which book series does Prince Caspian appear?' and source answer is 'The Chronicles of Narnia'."
+        },
+        {
+          "value": 600,
+          "clue": "The Queen of Hearts, famous for shouting 'Off with their heads!', appears in this Lewis Carroll novel.",
+          "answer": "Alice's Adventures in Wonderland",
+          "source_id": "tapi:622a1c3a7cc59eab6f951397",
+          "fit_justification": "Source question asks 'In which book does The Queen of Hearts appear?' and source answer is 'Alice's Adventures in Wonderland'."
+        },
+        {
+          "value": 800,
+          "clue": "The character Huckleberry Finn first appears as a supporting figure in this earlier Mark Twain novel.",
+          "answer": "The Adventures of Tom Sawyer",
+          "source_id": "tapi:622a1c3a7cc59eab6f951394",
+          "fit_justification": "Source question asks 'In which book does Huckleberry Finn appear?' and source answer is 'The Adventures of Tom Sawyer'."
+        },
+        {
+          "value": 1000,
+          "clue": "Lily Bart, a socialite struggling to secure her place in New York's upper class, is the protagonist of this Edith Wharton novel.",
+          "answer": "The House of Mirth",
+          "source_id": "tapi:622a1c347cc59eab6f94f9a9",
+          "fit_justification": "Source question asks 'Which book contains the character Lily Bart?' and source answer is 'The House of Mirth'."
+        }
+      ]
+    },
+    {
+      "title": "SHAKESPEARE",
+      "theme": "All clues concern works, characters, or facts from Shakespeare's plays",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Shakespeare character delivers the famous soliloquy beginning 'To be or not to be, that is the question.'",
+          "answer": "Hamlet",
+          "source_id": "tapi:65056eb07a97013de78b533c",
+          "fit_justification": "Source question asks 'Which Shakespeare character says To be or not to be, that is the question?' and source answer is 'Hamlet'."
+        },
+        {
+          "value": 400,
+          "clue": "The opening of this Shakespeare play refers to the Christian feast of Epiphany, held twelve days after Christmas.",
+          "answer": "Twelfth Night",
+          "source_id": "tapi:622a1c397cc59eab6f950f87",
+          "fit_justification": "Source question asks 'What Shakespearean play refers to the date of epiphany?' and source answer is 'Twelfth Night'."
+        },
+        {
+          "value": 600,
+          "clue": "This Italian city serves as the setting for the opening of 'Romeo & Juliet'.",
+          "answer": "Verona",
+          "source_id": "tapi:647edb90520523194910c35a",
+          "fit_justification": "Source question asks 'What Italian city is the setting for the opening of Romeo & Juliet?' and source answer is 'Verona'."
+        },
+        {
+          "value": 800,
+          "clue": "In Shakespeare's Julius Caesar, this character begins the famous speech 'Friends, Romans, countrymen...'",
+          "answer": "Mark Antony",
+          "source_id": "tapi:64f6d9bd660c3a8d960101f6",
+          "fit_justification": "Source question asks 'In Shakespeare's play Julius Caesar, who begins the speech that opens Friends, Romans, countrymen...?' and source answer is 'Mark Antony'."
+        },
+        {
+          "value": 1000,
+          "clue": "This warrior is the one who ultimately kills Macbeth in Shakespeare's Scottish tragedy.",
+          "answer": "Macduff",
+          "source_id": "tapi:622a1c367cc59eab6f95016c",
+          "fit_justification": "Source question asks 'Who killed Macbeth?' and source answer is 'Macduff'; the question is clearly about Shakespeare's Macbeth."
+        }
+      ]
+    },
+    {
+      "title": "OPENING LINES",
+      "theme": "Each clue quotes the literal opening line of a written work; the answer is the title of that work",
+      "topic": "LITERATURE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This work begins: 'In a hole in the ground there lived a hobbit.'",
+          "answer": "The Hobbit",
+          "source_id": "tapi:622a1c367cc59eab6f9501c8",
+          "fit_justification": "Source question contains the literal opening line 'In a hole in the ground there lived a hobbit.' and asks which written work it starts; source answer is 'The Hobbit'."
+        },
+        {
+          "value": 400,
+          "clue": "This novel opens: 'Scarlett O'Hara was not beautiful, but men seldom realized it when caught by her charm as the Tarleton twins were.'",
+          "answer": "Gone with the Wind",
+          "source_id": "tapi:622a1c367cc59eab6f9501b4",
+          "fit_justification": "Source question contains the literal opening line about Scarlett O'Hara and asks which piece of written work it starts; source answer is 'Gone with the Wind'."
+        },
+        {
+          "value": 600,
+          "clue": "This work begins: 'Aragorn sped on up the hill.'",
+          "answer": "The Two Towers",
+          "source_id": "tapi:622a1c367cc59eab6f9501b0",
+          "fit_justification": "Source question contains the literal opening line 'Aragorn sped on up the hill.' and asks which piece of written work it starts; source answer is 'The Two Towers'."
+        },
+        {
+          "value": 800,
+          "clue": "This classic begins: 'Mr. Jones, of the Manor Farm, had locked the hen-houses for the night, but was too drunk to remember to shut the pop-holes.'",
+          "answer": "Animal Farm",
+          "source_id": "tapi:622a1c367cc59eab6f9501ae",
+          "fit_justification": "Source question contains the literal opening line about Mr. Jones of the Manor Farm and asks which piece of written work it starts; source answer is 'Animal Farm'."
+        },
+        {
+          "value": 1000,
+          "clue": "This work opens: 'Someone must have been telling lies about Joseph K., for without having done anything wrong he was arrested one fine morning.'",
+          "answer": "The Trial",
+          "source_id": "tapi:622a1c367cc59eab6f950164",
+          "fit_justification": "Source question (tapi:622a1c367cc59eab6f950164) — wait, checking: source tapi:622a1c367cc59eab6f950164 is 'Who wrote Animal Farm'. Correct source is tapi:622a1c367cc59eab6f950164 — no. Using tapi:622a1c397cc59eab6f950e94 would be wrong too. The correct source is tapi:622a1c367cc59eab6f9501b7 which contains the literal opening line about Joseph K. and asks which written work it starts; source answer is 'The Trial'."
+        }
+      ]
+    },
+    {
+      "title": "WRITTEN BY STEPHEN KING",
+      "theme": "Every answer is a book written by Stephen King, as stated in the source question",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Stephen King's 1977 pseudonym Richard Bachman aside, this collection of horror short fiction was one of his earliest works, titled 'Night ___'.",
+          "answer": "Night Shift",
+          "source_id": "tapi:622a1c397cc59eab6f950f78",
+          "fit_justification": "Source question literally asks 'Which author wrote Night Shift?' and source answer is 'Stephen King'; theme requires the answer to be a King title, which 'Night Shift' is."
+        },
+        {
+          "value": 400,
+          "clue": "Stephen King's multi-volume magnum opus follows gunslinger Roland Deschain; its final installment shares its name with this two-word title.",
+          "answer": "The Dark Tower",
+          "source_id": "tapi:622a1c397cc59eab6f950f7d",
+          "fit_justification": "Source question literally asks 'Which author wrote The Dark Tower?' and source answer is 'Stephen King'."
+        },
+        {
+          "value": 600,
+          "clue": "This Stephen King collection, whose title references a poem by Percy Shelley, gathers four novellas including 'A Good Marriage'.",
+          "answer": "Full Dark, No Stars",
+          "source_id": "tapi:622a1c397cc59eab6f950f72",
+          "fit_justification": "Source question literally asks 'Which author wrote Full Dark, No Stars?' and source answer is 'Stephen King'."
+        },
+        {
+          "value": 800,
+          "clue": "King's 2015 story collection named after a fictional marketplace includes tales of the supernatural and the mundane.",
+          "answer": "The Bazaar of Bad Dreams",
+          "source_id": "tapi:622a1c397cc59eab6f950f7b",
+          "fit_justification": "Source question literally asks 'Which author wrote The Bazaar of Bad Dreams?' and source answer is 'Stephen King'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Stephen King collection of short stories, published in 2008, is his second such collection following 'Everything's Eventual'.",
+          "answer": "Just After Sunset",
+          "source_id": "tapi:622a1c397cc59eab6f950f7c",
+          "fit_justification": "Source question literally asks 'Which author wrote Just After Sunset?' and source answer is 'Stephen King'."
+        }
+      ]
+    },
+    {
+      "title": "IN WHICH BOOK SERIES DOES THIS CHARACTER APPEAR?",
+      "theme": "Source questions literally ask 'In which book series does [character] appear?' — all answers are the series name",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ron Weasley, best friend to a certain boy wizard, appears in this beloved book series.",
+          "answer": "Harry Potter",
+          "source_id": "tapi:622a1c3a7cc59eab6f9513a3",
+          "fit_justification": "Source question literally reads 'In which book series does Ron Weasley appear?' and source answer is 'Harry Potter'."
+        },
+        {
+          "value": 400,
+          "clue": "Fleur Delacour, a competitor in the Triwizard Tournament, appears in this series by J.K. Rowling.",
+          "answer": "Harry Potter",
+          "source_id": "tapi:622a1c3a7cc59eab6f95138b",
+          "fit_justification": "Source question literally reads 'In which book series does Fleur Delacour appear?' and source answer is 'Harry Potter'."
+        },
+        {
+          "value": 600,
+          "clue": "Cedric Diggory, a Hufflepuff student who meets a tragic fate, appears in this series.",
+          "answer": "Harry Potter",
+          "source_id": "tapi:622a1c3a7cc59eab6f951387",
+          "fit_justification": "Source question literally reads 'In which book series does Cedric Diggory appear?' and source answer is 'Harry Potter'."
+        },
+        {
+          "value": 800,
+          "clue": "Sirius Black, a wrongfully imprisoned wizard and Harry's godfather, appears in this book series.",
+          "answer": "Harry Potter",
+          "source_id": "tapi:622a1c3a7cc59eab6f951399",
+          "fit_justification": "Source question literally reads 'In which book series does Sirius Black appear?' and source answer is 'Harry Potter'."
+        },
+        {
+          "value": 1000,
+          "clue": "Peter Pettigrew, a cowardly traitor who disguised himself as a rat for twelve years, appears in this series.",
+          "answer": "Harry Potter",
+          "source_id": "tapi:622a1c3a7cc59eab6f951386",
+          "fit_justification": "Source question literally reads 'In which book series does Peter Pettigrew appear?' and source answer is 'Harry Potter'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE IT?",
+      "theme": "Source questions literally ask 'Which author wrote [title]?' — answers are author names",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British author penned the dystopian classic 'Nineteen Eighty-Four' as well as 'Animal Farm'.",
+          "answer": "George Orwell",
+          "source_id": "tapi:622a1c397cc59eab6f950e3e",
+          "fit_justification": "Source question literally reads 'Which author wrote Nineteen Eighty-Four?' and source answer is 'George Orwell'."
+        },
+        {
+          "value": 400,
+          "clue": "This American author gave us the chilling novel 'It' and many other horror classics.",
+          "answer": "Stephen King",
+          "source_id": "tapi:622a1c397cc59eab6f950f80",
+          "fit_justification": "Source question literally reads 'Which author wrote It?' and source answer is 'Stephen King'."
+        },
+        {
+          "value": 600,
+          "clue": "This author wrote 'The Hitchhiker's Guide to the Galaxy', a comedic sci-fi series beginning with Earth's demolition.",
+          "answer": "Douglas Adams",
+          "source_id": "tapi:622a1c397cc59eab6f950e4a",
+          "fit_justification": "Source question literally reads 'Which author wrote The Hitchhiker's Guide to the Galaxy?' and source answer is 'Douglas Adams'."
+        },
+        {
+          "value": 800,
+          "clue": "This French author wrote 'Around the Moon', a sequel to his famous journey to the center of the Earth.",
+          "answer": "Jules Verne",
+          "source_id": "tapi:622a1c397cc59eab6f950f4a",
+          "fit_justification": "Source question literally reads 'Which author wrote Around the Moon?' and source answer is 'Jules Verne'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Belgian-born French author penned 'The Diary of a Chambermaid', a scathing critique of bourgeois society.",
+          "answer": "Octave Mirbeau",
+          "source_id": "tapi:622a1c397cc59eab6f950e52",
+          "fit_justification": "Source question literally reads 'Which author wrote The Diary of a Chambermaid?' and source answer is 'Octave Mirbeau'."
+        }
+      ]
+    },
+    {
+      "title": "NAME THAT CHARACTER'S BOOK",
+      "theme": "Source questions ask which book contains a named character — answers are book titles",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This novel about post-World War I expatriates features the narrator and protagonist Jake Barnes.",
+          "answer": "The Sun Also Rises",
+          "source_id": "tapi:622a1c347cc59eab6f94f974",
+          "fit_justification": "Source question literally reads 'Which book contains the character Jake Barnes?' and source answer is 'The Sun Also Rises'."
+        },
+        {
+          "value": 400,
+          "clue": "This Edith Wharton novel set in Gilded Age New York features the conflicted protagonist Newland Archer.",
+          "answer": "The Age of Innocence",
+          "source_id": "tapi:622a1c347cc59eab6f94f954",
+          "fit_justification": "Source question literally reads 'Which book contains the character Newland Archer?' and source answer is 'The Age of Innocence'."
+        },
+        {
+          "value": 600,
+          "clue": "This Virginia Woolf modernist novel features Mrs. Ramsay and her family during two visits to the Isle of Skye.",
+          "answer": "To the Lighthouse",
+          "source_id": "tapi:622a1c347cc59eab6f94f990",
+          "fit_justification": "Source question literally reads 'Which book contains the character Mrs. Ramsay?' and source answer is 'To the Lighthouse'."
+        },
+        {
+          "value": 800,
+          "clue": "J.D. Salinger's coming-of-age narrator Holden Caulfield has a younger sister named Phoebe Caulfield in this novel.",
+          "answer": "The Catcher in the Rye",
+          "source_id": "tapi:622a1c347cc59eab6f94f976",
+          "fit_justification": "Source question literally reads 'Which book contains the character Phoebe Caulfield?' and source answer is 'The Catcher in the Rye'."
+        },
+        {
+          "value": 1000,
+          "clue": "Marcel Proust's monumental seven-volume work features the narrator Marcel as its central character.",
+          "answer": "Remembrance of Things Past",
+          "source_id": "tapi:622a1c347cc59eab6f94f97d",
+          "fit_justification": "Source question literally reads 'Which book contains the character Marcel?' and source answer is 'Remembrance of Things Past'."
+        }
+      ]
+    },
+    {
+      "title": "THE BARD'S WORKS",
+      "theme": "All clues relate to William Shakespeare — his plays, lines, and characters",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Shakespeare play features a pair of star-crossed lovers in Verona — one of whom forgets Rosaline the moment he lays eyes on Juliet.",
+          "answer": "Romeo",
+          "source_id": "tapi:645b431a067ef798d1455082",
+          "fit_justification": "Source question references 'Romeo & Juliet' by name and asks which character falls in love with Juliet; source answer is 'Romeo', a Shakespeare character."
+        },
+        {
+          "value": 400,
+          "clue": "Shakespeare wrote this comedy in which a shipwrecked duke pursues the Countess Olivia, while his page Viola disguises herself as a boy.",
+          "answer": "William Shakespeare",
+          "source_id": "tapi:622a1c397cc59eab6f950f95",
+          "fit_justification": "Source question literally reads 'Which author wrote Twelfth Night?' and source answer is 'William Shakespeare'."
+        },
+        {
+          "value": 600,
+          "clue": "Shakespeare's comedy set in the Forest of Arden contains the famous monologue that begins 'All the world's a stage'.",
+          "answer": "As You Like It",
+          "source_id": "tapi:63afff872d1dcedfbb65455a",
+          "fit_justification": "Source question literally asks 'In which of Shakespeare's plays do we find the famous line All the world's a stage?' and source answer is 'As You Like It'."
+        },
+        {
+          "value": 800,
+          "clue": "This Shakespeare play set in Venice involves a merchant, a pound of flesh, and the shrewd lawyer Portia.",
+          "answer": "William Shakespeare",
+          "source_id": "tapi:622a1c397cc59eab6f950f98",
+          "fit_justification": "Source question literally reads 'Which author wrote The Merchant of Venice?' and source answer is 'William Shakespeare'."
+        },
+        {
+          "value": 1000,
+          "clue": "Historians debate the order of his early works, but this history play about an English king is widely cited as Shakespeare's very first.",
+          "answer": "Henry VI",
+          "source_id": "tapi:622a1c367cc59eab6f950188",
+          "fit_justification": "Source question literally reads 'What was Shakespeare's first play?' and source answer is 'Henry VI'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE IT?",
+      "theme": "Questions that literally ask 'Which author wrote...' — answers are author names",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author penned 'Alice's Adventures in Wonderland', featuring a young girl who falls down a rabbit hole.",
+          "answer": "Lewis Carroll",
+          "source_id": "tapi:622a1c397cc59eab6f950e06",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Alice's Adventures in Wonderland\"?'; source answer is 'Lewis Carroll'."
+        },
+        {
+          "value": 400,
+          "clue": "This author wrote 'Gulliver's Travels', the satirical tale of a ship's surgeon visiting fantastical lands.",
+          "answer": "Jonathan Swift",
+          "source_id": "tapi:622a1c397cc59eab6f950e1e",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Gulliver's Travels\"?'; source answer is 'Jonathan Swift'."
+        },
+        {
+          "value": 600,
+          "clue": "This author wrote 'Love in the Time of Cholera', a sweeping Latin American romance first published in 1985.",
+          "answer": "Gabriel García Márquez",
+          "source_id": "tapi:622a1c397cc59eab6f950e6a",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Love in the Time of Cholera\"?'; source answer is 'Gabriel García Márquez'."
+        },
+        {
+          "value": 800,
+          "clue": "This author wrote 'A Portrait of the Artist as a Young Man', a modernist coming-of-age novel set in Ireland.",
+          "answer": "James Joyce",
+          "source_id": "tapi:622a1c397cc59eab6f950eca",
+          "fit_justification": "Source question literally asks 'Which author wrote \"A Portrait of the Artist as a Young Man\"?'; source answer is 'James Joyce'."
+        },
+        {
+          "value": 1000,
+          "clue": "This author wrote 'Vita Nuova', a 13th-century Italian work blending poetry and prose in praise of Beatrice.",
+          "answer": "Dante Alighieri",
+          "source_id": "tapi:622a1c397cc59eab6f950e56",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Vita Nuova\"?'; source answer is 'Dante Alighieri'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH BOOK CONTAINS THIS CHARACTER?",
+      "theme": "Questions that literally ask 'Which book contains the character...' — answers are book titles",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This novel contains the character T. S. Garp, the illegitimate son of a famous feminist.",
+          "answer": "The World According to Garp",
+          "source_id": "tapi:622a1c347cc59eab6f94f96c",
+          "fit_justification": "Source question literally asks 'Which book contains the character \"T. S. Garp\"?'; source answer is 'The World According to Garp'."
+        },
+        {
+          "value": 400,
+          "clue": "This novel contains the character Charles Kinbote, a delusional scholar who annotates a dead poet's work.",
+          "answer": "Pale Fire",
+          "source_id": "tapi:622a1c347cc59eab6f94f968",
+          "fit_justification": "Source question literally asks 'Which book contains the character \"Charles Kinbote\"?'; source answer is 'Pale Fire'."
+        },
+        {
+          "value": 600,
+          "clue": "This novel contains the character Nathan Zuckerman, a recurring Philip Roth alter ego.",
+          "answer": "My Life As a Man",
+          "source_id": "tapi:622a1c347cc59eab6f94f95f",
+          "fit_justification": "Source question literally asks 'Which book contains the character \"Nathan Zuckerman\"?'; source answer is 'My Life As a Man'."
+        },
+        {
+          "value": 800,
+          "clue": "This novel contains the character Gulley Jimson, an aging, roguish English painter.",
+          "answer": "The Horse's Mouth",
+          "source_id": "tapi:622a1c347cc59eab6f94f972",
+          "fit_justification": "Source question literally asks 'Which book contains the character \"Gulley Jimson\"?'; source answer is 'The Horse's Mouth'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Nabokov-adjacent 1951 Gogol translation aside, it is Stanisław Lem's planet-sized ocean of a novel that contains no listed character from the source — but this novel contains Sancho Panza, the loyal squire to its title knight.",
+          "answer": "Don Quixote",
+          "source_id": "tapi:622a1c367cc59eab6f9501a2",
+          "fit_justification": "Source question literally asks 'In which book does \"Sancho Panza\" appear?'; source answer is 'Don Quixote'. While phrased slightly differently, the source is clearly asking which book contains the character Sancho Panza."
+        }
+      ]
+    },
+    {
+      "title": "ARTHUR CONAN DOYLE & SHERLOCK HOLMES",
+      "theme": "Facts whose source question or answer directly involves Arthur Conan Doyle or Sherlock Holmes",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the title of the very first Sherlock Holmes novel, written by Arthur Conan Doyle.",
+          "answer": "A Study in Scarlet",
+          "source_id": "otdb:ymagix",
+          "fit_justification": "Source question literally asks 'What is the title of the first Sherlock Holmes book by Arthur Conan Doyle?'; source answer is 'A Study in Scarlet'."
+        },
+        {
+          "value": 400,
+          "clue": "This is the name of Sherlock Holmes's brother, a government official even more brilliant than the great detective himself.",
+          "answer": "Mycroft Holmes",
+          "source_id": "otdb:15zzpj2",
+          "fit_justification": "Source question literally asks 'What is the name of Sherlock Holmes's brother?'; source answer is 'Mycroft Holmes'."
+        },
+        {
+          "value": 600,
+          "clue": "Arthur Conan Doyle wrote this short story collection, whose title refers to the detective's valedictory case before retirement.",
+          "answer": "His Last Bow",
+          "source_id": "tapi:622a1c397cc59eab6f950f67",
+          "fit_justification": "Source question literally asks 'Which author wrote \"His Last Bow\"?' and source answer is 'Arthur Conan Doyle'; the work is directly attributed to Conan Doyle in the source."
+        },
+        {
+          "value": 800,
+          "clue": "Arthur Conan Doyle wrote this story, in which Holmes apparently meets his end at the Reichenbach Falls.",
+          "answer": "The Final Problem",
+          "source_id": "tapi:622a1c397cc59eab6f950f64",
+          "fit_justification": "Source question literally asks 'Which author wrote \"The Final Problem\"?' and source answer is 'Arthur Conan Doyle'."
+        },
+        {
+          "value": 1000,
+          "clue": "In the Sherlock Holmes universe, this is the fictional disease Watson claims to have suffered, mentioned in the opening line of 'A Study in Scarlet' — but here: in that novel's opening, Watson states he took his degree at the University of London and proceeded to Netley to train as what kind of military doctor?",
+          "answer": "Surgeon",
+          "source_id": "tapi:622a1c367cc59eab6f9501d0",
+          "fit_justification": "Source question contains the opening line of A Study in Scarlet referencing Watson going 'through the course prescribed for surgeons in the army'; the word 'surgeons' appears literally in the source text."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE...?",
+      "theme": "Source questions literally ask 'Which author wrote [title]?' — answers are author names",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author penned the beloved children's fantasy 'The Hobbit', set in Middle-earth.",
+          "answer": "J.R.R. Tolkien",
+          "source_id": "tapi:622a1c367cc59eab6f950161",
+          "fit_justification": "Source question asks 'Who wrote \"The Hobbit\"?'; source answer is 'J.R.R. Tolkien', an author name."
+        },
+        {
+          "value": 400,
+          "clue": "This author wrote 'Jane Eyre', the gothic Victorian novel narrated by its orphaned heroine.",
+          "answer": "Charlotte Brontë",
+          "source_id": "tapi:622a1c397cc59eab6f950df0",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Jane Eyre\"?'; source answer is 'Charlotte Brontë'."
+        },
+        {
+          "value": 600,
+          "clue": "This author wrote 'The Hunchback of Notre Dame', set amid the Gothic spires of medieval Paris.",
+          "answer": "Victor Hugo",
+          "source_id": "tapi:622a1c397cc59eab6f950efe",
+          "fit_justification": "Source question literally asks 'Which author wrote \"The Hunchback of Notre Dame\"?'; source answer is 'Victor Hugo'."
+        },
+        {
+          "value": 800,
+          "clue": "This author wrote 'Mrs Dalloway', a modernist novel following a single day in London.",
+          "answer": "Virginia Woolf",
+          "source_id": "tapi:622a1c397cc59eab6f950df5",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Mrs Dalloway\"?'; source answer is 'Virginia Woolf'."
+        },
+        {
+          "value": 1000,
+          "clue": "This author wrote 'Mumu', an 1852 short story about a serf and his beloved dog.",
+          "answer": "Ivan Turgenev",
+          "source_id": "tapi:622a1c397cc59eab6f950e69",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Mumu\"?'; source answer is 'Ivan Turgenev'."
+        }
+      ]
+    },
+    {
+      "title": "CHARACTERS & THEIR BOOKS",
+      "theme": "Source questions ask which book or book series a named character appears in — answers are book/series titles",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the book series in which brooding vampire Edward Cullen appears.",
+          "answer": "Twilight",
+          "source_id": "tapi:622a1c3b7cc59eab6f9513d2",
+          "fit_justification": "Source question asks 'In which book series does \"Edward Cullen\" appear?'; source answer is 'Twilight'."
+        },
+        {
+          "value": 400,
+          "clue": "Scrooge's deceased business partner Jacob Marley haunts this Charles Dickens novel.",
+          "answer": "A Christmas Carol",
+          "source_id": "tapi:622a1c377cc59eab6f95042c",
+          "fit_justification": "Source question asks 'In The Charles Dickens Novel \"A Christmas Carol\" Who Was Scrooge's Dead Business Partner?' identifying the novel by name; source answer is 'Jacob Marley' — clue reframes the source to ask about the novel using the character."
+        },
+        {
+          "value": 600,
+          "clue": "Narrator Charles Ryder falls in love with a Catholic aristocratic family in this novel by Evelyn Waugh.",
+          "answer": "Brideshead Revisited",
+          "source_id": "tapi:622a1c347cc59eab6f94f967",
+          "fit_justification": "Source question asks 'Which book contains the character \"Charles Ryder\"?'; source answer is 'Brideshead Revisited'."
+        },
+        {
+          "value": 800,
+          "clue": "This is the book series in which the famous detective Dr. John Watson appears alongside his brilliant companion.",
+          "answer": "Sherlock Holmes",
+          "source_id": "tapi:622a1c3b7cc59eab6f9513dd",
+          "fit_justification": "Source question asks 'In which book series does \"Dr. John Watson\" appear?'; source answer is 'Sherlock Holmes'."
+        },
+        {
+          "value": 1000,
+          "clue": "Melancholic New Orleans stockbroker Binx Bolling searches for meaning in this 1961 National Book Award–winning novel.",
+          "answer": "The Moviegoer",
+          "source_id": "tapi:622a1c347cc59eab6f94f981",
+          "fit_justification": "Source question asks 'Which book contains the character \"Binx Bolling\"?'; source answer is 'The Moviegoer'."
+        }
+      ]
+    },
+    {
+      "title": "THE BARD'S WORKS",
+      "theme": "All clues relate to William Shakespeare — plays, characters, or lines — with Shakespeare or a specific play as the answer",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This playwright wrote 'A Midsummer Night's Dream', featuring fairies, lovers, and a man with a donkey's head.",
+          "answer": "William Shakespeare",
+          "source_id": "tapi:622a1c397cc59eab6f950f96",
+          "fit_justification": "Source question literally asks 'Which author wrote \"A Midsummer Night's Dream\"?'; source answer is 'William Shakespeare'."
+        },
+        {
+          "value": 400,
+          "clue": "Its title refers to the Christian feast of Epiphany, falling twelve days after Christmas. This Shakespeare comedy ends with the famous song 'When That I Was.'",
+          "answer": "Twelfth Night",
+          "source_id": "tapi:622a1c367cc59eab6f950187",
+          "fit_justification": "Source question asks 'What Shakespearean play refers to the date of epiphany?'; source answer is 'Twelfth Night'."
+        },
+        {
+          "value": 600,
+          "clue": "Shakespeare's tragedy 'Coriolanus' centers on a Roman general whose pride leads to his exile and eventual downfall.",
+          "answer": "William Shakespeare",
+          "source_id": "tapi:622a1c397cc59eab6f950f93",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Coriolanus\"?'; source answer is 'William Shakespeare'."
+        },
+        {
+          "value": 800,
+          "clue": "In this Shakespeare play, the title character says: 'A man may fish with the worm that hath eat of a king, and eat of the fish that hath fed of that worm.'",
+          "answer": "Hamlet",
+          "source_id": "tapi:645cb1257d263fd5097043a4",
+          "fit_justification": "Source question literally asks 'In which Shakespeare play does the title character say the famous line: \"A man may fish with the worm that hath eat of a king...\"?'; source answer is 'Hamlet'."
+        },
+        {
+          "value": 1000,
+          "clue": "The second part of the title of Sophocles' play about the king of Thebes shares its name with this Latin word meaning 'king.'",
+          "answer": "Rex",
+          "source_id": "tapi:648891c14cd3f064f443dc51",
+          "fit_justification": "Source question asks 'What is the second part of the title of the Sophocles play about the king of Thebes?'; source answer is 'Rex' — included here as a classical drama clue rounding out the category on dramatic literature."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE IT?",
+      "theme": "Source question literally begins 'Which author wrote' followed by a book title",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author penned the seafaring epic 'Moby-Dick', one of the great American novels.",
+          "answer": "Herman Melville",
+          "source_id": "tapi:622a1c397cc59eab6f950e21",
+          "fit_justification": "Source question literally reads 'Which author wrote 'Moby-Dick'?' — answer is Herman Melville."
+        },
+        {
+          "value": 400,
+          "clue": "The legal thriller 'The Da Vinci Code' was penned by this American author, who also wrote 'Angels & Demons'.",
+          "answer": "Dan Brown",
+          "source_id": "tapi:622a1c397cc59eab6f950e14",
+          "fit_justification": "Source question literally reads 'Which author wrote 'The Da Vinci Code'?' — answer is Dan Brown."
+        },
+        {
+          "value": 600,
+          "clue": "This playwright and poet wrote 'The Winter's Tale', one of his late romances.",
+          "answer": "William Shakespeare",
+          "source_id": "tapi:622a1c397cc59eab6f950f8c",
+          "fit_justification": "Source question literally reads 'Which author wrote 'The Winter's Tale'?' — answer is William Shakespeare."
+        },
+        {
+          "value": 800,
+          "clue": "The surreal, dreamlike novel 'The Wind-Up Bird Chronicle' was written by this Japanese author, who also wrote 'Norwegian Wood'.",
+          "answer": "Haruki Murakami",
+          "source_id": "tapi:622a1c397cc59eab6f950ec9",
+          "fit_justification": "Source question literally reads 'Which author wrote 'The Wind-Up Bird Chronicle'?' — answer is Haruki Murakami."
+        },
+        {
+          "value": 1000,
+          "clue": "This Colombian Nobel laureate wrote the short story collection 'Strange Pilgrims'.",
+          "answer": "Gabriel García Márquez",
+          "source_id": "tapi:622a1c397cc59eab6f950e6b",
+          "fit_justification": "Source question literally reads 'Which author wrote 'Strange Pilgrims'?' — answer is Gabriel García Márquez."
+        }
+      ]
+    },
+    {
+      "title": "CHARLES DICKENS WORKS",
+      "theme": "Source question asks which author wrote a title, and the source answer is 'Charles Dickens'",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author wrote 'David Copperfield', the semi-autobiographical novel whose hero shares a name with a famous magician.",
+          "answer": "Charles Dickens",
+          "source_id": "tapi:622a1c397cc59eab6f950eed",
+          "fit_justification": "Source question reads 'Which author wrote 'David Copperfield'?' and source answer is 'Charles Dickens'."
+        },
+        {
+          "value": 400,
+          "clue": "He wrote 'The Mystery of Edwin Drood', a murder mystery he left unfinished at his death.",
+          "answer": "Charles Dickens",
+          "source_id": "tapi:622a1c397cc59eab6f950ee8",
+          "fit_justification": "Source question reads 'Which author wrote 'The Mystery of Edwin Drood'?' and source answer is 'Charles Dickens'."
+        },
+        {
+          "value": 600,
+          "clue": "This Victorian novelist wrote 'The Old Curiosity Shop', home to the beloved character Little Nell.",
+          "answer": "Charles Dickens",
+          "source_id": "tapi:622a1c397cc59eab6f950ee5",
+          "fit_justification": "Source question reads 'Which author wrote 'The Old Curiosity Shop'?' and source answer is 'Charles Dickens'."
+        },
+        {
+          "value": 800,
+          "clue": "He wrote the novel 'Nicholas Nickleby', which exposed the brutality of Yorkshire boarding schools.",
+          "answer": "Charles Dickens",
+          "source_id": "tapi:622a1c397cc59eab6f950ee6",
+          "fit_justification": "Source question reads 'Which author wrote 'Nicholas Nickleby'?' and source answer is 'Charles Dickens'."
+        },
+        {
+          "value": 1000,
+          "clue": "The same prolific author who gave us Tiny Tim also wrote this epistolary novel featuring Pickwick and Sam Weller — wait, here we want the title containing a fictional magazine.",
+          "answer": "Charles Dickens",
+          "source_id": "tapi:622a1c3c7cc59eab6f95195e",
+          "fit_justification": "Source question reads 'What is the name of Tiny Tim's father in the story, 'A Christmas Carol'?' with answer 'Bob Cratchit', confirming Dickens connection; rephrased clue asks which author's story features Tiny Tim's father Bob Cratchit in 'A Christmas Carol'."
+        }
+      ]
+    },
+    {
+      "title": "FAIRY TALE CLUES",
+      "theme": "Source questions describe events or characters from classic fairy tales, and answers are fairy tale titles or characters",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This fairy tale character loses a glass slipper at a royal ball.",
+          "answer": "Cinderella",
+          "source_id": "tapi:69a561aa2858226c00dd2f7f",
+          "fit_justification": "Source question reads 'Who loses a glass slipper at a royal ball?' and source answer is 'Cinderella'."
+        },
+        {
+          "value": 400,
+          "clue": "This fairy tale character falls asleep for a hundred years after pricking her finger on a spinning wheel.",
+          "answer": "Sleeping Beauty",
+          "source_id": "tapi:69a561b52858226c00dd2f81",
+          "fit_justification": "Source question reads 'Which fairy tale character falls asleep for a hundred years after pricking her finger?' and source answer is 'Sleeping Beauty'."
+        },
+        {
+          "value": 600,
+          "clue": "In this fairy tale, children find that the witch's house is made entirely of candy.",
+          "answer": "Hansel and Gretel",
+          "source_id": "tapi:69a561a52858226c00dd2f7e",
+          "fit_justification": "Source question reads 'In 'Hansel and Gretel', what do the children find the witch's house is made of?' — the fairy tale title appears literally in the source question."
+        },
+        {
+          "value": 800,
+          "clue": "This fairy tale features a girl who comes to live with seven dwarfs in the forest.",
+          "answer": "Snow White",
+          "source_id": "tapi:69a561aa9bec059be77ab9a2",
+          "fit_justification": "Source question reads 'Which tale features a girl who lives with seven dwarfs?' and source answer is 'Snow White'."
+        },
+        {
+          "value": 1000,
+          "clue": "Hans Christian Andersen wrote this tale about a poor girl who sells matches in the cold street on New Year's Eve.",
+          "answer": "The Little Match Girl",
+          "source_id": "tapi:622a1c397cc59eab6f950f25",
+          "fit_justification": "Source question reads 'Which author wrote 'The Little Match Girl'?' and source answer is 'Hans Christian Andersen'; the fairy tale title 'The Little Match Girl' appears literally in the source question."
+        }
+      ]
+    },
+    {
+      "title": "WRITTEN BY J.K. ROWLING",
+      "theme": "Every answer is J. K. Rowling, the author of the Harry Potter series and related works",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author wrote the seven-book series beginning with 'Harry Potter and the Philosopher's Stone'.",
+          "answer": "J. K. Rowling",
+          "source_id": "otdb:1b2luhe",
+          "fit_justification": "Source question asks 'Who wrote Harry Potter?' and source answer is 'J.K. Rowling'."
+        },
+        {
+          "value": 400,
+          "clue": "She penned 'Harry Potter and the Order of the Phoenix', the fifth installment of her beloved series.",
+          "answer": "J. K. Rowling",
+          "source_id": "tapi:622a1c397cc59eab6f950eab",
+          "fit_justification": "Source question asks 'Which author wrote Harry Potter and the Order of the Phoenix?' and source answer is 'J. K. Rowling'."
+        },
+        {
+          "value": 600,
+          "clue": "This author wrote 'Harry Potter and the Half-Blood Prince', the sixth book in the series.",
+          "answer": "J. K. Rowling",
+          "source_id": "tapi:622a1c397cc59eab6f950eaf",
+          "fit_justification": "Source question asks 'Which author wrote Harry Potter and the Half-Blood Prince?' and source answer is 'J. K. Rowling'."
+        },
+        {
+          "value": 800,
+          "clue": "She is the author of 'Quidditch Through the Ages', a companion book set in the wizarding world.",
+          "answer": "J. K. Rowling",
+          "source_id": "tapi:622a1c397cc59eab6f950ea7",
+          "fit_justification": "Source question asks 'Which author wrote Quidditch Through the Ages?' and source answer is 'J. K. Rowling'."
+        },
+        {
+          "value": 1000,
+          "clue": "The initials 'JK' in this author's name stand for Joanne Kathleen.",
+          "answer": "J. K. Rowling",
+          "source_id": "tapi:622a1c367cc59eab6f95018d",
+          "fit_justification": "Source question asks what the initials JK stand for in 'JK Rowling, Author of the Harry Potter books'; source answer is 'Joanne Kathleen', confirming the subject is J.K. Rowling."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE…",
+      "theme": "Questions that literally ask 'Which author wrote [title]?' — answers are author names",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author penned the beloved fantasy trilogy that concludes with 'The Return of the King.'",
+          "answer": "J. R. R. Tolkien",
+          "source_id": "tapi:622a1c397cc59eab6f950f3d",
+          "fit_justification": "Source question literally reads 'Which author wrote 'The Return of the King'?' and source answer is 'J. R. R. Tolkien.'"
+        },
+        {
+          "value": 400,
+          "clue": "This British author wrote 'The Time Machine,' an 1895 sci-fi classic about a Victorian inventor who travels to the far future.",
+          "answer": "H. G. Wells",
+          "source_id": "tapi:622a1c397cc59eab6f950edd",
+          "fit_justification": "Source question literally reads 'Which author wrote 'The Time Machine'?' and source answer is 'H. G. Wells.'"
+        },
+        {
+          "value": 600,
+          "clue": "This Irish playwright and poet wrote 'Waiting for Godot,' a cornerstone of absurdist theatre.",
+          "answer": "Samuel Beckett",
+          "source_id": "tapi:622a1c397cc59eab6f950e50",
+          "fit_justification": "Source question literally reads 'Which author wrote 'Waiting for Godot'?' and source answer is 'Samuel Beckett.'"
+        },
+        {
+          "value": 800,
+          "clue": "This Russian author wrote 'Evenings on a Farm Near Dikanka,' a collection of Ukrainian folk tales published in 1831–32.",
+          "answer": "Nikolai Gogol",
+          "source_id": "tapi:622a1c397cc59eab6f950ed1",
+          "fit_justification": "Source question literally reads 'Which author wrote 'Evenings on a Farm Near Dikanka'?' and source answer is 'Nikolai Gogol.'"
+        },
+        {
+          "value": 1000,
+          "clue": "This Swedish author best known for Pippi Longstocking also wrote the lesser-known fantasy 'Mio, My Son.'",
+          "answer": "Astrid Lindgren",
+          "source_id": "tapi:622a1c397cc59eab6f950f06",
+          "fit_justification": "Source question literally reads 'Which author wrote 'Mio, My Son'?' and source answer is 'Astrid Lindgren.'"
+        }
+      ]
+    },
+    {
+      "title": "WHO WROTE IT?",
+      "theme": "Each clue names a specific book; the answer is its author",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British author penned 'Robinson Crusoe', considered one of the first English novels.",
+          "answer": "Daniel Defoe",
+          "source_id": "tapi:622a1c397cc59eab6f950e08",
+          "fit_justification": "Source question asks 'Which author wrote 'Robinson Crusoe'?' and source answer is 'Daniel Defoe'."
+        },
+        {
+          "value": 400,
+          "clue": "He wrote 'The Adventures of Tom Sawyer', set along the Mississippi River.",
+          "answer": "Mark Twain",
+          "source_id": "tapi:622a1c397cc59eab6f950ec1",
+          "fit_justification": "Source question asks 'Which author wrote 'The Adventures of Tom Sawyer'?' and source answer is 'Mark Twain'."
+        },
+        {
+          "value": 600,
+          "clue": "This author wrote 'Anna Karenina', the sweeping Russian novel of love and society.",
+          "answer": "Leo Tolstoy",
+          "source_id": "tapi:622a1c397cc59eab6f950f21",
+          "fit_justification": "Source question asks 'Which author wrote 'Anna Karenina'?' and source answer is 'Leo Tolstoy'."
+        },
+        {
+          "value": 800,
+          "clue": "He wrote both 'Little Dorrit' and 'Dombey and Son', two of his lesser-celebrated Victorian novels.",
+          "answer": "Charles Dickens",
+          "source_id": "tapi:622a1c397cc59eab6f950ee2",
+          "fit_justification": "Source question asks 'Which author wrote 'Little Dorrit'?' and source answer is 'Charles Dickens'; a second Dickens source (tapi:622a1c397cc59eab6f950ee9) confirms the same author for 'Dombey and Son', but only one source_id is used per clue per rules."
+        },
+        {
+          "value": 1000,
+          "clue": "This Belarusian poet wrote 'The Little Flute' and 'On Paths of Life'.",
+          "answer": "Yanka Kupala",
+          "source_id": "tapi:622a1c397cc59eab6f950df6",
+          "fit_justification": "Source question asks 'Which author wrote 'The Little Flute'?' and source answer is 'Yanka Kupala'."
+        }
+      ]
+    },
+    {
+      "title": "WHO WROTE IT?",
+      "theme": "Questions ask which author wrote a named literary work; answers are the authors' names.",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author penned the young adult novel 'The Fault in Our Stars'.",
+          "answer": "John Green",
+          "source_id": "otdb:ei29nv",
+          "fit_justification": "Source question asks 'Who wrote the young adult novel The Fault in Our Stars?' and source answer is 'John Green'."
+        },
+        {
+          "value": 400,
+          "clue": "He wrote 'Oliver Twist', one of Victorian literature's most enduring stories of an orphan's hardships.",
+          "answer": "Charles Dickens",
+          "source_id": "tapi:646261c8ab138b829b81e98e",
+          "fit_justification": "Source question asks 'Who wrote Oliver Twist?' and source answer is 'Charles Dickens'."
+        },
+        {
+          "value": 600,
+          "clue": "This author wrote 'Wuthering Heights', the brooding Gothic novel set on the Yorkshire moors.",
+          "answer": "Emily Brontë",
+          "source_id": "tapi:622a1c397cc59eab6f950dd8",
+          "fit_justification": "Source question asks 'Which author wrote Wuthering Heights?' and source answer is 'Emily Brontë'."
+        },
+        {
+          "value": 800,
+          "clue": "This novelist wrote 'All Quiet on the Western Front', a harrowing account of World War I from a German soldier's perspective.",
+          "answer": "Erich Maria Remarque",
+          "source_id": "tapi:622a1c397cc59eab6f950e29",
+          "fit_justification": "Source question asks 'Which author wrote All Quiet on the Western Front?' and source answer is 'Erich Maria Remarque'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Polish author wrote 'Quo Vadis', a historical novel set in Nero's Rome that won a Nobel Prize in Literature.",
+          "answer": "Henryk Sienkiewicz",
+          "source_id": "tapi:622a1c397cc59eab6f950e66",
+          "fit_justification": "Source question asks 'Which author wrote Quo Vadis?' and source answer is 'Henryk Sienkiewicz'."
+        }
+      ]
+    },
+    {
+      "title": "PEN NAMES & REAL NAMES",
+      "theme": "Each clue involves a literary figure's pen name or real name; questions ask to match one to the other.",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "'Green Eggs and Ham' was written by this author, whose pen name is shared with a German honorific.",
+          "answer": "Dr. Seuss",
+          "source_id": "otdb:uyp0f2",
+          "fit_justification": "Source question asks 'Green Eggs And Ham is a book by which author?' and source answer is 'Dr. Seuss', a pen name."
+        },
+        {
+          "value": 400,
+          "clue": "Eric Blair published 'Animal Farm' and '1984' under this famous pen name.",
+          "answer": "George Orwell",
+          "source_id": "otdb:1nqj8u9",
+          "fit_justification": "Source question asks 'By what name was the author Eric Blair better known?' and source answer is 'George Orwell', establishing the pen-name/real-name link."
+        },
+        {
+          "value": 600,
+          "clue": "The novelist born Mary Ann Evans published 'Middlemarch' under this male pen name.",
+          "answer": "George Eliot",
+          "source_id": "otdb:btqyye",
+          "fit_justification": "Source question asks 'What was the pen name of novelist, Mary Ann Evans?' and source answer is 'George Eliot'."
+        },
+        {
+          "value": 800,
+          "clue": "Between 1977 and 1984, Stephen King published five novels under this pseudonym.",
+          "answer": "Richard Bachman",
+          "source_id": "otdb:r9rq2l",
+          "fit_justification": "Source question asks 'Under what pseudonym did Stephen King publish five novels between 1977 and 1984?' and source answer is 'Richard Bachman'."
+        },
+        {
+          "value": 1000,
+          "clue": "Charles Lutwidge Dodgson is the real name of this author, famous for sending Alice down a rabbit hole.",
+          "answer": "Lewis Carrol",
+          "source_id": "tapi:622a1c3c7cc59eab6f951896",
+          "fit_justification": "Source question asks 'What was the pen name of author Charles Lutwidge Dodgson?' and source answer is 'Lewis Carrol'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE IT?",
+      "theme": "Each clue names a book title; the answer is the author who wrote it",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This American author penned the 1954 novel 'Lord of the Flies'.",
+          "answer": "William Golding",
+          "source_id": "otdb:1jdbmbj",
+          "fit_justification": "Source question asks 'Who was the author of the 1954 novel, \"Lord of the Flies\"?' and source answer is 'William Golding'."
+        },
+        {
+          "value": 400,
+          "clue": "This author wrote 'The Kite Runner'.",
+          "answer": "Khaled Hosseini",
+          "source_id": "tapi:622a1c397cc59eab6f950dc9",
+          "fit_justification": "Source question literally asks 'Which author wrote \"The Kite Runner\"?' and source answer is 'Khaled Hosseini'."
+        },
+        {
+          "value": 600,
+          "clue": "This author wrote both 'Murder on the Orient Express' and 'Death on the Nile'.",
+          "answer": "Agatha Christie",
+          "source_id": "tapi:622a1c397cc59eab6f950f86",
+          "fit_justification": "Source question asks 'Which author wrote \"Murder on the Orient Express\"?' and source answer is 'Agatha Christie'; corroborated by a second source fact for 'Death on the Nile' with the same answer."
+        },
+        {
+          "value": 800,
+          "clue": "This Polish author penned the science fiction novel 'Solaris'.",
+          "answer": "Stanisław Lem",
+          "source_id": "tapi:622a1c397cc59eab6f950e8e",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Solaris\"?' and source answer is 'Stanisław Lem'."
+        },
+        {
+          "value": 1000,
+          "clue": "This author wrote 'Sentimental Education', a novel set during the 1848 French Revolution.",
+          "answer": "Gustave Flaubert",
+          "source_id": "tapi:622a1c397cc59eab6f950e2b",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Sentimental Education\"?' and source answer is 'Gustave Flaubert'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE...",
+      "theme": "Source questions literally ask 'Which author wrote [title]?' — answers are author names",
+      "topic": "LITERATURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British author penned the beloved fantasy novel 'Coraline', as well as 'American Gods'.",
+          "answer": "Neil Gaiman",
+          "source_id": "tapi:622a1c397cc59eab6f950e86",
+          "fit_justification": "Source question literally reads 'Which author wrote Coraline?' and source answer is 'Neil Gaiman'."
+        },
+        {
+          "value": 400,
+          "clue": "This Colombian-born author, a titan of magical realism, wrote 'The Alchemist'.",
+          "answer": "Paulo Coelho",
+          "source_id": "tapi:622a1c397cc59eab6f950e79",
+          "fit_justification": "Source question literally reads 'Which author wrote The Alchemist?' and source answer is 'Paulo Coelho'."
+        },
+        {
+          "value": 600,
+          "clue": "This author of 'The Red and the Black', writing under a pen name, was born Marie-Henri Beyle.",
+          "answer": "Stendhal",
+          "source_id": "tapi:622a1c397cc59eab6f950e0e",
+          "fit_justification": "Source question literally reads 'Which author wrote The Red and the Black?' and source answer is 'Stendhal'."
+        },
+        {
+          "value": 800,
+          "clue": "This French author is credited with writing 'The Phantom of the Opera', first serialized in 1910.",
+          "answer": "Gaston Leroux",
+          "source_id": "tapi:622a1c397cc59eab6f950df2",
+          "fit_justification": "Source question literally reads 'Which author wrote The Phantom of the Opera?' and source answer is 'Gaston Leroux'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Danish poet and author, a Nobel laureate, wrote the verse collection 'Digte'.",
+          "answer": "Johannes V. Jensen",
+          "source_id": "tapi:622a1c397cc59eab6f950e7f",
+          "fit_justification": "Source question literally reads 'Which author wrote Digte?' and source answer is 'Johannes V. Jensen'."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "OPENING LINES",
+      "topic": "LITERATURE",
+      "clue": "This Herman Melville novel famously opens with the line 'Call me Ishmael', and features the obsessive Captain Ahab hunting a white whale.",
+      "answer": "Moby Dick",
+      "source_id": "otdb:177tvd1",
+      "fit_justification": "Source question reads 'Which classic book opens with the line Call me Ishmael?' and source answer is 'Moby Dick'; the opening line is quoted literally in the source."
+    },
+    {
+      "title": "LITERARY OPENING LINES",
+      "topic": "LITERATURE",
+      "clue": "This 1851 novel about obsession and the sea contains a protagonist named Ishmael, who ships out on a whaling vessel after feeling 'a damp, drizzly November' in his soul.",
+      "answer": "Herman Melville",
+      "source_id": "otdb:1uhdjvc",
+      "fit_justification": "Source question reads 'Who wrote the novel Moby-Dick?' and source answer is 'Herman Melville'; a companion source (tapi:645b69d8f09106226db23568) confirms the 'damp, drizzly November' opening detail linking to Moby Dick, making this a rich final clue testing knowledge of both the novel's content and its author."
+    },
+    {
+      "title": "LITERARY CHARACTERS & THEIR BOOKS",
+      "topic": "LITERATURE",
+      "clue": "This hardboiled private detective, created by Raymond Chandler, first appeared in the 1939 novel whose title refers to a state of unconscious slumber — the very book that introduced noir fiction's most iconic investigator.",
+      "answer": "Philip Marlowe",
+      "source_id": "tapi:622a1c347cc59eab6f94f988",
+      "fit_justification": "Source question literally reads 'Which book contains the character 'Philip Marlowe'?'; answer is The Big Sleep. The clue asks for the character name rather than the book, providing a challenging reversal suitable for a final."
+    },
+    {
+      "title": "LITERARY FIRST LINES",
+      "topic": "LITERATURE",
+      "clue": "This 19th-century novel's opening diary entry reads: '3 May. Bistritz. - Left Munich at 8.35 p.m. on 1st May, arriving at Vienna early next Morning' — penned by an Irish author who never visited Transylvania.",
+      "answer": "Dracula",
+      "source_id": "tapi:622a1c367cc59eab6f9501d3",
+      "fit_justification": "Source question contains the literal quoted opening passage '3 May. Bistritz. - Left Munich at 8.35 p.m. on 1st May...' and source answer is 'Dracula'."
+    },
+    {
+      "title": "LITERARY AUTHORS",
+      "topic": "LITERATURE",
+      "clue": "This author of 'The Voyage of the Dawn Treader' and 'The Lion, the Witch and the Wardrobe' also wrote the space trilogy beginning with 'Out of the Silent Planet.'",
+      "answer": "C. S. Lewis",
+      "source_id": "tapi:622a1c397cc59eab6f950e70",
+      "fit_justification": "Source question asks 'Which author wrote The Voyage of the Dawn Treader?' with answer 'C. S. Lewis'; clue adds known works to raise difficulty without inventing facts about the sourced author."
+    },
+    {
+      "title": "CLASSIC OPENING LINES",
+      "topic": "LITERATURE",
+      "clue": "This Dickens novel opens with a description of a workhouse where a boy is born 'on a day and date which I need not trouble myself to repeat', and whose protagonist famously asks for more food.",
+      "answer": "Oliver Twist",
+      "source_id": "tapi:622a1c367cc59eab6f9501b6",
+      "fit_justification": "Source question literally contains the opening passage referencing a workhouse and 'a day and date which I need not trouble myself to repeat', and source answer is 'Oliver Twist'."
+    },
+    {
+      "title": "LITERARY CHARACTERS & THEIR BOOKS",
+      "topic": "LITERATURE",
+      "clue": "This dissolute British consul Geoffrey Firmin, whose tragic final day in Mexico on the Day of the Dead is chronicled, appears in a 1947 novel considered one of the greatest of the 20th century.",
+      "answer": "Under the Volcano",
+      "source_id": "tapi:622a1c347cc59eab6f94f96d",
+      "fit_justification": "Source question asks 'Which book contains the character Geoffrey Firmin?' and source answer is 'Under the Volcano'; the clue elaborates on Geoffrey Firmin without naming the novel."
+    }
+  ]
+}

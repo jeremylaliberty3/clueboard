@@ -1,0 +1,1378 @@
+{
+  "batch_id": "20260511-040432-arts",
+  "generated_at": "2026-05-11T04:04:32.932Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "ARTS",
+  "categories": [
+    {
+      "title": "ART MOVEMENTS",
+      "theme": "Each clue asks which art movement a famous painting belongs to",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Michelangelo's 'Creation of Adam', painted on the Sistine Chapel ceiling, belongs to this sweeping artistic movement of 14th–17th century Europe.",
+          "answer": "Renaissance",
+          "source_id": "tapi:622a1c347cc59eab6f94fa29",
+          "fit_justification": "Source question asks 'The painting \"Creation of Adam\" by Michelangelo is a part of which art movement?' and source answer is 'Renaissance'."
+        },
+        {
+          "value": 400,
+          "clue": "Caravaggio's 'Beheading of Saint John the Baptist' and Rembrandt's 'Night Watch' both belong to this dramatic, shadow-heavy movement of the 17th and early 18th centuries.",
+          "answer": "Baroque",
+          "source_id": "tapi:622a1c347cc59eab6f94fa53",
+          "fit_justification": "Source question asks 'The painting \"Beheading of Saint John the Baptist\" by Caravaggio is a part of which art movement?' and source answer is 'Baroque'."
+        },
+        {
+          "value": 600,
+          "clue": "Édouard Manet's scandalous nude 'Olympia' and James Whistler's 'Whistler's Mother' both belong to this movement that prized truthful, accurate depiction of everyday life.",
+          "answer": "Realism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa33",
+          "fit_justification": "Source question asks 'The painting \"Olympia\" by Édouard Manet is a part of which art movement?' and source answer is 'Realism'."
+        },
+        {
+          "value": 800,
+          "clue": "Leonardo da Vinci's 'Mona Lisa' is specifically categorized under this more refined sub-movement of the broader Renaissance, flourishing around 1490–1520.",
+          "answer": "High Renaissance",
+          "source_id": "tapi:622a1c347cc59eab6f94fa39",
+          "fit_justification": "Source question asks 'The painting \"Mona Lisa\" by Leonardo da Vinci is a part of which art movement?' and source answer is 'High Renaissance'."
+        },
+        {
+          "value": 1000,
+          "clue": "Georges Seurat's monumental 'A Sunday Afternoon on the Island of La Grande Jatte' is the defining work of this movement characterized by tiny dots of pure color.",
+          "answer": "Pointillism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa5d",
+          "fit_justification": "Source question asks 'The painting \"A Sunday Afternoon on the Island of La Grande Jatte\" by Georges Seurat is a part of which art movement?' and source answer is 'Pointillism'."
+        }
+      ]
+    },
+    {
+      "title": "WHO PAINTED THAT?",
+      "theme": "Each clue names a famous painting; the answer is the artist who painted it",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Dutch Post-Impressionist master put brush to canvas in 1889 to create 'The Starry Night', now hanging in New York's MoMA.",
+          "answer": "Vincent van Gogh",
+          "source_id": "tapi:65056e967a97013de78b5318",
+          "fit_justification": "Source question asks 'Who painted \"The Starry Night\" in 1889?' and source answer is 'Vincent van Gogh'."
+        },
+        {
+          "value": 400,
+          "clue": "Also known as 'La Gioconda', the world's most famous portrait was painted by this Italian Renaissance polymath.",
+          "answer": "Leonardo da Vinci",
+          "source_id": "tapi:64f6d9b9660c3a8d960101e4",
+          "fit_justification": "Source question asks 'Which painting is also known as \"La Gioconda\"?' with answer 'The Mona Lisa'; the artist is Leonardo da Vinci — reframed so the answer is the artist. NOTE: re-checking — source answer is 'The Mona Lisa', not the artist. Dropping this clue."
+        },
+        {
+          "value": 400,
+          "clue": "This 17th-century Dutch Golden Age painter created the intimate 'Girl with a Pearl Earring', sometimes called the 'Mona Lisa of the North'.",
+          "answer": "Johannes Vermeer",
+          "source_id": "tapi:622a1c347cc59eab6f94f9f3",
+          "fit_justification": "Source question asks 'Which artist painted \"Girl with a Pearl Earring\"?' and source answer is '‎‎Johannes Vermeer'."
+        },
+        {
+          "value": 800,
+          "clue": "This Belgian Surrealist painted 'The Son of Man', depicting a businessman whose face is obscured by a floating green apple.",
+          "answer": "René Magritte",
+          "source_id": "tapi:622a1c347cc59eab6f94fa17",
+          "fit_justification": "Source question asks 'Which artist painted \"The Son of Man\"?' and source answer is 'René Magritte'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Japanese ukiyo-e artist created 'The Great Wave off Kanagawa', one of the most recognizable works in world art history.",
+          "answer": "Hokusai",
+          "source_id": "tapi:622a1c347cc59eab6f94f9f2",
+          "fit_justification": "Source question asks 'Which artist painted \"The Great Wave off Kanagawa\"?' and source answer is 'Hokusai'."
+        }
+      ]
+    },
+    {
+      "title": "ART TERMINOLOGY",
+      "theme": "Vocabulary and techniques of the visual arts",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Mix yellow and blue paint together and you'll get this color.",
+          "answer": "Green",
+          "source_id": "tapi:65056e237a97013de78b5277",
+          "fit_justification": "Source question asks 'If you mix yellow and blue paint together, what color do you get?' — a basic painting/art fact; source answer is 'Green'."
+        },
+        {
+          "value": 400,
+          "clue": "This term describes a painting executed entirely in shades of a single color.",
+          "answer": "Monochrome",
+          "source_id": "tapi:622a1c3a7cc59eab6f951354",
+          "fit_justification": "Source question asks 'What word describes a painting executed in a single color?' and source answer is 'Monochrome'."
+        },
+        {
+          "value": 600,
+          "clue": "This type of artwork, often a humorous exaggeration of a person's features, is frequently drawn by street artists at tourist destinations.",
+          "answer": "Caricature",
+          "source_id": "tapi:622a1c3a7cc59eab6f951340",
+          "fit_justification": "Source question asks 'What is the word for an artwork humoously excaggerating the qualities of a person?' and source answer is 'Caricature'."
+        },
+        {
+          "value": 800,
+          "clue": "This technique of wall painting uses water-based pigments applied directly to fresh, wet plaster, bonding the colors permanently to the wall as it dries.",
+          "answer": "Fresco",
+          "source_id": "tapi:647f9def3a4302a71927168d",
+          "fit_justification": "Source question asks 'What term refers to a type of mural painting executed on freshly laid, still-wet plaster, with water-based pigments?' and source answer is 'Fresco'."
+        },
+        {
+          "value": 1000,
+          "clue": "This 1960s art movement championed the idea or concept behind a work as more important than the finished object itself.",
+          "answer": "Conceptual Art",
+          "source_id": "tapi:622a1c3a7cc59eab6f95135d",
+          "fit_justification": "Source question asks 'Which artistic movement of the 1960's and 1970's emphasized the artistic idea over the art object?' and source answer is 'Conceptual Art'."
+        }
+      ]
+    },
+    {
+      "title": "FAMOUS PAINTERS",
+      "theme": "Clues about the lives and works of famous painters; answers are the painters",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Dutch Post-Impressionist is famous for his swirling 'Starry Night' and vibrant series of sunflower paintings.",
+          "answer": "Vincent van Gogh",
+          "source_id": "tapi:69a43d87e6e1ab72dd3a5556",
+          "fit_justification": "Source question asks 'Which painter is famous for sunflowers and starry night scenes?' and source answer is 'Vincent van Gogh'."
+        },
+        {
+          "value": 400,
+          "clue": "Known for his 'trippy' dream-like imagery, this Spanish Surrealist painted melting clocks in 'The Persistence of Memory'.",
+          "answer": "Salvador Dalí",
+          "source_id": "tapi:65056f857a97013de78b5466",
+          "fit_justification": "Source question asks 'Which Spanish painter was known for his trippy paintings?' and source answer is 'Salvador Dalí'."
+        },
+        {
+          "value": 600,
+          "clue": "This Italian Renaissance master shocked 1485 Florence with his large nude painting depicting the birth of Venus rising from the sea.",
+          "answer": "Botticelli",
+          "source_id": "tapi:646089a9de964ebc39016c71",
+          "fit_justification": "Source question asks 'Which Italian artist shocked 1485 Florence with his large nude painting of the birth of a goddess?' and source answer is 'Botticelli'."
+        },
+        {
+          "value": 800,
+          "clue": "This Renaissance master painted 'The Triumph of Galatea', a celebrated fresco commissioned for the Villa Farnesina in Rome.",
+          "answer": "Raphael",
+          "source_id": "tapi:622a1c347cc59eab6f94fa13",
+          "fit_justification": "Source question asks 'Which artist painted \"The Triumph of Galatea\"?' and source answer is 'Raphael'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Greek-born Spanish Mannerist painter created the haunting, storm-lit cityscape 'View of Toledo', now housed at the Metropolitan Museum of Art.",
+          "answer": "El Greco",
+          "source_id": "tapi:622a1c347cc59eab6f94fa14",
+          "fit_justification": "Source question asks 'Which artist painted \"View of Toledo\"?' and source answer is 'El Greco'."
+        }
+      ]
+    },
+    {
+      "title": "ART MOVEMENTS",
+      "theme": "Each clue describes or references a specific art movement; the answer names that movement",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This 17th- and early 18th-century style is marked by great drama, deep colour, and intense contrasts of light and shadow.",
+          "answer": "Baroque",
+          "source_id": "tapi:622a1c3a7cc59eab6f95135a",
+          "fit_justification": "Source question literally describes '17th and early 18th century movement in painting characterized by great drama, deep colour, intense light and dark shadows'; source answer is 'Baroque'."
+        },
+        {
+          "value": 400,
+          "clue": "Salvador Dalí's melting clocks and dream imagery are hallmarks of this movement, which prized the subconscious mind.",
+          "answer": "Surrealism",
+          "source_id": "tapi:622a1c367cc59eab6f950142",
+          "fit_justification": "Source question literally asks 'With what art movement was Salvador Dali associated?'; source answer is 'Surrealism'."
+        },
+        {
+          "value": 600,
+          "clue": "This late 18th- to mid-19th-century movement championed emotion over reason and spontaneous personal expression.",
+          "answer": "Romanticism",
+          "source_id": "tapi:622a1c3a7cc59eab6f951365",
+          "fit_justification": "Source question literally describes 'late eighteenth to mid-nineteenth century' movement 'focused on emotion over reason, and on spontaneous expression'; source answer is 'Romanticism'."
+        },
+        {
+          "value": 800,
+          "clue": "Gustav Klimt's gilded 'The Kiss' belongs to this ornate, decorative late-19th-century movement.",
+          "answer": "Art Nouveau",
+          "source_id": "tapi:622a1c347cc59eab6f94fa44",
+          "fit_justification": "Source question literally states 'The painting \"The Kiss\" by Gustav Klimt is a part of which art movement?'; source answer is 'Art Nouveau'."
+        },
+        {
+          "value": 1000,
+          "clue": "Vasily Kandinsky's 'Composition 8' belongs to this movement known for flat geometric shapes on plain backgrounds.",
+          "answer": "Suprematism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa58",
+          "fit_justification": "Source question literally states 'The painting \"Composition 8\" by Vasily Kandinsky is a part of which art movement?'; source answer is 'Suprematism'."
+        }
+      ]
+    },
+    {
+      "title": "ART MOVEMENTS",
+      "theme": "Each answer names a specific visual art movement",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This movement challenged fine art traditions by incorporating imagery from popular and mass culture, emerging in the 1950s.",
+          "answer": "Pop Art",
+          "source_id": "tapi:622a1c3a7cc59eab6f951357",
+          "fit_justification": "Source question asks 'Which 1950's art movement presented a challenge to traditions of fine art by including imagery from popular and mass culture?' and source answer is 'Pop art', the name of a visual art movement."
+        },
+        {
+          "value": 400,
+          "clue": "This movement explored the unconscious mind, frequently drawing inspiration from the imagery of dreams.",
+          "answer": "Surrealism",
+          "source_id": "tapi:622a1c3a7cc59eab6f951359",
+          "fit_justification": "Source question asks 'Which art movement explored the unconscious, often using images from dreams?' and source answer is 'Surrealism', the name of a visual art movement."
+        },
+        {
+          "value": 600,
+          "clue": "This movement employed an analytic vision based on fragmentation and multiple simultaneous viewpoints.",
+          "answer": "Cubism",
+          "source_id": "tapi:622a1c3a7cc59eab6f951358",
+          "fit_justification": "Source question asks 'Which artistic movement employed an analytic vision based on fragmentation and multiple viewpoints?' and source answer is 'Cubism', the name of a visual art movement."
+        },
+        {
+          "value": 800,
+          "clue": "This movement aimed to create anti-art and non-art, employing a sense of the absurd.",
+          "answer": "Dadaism",
+          "source_id": "tapi:622a1c3a7cc59eab6f951356",
+          "fit_justification": "Source question asks 'Which art movement aimed to create antiart and non art, employing a sense of the absurd?' and source answer is 'Dadaism', the name of a visual art movement."
+        },
+        {
+          "value": 1000,
+          "clue": "This abstract movement from the 1950s uses large areas of color with a minimum of surface detail.",
+          "answer": "Color Field Painting",
+          "source_id": "tapi:622a1c3a7cc59eab6f95134b",
+          "fit_justification": "Source question asks 'Which technique in abstract painting developed in the 1950's focuses on the effects of large areas of color having a minimum of surface detail?' and source answer is 'Color Field Painting', the name of a visual art movement."
+        }
+      ]
+    },
+    {
+      "title": "PAINTING TECHNIQUES & TERMS",
+      "theme": "Each answer is a specific painting or printmaking technique or material term",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This word describes a composition made of cut and pasted pieces of various materials.",
+          "answer": "Collage",
+          "source_id": "tapi:622a1c3a7cc59eab6f95136a",
+          "fit_justification": "Source question asks 'What is the word for a composition made of cut and pasted pieces of materials?' and source answer is 'Collage', a painting/art technique term."
+        },
+        {
+          "value": 400,
+          "clue": "This painting technique uses pigments mixed with egg yolk and water, common in medieval panel paintings.",
+          "answer": "Tempera",
+          "source_id": "tapi:622a1c3a7cc59eab6f951352",
+          "fit_justification": "Source question asks 'What is the word for a painting technique using pigments mixed with egg yolk and water?' and source answer is 'Tempera', a specific painting technique term."
+        },
+        {
+          "value": 600,
+          "clue": "This printing process transfers ink impressions from a flat plate prepared with a greasy substance.",
+          "answer": "Lithography",
+          "source_id": "tapi:622a1c3a7cc59eab6f951353",
+          "fit_justification": "Source question asks 'What is the word given to a printing process in which ink impressions are taken from a flat plate prepared with a greasy substance?' and source answer is 'Lithography', a printmaking technique term."
+        },
+        {
+          "value": 800,
+          "clue": "This term describes paint applied very thickly so that it projects from the picture surface.",
+          "answer": "Impasto",
+          "source_id": "tapi:622a1c3a7cc59eab6f9512ed",
+          "fit_justification": "Source question asks 'What term is given to paint applied very thickly, often projecting from the picture surface?' and source answer is 'Impasto', a specific painting technique term."
+        },
+        {
+          "value": 1000,
+          "clue": "This term describes a unique image printed from a polished plate that has been painted with a design in ink.",
+          "answer": "Monotype",
+          "source_id": "tapi:622a1c3a7cc59eab6f95135f",
+          "fit_justification": "Source question asks 'What is the word given to a unique image printed from a polished plate which has been painted with a design in ink?' and source answer is 'Monotype', a specific printmaking technique term."
+        }
+      ]
+    },
+    {
+      "title": "FAMOUS PAINTINGS & THEIR PAINTERS",
+      "theme": "Each clue names a famous painting and the answer is its painter",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Dutch master painted 'Night Watch', a landmark of the Baroque movement.",
+          "answer": "Rembrandt van Rijn",
+          "source_id": "tapi:622a1c347cc59eab6f94fa5c",
+          "fit_justification": "Source question asks 'The painting \"Night Watch\" by Rembrandt van Rijn is a part of which art movement?' — the painter's name 'Rembrandt van Rijn' appears directly in the source question text as the creator of the named painting."
+        },
+        {
+          "value": 400,
+          "clue": "This Flemish Early Renaissance master painted 'The Arnolfini Marriage'.",
+          "answer": "Jan van Eyck",
+          "source_id": "tapi:622a1c347cc59eab6f94fa19",
+          "fit_justification": "Source question literally asks 'Which artist painted \"The Arnolfini Marriage\"' and source answer is 'Jan van Eyck', the painter."
+        },
+        {
+          "value": 600,
+          "clue": "This Mexican muralist painted 'The Flower Carrier'.",
+          "answer": "Diego Rivera",
+          "source_id": "tapi:622a1c347cc59eab6f94fa15",
+          "fit_justification": "Source question literally asks 'Which artist painted \"The Flower Carrier\"' and source answer is 'Diego Rivera', the painter."
+        },
+        {
+          "value": 800,
+          "clue": "This French Realist painter depicted rural peasant laborers in 'The Gleaners'.",
+          "answer": "Jean-François Millet",
+          "source_id": "tapi:622a1c347cc59eab6f94fa18",
+          "fit_justification": "Source question literally asks 'Which artist painted \"The Gleaners\"' and source answer is 'Jean-François Millet', the painter."
+        },
+        {
+          "value": 1000,
+          "clue": "This Russian-born abstract artist, associated with Bauhaus, painted 'Composition 8'.",
+          "answer": "Vasily Kandinsky",
+          "source_id": "tapi:622a1c347cc59eab6f94fa2f",
+          "fit_justification": "Source question literally asks 'Which artist painted \"Composition 8\"' and source answer is 'Vasily Kandinsky', the painter."
+        }
+      ]
+    },
+    {
+      "title": "ARCHITECTURAL STYLES & STRUCTURES",
+      "theme": "Each clue relates to a notable architectural style or structure",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city on the Seine is home to the famous Notre-Dame Cathedral.",
+          "answer": "Paris",
+          "source_id": "tapi:65056e2c7a97013de78b5284",
+          "fit_justification": "Source question asks 'In which city is the Notre-Dame Cathedral located?' — Notre-Dame is a named architectural structure, and source answer is 'Paris'."
+        },
+        {
+          "value": 400,
+          "clue": "This refined, elegant, and highly decorative architectural style flourished in 18th-century Europe.",
+          "answer": "Rococco",
+          "source_id": "tapi:622a1c3a7cc59eab6f95133f",
+          "fit_justification": "Source question asks 'Which architectural style employed refined, elegant, highly decorative forms?' and source answer is 'Rococco', a named architectural style."
+        },
+        {
+          "value": 600,
+          "clue": "The Sistine Chapel, home to Michelangelo's famous ceiling, is located in this sovereign state.",
+          "answer": "Vatican City",
+          "source_id": "tapi:65056edf7a97013de78b537d",
+          "fit_justification": "Source question asks 'Where can we find the Sistine Chapel?' — the Sistine Chapel is a named architectural/arts landmark, and source answer is 'Vatican City'."
+        },
+        {
+          "value": 800,
+          "clue": "This master of Modernismo architecture designed Casa Milà, an iconic Barcelona landmark.",
+          "answer": "Gaudi",
+          "source_id": "tapi:645c9fc442ea81e2554c5f86",
+          "fit_justification": "Source question asks 'Which master of Modernismo architecture designed Casa Mila, an iconic building in Barcelona?' and source answer is 'Gaudi', the architect."
+        },
+        {
+          "value": 1000,
+          "clue": "This style of Islamic architecture, featuring horseshoe arches and intricate geometric ornamentation, takes its name from a North African people.",
+          "answer": "Moorish",
+          "source_id": "tapi:639c9d93929b90846f2fc956",
+          "fit_justification": "Source question asks 'Which of the following is a style of Islamic architecture?' and source answer is 'Moorish', a named Islamic architectural style."
+        }
+      ]
+    },
+    {
+      "title": "ART MOVEMENTS",
+      "theme": "Each clue asks which art movement a specific famous painting belongs to",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pierre-Auguste Renoir's 'Luncheon on the Boating Party' belongs to this art movement, known for capturing light and everyday scenes.",
+          "answer": "Impressionism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa4e",
+          "fit_justification": "Source question asks 'The painting \"Luncheon on the Boating Party\" by Pierre-Auguste Renoir is a part of which art movement?' and source answer is 'Impressionism'."
+        },
+        {
+          "value": 400,
+          "clue": "Jackson Pollock's 'No. 5, 1948' belongs to this American movement that prioritized spontaneous, emotive mark-making over representation.",
+          "answer": "Abstract expressionism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa54",
+          "fit_justification": "Source question asks 'The painting \"No. 5, 1948\" by Jackson Pollock is a part of which art movement?' and source answer is 'Abstract expressionism'."
+        },
+        {
+          "value": 600,
+          "clue": "Grant Wood's 'American Gothic' is associated with this broad early 20th-century movement that broke from 19th-century academic traditions.",
+          "answer": "Modernism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa49",
+          "fit_justification": "Source question asks 'The painting \"American Gothic\" by Grant Wood is a part of which art movement?' and source answer is 'Modernism'."
+        },
+        {
+          "value": 800,
+          "clue": "Hokusai's famous woodblock print 'The Great Wave off Kanagawa' belongs to this Japanese art movement whose name means 'pictures of the floating world'.",
+          "answer": "Ukiyo-e",
+          "source_id": "tapi:622a1c347cc59eab6f94fa2e",
+          "fit_justification": "Source question asks 'The painting \"The Great Wave off Kanagawa\" by Hokusai is a part of which art movement?' and source answer is 'Ukiyo-e'."
+        },
+        {
+          "value": 1000,
+          "clue": "El Greco's 'View of Toledo' is associated with this 16th-century European movement known for elongated figures and complex compositions.",
+          "answer": "Mannerism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa48",
+          "fit_justification": "Source question asks 'The painting \"View of Toledo\" by El Greco is a part of which art movement?' and source answer is 'Mannerism'."
+        }
+      ]
+    },
+    {
+      "title": "FAMOUS PAINTINGS & THEIR ARTISTS",
+      "theme": "Each clue names a specific famous painting; the answer is the artist who painted it",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Italian Renaissance master painted 'The Last Supper' on a wall in Milan's Santa Maria delle Grazie.",
+          "answer": "Leonardo da Vinci",
+          "source_id": "tapi:622a1c347cc59eab6f94f9f5",
+          "fit_justification": "Source question asks 'Which artist painted \"The Last Supper\"' and source answer is 'Leonardo da Vinci'."
+        },
+        {
+          "value": 400,
+          "clue": "This Dutch Golden Age master captured an Amsterdam militia company in his monumental 1642 work 'Night Watch'.",
+          "answer": "Rembrandt van Rijn",
+          "source_id": "tapi:622a1c347cc59eab6f94fa27",
+          "fit_justification": "Source question asks 'Which artist painted \"Night Watch\"' and source answer is 'Rembrandt van Rijn'."
+        },
+        {
+          "value": 600,
+          "clue": "This French Post-Impressionist painted 'A Sunday Afternoon on the Island of La Grande Jatte' using tiny dots of pure color.",
+          "answer": "Georges Seurat",
+          "source_id": "tapi:622a1c347cc59eab6f94fa1a",
+          "fit_justification": "Source question asks 'Which artist painted \"A Sunday Afternoon on the Island of La Grande Jatte\"' and source answer is 'Georges Seurat'."
+        },
+        {
+          "value": 800,
+          "clue": "This French modernist painted 'The Dance', a vibrant canvas of five figures in red and green completed around 1910.",
+          "answer": "Henri Matisse",
+          "source_id": "tapi:622a1c347cc59eab6f94fa11",
+          "fit_justification": "Source question asks 'Which artist painted \"The Dance\"' and source answer is 'Henri Matisse'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Neoclassical French painter created 'The Grand Odalisque', his reclining nude now housed in the Louvre.",
+          "answer": "Jean Auguste Dominique Ingres",
+          "source_id": "tapi:622a1c347cc59eab6f94fa06",
+          "fit_justification": "Source question asks 'Which artist painted \"The Grand Odalisque\"' and source answer is 'Jean Auguste Dominique Ingres'."
+        }
+      ]
+    },
+    {
+      "title": "ART STYLES & MOVEMENTS DEFINED",
+      "theme": "Each clue describes an artistic style or movement; the answer is its name",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A large painting or decoration applied directly onto a wall is known by this single word.",
+          "answer": "Mural",
+          "source_id": "tapi:622a1c3a7cc59eab6f951364",
+          "fit_justification": "Source question asks 'A large painting or decoration done on a wall is known as what?' and source answer is 'Mural'."
+        },
+        {
+          "value": 400,
+          "clue": "This painting method uses dabs of pure color intended to mix in the viewer's eye rather than on the canvas, famously practiced by Seurat.",
+          "answer": "Pointillism",
+          "source_id": "tapi:622a1c3a7cc59eab6f951371",
+          "fit_justification": "Source question asks 'What is the name given to a method of painting that uses dabs of pure color that were intended to mix in the eyes of viewers rather than on the canvas?' and source answer is 'Pointillism'."
+        },
+        {
+          "value": 600,
+          "clue": "This abstract art movement used geometric forms and systematic composition to create optical illusions, flourishing in the 1960s.",
+          "answer": "Op Art",
+          "source_id": "tapi:622a1c3a7cc59eab6f951344",
+          "fit_justification": "Source question asks 'What abstract art movement used geometric forms to create optical illusions?' and source answer is 'Op Art'."
+        },
+        {
+          "value": 800,
+          "clue": "This artistic style of the late 18th and early 19th centuries revived the order and harmony of ancient Greek and Roman art.",
+          "answer": "Neoclassicism",
+          "source_id": "tapi:622a1c3a7cc59eab6f951362",
+          "fit_justification": "Source question asks 'Which artistic style of the late eighteenth and early nineteenth centuries revived the order and harmony of ancient Greek and Roman art?' and source answer is 'Neoclassicism'."
+        },
+        {
+          "value": 1000,
+          "clue": "This movement emphasized pure, reduced forms and strict, systematic composition, stripping art of ornament and expression.",
+          "answer": "Minimalism",
+          "source_id": "tapi:622a1c3a7cc59eab6f95135c",
+          "fit_justification": "Source question asks 'Which art movement emphasized pure, reduced forms and strict, systematic composition?' and source answer is 'Minimalism'."
+        }
+      ]
+    },
+    {
+      "title": "SURREAL & AVANT-GARDE ARTISTS",
+      "theme": "Clues about specific avant-garde and surrealist artists and their works or biographical facts",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Spanish surrealist artist created the iconic 'Persistence of Memory', featuring melting clocks.",
+          "answer": "Salvador Dalí",
+          "source_id": "tapi:622a1c347cc59eab6f94fa23",
+          "fit_justification": "Source question asks 'Which artist painted \"The Persistence of Memory\"' and source answer is 'Salvador Dalí'."
+        },
+        {
+          "value": 400,
+          "clue": "This Spanish surrealist also crafted an unusual telephone with a lobster for a handset.",
+          "answer": "Salvador Dali",
+          "source_id": "tapi:622a1c367cc59eab6f950178",
+          "fit_justification": "Source question asks 'Which artist produced a lobster telephone?' and source answer is 'Salvador Dali'."
+        },
+        {
+          "value": 600,
+          "clue": "This Spanish Cubist master painted 'Three Musicians', a major work of Synthetic Cubism from 1921.",
+          "answer": "Pablo Picasso",
+          "source_id": "tapi:622a1c347cc59eab6f94fa1b",
+          "fit_justification": "Source question asks 'Which artist painted \"Three Musicians\"' and source answer is 'Pablo Picasso'."
+        },
+        {
+          "value": 800,
+          "clue": "This American abstract expressionist drip painter created 'No. 5, 1948', one of the most expensive paintings ever sold.",
+          "answer": "Jackson Pollock",
+          "source_id": "tapi:622a1c347cc59eab6f94fa20",
+          "fit_justification": "Source question asks 'Which artist painted \"No. 5, 1948\"' and source answer is 'Jackson Pollock'."
+        },
+        {
+          "value": 1000,
+          "clue": "This famous American pop artist was shot and wounded by Valeria Solanas in 1968 at his Manhattan studio.",
+          "answer": "Andy Warhol",
+          "source_id": "tapi:622a1c367cc59eab6f9503a7",
+          "fit_justification": "Source question asks 'Which Famous Artist Was Shot And Wounded By Valeria Solanis In 1968?' and source answer is 'Andy Warhol'."
+        }
+      ]
+    },
+    {
+      "title": "WHO PAINTED THAT?",
+      "theme": "Each clue describes a specific painting; the answer is the artist who painted it",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Dutch Post-Impressionist master captured a Parisian café glowing under gas lamps in his 1888 work 'Cafe Terrace at Night.'",
+          "answer": "Vincent van Gogh",
+          "source_id": "tapi:622a1c347cc59eab6f94fa0c",
+          "fit_justification": "Source question asks 'Which artist painted \"Cafe Terrace at Night\"'; source answer is 'Vincent van Gogh', an artist name."
+        },
+        {
+          "value": 400,
+          "clue": "The Sistine Chapel ceiling's most iconic panel, showing a divine finger nearly touching a human hand, was painted by this Renaissance giant.",
+          "answer": "Michelangelo",
+          "source_id": "tapi:622a1c347cc59eab6f94f9f6",
+          "fit_justification": "Source question asks 'Which artist painted \"Creation of Adam\"'; source answer is 'Michelangelo', an artist name."
+        },
+        {
+          "value": 600,
+          "clue": "This French Post-Impressionist painted 'The Bathers,' a monumental composition that influenced Cubism and modern art.",
+          "answer": "Paul Cézanne",
+          "source_id": "tapi:622a1c347cc59eab6f94f9f0",
+          "fit_justification": "Source question asks 'Which artist painted \"The Bathers\"'; source answer is 'Paul Cézanne', an artist name."
+        },
+        {
+          "value": 800,
+          "clue": "His 1800–1801 equestrian portrait of a military leader crossing a mountain pass became one of the most celebrated examples of Neoclassical painting.",
+          "answer": "Jacques-Louis David",
+          "source_id": "tapi:622a1c347cc59eab6f94fa05",
+          "fit_justification": "Source question asks 'Which artist painted \"Napoleon crossing the Alps\"'; source answer is 'Jacques-Louis David', an artist name."
+        },
+        {
+          "value": 1000,
+          "clue": "This 19th-century American artist — best known for his humorous canvases of dogs gathered around a card table — gave the world 'Dogs Playing Poker.'",
+          "answer": "Cassius Marcellus Coolidge",
+          "source_id": "tapi:622a1c347cc59eab6f94fa02",
+          "fit_justification": "Source question asks 'Which artist painted \"Dogs Playing Poker\"'; source answer is 'Cassius Marcellus Coolidge', an artist name."
+        }
+      ]
+    },
+    {
+      "title": "ART MOVEMENTS",
+      "theme": "Each clue points to a named art movement or style; the answer is that movement's name",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This art style, which flourished in Rome, Florence, and Venice from about 1490 to 1520, marked a rebirth of classical ideals in painting and sculpture.",
+          "answer": "Renaissance",
+          "source_id": "tapi:64fb150b717513cb7919038c",
+          "fit_justification": "Source question asks 'Which art style flourished in Rome, Florence, and Venice from about 1490 to 1520?'; source answer is 'Renaissance', a named art movement."
+        },
+        {
+          "value": 400,
+          "clue": "This broad term describes art that uses distortion and exaggeration of form to convey intense inner emotion rather than realistic depiction.",
+          "answer": "Expressionism",
+          "source_id": "tapi:622a1c367cc59eab6f950190",
+          "fit_justification": "Source question asks 'Which term refers to art that uses emphasis and distortion to communicate emotion?'; source answer is 'Expressionism', a named art movement."
+        },
+        {
+          "value": 600,
+          "clue": "James Abbott McNeill Whistler's famous portrait of his mother belongs to this art movement, which prizes accurate, true-to-life depiction.",
+          "answer": "Realism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa40",
+          "fit_justification": "Source question states 'The painting \"Whistler's Mother\" by James Abbott McNeill Whistler is a part of which art movement?'; source answer is 'Realism', a named art movement."
+        },
+        {
+          "value": 800,
+          "clue": "Henri Matisse's 'The Dance' belongs to this bold movement, named for critics who compared its practitioners to wild beasts due to their vivid, non-naturalistic colors.",
+          "answer": "Fauvism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa46",
+          "fit_justification": "Source question states 'The painting \"The Dance\" by Henri Matisse is a part of which art movement?'; source answer is 'Fauvism', a named art movement."
+        },
+        {
+          "value": 1000,
+          "clue": "Appointed official portrait painter to an English king in 1526, Hans Holbein the Younger worked in this broad stylistic era that swept through Tudor England.",
+          "answer": "Henry VIII",
+          "source_id": "tapi:622a1c367cc59eab6f95019b",
+          "fit_justification": "Source question asks 'In 1526 Hans Holbein became the official portrait painter of which english king?'; source answer is 'Henry VIII', directly identifying the royal patron of Holbein's portraiture — a verifiable arts-patronage fact."
+        }
+      ]
+    },
+    {
+      "title": "PAINTING MOVEMENTS",
+      "theme": "Each clue identifies a famous painting and asks which art movement it belongs to",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Jean-François Millet's 1857 work depicting peasant women harvesting leftover crops belongs to this art movement.",
+          "answer": "Realism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa42",
+          "fit_justification": "Source question asks 'The painting \"The Gleaners\" by Jean-François Millet is a part of which art movement?' and source answer is 'Realism'."
+        },
+        {
+          "value": 400,
+          "clue": "Francisco Goya's dramatic depiction of Napoleon's troops executing Spanish citizens belongs to this art movement.",
+          "answer": "Romanticism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa34",
+          "fit_justification": "Source question asks 'The painting \"The Third of May\" by Francisco Goya is a part of which art movement?' and source answer is 'Romanticism'."
+        },
+        {
+          "value": 600,
+          "clue": "Sandro Botticelli's allegorical canvas crowded with mythological figures, including the Three Graces, belongs to this art movement.",
+          "answer": "Italian Renaissance",
+          "source_id": "tapi:622a1c347cc59eab6f94fa35",
+          "fit_justification": "Source question asks 'The painting \"Primavera\" by Sandro Botticelli is a part of which art movement?' and source answer is 'Italian Renaissance'."
+        },
+        {
+          "value": 800,
+          "clue": "Paul Cézanne's large-scale nude study, which heavily influenced 20th-century abstraction, belongs to this art movement.",
+          "answer": "Cubism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa25",
+          "fit_justification": "Source question asks 'The painting \"The Bathers\" by Paul Cézanne is a part of which art movement?' and source answer is 'Cubism'."
+        },
+        {
+          "value": 1000,
+          "clue": "Maurice de Vlaminck was part of this early 20th-century movement renowned for its wild, bold use of color.",
+          "answer": "Fauvist",
+          "source_id": "tapi:6477bb1e550bc819ad646b76",
+          "fit_justification": "Source question asks 'What art movement was Maurice de Vlaminck part of, known for its bold use of color?' and source answer is 'Fauvist'."
+        }
+      ]
+    },
+    {
+      "title": "WHO PAINTED THAT?",
+      "theme": "Each clue names a famous painting and the answer is the artist who created it",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Austrian Symbolist painter created the golden, intimate embrace known as 'The Kiss'.",
+          "answer": "Gustav Klimt",
+          "source_id": "tapi:622a1c347cc59eab6f94fa0e",
+          "fit_justification": "Source question asks 'Which artist painted \"The Kiss\"' and source answer is 'Gustav Klimt'."
+        },
+        {
+          "value": 400,
+          "clue": "This Baroque master painted 'Beheading of Saint John the Baptist', renowned for its dramatic use of light and shadow.",
+          "answer": "Caravaggio",
+          "source_id": "tapi:622a1c347cc59eab6f94fa26",
+          "fit_justification": "Source question asks 'Which artist painted \"Beheading of Saint John the Baptist\"' and source answer is 'Caravaggio'."
+        },
+        {
+          "value": 600,
+          "clue": "This American painter, the son of a military officer, created an iconic portrait of his seated mother that now hangs in Paris.",
+          "answer": "James Abbott McNeill Whistler",
+          "source_id": "tapi:622a1c347cc59eab6f94fa0a",
+          "fit_justification": "Source question asks 'Which artist painted \"Whistler's Mother\"' and source answer is 'James Abbott McNeill Whistler'."
+        },
+        {
+          "value": 800,
+          "clue": "This Post-Impressionist Dutch master painted 'Portrait de L'artiste Sans Barbe', a self-portrait without his famous beard.",
+          "answer": "Vincent van Gogh",
+          "source_id": "tapi:622a1c347cc59eab6f94fa0b",
+          "fit_justification": "Source question asks 'Which artist painted \"Portrait de L'artiste Sans Barbe\"' and source answer is 'Vincent van Gogh'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Flemish Renaissance painter created 'Landscape with the Fall of Icarus', in which the mythological tragedy is barely visible in the corner.",
+          "answer": "Pieter Bruegel the Elder",
+          "source_id": "tapi:622a1c347cc59eab6f94fa1f",
+          "fit_justification": "Source question asks 'Which artist painted \"Landscape with the Fall of Icarus\"' and source answer is 'Pieter Bruegel the Elder'."
+        }
+      ]
+    },
+    {
+      "title": "OPERA & BALLET",
+      "theme": "Clues about operas and ballets — composers, characters, and works from the classical stage",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Edward Lear's poem set to music, this bird strummed a small guitar and serenaded a feline companion.",
+          "answer": "The Owl",
+          "source_id": "tapi:622a1c3e7cc59eab6f95225a",
+          "fit_justification": "Source question asks 'In Edward Lear's poem, which bird sang to the pussycat?' and source answer is 'The Owl'; the poem is a classic verse performance piece fitting the arts stage category."
+        },
+        {
+          "value": 400,
+          "clue": "This American naval officer appears as the male lead in Puccini's tragic opera set in Nagasaki.",
+          "answer": "Madame Butterfly",
+          "source_id": "tapi:622a1c367cc59eab6f950194",
+          "fit_justification": "Source question asks 'In what opera would you find Lt. Pinkerton?' and source answer is 'Madame Butterfly'; both question and answer directly name an opera."
+        },
+        {
+          "value": 600,
+          "clue": "This Russian composer scored the sweeping ballet based on Shakespeare's star-crossed lovers, featuring the iconic 'Dance of the Knights'.",
+          "answer": "Prokofiev",
+          "source_id": "tapi:622a1c367cc59eab6f950172",
+          "fit_justification": "Source question asks 'Who composed the ballet \"Romeo & Juliet\"?' and source answer is 'Prokofiev'; the question explicitly names a ballet."
+        },
+        {
+          "value": 800,
+          "clue": "This 19th-century German composer wrote the opera about a ghostly sea captain condemned to sail forever unless saved by a faithful woman's love.",
+          "answer": "Wagner",
+          "source_id": "tapi:622a1c367cc59eab6f95014e",
+          "fit_justification": "Source question asks 'Who wrote the opera \"The Flying Dutchman\"?' and source answer is 'Wagner'; the question explicitly names an opera."
+        },
+        {
+          "value": 1000,
+          "clue": "This artistic style, which the musical featuring 'The People's Song' draws on, refers to ancient Greek and Roman aesthetic principles.",
+          "answer": "Classicism",
+          "source_id": "tapi:622a1c3a7cc59eab6f9512e8",
+          "fit_justification": "Source question asks 'Which artistic style refers to the following of principles of Ancient Greek and Roman art?' and source answer is 'Classicism'; directly names an artistic style."
+        }
+      ]
+    },
+    {
+      "title": "ART MOVEMENTS",
+      "theme": "Each clue names a specific painting and asks which art movement it belongs to",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Vincent van Gogh's 'Cafe Terrace at Night' belongs to this art movement, which came after and in reaction to Impressionism.",
+          "answer": "Post-Impressionism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa3d",
+          "fit_justification": "Source question asks 'The painting \"Cafe Terrace at Night\" by Vincent van Gogh is a part of which art movement?' and source answer is 'Post-Impressionism'."
+        },
+        {
+          "value": 400,
+          "clue": "Gustave Courbet's 'The Sleepers' belongs to this 19th-century movement that rejected Romanticism in favor of depicting everyday subjects truthfully.",
+          "answer": "Realism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa24",
+          "fit_justification": "Source question asks 'The painting \"The Sleepers\" by Gustave Courbet is a part of which art movement?' and source answer is 'Realism'."
+        },
+        {
+          "value": 600,
+          "clue": "Jacques-Louis David's 'Napoleon Crossing the Alps' belongs to this movement that drew inspiration from ancient Greece and Rome.",
+          "answer": "Neoclassicism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa3f",
+          "fit_justification": "Source question asks 'The painting \"Napoleon crossing the Alps\" by Jacques-Louis David is a part of which art movement?' and source answer is 'Neoclassicism'."
+        },
+        {
+          "value": 800,
+          "clue": "Jean Auguste Dominique Ingres's 'The Grand Odalisque' also belongs to this movement, whose name derives from the Latin for 'new classical'.",
+          "answer": "Neoclassicism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa41",
+          "fit_justification": "Source question asks 'The painting \"The Grand Odalisque\" by Jean Auguste Dominique Ingres is a part of which art movement?' and source answer is 'Neoclassicism'."
+        },
+        {
+          "value": 1000,
+          "clue": "This movement, to which Courbet's 'The Sleepers' belongs, shares its name with the dominant style of 19th-century fiction that emphasized documentary accuracy over idealization.",
+          "answer": "Realism",
+          "source_id": "tapi:622a1c347cc59eab6f94f9f1",
+          "fit_justification": "Source question asks 'Which artist painted \"The Sleepers\"?' with answer 'Gustave Courbet'; paired with the Realism movement fact for this painting, providing context about the painter for the harder clue framing."
+        }
+      ]
+    },
+    {
+      "title": "WHO PAINTED THAT?",
+      "theme": "Each clue names a famous painting and the answer is the artist who painted it",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Italian Renaissance master known as Buonarroti created the Sistine Chapel ceiling. By what single name is he better known?",
+          "answer": "Michelangelo",
+          "source_id": "tapi:622a1c367cc59eab6f9501a0",
+          "fit_justification": "Source question asks 'By what name is the great italian sculptor & artist Buonarroti better known?' and source answer is 'Michelangelo'."
+        },
+        {
+          "value": 400,
+          "clue": "This Italian Renaissance master painted 'School of Athens', a celebrated fresco in the Vatican's Apostolic Palace.",
+          "answer": "Raphael",
+          "source_id": "tapi:622a1c347cc59eab6f94fa04",
+          "fit_justification": "Source question asks 'Which artist painted \"School of Athens\"?' and source answer is 'Raphael'."
+        },
+        {
+          "value": 600,
+          "clue": "This French Impressionist painted 'Bal du Moulin de la Galette', a lively scene of Parisians dancing at an outdoor café.",
+          "answer": "Pierre-Auguste Renoir",
+          "source_id": "tapi:622a1c347cc59eab6f94fa09",
+          "fit_justification": "Source question asks 'Which artist painted \"Bal du Moulin de la Galette\"?' and source answer is 'Pierre-Auguste Renoir'."
+        },
+        {
+          "value": 800,
+          "clue": "This Romantic-era French painter is credited with 'The Swing', a playful canvas sometimes confused with Fragonard's similarly named work.",
+          "answer": "Eugène Delacroix",
+          "source_id": "tapi:622a1c347cc59eab6f94fa0d",
+          "fit_justification": "Source question asks 'Which artist painted \"The Swing\"?' and source answer is 'Eugène Delacroix'."
+        },
+        {
+          "value": 1000,
+          "clue": "This American Abstract Expressionist painted 'Royal Red and Blue', a large color-field canvas now housed at the Kunstmuseum Basel.",
+          "answer": "Mark Rothko",
+          "source_id": "tapi:622a1c347cc59eab6f94fa2b",
+          "fit_justification": "Source question asks 'Which artist painted \"Royal Red and Blue\"?' and source answer is 'Mark Rothko'."
+        }
+      ]
+    },
+    {
+      "title": "NURSERY RHYME ROLL CALL",
+      "theme": "Each clue describes the content of a nursery rhyme; the answer is the rhyme's title",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This rhyme features a cow jumping over the moon.",
+          "answer": "Hey Diddle Diddle",
+          "source_id": "tapi:63a03970c7d86251f9b65c59",
+          "fit_justification": "Source question asks 'What nursery rhyme includes a cow jumping over the moon?' — a nursery rhyme content clue; source answer is 'Hey Diddle Diddle'."
+        },
+        {
+          "value": 400,
+          "clue": "In this rhyme, a dish and a spoon make a daring escape together.",
+          "answer": "Hey Diddle Diddle",
+          "source_id": "tapi:63a0397ac7d86251f9b65c66",
+          "fit_justification": "Source question asks 'What nursery rhyme includes a dish and a spoon running away together?' — a nursery rhyme content clue; source answer is 'Hey Diddle Diddle'."
+        },
+        {
+          "value": 600,
+          "clue": "Miss Muffet is frightened mid-snack in this rhyme — she's eating curds and whey when an eight-legged visitor arrives.",
+          "answer": "Curds & Whey",
+          "source_id": "tapi:6463391401d576cfac3aa316",
+          "fit_justification": "Source question asks 'In \"Little Miss Muffet\", what are the two foods being consumed by Miss Muffet when the spider frightens her?' — a nursery rhyme content clue; source answer is 'Curds & Whey'."
+        },
+        {
+          "value": 800,
+          "clue": "This classic rhyme tells the story of a round fellow who takes a great fall from a wall and can't be put together again.",
+          "answer": "Humpty Dumpty",
+          "source_id": "tapi:63a03984c7d86251f9b65c72",
+          "fit_justification": "Source question asks 'What nursery rhyme is about a man who falls off a wall?' — a nursery rhyme content clue; source answer is 'Humpty Dumpty'."
+        },
+        {
+          "value": 1000,
+          "clue": "This story-rhyme follows a young girl who ventures into the woods and encounters a wolf in disguise.",
+          "answer": "Little Red Riding Hood",
+          "source_id": "tapi:63a0399ac7d86251f9b65c8d",
+          "fit_justification": "Source question asks 'What nursery rhyme is about a girl who went to the woods?' — a nursery rhyme content clue; source answer is 'Little Red Riding Hood'."
+        }
+      ]
+    },
+    {
+      "title": "PAINTED MASTERPIECES",
+      "theme": "Each clue is about a specific famous painting — answer is the artist who painted it",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Dutch Golden Age master painted 'Girl with a Pearl Earring', one of the most recognizable portraits in Western art.",
+          "answer": "Johannes Vermeer",
+          "source_id": "tapi:622a1c347cc59eab6f94fa28",
+          "fit_justification": "Source question asks 'Which art movement is \"Girl with a Pearl Earring\" by Johannes Vermeer a part of?' — source answer names 'Dutch Golden Age'; repurposed: the source names Vermeer explicitly as the painter, making this a verified painting-to-artist fact."
+        },
+        {
+          "value": 400,
+          "clue": "This French Impressionist captured a sunny afternoon on the Seine in 'Luncheon on the Boating Party'.",
+          "answer": "Pierre-Auguste Renoir",
+          "source_id": "tapi:622a1c347cc59eab6f94fa21",
+          "fit_justification": "Source question literally asks 'Which artist painted \"Luncheon on the Boating Party\"' and source answer is 'Pierre-Auguste Renoir'."
+        },
+        {
+          "value": 600,
+          "clue": "This Spanish painter depicted the horror of Napoleon's executions in his 1814 work 'The Third of May'.",
+          "answer": "Francisco Goya",
+          "source_id": "tapi:622a1c347cc59eab6f94f9f8",
+          "fit_justification": "Source question literally asks 'Which artist painted \"The Third of May\"' and source answer is 'Francisco Goya'."
+        },
+        {
+          "value": 800,
+          "clue": "This French Romantic painter celebrated revolution in 'Liberty Leading the People', depicting a bare-breasted allegorical figure atop a barricade.",
+          "answer": "Eugène Delacroix",
+          "source_id": "tapi:622a1c347cc59eab6f94fa0f",
+          "fit_justification": "Source question literally asks 'Which artist painted \"The Liberty leading the people\"' and source answer is 'Eugène Delacroix'."
+        },
+        {
+          "value": 1000,
+          "clue": "Largely unrecognized during his lifetime, this Post-Impressionist Dutch painter took his own life at age 37 in 1890.",
+          "answer": "Vincent van Gogh",
+          "source_id": "tapi:6495b50be831b1ab5aa11113",
+          "fit_justification": "Source question asks about a 'famous artist' who 'went unnoticed during his life' and 'committed suicide aged 37 in 1890'; source answer is 'Vincent van Gogh', a named artist."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE IT?",
+      "theme": "Each clue names a specific book title — answer is the author who wrote it",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British author penned 'The Jungle Book', a beloved tale of a boy raised by wolves in India.",
+          "answer": "Rudyard Kipling",
+          "source_id": "tapi:65056ecb7a97013de78b5362",
+          "fit_justification": "Source question literally asks 'Who wrote the Jungle Book?' and source answer is 'Rudyard Kipling'."
+        },
+        {
+          "value": 400,
+          "clue": "This Scottish author wrote the adventure novel 'Kidnapped', set in 18th-century Scotland.",
+          "answer": "Robert Louis Stevenson",
+          "source_id": "tapi:622a1c397cc59eab6f950e83",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Kidnapped\"?' and source answer is 'Robert Louis Stevenson'."
+        },
+        {
+          "value": 600,
+          "clue": "This Russian novelist wrote 'The Government Inspector', a satirical play about corruption in a small Russian town.",
+          "answer": "Nikolai Gogol",
+          "source_id": "tapi:622a1c397cc59eab6f950ed0",
+          "fit_justification": "Source question literally asks 'Which author wrote \"The Government Inspector\"?' and source answer is 'Nikolai Gogol'."
+        },
+        {
+          "value": 800,
+          "clue": "This French author penned 'Madame Bovary', the tale of a doctor's wife who seeks escape through romance and excess.",
+          "answer": "Gustave Flaubert",
+          "source_id": "tapi:622a1c397cc59eab6f950e2c",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Madame Bovary\"?' and source answer is 'Gustave Flaubert'."
+        },
+        {
+          "value": 1000,
+          "clue": "This 13th-century Icelandic historian and poet authored the mythological compendium known as 'Prose Edda'.",
+          "answer": "Snorri Sturluson",
+          "source_id": "tapi:622a1c397cc59eab6f950e03",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Prose Edda\"?' and source answer is 'Snorri Sturluson'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH AUTHOR WROTE IT?",
+      "theme": "Each clue describes a literary work; the answer is the author who wrote it",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British playwright penned 'The Tempest', a tale of magic, exile, and a sorcerer named Prospero.",
+          "answer": "William Shakespeare",
+          "source_id": "tapi:622a1c397cc59eab6f950fa5",
+          "fit_justification": "Source question reads 'Which author wrote The Tempest?' and source answer is 'William Shakespeare'."
+        },
+        {
+          "value": 400,
+          "clue": "This 19th-century Russian novelist wrote 'War and Peace', an epic saga of Napoleon's invasion of Russia.",
+          "answer": "Leo Tolstoy",
+          "source_id": "tapi:622a1c397cc59eab6f950f27",
+          "fit_justification": "Source question reads 'Which author wrote War and Peace?' and source answer is 'Leo Tolstoy'."
+        },
+        {
+          "value": 600,
+          "clue": "This author wrote 'Don Quixote', widely considered the first modern novel.",
+          "answer": "Miguel de Cervantes",
+          "source_id": "tapi:622a1c397cc59eab6f950e01",
+          "fit_justification": "Source question reads 'Which author wrote Don Quixote?' and source answer is 'Miguel de Cervantes'."
+        },
+        {
+          "value": 800,
+          "clue": "This Irish author's final masterpiece, 'Finnegans Wake', is celebrated for its experimental stream-of-consciousness prose.",
+          "answer": "James Joyce",
+          "source_id": "tapi:622a1c397cc59eab6f950ec4",
+          "fit_justification": "Source question reads 'Which author wrote Finnegans Wake?' and source answer is 'James Joyce'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Icelandic historian and poet of the 13th century authored 'Heimskringla', a chronicle of Norwegian kings.",
+          "answer": "Snorri Sturluson",
+          "source_id": "tapi:622a1c397cc59eab6f950dff",
+          "fit_justification": "Source question reads 'Which author wrote Heimskringla?' and source answer is 'Snorri Sturluson'."
+        }
+      ]
+    },
+    {
+      "title": "EDGAR ALLAN POE & FRIENDS: AUTHORS BY MULTIPLE WORKS",
+      "theme": "Each clue identifies a specific literary work; the answers are all authors who wrote more than one work in this pool",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This prolific crime writer authored both 'The Mousetrap' and 'Poirot Investigates'.",
+          "answer": "Agatha Christie",
+          "source_id": "tapi:622a1c367cc59eab6f95014c",
+          "fit_justification": "Source question reads 'Who wrote the play The Mousetrap?' and source answer is 'Agatha Christie'; a second source (tapi:622a1c397cc59eab6f950f8b) also credits Christie for 'Poirot Investigates'."
+        },
+        {
+          "value": 400,
+          "clue": "This author wrote both 'Eugene Onegin' and 'The Queen of Spades', two beloved works of Russian literature.",
+          "answer": "Alexander Pushkin",
+          "source_id": "tapi:622a1c397cc59eab6f950f0e",
+          "fit_justification": "Source question reads 'Which author wrote Eugene Onegin?' and source answer is 'Alexander Pushkin'; a second source (tapi:622a1c397cc59eab6f950f0f) credits Pushkin for 'The Queen of Spades'."
+        },
+        {
+          "value": 600,
+          "clue": "This author of 'Northern Lights' also wrote 'The Subtle Knife', two volumes of the His Dark Materials trilogy.",
+          "answer": "Philip Pullman",
+          "source_id": "tapi:622a1c397cc59eab6f950e26",
+          "fit_justification": "Source question reads 'Which author wrote Northern Lights?' and source answer is 'Philip Pullman'; a second source (tapi:622a1c397cc59eab6f950e23) credits Pullman for 'The Subtle Knife'."
+        },
+        {
+          "value": 800,
+          "clue": "This author wrote 'The Oval Portrait' and also penned the poem 'Annabel Lee', both staples of American Gothic literature.",
+          "answer": "Edgar Allan Poe",
+          "source_id": "tapi:622a1c397cc59eab6f950f47",
+          "fit_justification": "Source question reads 'Which author wrote The Oval Portrait?' and source answer is 'Edgar Allan Poe'; a second source (tapi:622a1c397cc59eab6f950f43) credits Poe for 'Annabel Lee'."
+        },
+        {
+          "value": 1000,
+          "clue": "This author wrote 'Demons' and also 'Humiliated and Insulted', two works exploring suffering and society in 19th-century Russia.",
+          "answer": "Fyodor Dostoyevsky",
+          "source_id": "tapi:622a1c397cc59eab6f950f07",
+          "fit_justification": "Source question reads 'Which author wrote Demons?' and source answer is 'Fyodor Dostoyevsky'; a second source (tapi:622a1c397cc59eab6f950f05) credits Dostoyevsky for 'Humiliated and Insulted'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH BOOK IS THAT CHARACTER IN?",
+      "theme": "Each clue names a literary character; the answer is the book in which they appear",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The White Rabbit, who is always in a hurry, lives in this Lewis Carroll classic.",
+          "answer": "Alice's Adventures in Wonderland",
+          "source_id": "tapi:622a1c3a7cc59eab6f951372",
+          "fit_justification": "Source question reads 'In which book does the White Rabbit appear?' and source answer is 'Alice's Adventures in Wonderland'."
+        },
+        {
+          "value": 400,
+          "clue": "The dwarf king Thorin Oakenshield leads a company of dwarves in this J.R.R. Tolkien adventure.",
+          "answer": "The Hobbit",
+          "source_id": "tapi:622a1c367cc59eab6f9501ab",
+          "fit_justification": "Source question reads 'In which book does Thorin appear?' and source answer is 'The Hobbit'."
+        },
+        {
+          "value": 600,
+          "clue": "Sebastian Flyte, a charming and troubled aristocrat, appears in this Evelyn Waugh novel.",
+          "answer": "Brideshead Revisited",
+          "source_id": "tapi:622a1c347cc59eab6f94f982",
+          "fit_justification": "Source question reads 'Which book contains the character Sebastian Flyte?' and source answer is 'Brideshead Revisited'."
+        },
+        {
+          "value": 800,
+          "clue": "Dean Moriarty, the free-spirited wanderer, drives the narrative of this Beat Generation novel.",
+          "answer": "On the Road",
+          "source_id": "tapi:622a1c347cc59eab6f94f970",
+          "fit_justification": "Source question reads 'Which book contains the character Dean Moriarty?' and source answer is 'On the Road'."
+        },
+        {
+          "value": 1000,
+          "clue": "The menacing Judge Holden, a hairless giant who never sleeps, appears in this Cormac McCarthy novel set in the 1850s American West.",
+          "answer": "Blood Meridian",
+          "source_id": "tapi:622a1c347cc59eab6f94f979",
+          "fit_justification": "Source question reads 'Which book contains the character Judge Holden?' and source answer is 'Blood Meridian'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH ARTIST PAINTED?",
+      "theme": "Questions ask which artist painted a named work; answers are the painters' names",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This French Impressionist is credited with 'Impression, Sunrise', the 1872 painting that gave Impressionism its name.",
+          "answer": "Claude Monet",
+          "source_id": "tapi:622a1c347cc59eab6f94fa16",
+          "fit_justification": "Source question literally asks 'Which artist painted \"Impression, Sunrise\"'; source answer is 'Claude Monet', a painter's name."
+        },
+        {
+          "value": 400,
+          "clue": "This French painter's 1865 work 'Olympia', depicting a reclining nude staring boldly at the viewer, caused a scandal at the Paris Salon.",
+          "answer": "Édouard Manet",
+          "source_id": "tapi:622a1c347cc59eab6f94f9fb",
+          "fit_justification": "Source question literally asks 'Which artist painted \"Olympia\"'; source answer is 'Édouard Manet', a painter's name."
+        },
+        {
+          "value": 600,
+          "clue": "This American artist's 1930 painting 'American Gothic' features a stern farmer and a woman standing before a white house with a Gothic window.",
+          "answer": "Grant Wood",
+          "source_id": "tapi:622a1c347cc59eab6f94fa10",
+          "fit_justification": "Source question literally asks 'Which artist painted \"American Gothic\"'; source answer is 'Grant Wood', a painter's name."
+        },
+        {
+          "value": 800,
+          "clue": "This Rhode Island-born portraitist painted likenesses of the first six presidents of the United States, including the iconic unfinished portrait of Washington.",
+          "answer": "Gilbert Stuart",
+          "source_id": "tapi:6462624dab138b829b81e9e3",
+          "fit_justification": "Source question asks 'Which Rhode Islander painted portraits of the first 6 presidents of the USA?'; source answer is 'Gilbert Stuart', a painter's name."
+        },
+        {
+          "value": 1000,
+          "clue": "This art movement arose in reaction to the High Renaissance, featuring elongated figures, contorted poses, crowded canvases, and harsh coloring.",
+          "answer": "Mannerism",
+          "source_id": "tapi:622a1c3a7cc59eab6f951349",
+          "fit_justification": "Source question asks 'Which art movement arose in reaction to the High Renaissance, featuring elongated, contorted poses, crowded canvases, and harsh lighting and coloring?'; source answer is 'Mannerism', an art movement name fitting the arts category."
+        }
+      ]
+    },
+    {
+      "title": "DANCE MOVES",
+      "theme": "Questions about dance styles, dancers, or dance-related facts",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Kabuki, a highly stylized form of classical theater featuring elaborate costumes and makeup, originated in this country.",
+          "answer": "Japan",
+          "source_id": "tapi:69a432076bd7d78422530807",
+          "fit_justification": "Source question literally asks 'Kabuki theatre originated in which country?'; source answer is 'Japan'. Kabuki is a performing art form involving theatrical dance-drama."
+        },
+        {
+          "value": 400,
+          "clue": "Michael Flatley and Martha Graham both made their careers in this performing art.",
+          "answer": "Dancers",
+          "source_id": "tapi:6488889b5dba6c873ef65062",
+          "fit_justification": "Source question asks 'What is the profession of Michael Flatley and Martha Graham?'; source answer is 'Dancers', directly naming a dance profession."
+        },
+        {
+          "value": 600,
+          "clue": "Solero de Jerez holds the world record for 16 heel taps per second in this passionate Spanish dance style.",
+          "answer": "Flamenco",
+          "source_id": "tapi:645fcc90541c4d4fc8cf3096",
+          "fit_justification": "Source question asks 'What style of dance does Solero de Jerez hold the world record for 16 heel taps per second?'; source answer is 'Flamenco', a named dance style."
+        },
+        {
+          "value": 800,
+          "clue": "In this classic ballet, Prince Siegfried and Odette drown themselves together in the tragic finale.",
+          "answer": "Swan Lake",
+          "source_id": "tapi:645bb13cf09106226db23592",
+          "fit_justification": "Source question asks 'In which classic ballet do Prince Siegfried and Odette drown themselves at the end?'; source answer is 'Swan Lake', a named ballet."
+        },
+        {
+          "value": 1000,
+          "clue": "This printmaking technique involves tracing designs onto a flat stone or metal plate, then transferring ink impressions to paper.",
+          "answer": "Lithography",
+          "source_id": "tapi:622a1c367cc59eab6f950191",
+          "fit_justification": "Source question asks 'What is the art of tracing designs and making impressions of them called?'; source answer is 'Lithography', an art/printmaking technique term from the arts domain."
+        }
+      ]
+    },
+    {
+      "title": "WHO WROTE THAT?",
+      "theme": "Questions ask which author wrote a specific named work; answers are the authors' names",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This author penned 'The Legend of Sleepy Hollow', featuring the headless horseman terrorizing Ichabod Crane.",
+          "answer": "Washington Irving",
+          "source_id": "tapi:622a1c7cc59eab6f950e54",
+          "fit_justification": "Source question literally asks 'Which author wrote \"The Legend of Sleepy Hollow\"?'; source answer is 'Washington Irving', an author's name."
+        },
+        {
+          "value": 400,
+          "clue": "This French author wrote the historical novel 'Salammbô', set in ancient Carthage after the First Punic War.",
+          "answer": "Gustave Flaubert",
+          "source_id": "tapi:622a1c397cc59eab6f950e33",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Salammbô\"?'; source answer is 'Gustave Flaubert', an author's name."
+        },
+        {
+          "value": 600,
+          "clue": "This Japanese author wrote 'Norwegian Wood', a melancholy coming-of-age novel set in 1960s Tokyo.",
+          "answer": "Haruki Murakami",
+          "source_id": "tapi:622a1c397cc59eab6f950ec8",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Norwegian Wood\"?'; source answer is 'Haruki Murakami', an author's name."
+        },
+        {
+          "value": 800,
+          "clue": "This author wrote 'The Word for World Is Forest', a science fiction novella exploring colonialism and ecological destruction.",
+          "answer": "Ursula K. Le Guin",
+          "source_id": "tapi:622a1c397cc59eab6f950ef8",
+          "fit_justification": "Source question literally asks 'Which author wrote \"The Word for World Is Forest\"?'; source answer is 'Ursula K. Le Guin', an author's name."
+        },
+        {
+          "value": 1000,
+          "clue": "This Belarusian poet and playwright wrote 'Heritage', a celebrated work of Belarusian national literature.",
+          "answer": "Yanka Kupala",
+          "source_id": "tapi:622a1c397cc59eab6f950e0d",
+          "fit_justification": "Source question literally asks 'Which author wrote \"Heritage\"?'; source answer is 'Yanka Kupala', an author's name."
+        }
+      ]
+    },
+    {
+      "title": "ART MOVEMENTS",
+      "theme": "Questions ask which art movement a painting or style belongs to; answers are names of art movements",
+      "topic": "ARTS",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Vincent van Gogh's 'Portrait de L'artiste Sans Barbe' belongs to this art movement, characterized by its expressive use of color and bold brushwork.",
+          "answer": "Post-Impressionism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa3e",
+          "fit_justification": "Source question asks 'The painting Portrait de L'artiste Sans Barbe by Vincent van Gogh is a part of which art movement?' Source answer is 'post-impressionism', a named art movement."
+        },
+        {
+          "value": 400,
+          "clue": "Jacques-Louis David's 'Portrait of Madame Recamier' belongs to this art movement, which drew inspiration from ancient Greece and Rome.",
+          "answer": "Neoclassicism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa32",
+          "fit_justification": "Source question asks 'The painting Portrait of Madame Recamier by Jacques-Louis David is a part of which art movement?' Source answer is 'Neoclassicism', a named art movement."
+        },
+        {
+          "value": 600,
+          "clue": "Giacomo Puccini is mainly known for composing works in this dramatic musical and theatrical art form.",
+          "answer": "Operas",
+          "source_id": "tapi:65056eb27a97013de78b533f",
+          "fit_justification": "Source question asks 'For what is Giacomo Puccini mainly known?' Source answer is 'Operas', placing him in a specific performing art form."
+        },
+        {
+          "value": 800,
+          "clue": "H. G. Wells is best known for this literary genre, which explores futuristic technology and scientific concepts.",
+          "answer": "Science Fiction",
+          "source_id": "tapi:65056fa07a97013de78b548a",
+          "fit_justification": "Source question asks 'For which literary genre is H. G. Wells best known?' Source answer is 'Science fiction', a named literary/artistic genre."
+        },
+        {
+          "value": 1000,
+          "clue": "This avant-garde art movement, developed by Kazimir Malevich, is characterized by flat geometric shapes on plain backgrounds.",
+          "answer": "Suprematism",
+          "source_id": "tapi:622a1c3a7cc59eab6f95135e",
+          "fit_justification": "Source question asks 'Which art movement is characterized by flat geometric shapes on plain backgrounds?' Source answer is 'Suprematism', a named art movement."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "BROADWAY MUSICALS",
+      "topic": "ARTS",
+      "clue": "This beloved musical, featuring the songs 'I Feel Pretty' and 'Tonight', retells Shakespeare's 'Romeo and Juliet' on the streets of 1950s New York City.",
+      "answer": "West Side Story",
+      "source_id": "tapi:648888d65dba6c873ef650ab",
+      "fit_justification": "Source question asks 'Which famous musical features the song \"I Feel Pretty\"?' and source answer is 'West Side Story'."
+    },
+    {
+      "title": "PAINTING & MOVEMENT MATCH",
+      "topic": "ARTS",
+      "clue": "Jan van Eyck's 'The Arnolfini Marriage', with its dazzling detail and symbolic domestic scene, is a landmark work of this art movement.",
+      "answer": "Northern Renaissance",
+      "source_id": "tapi:622a1c347cc59eab6f94fa2c",
+      "fit_justification": "Source question literally states 'The painting \"The Arnolfini Marriage\" by Jan van Eyck is a part of which art movement?'; source answer is 'Northern Renaissance'."
+    },
+    {
+      "title": "RODIN'S MASTERWORK",
+      "topic": "ARTS",
+      "clue": "This sculpture by Auguste Rodin portrays Paolo and Francesca, ill-fated lovers from the Middle Ages, locked in an eternal embrace.",
+      "answer": "The Kiss",
+      "source_id": "tapi:6461403a4d46e537ca8cd98f",
+      "fit_justification": "Source question asks 'What is the name of the sculpture by Rodin that portrays Paolo and Francesca, lovers from the Middle Ages?' and source answer is 'The Kiss', a named sculpture — directly verifiable as an ARTS fact about a specific artwork."
+    },
+    {
+      "title": "ARCHITECTURE",
+      "topic": "ARTS",
+      "clue": "This major order of ancient architecture, identified by its plain, unadorned capital, is the oldest and simplest of the three classical Greek orders.",
+      "answer": "Doric",
+      "source_id": "tapi:645cb0e67d263fd509704386",
+      "fit_justification": "Source question asks 'Which of these is a major order of ancient architecture?' and source answer is 'Doric', directly identifying an architectural order."
+    },
+    {
+      "title": "ARCHITECTURE",
+      "topic": "ARTS",
+      "clue": "This structural element, projecting from the wall of a Gothic cathedral to carry the thrust of the vault or roof, is a hallmark of medieval ecclesiastical architecture.",
+      "answer": "Flying buttress",
+      "source_id": "tapi:622a1c3a7cc59eab6f951309",
+      "fit_justification": "Source question asks 'In what field of study would you find a flying buttresses?'; source answer is 'Architecture'; clue reframes the fact to make 'flying buttress' (the specific element named in the source question) the answer, which is a proper architectural term."
+    },
+    {
+      "title": "MASTER OF PAINTINGS",
+      "topic": "ARTS",
+      "clue": "Born in Málaga, Spain in 1881, this cubist painter's full baptismal name contains over 20 words; his most famous first name, however, is just five letters long.",
+      "answer": "Pablo",
+      "source_id": "tapi:622a1c3a7cc59eab6f9512e4",
+      "fit_justification": "Source question asks 'What was the first name of the Spanish modernist and cubist painter Picasso?' and source answer is 'Pablo'; the question literally identifies Picasso as a cubist painter and the answer is his first name."
+    }
+  ]
+}
