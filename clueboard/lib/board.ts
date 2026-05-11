@@ -191,16 +191,88 @@ function pickBoardCategories(
 
 const _boardCache = new Map<string, DailyBoard>();
 
+/**
+ * Returns the daily board for a given date. The lookup order is:
+ *
+ *   1. In-memory cache (per-process)
+ *   2. Persistent `daily_boards` row (frozen artifact)
+ *   3. Generate fresh via seeded RNG, then persist
+ *
+ * Once a date's board is persisted, it's immutable — even if the
+ * clue pool grows or the algorithm changes, past boards stay as they
+ * were when first generated.
+ */
 export async function getDailyBoard(date: string = todayDateString()): Promise<DailyBoard> {
   const cached = _boardCache.get(date);
   if (cached) return cached;
 
+  // 1. Try the persistent store.
+  const stored = await loadStoredBoard(date);
+  if (stored) {
+    _boardCache.set(date, stored);
+    return stored;
+  }
+
+  // 2. Generate from scratch and persist.
+  const board = await generateFreshBoard(date);
+  await persistBoard(board);
+  _boardCache.set(date, board);
+  return board;
+}
+
+/**
+ * Hydrate a previously-persisted board from `daily_boards`. Returns
+ * null if the row doesn't exist or any of its referenced clue rows
+ * have been deleted (defensive — treat broken rows as missing).
+ */
+async function loadStoredBoard(date: string): Promise<DailyBoard | null> {
+  const supabase = getSupabase();
+  const { data, error } = await supabase
+    .from("daily_boards")
+    .select("date, categories, clue_ids, final_clue_id, daily_double_clue_id")
+    .eq("date", date)
+    .maybeSingle();
+  if (error || !data) return null;
+
+  const { single, final } = await loadAllClues();
+  const byId = new Map<number, Clue>();
+  for (const c of single) byId.set(c.id, c);
+  for (const c of final) byId.set(c.id, c);
+
+  const cellsByCategory: Record<string, ClueForClient[]> = {};
+  for (const cat of data.categories) cellsByCategory[cat] = [];
+  for (const id of data.clue_ids) {
+    const clue = byId.get(id);
+    if (!clue) return null; // stale row; let caller fall back to fresh generation
+    const cell = stripAnswer(clue);
+    if (data.daily_double_clue_id === id) cell.isDailyDouble = true;
+    (cellsByCategory[clue.category] ||= []).push(cell);
+  }
+  // Each category's clues should be sorted ascending by dollar value.
+  for (const cat of data.categories) {
+    cellsByCategory[cat]?.sort((a, b) => (a.value ?? 0) - (b.value ?? 0));
+  }
+
+  const finalClueRow = byId.get(data.final_clue_id);
+  if (!finalClueRow) return null;
+
+  return {
+    date: data.date,
+    categories: data.categories,
+    cellsByCategory,
+    finalClue: stripAnswer(finalClueRow),
+  };
+}
+
+/**
+ * Compute today's board from the seeded RNG. Pure function of the
+ * date and the current clue pool — no DB side effects.
+ */
+async function generateFreshBoard(date: string): Promise<DailyBoard> {
   const { single, final } = await loadAllClues();
   const seed = seedFromDate(date);
   const rng = mulberry32(seed);
 
-  // Group single-round clues by category, keep only categories with all
-  // five standard $ values present (a complete column).
   const byCat: Record<string, Clue[]> = {};
   for (const cl of single) {
     (byCat[cl.category] ||= []).push(cl);
@@ -227,12 +299,10 @@ export async function getDailyBoard(date: string = todayDateString()): Promise<D
     cellsByCategory[cat] = picked;
   }
 
-  // Daily Double — deterministically pick one cell on the board. Seeded
-  // so all players see the same DD on the same day. Bias toward the
-  // middle/lower rows ($400+) so it isn't sitting on the $200 freebie.
+  // Daily Double — deterministically pick one cell on the board.
+  // Bias to $400+ rows so it isn't sitting on the $200 freebie.
   {
     const ddCatIdx = Math.floor(rng() * chosenCategories.length);
-    // Values weighted away from $200; pick from indices 1..4 ($400-$1000).
     const ddValueIdx = 1 + Math.floor(rng() * 4);
     const ddCat = chosenCategories[ddCatIdx];
     cellsByCategory[ddCat][ddValueIdx].isDailyDouble = true;
@@ -245,14 +315,42 @@ export async function getDailyBoard(date: string = todayDateString()): Promise<D
   const finalPool = offBoardFinals.length > 0 ? offBoardFinals : final;
   const finalClue = stripAnswer(finalPool[Math.floor(rng() * finalPool.length)]);
 
-  const board: DailyBoard = {
+  return {
     date,
     categories: chosenCategories,
     cellsByCategory,
     finalClue,
   };
-  _boardCache.set(date, board);
-  return board;
+}
+
+/**
+ * Write a freshly-generated board to `daily_boards` via the
+ * persist_daily_board() SECURITY DEFINER function (which is callable
+ * via the anon key but won't overwrite an existing row, so concurrent
+ * first-of-day requests are safe).
+ */
+async function persistBoard(board: DailyBoard): Promise<void> {
+  const supabase = getSupabase();
+  const clueIds: number[] = [];
+  let dailyDoubleClueId: number | null = null;
+  for (const cat of board.categories) {
+    for (const cell of board.cellsByCategory[cat]) {
+      clueIds.push(cell.id);
+      if (cell.isDailyDouble) dailyDoubleClueId = cell.id;
+    }
+  }
+  const { error } = await supabase.rpc("persist_daily_board", {
+    p_date: board.date,
+    p_categories: board.categories,
+    p_clue_ids: clueIds,
+    p_final_clue_id: board.finalClue.id,
+    p_daily_double_clue_id: dailyDoubleClueId,
+  });
+  if (error) {
+    // Soft fail — game still works from the in-memory cache; the next
+    // first-visit will retry.
+    console.warn(`persistBoard failed for ${board.date}:`, error.message);
+  }
 }
 
 export async function isClueOnBoard(clueId: number, date: string): Promise<boolean> {

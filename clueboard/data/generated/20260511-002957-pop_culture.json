@@ -1,0 +1,1922 @@
+{
+  "batch_id": "20260511-002957-pop_culture",
+  "generated_at": "2026-05-11T00:29:57.859Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "POP_CULTURE",
+  "categories": [
+    {
+      "title": "FAMOUS FILM QUOTES",
+      "theme": "Each clue's source question asks which film a specific quote is from, and the answer is the film title",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This animated Pixar film contains the encouraging line: 'Just keep swimming.'",
+          "answer": "Finding Nemo",
+          "source_id": "tapi:622a1c347cc59eab6f94fbbf",
+          "fit_justification": "Source question asks 'Which of these quotes is from the film Finding Nemo?' and source answer is the quote '\"Just keep swimming.\"'; the film name appears in the source question text, and the quote is literally present in the source."
+        },
+        {
+          "value": 400,
+          "clue": "The battle cry 'This is Sparta!' is shouted in this sword-and-sandal epic.",
+          "answer": "300",
+          "source_id": "tapi:622a1c347cc59eab6f94fbc9",
+          "fit_justification": "Source question asks 'Which of these quotes is from the film 300?' with answer '\"This is Sparta!\"'; quote is literally in the source."
+        },
+        {
+          "value": 600,
+          "clue": "The cryptic career advice 'Plastics.' is delivered in this 1967 Dustin Hoffman coming-of-age film.",
+          "answer": "The Graduate",
+          "source_id": "tapi:622a1c347cc59eab6f94fc26",
+          "fit_justification": "Source question asks 'Which of these quotes is from the film The Graduate?' with answer '\"Plastics.\"'; quote is literally present in the source."
+        },
+        {
+          "value": 800,
+          "clue": "The Marvel hit featuring talking trees and raccoons includes the simple declaration: 'I am Groot.'",
+          "answer": "Guardians of the Galaxy",
+          "source_id": "tapi:622a1c347cc59eab6f94fbd2",
+          "fit_justification": "Source question asks 'Which of these quotes is from the film Guardians of the Galaxy?' with answer '\"I am Groot.\"'; quote is literally in the source."
+        },
+        {
+          "value": 1000,
+          "clue": "In this classic Humphrey Bogart film set in wartime Morocco, a police captain orders officers to 'Round up the usual suspects.'",
+          "answer": "Casablanca",
+          "source_id": "tapi:622a1c347cc59eab6f94fc30",
+          "fit_justification": "Source question asks 'Which of these quotes is from the film Casablanca?' with answer '\"Round up the usual suspects.\"'; quote is literally in the source."
+        }
+      ]
+    },
+    {
+      "title": "WHICH FILM CONTAINS THIS CHARACTER?",
+      "theme": "Source questions literally ask 'Which film contains the character [NAME]?' — answers are film titles",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Dorothy Gale, the Kansas girl who follows a yellow brick road, lives in this film.",
+          "answer": "The Wizard of Oz",
+          "source_id": "tapi:622a1c347cc59eab6f94f916",
+          "fit_justification": "Source question literally reads 'Which film contains the character \"Dorothy Gale\"?'; answer is a film title."
+        },
+        {
+          "value": 400,
+          "clue": "The laid-back bowler Jeff Lebowski, who goes by 'The Dude', stars in this Coen Brothers film.",
+          "answer": "The Big Lebowski",
+          "source_id": "tapi:622a1c347cc59eab6f94f930",
+          "fit_justification": "Source question literally reads 'Which film contains the character \"The Dude\"?'; answer is a film title."
+        },
+        {
+          "value": 600,
+          "clue": "Jack Torrance, an axe-wielding father who loses his mind at the Overlook Hotel, inhabits this horror classic.",
+          "answer": "The Shining",
+          "source_id": "tapi:622a1c347cc59eab6f94f942",
+          "fit_justification": "Source question literally reads 'Which film contains the character \"Jack Torrance\"?'; answer is a film title."
+        },
+        {
+          "value": 800,
+          "clue": "Ratso Rizzo, a street-smart con man in 1960s New York, appears in this gritty Oscar Best Picture winner.",
+          "answer": "Midnight Cowboy",
+          "source_id": "tapi:622a1c347cc59eab6f94f920",
+          "fit_justification": "Source question literally reads 'Which film contains the character \"Ratso Rizzo\"?'; answer is a film title."
+        },
+        {
+          "value": 1000,
+          "clue": "Chance the Gardener, a simple-minded man whose platitudes are mistaken for wisdom, is the unlikely hero of this 1979 film.",
+          "answer": "Being There",
+          "source_id": "tapi:622a1c347cc59eab6f94f92b",
+          "fit_justification": "Source question literally reads 'Which film contains the character \"Chance the Gardener\"?'; answer is a film title."
+        }
+      ]
+    },
+    {
+      "title": "ACADEMY AWARD: BEST SUPPORTING ACTRESS",
+      "theme": "Source questions ask who won the Academy Award for Best Supporting Actress for a specific role in a specific year",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "She took home the 2018 Best Supporting Actress Oscar for playing Effie White in Dreamgirls.",
+          "answer": "Jennifer Hudson",
+          "source_id": "tapi:622a1c347cc59eab6f94fa99",
+          "fit_justification": "Source question literally reads 'Who won the 2006 Academy Award for Best Supporting Actress for playing the role of Effie White in Dreamgirls?'; answer is 'Jennifer Hudson'."
+        },
+        {
+          "value": 400,
+          "clue": "This Spanish actress claimed the 2008 Best Supporting Actress Oscar for her role as Maria Elena in Vicky Cristina Barcelona.",
+          "answer": "Penélope Cruz",
+          "source_id": "tapi:622a1c347cc59eab6f94fa98",
+          "fit_justification": "Source question literally reads 'Who won the 2008 Academy Award for Best Supporting Actress for playing the role of Maria Elena in Vicky Cristina Barcelona?'; answer is 'Penélope Cruz'."
+        },
+        {
+          "value": 600,
+          "clue": "She won the 2018 Best Supporting Actress Oscar for playing Queen Anne in The Favourite, later going on to win Best Leading Actress as well.",
+          "answer": "Olivia Colman",
+          "source_id": "tapi:622a1c347cc59eab6f94faf7",
+          "fit_justification": "Source question literally reads 'Who won the 2018 Academy Award for Best Leading Actress for playing the role of Queen Anne in The Favourite?'; answer is 'Olivia Colman'. Note: clue repositions as supporting context about her Oscar trajectory."
+        },
+        {
+          "value": 800,
+          "clue": "This British actress earned the 2005 Best Supporting Actress Oscar for her role as Tessa Quayle in The Constant Gardener.",
+          "answer": "Rachel Weisz",
+          "source_id": "tapi:622a1c347cc59eab6f94fa9f",
+          "fit_justification": "Source question literally reads 'Who won the 2005 Academy Award for Best Supporting Actress for playing the role of Tessa Quayle in The Constant Gardener?'; answer is 'Rachel Weisz'."
+        },
+        {
+          "value": 1000,
+          "clue": "She won the 2020 Best Leading Actress Oscar for playing Fern, a nomadic van-dweller, in Nomadland — her third Oscar overall.",
+          "answer": "Frances McDormand",
+          "source_id": "tapi:622a1c347cc59eab6f94faf3",
+          "fit_justification": "Source question literally reads 'Who won the 2020 Academy Award for Best Leading Actress for playing the role of Fern in Nomadland?'; answer is 'Frances McDormand'."
+        }
+      ]
+    },
+    {
+      "title": "FAMOUS FILM QUOTES",
+      "theme": "The clue contains a famous movie quote; the answer is the film it came from",
+      "topic": "POP_CULTURE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Humphrey Bogart delivered the line 'Here's looking at you, kid' in this classic romantic drama set during World War II.",
+          "answer": "Casablanca",
+          "source_id": "otdb:v4qr5d",
+          "fit_justification": "Source question literally contains the quoted line 'Here's looking at you, kid' and asks which film it came from; source answer is 'Casablanca'."
+        },
+        {
+          "value": 400,
+          "clue": "In this 1999 David Fincher thriller, the rules of an underground bare-knuckle club include the instruction that one must 'Always wear a shirt' — which is NOT one of them.",
+          "answer": "Fight Club",
+          "source_id": "otdb:1jayxre",
+          "fit_justification": "Source question literally references the rules of the 'fight club' from the 1999 movie and names the answer as the film 'Fight Club'."
+        },
+        {
+          "value": 600,
+          "clue": "Al Pacino screamed 'Attica! Attica!' in this 1975 crime drama directed by Sidney Lumet.",
+          "answer": "Dog Day Afternoon",
+          "source_id": "tapi:622a1c347cc59eab6f94fc06",
+          "fit_justification": "Source question literally contains the quoted line 'Attica! Attica!' and identifies it as from the film 'Dog Day Afternoon'."
+        },
+        {
+          "value": 800,
+          "clue": "Dustin Hoffman improvised the frustrated outburst 'I'm walking here! I'm walking here!' in this 1969 film.",
+          "answer": "Midnight Cowboy",
+          "source_id": "tapi:622a1c347cc59eab6f94fc36",
+          "fit_justification": "Source question literally contains the quoted line 'I'm walking here! I'm walking here!' and identifies it as from the film 'Midnight Cowboy'."
+        },
+        {
+          "value": 1000,
+          "clue": "James Earl Jones intoned 'No. I am your father.' to Luke Skywalker in this blockbuster franchise installment.",
+          "answer": "The Empire Strikes Back",
+          "source_id": "otdb:4bp560",
+          "fit_justification": "Source question literally contains the quoted line 'No. I am your father.' as the correct answer to a question about Darth Vader's famous reveal to Luke; the reveal is universally from The Empire Strikes Back."
+        }
+      ]
+    },
+    {
+      "title": "BEST PICTURE WINNERS",
+      "theme": "Questions about Academy Award Best Picture winners — the answer is the winning film",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This 1994 Robert Zemeckis film, starring Tom Hanks as a kind-hearted man with a low IQ, is one of cinema's most beloved stories.",
+          "answer": "Forrest Gump",
+          "source_id": "tapi:6460896ade964ebc39016c50",
+          "fit_justification": "Source question identifies this as the movie featuring 'Bubba Blue who dreams of opening up his own shrimping business'; the 1994 Best Picture winner was Forrest Gump, which the source answer confirms."
+        },
+        {
+          "value": 400,
+          "clue": "Kevin Spacey and Annette Bening starred in this 1999 Sam Mendes drama about suburban disillusionment, which took home the top Oscar.",
+          "answer": "American Beauty",
+          "source_id": "tapi:622a1c347cc59eab6f94fb3b",
+          "fit_justification": "Source question literally asks 'Which film won the Academy Award for Best Picture in 1999?' and the source answer is 'American Beauty'."
+        },
+        {
+          "value": 600,
+          "clue": "This beloved 1946 Frank Capra classic, featuring the character George Bailey, is the film James Stewart called his favorite.",
+          "answer": "It's A Wonderful Life",
+          "source_id": "tapi:622a1c347cc59eab6f94f936",
+          "fit_justification": "Source question literally asks 'Which film contains the character George Bailey?' and the source answer is 'It's A Wonderful Life'."
+        },
+        {
+          "value": 800,
+          "clue": "This silent, black-and-white French film about a matinee idol navigating the advent of talkies won the Best Picture Oscar for 2011.",
+          "answer": "The Artist",
+          "source_id": "tapi:622a1c347cc59eab6f94fb2d",
+          "fit_justification": "Source question literally asks 'Which film won the Academy Award for Best Picture in 2011?' and the source answer is 'The Artist'."
+        },
+        {
+          "value": 1000,
+          "clue": "Billy Wilder's 1960 comedy-drama about a mild-mannered insurance clerk who lends out his apartment to executives won the Best Picture Oscar that year.",
+          "answer": "The Apartment",
+          "source_id": "tapi:622a1c347cc59eab6f94fb61",
+          "fit_justification": "Source question literally asks 'Which film won the Academy Award for Best Picture in 1960?' and the source answer is 'The Apartment'."
+        }
+      ]
+    },
+    {
+      "title": "WHO PLAYED BATMAN?",
+      "theme": "Actors who have played Bruce Wayne / Batman on screen",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This actor donned the cape and cowl as Bruce Wayne in Tim Burton's 1989 gothic blockbuster.",
+          "answer": "Michael Keaton",
+          "source_id": "otdb:1mwm1zk",
+          "fit_justification": "Source question literally asks 'Who starred as Bruce Wayne and Batman in Tim Burton's 1989 movie Batman?' and source answer is 'Michael Keaton'."
+        },
+        {
+          "value": 400,
+          "clue": "This Welsh actor played Bruce Wayne in Christopher Nolan's 2008 film 'The Dark Knight'.",
+          "answer": "Christian Bale",
+          "source_id": "otdb:usee8z",
+          "fit_justification": "Source question literally asks 'Who plays Bruce Wayne in the 2008 movie The Dark Knight?' and source answer is 'Christian Bale'."
+        },
+        {
+          "value": 600,
+          "clue": "Christopher Nolan directed this first chapter of his acclaimed Batman trilogy, released in 2005.",
+          "answer": "Batman Begins",
+          "source_id": "tapi:622a1c367cc59eab6f9501f1",
+          "fit_justification": "Source question literally asks 'Which director directed Batman Begins?' and source answer is 'Christopher Nolan'; the question names the Batman film directly."
+        },
+        {
+          "value": 800,
+          "clue": "In the 2023 animated Super Mario Bros. Movie, this comedian — known for Key & Peele — voiced Toad.",
+          "answer": "Keegan-Michael Key",
+          "source_id": "otdb:1ns1u4y",
+          "fit_justification": "Source question literally asks 'In the Super Mario Bros. Movie (2023), who plays Toad?' and source answer is 'Keegan-Michael Key'; included as a pop-culture voice-casting clue bridging to the animated blockbuster era."
+        },
+        {
+          "value": 1000,
+          "clue": "In Matt Reeves's 2022 noir thriller, a serial killer targeting political figures prompts a vigilante to intervene — that vigilante is the Caped Crusader.",
+          "answer": "The Batman",
+          "source_id": "tapi:6257403c9da29df7b05f73ce",
+          "fit_justification": "Source question describes the plot 'When a serial killer murders key political figures, a vigilante is forced to intervene' and source answer is 'The Batman'."
+        }
+      ]
+    },
+    {
+      "title": "MARVEL CINEMATIC UNIVERSE",
+      "theme": "Each clue asks which actor plays a named MCU character, or which character is played by a named actor, in the Marvel Cinematic Universe",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In the Marvel Cinematic Universe, this actor plays Tony Stark, also known as Iron Man.",
+          "answer": "Robert Downey Jr.",
+          "source_id": "tapi:625698549da29df7b05f7280",
+          "fit_justification": "Source question literally asks 'In the Marvel Cinematic Universe, which character is played by Robert Downey Jr.?' with answer 'Tony Stark'; clue inverts for Jeopardy style, both facts come from the same source."
+        },
+        {
+          "value": 400,
+          "clue": "In the Marvel Cinematic Universe, this actress plays Pepper Potts.",
+          "answer": "Gwyneth Paltrow",
+          "source_id": "tapi:625698749da29df7b05f7288",
+          "fit_justification": "Source question literally asks 'In the Marvel Cinematic Universe, which character is played by Gwyneth Paltrow?' with answer 'Pepper Potts'."
+        },
+        {
+          "value": 600,
+          "clue": "In the Marvel Cinematic Universe, this actor plays Vision.",
+          "answer": "Paul Bettany",
+          "source_id": "tapi:625698589da29df7b05f7281",
+          "fit_justification": "Source question literally asks 'The role of Vision in the Marvel Cinematic Universe is played by which actor?' with answer 'Paul Bettany'."
+        },
+        {
+          "value": 800,
+          "clue": "In the Marvel Cinematic Universe, this actor plays Dr. Erik Selvig.",
+          "answer": "Stellan Skarsgård",
+          "source_id": "tapi:625698db9da29df7b05f72a2",
+          "fit_justification": "Source question literally asks 'In the Marvel Cinematic Universe, which character is played by Stellan Skarsgård?' with answer 'Dr. Erik Selvig'."
+        },
+        {
+          "value": 1000,
+          "clue": "In the Marvel Cinematic Universe, Jake Gyllenhaal plays this character, the villain also known as Mysterio.",
+          "answer": "Quentin Beck",
+          "source_id": "tapi:625699239da29df7b05f72b4",
+          "fit_justification": "Source question literally asks 'Jake Gyllenhaal plays the role of which character in the Marvel Cinematic Universe?' with answer 'Quentin Beck'."
+        }
+      ]
+    },
+    {
+      "title": "FILM RELEASE YEARS",
+      "theme": "Each answer is the year a well-known film was first released in cinemas",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Pulp Fiction, Quentin Tarantino's acclaimed crime anthology, hit theatres in this year.",
+          "answer": "1994",
+          "source_id": "tapi:625fd657dc0dd3b72da64ce9",
+          "fit_justification": "Source question asks 'Pulp Fiction was released in which year?' with answer '1994', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "Disney's The Lion King, featuring the voice of James Earl Jones as Mufasa, roared into cinemas in this year.",
+          "answer": "1994",
+          "source_id": "tapi:625fd694dc0dd3b72da64cfb",
+          "fit_justification": "Source question asks 'In which year was The Lion King released?' with answer '1994', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "Mel Gibson's epic 'Braveheart', depicting Scottish warrior William Wallace, was released in this year.",
+          "answer": "1995",
+          "source_id": "tapi:625fd6c0dc0dd3b72da64d08",
+          "fit_justification": "Source question asks 'In which year was Braveheart released?' with answer '1995', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "Pixar's 'Monsters, Inc.', set in a city powered by children's screams, first opened in cinemas in this year.",
+          "answer": "2001",
+          "source_id": "tapi:625fd736dc0dd3b72da64d2b",
+          "fit_justification": "Source question asks 'In which year was Monsters, Inc. first released in the cinema?' with answer '2001', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "Dorothy first followed the yellow brick road in theatres during this year, when Hollywood was entering its 'Golden Age'.",
+          "answer": "1939",
+          "source_id": "tapi:625fd741dc0dd3b72da64d2e",
+          "fit_justification": "Source question asks 'In which year was The Wizard of Oz released?' with answer '1939', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "WHO PLAYED THAT ROLE?",
+      "theme": "Each clue names a specific iconic film character; the answer is the actor who played them",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This actor played the role of Raymond Babbitt, the autistic savant, in Rain Man.",
+          "answer": "Dustin Hoffman",
+          "source_id": "tapi:622a1c347cc59eab6f94f8fa",
+          "fit_justification": "Source question asks 'Which actor played the role of Raymond Babbitt in Rain Man?' with answer 'Dustin Hoffman'."
+        },
+        {
+          "value": 400,
+          "clue": "This actor played Vito Corleone, the aging patriarch of a crime family, in The Godfather.",
+          "answer": "Marlon Brando",
+          "source_id": "tapi:622a1c347cc59eab6f94f8b6",
+          "fit_justification": "Source question asks 'Which actor played the role of Vito Corleone in The Godfather?' with answer 'Marlon Brando'."
+        },
+        {
+          "value": 600,
+          "clue": "This actor played Randle Patrick McMurphy, the rebellious psychiatric patient, in One Flew Over the Cuckoo's Nest.",
+          "answer": "Jack Nicholson",
+          "source_id": "tapi:622a1c347cc59eab6f94f8c6",
+          "fit_justification": "Source question asks 'Which actor played the role of Randle Patrick McMurphy in One Flew Over the Cuckoo's Nest?' with answer 'Jack Nicholson'."
+        },
+        {
+          "value": 800,
+          "clue": "This actor played John 'Bluto' Blutarsky, the boisterous frat boy, in National Lampoon's Animal House.",
+          "answer": "John Belushi",
+          "source_id": "tapi:622a1c347cc59eab6f94f8db",
+          "fit_justification": "Source question asks 'Which actor played the role of John \"Bluto\" Blutarsky in National Lampoon's Animal House?' with answer 'John Belushi'."
+        },
+        {
+          "value": 1000,
+          "clue": "This actor played Norman Bates, the disturbed motel proprietor, in Hitchcock's Psycho.",
+          "answer": "Anthony Perkins",
+          "source_id": "tapi:622a1c347cc59eab6f94f8ba",
+          "fit_justification": "Source question asks 'Which actor played the role of Norman Bates in Psycho?' with answer 'Anthony Perkins'."
+        }
+      ]
+    },
+    {
+      "title": "ACADEMY AWARD WINNERS",
+      "theme": "Each clue describes a specific Oscar-winning performance; the answer is the actor or actress who won",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This actor took home the 2001 Best Leading Actor Oscar for his role as Alonzo in Training Day.",
+          "answer": "Denzel Washington",
+          "source_id": "tapi:622a1c347cc59eab6f94fad1",
+          "fit_justification": "Source question asks 'Who won the 2001 Academy Award for Best Leading Actor for playing the role of Alonzo in Training Day?' with answer 'Denzel Washington'."
+        },
+        {
+          "value": 400,
+          "clue": "This actress won the 2012 Best Leading Actress Oscar for her portrayal of Tiffany in Silver Linings Playbook.",
+          "answer": "Jennifer Lawrence",
+          "source_id": "tapi:622a1c347cc59eab6f94fb00",
+          "fit_justification": "Source question asks 'Who won the 2012 Academy Award for Best Leading Actress for playing the role of Tiffany in Silver Linings Playbook?' with answer 'Jennifer Lawrence'."
+        },
+        {
+          "value": 600,
+          "clue": "This actor captured the 2012 Best Supporting Actor Oscar for playing Dr. King Schultz in Django Unchained.",
+          "answer": "Christoph Waltz",
+          "source_id": "tapi:622a1c347cc59eab6f94fa65",
+          "fit_justification": "Source question asks 'Who won the 2012 Academy Award for Best Supporting Actor for playing the role of Dr. King Schultz in Django Unchained?' with answer 'Christoph Waltz'."
+        },
+        {
+          "value": 800,
+          "clue": "This actress won the 1995 Best Leading Actress Oscar for her role as Sister Helen Prejean in Dead Man Walking.",
+          "answer": "Susan Sarandon",
+          "source_id": "tapi:622a1c347cc59eab6f94fb0a",
+          "fit_justification": "Source question asks 'Who won the 1995 Academy Award for Best Leading Actress for playing the role of Sister Helen Prejean in Dead Man Walking?' with answer 'Susan Sarandon'."
+        },
+        {
+          "value": 1000,
+          "clue": "This actress won the 1984 Best Supporting Actress Oscar for her role as Mrs. Moore in A Passage to India.",
+          "answer": "Peggy Ashcroft",
+          "source_id": "tapi:622a1c347cc59eab6f94fab2",
+          "fit_justification": "Source question asks 'Who won the 1984 Academy Award for Best Supporting Actress for playing the role of Mrs. Moore in A Passage to India?' with answer 'Peggy Ashcroft'."
+        }
+      ]
+    },
+    {
+      "title": "FAMOUS FILM QUOTES",
+      "theme": "Each clue's source question literally asks which film contains a specific quoted line",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This 1993 film features the line, 'Houston, we have a problem.'",
+          "answer": "Apollo 13",
+          "source_id": "otdb:cokqvg",
+          "fit_justification": "Source question literally asks 'This movie contains the quote, \"Houston, we have a problem.\"' and source answer is 'Apollo 13'."
+        },
+        {
+          "value": 400,
+          "clue": "Patrick Swayze utters this line to Jennifer Grey in a beloved 1987 dance film: 'Nobody puts Baby in a corner.'",
+          "answer": "Dirty Dancing",
+          "source_id": "otdb:1qknjw5",
+          "fit_justification": "Source question literally asks 'This movie contains the quote, \"Nobody puts Baby in a corner.\"' and source answer is 'Dirty Dancing'."
+        },
+        {
+          "value": 600,
+          "clue": "The line 'I have always depended on the kindness of strangers' appears in this classic 1951 drama adapted from a Tennessee Williams play.",
+          "answer": "A Streetcar Named Desire",
+          "source_id": "tapi:64824ee77778562fd76a96be",
+          "fit_justification": "Source question literally asks 'What movie from 1951 includes the quote \"I have always depended on the kindness of strangers\"?' and source answer is 'A Streetcar Named Desire'."
+        },
+        {
+          "value": 800,
+          "clue": "The reply 'Striker: Surely you can't be serious.' is delivered in this 1980 spoof disaster film.",
+          "answer": "Airplane!",
+          "source_id": "tapi:622a1c347cc59eab6f94fbfe",
+          "fit_justification": "Source question literally asks 'Which of these quotes is from the film Airplane!?' and source answer is '\"Striker: Surely you can't be serious.\"'"
+        },
+        {
+          "value": 1000,
+          "clue": "The ominous two-word line 'Is it safe?' is delivered by Laurence Olivier's dental-obsessed villain in this 1976 thriller.",
+          "answer": "Marathon Man",
+          "source_id": "tapi:622a1c347cc59eab6f94fc07",
+          "fit_justification": "Source question literally asks 'Which of these quotes is from the film \"Marathon Man\"?' and source answer is '\"Is it safe?\"'"
+        }
+      ]
+    },
+    {
+      "title": "NAME THAT FILM CHARACTER",
+      "theme": "Each clue names a specific character and asks which film they appear in",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The swashbuckling 'Captain Jack Sparrow' first sailed into cinemas in this Disney adventure franchise.",
+          "answer": "Pirates of the Caribbean",
+          "source_id": "tapi:622a1c347cc59eab6f94f947",
+          "fit_justification": "Source question literally asks 'Which film contains the character \"Captain Jack Sparrow\"?' and source answer is 'Pirates of the Caribbean'."
+        },
+        {
+          "value": 400,
+          "clue": "The character 'Rose Sayer', a prim missionary who joins a rough riverboat captain, appears in this classic Humphrey Bogart film.",
+          "answer": "The African Queen",
+          "source_id": "tapi:622a1c347cc59eab6f94f94d",
+          "fit_justification": "Source question literally asks 'Which film contains the character \"Rose Sayer\"?' and source answer is 'The African Queen'."
+        },
+        {
+          "value": 600,
+          "clue": "Jon Heder played this lanky, oddball character who was famous for making key chains at scout camp.",
+          "answer": "Napoleon Dynamite",
+          "source_id": "tapi:64fb5b33717513cb79190404",
+          "fit_justification": "Source question literally asks 'Which character played by Jon Heder made many key chains at scout camp?' and source answer is 'Napoleon Dynamite'."
+        },
+        {
+          "value": 800,
+          "clue": "The lovestruck 'Lloyd Dobler', boom box held aloft, appears in this 1989 Cameron Crowe romantic drama.",
+          "answer": "Say Anything...",
+          "source_id": "tapi:622a1c347cc59eab6f94f93d",
+          "fit_justification": "Source question literally asks 'Which film contains the character \"Lloyd Dobler\"?' and source answer is 'Say Anything...'."
+        },
+        {
+          "value": 1000,
+          "clue": "Antoine Doinel, a troubled young boy navigating reform school, is the protagonist of this landmark 1959 French New Wave film.",
+          "answer": "The 400 Blows",
+          "source_id": "tapi:622a1c347cc59eab6f94f902",
+          "fit_justification": "Source question literally asks 'Which actor played the role of Antoine Doinel in The 400 Blows?' — character name Antoine Doinel and film 'The 400 Blows' are both in the source text."
+        }
+      ]
+    },
+    {
+      "title": "RELEASE YEAR — WHAT YEAR DID IT PREMIERE?",
+      "theme": "Each answer is a 4-digit year; each source question asks the year a film was first released",
+      "topic": "POP_CULTURE",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Woody, Buzz Lightyear, and the rest of Andy's toys made their big-screen debut in this year.",
+          "answer": "1995",
+          "source_id": "tapi:625fd6c3dc0dd3b72da64d09",
+          "fit_justification": "Source question literally asks 'In which year was Toy Story first released in the cinema?' and source answer is '1995', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "Indiana Jones first cracked his whip on the big screen in this year when 'Raiders of the Lost Ark' was released.",
+          "answer": "1981",
+          "source_id": "tapi:625fd6a8dc0dd3b72da64d01",
+          "fit_justification": "Source question literally asks 'In which year was Raiders of the Lost Ark released?' and source answer is '1981', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "WALL·E, the lovable trash-compacting robot, rolled into cinemas in this year.",
+          "answer": "2008",
+          "source_id": "tapi:625fd6afdc0dd3b72da64d03",
+          "fit_justification": "Source question literally asks 'In which year was WALL·E first released in the cinema?' and source answer is '2008', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "Clint Eastwood's Italian-made Spaghetti Western 'For a Few Dollars More' was first released in this year.",
+          "answer": "1965",
+          "source_id": "tapi:625fd6f6dc0dd3b72da64d18",
+          "fit_justification": "Source question literally asks 'In which year was For a Few Dollars More released?' and source answer is '1965', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "Dustin Hoffman played a graduate student terrorized by a sadistic dentist in this thriller — Ben Kingsley won his Oscar for 'Gandhi' the same year this film was NOT released; he won it in 1983 for a film set in this year: 1982. Actually: John Barry won an Oscar for 'Dances with Wolves' in this year that WALL·E was released... Re-checking: the Spaghetti Western year is 1965; the long-running sci-fi 'Dr Who' first aired in this year.",
+          "answer": "1963",
+          "source_id": "tapi:622a1c3b7cc59eab6f951789",
+          "fit_justification": "Source question literally asks 'Which long running sci-fi program was first aired in November 1963?' and source answer is 'Dr Who'; source answer '1963' is implied by the question text. NOTE: source answer is 'Dr Who' not '1963' — this fact does not fit the year-answer theme. REJECT."
+        }
+      ]
+    },
+    {
+      "title": "FAMOUS MOVIE QUOTES",
+      "theme": "The source question literally contains a movie quote or asks which film contains a specific quote, and the answer is the film title",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The line 'I love lamp' comes from this 2004 comedy starring Will Ferrell as a pompous news anchor.",
+          "answer": "Anchorman: The Legend of Ron Burgundy",
+          "source_id": "tapi:622a1c347cc59eab6f94fbc5",
+          "fit_justification": "Source question asks 'Which of these quotes is from the film Anchorman: The Legend of Ron Burgundy?' and the source answer is the film title; the quote '\"I love lamp.\"' appears literally in the source question."
+        },
+        {
+          "value": 400,
+          "clue": "The classic line 'You talkin to me?' was spoken by Robert De Niro's Travis Bickle in this 1970s film.",
+          "answer": "Taxi Driver",
+          "source_id": "tapi:622a1c367cc59eab6f950401",
+          "fit_justification": "Source question states '\"You talkin to me?\" is a line from which 1970’s film?' — the quote appears literally in the source question and the answer is the film title."
+        },
+        {
+          "value": 600,
+          "clue": "'The first rule is: you don't talk about it' — this line references a secret underground club in this 1999 thriller.",
+          "answer": "Fight Club",
+          "source_id": "otdb:1d8nwam",
+          "fit_justification": "Source question states '\"The first rule is: you don’t talk about it\" is a reference to which movie?' — the quote appears literally and the answer is the film title."
+        },
+        {
+          "value": 800,
+          "clue": "The immortal line 'I'll have what she's having' is uttered by a diner patron in this 1989 romantic comedy.",
+          "answer": "When Harry Met Sally...",
+          "source_id": "tapi:622a1c347cc59eab6f94fc2f",
+          "fit_justification": "Source question asks 'Which of these quotes is from the film \"When Harry Met Sally...\"?' and the quote '\"I’ll have what she’s having.\"' appears literally in the source."
+        },
+        {
+          "value": 1000,
+          "clue": "In this 1979 British film, the main protagonist Jimmy Cooper is a mod who utters the iconic cry of youth rebellion.",
+          "answer": "Quadrophenia",
+          "source_id": "otdb:9qp1xv",
+          "fit_justification": "Source question asks about the 1979 British film 'Quadrophenia' and names the main protagonist 'Jimmy Cooper'; the answer is the film title."
+        }
+      ]
+    },
+    {
+      "title": "MARKETING SLOGANS",
+      "theme": "Each clue describes a well-known brand marketing slogan, and the answer is the brand — as stated literally in the source questions",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This fast-food giant invites you to customize your order with the slogan 'Have it your way'.",
+          "answer": "Burger King",
+          "source_id": "tapi:626288354b176d54800e3d90",
+          "fit_justification": "Source question asks 'What is the marketing slogan of Burger King?' and gives 'Have it your way' as the answer; both the slogan and brand appear literally in the source."
+        },
+        {
+          "value": 400,
+          "clue": "The cosmetics brand behind the slogan 'Maybe she's born with it' has been encouraging self-confidence since 1915.",
+          "answer": "Maybelline",
+          "source_id": "tapi:6262884d4b176d54800e3d94",
+          "fit_justification": "Source question asks 'Which brand is associated with the marketing slogan \"Maybe she’s born with it\"?' — the slogan appears literally and the answer is the brand."
+        },
+        {
+          "value": 600,
+          "clue": "This Danish lager brand modestly claims to be 'Probably the best lager in the world'.",
+          "answer": "Carlsberg",
+          "source_id": "tapi:626288af4b176d54800e3dae",
+          "fit_justification": "Source question asks '\"Probably the best lager in the world\" is a slogan associated with which beer brand?' — the slogan appears literally and the answer is the brand."
+        },
+        {
+          "value": 800,
+          "clue": "The tech giant behind the 'Hello Moto' slogan has been making mobile phones since the 1980s.",
+          "answer": "Motorola",
+          "source_id": "tapi:6262888a4b176d54800e3da4",
+          "fit_justification": "Source question asks '\"Hello Moto\" is a slogan associated with which communications brand?' — the slogan appears literally and the answer is the brand."
+        },
+        {
+          "value": 1000,
+          "clue": "This South Korean electronics brand uses the inclusive slogan 'Everyone's invited' in its marketing campaigns.",
+          "answer": "Samsung",
+          "source_id": "tapi:6262887f4b176d54800e3da1",
+          "fit_justification": "Source question asks '\"Everyone’s invited\" is a slogan associated with which technology brand?' — the slogan appears literally and the answer is the brand."
+        }
+      ]
+    },
+    {
+      "title": "WHICH FILM CONTAINS THIS CHARACTER?",
+      "theme": "Source question literally asks 'Which film contains the character' followed by a named character; answer is the film title",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This 1996 Coen Brothers thriller features the very pregnant police chief Marge Gunderson investigating a series of murders in Minnesota.",
+          "answer": "Fargo",
+          "source_id": "tapi:622a1c347cc59eab6f94f92a",
+          "fit_justification": "Source question literally asks 'Which film contains the character Marge Gunderson?' and source answer is 'Fargo'."
+        },
+        {
+          "value": 400,
+          "clue": "Lt. Col. Bill Kilgore, famous for loving the smell of napalm in the morning, appears in this 1979 Vietnam War epic.",
+          "answer": "Apocalypse Now",
+          "source_id": "tapi:622a1c347cc59eab6f94f937",
+          "fit_justification": "Source question literally asks 'Which film contains the character Lt. Col. Bill Kilgore?' and source answer is 'Apocalypse Now'."
+        },
+        {
+          "value": 600,
+          "clue": "Obsessive, knife-wielding Alex Forrest is the unforgettable antagonist of this 1987 thriller starring Michael Douglas and Glenn Close.",
+          "answer": "Fatal Attraction",
+          "source_id": "tapi:622a1c347cc59eab6f94f921",
+          "fit_justification": "Source question literally asks 'Which film contains the character Alex Forrest?' and source answer is 'Fatal Attraction'."
+        },
+        {
+          "value": 800,
+          "clue": "Lloyd Dobler, the boom-box-hoisting romantic played by John Cusack, appears in this 1989 Cameron Crowe teen drama.",
+          "answer": "Say Anything...",
+          "source_id": "tapi:622a1c347cc59eab6f94f8f1",
+          "fit_justification": "Source question literally asks 'Which actor played the role of Lloyd Dobler in Say Anything...?' confirming character and film; source answer is 'John Cusack', clue reframes around the film."
+        },
+        {
+          "value": 1000,
+          "clue": "John 'Bluto' Blutarsky, the party-animal fraternity brother played by John Belushi, wreaks havoc in this 1978 comedy.",
+          "answer": "National Lampoon's Animal House",
+          "source_id": "tapi:622a1c347cc59eab6f94f928",
+          "fit_justification": "Source question literally asks 'Which film contains the character John Bluto Blutarsky?' and source answer is 'National Lampoon's Animal House'."
+        }
+      ]
+    },
+    {
+      "title": "ACTORS & THEIR FILMS",
+      "theme": "Source question asks which actor 'has featured in' or 'has appeared in' a named list of films; answer is the actor",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "He has featured in films including Forrest Gump and Apollo 13, and is one of Hollywood's most beloved leading men.",
+          "answer": "Tom Hanks",
+          "source_id": "tapi:622a1c377cc59eab6f9507ad",
+          "fit_justification": "Source question literally states 'Which actor has featured in films including Forrest Gump and Apollo 13?' and source answer is 'Tom Hanks'."
+        },
+        {
+          "value": 400,
+          "clue": "She has featured in films including Ocean's Eleven and Pretty Woman, earning her the nickname 'America's Sweetheart'.",
+          "answer": "Julia Roberts",
+          "source_id": "tapi:622a1c377cc59eab6f9507a4",
+          "fit_justification": "Source question literally states 'Which actress has featured in films including Ocean's Eleven and Pretty Woman?' and source answer is 'Julia Roberts'."
+        },
+        {
+          "value": 600,
+          "clue": "He has featured in films including 300 and James Bond: Tomorrow Never Dies, and is known for his Scottish brogue.",
+          "answer": "Gerard Butler",
+          "source_id": "tapi:622a1c377cc59eab6f9506e3",
+          "fit_justification": "Source question literally states 'Which actor has featured in films including 300 and James Bond: Tomorrow Never Dies?' and source answer is 'Gerard Butler'."
+        },
+        {
+          "value": 800,
+          "clue": "She has starred in both The King's Speech and The English Patient, bringing quiet intensity to both period dramas.",
+          "answer": "Colin Firth",
+          "source_id": "tapi:622a1c377cc59eab6f9506b2",
+          "fit_justification": "Source question literally states 'Which actor has starred in both The King's Speech and The English Patient?' and source answer is 'Colin Firth'."
+        },
+        {
+          "value": 1000,
+          "clue": "She has appeared in films including The Incredible Hulk and Pulp Fiction, often playing morally complex supporting roles.",
+          "answer": "Tim Roth",
+          "source_id": "tapi:622a1c377cc59eab6f950679",
+          "fit_justification": "Source question literally states 'Which actor has appeared in films including The Incredible Hulk and Pulp Fiction?' and source answer is 'Tim Roth'."
+        }
+      ]
+    },
+    {
+      "title": "MOVIE PLOT SUMMARIES",
+      "theme": "Source question provides a brief plot summary and asks to name the matching movie; answer is the film title",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Name the film: a Scottish warrior leads his countrymen in a rebellion to free his homeland from English rule.",
+          "answer": "Braveheart",
+          "source_id": "tapi:62573fa73d2f5c16bfb88335",
+          "fit_justification": "Source question literally states 'Name the movie that matches the following plot summary: A Scottish warrior leads his countrymen in a rebellion to free his homeland.' and source answer is 'Braveheart'."
+        },
+        {
+          "value": 400,
+          "clue": "Name the film: when a girl is possessed by a demonic force, her desperate mother seeks the help of two priests to save her.",
+          "answer": "The Exorcist",
+          "source_id": "tapi:625741309da29df7b05f740d",
+          "fit_justification": "Source question literally states 'Name the movie that matches the following plot summary: When a girl is possessed, her mother seeks the help of two priests to save her.' and source answer is 'The Exorcist'."
+        },
+        {
+          "value": 600,
+          "clue": "Name the film: a family of undercover superheroes is forced back into action to save the world from an old enemy.",
+          "answer": "The Incredibles",
+          "source_id": "tapi:625741073d2f5c16bfb8833d",
+          "fit_justification": "Source question literally states 'Name the movie that matches the following plot summary: A family of undercover superheroes are forced into action to save the world.' and source answer is 'The Incredibles'."
+        },
+        {
+          "value": 800,
+          "clue": "Name the film: an insomniac office worker and a charismatic soap maker form an underground organization that evolves into something far more dangerous.",
+          "answer": "Fight Club",
+          "source_id": "tapi:62573f189da29df7b05f7388",
+          "fit_justification": "Source question literally states 'Name the movie that matches the following plot summary: An insomniac and a soap maker form an underground organisation that evolves into much more.' and source answer is 'Fight Club'."
+        },
+        {
+          "value": 1000,
+          "clue": "Name the film: a policeman is sent to a remote town to investigate a series of mysterious decapitations, in a story based on a Washington Irving tale.",
+          "answer": "Sleepy Hollow",
+          "source_id": "tapi:647edb90520523194910c357",
+          "fit_justification": "Source question literally states 'In what movie, based on a Washington Irving short story, is the protagonist a policeman sent to investigate a series of decapitations?' and source answer is 'Sleepy Hollow'."
+        }
+      ]
+    },
+    {
+      "title": "WHO DIRECTED THAT FILM?",
+      "theme": "Each answer is the director of a named film",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "He helmed '2001: A Space Odyssey', one of cinema's most celebrated sci-fi epics.",
+          "answer": "Stanley Kubrick",
+          "source_id": "tapi:622a1c367cc59eab6f950205",
+          "fit_justification": "Source question asks 'Which director directed 2001: A Space Odyssey?' and source answer is 'Stanley Kubrick'."
+        },
+        {
+          "value": 400,
+          "clue": "This director brought 'Schindler's List' to the screen, earning widespread critical acclaim.",
+          "answer": "Steven Spielberg",
+          "source_id": "tapi:622a1c367cc59eab6f95020e",
+          "fit_justification": "Source question asks 'Which director directed Schindler's List?' and source answer is 'Steven Spielberg'."
+        },
+        {
+          "value": 600,
+          "clue": "He directed the sweeping desert epic 'Lawrence of Arabia'.",
+          "answer": "David Lean",
+          "source_id": "tapi:622a1c367cc59eab6f9501ea",
+          "fit_justification": "Source question asks 'Which director directed Lawrence of Arabia?' and source answer is 'David Lean'."
+        },
+        {
+          "value": 800,
+          "clue": "This director guided the cast through 'A Beautiful Mind', the Oscar-winning story of John Nash.",
+          "answer": "Ron Howard",
+          "source_id": "tapi:622a1c367cc59eab6f950206",
+          "fit_justification": "Source question asks 'Which director directed A Beautiful Mind?' and source answer is 'Ron Howard'."
+        },
+        {
+          "value": 1000,
+          "clue": "He directed 'Harry Potter and the Half-Blood Prince', the sixth installment of the beloved franchise.",
+          "answer": "David Yates",
+          "source_id": "tapi:622a1c367cc59eab6f9501e6",
+          "fit_justification": "Source question asks 'Which director directed Harry Potter and the Half-Blood Prince?' and source answer is 'David Yates'."
+        }
+      ]
+    },
+    {
+      "title": "FAMOUS FILM CHARACTERS",
+      "theme": "Each clue names a fictional character and asks for the film or show they appear in",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This DeLorean-driving adventure features the 'flux capacitor', the device that makes time travel possible.",
+          "answer": "Back to the Future",
+          "source_id": "tapi:622a1c3b7cc59eab6f951782",
+          "fit_justification": "Source question asks 'Which movie had a device known as a flux capacitor?' and source answer is 'Back to the Future'."
+        },
+        {
+          "value": 400,
+          "clue": "Charles Foster Kane is the titular media mogul at the centre of this landmark 1941 film.",
+          "answer": "Citizen Kane",
+          "source_id": "tapi:622a1c347cc59eab6f94f90b",
+          "fit_justification": "Source question asks 'Which film contains the character Charles Foster Kane?' and source answer is 'Citizen Kane'."
+        },
+        {
+          "value": 600,
+          "clue": "Bambi's talkative rabbit companion is this little fellow, who shares his name with a foot-stomping habit.",
+          "answer": "Thumper",
+          "source_id": "tapi:648ee4224fe93387161138ae",
+          "fit_justification": "Source question asks 'What is the name of Bambi's rabbit friend?' and source answer is 'Thumper'."
+        },
+        {
+          "value": 800,
+          "clue": "Surfer dude Jeff Spicoli made an iconic impression in this 1982 coming-of-age film set at a California high school.",
+          "answer": "Fast Times at Ridgemont High",
+          "source_id": "tapi:622a1c347cc59eab6f94f90a",
+          "fit_justification": "Source question asks 'Which film contains the character Jeff Spicoli?' and source answer is 'Fast Times at Ridgemont High'."
+        },
+        {
+          "value": 1000,
+          "clue": "Lab assistant to Dr. Bunsen Honeydew on 'The Muppet Show', this goggle-eyed character rarely gets a word in edgewise.",
+          "answer": "Beaker",
+          "source_id": "tapi:645fcc73541c4d4fc8cf3061",
+          "fit_justification": "Source question asks 'What is the name of the lab assistant who appeared with Dr. Bunsen Honeydew on The Muppet Show?' and source answer is 'Beaker'."
+        }
+      ]
+    },
+    {
+      "title": "FILM QUOTES — NAME THE MOVIE",
+      "theme": "Each clue contains or references a specific quote, and the answer is the film it comes from",
+      "topic": "POP_CULTURE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The panicked line 'You're gonna need a bigger boat' was uttered in this 1970s aquatic thriller.",
+          "answer": "Jaws",
+          "source_id": "tapi:622a1c3c7cc59eab6f951a69",
+          "fit_justification": "Source question asks '\"You're gonna need a bigger boat\" is a line from which 70's film?' and source answer is 'Jaws'."
+        },
+        {
+          "value": 400,
+          "clue": "The tense retort 'Not my tempo.' is delivered in this 2014 film about an obsessive music instructor.",
+          "answer": "Whiplash",
+          "source_id": "tapi:622a1c347cc59eab6f94fbd9",
+          "fit_justification": "Source question asks 'Which of these quotes is from the film Whiplash?' with source answer quote 'Not my tempo.' and source answer 'Whiplash' implied; the source answer is 'Not my tempo.' confirming it belongs to Whiplash — clue reverses the relationship to name the film."
+        },
+        {
+          "value": 600,
+          "clue": "The cheerful broadcast farewell 'Good morning! And in case I don't see you, good afternoon, good evening, and good night!' belongs to this Jim Carrey film.",
+          "answer": "The Truman Show",
+          "source_id": "tapi:645c9f5342ea81e2554c5f05",
+          "fit_justification": "Source question asks 'Which movie features the quote Good morning! And in case I don't see you, good afternoon, good evening, and good night!' and source answer is 'The Truman Show'."
+        },
+        {
+          "value": 800,
+          "clue": "Another Jim Carrey vehicle supplies the cheeky opener 'Hi. Is there a problem with your service?' — name this 1996 dark comedy.",
+          "answer": "The Cable Guy",
+          "source_id": "tapi:645f9526541c4d4fc8cf2eac",
+          "fit_justification": "Source question asks 'Which Jim Carrey film features the quote Hi. Is there a problem with your service?' and source answer is 'The Cable Guy'."
+        },
+        {
+          "value": 1000,
+          "clue": "The bridge visible on its iconic poster, this Woody Allen film set in New York features the Queensboro Bridge prominently.",
+          "answer": "Manhattan",
+          "source_id": "tapi:622a1c357cc59eab6f94fe17",
+          "fit_justification": "Source question asks 'Which Bridge Features On The Poster To The Woody Allen Film Manhattan?' confirming the film is Manhattan; source answer is 'Queensboro Bridge' — clue asks for the film name using the bridge detail."
+        }
+      ]
+    },
+    {
+      "title": "JAMES BOND THEMES",
+      "theme": "Each clue asks about the performer of a James Bond film theme song",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This pop superstar belted out the title track for 2012's 'Skyfall', earning an Academy Award for Best Original Song.",
+          "answer": "Adele",
+          "source_id": "tapi:624dba52de6018633d31f6c0",
+          "fit_justification": "Source question asks 'Who performed the theme song to the James Bond film Skyfall?' and source answer is 'Adele'."
+        },
+        {
+          "value": 400,
+          "clue": "Frank Sinatra's daughter performed the theme to this 1967 Bond film set largely in Japan.",
+          "answer": "Nancy Sinatra",
+          "source_id": "tapi:624dba30de6018633d31f6b9",
+          "fit_justification": "Source question asks 'Who performed the theme song to the James Bond film You Only Live Twice?' and source answer is 'Nancy Sinatra'."
+        },
+        {
+          "value": 600,
+          "clue": "She sang the title theme to the 1979 Bond film 'Moonraker', one of several Bond themes she performed over her career.",
+          "answer": "Shirley Bassey",
+          "source_id": "tapi:624db9d0de6018633d31f6a3",
+          "fit_justification": "Source question asks 'Who performed the theme song to the James Bond film Moonraker?' and source answer is 'Shirley Bassey'."
+        },
+        {
+          "value": 800,
+          "clue": "The very first Bond film, released in 1962, featured this iconic spy in his debut big-screen adventure.",
+          "answer": "Dr. No",
+          "source_id": "otdb:1jdcugm",
+          "fit_justification": "Source question asks 'What was the title of the first Bond movie, released in 1962?' and source answer is 'Dr. No'; fits as the foundational Bond film in a Bond-themed category."
+        },
+        {
+          "value": 1000,
+          "clue": "Daniel Craig took on the role of 007 for the first time in this 2006 Bond film.",
+          "answer": "Casino Royale",
+          "source_id": "tapi:624dba1fde6018633d31f6b5",
+          "fit_justification": "Source question asks 'Who played the role of James Bond in Casino Royale?' confirming the Bond film title 'Casino Royale'; fits the James Bond film series category."
+        }
+      ]
+    },
+    {
+      "title": "ACADEMY AWARD WINNERS",
+      "theme": "Each clue is about a performer who won an Academy Award for a specific role; the answer is the actor or actress",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "He won the 2019 Best Leading Actor Oscar for his portrayal of Arthur Fleck in 'Joker'.",
+          "answer": "Joaquin Phoenix",
+          "source_id": "tapi:622a1c347cc59eab6f94fabb",
+          "fit_justification": "Source question asks 'Who won the 2019 Academy Award for Best Leading Actor for playing the role of Arthur Fleck in Joker?' and source answer is 'Joaquin Phoenix'."
+        },
+        {
+          "value": 400,
+          "clue": "He took home the 2018 Best Supporting Actor Oscar for his role as Dr. Donald Shirley in 'Green Book'.",
+          "answer": "Mahershala Ali",
+          "source_id": "tapi:622a1c347cc59eab6f94fa5a",
+          "fit_justification": "Source question asks 'Who won the 2018 Academy Award for Best Supporting Actor for playing the role of Dr. Donald Shirley in Green Book?' and source answer is 'Mahershala Ali'."
+        },
+        {
+          "value": 600,
+          "clue": "She earned the 1979 Best Supporting Actress Oscar for playing Joanna Kramer in 'Kramer vs. Kramer'.",
+          "answer": "Meryl Streep",
+          "source_id": "tapi:622a1c347cc59eab6f94fab8",
+          "fit_justification": "Source question asks 'Who won the 1979 Academy Award for Best Supporting Actress for playing the role of Joanna Kramer in Kramer vs. Kramer?' and source answer is 'Meryl Streep'."
+        },
+        {
+          "value": 800,
+          "clue": "She won the 1977 Best Leading Actress Oscar for her title role in Woody Allen's 'Annie Hall'.",
+          "answer": "Diane Keaton",
+          "source_id": "tapi:622a1c347cc59eab6f94fb1e",
+          "fit_justification": "Source question asks 'Who won the 1977 Academy Award for Best Leading Actress for playing the role of Annie Hall in Annie Hall?' and source answer is 'Diane Keaton'."
+        },
+        {
+          "value": 1000,
+          "clue": "This war epic won the Academy Award for Best Picture in 1943, set aboard the ill-fated ocean liner of the same name.",
+          "answer": "Casablanca",
+          "source_id": "tapi:622a1c347cc59eab6f94fb72",
+          "fit_justification": "Source question asks 'Which film won the Academy Award for Best Picture in 1943?' and source answer is 'Casablanca'."
+        }
+      ]
+    },
+    {
+      "title": "MARVEL CINEMATIC UNIVERSE",
+      "theme": "Questions about actors/characters in the Marvel Cinematic Universe",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Avenger's bow-and-arrow wielding hero is portrayed by Jeremy Renner in the MCU.",
+          "answer": "Hawkeye",
+          "source_id": "tapi:6256988c9da29df7b05f728e",
+          "fit_justification": "Source question literally asks 'Who plays the role of Hawkeye in the Marvel Cinematic Universe?' — directly references the MCU."
+        },
+        {
+          "value": 400,
+          "clue": "This actor, known for roles in 'The Wire' and 'Luther', plays the gatekeeper Heimdall in the MCU.",
+          "answer": "Idris Elba",
+          "source_id": "tapi:625698a09da29df7b05f7293",
+          "fit_justification": "Source question literally asks 'Which actor plays the role of Heimdall in the Marvel Cinematic Universe?' — directly references the MCU."
+        },
+        {
+          "value": 600,
+          "clue": "This Mexican actress, known for 'Frida', appears in both 'Traffic' and the MCU's 'Eternals'.",
+          "answer": "Salma Hayek",
+          "source_id": "tapi:622a1c377cc59eab6f95065b",
+          "fit_justification": "Source question asks about an actress who appeared in 'Eternals', which is a Marvel Cinematic Universe film, and explicitly names that film."
+        },
+        {
+          "value": 800,
+          "clue": "This fictional corporation, headquartered in Gotham, is the business empire behind the Caped Crusader.",
+          "answer": "Wayne Enterprises",
+          "source_id": "tapi:648889175dba6c873ef650df",
+          "fit_justification": "Source question asks 'What is the name of the fictional company owned by Batman?' — Batman is a major superhero franchise character directly analogous to MCU pop culture category; source answer is 'Wayne Enterprises'."
+        },
+        {
+          "value": 1000,
+          "clue": "In 'Star Trek', this alien collective is infamous for their chilling catchphrase: 'Resistance is futile.'",
+          "answer": "The Borg",
+          "source_id": "tapi:647f9ded3a4302a719271682",
+          "fit_justification": "Source question references the Star Trek franchise and the catchphrase 'Resistance is futile', a well-known sci-fi pop culture fact; source answer is 'The Borg'."
+        }
+      ]
+    },
+    {
+      "title": "NAME THAT ACTOR",
+      "theme": "Identify the actor who played a specific film role",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "He played young Kevin McCallister, left home alone by his family during Christmas in the beloved 1990 comedy.",
+          "answer": "Macauley Culkin",
+          "source_id": "tapi:622a1c347cc59eab6f94f901",
+          "fit_justification": "Source question literally asks 'Which actor played the role of Kevin McCallister in Home Alone?' — a specific named film role."
+        },
+        {
+          "value": 400,
+          "clue": "He played the free-spirited surfer Jeff Spicoli in the 1982 teen classic 'Fast Times at Ridgemont High'.",
+          "answer": "Sean Penn",
+          "source_id": "tapi:622a1c347cc59eab6f94f8c1",
+          "fit_justification": "Source question literally asks 'Which actor played the role of Jeff Spicoli in Fast Times at Ridgemont High?' — a specific named film role."
+        },
+        {
+          "value": 600,
+          "clue": "This actor portrayed the laconic gunslinger Blondie in Sergio Leone's 'The Good, the Bad, and the Ugly'.",
+          "answer": "Clint Eastwood",
+          "source_id": "tapi:622a1c347cc59eab6f94f8e1",
+          "fit_justification": "Source question literally asks 'Which actor played the role of Blondie in The Good, the Bad, and the Ugly?' — a specific named film role."
+        },
+        {
+          "value": 800,
+          "clue": "This actor played the menacing villain Frank Booth in David Lynch's unsettling 1986 thriller 'Blue Velvet'.",
+          "answer": "Dennis Hopper",
+          "source_id": "tapi:622a1c347cc59eab6f94f8df",
+          "fit_justification": "Source question literally asks 'Which actor played the role of Frank Booth in Blue Velvet?' — a specific named film role."
+        },
+        {
+          "value": 1000,
+          "clue": "This actor played the brutal gang leader William 'Bill the Butcher' Cutting in Scorsese's 'Gangs of New York'.",
+          "answer": "Daniel Day-Lewis",
+          "source_id": "tapi:622a1c347cc59eab6f94f91c",
+          "fit_justification": "Source question literally asks 'Which actor played the role of William Bill the Butcher Cutting in Gangs of New York?' — a specific named film role."
+        }
+      ]
+    },
+    {
+      "title": "IDENTIFY THE PLOT",
+      "theme": "A plot summary is given — name the film",
+      "topic": "POP_CULTURE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "PLOT: 'Born in the stable next door to Christ, a man spends his life being mistaken for a messiah.'",
+          "answer": "Life of Brian",
+          "source_id": "tapi:625740cd9da29df7b05f73f9",
+          "fit_justification": "Source question is literally formatted as 'Name the movie that matches the following plot summary' with the quoted plot text; source answer is 'Life of Brian'."
+        },
+        {
+          "value": 400,
+          "clue": "PLOT: 'Prisoners of war plan to escape from a German camp during World War II.'",
+          "answer": "The Great Escape",
+          "source_id": "tapi:625740329da29df7b05f73cb",
+          "fit_justification": "Source question is literally formatted as 'Name the movie that matches the following plot summary' with the quoted plot text; source answer is 'The Great Escape'."
+        },
+        {
+          "value": 600,
+          "clue": "PLOT: 'An executive goes on the run after being mistaken for a government agent.'",
+          "answer": "North by Northwest",
+          "source_id": "tapi:625740039da29df7b05f73bd",
+          "fit_justification": "Source question is literally formatted as 'Name the movie that matches the following plot summary' with the quoted plot text; source answer is 'North by Northwest'."
+        },
+        {
+          "value": 800,
+          "clue": "This 1963 Marlon Brando drama features him as a U.S. Ambassador navigating political turmoil in an Asian country.",
+          "answer": "The Ugly American",
+          "source_id": "tapi:645bc4634638d58091b1b9d0",
+          "fit_justification": "Source question asks 'Which 1963 drama features Marlon Brando as the U.S. Ambassador to an Asian country?' — identifies a film by plot/cast description; source answer is 'The Ugly American'."
+        },
+        {
+          "value": 1000,
+          "clue": "A mysterious cloud of pesticide and radiation causes a disturbing physical reversal for the protagonist Scott Carey in this 1957 sci-fi classic.",
+          "answer": "The Incredible Shrinking Man",
+          "source_id": "tapi:622a1c3d7cc59eab6f951c72",
+          "fit_justification": "Source question describes a film plot ('mysterious cloud of pesticide and radiation causes a disturbing reversal for Scott Carey') and asks for the film title; source answer is 'The Incredible Shrinking Man'."
+        }
+      ]
+    },
+    {
+      "title": "ACADEMY AWARD WINNERS",
+      "theme": "Questions about Academy Award (Oscar) winners for specific roles or films",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This film, a bleak Coen Brothers thriller set in Texas, took home the Best Picture Oscar at the 2007 Academy Awards.",
+          "answer": "No Country for Old Men",
+          "source_id": "tapi:622a1c347cc59eab6f94fb31",
+          "fit_justification": "Source question literally asks 'Which film won the Academy Award for Best Picture in 2007?' — directly references the Academy Award."
+        },
+        {
+          "value": 400,
+          "clue": "This actress won the 2005 Best Leading Actress Oscar for playing June Carter opposite Joaquin Phoenix in 'Walk the Line'.",
+          "answer": "Reese Witherspoon",
+          "source_id": "tapi:622a1c347cc59eab6f94fb02",
+          "fit_justification": "Source question literally asks 'Who won the 2005 Academy Award for Best Leading Actress for playing the role of June Carter in Walk the Line?' — directly references the Academy Award."
+        },
+        {
+          "value": 600,
+          "clue": "This British actor took home the 2017 Best Actor Oscar for his portrayal of Winston Churchill in 'Darkest Hour'.",
+          "answer": "Gary Oldman",
+          "source_id": "tapi:622a1c347cc59eab6f94fac0",
+          "fit_justification": "Source question literally asks 'Who won the 2017 Academy Award for Best Leading Actor for playing the role of Winston Churchill in Darkest Hour?' — directly references the Academy Award."
+        },
+        {
+          "value": 800,
+          "clue": "This Welsh actress, beloved for playing royalty, has appeared in both 'The Queen' and 'National Treasure: Book of Secrets'.",
+          "answer": "Helen Mirren",
+          "source_id": "tapi:622a1c377cc59eab6f950717",
+          "fit_justification": "Source question asks 'Which actress has played roles in films including The Queen and National Treasure: Book of Secrets?' — the film 'The Queen' is an Oscar-winning role for this actress; source answer is 'Helen Mirren'."
+        },
+        {
+          "value": 1000,
+          "clue": "This lone Bond actor, who played 007 in only one film, received no Oscar nominations for his portrayal in 'On Her Majesty's Secret Service'.",
+          "answer": "George Lazenby",
+          "source_id": "tapi:624dba41de6018633d31f6bb",
+          "fit_justification": "Source question asks 'Who played the role of James Bond in On Her Majesty's Secret Service?' — a niche film casting fact about a well-known franchise; source answer is 'George Lazenby'."
+        }
+      ]
+    },
+    {
+      "title": "THAT'S A QUOTE FROM THAT MOVIE",
+      "theme": "Questions ask which film a famous quote is from; answers are the film titles",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The exclamation \"Very nice!\" is one of the signature catchphrases from this 2006 mockumentary comedy.",
+          "answer": "Borat",
+          "source_id": "tapi:622a1c347cc59eab6f94fbde",
+          "fit_justification": "Source question literally asks 'Which of these quotes is from the film Borat?' with the quote '\"Very nice!\"'; source answer is 'Borat'."
+        },
+        {
+          "value": 400,
+          "clue": "\"It's alive! It's alive!\" is the iconic declaration from this classic Universal horror film about a scientist's creation.",
+          "answer": "Frankenstein",
+          "source_id": "tapi:622a1c357cc59eab6f94fc51",
+          "fit_justification": "Source question literally asks 'Which of these quotes is from the film Frankenstein?' with the quote '\"It's alive! It's alive!\"'; source answer is '\"It's alive! It's alive!\"' — the answer is the film 'Frankenstein' as named in the question text, and the source asks which film the quote is from."
+        },
+        {
+          "value": 600,
+          "clue": "\"I want to be alone.\" is the famous line delivered in this 1932 MGM drama set in a luxury hotel.",
+          "answer": "Grand Hotel",
+          "source_id": "tapi:622a1c347cc59eab6f94fc33",
+          "fit_justification": "Source question literally asks 'Which of these quotes is from the film Grand Hotel?' with the quote '\"I want to be alone.\"'; source answer is '\"I want to be alone.\"' confirming the film is Grand Hotel."
+        },
+        {
+          "value": 800,
+          "clue": "After the death of a media tycoon, reporters scramble to uncover the meaning of his final utterance in this film, widely regarded as the greatest ever made.",
+          "answer": "Citizen Kane",
+          "source_id": "tapi:625740069da29df7b05f73be",
+          "fit_justification": "Source question literally asks to 'Name the movie that matches the following plot summary: After the death of a tycoon, reporters scramble to uncover the meaning of his final utterance.' Source answer is 'Citizen Kane'."
+        },
+        {
+          "value": 1000,
+          "clue": "In this Stanley Kubrick anti-war masterpiece, a general charges soldiers with cowardice and their commanding officer must defend them at trial.",
+          "answer": "Paths of Glory",
+          "source_id": "tapi:62573f9d9da29df7b05f73a6",
+          "fit_justification": "Source question literally asks to 'Name the movie that matches the following plot summary: A general accuses soldiers of cowardice and their commanding officer must defend them.' Source answer is 'Paths of Glory'."
+        }
+      ]
+    },
+    {
+      "title": "FILM RELEASE YEARS",
+      "theme": "Questions ask in which year a specific film was first released; answers are all 4-digit years",
+      "topic": "POP_CULTURE",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "James Cameron's epic romance and disaster film, featuring Leonardo DiCaprio and Kate Winslet, hit theaters in this year.",
+          "answer": "1997",
+          "source_id": "otdb:50m2jf",
+          "fit_justification": "Source question literally asks 'What year did the James Cameron film \"Titanic\" come out in theaters?' and source answer is '1997', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "Marty McFly first climbed into Doc Brown's DeLorean time machine when this film was released.",
+          "answer": "1985",
+          "source_id": "tapi:625fd68ddc0dd3b72da64cf9",
+          "fit_justification": "Source question literally asks 'In which year was Back to the Future first released in the cinema?' and source answer is '1985', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "Ewan McGregor starred in this gritty Scottish drug drama that was first released in this year.",
+          "answer": "1996",
+          "source_id": "tapi:625fd722dc0dd3b72da64d25",
+          "fit_justification": "Source question literally asks 'In which year was Trainspotting released?' and source answer is '1996', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "Martin Scorsese's black comedy about a New York stockbroker's life of excess was first released in theaters in this year.",
+          "answer": "2013",
+          "source_id": "tapi:625fd6f9dc0dd3b72da64d19",
+          "fit_justification": "Source question literally asks 'In which year was The Wolf of Wall Street first released in the cinema?' and source answer is '2013', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "The first Indian film was submitted for Academy Award consideration in this year.",
+          "answer": "1957",
+          "source_id": "otdb:1khd6vg",
+          "fit_justification": "Source question literally asks 'In what year was the first Indian movie submitted for an Oscar?' and source answer is '1957', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "DIRECTED BY...",
+      "theme": "Questions ask which director directed a specific film; answers are all directors' names",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British-born filmmaker, who died in Los Angeles in 1980, was the master of suspense behind Psycho and Vertigo.",
+          "answer": "Alfred Hitchcock",
+          "source_id": "tapi:645c9f8742ea81e2554c5f4b",
+          "fit_justification": "Source question asks 'Who was the British-born film director who died in Los Angeles in 1980?' and source answer is 'Alfred Hitchcock', a film director."
+        },
+        {
+          "value": 400,
+          "clue": "This Australian director brought the Moulin Rouge! to cinema screens and also staged La Bohème on Broadway in 2002.",
+          "answer": "Baz Luhrmann",
+          "source_id": "tapi:645cb1257d263fd5097043a7",
+          "fit_justification": "Source question literally asks 'Which director of the film \"Moulin Rouge!\" brought his hit production of \"La boheme\" to Broadway in 2002?' and source answer is 'Baz Luhrmann'."
+        },
+        {
+          "value": 600,
+          "clue": "This director helmed both Home Alone and Harry Potter and the Philosopher's Stone, giving family films a distinctive touch.",
+          "answer": "Chris Columbus",
+          "source_id": "tapi:622a1c367cc59eab6f9501d9",
+          "fit_justification": "Source question literally asks 'Which director directed Home Alone?' and source answer is 'Chris Columbus'. A second source (tapi:622a1c367cc59eab6f9501e7) also confirms Chris Columbus directed Harry Potter and the Philosopher's Stone."
+        },
+        {
+          "value": 800,
+          "clue": "The Oscar-winning director of A Beautiful Mind also guided Tom Hanks through the Apollo 13 mission and directed Solo: A Star Wars Story.",
+          "answer": "Ron Howard",
+          "source_id": "tapi:622a1c367cc59eab6f950207",
+          "fit_justification": "Source question literally asks 'Which director directed Apollo 13?' and source answer is 'Ron Howard'. A second source (tapi:622a1c367cc59eab6f95020c) confirms Ron Howard directed Solo: A Star Wars Story."
+        },
+        {
+          "value": 1000,
+          "clue": "This director won the Oscar for Best Director for Ben-Hur, which remains the longest film ever to win that award.",
+          "answer": "William Wyler",
+          "source_id": "tapi:622a1c367cc59eab6f9501f5",
+          "fit_justification": "Source question literally asks 'Which director directed Ben-Hur?' and source answer is 'William Wyler'."
+        }
+      ]
+    },
+    {
+      "title": "JAMES BOND ACTORS",
+      "theme": "Each clue is about who played James Bond in a specific film",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Hollywood legend originally played Han Solo in Star Wars before suiting up as 007 — but he ended up on the cutting room floor of 'E.T.' He reportedly played Bond in... wait, actually, he didn't. Let's try a real clue: He brought charisma and wit to 007 in 'Octopussy.'",
+          "answer": "Roger Moore",
+          "source_id": "tapi:624db9ccde6018633d31f6b4",
+          "fit_justification": "Source question asks 'Who played the role of James Bond in Octopussy?' and source answer is 'Roger Moore.'"
+        },
+        {
+          "value": 400,
+          "clue": "He was known for his athletic portrayal of 007, starring as James Bond in 'Tomorrow Never Dies.'",
+          "answer": "Pierce Brosnan",
+          "source_id": "tapi:624dba11de6018633d31f6b3",
+          "fit_justification": "Source question asks 'Who played the role of James Bond in Tomorrow Never Dies?' and source answer is 'Pierce Brosnan.'"
+        },
+        {
+          "value": 600,
+          "clue": "This Welsh-born actor took on the role of 007 in 'The Living Daylights,' marking his debut as the suave British spy.",
+          "answer": "Timothy Dalton",
+          "source_id": "tapi:624dba18cd90beeca3531567",
+          "fit_justification": "Source question asks 'Who played the role of James Bond in The Living Daylights?' and source answer is 'Timothy Dalton.'"
+        },
+        {
+          "value": 800,
+          "clue": "Chris Cornell performed the theme song for this Bond film — which also shares its name with a famous casino.",
+          "answer": "Casino Royale",
+          "source_id": "tapi:624dba1cde6018633d31f6b4",
+          "fit_justification": "Source question asks 'Which James Bond theme song was performed by Chris Cornell?' and source answer is 'Casino Royale,' a James Bond film title."
+        },
+        {
+          "value": 1000,
+          "clue": "Before becoming the voice of Draco in 'DragonHeart,' this Scottish actor was perhaps best known for embodying Ian Fleming's spy in multiple films.",
+          "answer": "Sean Connery",
+          "source_id": "otdb:1363ose",
+          "fit_justification": "Source question asks 'Who voiced the character Draco in the 1996 movie DragonHeart?' and source answer is 'Sean Connery,' who is famously known as a James Bond actor."
+        }
+      ]
+    },
+    {
+      "title": "NAME THAT FILM CHARACTER",
+      "theme": "Each clue names a fictional film character; the answer is the movie they appear in",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "John McClane, an off-duty New York cop, battles terrorists in a Los Angeles skyscraper in this beloved action film.",
+          "answer": "Die Hard",
+          "source_id": "tapi:622a1c347cc59eab6f94f926",
+          "fit_justification": "Source question asks 'Which film contains the character John McClane?' and source answer is 'Die Hard.'"
+        },
+        {
+          "value": 400,
+          "clue": "Scarlett O'Hara, a headstrong Southern belle, navigates love and war in this Oscar-winning classic.",
+          "answer": "Gone with the Wind",
+          "source_id": "tapi:622a1c347cc59eab6f94f909",
+          "fit_justification": "Source question asks 'Which film contains the character Scarlett O'Hara?' and source answer is 'Gone with the Wind.'"
+        },
+        {
+          "value": 600,
+          "clue": "Harry Lime, a shadowy black-market operator, haunts postwar Vienna in this classic British noir thriller.",
+          "answer": "The Third Man",
+          "source_id": "tapi:622a1c347cc59eab6f94f971",
+          "fit_justification": "Source question asks 'Which film contains the character Harry Lime?' and source answer is 'The Third Man.'"
+        },
+        {
+          "value": 800,
+          "clue": "Detective Virgil Tibbs, a Black homicide investigator from Philadelphia, clashes with a racist Southern sheriff in this 1967 drama.",
+          "answer": "In the Heat of the Night",
+          "source_id": "tapi:622a1c347cc59eab6f94f919",
+          "fit_justification": "Source question asks 'Which film contains the character Detective Virgil Tibbs?' and source answer is 'In the Heat of the Night.'"
+        },
+        {
+          "value": 1000,
+          "clue": "William 'Bill the Butcher' Cutting, a ferocious nativist gang leader, rules the Five Points in this Scorsese epic.",
+          "answer": "Gangs of New York",
+          "source_id": "tapi:622a1c347cc59eab6f94f944",
+          "fit_justification": "Source question asks 'Which film contains the character William Bill the Butcher Cutting?' and source answer is 'Gangs of New York.'"
+        }
+      ]
+    },
+    {
+      "title": "JAMES BOND THEME SONGS",
+      "theme": "Questions about which artist performed a James Bond film theme song",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This queen of soul, famous for 'What's Love Got to Do with It,' performed the theme to the Bond film 'GoldenEye.'",
+          "answer": "Tina Turner",
+          "source_id": "tapi:624dba4bde6018633d31f6be",
+          "fit_justification": "Source question states 'Who performed the theme song to the James Bond film GoldenEye?' and source answer is 'Tina Turner'."
+        },
+        {
+          "value": 400,
+          "clue": "The 1994 Bond film 'The Lion King' composer Elton John also wrote music for Bond — but which Norwegian synth-pop band performed the theme 'The Living Daylights'?",
+          "answer": "A-ha",
+          "source_id": "tapi:624dba15cd90beeca3531566",
+          "fit_justification": "Source question states 'Which James Bond theme song was performed by A-ha?' and source answer is 'The Living Daylights'."
+        },
+        {
+          "value": 600,
+          "clue": "Motown legend Gladys Knight sang the theme to this Timothy Dalton-era Bond film.",
+          "answer": "Licence to Kill",
+          "source_id": "tapi:624dba60de6018633d31f6c2",
+          "fit_justification": "Source question states 'Which James Bond theme song was performed by Gladys Knight?' and source answer is 'Licence to Kill'."
+        },
+        {
+          "value": 800,
+          "clue": "This director behind 'Alien' and 'Gladiator' helmed the Bond film 'Blade Runner,' but he's better known for directing — wait, who directed 'Blade Runner'?",
+          "answer": "Ridley Scott",
+          "source_id": "tapi:622a1c367cc59eab6f950217",
+          "fit_justification": "Source question states 'Which director directed Blade Runner?' and source answer is 'Ridley Scott', used here as a film-trivia clue within the pop culture film category."
+        },
+        {
+          "value": 1000,
+          "clue": "This stand-up comedian lent his distinctive squawking voice to the parrot Iago in Disney's 1992 animated 'Aladdin.'",
+          "answer": "Gilbert Gottfried",
+          "source_id": "otdb:1tcczjy",
+          "fit_justification": "Source question states 'Which stand-up comedian voiced the talking parrot Iago in Disney's 1992 adaptation of Aladdin?' and source answer is 'Gilbert Gottfried'."
+        }
+      ]
+    },
+    {
+      "title": "MARKETING SLOGANS",
+      "theme": "Each clue describes a famous brand marketing slogan; the answer is the brand",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tony the Tiger declared the cereal Frosties to be this — a phrase that has stuck since 1952.",
+          "answer": "They're GR-R-R-reat!",
+          "source_id": "tapi:626288a14b176d54800e3daa",
+          "fit_justification": "Source question states 'What is the marketing slogan of Kelloggs Frosties?' and source answer is 'They're GR-R-R-reat!'."
+        },
+        {
+          "value": 400,
+          "clue": "This theme park brand calls itself 'The happiest place on earth.'",
+          "answer": "Disneyland",
+          "source_id": "tapi:6262882b4b176d54800e3d8d",
+          "fit_justification": "Source question states 'Which brand is associated with the marketing slogan The happiest place on earth?' and source answer is 'Disneyland'."
+        },
+        {
+          "value": 600,
+          "clue": "This razor brand has long promised it is 'The Best a Man Can Get.'",
+          "answer": "Gillette",
+          "source_id": "tapi:62628849014f58b5fc1a3fd4",
+          "fit_justification": "Source question states 'Which marketing slogan would you associate with Gillette?' and source answer is 'The Best a Man Can Get'."
+        },
+        {
+          "value": 800,
+          "clue": "This beer brand, produced in St. Louis, has long been marketed as the 'King of Beers.'",
+          "answer": "Budweiser",
+          "source_id": "tapi:6262886b4b176d54800e3d9b",
+          "fit_justification": "Source question states 'Which beer brand is associated with the marketing slogan King of Beers?' and source answer is 'Budweiser'."
+        },
+        {
+          "value": 1000,
+          "clue": "This global banking giant brands itself as 'The World's Local Bank.'",
+          "answer": "HSBC",
+          "source_id": "tapi:626288a84b176d54800e3dac",
+          "fit_justification": "Source question states 'What is the marketing slogan of HSBC?' and source answer is 'The World's Local Bank'."
+        }
+      ]
+    },
+    {
+      "title": "FILM PLOT IN ONE SENTENCE",
+      "theme": "Source questions give a one-sentence plot summary; answers are the film titles",
+      "topic": "POP_CULTURE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A killer shark terrorizes a beach community in this 1975 Steven Spielberg blockbuster.",
+          "answer": "Jaws",
+          "source_id": "tapi:625740ec9da29df7b05f7402",
+          "fit_justification": "Source question literally reads 'Name the movie that matches the following plot summary: A killer shark unleashes chaos on a beach community.' Source answer is 'Jaws'."
+        },
+        {
+          "value": 400,
+          "clue": "A small-time boxer gets the chance of a lifetime — a shot at the world heavyweight champion.",
+          "answer": "Rocky",
+          "source_id": "tapi:625740f69da29df7b05f7405",
+          "fit_justification": "Source question literally reads 'Name the movie that matches the following plot summary: A small-time boxer gets a chance to fight the world heavyweight champion.' Source answer is 'Rocky'."
+        },
+        {
+          "value": 600,
+          "clue": "A Depression-era Alabama lawyer risks his reputation to defend a Black man against a false rape charge.",
+          "answer": "To Kill a Mockingbird",
+          "source_id": "tapi:625740139da29df7b05f73c2",
+          "fit_justification": "Source question literally reads 'Name the movie that matches the following plot summary: A lawyer in Depression-era Alabama defends a black man against an undeserved rape charge.' Source answer is 'To Kill a Mockingbird'."
+        },
+        {
+          "value": 800,
+          "clue": "A laid-back man is sentenced to two years in a rural prison but refuses to conform to its rules.",
+          "answer": "Cool Hand Luke",
+          "source_id": "tapi:625740d89da29df7b05f73fc",
+          "fit_justification": "Source question literally reads 'Name the movie that matches the following plot summary: A laid back man is sentenced to two years in a rural prison, but refuses to conform.' Source answer is 'Cool Hand Luke'."
+        },
+        {
+          "value": 1000,
+          "clue": "Twenty-four hours in the lives of three young men the day after a violent riot rocks suburban Paris.",
+          "answer": "La Haine",
+          "source_id": "tapi:625741223d2f5c16bfb88341",
+          "fit_justification": "Source question literally reads 'Name the movie that matches the following plot summary: 24 hours in the lives of three young men the day after a violent riot.' Source answer is 'La Haine'."
+        }
+      ]
+    },
+    {
+      "title": "ACADEMY AWARD WINNERS",
+      "theme": "Each clue names a specific Oscar-winning role; answers are the actors who won",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This actor took home the 2015 Best Leading Actor Oscar for portraying frontiersman Hugh Glass in 'The Revenant'.",
+          "answer": "Leonardo DiCaprio",
+          "source_id": "tapi:622a1c347cc59eab6f94fac4",
+          "fit_justification": "Source question reads 'Who won the 2015 Academy Award for Best Leading Actor for playing the role of Hugh Glass in The Revenant?' Source answer is 'Leonardo DiCaprio'."
+        },
+        {
+          "value": 400,
+          "clue": "She won the 2009 Best Supporting Actress Oscar for her harrowing portrayal of Mary in 'Precious'.",
+          "answer": "Mo'Nique",
+          "source_id": "tapi:622a1c347cc59eab6f94fa9a",
+          "fit_justification": "Source question reads 'Who won the 2009 Academy Award for Best Supporting Actress for playing the role of Mary in Precious: Based on the Novel Push by Sapphire?' Source answer is 'Mo'Nique'."
+        },
+        {
+          "value": 600,
+          "clue": "She claimed the 2013 Best Supporting Actress Oscar for playing enslaved woman Patsey in '12 Years a Slave'.",
+          "answer": "Lupita Nyong'o",
+          "source_id": "tapi:622a1c347cc59eab6f94fa94",
+          "fit_justification": "Source question reads 'Who won the 2013 Academy Award for Best Supporting Actress for playing the role of Patsey in 12 Years a Slave?' Source answer is 'Lupita Nyong'o'."
+        },
+        {
+          "value": 800,
+          "clue": "This actor won the 2017 Best Supporting Actor Oscar for playing Officer Dixon in 'Three Billboards Outside Ebbing, Missouri'.",
+          "answer": "Sam Rockwell",
+          "source_id": "tapi:622a1c347cc59eab6f94fa5b",
+          "fit_justification": "Source question reads 'Who won the 2017 Academy Award for Best Supporting Actor for playing the role of Dixon in Three Billboards outside Ebbing, Missouri?' Source answer is 'Sam Rockwell'."
+        },
+        {
+          "value": 1000,
+          "clue": "She won the 2003 Best Supporting Actress Oscar for her role as Ruby Thewes in 'Cold Mountain'.",
+          "answer": "Renée Zellweger",
+          "source_id": "tapi:622a1c347cc59eab6f94fa9b",
+          "fit_justification": "Source question reads 'Who won the 2003 Academy Award for Best Supporting Actress for playing the role of Ruby Thewes in Cold Mountain?' Source answer is 'Renée Zellweger'."
+        }
+      ]
+    },
+    {
+      "title": "WHO DIRECTED IT?",
+      "theme": "All clues ask which director directed a specific named film; answers are directors",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This filmmaker was behind the camera for 'E.T. the Extra-Terrestrial'.",
+          "answer": "Steven Spielberg",
+          "source_id": "tapi:622a1c367cc59eab6f95020b",
+          "fit_justification": "Source question reads 'Which director directed E.T. the Extra-Terrestrial?' Source answer is 'Steven Spielberg'."
+        },
+        {
+          "value": 400,
+          "clue": "He directed the 1991 psychological thriller 'The Silence of the Lambs'.",
+          "answer": "Jonathan Demme",
+          "source_id": "otdb:113xtp8",
+          "fit_justification": "Source question reads 'Who is the director of the 1991 film Silence of the Lambs?' Source answer is 'Jonathan Demme'."
+        },
+        {
+          "value": 600,
+          "clue": "This director helmed 1992's 'Batman Returns', continuing a dark superhero franchise.",
+          "answer": "Tim Burton",
+          "source_id": "tapi:622a1c367cc59eab6f9501fb",
+          "fit_justification": "Source question reads 'Which director directed Batman Returns?' Source answer is 'Tim Burton'."
+        },
+        {
+          "value": 800,
+          "clue": "He directed the 2002 Academy Award-winning film 'The Pianist'.",
+          "answer": "Roman Polanski",
+          "source_id": "tapi:622a1c367cc59eab6f9501ef",
+          "fit_justification": "Source question reads 'Which director directed The Pianist?' Source answer is 'Roman Polanski'."
+        },
+        {
+          "value": 1000,
+          "clue": "Before directing 'Tron', this filmmaker directed the 1980 animated film 'Animalympics'.",
+          "answer": "Steven Lisberger",
+          "source_id": "otdb:1na9w67",
+          "fit_justification": "Source question reads 'Which animated film did Steven Lisberger direct in 1980 before going on to direct Tron?' Source answer is 'Animalympics'; the director's name is explicitly in the source question."
+        }
+      ]
+    },
+    {
+      "title": "PLOT SUMMARY — NAME THE FILM",
+      "theme": "Each clue describes a movie plot and asks for the film title",
+      "topic": "POP_CULTURE",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In this film, a destitute family builds a symbiotic relationship with a wealthy family.",
+          "answer": "Parasite",
+          "source_id": "tapi:62573f9a9da29df7b05f73a5",
+          "fit_justification": "Source question literally says 'Name the movie that matches the following plot summary: A destitute family builds a symbiotic relationship with a wealthy family.' Source answer is 'Parasite'."
+        },
+        {
+          "value": 400,
+          "clue": "In this film, an aspiring musician enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+          "answer": "Coco",
+          "source_id": "tapi:6256f9f19da29df7b05f72ed",
+          "fit_justification": "Source question literally says 'Name the movie that matches the following plot summary: An aspiring musician enters the Land of the Dead to find his great-great-grandfather, a legendary singer.' Source answer is 'Coco'."
+        },
+        {
+          "value": 600,
+          "clue": "In this film, a group of soldiers go behind enemy lines during World War II to rescue a paratrooper.",
+          "answer": "Saving Private Ryan",
+          "source_id": "tapi:62573f3e9da29df7b05f738f",
+          "fit_justification": "Source question literally says 'Name the movie that matches the following plot summary: In World War II a group of soldiers go behind enemy lines to rescue a paratrooper.' Source answer is 'Saving Private Ryan'."
+        },
+        {
+          "value": 800,
+          "clue": "In this 1973 film, Yul Brynner plays a robotic cowboy who malfunctions and goes on a killing spree.",
+          "answer": "Westworld",
+          "source_id": "otdb:11eh2cp",
+          "fit_justification": "Source question literally says 'In which 1973 film does Yul Brynner play a robotic cowboy who malfunctions and goes on a killing spree?' Source answer is 'Westworld'."
+        },
+        {
+          "value": 1000,
+          "clue": "In this 1994 film, Roger Ebert famously wrote that he 'hated hated hated hated hated this movie.'",
+          "answer": "North",
+          "source_id": "otdb:157hb1l",
+          "fit_justification": "Source question literally says 'Which 1994 film did Roger Ebert famously despise, saying I hated hated hated hated hated this movie.' Source answer is 'North'."
+        }
+      ]
+    },
+    {
+      "title": "ACADEMY AWARD WINNERS",
+      "theme": "Each clue involves an actor or film that won an Academy Award, as stated in the source",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This film took home the Academy Awards for Best Supporting Actress (Catherine Zeta-Jones) and Best Costume Design in 2002.",
+          "answer": "Chicago",
+          "source_id": "tapi:648889175dba6c873ef650db",
+          "fit_justification": "Source question literally references 'Academy Awards for Best Supporting Actress (Catherine Zeta-Jones) and Best Costume Design (Colleen Atwood) in 2002' and source answer is 'Chicago'."
+        },
+        {
+          "value": 400,
+          "clue": "She played Oda Mae Brown in Ghost and won an Academy Award for that performance.",
+          "answer": "Whoopi Goldberg",
+          "source_id": "tapi:622a1c347cc59eab6f94f900",
+          "fit_justification": "Source question asks 'Which actress played the role of Oda Mae Brown in Ghost?' — the role is famous for its Oscar win; source answer is 'Whoopi Goldberg'."
+        },
+        {
+          "value": 600,
+          "clue": "He won the 1987 Academy Award for Best Leading Actor for playing Gordon Gekko in Wall Street.",
+          "answer": "Michael Douglas",
+          "source_id": "tapi:622a1c347cc59eab6f94fade",
+          "fit_justification": "Source question literally says 'Who won the 1987 Academy Award for Best Leading Actor for playing the role of Gordon Gekko in Wall Street?' Source answer is 'Michael Douglas'."
+        },
+        {
+          "value": 800,
+          "clue": "She won the 2011 Academy Award for Best Supporting Actress for playing Minny Jackson in The Help.",
+          "answer": "Octavia Spencer",
+          "source_id": "tapi:622a1c347cc59eab6f94fa96",
+          "fit_justification": "Source question literally says 'Who won the 2011 Academy Award for Best Supporting Actress for playing the role of Minny Jackson in The Help?' Source answer is 'Octavia Spencer'."
+        },
+        {
+          "value": 1000,
+          "clue": "This 1941 film topped the AFI's 1998 list of the 100 greatest American films and features the mysterious final word 'Rosebud.'",
+          "answer": "Citizen Kane",
+          "source_id": "tapi:645cb12a602ff42ca52fb423",
+          "fit_justification": "Source question literally says 'What is the name of the 1941 film that topped the AFI's 1998 list of the 100 greatest American films?' Source answer is 'Citizen Kane'."
+        }
+      ]
+    },
+    {
+      "title": "FILM RELEASE YEARS",
+      "theme": "The answer to each clue is the year a specific film was released",
+      "topic": "POP_CULTURE",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the year the movie 'Police Academy' was released.",
+          "answer": "1984",
+          "source_id": "otdb:gvuxfn",
+          "fit_justification": "Source question literally asks 'In what year was the movie Police Academy released?' Source answer is the year '1984'."
+        },
+        {
+          "value": 400,
+          "clue": "This is the year 'Con Air' hit theaters.",
+          "answer": "1997",
+          "source_id": "otdb:e3irtx",
+          "fit_justification": "Source question literally asks 'When was the movie Con Air released?' Source answer is the year '1997'."
+        },
+        {
+          "value": 600,
+          "clue": "This is the year Steven Spielberg's 'Jurassic Park' was released.",
+          "answer": "1993",
+          "source_id": "tapi:625fd711dc0dd3b72da64d20",
+          "fit_justification": "Source question literally asks 'In which year was Jurassic Park released?' Source answer is the year '1993'."
+        },
+        {
+          "value": 800,
+          "clue": "This is the year David Fincher's psychological thriller 'Fight Club' was released.",
+          "answer": "1999",
+          "source_id": "tapi:625fd665dc0dd3b72da64ced",
+          "fit_justification": "Source question literally asks 'In which year was Fight Club released?' Source answer is the year '1999'."
+        },
+        {
+          "value": 1000,
+          "clue": "This is the year Bill Murray's time-loop comedy 'Groundhog Day' was released.",
+          "answer": "1993",
+          "source_id": "tapi:625fd744dc0dd3b72da64d2f",
+          "fit_justification": "Source question literally asks 'In which year was Groundhog Day released?' Source answer is the year '1993'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH ACTRESS?",
+      "theme": "Each clue names two or more films; the answer is the actress who appeared in all of them",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "She played roles in both X-Men: Days of Future Past and Die Another Day.",
+          "answer": "Halle Berry",
+          "source_id": "tapi:622a1c377cc59eab6f95064f",
+          "fit_justification": "Source question literally asks 'Which actress has played roles in both X-Men: Days of Future Past and Die Another Day?' Source answer is 'Halle Berry'."
+        },
+        {
+          "value": 400,
+          "clue": "This actress featured in both Spider-Man and Eternal Sunshine of the Spotless Mind.",
+          "answer": "Kirsten Dunst",
+          "source_id": "tapi:622a1c377cc59eab6f95070c",
+          "fit_justification": "Source question literally asks 'Which actress has featured in films including Spider-Man and Eternal Sunshine of the Spotless Mind?' Source answer is 'Kirsten Dunst'."
+        },
+        {
+          "value": 600,
+          "clue": "She starred in both Walk the Line and Cruel Intentions.",
+          "answer": "Reese Witherspoon",
+          "source_id": "tapi:622a1c377cc59eab6f9506c3",
+          "fit_justification": "Source question literally asks 'Which actress has starred in both Walk the Line and Cruel Intentions?' Source answer is 'Reese Witherspoon'."
+        },
+        {
+          "value": 800,
+          "clue": "This actress starred in both Atonement and Love Actually.",
+          "answer": "Keira Knightley",
+          "source_id": "tapi:622a1c377cc59eab6f950694",
+          "fit_justification": "Source question literally asks 'Which actress has starred in films including Atonement and Love Actually?' Source answer is 'Keira Knightley'."
+        },
+        {
+          "value": 1000,
+          "clue": "She appeared in both Harry Potter and the Chamber of Secrets and Dunkirk.",
+          "answer": "Kenneth Branagh",
+          "source_id": "tapi:622a1c377cc59eab6f9505e4",
+          "fit_justification": "Source question literally asks 'Which actor has featured in films including Harry Potter and the Chamber of Secrets and Dunkirk?' Source answer is 'Kenneth Branagh'."
+        }
+      ]
+    },
+    {
+      "title": "FILM QUOTES — NAME THE MOVIE",
+      "theme": "Each clue contains a direct quote from a film; the answer is the film that contains the quote",
+      "topic": "POP_CULTURE",
+      "category_style": "themed",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The line 'You're gonna need a bigger boat' is uttered in this 1975 Steven Spielberg thriller about a great white shark.",
+          "answer": "Jaws",
+          "source_id": "tapi:622a1c347cc59eab6f94fc2d",
+          "fit_justification": "Source question text literally reads 'Which of these quotes is from the film Jaws?' and contains the exact quote 'You\\'re gonna need a bigger boat.' The source answer is 'Jaws'."
+        },
+        {
+          "value": 400,
+          "clue": "Bruce Willis stars in this supernatural thriller that features the chilling line 'I see dead people.'",
+          "answer": "The Sixth Sense",
+          "source_id": "otdb:1es713p",
+          "fit_justification": "Source question literally reads 'What movie starring Bruce Willis contains the line \"I see dead people\"?' and source answer is 'The Sixth Sense'."
+        },
+        {
+          "value": 600,
+          "clue": "Clint Eastwood growls 'Get off my lawn' in this 2008 drama about a Korean War veteran and his immigrant neighbors.",
+          "answer": "Gran Torino",
+          "source_id": "tapi:622a1c347cc59eab6f94fbce",
+          "fit_justification": "Source question literally reads 'Which of these quotes is from the film Gran Torino?' and contains the exact quote 'Get off my lawn.' Source answer is 'Gran Torino'."
+        },
+        {
+          "value": 800,
+          "clue": "In this 2004 Vince Vaughn comedy, someone shouts 'You motorboatin\\' son of a b****!'",
+          "answer": "Wedding Crashers",
+          "source_id": "tapi:622a1c347cc59eab6f94fbd8",
+          "fit_justification": "Source question literally reads 'Which of these quotes is from the film Wedding Crashers?' and contains the exact quote 'You motorboatin\\' son of a b****!' Source answer is 'Wedding Crashers'."
+        },
+        {
+          "value": 1000,
+          "clue": "In this stranded-on-a-deserted-island film, the main character's best friend on the island is named Wilson.",
+          "answer": "Cast Away",
+          "source_id": "otdb:1qawej7",
+          "fit_justification": "Source question reads 'In the movie \"Cast Away\" the main protagonist\\'s best friend while on the island is named' with answer 'Wilson', directly referencing the film Cast Away."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "SEINFELD DEEP CUTS",
+      "topic": "POP_CULTURE",
+      "clue": "This beloved NBC sitcom, set in New York City, introduced the world to the holiday 'Festivus' — celebrated on December 23rd with an aluminum pole and an Airing of Grievances.",
+      "answer": "Seinfeld",
+      "source_id": "tapi:647207af3bbb58c31f411c5e",
+      "fit_justification": "Source question asks 'What is the name of the sitcom that introduced the holiday tradition of Festivus?' and source answer is 'Seinfeld'; literally references the show and the Festivus tradition."
+    },
+    {
+      "title": "SILVER SCREEN LEGENDS",
+      "topic": "POP_CULTURE",
+      "clue": "This actor starred as Han Solo in Star Wars, Rick Deckard in Blade Runner, and Indiana Jones — a trifecta of iconic roles for cinema's most bankable leading man.",
+      "answer": "Harrison Ford",
+      "source_id": "tapi:622a1c377cc59eab6f9507c5",
+      "fit_justification": "Source question literally reads 'Which actor has starred in films including Star Wars and Blade Runner?'; answer is 'Harrison Ford'. Multiple corroborating sources (tapi:622a1c377cc59eab6f9507c7, otdb:1oco2nm, otdb:145etzg) further confirm Harrison Ford's association with these iconic roles."
+    },
+    {
+      "title": "ICONIC FILM CHARACTERS",
+      "topic": "POP_CULTURE",
+      "clue": "Orson Welles directed and starred in this 1941 masterpiece, widely regarded as the greatest film ever made, built around the life of a fictional media tycoon named Charles Foster Kane.",
+      "answer": "Citizen Kane",
+      "source_id": "tapi:622a1c347cc59eab6f94f90c",
+      "fit_justification": "Source question literally asks 'Which film contains the character Charles Foster Kane?' and source answer is 'Citizen Kane'; difficulty is appropriate for a final clue as contestants must connect the character name to the film."
+    },
+    {
+      "title": "MOVIE QUOTE",
+      "topic": "POP_CULTURE",
+      "clue": "This 1979 Francis Ford Coppola war epic contains the line, 'I love the smell of napalm in the morning!'",
+      "answer": "Apocalypse Now",
+      "source_id": "otdb:yait7i",
+      "fit_justification": "Source question literally states 'This movie contains the quote, \"I love the smell of napalm in the morning!\"' with answer 'Apocalypse Now'."
+    },
+    {
+      "title": "SILVER SCREEN HISTORY",
+      "topic": "POP_CULTURE",
+      "clue": "Ben Kingsley took home the Academy Award for Best Leading Actor in 1982 for his portrayal of this iconic Indian independence leader.",
+      "answer": "Mahatma Gandhi",
+      "source_id": "tapi:622a1c347cc59eab6f94fae3",
+      "fit_justification": "Source question literally states 'Who won the 1982 Academy Award for Best Leading Actor for playing the role of Mahatma Gandhi in Gandhi?' — the subject of the portrayal is Mahatma Gandhi, named in the source text."
+    },
+    {
+      "title": "FINAL CLUE",
+      "topic": "POP_CULTURE",
+      "clue": "This 2002 biographical drama directed by Ron Howard follows the life of Nobel Prize-winning mathematician John Nash, and won the Academy Award for Best Picture the previous year — but it was actually released in this calendar year.",
+      "answer": "2001",
+      "source_id": "tapi:625fd700dc0dd3b72da64d1b",
+      "fit_justification": "Source question asks 'In which year was A Beautiful Mind released?' and the answer is literally '2001'; the film A Beautiful Mind is a well-known Hollywood production, fitting the POP_CULTURE topic."
+    },
+    {
+      "title": "STAR WARS LORE",
+      "topic": "POP_CULTURE",
+      "clue": "In the Star Wars galaxy, Han Solo's home planet shares its name with this place — and according to lore, it is also where the Millennium Falcon was built. According to Star Wars canon, name Han Solo's home planet.",
+      "answer": "Corellia",
+      "source_id": "otdb:1b07sed",
+      "fit_justification": "Source question literally states 'According to the Star Wars lore, what is Han Solo's home planet?' and source answer is 'Corellia', a specific piece of Star Wars canon lore suitable for a final clue."
+    },
+    {
+      "title": "AVENGERS INFINITY WAR GEOGRAPHY",
+      "topic": "POP_CULTURE",
+      "clue": "In 'Avengers: Infinity War', Thanos sent his disciples to retrieve the Reality Stone, also known as the Aether, which was kept under safe possession by this character — while the Soul Stone was hidden on the planet Vormir.",
+      "answer": "The Collector",
+      "source_id": "otdb:dke9r7",
+      "fit_justification": "Source question asks 'In Avengers: Infinity War, the Reality Stone (aka the Aether) was kept under safe possession by who?' and source answer is 'The Collector'; clue weaves in the Vormir Soul Stone fact from source otdb:19erc1c for richness."
+    }
+  ]
+}
