@@ -34,11 +34,11 @@ export default function Landing() {
 
       <footer className="px-6 py-8 text-xs text-white/50 text-center max-w-3xl mx-auto">
         <p>
-          Clues written by Claude AI, grounded in facts from{" "}
+          Each day&rsquo;s board is hand-curated. The underlying facts come from the open-licensed{" "}
           <a className="underline hover:text-white" href="https://opentdb.com" target="_blank" rel="noreferrer">Open Trivia DB</a>{" "}
           (CC BY-SA 4.0) and{" "}
           <a className="underline hover:text-white" href="https://the-trivia-api.com" target="_blank" rel="noreferrer">The Trivia API</a>{" "}
-          (CC BY 4.0). Clueboard is not affiliated with Sony Pictures Television or Jeopardy Productions, Inc.
+          (CC BY 4.0); category themes and clue text, inspired by classic trivia TV shows, are written by Claude AI. Clueboard is not affiliated with Sony Pictures Television or Jeopardy Productions, Inc.
         </p>
         <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 justify-center">
           <Link href="/about" className="hover:text-white">About</Link>

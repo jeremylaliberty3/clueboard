@@ -31,11 +31,14 @@ export default function AboutPage() {
           How clues are written
         </h2>
         <p className="text-white/85 mb-4">
-          Clueboard&rsquo;s clues are original, written specifically for this site by Anthropic&rsquo;s Claude AI in a classic declarative trivia voice. Each clue is grounded in a verified factual question/answer pair drawn from two freely-licensed public trivia datasets:{" "}
+          Clueboard&rsquo;s daily boards are hand-curated. Each day, a board of 6 categories (5 clues each) plus a Final Clue and a Daily Double is selected and locked in advance from a growing pool of pre-generated material.
+        </p>
+        <p className="text-white/85 mb-4">
+          The factual basis of every clue &mdash; the question/answer pair &mdash; comes from two freely-licensed public trivia datasets:{" "}
           <a className="underline" target="_blank" rel="noreferrer" href="https://opentdb.com">Open Trivia Database</a>{" "}
           (CC BY-SA 4.0) and{" "}
           <a className="underline" target="_blank" rel="noreferrer" href="https://the-trivia-api.com">The Trivia API</a>{" "}
-          (CC BY 4.0). The factual content belongs to those source datasets and their original contributors; the rewritten clue text is original to Clueboard.
+          (CC BY 4.0). Category themes and the declarative clue text, inspired by classic trivia TV shows, are written by Anthropic&rsquo;s Claude AI, and every clue is verified to belong to its category before going live. The factual content belongs to the source datasets and their original contributors; the category and clue wording are original to Clueboard.
         </p>
         <p className="text-white/85 mb-4">
           Clueboard is an independent project. It is not affiliated with, endorsed by, or sponsored by Sony Pictures Television or Jeopardy Productions, Inc. &ldquo;Jeopardy!&rdquo; and related marks are the property of their respective owners.
