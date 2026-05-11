@@ -54,8 +54,12 @@ const PLAN: {
   categories: string[];
   /** Daily Double location: which category and which dollar value. */
   dd: { title: string; value: number };
-  /** Topic-disallow list for the final clue (the board's topics). */
+  /** Topic-disallow list for the final clue (the board's topics).
+   *  Ignored when `finalTitle` is set. */
   finalAvoidTopics: string[];
+  /** Optional hard pin for the final clue, by source-fact title. When
+   *  set, the auto-picker is bypassed for this day. */
+  finalTitle?: string;
 }[] = [
   // Day 1 — TODAY. Reinstates the launch-state board.
   {
@@ -70,6 +74,7 @@ const PLAN: {
     ],
     dd: { title: "ANSWERS ENDING IN -ISM", value: 400 },
     finalAvoidTopics: ["SPORTS", "WORDPLAY", "POP_CULTURE", "LITERATURE", "MUSIC", "ARTS"],
+    finalTitle: "FAMOUS WATERWAYS", // → The Panama Canal
   },
   // Day 2 — uses #19 + #21 as the swap-ins for the previous #4/#6 conflicts.
   {
@@ -84,6 +89,7 @@ const PLAN: {
     ],
     dd: { title: "FAMOUS PAINTERS", value: 1000 },
     finalAvoidTopics: ["ARTS", "HISTORY", "POP_CULTURE", "SCIENCE", "SPORTS"],
+    finalTitle: "HISTORIC DECIPHERMENTS", // → The Rosetta Stone
   },
   // Day 3 — uses #23 as the swap-in for the previous #9 conflict.
   {
@@ -201,9 +207,29 @@ async function main() {
     process.exit(1);
   }
 
-  // Pick a final per day
+  // Pick a final per day. Days with an explicit `finalTitle` use that
+  // exact final (validation enforces it exists); others fall back to
+  // the topic-avoid auto-picker.
   const usedFinalIds = new Set<string>();
-  const finalsPerDay = PLAN.map((day) => pickFinal(finalsByTopic, usedFinalIds, day.finalAvoidTopics));
+  const finalsByTitle = new Map<string, Final>();
+  for (const list of finalsByTopic.values()) for (const f of list) finalsByTitle.set(f.title, f);
+
+  const finalsPerDay = PLAN.map((day) => {
+    if (day.finalTitle) {
+      const explicit = finalsByTitle.get(day.finalTitle);
+      if (!explicit) {
+        console.error(`Final title "${day.finalTitle}" (for ${day.date}) not found in data/generated/.`);
+        process.exit(1);
+      }
+      if (usedFinalIds.has(explicit.source_id)) {
+        console.error(`Final "${day.finalTitle}" assigned twice; pick a different one for ${day.date}.`);
+        process.exit(1);
+      }
+      usedFinalIds.add(explicit.source_id);
+      return explicit;
+    }
+    return pickFinal(finalsByTopic, usedFinalIds, day.finalAvoidTopics);
+  });
   console.log("\nFinals chosen:");
   for (let i = 0; i < PLAN.length; i++) {
     const f = finalsPerDay[i];
