@@ -1,0 +1,1378 @@
+{
+  "batch_id": "20260511-043929-technology",
+  "generated_at": "2026-05-11T04:39:29.882Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "TECHNOLOGY",
+  "categories": [
+    {
+      "title": "COMPUTER SCIENCE BASICS",
+      "theme": "Questions about fundamental computer science and computing concepts",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the number of distinct values a single byte can represent.",
+          "answer": "256",
+          "source_id": "otdb:rafhl1",
+          "fit_justification": "Source question is categorized 'Science: Computers' and asks 'How many values can a single byte represent?' — directly a computer science fundamentals question; answer is '256'."
+        },
+        {
+          "value": 400,
+          "clue": "In decimal notation, one gigabyte equals this many kilobytes.",
+          "answer": "1000000",
+          "source_id": "otdb:1s4nolk",
+          "fit_justification": "Source question is categorized 'Science: Computers' and asks 'How many kilobytes in one gigabyte (in decimal)?' — directly a computing units question; answer is '1000000'."
+        },
+        {
+          "value": 600,
+          "clue": "The binary number 1000000 is equal to this decimal value.",
+          "answer": "64",
+          "source_id": "tapi:622a1c3e7cc59eab6f95227a",
+          "fit_justification": "Source question asks 'What number is the binary 1000000 equal to?' — directly a binary/computing concept question; answer is '64'."
+        },
+        {
+          "value": 800,
+          "clue": "This passenger jet airliner was notable for flying faster than the speed of sound.",
+          "answer": "Concorde",
+          "source_id": "tapi:65056f8c7a97013de78b5470",
+          "fit_justification": "Source question asks 'What passenger jet airliner flew faster than the speed of sound?' — a question about an iconic technological vehicle; answer is 'Concorde'."
+        },
+        {
+          "value": 1000,
+          "clue": "Of the Landsat satellite program's launches, this specific satellite failed to reach orbit.",
+          "answer": "Landsat 6",
+          "source_id": "otdb:1slamep",
+          "fit_justification": "Source question asks 'Which Landsat Satellite failed to reach orbit?' — a question about space technology and satellite programs; answer is 'Landsat 6'."
+        }
+      ]
+    },
+    {
+      "title": "AIRCRAFT & AUTOMOBILES",
+      "theme": "Questions about notable vehicles, aircraft, and cars",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Clio is a model of car produced by this French manufacturer.",
+          "answer": "Renault",
+          "source_id": "tapi:62ab330c5202de619af2813a",
+          "fit_justification": "Source question asks 'The Clio is a model of car made by which manufacturer?' — directly about automotive technology/brands; answer is 'Renault'."
+        },
+        {
+          "value": 400,
+          "clue": "Nissan's most popular electric car goes by this single-word name.",
+          "answer": "Leaf",
+          "source_id": "otdb:gzpj0g",
+          "fit_justification": "Source question is categorized 'Vehicles' and asks 'What is the name of Nissan's most popular electric car?' — directly about electric vehicle technology; answer is 'Leaf'."
+        },
+        {
+          "value": 600,
+          "clue": "The Hughes H-4 Hercules, a heavy transport flying boat that achieved flight in 1947, was nicknamed this.",
+          "answer": "Spruce Goose",
+          "source_id": "otdb:169tgv6",
+          "fit_justification": "Source question asks about 'the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947' and its nickname — directly about an iconic aircraft; answer is 'Spruce Goose'."
+        },
+        {
+          "value": 800,
+          "clue": "The Hussarya supercar, made by manufacturer Arrinera, is assembled in this country.",
+          "answer": "Poland",
+          "source_id": "otdb:hooxk1",
+          "fit_justification": "Source question is categorized 'Vehicles' and asks about the country where the Hussarya supercar by Arrinera is assembled — directly about automotive manufacturing; answer is 'Poland'."
+        },
+        {
+          "value": 1000,
+          "clue": "In the German language, the Swiss Federal Railways are officially called by this name.",
+          "answer": "Schweizerische Bundesbahnen",
+          "source_id": "otdb:zjrbta",
+          "fit_justification": "Source question is categorized 'Geography' but asks specifically 'What is the official German name of the Swiss Federal Railways?' — directly about a rail transport/technology institution; answer is 'Schweizerische Bundesbahnen'."
+        }
+      ]
+    },
+    {
+      "title": "VIDEO GAME TECH",
+      "theme": "Technical facts about video game hardware and software systems",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This acronym describes the strategy genre of the original Warcraft games, where players manage armies in real time.",
+          "answer": "RTS (Real Time Strategy)",
+          "source_id": "otdb:1ubsryu",
+          "fit_justification": "Source question asks 'What video game genre were the original Warcraft games?' — a question about the technical classification/genre system of video games; source answer is 'RTS (Real Time Strategy)'."
+        },
+        {
+          "value": 400,
+          "clue": "The acronym 'NES' stands for this full name of Nintendo's iconic 8-bit home console.",
+          "answer": "Nintendo Entertainment System",
+          "source_id": "tapi:622a1c367cc59eab6f9500df",
+          "fit_justification": "Source question literally asks 'What does the acronym NES stand for?' and source answer is 'Nintendo Entertainment System' — a question about video game hardware nomenclature."
+        },
+        {
+          "value": 600,
+          "clue": "The Nintendo Entertainment System natively supports this many voice channels.",
+          "answer": "5",
+          "source_id": "otdb:5xubo1",
+          "fit_justification": "Source question asks 'How many voice channels does the Nintendo Entertainment System support natively?' — a technical hardware specification question; source answer is '5'."
+        },
+        {
+          "value": 800,
+          "clue": "Macintosh named its 2007 OS release after this big cat.",
+          "answer": "Leopard",
+          "source_id": "otdb:jsx4iv",
+          "fit_justification": "Source question literally asks 'What big cat did Macintosh name their 2007 release after?' — a question about operating system versioning technology; source answer is 'Leopard'."
+        },
+        {
+          "value": 1000,
+          "clue": "The 'Overwatch' closed beta began in this year.",
+          "answer": "2015",
+          "source_id": "otdb:hv5390",
+          "fit_justification": "Source question asks 'What year did the game Overwatch enter closed beta?' — a question about a video game's technical release timeline; source answer is '2015'."
+        }
+      ]
+    },
+    {
+      "title": "SCIENCE: COMPUTERS",
+      "theme": "Questions explicitly about computer science, programming, and networking",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This language, associated with the Django web framework, is named after a type of snake.",
+          "answer": "Python",
+          "source_id": "otdb:kc5skf",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'Which computer language would you associate Django framework with?' — directly about programming languages."
+        },
+        {
+          "value": 400,
+          "clue": "An IPv6 address is this many bits long.",
+          "answer": "128 bits",
+          "source_id": "otdb:tg2fe9",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'How long is an IPv6 address?' — directly about networking technology."
+        },
+        {
+          "value": 600,
+          "clue": "This American computer scientist created the C programming language.",
+          "answer": "Dennis Ritchie",
+          "source_id": "otdb:3p5x8c",
+          "fit_justification": "Source is categorized 'Science: Computers'; question states 'The C programming language was created by this American computer scientist' — directly about programming history."
+        },
+        {
+          "value": 800,
+          "clue": "Apple Inc. was founded in this year.",
+          "answer": "1976",
+          "source_id": "otdb:s8fegq",
+          "fit_justification": "Source question asks 'What year was Apple Inc. founded?' — directly about technology company history; answer is a year confirmed in source."
+        },
+        {
+          "value": 1000,
+          "clue": "This vulnerability type ranked #1 on the OWASP Top 10 list in 2013, covering SQL and command attacks.",
+          "answer": "Injection",
+          "source_id": "otdb:zu1vol",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'What vulnerability ranked #1 on the OWASP Top 10 in 2013?' — directly about cybersecurity technology."
+        }
+      ]
+    },
+    {
+      "title": "VIDEO GAME COMPANIES & CREATORS",
+      "theme": "Questions about who made, founded, or develops specific video games or gaming companies",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This company, known for Rock Band, develops the rhythm game series of the same name.",
+          "answer": "Harmonix",
+          "source_id": "otdb:1s03d53",
+          "fit_justification": "Source question asks 'What company develops the Rock Band series of rhythm games?' — directly names a video game developer company."
+        },
+        {
+          "value": 400,
+          "clue": "Apple was formed in California, but Microsoft was founded in this western U.S. state.",
+          "answer": "New Mexico",
+          "source_id": "otdb:1iudsik",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'in which western state was Microsoft founded?' — directly about a technology company's founding location."
+        },
+        {
+          "value": 600,
+          "clue": "Along with Gabe Newell, this person co-founded the video game company Valve.",
+          "answer": "Mike Harrington",
+          "source_id": "otdb:16s7qtf",
+          "fit_justification": "Source question asks 'Along with Gabe Newell, who co-founded Valve?' — directly about the founding of a major video game technology company."
+        },
+        {
+          "value": 800,
+          "clue": "This Japanese animation studio produced the mecha anime 'Gurren Lagann'.",
+          "answer": "Gainax",
+          "source_id": "otdb:11klbtq",
+          "fit_justification": "Source question asks 'What animation studio produced Gurren Lagann?' — directly names the production studio (technology/production company)."
+        },
+        {
+          "value": 1000,
+          "clue": "The Source Engine, used in games like Half-Life 2, is written in this programming language.",
+          "answer": "C++",
+          "source_id": "otdb:1dtffn4",
+          "fit_justification": "Source question asks 'What programming language does the Source Engine use?' — directly about the programming technology underlying a game engine."
+        }
+      ]
+    },
+    {
+      "title": "COMPUTER SCIENCE FACTS",
+      "theme": "Clues whose answers are specific technical computing concepts or specifications",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "HTTP, the protocol of the World Wide Web, runs on this port number.",
+          "answer": "80",
+          "source_id": "otdb:rfrzxs",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'What port does HTTP run on?' — directly a computing/networking technology fact."
+        },
+        {
+          "value": 400,
+          "clue": "An IPv6 address is this many bits in length.",
+          "answer": "128 bits",
+          "source_id": "otdb:tg2fe9",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'How long is an IPv6 address?' — a direct networking specification fact."
+        },
+        {
+          "value": 600,
+          "clue": "The C programming language was invented by this American computer scientist.",
+          "answer": "Dennis Ritchie",
+          "source_id": "otdb:3p5x8c",
+          "fit_justification": "Source categorized 'Science: Computers'; question states 'The C programming language was created by this American computer scientist.'"
+        },
+        {
+          "value": 800,
+          "clue": "This vulnerability type — covering SQL, OS command, and LDAP attacks — ranked #1 on the OWASP Top 10 in 2013.",
+          "answer": "Injection",
+          "source_id": "otdb:zu1vol",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'What vulnerability ranked #1 on the OWASP Top 10 in 2013?' — a cybersecurity technology fact."
+        },
+        {
+          "value": 1000,
+          "clue": "This standard THX subwoofer crossover frequency, measured in hertz, is also the port number HTTP runs on.",
+          "answer": "80 Hz",
+          "source_id": "otdb:ydv1sa",
+          "fit_justification": "Source is categorized 'Science: Gadgets'; question asks 'Which of the following is the standard THX subwoofer crossover frequency?' — directly a technical audio/gadget specification."
+        }
+      ]
+    },
+    {
+      "title": "SCIENCE & GADGETS",
+      "theme": "Questions about scientific instruments, devices, and technological facts",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This virtual assistant, developed by Amazon, shares its name with a famous ancient library.",
+          "answer": "Alexa",
+          "source_id": "otdb:bi0hag",
+          "fit_justification": "Source question asks 'Which virtual assistant is developed by Amazon?' — a technology product; source answer is 'Alexa'."
+        },
+        {
+          "value": 400,
+          "clue": "In the software market, these three letters stand for a product release that receives extended patches and security updates for years after launch.",
+          "answer": "Long Term Support",
+          "source_id": "otdb:helsfn",
+          "fit_justification": "Source question asks 'What does LTS stand for in the software market?' — directly a technology/software topic; source answer is 'Long Term Support'."
+        },
+        {
+          "value": 600,
+          "clue": "After returning to Apple in 1997, Steve Jobs launched this iconic two-word ad campaign encouraging creativity and individuality.",
+          "answer": "Think Different",
+          "source_id": "tapi:64746b6f5a4c31088dd9d054",
+          "fit_justification": "Source question asks 'After rejoining Apple in 1997, Steve Jobs engineered what ad campaign?' — Apple is a technology company; source answer is 'Think Different'."
+        },
+        {
+          "value": 800,
+          "clue": "Released in 1991 by Apple, this was the first operating system to beat MS-DOS to market in the question 'Which operating system was released first?'",
+          "answer": "Mac OS",
+          "source_id": "otdb:1qxzdia",
+          "fit_justification": "Source question asks 'Which operating system was released first?' — directly a technology/computers topic; source answer is 'Mac OS'."
+        },
+        {
+          "value": 1000,
+          "clue": "This tongue-twisting medical device, whose name derives from Greek words for pulse and measure, is used to measure blood pressure.",
+          "answer": "Sphygmomanometer",
+          "source_id": "otdb:1y47zoa",
+          "fit_justification": "Source is categorized 'Science: Gadgets' and asks 'Which of the following is used to measure blood pressure?' — a scientific/medical instrument; source answer is 'Sphygmomanometer'."
+        }
+      ]
+    },
+    {
+      "title": "VIDEO GAME FIRSTS",
+      "theme": "Questions about firsts, origins, and debut releases in video game history",
+      "topic": "TECHNOLOGY",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This mustachioed plumber's first appearance in the N64 tennis game 'Mario Tennis 64' introduced a beloved rival character.",
+          "answer": "Mario Tennis 64 (N64)",
+          "source_id": "otdb:vg6fc4",
+          "fit_justification": "Source question asks 'Waluigi's first appearance was in what game?' — about a video game first/debut; source answer is 'Mario Tennis 64 (N64)'."
+        },
+        {
+          "value": 400,
+          "clue": "In the original 'Super Mario Bros.', this was the first video game in the Batman 'Arkham' series, released for consoles.",
+          "answer": "Arkham Asylum",
+          "source_id": "otdb:17djmt6",
+          "fit_justification": "Source question asks 'What was the first video game in the Batman Arkham series?' — directly about a video game first; source answer is 'Arkham Asylum'."
+        },
+        {
+          "value": 600,
+          "clue": "During Pokémon's development, this armored rhino was the very first creature ever created by the design team.",
+          "answer": "Rhyhorn",
+          "source_id": "otdb:15jsfco",
+          "fit_justification": "Source question asks 'During the game's development, what was the first ever created Pokémon?' — about a video game first; source answer is 'Rhyhorn'."
+        },
+        {
+          "value": 800,
+          "clue": "This intergalactic bounty hunter holds the distinction of being the first female protagonist in a video game.",
+          "answer": "Samus Aran",
+          "source_id": "otdb:19bopq2",
+          "fit_justification": "Source question asks 'Who was the first female protagonist in a video game?' — directly about a video game first; source answer is 'Samus Aran'."
+        },
+        {
+          "value": 1000,
+          "clue": "Predating the Game Boy by over a decade, this 1976 Mattel product holds the title of the world's first handheld game device.",
+          "answer": "Mattel Auto Race",
+          "source_id": "otdb:qda4wj",
+          "fit_justification": "Source question asks 'What was the world's first handheld game device?' — about a video game technology first; source answer is 'Mattel Auto Race'."
+        }
+      ]
+    },
+    {
+      "title": "WHAT DOES IT STAND FOR?",
+      "theme": "Questions ask what an acronym or abbreviation stands for; answers are the full expanded phrase",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This three-letter system, found in nearly every smartphone, uses satellites to pinpoint your location anywhere on Earth.",
+          "answer": "Global Positioning System",
+          "source_id": "otdb:eovmxh",
+          "fit_justification": "Source question literally asks 'What does GPS stand for?' and source answer is 'Global Positioning System', making this a direct acronym-expansion fact."
+        },
+        {
+          "value": 400,
+          "clue": "In internet chat, typing these four letters signals you found something hilarious — specifically, that you're 'laughing your rear end off.'",
+          "answer": "Laughing my ass off",
+          "source_id": "tapi:6262af494b176d54800e3dbb",
+          "fit_justification": "Source question asks what 'LMAO' means in a message; source answer 'Laughing my ass off' is the expansion of the abbreviation LMAO."
+        },
+        {
+          "value": 600,
+          "clue": "On internet forums and social media, these three letters precede a fact the poster just discovered for the first time.",
+          "answer": "Today I Learned",
+          "source_id": "tapi:6262af864b176d54800e3dcd",
+          "fit_justification": "Source question asks 'what do the letters TIL mean' on internet chats; source answer 'Today I Learned' is the expansion of that abbreviation."
+        },
+        {
+          "value": 800,
+          "clue": "In the server hosting industry, this three-letter model delivers virtualized computing resources — hardware, storage, and networking — over the internet.",
+          "answer": "Infrastructure as a Service",
+          "source_id": "otdb:1r0c6ap",
+          "fit_justification": "Source question is 'In the server hosting industry IaaS stands for...' and source answer is 'Infrastructure as a Service', a direct acronym-expansion technology fact."
+        },
+        {
+          "value": 1000,
+          "clue": "In programming, this term describes functions that share a name but differ in their implementations — a key concept in object-oriented design.",
+          "answer": "Overloading",
+          "source_id": "otdb:8c5b3g",
+          "fit_justification": "Source question is explicitly about a programming concept ('In programming, what do you call functions with the same name but different implementations?'); source answer 'Overloading' is the technical computing term."
+        }
+      ]
+    },
+    {
+      "title": "INTERNET SLANG & TECH BRANDS",
+      "theme": "Questions about digital communication slang, internet culture, and technology brand slogans",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "'Connecting people' is the famous slogan of this Finnish mobile phone company that once dominated the global handset market.",
+          "answer": "Nokia",
+          "source_id": "tapi:6262883f4b176d54800e3d92",
+          "fit_justification": "Source question explicitly states ''Connecting people' is a slogan associated with which technology brand?'; source answer 'Nokia' is the named technology brand."
+        },
+        {
+          "value": 400,
+          "clue": "When someone types 'LMAO' in an online chat, they mean they're doing this — a full four-word expression of hilarity.",
+          "answer": "Laughing my ass off",
+          "source_id": "tapi:6262af494b176d54800e3dbb",
+          "fit_justification": "Source question asks what 'LMAO' means typed in a message; source answer is the internet-slang expansion used in digital communication."
+        },
+        {
+          "value": 600,
+          "clue": "On Reddit and social media, a post beginning with these three letters signals the author just discovered an interesting new fact.",
+          "answer": "Today I Learned",
+          "source_id": "tapi:6262af864b176d54800e3dcd",
+          "fit_justification": "Source question asks what the internet acronym 'TIL' means in online chats; source answer 'Today I Learned' is the digital communication term."
+        },
+        {
+          "value": 800,
+          "clue": "In the server-hosting world, this cloud-computing delivery model provides virtualized hardware and networking on demand, abbreviated IaaS.",
+          "answer": "Infrastructure as a Service",
+          "source_id": "otdb:1r0c6ap",
+          "fit_justification": "Source question frames IaaS as a server hosting industry term; source answer 'Infrastructure as a Service' is the technology industry concept."
+        },
+        {
+          "value": 1000,
+          "clue": "In object-oriented programming, this technique lets multiple functions share the same name while behaving differently based on their parameters.",
+          "answer": "Overloading",
+          "source_id": "otdb:8c5b3g",
+          "fit_justification": "Source question is explicitly a programming/computer science question about functions sharing a name with different implementations; source answer 'Overloading' is the computing term."
+        }
+      ]
+    },
+    {
+      "title": "SCIENCE: COMPUTERS",
+      "theme": "Questions sourced from Science: Computers — facts about computing, software, and digital technology",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Windows keyboard shortcut, pressing Ctrl and the third letter of the alphabet, lets you duplicate selected text or files instantly.",
+          "answer": "Ctrl + C",
+          "source_id": "otdb:1nnl0p7",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'What is the commonly used keyboard shortcut for the Copy function on Windows OS?'"
+        },
+        {
+          "value": 400,
+          "clue": "If you only used two symbols — 0 and 1 — to write your code, you'd be programming in this foundational language.",
+          "answer": "Binary",
+          "source_id": "otdb:1uej44r",
+          "fit_justification": "Source is categorized 'Science: Computers'; question states 'If you were to code software in this language you'd only be able to type 0's and 1's.'"
+        },
+        {
+          "value": 600,
+          "clue": "Intel's line of integrated graphics that succeeded the 5000 and 6000 Broadwell series carries this name.",
+          "answer": "HD Graphics 500",
+          "source_id": "otdb:1mwb0ao",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks about 'the Intel HD graphics generation succeeding that of the 5000 and 6000 series (Broadwell).'"
+        },
+        {
+          "value": 800,
+          "clue": "This British company released the Electron home computer in 1983.",
+          "answer": "Acorn Computers",
+          "source_id": "otdb:e2mr9h",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'The Electron computer was released in Britain during 1983 for the home computing market, by which company?'"
+        },
+        {
+          "value": 1000,
+          "clue": "In the 1980s, a service called Gameline let users download games over a phone line directly to this Atari console.",
+          "answer": "Atari 2600",
+          "source_id": "otdb:ckitel",
+          "fit_justification": "Source is categorized 'Entertainment: Video Games' but question explicitly references 'a service called Gameline allowed users to download games' — an early digital distribution technology fact; answer is 'Atari 2600', a specific hardware platform."
+        }
+      ]
+    },
+    {
+      "title": "SCIENCE: COMPUTERS",
+      "theme": "Questions drawn from the Science: Computers category covering hardware, software, and computing concepts",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This essential piece of computer hardware provides an interface for all other connected devices to communicate with one another.",
+          "answer": "Motherboard",
+          "source_id": "otdb:h2qnwf",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'Which computer hardware device provides an interface for all other connected devices to communicate?'"
+        },
+        {
+          "value": 400,
+          "clue": "A standard Windows keyboard has this many keys.",
+          "answer": "104",
+          "source_id": "otdb:4h46jh",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'What is the number of keys on a standard Windows Keyboard?'"
+        },
+        {
+          "value": 600,
+          "clue": "This was Bitcoin's block size limit in the year 2010.",
+          "answer": "1 MB",
+          "source_id": "otdb:vxfp4a",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'What was Bitcoin's block size limit in 2010?'"
+        },
+        {
+          "value": 800,
+          "clue": "The popular Vocaloid software featuring the virtual singer Hatsune Miku was first released in this year.",
+          "answer": "2007",
+          "source_id": "otdb:1yelykc",
+          "fit_justification": "Source question asks 'What year did the popular Vocaloid: Hatsune Miku come out?'; Vocaloid is a voice synthesis software technology product."
+        },
+        {
+          "value": 1000,
+          "clue": "According to DeMorgan's Theorem, the Boolean expression (AB)' is equivalent to this.",
+          "answer": "A' + B'",
+          "source_id": "otdb:1ywqs1u",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'According to DeMorgan's Theorem, the Boolean expression (AB)' is equivalent to:'"
+        }
+      ]
+    },
+    {
+      "title": "ENGINES BY CUBIC INCHES",
+      "theme": "Clues about specific engine displacements measured in cubic inches — answer is the cubic-inch figure",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The LS3 engine displaces this many cubic inches.",
+          "answer": "376",
+          "source_id": "otdb:2dnuai",
+          "fit_justification": "Source question literally asks 'The LS3 engine is how many cubic inches?' — answer is an engine displacement figure in cubic inches."
+        },
+        {
+          "value": 400,
+          "clue": "The LS1 engine displaces this many cubic inches.",
+          "answer": "346",
+          "source_id": "otdb:f6x9tn",
+          "fit_justification": "Source question literally asks 'The LS1 engine is how many cubic inches?' — answer is an engine displacement figure in cubic inches."
+        },
+        {
+          "value": 600,
+          "clue": "The LS7 engine displaces this many cubic inches — a number also shared by a famous Ford V8.",
+          "answer": "427",
+          "source_id": "otdb:861xx9",
+          "fit_justification": "Source question literally asks 'The LS7 engine is how many cubic inches?' — answer is an engine displacement figure in cubic inches."
+        },
+        {
+          "value": 800,
+          "clue": "The four interlocking rings in Audi's logo each represent one of these.",
+          "answer": "Previously independent automobile manufacturers",
+          "source_id": "otdb:7t7q4f",
+          "fit_justification": "Source question asks 'What do the 4 Rings in Audi's Logo represent?' — directly about automobile manufacturer branding/engineering heritage, categorized 'Vehicles'."
+        },
+        {
+          "value": 1000,
+          "clue": "In 1965, the French government gifted Yuri Gagarin a sports car of this model.",
+          "answer": "Matra Djet",
+          "source_id": "otdb:11upf1l",
+          "fit_justification": "Source is categorized 'Vehicles'; question asks 'What model was the sports car gifted to Yuri Gagarin by the French government in 1965?' — answer is a specific vehicle model."
+        }
+      ]
+    },
+    {
+      "title": "VIDEO GAME TECH & SPECS",
+      "theme": "Technical details and specifications about video game hardware and software",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The main antagonist of the Portal franchise, this AI is also the name of the facility's central computer.",
+          "answer": "GLaDOS",
+          "source_id": "otdb:rv4nnf",
+          "fit_justification": "Source question asks 'Who is the main antagonist in the Portal franchise?' — GLaDOS is a fictional AI computer system, directly a technology-themed video game character."
+        },
+        {
+          "value": 400,
+          "clue": "Street Fighter II: Champion Edition featured this many playable characters.",
+          "answer": "12",
+          "source_id": "otdb:1lzzv4l",
+          "fit_justification": "Source question asks 'How many playable characters were there in Street Fighter II: Champion Edition?' — a technical specification of the game."
+        },
+        {
+          "value": 600,
+          "clue": "In the Assassin's Creed series, Desmond Miles was given this designation by Abstergo Industries.",
+          "answer": "Subject 17",
+          "source_id": "otdb:1ls69cs",
+          "fit_justification": "Source question asks 'In the Assassin's Creed series, what was the name of Desmond Miles given by Abstergo?' — Abstergo is a fictional technology corporation; the designation is a technical identifier."
+        },
+        {
+          "value": 800,
+          "clue": "The Super Nintendo Entertainment System supports this many voice channels in its audio hardware.",
+          "answer": "8",
+          "source_id": "otdb:1sqbpmx",
+          "fit_justification": "Source question literally asks 'How many voice channels does the Super Nintendo Entertainment System support?' — a direct hardware specification."
+        },
+        {
+          "value": 1000,
+          "clue": "This toy robot, a commercially available humanoid from WowWee, was released to the public in 2004.",
+          "answer": "RoboSapien",
+          "source_id": "otdb:r42rpe",
+          "fit_justification": "Source question asks 'What year was the RoboSapien toy robot released?' — RoboSapien is a consumer robotics technology product; the source answer is 2004 and the clue asks for the robot's name."
+        }
+      ]
+    },
+    {
+      "title": "FIRST TEST TUBE BABY & SPACE FIRSTS",
+      "theme": "Science and technology milestones — questions about historic 'firsts' in science and technology",
+      "topic": "TECHNOLOGY",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This celestial object was the first for humankind to set foot on.",
+          "answer": "The Moon",
+          "source_id": "tapi:6462628cab138b829b81ea35",
+          "fit_justification": "Source question asks 'What celestial object was the first for humankind to set foot on?' — a technology/space exploration first; source answer is 'The Moon'."
+        },
+        {
+          "value": 400,
+          "clue": "Louise Brown is famous for being this — a landmark achievement in reproductive medicine.",
+          "answer": "First Test Tube Baby",
+          "source_id": "tapi:622a1c397cc59eab6f950f9e",
+          "fit_justification": "Source question asks 'Why Is Louise Brown Famous?' with source answer 'First Test Tube Baby' — a direct science and technology medical milestone."
+        },
+        {
+          "value": 600,
+          "clue": "This cosmonaut was the first man to travel into outer space.",
+          "answer": "Yuri Gagarin",
+          "source_id": "otdb:w7tc0i",
+          "fit_justification": "Source question asks 'Who was the first man to travel into outer space?' — a landmark space technology milestone; source answer is 'Yuri Gagarin'."
+        },
+        {
+          "value": 800,
+          "clue": "Netflix, the streaming and DVD-by-mail service, was founded in this year.",
+          "answer": "1997",
+          "source_id": "otdb:kla3yr",
+          "fit_justification": "Source question asks 'What year was Netflix founded?' — Netflix is a technology/streaming platform; its founding is a technology industry milestone; source answer is '1997'."
+        },
+        {
+          "value": 1000,
+          "clue": "This country became the first to successfully farm-hatch and raise bluefin tuna in 1979, a breakthrough in aquaculture technology.",
+          "answer": "Japan",
+          "source_id": "otdb:1wgc6f9",
+          "fit_justification": "Source question asks 'Which country first successfully farm-hatched and raised bluefin tuna in 1979?' — a scientific and agricultural technology first; source answer is 'Japan'."
+        }
+      ]
+    },
+    {
+      "title": "INVENTED BY WHOM?",
+      "theme": "Questions about who invented or created a specific technology or device",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This American inventor is credited with creating the telephone in 1876.",
+          "answer": "Alexander Graham Bell",
+          "source_id": "tapi:622a1c3a7cc59eab6f950fce",
+          "fit_justification": "Source question literally asks 'Who Invented The Telephone?' — a direct invention/technology attribution question."
+        },
+        {
+          "value": 400,
+          "clue": "This drink, first marketed in 1886 as the 'Esteemed Brain Tonic and Intellectual Beverage', was the invention that launched a global empire.",
+          "answer": "Coca Cola",
+          "source_id": "tapi:622a1c367cc59eab6f950254",
+          "fit_justification": "Source question asks which drink 'invented in 1886' was first marketed as a tonic — invention framing with a specific year and product."
+        },
+        {
+          "value": 600,
+          "clue": "This Hungarian-Argentine inventor lent his name to the ubiquitous ink pen that replaced the fountain pen for everyday writing.",
+          "answer": "Laslo Biro",
+          "source_id": "tapi:622a1c397cc59eab6f950fc0",
+          "fit_justification": "Source question asks 'Who invented the ballpoint pen?' — direct invention question about a writing technology."
+        },
+        {
+          "value": 800,
+          "clue": "This mobile operating system held the largest market share in 2012, according to a Science: Computers question.",
+          "answer": "iOS",
+          "source_id": "otdb:khzztd",
+          "fit_justification": "Source is categorized as 'Science: Computers' and asks about a mobile OS — a direct technology/computing question about market dominance of a tech product."
+        },
+        {
+          "value": 1000,
+          "clue": "This simple machine, made of a stiff arm that pivots around a fixed point, is one of the six classical machines identified by Renaissance scientists.",
+          "answer": "Lever",
+          "source_id": "otdb:10m826l",
+          "fit_justification": "Source is categorized 'Science: Gadgets' and asks 'What is the name of a simple machine that is made up of a stiff arm that can move freely around a fixed point?' — directly describes a mechanical/technology device."
+        }
+      ]
+    },
+    {
+      "title": "INTERNET & COMPUTING",
+      "theme": "Questions about internet culture, computing, and digital technology",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This three-letter internet abbreviation tells chat partners you've stepped away from your keyboard.",
+          "answer": "Away From Keyboard",
+          "source_id": "tapi:6262afb24b176d54800e3dd8",
+          "fit_justification": "Source question literally asks 'What do the letters AFK mean on internet chats?' — direct internet/computing terminology question."
+        },
+        {
+          "value": 400,
+          "clue": "This tech giant's slogan, 'Solutions for a smart planet', belongs to a company whose name is also a common abbreviation.",
+          "answer": "IBM",
+          "source_id": "tapi:626288164b176d54800e3d87",
+          "fit_justification": "Source question asks about 'Solutions for a smart planet' as a slogan 'associated with which technology brand' — explicitly labels the subject as a technology brand."
+        },
+        {
+          "value": 600,
+          "clue": "This mobile OS, developed by Apple, held the largest global smartphone market share in 2012.",
+          "answer": "iOS",
+          "source_id": "otdb:khzztd",
+          "fit_justification": "Source is categorized 'Science: Computers' and asks which mobile OS held the largest market share in 2012 — direct computing/technology question."
+        },
+        {
+          "value": 800,
+          "clue": "In the video game 'Steins; Gate', the 'D' in 'D-Mail' is short for the name of this iconic fictional time machine.",
+          "answer": "DeLorean",
+          "source_id": "otdb:kaq8j7",
+          "fit_justification": "Source question asks what 'D' in 'D-Mail' from the game 'Steins; Gate' stands for — references a technology-themed term (time machine named DeLorean) within a computing/digital game context."
+        },
+        {
+          "value": 1000,
+          "clue": "The author of the thriller 'Digital Fortress', a novel centered on the NSA and encryption technology, also wrote 'The Da Vinci Code'.",
+          "answer": "Dan Brown",
+          "source_id": "tapi:622a1c397cc59eab6f950e12",
+          "fit_justification": "Source question asks 'Which author wrote Digital Fortress?' — 'Digital Fortress' is explicitly a technology-themed title (digital encryption), making the connection to technology literal in the source text."
+        }
+      ]
+    },
+    {
+      "title": "VIDEO GAME FIRSTS & YEARS",
+      "theme": "Questions about the year a video game or game-related item was first released",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The classic survival horror game 'Fallout' was released in this year, the same year Hong Kong was handed back to China.",
+          "answer": "1997",
+          "source_id": "otdb:19vk1f8",
+          "fit_justification": "Source question asks 'In what year was the game Fallout released?' — direct year-of-release question for a video game; answer '1997' is a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "The pen-and-paper RPG 'Deadlands' was first published in this year, the same one that saw Atlanta host the Summer Olympics.",
+          "answer": "1996",
+          "source_id": "otdb:1jygdp2",
+          "fit_justification": "Source question asks 'In which year was the pen and paper RPG Deadlands released?' — direct year-of-release question; answer '1996' is a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "The first version of the building-block game 'Blockland' was released in this year, when Facebook was also just getting started.",
+          "answer": "2004",
+          "source_id": "otdb:1rpq09b",
+          "fit_justification": "Source question asks 'The first version of Blockland came out in which year?' — direct year-of-first-release question for a video game; answer '2004' is a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "This portable Nintendo console, the first in its color line, was released before the Game Boy Advance — but which one was it?",
+          "answer": "Game Boy Color",
+          "source_id": "otdb:1fd4p97",
+          "fit_justification": "Source question asks 'Which Game Boy from the Game Boy series of portable video game consoles was released first?' — direct question about the first-released item in a technology/gaming product line."
+        },
+        {
+          "value": 1000,
+          "clue": "JoJo's Bizarre Adventure: Phantom Blood first appeared in manga form in this year, during the mid-80s era of Japanese pop culture.",
+          "answer": "1987",
+          "source_id": "otdb:17gql7s",
+          "fit_justification": "Source question asks 'What year was JoJo's Bizarre Adventure: Phantom Blood first released?' — direct year-of-first-release question; answer '1987' is a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "SCIENCE & GADGETS",
+      "theme": "Questions about scientific instruments, gadgets, and technical processes",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This kidney-replacement medical process filters waste from the blood when the organs themselves can no longer do the job.",
+          "answer": "Dialysis",
+          "source_id": "tapi:647f9de83a4302a71927164e",
+          "fit_justification": "Source question asks 'What process is used when kidneys are not working properly?' — describes a specific medical/technological process."
+        },
+        {
+          "value": 400,
+          "clue": "To the nearest minute, sunlight takes this long to travel the 93 million miles from the Sun to Earth.",
+          "answer": "8 Minutes",
+          "source_id": "otdb:1sms95d",
+          "fit_justification": "Source question asks 'To the nearest minute, how long does it take for light to travel from the Sun to the Earth?' — a science/physics measurement question involving a quantitative technical answer."
+        },
+        {
+          "value": 600,
+          "clue": "This NASA spacecraft, launched in 1964, was the first to return close-up images of Mars — but it never touched the Moon.",
+          "answer": "Mariner 4",
+          "source_id": "otdb:13yacaa",
+          "fit_justification": "Source question asks 'Which of the following spacecraft never touched the moon?' with answer 'Mariner 4' — directly about spacecraft technology."
+        },
+        {
+          "value": 800,
+          "clue": "Human body cells typically contain this many copies of each gene, arranged in pairs of chromosomes.",
+          "answer": "2",
+          "source_id": "otdb:1t81vn0",
+          "fit_justification": "Source is categorized 'Science & Nature' and asks 'Human cells typically have how many copies of each gene?' — a direct science/biology question about biological mechanism."
+        },
+        {
+          "value": 1000,
+          "clue": "One femtometre contains this many zeptometres — a figure expressed as 1 followed by six zeros.",
+          "answer": "1,000,000",
+          "source_id": "otdb:ailkxs",
+          "fit_justification": "Source is categorized 'Science: Mathematics' and asks 'How many zeptometres are inside one femtometre?' — a direct scientific/mathematical measurement question about units of scale used in physics and technology."
+        }
+      ]
+    },
+    {
+      "title": "VIDEO GAME FACTS",
+      "theme": "Questions explicitly about specific video games or the video game industry",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In the 'Sonic the Hedgehog' universe, this is the total number of Chaos Emeralds.",
+          "answer": "7",
+          "source_id": "otdb:5hx7og",
+          "fit_justification": "Source question is explicitly about the 'Sonic the Hedgehog' video game universe; source answer is '7'."
+        },
+        {
+          "value": 400,
+          "clue": "In 'Overwatch', this is the name of the company that manufactured D.Va's mech.",
+          "answer": "MEKA",
+          "source_id": "otdb:662ni7",
+          "fit_justification": "Source question is explicitly about the video game 'Overwatch' and asks for the name of D.Va's mech company; source answer is 'MEKA'."
+        },
+        {
+          "value": 600,
+          "clue": "In video game slang, the acronym 'NPC' expands to these three words.",
+          "answer": "Non-player character",
+          "source_id": "tapi:64b6436f7282fc9eadbafdad",
+          "fit_justification": "Source question is about 'video game slang' and asks what 'NPC' stands for; source answer is 'Non-player character'."
+        },
+        {
+          "value": 800,
+          "clue": "In 'Metal Gear Solid', Revolver Ocelot declared this specific firearm the greatest handgun ever made.",
+          "answer": "Colt Single Action Army",
+          "source_id": "otdb:t07d6k",
+          "fit_justification": "Source question is explicitly about the video game 'Metal Gear Solid' and Revolver Ocelot's favorite handgun; source answer is 'Colt Single Action Army'."
+        },
+        {
+          "value": 1000,
+          "clue": "The game engine that powered the 2014 first-person shooter 'Titanfall'.",
+          "answer": "Source Engine",
+          "source_id": "otdb:nbcot4",
+          "fit_justification": "Source question asks in what engine 'Titanfall' was made; source answer is 'Source Engine'."
+        }
+      ]
+    },
+    {
+      "title": "COMPUTING BASICS",
+      "theme": "Questions about computers, programming, and digital technology",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This tech giant, maker of Windows, also owns the email platform Outlook.",
+          "answer": "Microsoft",
+          "source_id": "otdb:18ete2b",
+          "fit_justification": "Source question asks 'What company owns Outlook?' and is categorized 'General Knowledge'; source answer is 'Microsoft', a computing company. Source question text references the computing product Outlook directly."
+        },
+        {
+          "value": 400,
+          "clue": "This programming language is what the server-side runtime environment Node.js uses.",
+          "answer": "JavaScript",
+          "source_id": "otdb:754nt0",
+          "fit_justification": "Source question is categorized 'Science: Computers' and asks what language Node.js uses; source answer is 'JavaScript'."
+        },
+        {
+          "value": 600,
+          "clue": "According to the International System of Units, this is the number of bytes in a kilobyte of RAM.",
+          "answer": "1000",
+          "source_id": "otdb:4wu5rg",
+          "fit_justification": "Source question is categorized 'Science: Computers' and asks how many bytes are in a kilobyte of RAM; source answer is '1000'."
+        },
+        {
+          "value": 800,
+          "clue": "Laserjet and inkjet printers are both examples of this broad category of printer.",
+          "answer": "Non-impact printer",
+          "source_id": "otdb:sru99v",
+          "fit_justification": "Source question is categorized 'Science: Computers' and asks what type of printer laserjet and inkjet are; source answer is 'Non-impact printer'."
+        },
+        {
+          "value": 1000,
+          "clue": "In the hexadecimal system, the decimal number 31 is represented by this two-character value.",
+          "answer": "1F",
+          "source_id": "otdb:a5pn2q",
+          "fit_justification": "Source question is categorized 'Science: Mathematics' and asks what the decimal number 31 is in hexadecimal; source answer is '1F', a computing numeral system directly relevant to digital technology."
+        }
+      ]
+    },
+    {
+      "title": "SCIENCE: COMPUTERS",
+      "theme": "Questions drawn from computer science and computing technology",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the most preferred image format used for logos in the Wikimedia database.",
+          "answer": ".svg",
+          "source_id": "otdb:mkoc4g",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks about image format used in Wikimedia database."
+        },
+        {
+          "value": 400,
+          "clue": "In an MP3 file, these two letters stand for 'Moving Picture.'",
+          "answer": "MP",
+          "source_id": "otdb:9gl0qb",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks what 'MP' stands for in MP3."
+        },
+        {
+          "value": 600,
+          "clue": "The region of Turkey uses this two-letter suffix at the end of its web addresses.",
+          "answer": ".tr",
+          "source_id": "tapi:623735f9cfe13103f55eb58b",
+          "fit_justification": "Source question asks 'Which region of the world uses .tr at the end of its web addresses?' — directly about internet domain technology."
+        },
+        {
+          "value": 800,
+          "clue": "In 1984, this company advertised their new computer during the Super Bowl in a commercial they never re-used.",
+          "answer": "Apple",
+          "source_id": "tapi:622a1c3c7cc59eab6f9517ef",
+          "fit_justification": "Source question explicitly references advertising 'their new computer' in 1984 — a landmark moment in personal computing technology."
+        },
+        {
+          "value": 1000,
+          "clue": "A single-precision floating point number's significand portion is made up of this many bits.",
+          "answer": "23",
+          "source_id": "otdb:1555zop",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks about bits in the significand of a single precision floating point number."
+        }
+      ]
+    },
+    {
+      "title": "DIGITAL FIRSTS & GADGETS",
+      "theme": "Questions about the history and facts of digital technology and gadgets",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Japanese digital pet toy was released to the world in 1996.",
+          "answer": "Tamagotchi",
+          "source_id": "otdb:1uxifq0",
+          "fit_justification": "Source is categorized 'Science: Gadgets'; question asks when the Tamagotchi digital pet was released, answer is the device name by context of question about a digital gadget."
+        },
+        {
+          "value": 400,
+          "clue": "On most video game controllers, the 'D' in D-pad stands for this word.",
+          "answer": "Directional",
+          "source_id": "otdb:zqkddy",
+          "fit_justification": "Source question asks 'What does the D stand for in D-pad, found on most video game controllers?' — directly about a technology hardware term."
+        },
+        {
+          "value": 600,
+          "clue": "This company developed the vocaloid software character Hatsune Miku.",
+          "answer": "Crypton Future Media",
+          "source_id": "otdb:1ljz31d",
+          "fit_justification": "Source question asks 'What company developed the vocaloid Hatsune Miku?' — vocaloid is a voice synthesizer technology product."
+        },
+        {
+          "value": 800,
+          "clue": "This was the very first message ever sent via Morse code.",
+          "answer": "What Hath God Wrought?",
+          "source_id": "tapi:6396ed6f6017b1e8e09020d0",
+          "fit_justification": "Source question asks 'What was the first ever message sent via morse code?' — Morse code is a foundational telecommunications technology."
+        },
+        {
+          "value": 1000,
+          "clue": "This algorithm name sounds plausible but is NOT an actual computer science algorithm — unlike merge sort or bubble sort.",
+          "answer": "Float Sort",
+          "source_id": "otdb:syqzs2",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks which of the listed options 'is NOT a computer science algorithm'; answer is 'Float Sort'."
+        }
+      ]
+    },
+    {
+      "title": "VIDEO GAME BASICS",
+      "theme": "Questions about basic facts in well-known video games",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the number of differently shaped pieces in the classic block-stacking puzzle game Tetris.",
+          "answer": "7",
+          "source_id": "otdb:1rsq24d",
+          "fit_justification": "Source question literally asks 'How many differently shaped Tetris pieces are there?' — a basic video game fact. Source answer is '7'."
+        },
+        {
+          "value": 400,
+          "clue": "In 'Undertale', this is the number of main endings a player can reach.",
+          "answer": "3",
+          "source_id": "otdb:j9ku7i",
+          "fit_justification": "Source question literally asks 'In \"Undertale\", how many main endings are there?' — a basic video game fact. Source answer is '3'."
+        },
+        {
+          "value": 600,
+          "clue": "In 'Path of Exile', this is the highest number of sockets that any single item can have.",
+          "answer": "6",
+          "source_id": "otdb:1olk03w",
+          "fit_justification": "Source question literally asks 'In the ARPG \"Path of Exile,\" what is the highest amount of sockets that an item can have?' — a basic video game fact. Source answer is '6'."
+        },
+        {
+          "value": 800,
+          "clue": "In Grand Theft Auto V, this is the wanted level a player receives upon entering the Zancudo Army Base north of Los Santos.",
+          "answer": "4",
+          "source_id": "otdb:cx0vj1",
+          "fit_justification": "Source question literally asks about the wanted level received entering Zancudo Army Base in GTA V — a basic video game fact. Source answer is '4'."
+        },
+        {
+          "value": 1000,
+          "clue": "Of all the Master levels in 'Super Monkey Ball', this one is the only level also used in the arcade version simply called 'Monkey Ball'.",
+          "answer": "MASTER 9 - Bridge Master",
+          "source_id": "otdb:1o4sk78",
+          "fit_justification": "Source question literally asks 'Which of the Master levels in \"Super Monkey Ball\" is also used in the arcade version of the game, simply named \"Monkey Ball\"?' — a specific video game fact. Source answer is 'MASTER 9 - Bridge Master'."
+        }
+      ]
+    },
+    {
+      "title": "VIDEO GAME FIRSTS & CREATORS",
+      "theme": "Questions about who made, founded, or first released notable video games and gaming entities",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Gabe Newell is the co-founder of the company that created this digital gaming platform and the Half-Life series.",
+          "answer": "Valve",
+          "source_id": "otdb:10qorhy",
+          "fit_justification": "Source question asks 'Who created the digital distribution platform Steam?' with answer 'Valve' — about the founding company behind a major gaming technology platform."
+        },
+        {
+          "value": 400,
+          "clue": "This Nintendo Wii entry in the beloved life-simulation franchise let players visit a city for the first time.",
+          "answer": "Animal Crossing: City Folk",
+          "source_id": "otdb:186vr63",
+          "fit_justification": "Source question asks 'Which Animal Crossing game was for the Nintendo Wii?' — about a specific video game release on a specific platform. Source answer is 'Animal Crossing: City Folk'."
+        },
+        {
+          "value": 600,
+          "clue": "According to Toby Fox, he created the initial tune for Megalovania by doing this with a microphone.",
+          "answer": "Singing into a Microphone",
+          "source_id": "otdb:1uirmx",
+          "fit_justification": "Source question asks 'According to Toby Fox, what was the method to creating the initial tune for Megalovania?' — about the creation process of a famous video game piece. Source answer is 'Singing into a Microphone'."
+        },
+        {
+          "value": 800,
+          "clue": "'Metal Gear Solid' was released in North America in this year.",
+          "answer": "1998",
+          "source_id": "otdb:cri468",
+          "fit_justification": "Source question asks 'In what year was \"Metal Gear Solid\" released in North America?' — about a video game release date. Source answer is '1998'."
+        },
+        {
+          "value": 1000,
+          "clue": "In the 'Tom Clancy's Rainbow Six Siege' Invitational in February 2017, this team won the PC category.",
+          "answer": "Continuum",
+          "source_id": "otdb:1oajwe1",
+          "fit_justification": "Source question asks 'Which team won the \"Tom Clancy's Rainbow Six Siege\" Invitational Event February 2017 in the PC Category?' — about a competitive video gaming event. Source answer is 'Continuum'."
+        }
+      ]
+    },
+    {
+      "title": "COMPUTER SCIENCE",
+      "theme": "Questions about programming languages, computer systems, and computing concepts",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This company is the maker of Macintosh computers.",
+          "answer": "Apple",
+          "source_id": "tapi:622a1c397cc59eab6f950fb3",
+          "fit_justification": "Source question asks 'Who Make Macintosh Computers?' — directly about computer hardware manufacturing. Source answer is 'Apple'."
+        },
+        {
+          "value": 400,
+          "clue": "This is how many bits are found in a single byte.",
+          "answer": "8",
+          "source_id": "tapi:622a1c3a7cc59eab6f9510c9",
+          "fit_justification": "Source question asks 'How Many Bits In A Byte' — a fundamental computing/technology fact. Source answer is '8'."
+        },
+        {
+          "value": 600,
+          "clue": "The programming language 'Swift' was created by Apple to replace this older language.",
+          "answer": "Objective-C",
+          "source_id": "otdb:1ybnz0d",
+          "fit_justification": "Source question states 'The programming language Swift was created to replace what other programming language?' — directly about programming languages. Source answer is 'Objective-C'."
+        },
+        {
+          "value": 800,
+          "clue": "This programming language, named after a hot beverage, was used to create the game Minecraft.",
+          "answer": "Java",
+          "source_id": "otdb:12txmjg",
+          "fit_justification": "Source question asks 'What programming language was used to create the game Minecraft?' — about programming language use in software. Source answer is 'Java'."
+        },
+        {
+          "value": 1000,
+          "clue": "The popular code-hosting platform GitHub was written in this programming language.",
+          "answer": "Ruby",
+          "source_id": "otdb:rn24ez",
+          "fit_justification": "Source question asks 'What programming language was GitHub written in?' — directly about the technology behind a major software platform. Source answer is 'Ruby'."
+        }
+      ]
+    },
+    {
+      "title": "VIDEO GAME FIRSTS & ORIGINS",
+      "theme": "Questions about the origins, firsts, or creation of video games and gaming series",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This 1993 violent fighting game's controversy directly preceded the creation of the ESRB ratings board.",
+          "answer": "Mortal Kombat",
+          "source_id": "otdb:1h0bfgs",
+          "fit_justification": "Source question states 'The most graphically violent game to precede the creation of the ESRB (Entertainment Software Rating Board) was...' — directly references the origin of a major gaming regulatory body. Source answer is 'Mortal Kombat'."
+        },
+        {
+          "value": 400,
+          "clue": "This Kirby title, released for the NES, was the first game in the series to introduce Copy Abilities.",
+          "answer": "Kirby's Adventure",
+          "source_id": "otdb:ofw761",
+          "fit_justification": "Source question asks 'Which Kirby game first introduced Copy Abilities?' — directly about a gaming first. Source answer is 'Kirby's Adventure'."
+        },
+        {
+          "value": 600,
+          "clue": "This game in the Legend of Zelda series was the first to be rendered in 3D.",
+          "answer": "Ocarina of Time",
+          "source_id": "otdb:q5asza",
+          "fit_justification": "Source question asks 'In the game series The Legend of Zelda, what was the first 3D game?' — directly about a gaming first. Source answer is 'Ocarina of Time'."
+        },
+        {
+          "value": 800,
+          "clue": "This retro arcade game, released before Pac-Man and Donkey Kong, is identified as the earliest among a set of classic titles.",
+          "answer": "Space Invaders",
+          "source_id": "otdb:1jfbpng",
+          "fit_justification": "Source question asks 'Which retro video game was released first?' — directly about which game came first chronologically. Source answer is 'Space Invaders'."
+        },
+        {
+          "value": 1000,
+          "clue": "This man created the Final Fantasy series, now developed by Square Enix.",
+          "answer": "Hironobu Sakaguchi",
+          "source_id": "otdb:13h1vsc",
+          "fit_justification": "Source question asks 'Who created the Final Fantasy series developed by Square Enix?' — directly about the origin/creator of a major gaming franchise. Source answer is 'Hironobu Sakaguchi'."
+        }
+      ]
+    },
+    {
+      "title": "VIDEO GAME FIRSTS & ORIGINS",
+      "theme": "Questions about the origin, first appearance, or creation of a video game or game character",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This company, founded on April 1st, 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne, gave the world its first personal computers.",
+          "answer": "Apple",
+          "source_id": "otdb:1xb3nm",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks which company was 'established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne' — directly about the founding/origin of a technology company."
+        },
+        {
+          "value": 400,
+          "clue": "The beloved Italian plumber Mario made his very first appearance in this arcade classic.",
+          "answer": "Donkey Kong",
+          "source_id": "otdb:1k6yh7s",
+          "fit_justification": "Source question literally asks 'In which game did the character \"Mario\" make his first appearance?' — directly about a video game character's origin/first appearance."
+        },
+        {
+          "value": 600,
+          "clue": "This Sonic the Hedgehog game was originally supposed to be packaged with Sonic 3, but was cut in half due to time constraints.",
+          "answer": "Sonic & Knuckles",
+          "source_id": "otdb:1gp5np6",
+          "fit_justification": "Source question explicitly asks which Sonic game 'was originally supposed to be packaged with Sonic 3, but was cut in half due to time constraints' — about a video game's origins and development history."
+        },
+        {
+          "value": 800,
+          "clue": "The top-down online RPG 'Space Station 13' was first released in this year.",
+          "answer": "2003",
+          "source_id": "otdb:1pa4274",
+          "fit_justification": "Source question asks 'When was the top-down online RPG \"Space Station 13\" released?' — directly about the release/origin date of a video game."
+        },
+        {
+          "value": 1000,
+          "clue": "NovodeX is the original author of this realtime physics engine now widely used in video games.",
+          "answer": "PhysX",
+          "source_id": "otdb:1ovneob",
+          "fit_justification": "Source is categorized 'Science: Computers'; question asks 'Who is the original author of the realtime physics engine called PhysX?' — directly about the origin of a computing/gaming technology engine."
+        }
+      ]
+    },
+    {
+      "title": "VIDEO GAME ENGINES & MECHANICS",
+      "theme": "Questions about specific mechanics, features, or technical elements within video games",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "M.U.G.E.N. is the name of a game engine specifically designed to power this type of game.",
+          "answer": "Fighting Game",
+          "source_id": "otdb:dmhqf6",
+          "fit_justification": "Source is categorized 'Entertainment: Video Games'; question asks 'M.U.G.E.N. is the name for what type of Game Engine?' — directly about a video game engine type."
+        },
+        {
+          "value": 400,
+          "clue": "In the game 'Overwatch,' this was the year the game was first publicly revealed.",
+          "answer": "2014",
+          "source_id": "otdb:1ikcbi1",
+          "fit_justification": "Source question asks 'What year was the game \"Overwatch\" revealed?' — directly about when a video game technology product was unveiled."
+        },
+        {
+          "value": 600,
+          "clue": "In the underwater survival game 'Subnautica,' this feature was removed due to performance issues in 2016.",
+          "answer": "Terraforming",
+          "source_id": "otdb:vftu4s",
+          "fit_justification": "Source question asks 'In the game \"Subnautica\", which feature was removed due to performance issues in 2016?' — directly about a technical game mechanic/feature and its removal for performance reasons."
+        },
+        {
+          "value": 800,
+          "clue": "In this entry of the Dance Dance Revolution series, the Extra Stage mechanic was introduced for the first time.",
+          "answer": "DDR",
+          "source_id": "otdb:1o41n4j",
+          "fit_justification": "Source question asks 'Which game in the Dance Dance Revolution series introduced the Extra Stage?' — directly about the introduction of a game mechanic in a specific video game series."
+        },
+        {
+          "value": 1000,
+          "clue": "In the 'Call of Duty' franchise, the sinister 'Apothicons' were introduced in the Zombies mode of this specific installment.",
+          "answer": "Call Of Duty: Black Ops III",
+          "source_id": "otdb:h475x6",
+          "fit_justification": "Source question asks 'In which \"Call of Duty\" game are the \"Apothicons\" introduced in the Zombies mode?' — directly about a specific feature/element introduced in a video game."
+        }
+      ]
+    },
+    {
+      "title": "COMPUTING TERMS",
+      "theme": "Questions whose source text is explicitly about computing, programming, or digital technology",
+      "topic": "TECHNOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This programming language shares its name with an Indonesian island.",
+          "answer": "Java",
+          "source_id": "otdb:qtlrv4",
+          "fit_justification": "Source question explicitly states 'Which programming language shares its name with an island in Indonesia?' — directly about a computing/programming language."
+        },
+        {
+          "value": 400,
+          "clue": "Sony's flagship home gaming console goes by this name.",
+          "answer": "PlayStation",
+          "source_id": "otdb:6b9ayb",
+          "fit_justification": "Source is categorized 'Science: Gadgets' and asks 'Which gaming console is developed by Sony?' — directly about a technology product."
+        },
+        {
+          "value": 600,
+          "clue": "The DVD, now a staple of home media, was invented in this year.",
+          "answer": "1995",
+          "source_id": "otdb:131f7ir",
+          "fit_justification": "Source is categorized 'Science: Gadgets' and asks 'When was the DVD invented?' — directly about a technology invention."
+        },
+        {
+          "value": 800,
+          "clue": "In computing terminology, CLI is an abbreviation that stands for this three-word phrase.",
+          "answer": "Command Line Interface",
+          "source_id": "otdb:13qvupx",
+          "fit_justification": "Source is categorized 'Science: Computers' and asks 'In computing terms, typically what does CLI stand for?' — directly about a computing acronym."
+        },
+        {
+          "value": 1000,
+          "clue": "Valve's Half-Life ran on this proprietary game engine.",
+          "answer": "GoldSrc",
+          "source_id": "otdb:1lcukix",
+          "fit_justification": "Source asks 'What engine did the original Half-Life run on?' — directly about the underlying software technology (game engine) of a video game."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "TECH & SCIENCE FINAL",
+      "topic": "TECHNOLOGY",
+      "clue": "Wilhelm Conrad Röntgen is credited with the discovery of this form of electromagnetic radiation, now used ubiquitously in medical imaging.",
+      "answer": "X-rays",
+      "source_id": "otdb:1izofdg",
+      "fit_justification": "Source question asks 'Who made the discovery of X-rays?' — a landmark moment in scientific and medical technology history; answer is 'X-rays' (rephrased so the answer is the discovery rather than the discoverer)."
+    },
+    {
+      "title": "COMPUTING SECURITY",
+      "topic": "TECHNOLOGY",
+      "clue": "Discovered in 2014, this critical security flaw in the Unix Bash shell allowed attackers to execute arbitrary commands, and was named evocatively for its destructive potential.",
+      "answer": "Shellshock",
+      "source_id": "otdb:bcy7bi",
+      "fit_justification": "Source category is literally 'Science: Computers'; source question asks 'What was the name of the security vulnerability found in Bash in 2014?' and source answer is 'Shellshock' — a specific, niche piece of computing security history appropriate for a Final."
+    },
+    {
+      "title": "TECHNOLOGY PIONEER",
+      "topic": "TECHNOLOGY",
+      "clue": "Apple was founded in California, but this rival technology giant — whose products include Windows — was founded in a western state known as the Land of Enchantment.",
+      "answer": "New Mexico",
+      "source_id": "otdb:1iudsik",
+      "fit_justification": "Source is categorized 'Science: Computers'; question asks 'in which western state was Microsoft founded?' naming both Apple and Microsoft; answer 'New Mexico' is directly stated in source."
+    },
+    {
+      "title": "NUCLEAR INCIDENT",
+      "topic": "TECHNOLOGY",
+      "clue": "In March 1979, a partial meltdown of a reactor core caused the most significant nuclear accident in U.S. history, occurring at this facility in Pennsylvania.",
+      "answer": "Three Mile Island",
+      "source_id": "tapi:622a1c377cc59eab6f950429",
+      "fit_justification": "Source question asks 'In March 1979, where did a major nuclear accident occur?' — about a nuclear technology disaster; source answer is 'Three Mile Island'."
+    },
+    {
+      "title": "COMPUTING FUNDAMENTALS",
+      "topic": "TECHNOLOGY",
+      "clue": "A foundational unit of digital data, this quantum of computer memory contains exactly eight of a smaller unit — and every byte you've ever processed is made of them.",
+      "answer": "Eight bits",
+      "source_id": "otdb:15xg99e",
+      "fit_justification": "Source question asks 'How many bits are commonly in a single byte?' and is explicitly categorized as 'Science: Computers'; source answer 'Eight bits' is the canonical computing fact about byte composition."
+    },
+    {
+      "title": "TECHNOLOGY MILESTONE",
+      "topic": "TECHNOLOGY",
+      "clue": "Invented in 1980, this optical disc format revolutionized how music and data were stored and distributed, replacing vinyl and magnetic tape for many consumers.",
+      "answer": "Compact Disc",
+      "source_id": "tapi:62611ff04b176d54800e3d7b",
+      "fit_justification": "Source question asks 'In which year was the Compact Disc invented?' with answer '1980' — the Compact Disc is a landmark technology invention explicitly named in the source question."
+    }
+  ]
+}

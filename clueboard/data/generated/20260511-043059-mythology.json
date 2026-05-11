@@ -1,0 +1,94 @@
+{
+  "batch_id": "20260511-043059-mythology",
+  "generated_at": "2026-05-11T04:30:59.701Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "MYTHOLOGY",
+  "categories": [
+    {
+      "title": "GREEK & ROMAN MYTHOLOGY",
+      "theme": "Facts whose source questions or answers directly reference Greek or Roman mythology figures, places, or legends",
+      "topic": "MYTHOLOGY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Greek mythology, this hero led the Argonauts on a quest to retrieve the Golden Fleece.",
+          "answer": "Jason",
+          "source_id": "otdb:1aekesc",
+          "fit_justification": "Source question literally reads 'Who in Greek mythology, who led the Argonauts in search of the Golden Fleece?' — directly references Greek mythology."
+        },
+        {
+          "value": 400,
+          "clue": "According to Arthurian legend, this knight conducted a notorious affair with Queen Guinevere, wife of King Arthur.",
+          "answer": "Lancelot",
+          "source_id": "tapi:645fcc58541c4d4fc8cf303e",
+          "fit_justification": "Source question explicitly states 'According to Arthurian legend' and asks about the knight who had an affair with Queen Guinevere."
+        },
+        {
+          "value": 600,
+          "clue": "This Roman Emperor, whose name is also a musical key, is said to have fiddled while Rome burned.",
+          "answer": "Nero",
+          "source_id": "tapi:622a1c3d7cc59eab6f951bfd",
+          "fit_justification": "Source question reads 'Which Roman Emperor is said to have fiddled while Rome burned?' — references a legendary Roman historical myth."
+        },
+        {
+          "value": 800,
+          "clue": "In Greek mythology, this giant bronze automaton served as the protector of the island of Crete.",
+          "answer": "Talos",
+          "source_id": "otdb:b93sei",
+          "fit_justification": "Source question reads 'Talos, the mythical giant bronze man, was the protector of which island?' — source explicitly labels Talos as mythical and names the island Crete in the answer."
+        },
+        {
+          "value": 1000,
+          "clue": "This long narrative poem form, whose name comes from the Greek for 'word' or 'song,' tells the deeds and adventures of a legendary hero.",
+          "answer": "Epic",
+          "source_id": "tapi:647c9855f89e0968cfbc1a28",
+          "fit_justification": "Source question reads 'What is the name of the long narrative poem that tells of the deeds and adventures of a hero?' — directly describes the mythological literary form; answer is 'Epic'."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "MYTHOLOGY FINAL",
+      "topic": "MYTHOLOGY",
+      "clue": "This Roman wine god's ecstatic cult was so disruptive that the Roman Senate moved to suppress it in the 180s BC — the same deity the Greeks called Dionysus.",
+      "answer": "Bacchus",
+      "source_id": "tapi:647638daf05ea6d6f587a161",
+      "fit_justification": "Source question literally reads 'Which wine god's orgiastic worship was suppressed by the Roman Senate in the 180s BC?' — directly references Roman mythology and names the deity in the answer."
+    },
+    {
+      "title": "MYTHOLOGY FINAL",
+      "topic": "MYTHOLOGY",
+      "clue": "This Stoic philosopher, once a slave, famously declared that freedom comes not from fulfilling one's desires but from their removal — a teaching echoed in many ancient spiritual traditions.",
+      "answer": "Epictetus",
+      "source_id": "tapi:622a1c357cc59eab6f94fcfe",
+      "fit_justification": "Source question states 'Which philosopher famously said \"Freedom is secured not by the fulfilling of one's desires, but by the removal of desire\"?' with answer 'Epictetus' — Epictetus is a figure rooted in Greco-Roman philosophical tradition closely intertwined with ancient mythology and religion."
+    },
+    {
+      "title": "MYTHOLOGY FINAL",
+      "topic": "MYTHOLOGY",
+      "clue": "In Greek mythology, this island was guarded by the bronze giant Talos — and it is also the birthplace of Zeus according to ancient legend.",
+      "answer": "Crete",
+      "source_id": "otdb:b93sei",
+      "fit_justification": "Source question reads 'Talos, the mythical giant bronze man, was the protector of which island?' with answer 'Crete' — a mythological fact about a specific island with layered legendary significance."
+    },
+    {
+      "title": "MYTHOLOGY FINAL",
+      "topic": "MYTHOLOGY",
+      "clue": "In Egyptian mythology, this two-letter word names the life force or spiritual double that every living person was believed to possess.",
+      "answer": "Ka",
+      "source_id": "tapi:622a1c367cc59eab6f95013f",
+      "fit_justification": "Source question literally says 'In Egyptian mythology, what is the life force called?' and source answer is 'Ka'."
+    },
+    {
+      "title": "GREEK MYTHOLOGY IN ART",
+      "topic": "MYTHOLOGY",
+      "clue": "This Greek sculptor, commissioned to create the massive gold-and-ivory statue of Athena inside the Parthenon, is considered one of the greatest artists of the ancient world.",
+      "answer": "Phidias",
+      "source_id": "otdb:nvjxp8",
+      "fit_justification": "Source question explicitly names 'Greek sculptor', 'Athena Parthenos', and 'Parthenon', all core elements of Greek mythology and religious art; source answer is 'Phidias'."
+    }
+  ]
+}

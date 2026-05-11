@@ -63,6 +63,7 @@ export default function PlayClient({
         initial = loadState(board.date);
       }
       if (cancelled) return;
+      if (initial) initial = pruneStaleAnswers(initial, board);
       setState(initial ?? emptyState(board.date));
 
       const savedView = loadView();
@@ -338,6 +339,39 @@ export default function PlayClient({
       )}
     </main>
   );
+}
+
+/**
+ * Drop answer entries that reference clue IDs not on the current board
+ * (i.e. stale entries from a previous incarnation of today's date — can
+ * happen when admin work wipes and re-inserts clues mid-day, giving new
+ * clues new IDs while localStorage still has answers keyed by the old
+ * ones). Recompute score from the surviving answers so we don't credit
+ * or debit for ghost clues.
+ */
+function pruneStaleAnswers(state: GameState, board: DailyBoard): GameState {
+  const validIds = new Set<number>();
+  for (const cat of board.categories) {
+    for (const cell of board.cellsByCategory[cat]) validIds.add(cell.id);
+  }
+  validIds.add(board.finalClue.id);
+
+  const filteredAnswers: Record<number, AnswerRecord> = {};
+  for (const [k, ans] of Object.entries(state.answers)) {
+    const id = Number(k);
+    if (validIds.has(id)) filteredAnswers[id] = ans;
+  }
+
+  if (Object.keys(filteredAnswers).length === Object.keys(state.answers).length) {
+    return state; // nothing stale; return as-is
+  }
+
+  let score = 0;
+  for (const ans of Object.values(filteredAnswers)) {
+    if (ans.skipped && !ans.isDailyDouble) continue;
+    score += ans.correct ? ans.value : -ans.value;
+  }
+  return { ...state, answers: filteredAnswers, score };
 }
 
 function formatMoney(n: number) {
