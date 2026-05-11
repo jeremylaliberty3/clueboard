@@ -50,10 +50,20 @@ function stripAnswer(c: Clue): ClueForClient {
   };
 }
 
-let _allCluesCache: { single: Clue[]; final: Clue[] } | null = null;
+// In-memory caches with TTLs. Vercel serverless instances are long-
+// lived (sometimes hours) and admin actions like stage-boards can
+// reshape the clue pool out from under them. A short TTL means an
+// instance can serve stale content for at most ~60 seconds before it
+// refetches.
+const CLUE_CACHE_TTL_MS = 60_000;
+const BOARD_CACHE_TTL_MS = 60_000;
+
+let _allCluesCache: { single: Clue[]; final: Clue[]; expires: number } | null = null;
 
 async function loadAllClues(): Promise<{ single: Clue[]; final: Clue[] }> {
-  if (_allCluesCache) return _allCluesCache;
+  if (_allCluesCache && _allCluesCache.expires > Date.now()) {
+    return { single: _allCluesCache.single, final: _allCluesCache.final };
+  }
   const supabase = getSupabase();
   const { data, error } = await supabase
     .from("clues")
@@ -76,8 +86,9 @@ async function loadAllClues(): Promise<{ single: Clue[]; final: Clue[] }> {
   _allCluesCache = {
     single: all.filter((c) => c.round === "single"),
     final: all.filter((c) => c.round === "final"),
+    expires: Date.now() + CLUE_CACHE_TTL_MS,
   };
-  return _allCluesCache;
+  return { single: _allCluesCache.single, final: _allCluesCache.final };
 }
 
 // Per-category metadata derived from the first clue in each category.
@@ -189,12 +200,12 @@ function pickBoardCategories(
   return chosen;
 }
 
-const _boardCache = new Map<string, DailyBoard>();
+const _boardCache = new Map<string, { board: DailyBoard; expires: number }>();
 
 /**
  * Returns the daily board for a given date. The lookup order is:
  *
- *   1. In-memory cache (per-process)
+ *   1. In-memory cache (per-process, with TTL)
  *   2. Persistent `daily_boards` row (frozen artifact)
  *   3. Generate fresh via seeded RNG, then persist
  *
@@ -204,19 +215,19 @@ const _boardCache = new Map<string, DailyBoard>();
  */
 export async function getDailyBoard(date: string = todayDateString()): Promise<DailyBoard> {
   const cached = _boardCache.get(date);
-  if (cached) return cached;
+  if (cached && cached.expires > Date.now()) return cached.board;
 
   // 1. Try the persistent store.
   const stored = await loadStoredBoard(date);
   if (stored) {
-    _boardCache.set(date, stored);
+    _boardCache.set(date, { board: stored, expires: Date.now() + BOARD_CACHE_TTL_MS });
     return stored;
   }
 
   // 2. Generate from scratch and persist.
   const board = await generateFreshBoard(date);
   await persistBoard(board);
-  _boardCache.set(date, board);
+  _boardCache.set(date, { board, expires: Date.now() + BOARD_CACHE_TTL_MS });
   return board;
 }
 
