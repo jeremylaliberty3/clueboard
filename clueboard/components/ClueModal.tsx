@@ -118,8 +118,8 @@ export default function ClueModal({
     const n = parseInt(wagerInput, 10);
     const valid = !isNaN(n) && n >= 0 && n <= maxWager;
     return (
-      <div className="fixed inset-0 bg-black/70 flex items-start sm:items-center justify-center p-4 z-50 overflow-y-auto">
-        <div className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-6 sm:p-10 shadow-2xl text-center max-h-[calc(100dvh-2rem)] overflow-y-auto">
+      <div className="fixed inset-0 bg-black/70 flex items-start sm:items-center justify-center p-2 sm:p-4 z-50 overflow-y-auto">
+        <div className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-4 sm:p-10 shadow-2xl text-center max-h-[calc(100dvh-1rem)] sm:max-h-[calc(100dvh-2rem)] overflow-y-auto">
           <div className="text-gold-bright uppercase text-sm font-bold tracking-wide mb-2">
             {clue.category} · ${clue.value}
           </div>
@@ -167,9 +167,9 @@ export default function ClueModal({
 
   // ── Regular / DD answer phase ───────────────────────────────
   return (
-    <div className="fixed inset-0 bg-black/70 flex items-start sm:items-center justify-center p-4 z-50 overflow-y-auto">
-      <div className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-6 sm:p-10 shadow-2xl max-h-[calc(100dvh-2rem)] overflow-y-auto">
-        <div className="flex items-center justify-between text-gold-bright text-sm font-bold mb-4">
+    <div className="fixed inset-0 bg-black/70 flex items-start sm:items-center justify-center p-2 sm:p-4 z-50 overflow-y-auto">
+      <div className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-4 sm:p-10 shadow-2xl max-h-[calc(100dvh-1rem)] sm:max-h-[calc(100dvh-2rem)] overflow-y-auto">
+        <div className="flex items-center justify-between text-gold-bright text-sm font-bold mb-2 sm:mb-4">
           <span className="uppercase tracking-wide">
             {clue.category}
             {isDD && (
@@ -178,7 +178,7 @@ export default function ClueModal({
           </span>
           {!isDD && <span>${clue.value}</span>}
         </div>
-        <p className="font-serif font-bold text-2xl sm:text-3xl text-white/95 text-center leading-snug py-8">
+        <p className="font-serif font-bold text-xl sm:text-3xl text-white/95 text-center leading-snug py-3 sm:py-8">
           {clue.clue}
         </p>
         {!result ? (
