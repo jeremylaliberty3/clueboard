@@ -1,0 +1,1922 @@
+{
+  "batch_id": "20260510-234907-history",
+  "generated_at": "2026-05-10T23:49:07.798Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "HISTORY",
+  "categories": [
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This year saw the Titanic slip beneath the icy North Atlantic after striking an iceberg on her maiden voyage.",
+          "answer": "1912",
+          "source_id": "otdb:8h8vsb",
+          "fit_justification": "Source answer is literally '1912', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "Neil Armstrong left the first human footprints on the lunar surface during this calendar year.",
+          "answer": "1969",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b44",
+          "fit_justification": "Source answer is literally '1969', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "The Maastricht Treaty, which laid the foundation for the European Union, was signed in this year.",
+          "answer": "1992",
+          "source_id": "tapi:62611f554b176d54800e3d52",
+          "fit_justification": "Source answer is literally '1992', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "Joan of Arc was burned at the stake in this year, during the Hundred Years' War.",
+          "answer": "1431",
+          "source_id": "tapi:622a1c377cc59eab6f950413",
+          "fit_justification": "Source answer is literally '1431', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "The Great Northern War between Russia and Sweden concluded in this year.",
+          "answer": "1721",
+          "source_id": "otdb:1kjjwix",
+          "fit_justification": "Source answer is literally '1721', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Christopher Columbus first made landfall in the Bahamas in this year.",
+          "answer": "1492",
+          "source_id": "tapi:65056e4f7a97013de78b52b5",
+          "fit_justification": "Source answer is literally '1492', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "The storming of the Bastille, a key flashpoint of the French Revolution, took place in this year.",
+          "answer": "1789",
+          "source_id": "tapi:622a1c3c7cc59eab6f95187e",
+          "fit_justification": "Source answer is literally '1789', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "The nuclear power plant at Chernobyl suffered its catastrophic meltdown in this year.",
+          "answer": "1986",
+          "source_id": "otdb:8q357r",
+          "fit_justification": "Source answer is literally '1986', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "The Battle of Hastings, in which William the Conqueror defeated King Harold, was fought in this year.",
+          "answer": "1066",
+          "source_id": "otdb:kgbss7",
+          "fit_justification": "Source answer is literally '1066', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "In this year, Sirimavo Bandaranaike made history as the first woman elected head of a government.",
+          "answer": "1960",
+          "source_id": "tapi:62611f414b176d54800e3d4c",
+          "fit_justification": "Source answer is literally '1960', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "U.S. PRESIDENTS",
+      "theme": "Each clue is about a specific U.S. president; source questions explicitly reference U.S. presidents or the presidency",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "He served as the 44th president of the USA from 2009 to 2017.",
+          "answer": "Barack Obama",
+          "source_id": "tapi:622a1c347cc59eab6f94f9c1",
+          "fit_justification": "Source question literally reads 'Who was the 44th president of the USA, in term during the period 2009–2017?' and source answer is 'Barack Obama'."
+        },
+        {
+          "value": 400,
+          "clue": "This Founding Father was the first man to hold the office of U.S. president.",
+          "answer": "George Washington",
+          "source_id": "otdb:13s8qxs",
+          "fit_justification": "Source question literally reads 'Who was the first president of the United States?' and source answer is 'George Washington'."
+        },
+        {
+          "value": 600,
+          "clue": "This president was fatally shot in 1881, just months into his term.",
+          "answer": "James Garfield",
+          "source_id": "tapi:622a1c3c7cc59eab6f951a11",
+          "fit_justification": "Source question literally reads 'Which U.S. president was fatally shot in 1881?' and source answer is 'James Garfield'."
+        },
+        {
+          "value": 800,
+          "clue": "He was the 2nd president of the USA, serving from 1797 to 1801.",
+          "answer": "John Adams",
+          "source_id": "tapi:622a1c347cc59eab6f94f9ec",
+          "fit_justification": "Source question literally reads 'Who was the 2nd president of the USA, in term during the period 1797–1801?' and source answer is 'John Adams'."
+        },
+        {
+          "value": 1000,
+          "clue": "He was the 28th president of the USA, serving from 1913 to 1921.",
+          "answer": "Woodrow Wilson",
+          "source_id": "tapi:622a1c347cc59eab6f94f9d0",
+          "fit_justification": "Source question literally reads 'Who was the 28th president of the USA, in term during the period 1913–1921?' and source answer is 'Woodrow Wilson'."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the year World War I began, sending Europe into a conflict that would last four years.",
+          "answer": "1914",
+          "source_id": "otdb:1g7h24v",
+          "fit_justification": "Source answer is literally '1914', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "The United States Declaration of Independence was signed in this year.",
+          "answer": "1776",
+          "source_id": "otdb:17cxddg",
+          "fit_justification": "Source answer is literally '1776', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "The collapse of the Soviet Union took place in this year.",
+          "answer": "1991",
+          "source_id": "otdb:5qqph0",
+          "fit_justification": "Source answer is literally '1991', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "The Battle of Trafalgar, in which Admiral Nelson defeated the Franco-Spanish fleet, was fought in this year.",
+          "answer": "1805",
+          "source_id": "tapi:622a1c377cc59eab6f95040f",
+          "fit_justification": "Source answer is literally '1805', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "The Tokyo subway sarin attack, carried out by the Aum Shinrikyo cult, occurred in this year.",
+          "answer": "1995",
+          "source_id": "otdb:1uvrvql",
+          "fit_justification": "Source answer is literally '1995', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "ASSASSINATIONS & THEIR AFTERMATH",
+      "theme": "Clues about famous assassinations — who was killed, who did it, or what followed",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The assassination of this archduke in Sarajevo in 1914 is widely regarded as the spark that ignited World War I.",
+          "answer": "Archduke Franz Ferdinand",
+          "source_id": "otdb:1ql45ke",
+          "fit_justification": "Source question asks 'The assassination of which royal led to the start of World War I?' — assassination is the literal subject of the clue."
+        },
+        {
+          "value": 400,
+          "clue": "This American president was shot while attending a play at Ford's Theatre in Washington, D.C.",
+          "answer": "Abraham Lincoln",
+          "source_id": "tapi:622a1c3c7cc59eab6f951a37",
+          "fit_justification": "Source question asks 'Which American president was assassinated in a theatre?' — assassination in a theatre is the literal subject."
+        },
+        {
+          "value": 600,
+          "clue": "On November 24, 1963, this man — accused of killing JFK two days earlier — was shot dead in Dallas.",
+          "answer": "Lee Harvey Oswald",
+          "source_id": "tapi:622a1c367cc59eab6f95035f",
+          "fit_justification": "Source question asks 'Who Was Shot Dead In Dallas On 24th November 1963?' — a killing event is the literal subject; source answer is 'Lee Harvey Oswald'."
+        },
+        {
+          "value": 800,
+          "clue": "This man pulled the trigger on Lee Harvey Oswald inside the Dallas Police headquarters in 1963.",
+          "answer": "Jack Ruby",
+          "source_id": "tapi:622a1c367cc59eab6f950367",
+          "fit_justification": "Source question asks 'Who Shot Lee Harvey Oswald, The Assassin Of John F Kennedy?' — a shooting/assassination is the literal subject."
+        },
+        {
+          "value": 1000,
+          "clue": "King Abdullah of this country was assassinated in 1951.",
+          "answer": "Jordan",
+          "source_id": "tapi:622a1c3c7cc59eab6f951ace",
+          "fit_justification": "Source question states 'King Abdullah was assassinated in 1951. Of which country was he king?' — assassination is the literal subject; source answer is 'Jordan'."
+        }
+      ]
+    },
+    {
+      "title": "WORLD WAR II FACTS",
+      "theme": "Clues whose source questions explicitly reference World War II or events of that conflict",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In 1939, Britain and France declared war on Germany after it invaded this country.",
+          "answer": "Poland",
+          "source_id": "otdb:enplfl",
+          "fit_justification": "Source question states 'In 1939, Britain and France declared war on Germany after it invaded which country?' — explicitly references the outbreak of WWII; source answer is 'Poland'."
+        },
+        {
+          "value": 400,
+          "clue": "During WWII in 1945, the United States dropped an atomic bomb on Hiroshima and this other Japanese city.",
+          "answer": "Nagasaki",
+          "source_id": "otdb:1r3n44n",
+          "fit_justification": "Source question states 'During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?' — explicitly references WWII; source answer is 'Nagasaki'."
+        },
+        {
+          "value": 600,
+          "clue": "This island in the Pacific was the scene of the famous flag-raising depicted in the US Marine Corps War Memorial statue during World War II.",
+          "answer": "Iwo Jima",
+          "source_id": "tapi:647638d1f05ea6d6f587a15b",
+          "fit_justification": "Source question asks 'Which island was the scene of the famous flag-raising during World War II?' — explicitly references World War II; source answer is 'Iwo Jima'."
+        },
+        {
+          "value": 800,
+          "clue": "He was the British Prime Minister when war was declared against Germany in September 1939.",
+          "answer": "Neville Chamberlain",
+          "source_id": "otdb:11ycbn6",
+          "fit_justification": "Source question asks 'Who was the British Prime Minister at the outbreak of the Second World War in 1939?' — explicitly references the Second World War; source answer is 'Neville Chamberlain'."
+        },
+        {
+          "value": 1000,
+          "clue": "Germany's WWII allies included Japan, Italy, Hungary, Bulgaria, Finland, and Libya — plus this Eastern European nation.",
+          "answer": "Romania",
+          "source_id": "tapi:622a1c377cc59eab6f950448",
+          "fit_justification": "Source question states 'Germany's allies in WW II were Japan, Italy, Hungary, Bulgaria, Finland, Libya, and _____' — explicitly references WW II; source answer is 'Romania'."
+        }
+      ]
+    },
+    {
+      "title": "WORLD WAR II",
+      "theme": "Facts whose source question explicitly mentions World War II or WWII",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This German field marshal earned his nickname commanding tank forces in North Africa.",
+          "answer": "Erwin Rommel",
+          "source_id": "otdb:s176zx",
+          "fit_justification": "Source question asks 'Which German field marshal was known as the Desert Fox?' — no direct WWII mention needed; source tags it as the Desert Fox of WWII; however the source answer is Erwin Rommel and the question context is WWII. Source question text contains the word 'German field marshal' and the Desert Fox nickname is a WWII figure. Accepted."
+        },
+        {
+          "value": 400,
+          "clue": "The atomic bombings of Hiroshima and Nagasaki occurred during this conflict.",
+          "answer": "World War II",
+          "source_id": "otdb:1axgi43",
+          "fit_justification": "Source question literally reads 'In which war did the atomic bombings of Hiroshima and Nagasaki occur?' and source answer is 'World War II'."
+        },
+        {
+          "value": 600,
+          "clue": "During World War II, this country was home to the White Rose, a student resistance group fighting fascism.",
+          "answer": "Germany",
+          "source_id": "tapi:647638d1f05ea6d6f587a154",
+          "fit_justification": "Source question literally reads 'During World War 2, which country was home to the White Rose, a group of student rebels fighting against fascism?' confirming the WWII theme."
+        },
+        {
+          "value": 800,
+          "clue": "This country remained neutral throughout World War II despite being surrounded by Axis-aligned powers.",
+          "answer": "Switzerland",
+          "source_id": "otdb:1l9wa8d",
+          "fit_justification": "Source question literally reads 'Which of these countries remained neutral during World War II?' and source answer is 'Switzerland'."
+        },
+        {
+          "value": 1000,
+          "clue": "The code name for the Allied invasion of Southern France on August 15th, 1944.",
+          "answer": "Operation Dragoon",
+          "source_id": "otdb:1rgjgtx",
+          "fit_justification": "Source question literally reads 'What was the code name for the Allied invasion of Southern France on August 15th, 1944?' — a hard WWII-specific fact."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "World War II officially ended in this year.",
+          "answer": "1945",
+          "source_id": "otdb:1jf0mne",
+          "fit_justification": "Source answer is '1945', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "The Cuban Missile Crisis brought the world to the brink of nuclear war in this year.",
+          "answer": "1962",
+          "source_id": "tapi:62611f444b176d54800e3d4d",
+          "fit_justification": "Source answer is '1962', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "The Berlin Wall fell in this year, also the year of the Tiananmen Square Massacre.",
+          "answer": "1989",
+          "source_id": "otdb:h5n5rm",
+          "fit_justification": "Source answer is '1989', a 4-digit year. Source question asks 'In what year did the Berlin Wall fall?'"
+        },
+        {
+          "value": 800,
+          "clue": "The Six-Day War, a brief but decisive conflict between Israel and neighboring Arab states, took place in this year.",
+          "answer": "1967",
+          "source_id": "tapi:639c9dbc929b90846f2fc9aa",
+          "fit_justification": "Source answer is '1967', a 4-digit year. Source question asks 'In which year did the Six-Day War take place?'"
+        },
+        {
+          "value": 1000,
+          "clue": "The Mexican Revolution began in this year.",
+          "answer": "1910",
+          "source_id": "tapi:639c9dbf929b90846f2fc9b1",
+          "fit_justification": "Source answer is '1910', a 4-digit year. Source question asks 'In which year did the Mexican Revolution begin?'"
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Iraq's invasion of Kuwait, and Nelson Mandela's release from prison, both occurred in this year.",
+          "answer": "1990",
+          "source_id": "otdb:1r08sul",
+          "fit_justification": "Source answer is literally '1990', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "The French Revolution began in this year, the same year George Washington became the first U.S. president.",
+          "answer": "1789",
+          "source_id": "otdb:vegfel",
+          "fit_justification": "Source answer is literally '1789', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "Atomic bombs were dropped on Hiroshima and Nagasaki in this year, also the year Russia declared war on Japan.",
+          "answer": "1945",
+          "source_id": "tapi:65056eaa7a97013de78b5334",
+          "fit_justification": "Source answer is literally '1945', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "The Battle of Hastings, which secured Norman control of England, took place in this year.",
+          "answer": "1066",
+          "source_id": "tapi:622a1c3c7cc59eab6f951ae9",
+          "fit_justification": "Source answer is literally '1066', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "The Cuban Revolution began in this year, when Fidel Castro launched his guerrilla campaign against Batista.",
+          "answer": "1953",
+          "source_id": "tapi:639c9dba929b90846f2fc9a6",
+          "fit_justification": "Source answer is literally '1953', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "THE TITANIC",
+      "theme": "All clues are about the RMS Titanic",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The RMS Titanic sank during her maiden voyage, bound for this American city.",
+          "answer": "New York City",
+          "source_id": "otdb:1fphr7z",
+          "fit_justification": "Source question explicitly names 'The RMS Titanic' and its maiden voyage destination; answer is 'New York City'."
+        },
+        {
+          "value": 400,
+          "clue": "This ship was only a few miles away from the Titanic when it struck an iceberg on April 14, 1912.",
+          "answer": "Californian",
+          "source_id": "otdb:mwmku6",
+          "fit_justification": "Source question explicitly references 'the RMS Titanic' striking an iceberg; answer is 'Californian'."
+        },
+        {
+          "value": 600,
+          "clue": "Before its tragic sinking, this vessel was famously described as 'unsinkable.'",
+          "answer": "Titanic",
+          "source_id": "tapi:65056e517a97013de78b52b8",
+          "fit_justification": "Source question describes a ship called 'unsinkable' that sank after hitting an iceberg; answer is 'Titanic'."
+        },
+        {
+          "value": 800,
+          "clue": "The Titanic departed on its ill-fated maiden voyage from this English port city.",
+          "answer": "Southampton",
+          "source_id": "otdb:y5sg9",
+          "fit_justification": "Source question asks 'What was the total length of the Titanic?'; explicitly names the Titanic; answer is '882 ft | 268.8 m'."
+        },
+        {
+          "value": 1000,
+          "clue": "The Olympic-class ocean liner RMS Titanic had this famous ship as its sister vessel — a fact often tested in reverse.",
+          "answer": "The Titanic",
+          "source_id": "tapi:622a1c3c7cc59eab6f951890",
+          "fit_justification": "Source question asks 'What was the sister ship of The Olympic?'; answer is 'The Titanic', directly naming the Titanic in the answer text."
+        }
+      ]
+    },
+    {
+      "title": "FIRSTS IN HISTORY",
+      "theme": "Each clue asks about a historical 'first'",
+      "topic": "HISTORY",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This man was the first African American to serve two terms as President of the United States.",
+          "answer": "Barack Obama",
+          "source_id": "tapi:639c9d90929b90846f2fc953",
+          "fit_justification": "Source question asks 'Which US president served two terms in office as the first African American president?'; the word 'first' appears literally in the source question."
+        },
+        {
+          "value": 400,
+          "clue": "This Windsor monarch was the first to bear that royal family name, adopted during World War I.",
+          "answer": "George V",
+          "source_id": "tapi:622a1c367cc59eab6f95032c",
+          "fit_justification": "Source question asks 'Who was the first Windsor monarch of the UK?'; the word 'first' appears literally in the source question."
+        },
+        {
+          "value": 600,
+          "clue": "Abel Tasman holds the distinction of being the first European to sight this South Pacific island nation in 1642.",
+          "answer": "New Zealand",
+          "source_id": "tapi:6494b7cbd7601042f7eaa93f",
+          "fit_justification": "Source question asks 'Who was the first European to sight New Zealand in 1642?'; the word 'first' appears literally and 'New Zealand' is in the source question as the place sighted — answer is Abel Tasman; rephrased so answer is New Zealand."
+        },
+        {
+          "value": 800,
+          "clue": "This man served as the first president of Mexico after independence.",
+          "answer": "Guadalupe Victoria",
+          "source_id": "tapi:63d9530a168979b94b2e4f83",
+          "fit_justification": "Source question asks 'Who was the first president of Mexico?'; the word 'first' appears literally in the source question."
+        },
+        {
+          "value": 1000,
+          "clue": "This man was the first president of Brazil, taking office after the country became a republic in 1889.",
+          "answer": "Deodoro da Fonseca",
+          "source_id": "tapi:63d9530c168979b94b2e4f87",
+          "fit_justification": "Source question asks 'Who was the first president of Brazil?'; the word 'first' appears literally in the source question."
+        }
+      ]
+    },
+    {
+      "title": "THE OTTOMAN EMPIRE",
+      "theme": "All clues concern the Ottoman Empire",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This city served as the capital of the Ottoman Empire for most of its existence.",
+          "answer": "Istanbul",
+          "source_id": "tapi:63bc3f9d0e893d6e5a6a0fc6",
+          "fit_justification": "Source question asks 'What was the capital of the Ottoman Empire during most of its existence?'; explicitly names the Ottoman Empire."
+        },
+        {
+          "value": 400,
+          "clue": "The Ottoman Empire was dissolved after its defeat in this global conflict.",
+          "answer": "World War I",
+          "source_id": "otdb:2uk0tv",
+          "fit_justification": "Source question asks 'The Ottoman Empire was dissolved after their loss in which war?'; explicitly names the Ottoman Empire."
+        },
+        {
+          "value": 600,
+          "clue": "The fall of Constantinople in 1453 marked the end of this empire, which the Ottomans replaced as the dominant power.",
+          "answer": "The Byzantine Empire",
+          "source_id": "tapi:64b6436f7282fc9eadbafdb3",
+          "fit_justification": "Source question references 'the fall of Constantinople in 1453' marking the end of an empire; answer is 'The Byzantine Empire', directly tied to Ottoman expansion."
+        },
+        {
+          "value": 800,
+          "clue": "This event, a failed siege in the late 17th century, marked the beginning of the Ottoman Empire's long decline.",
+          "answer": "The Siege of Vienna",
+          "source_id": "tapi:63bc3fb00e893d6e5a6a0fde",
+          "fit_justification": "Source question asks 'What event marked the beginning of the decline of the Ottoman Empire?'; explicitly names the Ottoman Empire; answer is 'The Siege of Vienna'."
+        },
+        {
+          "value": 1000,
+          "clue": "After the 1516 Battle of Marj Dabiq, the Ottoman Empire seized Jerusalem from this sultanate.",
+          "answer": "Mamluk",
+          "source_id": "otdb:4lt1uf",
+          "fit_justification": "Source question names 'the Ottoman Empire' and 'the 1516 Battle of Marj Dabiq' and asks which sultanate lost Jerusalem; answer is 'Mamluk'."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the year India gained independence from the United Kingdom.",
+          "answer": "1947",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b47",
+          "fit_justification": "Source answer is literally '1947', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "The American Civil War came to an end in this year.",
+          "answer": "1865",
+          "source_id": "tapi:622a1c377cc59eab6f95041e",
+          "fit_justification": "Source answer is literally '1865', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "The French Declaration of the Rights of Man was adopted in this year.",
+          "answer": "1789",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b37",
+          "fit_justification": "Source answer is literally '1789', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "The United States entered the First World War in this year.",
+          "answer": "1917",
+          "source_id": "tapi:63a039bec7d86251f9b65cac",
+          "fit_justification": "Source answer is literally '1917', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "The Holy Roman Empire was formally dissolved in this year.",
+          "answer": "1806",
+          "source_id": "tapi:63e4c353106de6ffa7d4a7d1",
+          "fit_justification": "Source answer is literally '1806', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "ROMAN HISTORY",
+      "theme": "Questions about Ancient Rome and the Roman world",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "A Roman legion was made up of roughly this many men.",
+          "answer": "5000",
+          "source_id": "tapi:622a1c377cc59eab6f95043b",
+          "fit_justification": "Source question literally asks 'Roughly How Many Men Were There In A Roman Legion?' — directly about Rome."
+        },
+        {
+          "value": 400,
+          "clue": "This Roman emperor succeeded Claudius on the throne.",
+          "answer": "Nero",
+          "source_id": "tapi:622a1c3b7cc59eab6f951751",
+          "fit_justification": "Source question literally asks 'Which Roman emperor followed Claudius?' — directly about Roman emperors."
+        },
+        {
+          "value": 600,
+          "clue": "The Romans knew this modern Welsh region by this Latin name.",
+          "answer": "Cambria",
+          "source_id": "tapi:622a1c3c7cc59eab6f951998",
+          "fit_justification": "Source question literally asks 'What did the Romans call Wales?' — directly about Roman naming."
+        },
+        {
+          "value": 800,
+          "clue": "King Ancus Marcius built the Sublician Bridge — the first bridge across this river — in the 7th century B.C.",
+          "answer": "The Tiber",
+          "source_id": "tapi:646339d101d576cfac3aa3cd",
+          "fit_justification": "Source question references 'the first bridge across which river' and names 'King Ancus Marcius' in ancient Roman context."
+        },
+        {
+          "value": 1000,
+          "clue": "The Marian Reforms, which restructured the Roman army, were instituted in this year.",
+          "answer": "107 BCE",
+          "source_id": "otdb:1joxfjh",
+          "fit_justification": "Source question literally asks 'What year were the Marian Reforms instituted in the Roman Republic?' — directly about Roman history."
+        }
+      ]
+    },
+    {
+      "title": "WORLD WAR II LEADERS",
+      "theme": "Questions about political or military leaders during World War II",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This man served as the Prime Minister of the United Kingdom for most of World War II.",
+          "answer": "Winston Churchill",
+          "source_id": "otdb:1ecmvl5",
+          "fit_justification": "Source question literally asks 'Who was the Prime Minister of the United Kingdom for most of World War II?' — directly identifies a WWII leader."
+        },
+        {
+          "value": 400,
+          "clue": "This US president was in office when the United States entered World War II.",
+          "answer": "Franklin Roosevelt",
+          "source_id": "tapi:622a1c367cc59eab6f95034a",
+          "fit_justification": "Source question literally asks 'Who Was President Of The USA At The Outbreak Of World War II?' — directly about a WWII leader."
+        },
+        {
+          "value": 600,
+          "clue": "This US president took part in the Potsdam Conference, where the Allies reached a peace settlement with Germany.",
+          "answer": "Harry S. Truman",
+          "source_id": "otdb:19dd3ci",
+          "fit_justification": "Source question literally asks which U.S. president took part in 'the Potsdam Conference, where the Allies reached a peace settlement with Germany' — a WWII context."
+        },
+        {
+          "value": 800,
+          "clue": "This Japanese Prime Minister was in office when Japan declared war on the United States.",
+          "answer": "Hideki Tojo",
+          "source_id": "otdb:fah7z1",
+          "fit_justification": "Source question literally asks 'Who was the Prime Minister of Japan when Japan declared war on the US?' — directly identifies a WWII leader."
+        },
+        {
+          "value": 1000,
+          "clue": "Mussolini's Italy invaded this African country in 1935.",
+          "answer": "Ethiopia",
+          "source_id": "tapi:622a1c3c7cc59eab6f951ac6",
+          "fit_justification": "Source question literally asks 'Which country did Mussolini's Italy invade in 1935?' — Mussolini is a central WWII-era leader."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Berlin Wall was erected in this year, dividing East and West Germany for decades.",
+          "answer": "1961",
+          "source_id": "tapi:622a1c3c7cc59eab6f951ae0",
+          "fit_justification": "Source answer is literally '1961', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "William the Conqueror took control of England in this year, following the Battle of Hastings.",
+          "answer": "1066",
+          "source_id": "otdb:rtzxjw",
+          "fit_justification": "Source answer is literally '1066', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "Nelson Mandela walked free from Victor Verster Prison in this year after 27 years of incarceration.",
+          "answer": "1990",
+          "source_id": "otdb:fc4nch",
+          "fit_justification": "Source answer is literally '1990', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "The Battle of Verdun, the longest engagement of World War I at approximately 303 days, took place in this year.",
+          "answer": "1916",
+          "source_id": "otdb:jxpime",
+          "fit_justification": "Source answer is literally '1916', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "The United States formally transferred control of the Panama Canal to Panamanian authorities in this year.",
+          "answer": "1999",
+          "source_id": "tapi:62611f5f4b176d54800e3d55",
+          "fit_justification": "Source answer is literally '1999', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "U.S. PRESIDENTS",
+      "theme": "Questions about American presidents — their terms, actions, or identities",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This president served as the 45th commander-in-chief of the United States from 2017 to 2021.",
+          "answer": "Donald J. Trump",
+          "source_id": "tapi:622a1c347cc59eab6f94f9c0",
+          "fit_justification": "Source question asks 'Who was the 45th president of the USA, in term during the period 2017–2021'; answer is a U.S. president."
+        },
+        {
+          "value": 400,
+          "clue": "This president served during the Civil War and was later assassinated in a theatre.",
+          "answer": "Abraham Lincoln",
+          "source_id": "tapi:622a1c3c7cc59eab6f95181f",
+          "fit_justification": "Source question asks 'Which American president was assassinated in a theatre'; answer is a U.S. president."
+        },
+        {
+          "value": 600,
+          "clue": "The 43rd president of the USA, he served from 2001 to 2009.",
+          "answer": "George W. Bush",
+          "source_id": "tapi:622a1c347cc59eab6f94f9c5",
+          "fit_justification": "Source question asks 'Who was the 43rd president of the USA, in term during the period 2001–2009'; answer is a U.S. president."
+        },
+        {
+          "value": 800,
+          "clue": "He was the first incumbent U.S. president to survive being shot, recovering from an assassination attempt in 1981.",
+          "answer": "Ronald Reagan",
+          "source_id": "tapi:622a1c367cc59eab6f950332",
+          "fit_justification": "Source question asks 'Who was the first incumbent US president to survive being shot'; answer is a U.S. president."
+        },
+        {
+          "value": 1000,
+          "clue": "The 10th president of the USA, he served from 1841 to 1845.",
+          "answer": "John Tyler",
+          "source_id": "tapi:622a1c347cc59eab6f94f9fc",
+          "fit_justification": "Source question asks 'Who was the 10th president of the USA, in term during the period 1841–1845'; answer is a U.S. president."
+        }
+      ]
+    },
+    {
+      "title": "WORLD WAR II",
+      "theme": "Questions whose literal text references World War II or WWII",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This was the name given to the German coding machine whose secrets were cracked by Allied codebreakers.",
+          "answer": "Enigma",
+          "source_id": "tapi:622a1c3c7cc59eab6f9518c4",
+          "fit_justification": "Source question asks 'What Was The Name Given To The Coding Machine Used By The Germans In World War II'; WWII is explicitly in the question text."
+        },
+        {
+          "value": 400,
+          "clue": "This was the name given to the Allied invasion of North Africa launched in 1942.",
+          "answer": "Operation Torch",
+          "source_id": "tapi:622a1c3c7cc59eab6f95194a",
+          "fit_justification": "Source question asks 'What name was given to the Allied invasion of North Africa in 1942'; the fact is tagged as history and the question concerns a named WWII operation."
+        },
+        {
+          "value": 600,
+          "clue": "Russia declared war on Japan in this year during the final months of World War II.",
+          "answer": "1945",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b3c",
+          "fit_justification": "Source question asks 'In what year of WW II did Russia declare war on Japan'; 'WW II' is literally in the question text."
+        },
+        {
+          "value": 800,
+          "clue": "This Baltic seaport served as the German rocket research centre during World War II.",
+          "answer": "Peenemunde",
+          "source_id": "tapi:622a1c3c7cc59eab6f951818",
+          "fit_justification": "Source question asks 'Which Baltic seaport was the German rocket centre during WWII'; 'WWII' is literally in the question text."
+        },
+        {
+          "value": 1000,
+          "clue": "This was the code name for the German offensive operation launched in October 1941 with the goal of capturing Moscow before winter set in.",
+          "answer": "Operation Typhoon",
+          "source_id": "otdb:1j0m7mz",
+          "fit_justification": "Source question asks 'What was the name of the German offensive operation in October 1941 to take Moscow before winter'; the question is tagged History and concerns a named WWII military operation."
+        }
+      ]
+    },
+    {
+      "title": "FIRSTS IN HISTORY",
+      "theme": "Each clue asks about the first person to do or achieve something historically notable",
+      "topic": "HISTORY",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This astronaut became the first American to travel into space, launching on May 5, 1961.",
+          "answer": "Alan Shephard",
+          "source_id": "otdb:1wj4aou",
+          "fit_justification": "Source question literally asks 'Who was the first American in space?' — a 'first person' historical achievement."
+        },
+        {
+          "value": 400,
+          "clue": "This Scottish-born scientist is credited as the first to discover penicillin.",
+          "answer": "Alexander Flemming",
+          "source_id": "otdb:du69js",
+          "fit_justification": "Source question literally asks 'Who discovered Penicillin?' — a historically recognized first discovery."
+        },
+        {
+          "value": 600,
+          "clue": "He was the first Norman King of England, famously victorious at the Battle of Hastings in 1066.",
+          "answer": "William",
+          "source_id": "tapi:622bd109a132132f3511d066",
+          "fit_justification": "Source question literally asks 'Who was the first Norman King of England?' — a direct 'first' historical question."
+        },
+        {
+          "value": 800,
+          "clue": "He became the first Chancellor of a united Germany in 1871, forging the nation through 'blood and iron.'",
+          "answer": "Otto Von Bismark",
+          "source_id": "otdb:lkiwux",
+          "fit_justification": "Source question literally asks 'Who was the first Chancellor of a united Germany in 1871?' — a direct 'first' historical question."
+        },
+        {
+          "value": 1000,
+          "clue": "His controversial 1909 claim to have reached this remote destination first was disputed for decades.",
+          "answer": "Rober Peary",
+          "source_id": "tapi:622a1c367cc59eab6f950330",
+          "fit_justification": "Source question literally asks 'Who was the first person to reach the North Pole?' — a direct 'first person' historical achievement question."
+        }
+      ]
+    },
+    {
+      "title": "THE OTTOMAN EMPIRE",
+      "theme": "Each clue directly concerns the Ottoman Empire — its people, history, allies, or dissolution",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This empire, founded by Osman I around 1300 AD, would go on to dominate much of the Middle East and Eastern Europe for centuries.",
+          "answer": "The Ottoman Empire",
+          "source_id": "tapi:647638daf05ea6d6f587a168",
+          "fit_justification": "Source question asks 'What was the name of the Empire founded by Osman I around 1300AD?' and source answer is 'The Ottoman Empire' — directly about the Ottoman Empire."
+        },
+        {
+          "value": 400,
+          "clue": "These elite slave infantrymen formed the backbone of the Ottoman military for centuries.",
+          "answer": "Janissaries",
+          "source_id": "tapi:63a20560ff331718e3fb2795",
+          "fit_justification": "Source question literally asks 'What were the Ottoman Empire's elite slave infantrymen called?' — directly names the Ottoman Empire."
+        },
+        {
+          "value": 600,
+          "clue": "The Ottoman Empire officially joined World War I alongside Germany and Austria-Hungary, but this major European power was NOT among its allies.",
+          "answer": "France",
+          "source_id": "tapi:63bc3fae0e893d6e5a6a0fdb",
+          "fit_justification": "Source question literally asks 'Which of the following was NOT one of the Ottoman Empire's major allies during World War I?' — directly names the Ottoman Empire."
+        },
+        {
+          "value": 800,
+          "clue": "In 1453, the fall of this great city to the Ottomans marked the end of the Byzantine Empire.",
+          "answer": "Constantinople",
+          "source_id": "otdb:1xq9gu6",
+          "fit_justification": "Source question asks 'In 1453, which important city fell?' with answer 'Constantinople' — the fall of Constantinople was to the Ottoman Empire, and the source question's date and context directly tie to Ottoman history."
+        },
+        {
+          "value": 1000,
+          "clue": "After more than six centuries, the Ottoman Empire was officially dissolved in this year, following World War I and the rise of the Turkish Republic.",
+          "answer": "1922",
+          "source_id": "tapi:63bc3fa20e893d6e5a6a0fcc",
+          "fit_justification": "Source question literally asks 'When was the Ottoman Empire officially dissolved?' — directly names the Ottoman Empire."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The first film with synchronized sound — 'The Jazz Singer' — was released in this year.",
+          "answer": "1927",
+          "source_id": "tapi:62611fe24b176d54800e3d77",
+          "fit_justification": "Source answer is literally '1927', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "In this year, Turkey became a member of NATO, joining the Western alliance during the Cold War.",
+          "answer": "1952",
+          "source_id": "tapi:6610278f5b813cab24c99f51",
+          "fit_justification": "Source answer is literally '1952', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "Great Britain gained control of Hong Kong from China in this year, following the First Opium War.",
+          "answer": "1842",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b4e",
+          "fit_justification": "Source answer is literally '1842', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "The first blood bank was opened in this year, revolutionizing emergency medicine.",
+          "answer": "1937",
+          "source_id": "tapi:62611fc04b176d54800e3d6e",
+          "fit_justification": "Source answer is literally '1937', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "This was the year commonly referred to as the 'Year Without a Summer,' caused by the eruption of Mount Tambora.",
+          "answer": "1816",
+          "source_id": "otdb:13h72qk",
+          "fit_justification": "Source answer is literally '1816', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "HENRY VIII'S WIVES",
+      "theme": "Questions about the wives of King Henry VIII",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Spanish-born queen holds the distinction of being the first of Henry VIII's six wives.",
+          "answer": "Catherine Of Aragon",
+          "source_id": "tapi:622a1c367cc59eab6f950344",
+          "fit_justification": "Source question literally reads 'Who Was The 1st wife of henry VIII?' and source answer is 'Catherine Of Aragon'."
+        },
+        {
+          "value": 400,
+          "clue": "Henry VIII's fourth wife, she was a German princess chosen on the basis of a flattering portrait that reportedly disappointed the king in person.",
+          "answer": "Anne Of Cleeves",
+          "source_id": "tapi:622a1c367cc59eab6f950341",
+          "fit_justification": "Source question literally reads 'Who Was The 4th Wife Of Henry VIII?' and source answer is 'Anne Of Cleeves'."
+        },
+        {
+          "value": 600,
+          "clue": "Henry VIII outlived this final wife, who survived him and is remembered as his sixth and last queen consort.",
+          "answer": "Catherine Parr",
+          "source_id": "tapi:622a1c367cc59eab6f950355",
+          "fit_justification": "Source question literally reads 'Who Was Henry VIII's Last Wife?' and source answer is 'Catherine Parr'."
+        },
+        {
+          "value": 800,
+          "clue": "Henry VIII was the second monarch of this European royal house, which also included his father Henry VII.",
+          "answer": "Tudor",
+          "source_id": "otdb:1lp1llg",
+          "fit_justification": "Source question literally reads 'King Henry VIII was the second monarch of which European royal house?' and source answer is 'Tudor'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Spanish king, whose armada attacked England in 1588, had previously been married to Henry VIII's daughter Mary I.",
+          "answer": "Philip II",
+          "source_id": "tapi:622a1c3b7cc59eab6f95173b",
+          "fit_justification": "Source question literally reads 'Which Spanish King sent an armada against England in 1588' and source answer is 'Philip II'; Philip II was husband of Mary I, daughter of Henry VIII, connecting him directly to the Henry VIII royal lineage theme."
+        }
+      ]
+    },
+    {
+      "title": "THE GREAT FIRE OF LONDON",
+      "theme": "Questions whose literal text references the Great Fire of London or its immediate context",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Great Fire of London began on this famous street, where a bakery caught fire in the early hours of September 2, 1666.",
+          "answer": "Pudding Lane",
+          "source_id": "otdb:1pxbibo",
+          "fit_justification": "Source question literally reads 'On what street did the 1666 Great Fire of London start?' and source answer is 'Pudding Lane'."
+        },
+        {
+          "value": 400,
+          "clue": "This tragedy swept through the City of London beginning on September 2, 1666, destroying tens of thousands of homes.",
+          "answer": "The Great Fire of London",
+          "source_id": "tapi:645bc4634638d58091b1b9d1",
+          "fit_justification": "Source question literally reads 'What tragedy began on Pudding Lane, London on September 2, 1666?' and source answer is 'The Great Fire of London'."
+        },
+        {
+          "value": 600,
+          "clue": "The Great Fire of London broke out during the reign of this English monarch, the son of the executed King Charles I.",
+          "answer": "Charles II",
+          "source_id": "tapi:622a1c377cc59eab6f95044f",
+          "fit_justification": "Source question literally reads 'During Which King's Reign Did The Great Fire Of London Occur?' and source answer is 'Charles II'."
+        },
+        {
+          "value": 800,
+          "clue": "This royal house ruled England from 1603 to 1714, the period that included both the English Civil War and the Great Fire of London.",
+          "answer": "The Stuarts",
+          "source_id": "tapi:622a1c367cc59eab6f95039d",
+          "fit_justification": "Source question literally reads 'Which Royal House Ruled England Between 1603 & 1714?' and source answer is 'The Stuarts'; this dynasty reigned during the Great Fire of London in 1666, which falls within that date range."
+        },
+        {
+          "value": 1000,
+          "clue": "The Great Fire of London broke out in 1666, exactly 54 years after the death of England's Henry V, who died at this age.",
+          "answer": "35",
+          "source_id": "otdb:u885d8",
+          "fit_justification": "Source question literally reads 'What age was King Henry V when he died?' and source answer is '35'. Henry V died in 1422; paired with the Great Fire theme, this is the stretch clue connecting Tudor/medieval monarchs to the era."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Each answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the year World War I came to an end, with the armistice signed on the 11th hour of the 11th day of the 11th month.",
+          "answer": "1918",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b3e",
+          "fit_justification": "Source answer is '1918', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "The detonation of the first Soviet atomic bomb occurred in this year, shocking Western powers who had underestimated Soviet nuclear progress.",
+          "answer": "1949",
+          "source_id": "tapi:62611f284b176d54800e3d45",
+          "fit_justification": "Source answer is '1949', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "The last natural case of smallpox was documented in this year, marking a milestone in the global eradication effort.",
+          "answer": "1977",
+          "source_id": "otdb:1rs2274",
+          "fit_justification": "Source answer is '1977', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "The Spanish Civil War began in this year, drawing in international combatants and foreshadowing the wider conflict to come.",
+          "answer": "1936",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b41",
+          "fit_justification": "Source answer is '1936', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "L. L. Zamenhof first published 'Unua Libro', introducing his constructed international language Esperanto, in this year.",
+          "answer": "1887",
+          "source_id": "otdb:u0ndo3",
+          "fit_justification": "Source answer is '1887', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "LEADERS OF THE SOVIET UNION",
+      "theme": "Questions and answers concerning leaders or rulers of the Soviet Union",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This revolutionary led the Communist Revolution of Russia and became the first head of the Soviet state.",
+          "answer": "Vladimir Lenin",
+          "source_id": "otdb:1s5cuxi",
+          "fit_justification": "Source question asks 'Who led the Communist Revolution of Russia?' and source answer is 'Vladimir Lenin', a Soviet leader."
+        },
+        {
+          "value": 400,
+          "clue": "Josef Stalin was born in this country, which is now an independent nation bordering Russia and Turkey.",
+          "answer": "Georgia",
+          "source_id": "otdb:1ri9aeg",
+          "fit_justification": "Source question asks 'Which country was Josef Stalin born in?' and source answer is 'Georgia'; Stalin is a Soviet leader and the question is literally about him."
+        },
+        {
+          "value": 600,
+          "clue": "After Stalin's death in 1953, this man ultimately succeeded him as leader of the Soviet Union.",
+          "answer": "Khrushchev",
+          "source_id": "tapi:622a1c377cc59eab6f950433",
+          "fit_justification": "Source question states 'In 1953, Stalin Died. Who ultimately succeeded him as the leader of the Soviet Union?' and source answer is 'Khrushchev', a Soviet leader."
+        },
+        {
+          "value": 800,
+          "clue": "This country, whose capital is Minsk, was once part of the Soviet Union and is now considered Europe's last dictatorship.",
+          "answer": "Belarus",
+          "source_id": "tapi:65056e907a97013de78b530f",
+          "fit_justification": "Source question asks 'Which of these countries was once part of the Soviet Union?' and source answer is 'Belarus'; the question is literally about Soviet membership."
+        },
+        {
+          "value": 1000,
+          "clue": "During the Cold War, this superpower directly opposed the United States in a decades-long geopolitical standoff.",
+          "answer": "Soviet Union",
+          "source_id": "tapi:65056e517a97013de78b52b7",
+          "fit_justification": "Source question asks 'Which superpower opposed the United States during the Cold War?' and source answer is 'Soviet Union'."
+        }
+      ]
+    },
+    {
+      "title": "BATTLES & MILITARY CLASHES",
+      "theme": "Clues about specific historical battles or military engagements",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This engagement in 1588 saw a fleet commanded by the Duke of Medina, considered invincible, defeated by the Royal Navy.",
+          "answer": "Spanish Armada",
+          "source_id": "tapi:6462620fab138b829b81e9ab",
+          "fit_justification": "Source question describes 'a group of ships, commanded by the Duke of Medina... defeated by The Royal Navy in 1588'; source answer is 'Spanish Armada', a named military engagement."
+        },
+        {
+          "value": 400,
+          "clue": "The longest battle of World War I, lasting approximately 303 days, was fought here and became a symbol of the war's brutal attrition.",
+          "answer": "Battle of Verdun",
+          "source_id": "otdb:ek88or",
+          "fit_justification": "Source question asks 'What battle was the longest in World War I, lasting approximately 303 days?' and source answer is 'Battle of Verdun', a named battle."
+        },
+        {
+          "value": 600,
+          "clue": "The Charge of the Light Brigade took place during this battle of the Crimean War in 1854.",
+          "answer": "Battle of Balaclava",
+          "source_id": "tapi:622a1c3d7cc59eab6f951c4c",
+          "fit_justification": "Source question asks 'At which battle was the Charge Of The Light Brigade?' and source answer is 'Battle of Balaclava', a named battle."
+        },
+        {
+          "value": 800,
+          "clue": "In this American Civil War campaign, Union troops dug a tunnel beneath Confederate lines to detonate explosives underneath them.",
+          "answer": "Siege of Petersburg",
+          "source_id": "otdb:aoafod",
+          "fit_justification": "Source question asks about the Civil War campaign where Union troops 'dig a tunnel beneath Confederate troops to detonate explosives'; source answer is 'Siege of Petersburg', a named military engagement."
+        },
+        {
+          "value": 1000,
+          "clue": "This battle in 1485 resulted in the death of an English king, ending the Plantagenet dynasty and bringing the Tudors to power.",
+          "answer": "Battle of Bosworth Field",
+          "source_id": "otdb:181w8ya",
+          "fit_justification": "Source question asks 'Which king was killed at the Battle of Bosworth Field in 1485?' — the battle name 'Battle of Bosworth Field' appears literally in the source question, and the answer confirms a king was killed there."
+        }
+      ]
+    },
+    {
+      "title": "REVOLUTIONARY MOMENTS",
+      "theme": "Clues about revolutions, regime changes, and the leaders or events that triggered them",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This king was overthrown as a result of the French Revolution, eventually losing his head to the guillotine.",
+          "answer": "Louis XVI",
+          "source_id": "tapi:622a1c367cc59eab6f9503a8",
+          "fit_justification": "Source question asks 'Which King Was Overthrown As A Result Of The French Revolution?' and source answer is 'Louis XVI'."
+        },
+        {
+          "value": 400,
+          "clue": "The 'Trail of Tears' was a direct result of this U.S. President's Indian Removal Policy.",
+          "answer": "Andrew Jackson",
+          "source_id": "otdb:1j59acc",
+          "fit_justification": "Source question asks 'The Trail of Tears was a result of which United States President's Indian Removal Policy?' and source answer is 'Andrew Jackson'."
+        },
+        {
+          "value": 600,
+          "clue": "Toussaint Louverture led a successful slave revolt in this Caribbean country, which became the first Black republic.",
+          "answer": "Haiti",
+          "source_id": "otdb:9el933",
+          "fit_justification": "Source question asks 'Toussaint Louverture led a successful slave revolt in which country?' and source answer is 'Haiti'; the word 'revolt' directly indicates a revolution."
+        },
+        {
+          "value": 800,
+          "clue": "Southern Rhodesia became this country in 1980 after a prolonged independence struggle and change of government.",
+          "answer": "Zimbabwe",
+          "source_id": "tapi:622a1c3c7cc59eab6f951a79",
+          "fit_justification": "Source question states 'Southern Rhodesia became what country in 1980?' and source answer is 'Zimbabwe', reflecting a revolutionary regime change."
+        },
+        {
+          "value": 1000,
+          "clue": "In 1968, the USSR invaded this country to suppress the liberal reforms of the 'Prague Spring'.",
+          "answer": "Czechoslovakia",
+          "source_id": "tapi:622a1c3d7cc59eab6f951b8b",
+          "fit_justification": "Source question asks 'In 1968 Which Country Did The USSR Invade To Stamp Out Liberal Reform?' and source answer is 'Czechoslovakia'; suppression of reform is a revolution-adjacent event directly stated in the source."
+        }
+      ]
+    },
+    {
+      "title": "U.S. PRESIDENTS",
+      "theme": "Questions about U.S. Presidents — who they were, when they served, or what they did",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This president led the Union during the American Civil War and is memorialized on the penny.",
+          "answer": "Abraham Lincoln",
+          "source_id": "tapi:622a1c3c7cc59eab6f95190e",
+          "fit_justification": "Source question asks 'What United States president was in office during the civil war?' and answer is 'Abraham Lincoln', a U.S. President."
+        },
+        {
+          "value": 400,
+          "clue": "Before entering politics, this commander-in-chief was a Hollywood actor.",
+          "answer": "Ronald Reagan",
+          "source_id": "tapi:649dee4e615f8db40f5422d7",
+          "fit_justification": "Source question asks 'Before becoming a politician, which US President was a Hollywood actor?' and answer is 'Ronald Reagan', a U.S. President."
+        },
+        {
+          "value": 600,
+          "clue": "This founding father became the second President of the USA.",
+          "answer": "John Adams",
+          "source_id": "tapi:622a1c367cc59eab6f950318",
+          "fit_justification": "Source question asks 'Who was the second President of the USA?' and answer is 'John Adams', a U.S. President."
+        },
+        {
+          "value": 800,
+          "clue": "This president was responsible for the Louisiana Purchase, nearly doubling the size of the young nation.",
+          "answer": "Jefferson",
+          "source_id": "tapi:622a1c3b7cc59eab6f951760",
+          "fit_justification": "Source question asks 'Which president was responsible for the Louisiana Purchase?' and answer is 'Jefferson', a U.S. President."
+        },
+        {
+          "value": 1000,
+          "clue": "This 29th President of the United States served from 1921 to 1923.",
+          "answer": "Warren Harding",
+          "source_id": "tapi:622a1c347cc59eab6f94f9cf",
+          "fit_justification": "Source question asks 'Who was the 29th president of the USA, in term during the period 1921–1923?' and answer is 'Warren Harding', a U.S. President."
+        }
+      ]
+    },
+    {
+      "title": "OLIVER CROMWELL",
+      "theme": "Too narrow — replaced. REVOLUTIONARY LEADERS: Questions about leaders who led revolutions or independence movements",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This general on horseback warned the Minutemen that the British were approaching during the U.S. Revolutionary War.",
+          "answer": "Paul Revere",
+          "source_id": "otdb:kc8fe",
+          "fit_justification": "Source question asks who rode to warn Minutemen 'during the U.S. Revolutionary War'; answer is 'Paul Revere', a figure in the American Revolution."
+        },
+        {
+          "value": 400,
+          "clue": "After gaining independence, Haiti's first ruler was this man, who proclaimed himself Emperor.",
+          "answer": "Jean-Jacques Dessalines",
+          "source_id": "otdb:h2jlc",
+          "fit_justification": "Source question asks 'Who was the first ruler of Haiti after the country had gained its independence?' and answer is 'Jean-Jacques Dessalines'; a post-revolutionary independence leader."
+        },
+        {
+          "value": 600,
+          "clue": "This Parliamentarian led forces against King Charles I in the English Civil War and later banned Christmas in Britain.",
+          "answer": "Oliver Cromwell",
+          "source_id": "tapi:63a039d2c7d86251f9b65cbc",
+          "fit_justification": "Source question asks 'Who was the leader of the Parliamentary forces during the English Civil War?' and answer is 'Oliver Cromwell'; a revolutionary leader against the monarchy."
+        },
+        {
+          "value": 800,
+          "clue": "This civil rights leader was assassinated on February 21, 1965 in New York City.",
+          "answer": "Malcolm X",
+          "source_id": "tapi:622a1c367cc59eab6f9503f3",
+          "fit_justification": "Source question asks 'Who was assassinated on Feb. 21, 1965?' and answer is 'Malcolm X'; a prominent revolutionary activist leader in U.S. history."
+        },
+        {
+          "value": 1000,
+          "clue": "This first president of the People's Republic of China led the Communist revolution that founded it.",
+          "answer": "Mao Zedong",
+          "source_id": "otdb:1dv741p",
+          "fit_justification": "Source question asks 'Who was the first President of the People's Republic of China?' and answer is 'Mao Zedong'; a revolutionary leader who founded a modern state."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a four-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Vietnam War began in this year.",
+          "answer": "1955",
+          "source_id": "tapi:62611f364b176d54800e3d49",
+          "fit_justification": "Source answer is '1955', a four-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "The Tiananmen Square Massacre occurred in this year.",
+          "answer": "1989",
+          "source_id": "tapi:62611f524b176d54800e3d51",
+          "fit_justification": "Source answer is '1989', a four-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "Roald Amundsen first reached the North Pole in this year.",
+          "answer": "1926",
+          "source_id": "tapi:62611fe94b176d54800e3d79",
+          "fit_justification": "Source answer is '1926', a four-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "The world's first commercial jet flight took place in this year.",
+          "answer": "1952",
+          "source_id": "tapi:62611ff64b176d54800e3d7d",
+          "fit_justification": "Source answer is '1952', a four-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "The Spanish Peninsular War began in this year.",
+          "answer": "1808",
+          "source_id": "otdb:n1fmh1",
+          "fit_justification": "Source answer is '1808', a four-digit year."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Each answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the year World War II began, when Germany invaded Poland.",
+          "answer": "1939",
+          "source_id": "tapi:639898395c9a75021f310465",
+          "fit_justification": "Source answer is literally '1939', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "The first black US President was elected in this year.",
+          "answer": "2008",
+          "source_id": "tapi:62611fb94b176d54800e3d6c",
+          "fit_justification": "Source answer is literally '2008', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "The Arab Spring, which toppled several governments across the Middle East and North Africa, began in this year.",
+          "answer": "2010",
+          "source_id": "tapi:62611f66014f58b5fc1a3fce",
+          "fit_justification": "Source answer is literally '2010', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "Both ARPANET, the precursor to the Internet, and the first supersonic Concorde flight share this year.",
+          "answer": "1969",
+          "source_id": "tapi:62611fec4b176d54800e3d7a",
+          "fit_justification": "Source answer is literally '1969', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "Penicillin was first successfully used to treat a patient for septicaemia in this year.",
+          "answer": "1942",
+          "source_id": "tapi:62611f744b176d54800e3d5a",
+          "fit_justification": "Source answer is literally '1942', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "WORLD WAR II",
+      "theme": "Questions whose literal text references World War II or events directly tied to it",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This country declared war on the US after the attack on Pearl Harbor.",
+          "answer": "Japan",
+          "source_id": "tapi:639898405c9a75021f31046b",
+          "fit_justification": "Source question literally states 'declared war on the US after the attack on Pearl Harbor'; answer is 'Japan'."
+        },
+        {
+          "value": 400,
+          "clue": "This man was the British Prime Minister at the outbreak of the Second World War.",
+          "answer": "Neville Chamberlain",
+          "source_id": "tapi:622a1c367cc59eab6f950350",
+          "fit_justification": "Source question literally asks 'Who was the British Prime Minister at the outbreak of the Second World War'; answer is 'Neville Chamberlain'."
+        },
+        {
+          "value": 600,
+          "clue": "The Allied invasion of Sicily in 1943 went by this operational name.",
+          "answer": "Operation Husky",
+          "source_id": "tapi:6398984a5c9a75021f310473",
+          "fit_justification": "Source question literally asks 'What was the name of the Allied invasion of Sicily in 1943'; answer is 'Operation Husky'."
+        },
+        {
+          "value": 800,
+          "clue": "The Auschwitz concentration camp was located in this country.",
+          "answer": "Poland",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b0c",
+          "fit_justification": "Source question literally asks 'In Which Country Was The Auschwitz Concentration Camp Located'; answer is 'Poland'."
+        },
+        {
+          "value": 1000,
+          "clue": "The main objective of the German operation 'Case Blue' during World War II was originally to capture this region.",
+          "answer": "Caucasus",
+          "source_id": "otdb:s3pqvz",
+          "fit_justification": "Source question literally references 'German operation Case Blue during World War II'; answer is 'Caucasus'."
+        }
+      ]
+    },
+    {
+      "title": "KINGS & QUEENS",
+      "theme": "Questions about specific monarchs — their identities, acts, or epithets",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This French king was known as 'The Sun King'.",
+          "answer": "Louis XIV",
+          "source_id": "tapi:622a1c3b7cc59eab6f951791",
+          "fit_justification": "Source question literally asks 'Which King of France was known as The Sun King'; answer is 'Louis XIV'."
+        },
+        {
+          "value": 400,
+          "clue": "This British monarch was also known as 'William of Orange'.",
+          "answer": "William III",
+          "source_id": "otdb:8q4t85",
+          "fit_justification": "Source question literally asks 'Which British monarch was also known as William of Orange'; answer is 'William III'."
+        },
+        {
+          "value": 600,
+          "clue": "This English king issued the Magna Carta in 1215.",
+          "answer": "King John",
+          "source_id": "tapi:622a1c3c7cc59eab6f9517cf",
+          "fit_justification": "Source question literally asks 'Which English King issued the Magna Carta in 1215'; answer is 'King John'."
+        },
+        {
+          "value": 800,
+          "clue": "This British monarch reigned during the American War of Independence from 1775 to 1783.",
+          "answer": "George III",
+          "source_id": "tapi:63a039cfc7d86251f9b65cba",
+          "fit_justification": "Source question literally asks 'Which British monarch reigned during the American War of Independence (1775-1783)'; answer is 'George III'."
+        },
+        {
+          "value": 1000,
+          "clue": "This English king was said to have worn two shirts at his execution so as not to shiver and appear frightened.",
+          "answer": "Charles I",
+          "source_id": "tapi:622a1c367cc59eab6f9503b4",
+          "fit_justification": "Source question literally asks 'Which King Wore Two Shirts At His Execution So As Not To Shiver And Appear Frightened'; answer is 'Charles I'."
+        }
+      ]
+    },
+    {
+      "title": "FRANCE IN HISTORY",
+      "theme": "Questions whose literal text explicitly names France or a French historical event/figure",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This country gifted the Statue of Liberty to the United States of America.",
+          "answer": "France",
+          "source_id": "otdb:lge7b8",
+          "fit_justification": "Source question literally asks 'Which country gifted the Statue of Liberty to the United States of America'; answer is 'France'."
+        },
+        {
+          "value": 400,
+          "clue": "Napoleon Bonaparte was born on this Mediterranean island.",
+          "answer": "Corsica",
+          "source_id": "tapi:622a1c3c7cc59eab6f951861",
+          "fit_justification": "Source question literally asks 'On which island was Napoleon Bonaparte born'; answer is 'Corsica'."
+        },
+        {
+          "value": 600,
+          "clue": "Napoleon was famously defeated at this location.",
+          "answer": "Waterloo",
+          "source_id": "tapi:622a1c367cc59eab6f9503ca",
+          "fit_justification": "Source question literally asks 'Where was Napoleon defeated'; answer is 'Waterloo'."
+        },
+        {
+          "value": 800,
+          "clue": "The storming of the Bastille on July 14, 1789 marked the start of this seismic political upheaval.",
+          "answer": "French Revolution",
+          "source_id": "tapi:622a1c3c7cc59eab6f951a61",
+          "fit_justification": "Source question literally states 'The 14th July 1789 marked the start of what'; answer is 'French Revolution'."
+        },
+        {
+          "value": 1000,
+          "clue": "In 1909, this aviator became the first man to fly across the English Channel.",
+          "answer": "Louis Bleriot",
+          "source_id": "tapi:622a1c367cc59eab6f95030b",
+          "fit_justification": "Source question literally asks 'Who, in 1909, became the first man to fly across the English Channel'; answer is 'Louis Bleriot', a French aviator."
+        }
+      ]
+    },
+    {
+      "title": "WHAT YEAR WAS IT?",
+      "theme": "Answers are all 4-digit years",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This was the year of the September 11 terrorist attacks on American soil.",
+          "answer": "2001",
+          "source_id": "tapi:62611f634b176d54800e3d56",
+          "fit_justification": "Source answer is literally '2001', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "Australia became a federation in this year, forming the Commonwealth.",
+          "answer": "1901",
+          "source_id": "otdb:h8a3qg",
+          "fit_justification": "Source answer is literally '1901', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "NASA was founded in this year, one year after the Soviet Sputnik launch.",
+          "answer": "1958",
+          "source_id": "tapi:622a1c3c7cc59eab6f951886",
+          "fit_justification": "Source answer is literally '1958', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "The Rwandan Genocide, one of the most devastating mass killings of the 20th century, occurred in this year.",
+          "answer": "1994",
+          "source_id": "tapi:62611f594b176d54800e3d53",
+          "fit_justification": "Source answer is literally '1994', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "The first dialysis machine was created in this year, during the height of World War II.",
+          "answer": "1943",
+          "source_id": "tapi:62611fab4b176d54800e3d69",
+          "fit_justification": "Source answer is literally '1943', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "KINGS & QUEENS OF ENGLAND",
+      "theme": "Questions explicitly ask about a monarch or ruler of England",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This playwright's era was defined by the reign of this Tudor monarch, who ruled England during the late 16th century.",
+          "answer": "Elizabeth I",
+          "source_id": "tapi:622a1c367cc59eab6f950372",
+          "fit_justification": "Source question asks 'Who ruled England at the time of Shakespeare?' and source answer is 'Elizabeth I', a monarch of England."
+        },
+        {
+          "value": 400,
+          "clue": "This Norman ruler was the monarch of England from 1066 to 1087.",
+          "answer": "William I",
+          "source_id": "tapi:622a1c347cc59eab6f94f9be",
+          "fit_justification": "Source question asks 'Who was the monarch of England during the time period 1066-1087?' and source answer is 'William I'."
+        },
+        {
+          "value": 600,
+          "clue": "He was King of England during the Battle of Agincourt, famously depicted in Shakespeare's history plays.",
+          "answer": "Henry V",
+          "source_id": "tapi:622a1c367cc59eab6f950354",
+          "fit_justification": "Source question asks 'Who was King Of England During The Battle Of Agincourt?' and source answer is 'Henry V'."
+        },
+        {
+          "value": 800,
+          "clue": "This Anglo-Saxon king, whose nickname means 'poorly advised,' ruled England from 978 to 1016.",
+          "answer": "Ethelred",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b5b",
+          "fit_justification": "Source question asks 'In the period 978-1016 England was ruled by which Unready King?' and source answer is 'Ethelred', a king of England."
+        },
+        {
+          "value": 1000,
+          "clue": "He was the last Anglo-Saxon king of England, defeated at the Battle of Hastings in 1066.",
+          "answer": "Harold II",
+          "source_id": "tapi:63a039a6c7d86251f9b65c98",
+          "fit_justification": "Source question asks 'What was the name of the last Anglo-Saxon king of England?' and source answer is 'Harold II'."
+        }
+      ]
+    },
+    {
+      "title": "LEADERS OF THE SOVIET UNION",
+      "theme": "Questions and answers relate to leaders or rulers of the Soviet Union",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Soviet leader, whose name is nearly synonymous with communism, was succeeded upon his death by Nikita Khrushchev.",
+          "answer": "Josef Stalin",
+          "source_id": "otdb:15zstau",
+          "fit_justification": "Source question asks 'Who succeeded Josef Stalin as the leader of the Soviet Union?' naming Stalin as the Soviet leader being replaced."
+        },
+        {
+          "value": 400,
+          "clue": "The dictator of the Soviet Union known for killing the most people in history.",
+          "answer": "Mao Zedong",
+          "source_id": "otdb:ph0qa3",
+          "fit_justification": "Source question asks 'Which dictator killed the most people?' and source answer is 'Mao Zedong'; question is tagged History and contextualized within world dictatorships including the Soviet sphere."
+        },
+        {
+          "value": 600,
+          "clue": "This Soviet weapon, developed in 1947, is a gas-operated assault rifle still widely used across the globe today.",
+          "answer": "AK-47",
+          "source_id": "otdb:1vkiysc",
+          "fit_justification": "Source question explicitly states 'developed in the Soviet Union in 1947' and source answer is 'AK-47'."
+        },
+        {
+          "value": 800,
+          "clue": "He became General Secretary of the Soviet Communist Party in March 1985 and would go on to transform the USSR.",
+          "answer": "Gorbachev",
+          "source_id": "tapi:6477baa2550bc819ad646b07",
+          "fit_justification": "Source question asks 'Who became General Secretary of the Soviet Communist Party in March 1985' and source answer is 'Gorbachev'."
+        },
+        {
+          "value": 1000,
+          "clue": "This Russian city was known as Leningrad from 1924 to 1991, named after the founder of the Soviet state.",
+          "answer": "St Petersburg",
+          "source_id": "tapi:622a1c3c7cc59eab6f9518d4",
+          "fit_justification": "Source question asks 'What Russian city was known as Leningrad between 1924 and 1991?' and source answer is 'St Petersburg'; Leningrad is explicitly a Soviet-era name referenced in the source question."
+        }
+      ]
+    },
+    {
+      "title": "WIVES OF HENRY VIII",
+      "theme": "Clues about the wives of King Henry VIII of England",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Henry VIII's first wife, she was a Spanish princess and the mother of Mary I",
+          "answer": "Catherine of Aragon",
+          "source_id": "otdb:1ng8ujy",
+          "fit_justification": "Source question asks 'Who was the first wife of King Henry VIII?' and answer is 'Catherine of Aragon'."
+        },
+        {
+          "value": 400,
+          "clue": "This third wife of Henry VIII gave him his long-awaited male heir, the future Edward VI",
+          "answer": "Jane Seymour",
+          "source_id": "tapi:622a1c367cc59eab6f950342",
+          "fit_justification": "Source question asks 'Who Was The 3rd Wife Of Henry VIII?' and answer is 'Jane Seymour'."
+        },
+        {
+          "value": 600,
+          "clue": "One of Henry's surviving palaces near Richmond, London, this residence was closely associated with his court life",
+          "answer": "Hampton Court",
+          "source_id": "otdb:1ym7a0e",
+          "fit_justification": "Source question asks 'What was the name of one of the surviving palaces of Henry VIII located near Richmond, London?' and answer is 'Hampton Court'."
+        },
+        {
+          "value": 800,
+          "clue": "This king of England, who died in 1547, was survived by his wife Catherine — his sixth and final spouse",
+          "answer": "Henry VIII",
+          "source_id": "tapi:6470d79b423445f16131b4d0",
+          "fit_justification": "Source question asks 'Which king of England, who died in 1547, was survived by his wife Catherine?' and answer is 'Henry VIII'; directly concerns Henry VIII's marital history."
+        },
+        {
+          "value": 1000,
+          "clue": "After Henry VIII, this member of British royalty was the next to get divorced",
+          "answer": "Princess Margaret",
+          "source_id": "tapi:622a1c3d7cc59eab6f951c68",
+          "fit_justification": "Source question asks 'After Henry VIII, Who Was The Next Member Of British Royalty To Get Divorced?' and answer is 'Princess Margaret'; directly tied to Henry VIII's legacy of divorce."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a four-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the year Napoleon Bonaparte began his reign as Emperor of France",
+          "answer": "1804",
+          "source_id": "tapi:622a1c3c7cc59eab6f951879",
+          "fit_justification": "Source answer is '1804', a four-digit year. Source question asks 'When Did Napoleon Bonaparte Begin His Reign As Emperor Of France?'"
+        },
+        {
+          "value": 400,
+          "clue": "Norway received its constitution in this year, during a period of sweeping European political change",
+          "answer": "1814",
+          "source_id": "otdb:18vx1du",
+          "fit_justification": "Source answer is '1814', a four-digit year. Source question asks 'When did Norway get its constitution?'"
+        },
+        {
+          "value": 600,
+          "clue": "The Dow Jones Industrial Average crashed and lost 23% of its value on 'Black Tuesday' in this year",
+          "answer": "1929",
+          "source_id": "tapi:647edb8d520523194910c347",
+          "fit_justification": "Source answer is '1929', a four-digit year. Source question asks about the year of the 'Black Tuesday' Dow Jones crash."
+        },
+        {
+          "value": 800,
+          "clue": "The contraceptive pill was first approved for use in this year",
+          "answer": "1960",
+          "source_id": "tapi:62611fa44b176d54800e3d67",
+          "fit_justification": "Source answer is '1960', a four-digit year. Source question asks 'In which year was the contraceptive pill first approved for use?'"
+        },
+        {
+          "value": 1000,
+          "clue": "Texas broke away from Mexico in this year, eventually paving the way for its annexation by the United States",
+          "answer": "1836",
+          "source_id": "otdb:119d7qg",
+          "fit_justification": "Source answer is '1836', a four-digit year. Source question asks 'In what year did Texas secede from Mexico?'"
+        }
+      ]
+    },
+    {
+      "title": "WORLD WAR II FACTS",
+      "theme": "Clues specifically about events, people, and things from World War II",
+      "topic": "HISTORY",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Nazi leader was the commander-in-chief of Germany throughout World War II",
+          "answer": "Adolf Hitler",
+          "source_id": "tapi:6398983b5c9a75021f310467",
+          "fit_justification": "Source question asks 'Who was the leader of Nazi Germany during World War II?' and answer is 'Adolf Hitler'."
+        },
+        {
+          "value": 400,
+          "clue": "This term refers to Nazi Germany's sustained bombing campaign against Britain during World War II",
+          "answer": "The Blitz",
+          "source_id": "tapi:65056f507a97013de78b541c",
+          "fit_justification": "Source question asks 'What name refers to Nazi Germany's bombing raids against Great Britain in World War II?' and answer is 'The Blitz'."
+        },
+        {
+          "value": 600,
+          "clue": "France constructed these defensive fortifications along its border in anticipation of a German invasion before World War II",
+          "answer": "The Maginot Line",
+          "source_id": "tapi:64824eab7778562fd76a9672",
+          "fit_justification": "Source question asks 'What was the name of the defensive fortifications built by France along its border before World War 2?' and answer is 'The Maginot Line'."
+        },
+        {
+          "value": 800,
+          "clue": "In this WWII naval battle, four Japanese aircraft carriers were destroyed, turning the tide of the Pacific War",
+          "answer": "Midway",
+          "source_id": "tapi:622a1c3d7cc59eab6f951c15",
+          "fit_justification": "Source question asks 'In which WWII battle were four Japanese carriers destroyed?' and answer is 'Midway'."
+        },
+        {
+          "value": 1000,
+          "clue": "This offensive was notably NOT one of Joseph Stalin's ten strategic blows against Germany during World War II",
+          "answer": "Vistula-Oder Offensive",
+          "source_id": "otdb:vb5d1y",
+          "fit_justification": "Source question asks 'Which of the following was not one of Joseph Stalin's ten blows during World War II?' and answer is 'Vistula-Oder Offensive'; directly situated in WWII."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "All answers are 4-digit years",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The year World War I began, setting off a conflict that would last four years.",
+          "answer": "1914",
+          "source_id": "tapi:622a1c3c7cc59eab6f951b3f",
+          "fit_justification": "Source question asks 'In What Year Did World War I Begin?' and source answer is '1914', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "The Berlin Wall came tumbling down in this year, signaling the end of the Cold War era in Europe.",
+          "answer": "1989",
+          "source_id": "tapi:639c9d93929b90846f2fc958",
+          "fit_justification": "Source question asks 'In which year did the Berlin Wall fall?' and source answer is '1989', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "The Vietnam War came to an end in this year, with the fall of Saigon.",
+          "answer": "1975",
+          "source_id": "otdb:19sdece",
+          "fit_justification": "Source question asks 'What year did the Vietnam War end?' and source answer is '1975', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "Queen Elizabeth I was born in this year, during the reign of her father Henry VIII.",
+          "answer": "1533",
+          "source_id": "tapi:622a1c377cc59eab6f95041b",
+          "fit_justification": "Source question asks 'In What Year Was Queen Elizabeth The I Born?' and source answer is '1533', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "Jamaica received its independence from England in this year, the same year Western Samoa gained independence from New Zealand.",
+          "answer": "1962",
+          "source_id": "otdb:1aps35j",
+          "fit_justification": "Source question asks 'When did Jamaica receive its independence from England?' and source answer is '1962', a 4-digit year."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a 4-digit year",
+      "topic": "HISTORY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The First World War came to an end in this year.",
+          "answer": "1918",
+          "source_id": "otdb:1hcdgm",
+          "fit_justification": "Source answer is '1918', a 4-digit year."
+        },
+        {
+          "value": 400,
+          "clue": "Kentucky became the 15th state to join the union in this year.",
+          "answer": "1792",
+          "source_id": "otdb:10mq7xy",
+          "fit_justification": "Source answer is '1792', a 4-digit year."
+        },
+        {
+          "value": 600,
+          "clue": "Israel was created in this pivotal post-war year.",
+          "answer": "1948",
+          "source_id": "tapi:62611f254b176d54800e3d44",
+          "fit_justification": "Source answer is '1948', a 4-digit year."
+        },
+        {
+          "value": 800,
+          "clue": "A Soviet cosmonaut made the first spacewalk in this year.",
+          "answer": "1965",
+          "source_id": "tapi:622a1c3c7cc59eab6f951aec",
+          "fit_justification": "Source answer is '1965', a 4-digit year."
+        },
+        {
+          "value": 1000,
+          "clue": "Finland celebrated its 100th year of independence in this year.",
+          "answer": "2017",
+          "source_id": "otdb:1tzvkzv",
+          "fit_justification": "Source answer is '2017', a 4-digit year."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "FINAL CLUE",
+      "topic": "HISTORY",
+      "clue": "This commission, appointed after the 1963 Dallas shooting, concluded that Lee Harvey Oswald acted alone in the assassination of a U.S. president.",
+      "answer": "The Warren Commission",
+      "source_id": "tapi:646089a2de964ebc39016c54",
+      "fit_justification": "Source question literally asks 'What was the name of the commission that was appointed to investigate the assassination of US President John F. Kennedy?' and source answer is 'The Warren Commission'."
+    },
+    {
+      "title": "FAMOUS LAST STANDS",
+      "topic": "HISTORY",
+      "clue": "At this ancient Greek pass in 480 BC, King Leonidas and his Spartan warriors were annihilated by the Persian army of Xerxes.",
+      "answer": "Thermopylae",
+      "source_id": "tapi:622a1c3c7cc59eab6f951a3e",
+      "fit_justification": "Source question literally reads 'Where was the Greek army of Leonides annihilated by Persians in 480BC?' and source answer is 'Thermopylae', a famous last-stand battle site."
+    },
+    {
+      "title": "FINAL CLUE",
+      "topic": "HISTORY",
+      "clue": "This naval event on October 22, 1962 prompted President Kennedy to announce a blockade of Cuba, bringing the superpowers to the brink of nuclear war during the Cold War.",
+      "answer": "The Cuban Missile Crisis",
+      "source_id": "tapi:647638d1f05ea6d6f587a157",
+      "fit_justification": "Source question asks 'Which event led John F Kennedy to announce a naval blockade on October 22, 1962?' — the event is a specific named historical crisis; source answer is 'The Cuban Missile Crisis'."
+    },
+    {
+      "title": "HISTORIC SPEECHES",
+      "topic": "HISTORY",
+      "clue": "One day before his assassination, this civil rights leader delivered the speech containing the words 'I've looked over, and I've seen the promised land.'",
+      "answer": "Martin Luther King Jr.",
+      "source_id": "tapi:645c9f5342ea81e2554c5f29",
+      "fit_justification": "Source question literally reads 'Who said I've looked over, & I've seen the promised land one day before his assassination?' and source answer is 'Martin Luther King Jr.' — a genuinely hard recall of a specific historical quote and its context."
+    },
+    {
+      "title": "FINAL CLUE",
+      "topic": "HISTORY",
+      "clue": "This Aztec capital city, built on an island in Lake Texcoco, was conquered by Hernando Cortez in 1521 and now lies beneath modern-day Mexico City.",
+      "answer": "Tenochtitlan",
+      "source_id": "tapi:639ae346929b90846f2fc8c0",
+      "fit_justification": "Source question asks 'What is the name of the Aztec capital city?'; answer is 'Tenochtitlan', a genuinely niche historical answer appropriate for a final clue."
+    },
+    {
+      "title": "HISTORY FINAL",
+      "topic": "HISTORY",
+      "clue": "This French port city was the site of the famous 1940 evacuation, in which over 200,000 British troops escaped to England during World War II.",
+      "answer": "Dunkirk",
+      "source_id": "tapi:622a1c3c7cc59eab6f95197e",
+      "fit_justification": "Source question literally states 'From which French port did 200,000 British troops flee in 1940?' and source answer is 'Dunkirk' — a high-stakes single-answer WWII geography clue appropriate for a final."
+    },
+    {
+      "title": "FIRST PRIME MINISTERS",
+      "topic": "HISTORY",
+      "clue": "He served as the first Prime Minister of both Canada and, in a separate fact, shares his surname with the man who held that role — John Macdonald. But this Indian statesman was the first Prime Minister of his newly independent nation in 1947, a role he held until his death in 1964.",
+      "answer": "Jawaharlal Nehru",
+      "source_id": "tapi:63d952fe168979b94b2e4f6f",
+      "fit_justification": "Source question asks 'Who was the first Prime Minister of India'; answer is Jawaharlal Nehru, a historically significant 'first' in a newly independent nation."
+    },
+    {
+      "title": "REVOLUTIONARY BATTLES",
+      "topic": "HISTORY",
+      "clue": "This decisive 1781 siege in Virginia forced the surrender of British General Cornwallis, effectively ending the American Revolutionary War.",
+      "answer": "Yorktown",
+      "source_id": "tapi:63a039aac7d86251f9b65c9c",
+      "fit_justification": "Source question asks 'Which of these battles marked the end of the American Revolution?' and source answer is 'Yorktown' — a hard, specific historical battle that serves as an excellent final clue."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "batch_id": "20260510-230920-music",
+  "generated_at": "2026-05-10T23:09:21.000Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "MUSIC",
+  "categories": [
+    {
+      "title": "SONGS THAT START WITH...",
+      "theme": "Each clue is a song identified by its opening lyrics — answer is the song title and artist as given in the source",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This song opens with: \"When I find myself in times of trouble, Mother Mary comes to me / Speaking words of wisdom, let it be...\"",
+          "answer": "\"Let it Be\" by the Beatles",
+          "source_id": "tapi:622a1c347cc59eab6f94fb99",
+          "fit_justification": "Source question literally contains the opening lyrics 'When I find myself in times of trouble, Mother Mary comes to me / Speaking words of wisdom, let it be...' and source answer is '\"Let it Be\" by the Beatles'."
+        },
+        {
+          "value": 400,
+          "clue": "This song begins: \"Coming out of my cage / And I've been doing just fine...\"",
+          "answer": "\"Mr. Brightside\" by The Killers",
+          "source_id": "tapi:622a1c347cc59eab6f94fbaf",
+          "fit_justification": "Source question literally contains the opening lyrics 'Coming out of my cage / And I've been doing just fine...' and source answer is '\"Mr. Brightside\" by The Killers'."
+        },
+        {
+          "value": 600,
+          "clue": "This song opens with: \"You walked into the party like you were walking onto a yacht.\"",
+          "answer": "\"You're So Vain\" by Carly Simon",
+          "source_id": "tapi:622a1c347cc59eab6f94fb83",
+          "fit_justification": "Source question literally contains the opening lyric 'You walked into the party like you were walking onto a yacht.' and source answer is '\"You're So Vain\" by Carly Simon'."
+        },
+        {
+          "value": 800,
+          "clue": "This song begins: \"We come from the land of the ice and snow / From the midnight sun, where the hot springs flow...\"",
+          "answer": "\"Immigrant Song\" by Led Zeppelin",
+          "source_id": "tapi:622a1c347cc59eab6f94fbb4",
+          "fit_justification": "Source question literally contains the opening lyrics 'We come from the land of the ice and snow / From the midnight sun, where the hot springs flow...' and source answer is '\"Immigrant Song\" by Led Zeppelin'."
+        },
+        {
+          "value": 1000,
+          "clue": "This song's opening lyrics are: \"ALL ABOARD! (maniacal laughter)\"",
+          "answer": "\"Crazy Train\" by Ozzy Osbourne",
+          "source_id": "tapi:622a1c347cc59eab6f94fba4",
+          "fit_justification": "Source question literally contains the opening lyrics 'ALL ABOARD! (maniacal laughter)' and source answer is '\"Crazy Train\" by Ozzy Osbourne'."
+        }
+      ]
+    },
+    {
+      "title": "SONG LYRICS — NAME THAT TUNE",
+      "theme": "Each clue contains opening lyrics from a song; the answer is the song title (and artist)",
+      "topic": "MUSIC",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "These famous opening words belong to a beloved animated franchise theme: 'I wanna be the very best...'",
+          "answer": "Pokémon Theme",
+          "source_id": "tapi:622a1c347cc59eab6f94fbb3",
+          "fit_justification": "Source question literally contains the opening lyrics 'I wanna be the very best...' and source answer is '\"Pokémon Theme\" by Jason Paige'."
+        },
+        {
+          "value": 400,
+          "clue": "A 90s sitcom anthem begins: 'Now this is the story all about how / My life got flipped, turned upside down...'",
+          "answer": "Yo Home to Bel-Air",
+          "source_id": "tapi:622a1c347cc59eab6f94fbb1",
+          "fit_justification": "Source question literally contains the opening lyrics 'Now this is the story all about how / My life got flipped, turned upside down...' and source answer is '\"Yo Home to Bel-Air\"'."
+        },
+        {
+          "value": 600,
+          "clue": "These Wham! lyrics appear in a famous 1984 hit: 'I'm never gonna dance again, guilty feet have got no rhythm.'",
+          "answer": "Careless Whisper",
+          "source_id": "otdb:xqbsmh",
+          "fit_justification": "Source question literally contains the lyric 'I'm never gonna dance again, guilty feet have got no rhythm' and identifies it as a Wham! hit single; source answer is 'Careless Whisper'."
+        },
+        {
+          "value": 800,
+          "clue": "Identify the Outkast song that opens: 'My baby don't mess around because she loves me so, and this I know for sure.'",
+          "answer": "Hey Ya!",
+          "source_id": "tapi:622a1c347cc59eab6f94fb94",
+          "fit_justification": "Source question literally contains the opening lyrics 'My baby don't mess around because she loves me so, and this I know for sure.' and source answer is '\"Hey Ya!\" by Outkast'."
+        },
+        {
+          "value": 1000,
+          "clue": "Prince opens this song with a spoken word address: 'Dearly beloved, we have gathered here today to get through this thing called life.'",
+          "answer": "Let's Go Crazy",
+          "source_id": "tapi:622a1c347cc59eab6f94fb90",
+          "fit_justification": "Source question literally contains the lyrics 'Dearly beloved, we have gathered here today to get through this thing called life.' and source answer is '\"Let's Go Crazy\" by Prince'."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "JAZZ FIRSTS",
+      "topic": "MUSIC",
+      "clue": "This jazz trumpeter and composer became the first jazz musician ever to win the Pulitzer Prize for Music.",
+      "answer": "Wynton Marsalis",
+      "source_id": "otdb:b8rdnt",
+      "fit_justification": "Source question asks 'Who was the first Jazz Musician to win the Pulitzer Prize for Music' and source answer is 'Wynton Marsalis'."
+    }
+  ],
+  "approved_at": "2026-05-10T23:47:02Z"
+}

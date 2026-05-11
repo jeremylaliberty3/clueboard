@@ -1,0 +1,107 @@
+{
+  "batch_id": "20260510-231408-pop_culture",
+  "generated_at": "2026-05-10T23:14:08.743Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "POP_CULTURE",
+  "categories": [
+    {
+      "title": "ACADEMY AWARD WINNERS",
+      "theme": "Each clue describes an actor or actress who won an Academy Award for a specific role; the answer is the winner's name",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This actor took home the 1994 Best Leading Actor Oscar for his portrayal of a slow-witted but kind-hearted Southerner who runs, plays ping-pong, and loves Jenny.",
+          "answer": "Tom Hanks",
+          "source_id": "tapi:622a1c347cc59eab6f94fadd",
+          "fit_justification": "Source question states 'Who won the 1994 Academy Award for Best Leading Actor for playing the role of Forrest Gump in Forrest Gump?' and source answer is 'Tom Hanks'."
+        },
+        {
+          "value": 400,
+          "clue": "She won the 2000 Best Leading Actress Oscar for portraying a real-life legal activist who took on a major utility company in California.",
+          "answer": "Julia Roberts",
+          "source_id": "tapi:622a1c347cc59eab6f94fb14",
+          "fit_justification": "Source question states 'Who won the 2000 Academy Award for Best Leading Actress for playing the role of Erin Brockovich in Erin Brockovich?' and source answer is 'Julia Roberts'."
+        },
+        {
+          "value": 600,
+          "clue": "This supporting actor won the 2004 Oscar for his role as trainer Eddie Scrap-Iron Dupris in a Clint Eastwood boxing drama.",
+          "answer": "Morgan Freeman",
+          "source_id": "tapi:622a1c347cc59eab6f94fa6e",
+          "fit_justification": "Source question states 'Who won the 2004 Academy Award for Best Supporting Actor for playing the role of Eddie Scrap-Iron Dupris in Million Dollar Baby?' and source answer is 'Morgan Freeman'."
+        },
+        {
+          "value": 800,
+          "clue": "He claimed the 2019 Best Supporting Actor Oscar for playing stuntman Cliff Booth alongside Leonardo DiCaprio in a Tarantino film set in 1969 Hollywood.",
+          "answer": "Brad Pitt",
+          "source_id": "tapi:622a1c347cc59eab6f94fa59",
+          "fit_justification": "Source question states 'Who won the 2019 Academy Award for Best Supporting Actor for playing the role of Cliff Booth in Once upon a Time...in Hollywood?' and source answer is 'Brad Pitt'."
+        },
+        {
+          "value": 1000,
+          "clue": "This actor won the 2018 Best Leading Actor Oscar for his portrayal of legendary Queen frontman Freddie Mercury in a biographical film.",
+          "answer": "Rami Malek",
+          "source_id": "tapi:622a1c347cc59eab6f94fac1",
+          "fit_justification": "Source question states 'Who won the 2018 Academy Award for Best Leading Actor for playing the role of Freddie Mercury in Bohemian Rhapsody?' and source answer is 'Rami Malek'."
+        }
+      ]
+    },
+    {
+      "title": "WHICH FILM CONTAINS THIS CHARACTER?",
+      "theme": "Each clue names a fictional film character; the answer is the film they appear in",
+      "topic": "POP_CULTURE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The menacing shark hunter 'Captain Quint' sails these waters in this 1975 thriller.",
+          "answer": "Jaws",
+          "source_id": "tapi:622a1c347cc59eab6f94f91f",
+          "fit_justification": "Source question literally asks 'Which film contains the character Captain Quint?' and source answer is 'Jaws'."
+        },
+        {
+          "value": 400,
+          "clue": "The tormented cabbie 'Travis Bickle' prowls New York City's mean streets in this 1976 Martin Scorsese film.",
+          "answer": "Taxi Driver",
+          "source_id": "tapi:622a1c347cc59eab6f94f91a",
+          "fit_justification": "Source question literally asks 'Which film contains the character Travis Bickle?' and source answer is 'Taxi Driver'."
+        },
+        {
+          "value": 600,
+          "clue": "The gold-obsessed prospector 'Fred C. Dobbs' descends into greed and paranoia in this 1948 classic.",
+          "answer": "The Treasure of the Sierra Madre",
+          "source_id": "tapi:622a1c347cc59eab6f94f915",
+          "fit_justification": "Source question literally asks 'Which film contains the character Fred C. Dobbs?' and source answer is 'The Treasure of the Sierra Madre'."
+        },
+        {
+          "value": 800,
+          "clue": "The scheming actress 'Eve Harrington' worms her way into a Broadway star's life in this 1950 drama.",
+          "answer": "All About Eve",
+          "source_id": "tapi:625740619da29df7b05f73d9",
+          "fit_justification": "Source question asks to name the movie matching the plot of 'A secretly ruthless woman insinuates herself into the lives of an aging actor and her circle of theater friends'; source answer is 'All About Eve', and the character Eve is central to the film's identity."
+        },
+        {
+          "value": 1000,
+          "clue": "The flamboyant fading movie star 'Alan Swann' tries to recapture his glory on a live TV special in this 1982 comedy.",
+          "answer": "My Favorite Year",
+          "source_id": "tapi:622a1c347cc59eab6f94f933",
+          "fit_justification": "Source question literally asks 'Which film contains the character Alan Swann?' and source answer is 'My Favorite Year'."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "MOVIE QUOTES",
+      "topic": "POP_CULTURE",
+      "clue": "The iconic line 'Say hello to my little friend!' is bellowed by Al Pacino's drug lord character in this 1983 Brian De Palma crime epic.",
+      "answer": "Scarface",
+      "source_id": "otdb:n8yy50",
+      "fit_justification": "Source question states 'Which movie contains the quote, \"Say hello to my little friend!\"?' and source answer is 'Scarface'; the question literally contains the quoted line and asks for the film title."
+    }
+  ],
+  "approved_at": "2026-05-10T23:47:02Z"
+}

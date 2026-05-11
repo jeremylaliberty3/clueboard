@@ -1,0 +1,98 @@
+{
+  "batch_id": "20260510-231550-wordplay",
+  "generated_at": "2026-05-10T23:15:50.478Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "WORDPLAY",
+  "categories": [
+    {
+      "title": "ANSWERS ENDING IN -ISM",
+      "theme": "Every answer ends in the letters -ISM",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This art movement, pioneered by Claude Monet, focused on capturing fleeting light and color in everyday scenes.",
+          "answer": "Impressionism",
+          "source_id": "tapi:622a1c3a7cc59eab6f951361",
+          "fit_justification": "Source answer 'Impressionism' literally ends in -ISM."
+        },
+        {
+          "value": 400,
+          "clue": "Pablo Picasso's 'Les Demoiselles d'Avignon' is a landmark work of this art movement, which employed fragmented, multiple-viewpoint imagery.",
+          "answer": "Cubism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa3a",
+          "fit_justification": "Source answer 'Cubism' literally ends in -ISM."
+        },
+        {
+          "value": 600,
+          "clue": "René Magritte's 'The Son of Man' belongs to this art movement, known for its dreamlike, irrational imagery.",
+          "answer": "Surrealism",
+          "source_id": "tapi:622a1c347cc59eab6f94fa4b",
+          "fit_justification": "Source answer 'Surrealism' literally ends in -ISM."
+        },
+        {
+          "value": 800,
+          "clue": "This term, ending in -ism, describes the error of placing something in the wrong historical time period.",
+          "answer": "Anachronism",
+          "source_id": "tapi:64909c4c58265893a0c86d97",
+          "fit_justification": "Source answer 'Anachronism' literally ends in -ISM."
+        },
+        {
+          "value": 1000,
+          "clue": "Piet Mondrian, known for his bold grids and primary colors, was a leading figure of this Dutch abstract art movement.",
+          "answer": "Neoplasticism",
+          "source_id": "otdb:1musvzz",
+          "fit_justification": "Source answer 'Neoplasticism' literally ends in -ISM."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS ENDING IN -ETTE",
+      "theme": "Every answer ends in the letters -ETTE",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This ill-fated Queen of France was beheaded during the Revolution in 1793.",
+          "answer": "Marie Antoinette",
+          "source_id": "tapi:622a1c3c7cc59eab6f951a1a",
+          "fit_justification": "Source answer 'Marie Antoinette' literally ends in -ETTE."
+        },
+        {
+          "value": 400,
+          "clue": "This flat board is used by a painter to mix and hold colors while working.",
+          "answer": "A Palette",
+          "source_id": "tapi:622a1c3a7cc59eab6f951367",
+          "fit_justification": "Source answer 'A Palette' literally ends in -ETTE."
+        },
+        {
+          "value": 600,
+          "clue": "In the UK, this green summer squash goes by a French-derived name rather than the American 'zucchini.'",
+          "answer": "Courgette",
+          "source_id": "tapi:622a1c367cc59eab6f950286",
+          "fit_justification": "Source answer 'Courgette' literally ends in -ETTE."
+        },
+        {
+          "value": 800,
+          "clue": "This Swedish pop duo, famous for 'The Look' and 'It Must Have Been Love,' released a greatest hits album called 'Don't Bore Us With The Chorus.'",
+          "answer": "Roxette",
+          "source_id": "tapi:622a1c357cc59eab6f94ffc7",
+          "fit_justification": "Source answer 'Roxette' literally ends in -ETTE."
+        },
+        {
+          "value": 1000,
+          "clue": "This Italian pasta's name translates to 'bibs,' referring to its wide, flat ribbon shape.",
+          "answer": "Bavette",
+          "source_id": "tapi:6250064c0d86c8f685d80ee0",
+          "fit_justification": "Source answer 'Bavette' literally ends in -ETTE."
+        }
+      ]
+    }
+  ],
+  "finals": [],
+  "approved_at": "2026-05-10T23:47:02Z"
+}
