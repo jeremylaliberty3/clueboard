@@ -116,7 +116,15 @@ export default function ClueModal({
             pattern="[0-9]*"
             value={wagerInput}
             onChange={(e) => setWagerInput(e.target.value.replace(/[^0-9]/g, ""))}
-            onKeyDown={(e) => { if (e.key === "Enter" && valid) lockWager(); }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                // preventDefault so the Enter keypress can't continue to
+                // submit the answer-phase form that gets rendered on the
+                // next tick when we setWager().
+                e.preventDefault();
+                if (valid) lockWager();
+              }
+            }}
             className="w-44 mx-auto block text-center text-3xl font-bold px-4 py-3 rounded bg-white/10 border border-white/20 text-gold-bright focus:outline-none focus:border-gold-bright"
           />
           <button
@@ -175,17 +183,12 @@ export default function ClueModal({
               </button>
               <button
                 type="submit"
-                disabled={submitting || (!answer.trim() && !isDD)}
+                disabled={submitting || !answer.trim()}
                 className="px-6 py-2 bg-gold text-board font-bold rounded hover:brightness-110 disabled:opacity-50"
               >
                 {submitting ? "Checking…" : "Submit"}
               </button>
             </div>
-            {isDD && !answer.trim() && (
-              <p className="text-xs text-wrong/70 text-right">
-                Empty submission counts as incorrect.
-              </p>
-            )}
           </form>
         ) : (
           <div className="text-center py-4">
