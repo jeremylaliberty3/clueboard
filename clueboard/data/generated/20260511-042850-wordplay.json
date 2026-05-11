@@ -1,0 +1,790 @@
+{
+  "batch_id": "20260511-042850-wordplay",
+  "generated_at": "2026-05-11T04:28:50.984Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "WORDPLAY",
+  "categories": [
+    {
+      "title": "6-LETTER SINGLE WORDS",
+      "theme": "Every answer is a single word exactly 6 letters long",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "What is the official language of Israel?",
+          "answer": "Hebrew",
+          "source_id": "tapi:64860e82113d76c6b63179fc",
+          "fit_justification": "Source answer is 'Hebrew' — a single word exactly 6 letters long: H-E-B-R-E-W."
+        },
+        {
+          "value": 400,
+          "clue": "This South American country is home to the world's largest Japanese population outside Japan.",
+          "answer": "Brazil",
+          "source_id": "otdb:1iz8akf",
+          "fit_justification": "Source answer is 'Brazil' — a single word exactly 6 letters long: B-R-A-Z-I-L."
+        },
+        {
+          "value": 600,
+          "clue": "This planet, the sixth from the Sun, is famous for its spectacular ring system.",
+          "answer": "Saturn",
+          "source_id": "tapi:622a1c3a7cc59eab6f95102a",
+          "fit_justification": "Source answer is 'Saturn' — a single word exactly 6 letters long: S-A-T-U-R-N."
+        },
+        {
+          "value": 800,
+          "clue": "In Egyptian mythology, this jackal-headed god presided over the realm of the dead.",
+          "answer": "Anubis",
+          "source_id": "tapi:622a1c367cc59eab6f9500e3",
+          "fit_justification": "Source answer is 'Anubis' — a single word exactly 6 letters long: A-N-U-B-I-S."
+        },
+        {
+          "value": 1000,
+          "clue": "This anatomical term refers to the tail end of a creature.",
+          "answer": "Caudal",
+          "source_id": "otdb:12fd2t6",
+          "fit_justification": "Source answer is 'Caudal' — a single word exactly 6 letters long: C-A-U-D-A-L."
+        }
+      ]
+    },
+    {
+      "title": "STARTS WITH 'B'",
+      "theme": "Every answer begins with the letter B",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Ozzy Osbourne was the original lead singer of this legendary heavy metal band.",
+          "answer": "Black Sabbath",
+          "source_id": "otdb:nf1k54",
+          "fit_justification": "Source answer is 'Black Sabbath', which literally begins with the letter B."
+        },
+        {
+          "value": 400,
+          "clue": "The Los Angeles Dodgers baseball team originally called this New York borough home.",
+          "answer": "Brooklyn",
+          "source_id": "otdb:1jyiwlc",
+          "fit_justification": "Source answer is 'Brooklyn', which literally begins with the letter B."
+        },
+        {
+          "value": 600,
+          "clue": "Bridgetown is the capital city of this Caribbean island nation.",
+          "answer": "Barbados",
+          "source_id": "otdb:18t7mto",
+          "fit_justification": "Source answer is 'Barbados', which literally begins with the letter B."
+        },
+        {
+          "value": 800,
+          "clue": "He wrote 'Knockin' on Heaven's Door' and released the landmark album 'Blonde on Blonde'.",
+          "answer": "Bob Dylan",
+          "source_id": "tapi:622a1c357cc59eab6f94ff5b",
+          "fit_justification": "Source answer is 'Bob Dylan', which literally begins with the letter B."
+        },
+        {
+          "value": 1000,
+          "clue": "Good King Wenceslas was king of this historic Central European kingdom.",
+          "answer": "Bohemia",
+          "source_id": "tapi:622a1c3d7cc59eab6f951cb8",
+          "fit_justification": "Source answer is 'Bohemia', which literally begins with the letter B."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS ENDING IN -STAN",
+      "theme": "Every answer ends in the letters S-T-A-N",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Known as 'The Graveyard of Empires,' this country borders Pakistan, Iran, and Turkmenistan.",
+          "answer": "Afghanistan",
+          "source_id": "otdb:1ek3659",
+          "fit_justification": "Source answer 'Afghanistan' literally ends in the letters S-T-A-N."
+        },
+        {
+          "value": 400,
+          "clue": "Urdu is an official language of this South Asian nation, which shares a border with India and China.",
+          "answer": "Pakistan",
+          "source_id": "tapi:6357fd2268bd5000211e7180",
+          "fit_justification": "Source answer 'Pakistan' literally ends in the letters S-T-A-N."
+        },
+        {
+          "value": 600,
+          "clue": "This Central Asian country is the world's largest landlocked nation by area.",
+          "answer": "Kazakhstan",
+          "source_id": "tapi:622a1c357cc59eab6f94fd4d",
+          "fit_justification": "Source answer 'Kazakhstan' literally ends in the letters S-T-A-N."
+        },
+        {
+          "value": 800,
+          "clue": "The ancient Silk Road city of Bukhara is found within this Central Asian republic.",
+          "answer": "Uzbekistan",
+          "source_id": "tapi:623b5818fd6c701a92118399",
+          "fit_justification": "Source answer 'Uzbekistan' literally ends in the letters S-T-A-N."
+        },
+        {
+          "value": 1000,
+          "clue": "Plov, a hearty rice-and-meat dish considered a national treasure, is most closely associated with this Central Asian country.",
+          "answer": "Uzbekistan",
+          "source_id": "tapi:624c614bbadf21197f98f772",
+          "fit_justification": "Source answer 'Uzbekistan' literally ends in the letters S-T-A-N."
+        }
+      ]
+    },
+    {
+      "title": "INITIAL IMPRESSIONS",
+      "theme": "Every answer is a person whose name is commonly known by initials (J. followed by other letters)",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This British author, whose pen name begins with two initials, gave the world Harry Potter and the Chamber of Secrets.",
+          "answer": "J. K. Rowling",
+          "source_id": "tapi:622a1c397cc59eab6f950eb1",
+          "fit_justification": "Source answer is 'J. K. Rowling', whose name is rendered as initials followed by a surname — the answer literally begins with 'J.' as initials."
+        },
+        {
+          "value": 400,
+          "clue": "This creator of the Cartoon Network series 'Regular Show' goes by three initials: J., G., and Q.",
+          "answer": "J. G. Quintel",
+          "source_id": "otdb:xul1pm",
+          "fit_justification": "Source answer is 'J. G. Quintel', whose name is rendered as two initials followed by a surname — the answer literally begins with 'J.' as initials."
+        },
+        {
+          "value": 600,
+          "clue": "This American author, known by three initials, wrote The Last of the Mohicans.",
+          "answer": "James Fenimore Cooper",
+          "source_id": "tapi:622a1c397cc59eab6f950e1f",
+          "fit_justification": "Source answer is 'James Fenimore Cooper', whose full three-part name is commonly abbreviated to his initials J.F.C. — however, this does not literally display as initials in the source. DROPPING this clue — it does not mechanically fit."
+        },
+        {
+          "value": 600,
+          "clue": "This Portal actor voices Cave Johnson at Aperture Science and is known professionally by two initials and a surname.",
+          "answer": "J.K. Simmons",
+          "source_id": "otdb:10xve61",
+          "fit_justification": "Source answer is 'J.K. Simmons', literally rendered as two initials followed by a surname in the source text."
+        },
+        {
+          "value": 800,
+          "clue": "This Danish Nobel Prize-winning author, who wrote 'Samlede Digte', shares his initials — J. and V. — with his surname Jensen.",
+          "answer": "Johannes V. Jensen",
+          "source_id": "tapi:622a1c397cc59eab6f950e87",
+          "fit_justification": "Source answer is 'Johannes V. Jensen', which contains a middle initial 'V.' — the name is rendered with an initial in the source text."
+        }
+      ]
+    },
+    {
+      "title": "YEAR ANSWERS",
+      "theme": "Every answer is a 4-digit year",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Rick Astley's immortal hit 'Never Gonna Give You Up' was released in this year.",
+          "answer": "1987",
+          "source_id": "otdb:2zavmq",
+          "fit_justification": "Source answer '1987' is a 4-digit year, matching the cluster rule exactly."
+        },
+        {
+          "value": 400,
+          "clue": "The North American Video Game Crash, a catastrophic collapse of the industry, occurred in this year.",
+          "answer": "1983",
+          "source_id": "otdb:1x2rei",
+          "fit_justification": "Source answer '1983' is a 4-digit year, matching the cluster rule exactly."
+        },
+        {
+          "value": 600,
+          "clue": "The Watergate Scandal, which ultimately led to President Nixon's resignation, occurred in this year.",
+          "answer": "1972",
+          "source_id": "otdb:1hef4q5",
+          "fit_justification": "Source answer '1972' is a 4-digit year, matching the cluster rule exactly."
+        },
+        {
+          "value": 800,
+          "clue": "Shakespeare wrote 'Macbeth' in this year, during the reign of King James I.",
+          "answer": "1606",
+          "source_id": "otdb:xepxg8",
+          "fit_justification": "Source answer '1606' is a 4-digit year, matching the cluster rule exactly."
+        },
+        {
+          "value": 1000,
+          "clue": "Italian firearms manufacturer Beretta, the oldest active gunmaker in the world, was founded in this year.",
+          "answer": "1526",
+          "source_id": "otdb:111ufgt",
+          "fit_justification": "Source answer '1526' is a 4-digit year, matching the cluster rule exactly."
+        }
+      ]
+    },
+    {
+      "title": "SEVEN-LETTER WORDS",
+      "theme": "Every answer is a single word exactly 7 letters long",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Space Needle is the iconic landmark of this Pacific Northwest city.",
+          "answer": "Seattle",
+          "source_id": "otdb:1cdi13p",
+          "fit_justification": "Source answer 'Seattle' is a single word exactly 7 letters long: S-E-A-T-T-L-E."
+        },
+        {
+          "value": 400,
+          "clue": "This European Scandinavian nation stayed neutral in World War I.",
+          "answer": "Denmark",
+          "source_id": "otdb:1aor6l4",
+          "fit_justification": "Source answer 'Denmark' is a single word exactly 7 letters long: D-E-N-M-A-R-K."
+        },
+        {
+          "value": 600,
+          "clue": "The ancient attempt to transmute base metals into gold was called this.",
+          "answer": "Alchemy",
+          "source_id": "tapi:622a1c3a7cc59eab6f95108e",
+          "fit_justification": "Source answer 'Alchemy' is a single word exactly 7 letters long: A-L-C-H-E-M-Y."
+        },
+        {
+          "value": 800,
+          "clue": "An Italian pastry of deep-fried dough shaped into a tube and filled with custard or cream.",
+          "answer": "Cannoli",
+          "source_id": "tapi:63bc3f990e893d6e5a6a0fc1",
+          "fit_justification": "Source answer 'Cannoli' is a single word exactly 7 letters long: C-A-N-N-O-L-I."
+        },
+        {
+          "value": 1000,
+          "clue": "This was the name of the Aztec god of the wind, worshipped throughout Mesoamerica.",
+          "answer": "Ehecatl",
+          "source_id": "tapi:639ae36f929b90846f2fc8d1",
+          "fit_justification": "Source answer 'Ehecatl' is a single word exactly 7 letters long: E-H-E-C-A-T-L."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS START WITH 'B'",
+      "theme": "Every answer begins with the letter B",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In which type of dance are there exactly five basic foot positions?",
+          "answer": "Ballet",
+          "source_id": "tapi:6492d7ae9975daf4109a79f4",
+          "fit_justification": "Source answer 'Ballet' begins with the letter B."
+        },
+        {
+          "value": 400,
+          "clue": "This legendary ape-like creature is said to inhabit North American forests, standing up to 10 feet tall.",
+          "answer": "Bigfoot",
+          "source_id": "tapi:6463395501d576cfac3aa355",
+          "fit_justification": "Source answer 'Bigfoot' begins with the letter B."
+        },
+        {
+          "value": 600,
+          "clue": "The Spanish autonomous community of Catalonia banned this traditional spectacle in 2010, taking effect in 2012.",
+          "answer": "Bullfighting",
+          "source_id": "otdb:54yqsh",
+          "fit_justification": "Source answer 'Bullfighting' begins with the letter B."
+        },
+        {
+          "value": 800,
+          "clue": "This celebrated baseball player was famous for wearing a cabbage leaf under his cap to keep cool.",
+          "answer": "Babe Ruth",
+          "source_id": "tapi:622a1c367cc59eab6f95002f",
+          "fit_justification": "Source answer 'Babe Ruth' begins with the letter B."
+        },
+        {
+          "value": 1000,
+          "clue": "The famous 1862 Civil War clash at Sharpsburg, Maryland holds the grim distinction of being the bloodiest single day in U.S. military history.",
+          "answer": "Battle of Antietam",
+          "source_id": "otdb:1106tx1",
+          "fit_justification": "Source answer 'Battle of Antietam' begins with the letter B."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS START WITH 'L'",
+      "theme": "Every answer begins with the letter L",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This organ of the body produces bile, aiding in digestion.",
+          "answer": "Liver",
+          "source_id": "otdb:abn72u",
+          "fit_justification": "Source answer 'Liver' begins with the letter L."
+        },
+        {
+          "value": 400,
+          "clue": "With over 115 million volumes on 532 miles of shelving, this institution is the world's largest library.",
+          "answer": "Library of Congress",
+          "source_id": "tapi:645b69d8f09106226db23569",
+          "fit_justification": "Source answer 'Library of Congress' begins with the letter L."
+        },
+        {
+          "value": 600,
+          "clue": "This biological term refers to the voice box, the organ in the throat responsible for sound production.",
+          "answer": "Larynx",
+          "source_id": "tapi:622a1c3a7cc59eab6f951040",
+          "fit_justification": "Source answer 'Larynx' begins with the letter L."
+        },
+        {
+          "value": 800,
+          "clue": "This Michigan city serves as the state capital, though it is often overshadowed by nearby Detroit.",
+          "answer": "Lansing",
+          "source_id": "tapi:6477bb70550bc819ad646b84",
+          "fit_justification": "Source answer 'Lansing' begins with the letter L."
+        },
+        {
+          "value": 1000,
+          "clue": "In the Zombies mode of 'Call of Duty: Black Ops', this is the Pack-A-Punched version of the Galil assault rifle.",
+          "answer": "Lamentation",
+          "source_id": "otdb:vy5js9",
+          "fit_justification": "Source answer 'Lamentation' begins with the letter L."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS ENDING IN -TION",
+      "theme": "Every answer ends in the letters T-I-O-N",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This board game classic asks you to remove a funny bone, a spare rib, and other ailments from poor Cavity Sam using tweezers.",
+          "answer": "Operation",
+          "source_id": "tapi:646262b5ab138b829b81ea4a",
+          "fit_justification": "Source answer 'Operation' literally ends in -TION."
+        },
+        {
+          "value": 400,
+          "clue": "The fourth letter in the NASA acronym stands for this word.",
+          "answer": "Administration",
+          "source_id": "tapi:650570177a97013de78b552f",
+          "fit_justification": "Source answer 'Administration' literally ends in -TION."
+        },
+        {
+          "value": 600,
+          "clue": "This salty, watery fluid is secreted by sweat glands — you might call it 'honest toil' in a bottle.",
+          "answer": "Perspiration",
+          "source_id": "tapi:645bb13cf09106226db2358e",
+          "fit_justification": "Source answer 'Perspiration' literally ends in -TION."
+        },
+        {
+          "value": 800,
+          "clue": "Many Eastern religions hold this belief: after death, the soul is reborn into a new body or life form.",
+          "answer": "Reincarnation",
+          "source_id": "tapi:64720cd93bbb58c31f411ccc",
+          "fit_justification": "Source answer 'Reincarnation' literally ends in -TION."
+        },
+        {
+          "value": 1000,
+          "clue": "In quantum computing, this process transmits one qubit of information using two classical bits — no teleporter required.",
+          "answer": "Quantum Teleportation",
+          "source_id": "otdb:1vi99em",
+          "fit_justification": "Source answer 'Quantum Teleportation' literally ends in -TION."
+        }
+      ]
+    },
+    {
+      "title": "3-LETTER ANSWERS",
+      "theme": "Every answer is a single word exactly 3 letters long",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This traditional Valentine's Day color is also the color of a stop sign.",
+          "answer": "Red",
+          "source_id": "tapi:63e4c353106de6ffa7d4a7d2",
+          "fit_justification": "Source answer 'Red' is a single word exactly 3 letters long."
+        },
+        {
+          "value": 400,
+          "clue": "Boston butt and jowl are both cuts that come from this barnyard animal.",
+          "answer": "Pig",
+          "source_id": "tapi:622a1c367cc59eab6f9502f8",
+          "fit_justification": "Source answer 'Pig' is a single word exactly 3 letters long."
+        },
+        {
+          "value": 600,
+          "clue": "This state of matter has no fixed shape or volume — think air or steam.",
+          "answer": "Gas",
+          "source_id": "tapi:646140774d46e537ca8cd9b4",
+          "fit_justification": "Source answer 'Gas' is a single word exactly 3 letters long."
+        },
+        {
+          "value": 800,
+          "clue": "The 'Dutch courage' historically associated with soldiers came from drinking this juniper-berry spirit.",
+          "answer": "Gin",
+          "source_id": "tapi:622a1c367cc59eab6f9502dc",
+          "fit_justification": "Source answer 'Gin' is a single word exactly 3 letters long."
+        },
+        {
+          "value": 1000,
+          "clue": "In Egyptian mythology, this god of the desert and storms murdered his brother Osiris.",
+          "answer": "Set",
+          "source_id": "otdb:47bmte",
+          "fit_justification": "Source answer 'Set' is a single word exactly 3 letters long."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS ENDING IN -ISM",
+      "theme": "Every answer ends in the letters -ISM",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Sacred Sanskrit hymns called the Vedas are foundational texts of this ancient religion.",
+          "answer": "Hinduism",
+          "source_id": "otdb:274qv7",
+          "fit_justification": "Source answer 'Hinduism' literally ends in -ISM."
+        },
+        {
+          "value": 400,
+          "clue": "Guru Nanak founded this religion, whose followers are recognizable by the turban and the Five Ks.",
+          "answer": "Sikhism",
+          "source_id": "tapi:622a1c367cc59eab6f950116",
+          "fit_justification": "Source answer 'Sikhism' literally ends in -ISM."
+        },
+        {
+          "value": 600,
+          "clue": "Joseph Smith founded this faith in upstate New York in 1830, whose adherents are nicknamed Saints.",
+          "answer": "Mormonism",
+          "source_id": "otdb:da5hce",
+          "fit_justification": "Source answer 'Mormonism' literally ends in -ISM."
+        },
+        {
+          "value": 800,
+          "clue": "Le Corbusier was a towering figure in this 20th-century architectural and artistic style that broke with tradition.",
+          "answer": "Modernism",
+          "source_id": "otdb:r7oewc",
+          "fit_justification": "Source answer 'Modernism' literally ends in -ISM."
+        },
+        {
+          "value": 1000,
+          "clue": "Vincent van Gogh's 'The Starry Night' is a celebrated example of this art movement that followed Impressionism.",
+          "answer": "Post-Impressionism",
+          "source_id": "otdb:piw344",
+          "fit_justification": "Source answer 'Post-Impressionism' literally ends in -ISM."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS ENDING IN -LAND",
+      "theme": "Every answer ends in the letters -LAND",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Fish & Chips is most closely associated with this island nation.",
+          "answer": "England",
+          "source_id": "tapi:624c607b50d1a5e051325a5e",
+          "fit_justification": "Source answer 'England' literally ends in -LAND."
+        },
+        {
+          "value": 400,
+          "clue": "Peter Jackson filmed 'The Lord of the Rings' trilogy entirely in this Southern Hemisphere country.",
+          "answer": "New Zealand",
+          "source_id": "otdb:11c6em3",
+          "fit_justification": "Source answer 'New Zealand' literally ends in -LAND."
+        },
+        {
+          "value": 600,
+          "clue": "Frances Ethel Gumm is the real name of this actress who played Dorothy in 'The Wizard of Oz'.",
+          "answer": "Judy Garland",
+          "source_id": "tapi:622a1c347cc59eab6f94f8cb",
+          "fit_justification": "Source answer 'Judy Garland' literally ends in -LAND."
+        },
+        {
+          "value": 800,
+          "clue": "Paul Simon's 1986 album named after Elvis Presley's estate won the Grammy for Album of the Year.",
+          "answer": "Graceland",
+          "source_id": "tapi:622a1c357cc59eab6f94fd9b",
+          "fit_justification": "Source answer 'Graceland' literally ends in -LAND."
+        },
+        {
+          "value": 1000,
+          "clue": "Its name literally translates to 'land of the free,' and its national airline is Thai Airways.",
+          "answer": "Thailand",
+          "source_id": "tapi:622a1c357cc59eab6f95000d",
+          "fit_justification": "Source answer 'Thailand' literally ends in -LAND; source question states '____________ means \"land of the free\"'."
+        }
+      ]
+    },
+    {
+      "title": "FOUR-LETTER ANSWERS",
+      "theme": "Every answer is a single word exactly 4 letters long",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In most first-person shooters like Counter-Strike, a shot to this body part deals the most damage.",
+          "answer": "Head",
+          "source_id": "otdb:77ln23",
+          "fit_justification": "Source answer 'Head' is a single word exactly 4 letters long: H-E-A-D."
+        },
+        {
+          "value": 400,
+          "clue": "This flightless bird from New Zealand is also the nickname for people from that country.",
+          "answer": "Kiwi",
+          "source_id": "tapi:63f394fd989356ef48370bd7",
+          "fit_justification": "Source answer 'Kiwi' is a single word exactly 4 letters long: K-I-W-I."
+        },
+        {
+          "value": 600,
+          "clue": "The body of the Egyptian Sphinx was modeled after this big cat.",
+          "answer": "Lion",
+          "source_id": "otdb:1fthxjs",
+          "fit_justification": "Source answer 'Lion' is a single word exactly 4 letters long: L-I-O-N."
+        },
+        {
+          "value": 800,
+          "clue": "In the Bible, this patriarch survived a great flood by building an ark for his family and the animals.",
+          "answer": "Noah",
+          "source_id": "tapi:622a1c377cc59eab6f950426",
+          "fit_justification": "Source answer 'Noah' is a single word exactly 4 letters long: N-O-A-H."
+        },
+        {
+          "value": 1000,
+          "clue": "This membrane of the eye, named for the Greek goddess of the rainbow, controls how much light reaches the pupil.",
+          "answer": "Iris",
+          "source_id": "tapi:622a1c3a7cc59eab6f95108b",
+          "fit_justification": "Source answer 'Iris' is a single word exactly 4 letters long: I-R-I-S."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS ENDING IN -TION",
+      "theme": "Every answer ends in the letters -TION",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the ceremonial event in which a new President of the United States is formally sworn into office.",
+          "answer": "Inauguration",
+          "source_id": "tapi:646140784d46e537ca8cd9ca",
+          "fit_justification": "Source answer 'Inauguration' ends in the letters -TION."
+        },
+        {
+          "value": 400,
+          "clue": "The technical term for your body's process of breaking down food into nutrients.",
+          "answer": "Digestion",
+          "source_id": "tapi:63e13a08106de6ffa7d4a77f",
+          "fit_justification": "Source answer 'Digestion' ends in the letters -TION."
+        },
+        {
+          "value": 600,
+          "clue": "The process used to make beer, wine, and sourdough bread, in which sugars are converted by microorganisms.",
+          "answer": "Fermentation",
+          "source_id": "tapi:65056e417a97013de78b52a1",
+          "fit_justification": "Source answer 'Fermentation' ends in the letters -TION."
+        },
+        {
+          "value": 800,
+          "clue": "The cooking process of slowly heating sugar-containing ingredients over low heat to alter their flavor and color.",
+          "answer": "Caramelization",
+          "source_id": "tapi:64824df37778562fd76a95ea",
+          "fit_justification": "Source answer 'Caramelization' ends in the letters -TION."
+        },
+        {
+          "value": 1000,
+          "clue": "In chemistry, this is the process by which an atom gains or loses charge by gaining or losing an electron.",
+          "answer": "Ionization",
+          "source_id": "tapi:63951efbe55fa75b149597b4",
+          "fit_justification": "Source answer 'Ionization' ends in the letters -TION."
+        }
+      ]
+    },
+    {
+      "title": "7-LETTER SINGLE-WORD ANSWERS",
+      "theme": "Every answer is a single word exactly 7 letters long",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The largest planet in our solar system, named for the king of the Roman gods.",
+          "answer": "Jupiter",
+          "source_id": "otdb:qd1pzt",
+          "fit_justification": "Source answer 'Jupiter' is a single word exactly 7 letters long: J-U-P-I-T-E-R."
+        },
+        {
+          "value": 400,
+          "clue": "This sport is played at the ICC World Cup and is especially popular in England, India, and Australia.",
+          "answer": "Cricket",
+          "source_id": "tapi:6384b42483dddfb71ee5e35e",
+          "fit_justification": "Source answer 'Cricket' is a single word exactly 7 letters long: C-R-I-C-K-E-T."
+        },
+        {
+          "value": 600,
+          "clue": "The South American country whose web addresses end in the domain '.uy'.",
+          "answer": "Uruguay",
+          "source_id": "tapi:62373605cfe13103f55eb593",
+          "fit_justification": "Source answer 'Uruguay' is a single word exactly 7 letters long: U-R-U-G-U-A-Y."
+        },
+        {
+          "value": 800,
+          "clue": "The reigning imperial house of Russia from the 17th century until the 1917 revolution.",
+          "answer": "Romanov",
+          "source_id": "tapi:628d54b2a5a57ff6c2ad2bf3",
+          "fit_justification": "Source answer 'Romanov' is a single word exactly 7 letters long: R-O-M-A-N-O-V."
+        },
+        {
+          "value": 1000,
+          "clue": "The element with atomic number 36, Superman's weakness shares its name with this noble gas.",
+          "answer": "Krypton",
+          "source_id": "otdb:1lgtgv8",
+          "fit_justification": "Source answer 'Krypton' is a single word exactly 7 letters long: K-R-Y-P-T-O-N."
+        }
+      ]
+    },
+    {
+      "title": "ANSWERS STARTING WITH 'O'",
+      "theme": "Every answer begins with the letter O",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Japanese art of folding paper into decorative shapes and figures.",
+          "answer": "Origami",
+          "source_id": "otdb:1sxs2fm",
+          "fit_justification": "Source answer 'Origami' begins with the letter O."
+        },
+        {
+          "value": 400,
+          "clue": "This gas, discovered in 1774, gets its name from the Greek words for 'acid' and 'forming'.",
+          "answer": "Oxygen",
+          "source_id": "tapi:645cb1257d263fd5097043ae",
+          "fit_justification": "Source answer 'Oxygen' begins with the letter O."
+        },
+        {
+          "value": 600,
+          "clue": "All Souls and Merton are constituent colleges of this prestigious British university.",
+          "answer": "Oxford",
+          "source_id": "otdb:1qxaaau",
+          "fit_justification": "Source answer 'Oxford' begins with the letter O."
+        },
+        {
+          "value": 800,
+          "clue": "In economics, this is the term for a market in which only a few companies control the prices of goods or services.",
+          "answer": "Oligopoly",
+          "source_id": "tapi:63dd25e7742e43ed64f1f045",
+          "fit_justification": "Source answer 'Oligopoly' begins with the letter O."
+        },
+        {
+          "value": 1000,
+          "clue": "Who took the title 'Lord Protector of the Commonwealth of England, Scotland, and Ireland' in the 17th century?",
+          "answer": "Oliver Cromwell",
+          "source_id": "tapi:622a1c367cc59eab6f950362",
+          "fit_justification": "Source answer 'Oliver Cromwell' begins with the letter O."
+        }
+      ]
+    },
+    {
+      "title": "FOUR-LETTER WORDS",
+      "theme": "Every answer is a single word exactly 4 letters long",
+      "topic": "WORDPLAY",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This word names the shape of the puzzle invented by Hungarian professor Ernő Rubik.",
+          "answer": "Cube",
+          "source_id": "otdb:jaraiy",
+          "fit_justification": "Source answer 'Cube' is a single word exactly 4 letters long: C-U-B-E."
+        },
+        {
+          "value": 400,
+          "clue": "The Norse god of mischief, son of Laufey, this trickster also appears in Marvel comics.",
+          "answer": "Loki",
+          "source_id": "tapi:622a1c367cc59eab6f9500f2",
+          "fit_justification": "Source answer 'Loki' is a single word exactly 4 letters long: L-O-K-I."
+        },
+        {
+          "value": 600,
+          "clue": "In aerodynamics, this upward force acting on an aircraft opposes gravity and enables flight.",
+          "answer": "Lift",
+          "source_id": "otdb:qgwry9",
+          "fit_justification": "Source answer 'Lift' is a single word exactly 4 letters long: L-I-F-T."
+        },
+        {
+          "value": 800,
+          "clue": "This South American country, famous for Machu Picchu and the Andes, is where potatoes were originally cultivated.",
+          "answer": "Peru",
+          "source_id": "otdb:14gnpe4",
+          "fit_justification": "Source answer 'Peru' is a single word exactly 4 letters long: P-E-R-U."
+        },
+        {
+          "value": 1000,
+          "clue": "This Latin word for 'mountain' follows 'Olympus' and 'Pavonis' in the names of Martian volcanoes.",
+          "answer": "Mons",
+          "source_id": "tapi:645c9f8642ea81e2554c5f38",
+          "fit_justification": "Source answer 'Mons' is a single word exactly 4 letters long: M-O-N-S."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "STARTS WITH 'Q'",
+      "topic": "WORDPLAY",
+      "clue": "AOL began its life as this early online service provider, whose name also starts with the letter Q.",
+      "answer": "Quantum Link",
+      "source_id": "otdb:1tgha0r",
+      "fit_justification": "Source answer is 'Quantum Link', which literally begins with the letter Q, fitting the Q-initial wordplay theme. Source question states 'America Online (AOL) started out as which of these online service providers?'"
+    },
+    {
+      "title": "ANSWERS ENDING IN -STAN",
+      "topic": "WORDPLAY",
+      "clue": "Marvel's Bucky Barnes is played on screen by this actor — whose surname ends the same way as several Central Asian nations.",
+      "answer": "Sebastian Stan",
+      "source_id": "tapi:6256987c9da29df7b05f728a",
+      "fit_justification": "Source answer is 'Sebastian Stan'; the surname 'Stan' literally ends in the letters S-T-A-N, matching the cluster rule and making it a fitting wordplay final clue."
+    },
+    {
+      "title": "WORDPLAY FINAL",
+      "topic": "WORDPLAY",
+      "clue": "This 4-digit year saw Kraftwerk score their first UK number one, the French animated film Amélie debut in cinemas, and Canada celebrate its pacemaker inventor Wilson Greatbatch — but only one of those events actually happened in this year. Which year did Amélie first release in cinemas?",
+      "answer": "2001",
+      "source_id": "tapi:625fd6dbdc0dd3b72da64d10",
+      "fit_justification": "Source answer '2001' is a 4-digit year; source question asks 'In which year was Amélie first released in the cinema?' The clue uses the year-answer structural theme of the pool."
+    },
+    {
+      "title": "WORDPLAY FINAL",
+      "topic": "WORDPLAY",
+      "clue": "The source question for this fact literally asks for a '3-letter word that can precede cord, current, off, and saw' — making it the ultimate wordplay clue in disguise.",
+      "answer": "Rip",
+      "source_id": "tapi:6461403f4d46e537ca8cd9ad",
+      "fit_justification": "Source question literally states 'What 3-letter word can precede cord, current, off, and saw?' — a pure wordplay puzzle whose answer 'Rip' is exactly 3 letters and solves all four compound words (ripcord, rip current, rip off, ripsaw)."
+    }
+  ]
+}

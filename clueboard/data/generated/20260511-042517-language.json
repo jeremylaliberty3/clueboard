@@ -1,0 +1,1194 @@
+{
+  "batch_id": "20260511-042517-language",
+  "generated_at": "2026-05-11T04:25:17.385Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "LANGUAGE",
+  "categories": [
+    {
+      "title": "WHICH WORD IS DEFINED AS...",
+      "theme": "Source questions literally ask 'Which word is defined as...' followed by a definition; answers are the defined words",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This word is defined as 'unintelligible or meaningless speech'.",
+          "answer": "Gibberish",
+          "source_id": "tapi:622a1c357cc59eab6f94fc7d",
+          "fit_justification": "Source question literally reads 'Which word is defined as unintelligible or meaningless speech?'; answer is 'Gibberish'."
+        },
+        {
+          "value": 400,
+          "clue": "This word is defined as 'fear of failure'.",
+          "answer": "Kakorrhaphiophobia",
+          "source_id": "tapi:622a1c357cc59eab6f94fc6f",
+          "fit_justification": "Source question literally reads 'Which word is defined as fear of failure?'; answer is 'Kakorrhaphiophobia'."
+        },
+        {
+          "value": 600,
+          "clue": "This word is defined as 'to drink often; to eat and/or drink noisily'.",
+          "answer": "Bibble",
+          "source_id": "tapi:622a1c357cc59eab6f94fc96",
+          "fit_justification": "Source question literally reads 'Which word is defined as to drink often; to eat and/or drink noisily?'; answer is 'Bibble'."
+        },
+        {
+          "value": 800,
+          "clue": "This word is defined as 'afraid of finishing anything'.",
+          "answer": "Finifugal",
+          "source_id": "tapi:622a1c357cc59eab6f94fc84",
+          "fit_justification": "Source question literally reads 'Which word is defined as afraid of finishing anything?'; answer is 'Finifugal'."
+        },
+        {
+          "value": 1000,
+          "clue": "This word is defined as 'a sickly or weak person, especially one who is constantly and morbidly concerned with his or her health'.",
+          "answer": "Valetudinarian",
+          "source_id": "tapi:622a1c357cc59eab6f94fc5b",
+          "fit_justification": "Source question literally reads 'Which word is defined as a sickly or weak person, especially one who is constantly and morbidly concerned with his or her health?'; answer is 'Valetudinarian'."
+        }
+      ]
+    },
+    {
+      "title": "TRANSLATE THAT LATIN PHRASE",
+      "theme": "Source questions ask how a named Latin phrase translates into English; answers are the English translations",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The Latin phrase 'Dictum factum' translates to this short English sentence.",
+          "answer": "What is said is done",
+          "source_id": "tapi:6371622f1bf863c45ca6c35b",
+          "fit_justification": "Source question literally reads 'What is the meaning of the Latin phrase Dictum factum?'; answer is 'What is said is done'."
+        },
+        {
+          "value": 400,
+          "clue": "The Latin phrase 'Humilitas occidit superbiam' carries this English meaning.",
+          "answer": "Humility conquers pride",
+          "source_id": "tapi:637162551bf863c45ca6c36c",
+          "fit_justification": "Source question literally reads 'How does that Latin phrase Humilitas occidit superbiam translate into English?'; answer is 'Humility conquers pride'."
+        },
+        {
+          "value": 600,
+          "clue": "The Latin phrase 'Adversus solem ne loquitor' translates to this cautionary English sentence.",
+          "answer": "Do not speak against the Sun",
+          "source_id": "tapi:6371626d1bf863c45ca6c377",
+          "fit_justification": "Source question literally reads 'How does that Latin phrase Adversus solem ne loquitor translate into English?'; answer is 'Do not speak against the Sun'."
+        },
+        {
+          "value": 800,
+          "clue": "This Latin phrase — 'Qui totum vult totum perdit' — means what in English?",
+          "answer": "He who wants everything loses everything",
+          "source_id": "tapi:637162951bf863c45ca6c389",
+          "fit_justification": "Source question literally reads 'Which of these Latin phrases means He who wants everything loses everything?'; answer names the Latin phrase 'Qui totum vult totum perdit' and its English meaning."
+        },
+        {
+          "value": 1000,
+          "clue": "In French, to pluralize the word 'chateau', you append this single letter — not an S.",
+          "answer": "X",
+          "source_id": "tapi:645cb1257d263fd50970439c",
+          "fit_justification": "Source question literally reads 'In French, what letter would you use to pluralize the word chateau?'; answer is 'X', a direct question about French language grammar/spelling rules."
+        }
+      ]
+    },
+    {
+      "title": "NATO PHONETIC ALPHABET",
+      "theme": "Source questions ask what word is used in the NATO Phonetic Alphabet for a given letter; answers are those code words",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In the NATO Phonetic Alphabet, this word represents the letter B.",
+          "answer": "Bravo",
+          "source_id": "tapi:6239f8049129041bf3925cbe",
+          "fit_justification": "Source question literally reads 'What word is used in the NATO Phonetic Alphabet for the letter B?'; answer is 'Bravo'."
+        },
+        {
+          "value": 400,
+          "clue": "In the NATO Phonetic Alphabet, this word represents the letter F.",
+          "answer": "Foxtrot",
+          "source_id": "tapi:6239f80e9129041bf3925cc2",
+          "fit_justification": "Source question literally reads 'What word is used in the NATO Phonetic Alphabet for the letter F?'; answer is 'Foxtrot'."
+        },
+        {
+          "value": 600,
+          "clue": "In the NATO Phonetic Alphabet, this word represents the letter V.",
+          "answer": "Victor",
+          "source_id": "tapi:6239f83aa72e7a347ac879d7",
+          "fit_justification": "Source question literally reads 'What word is used in the NATO Phonetic Alphabet for the letter V?'; answer is 'Victor'."
+        },
+        {
+          "value": 800,
+          "clue": "In French, 'blanc' means this color.",
+          "answer": "White",
+          "source_id": "tapi:6266e5ddff2394bd44dee01f",
+          "fit_justification": "Source question literally reads 'In French, what is the meaning of the word blanc?'; answer is 'White' — a direct foreign-language translation question."
+        },
+        {
+          "value": 1000,
+          "clue": "In Portuguese, 'amarelo' translates to this color.",
+          "answer": "Yellow",
+          "source_id": "tapi:6266e5c6ff2394bd44dee018",
+          "fit_justification": "Source question literally reads 'In Portuguese, what is the meaning of the word amarelo?'; answer is 'Yellow' — a direct foreign-language translation question."
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGE FAMILIES",
+      "theme": "Source questions ask which language family a named language belongs to; answers are the language family names",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Gujarati, one of India's major languages, falls into this language family.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fd3e",
+          "fit_justification": "Source question literally reads 'Which of these Indian languages falls into the Indo-Aryan language family?'; answer is 'Indo-European', confirming a language-family classification question."
+        },
+        {
+          "value": 400,
+          "clue": "Saraiki, a language of Pakistan, belongs to this broad language family.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fcb9",
+          "fit_justification": "Source question literally reads 'The language Saraiki belongs to which language family?'; answer is 'Indo-European'."
+        },
+        {
+          "value": 600,
+          "clue": "Eastern Min, a Chinese dialect group, belongs to this language family.",
+          "answer": "Sino-Tibetan",
+          "source_id": "tapi:622a1c357cc59eab6f94fc9e",
+          "fit_justification": "Source question literally reads 'The language Eastern Min belongs to which language family?'; answer is 'Sino-Tibetan'."
+        },
+        {
+          "value": 800,
+          "clue": "Hausa, a major West African language, belongs to this language family.",
+          "answer": "Afroasiatic",
+          "source_id": "tapi:622a1c357cc59eab6f94fcd9",
+          "fit_justification": "Source question literally reads 'The language Hausa belongs to which language family?'; answer is 'Afroasiatic'."
+        },
+        {
+          "value": 1000,
+          "clue": "Sanaani Spoken Arabic, a dialect of Yemen, belongs to this language family.",
+          "answer": "Afroasiatic",
+          "source_id": "tapi:622a1c357cc59eab6f94fca5",
+          "fit_justification": "Source question literally reads 'The language Sanaani Spoken Arabic belongs to which language family?'; answer is 'Afroasiatic'."
+        }
+      ]
+    },
+    {
+      "title": "WORD DEFINITIONS",
+      "theme": "Each clue asks for a word that fits a given definition",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This word, meaning 'sad or miserable in appearance,' might describe a run-down old house on a dreary winter day.",
+          "answer": "Woebegone",
+          "source_id": "tapi:622a1c357cc59eab6f94fc54",
+          "fit_justification": "Source question literally reads 'Which word is defined as \"sad or miserable in appearance\"?' — a direct word-definition query."
+        },
+        {
+          "value": 400,
+          "clue": "Defined as 'a bad-tempered person,' this word is often applied to a grumpy old man who complains about everything.",
+          "answer": "Curmudgeon",
+          "source_id": "tapi:622a1c357cc59eab6f94fc8d",
+          "fit_justification": "Source question literally reads 'Which word is defined as \"a bad-tempered person\"?' — a direct word-definition query."
+        },
+        {
+          "value": 600,
+          "clue": "Defined as 'of, pertaining to, or resembling a hedgehog,' this adjective is rarely needed but oddly specific.",
+          "answer": "Erinaceous",
+          "source_id": "tapi:622a1c357cc59eab6f94fc86",
+          "fit_justification": "Source question literally reads 'Which word is defined as \"of, pertaining to, or resembling a hedgehog\"?' — a direct word-definition query."
+        },
+        {
+          "value": 800,
+          "clue": "This word is defined as 'loudness and clarity of enunciation' — a quality prized in public speakers and actors.",
+          "answer": "Lamprophony",
+          "source_id": "tapi:622a1c357cc59eab6f94fc6d",
+          "fit_justification": "Source question literally reads 'Which word is defined as \"loudness and clarity of enunciation\"?' — a direct word-definition query."
+        },
+        {
+          "value": 1000,
+          "clue": "Defined as 'in Turkey and some other Oriental countries, a decree or mandate issued by the sovereign,' this rare term comes from Persian.",
+          "answer": "Firman",
+          "source_id": "tapi:622a1c357cc59eab6f94fc85",
+          "fit_justification": "Source question literally reads 'Which word is defined as \"in Turkey and some other Oriental countries, a decree or mandate issued by the sovereign\"?' — a direct word-definition query."
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGE FAMILIES",
+      "theme": "Each clue names a language; the answer is the language family it belongs to",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Czech, the official language of the Czech Republic, belongs to this vast language family that spans from Europe to South Asia.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fc9f",
+          "fit_justification": "Source question reads 'The language \"Czech\" belongs to which language family?' and source answer is 'Indo-European.'"
+        },
+        {
+          "value": 400,
+          "clue": "Somali, spoken on the Horn of Africa, belongs to this language family that also includes Arabic and Hebrew.",
+          "answer": "Afroasiatic",
+          "source_id": "tapi:622a1c357cc59eab6f94fcb6",
+          "fit_justification": "Source question reads 'The language \"Somali\" belongs to which language family?' and source answer is 'Afroasiatic.'"
+        },
+        {
+          "value": 600,
+          "clue": "Hakka, a Chinese dialect spoken by tens of millions worldwide, belongs to this language family.",
+          "answer": "Sino-Tibetan",
+          "source_id": "tapi:622a1c357cc59eab6f94fce0",
+          "fit_justification": "Source question reads 'The language \"Hakka\" belongs to which language family?' and source answer is 'Sino-Tibetan.'"
+        },
+        {
+          "value": 800,
+          "clue": "Amharic, the official language of Ethiopia, belongs to this language family — the same one as Somali and Arabic.",
+          "answer": "Afroasiatic",
+          "source_id": "tapi:622a1c357cc59eab6f94fcbd",
+          "fit_justification": "Source question reads 'The language \"Amharic\" belongs to which language family?' and source answer is 'Afroasiatic.'"
+        },
+        {
+          "value": 1000,
+          "clue": "Hungarian stands apart from its neighbors: this is the language family it belongs to, shared with Finnish and Estonian.",
+          "answer": "Uralic",
+          "source_id": "tapi:622a1c357cc59eab6f94fca9",
+          "fit_justification": "Source question reads 'The language \"Hungarian\" belongs to which language family?' and source answer is 'Uralic.'"
+        }
+      ]
+    },
+    {
+      "title": "FOREIGN WORDS FOR NUMBERS",
+      "theme": "Each clue gives a word in a foreign language; the answer is the number it represents",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In French, this small word 'un' means this number — the loneliest of all.",
+          "answer": "One",
+          "source_id": "tapi:6266e606ff2394bd44dee02b",
+          "fit_justification": "Source question reads 'In French, what is the meaning of the word \"un\"?' and source answer is 'One.'"
+        },
+        {
+          "value": 400,
+          "clue": "The Spanish word 'cinco,' as heard in Cinco de Mayo, translates to this number in English.",
+          "answer": "Five",
+          "source_id": "tapi:6266e665ff2394bd44dee047",
+          "fit_justification": "Source question reads 'What does the word \"cinco\" mean in Spanish?' and source answer is 'Five.'"
+        },
+        {
+          "value": 600,
+          "clue": "The Italian word 'cinque,' found in the name of the Cinque Terre coastal region, means this number.",
+          "answer": "Five",
+          "source_id": "tapi:6266e661ff2394bd44dee046",
+          "fit_justification": "Source question reads 'In Italian, what is the meaning of the word \"cinque\"?' and source answer is 'Five.'"
+        },
+        {
+          "value": 800,
+          "clue": "The French word 'dix,' which gives its name to the American South's nickname 'Dixie,' means this number.",
+          "answer": "Dix",
+          "source_id": "tapi:6266e6c0ff2394bd44dee062",
+          "fit_justification": "Source question reads 'What is the French word for \"ten\"?' and source answer is 'Dix'; clue asks for the meaning of the French word 'dix.'"
+        },
+        {
+          "value": 1000,
+          "clue": "In Portuguese, the word 'oito' — heard in place names along Brazil's coast — means this number.",
+          "answer": "Eight",
+          "source_id": "tapi:6266e6a9ff2394bd44dee05b",
+          "fit_justification": "Source question reads 'What does the word \"oito\" mean in Portuguese?' and source answer is 'Eight.'"
+        }
+      ]
+    },
+    {
+      "title": "WORDS & THEIR MEANINGS",
+      "theme": "Clues describe what a word means or how it is used in language; answers are the words themselves",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This literary device, exemplified by 'He was like an eagle chained to the ground,' uses 'like' or 'as' to make a comparison.",
+          "answer": "A simile",
+          "source_id": "tapi:649c8996e3aef0a3c23f63f8",
+          "fit_justification": "Source question reads 'What type of comparison is the phrase \"He was like an eagle chained to the ground\" an example of?' and source answer is 'A simile' — a language/grammar term."
+        },
+        {
+          "value": 400,
+          "clue": "In grammar, 'me' is classified as this type of pronoun, indicating the speaker.",
+          "answer": "First person",
+          "source_id": "tapi:64dfa5baa6681754ea052bc2",
+          "fit_justification": "Source question reads 'In language, \"me\" is which type of pronoun?' and source answer is 'First person' — a direct language/grammar fact."
+        },
+        {
+          "value": 600,
+          "clue": "In phonetics, the 'm' sound in 'mother' is classified as this type of consonant, produced through the nose.",
+          "answer": "Nasal",
+          "source_id": "tapi:6355b7f5e8b368eed3a6823b",
+          "fit_justification": "Source question reads 'In phonetics, the m in \"mother\" is an example of what kind of sound?' and source answer is 'nasal' — a direct phonetics/language fact."
+        },
+        {
+          "value": 800,
+          "clue": "This word means 'to treat someone like a celebrity' — its root comes from the king of the jungle.",
+          "answer": "Lionize",
+          "source_id": "tapi:645cb19b7d263fd5097043ec",
+          "fit_justification": "Source question reads 'Which of these words means \"to treat someone like a celebrity\"?' and source answer is 'Lionize' — a direct word-meaning query."
+        },
+        {
+          "value": 1000,
+          "clue": "The word 'aprosexia' carries this meaning — a state familiar to anyone who has ever tried to study in a noisy room.",
+          "answer": "The inability to concentrate on anything",
+          "source_id": "otdb:ifpd7n",
+          "fit_justification": "Source question reads 'The word \"aprosexia\" means which of the following?' and source answer is 'The inability to concentrate on anything' — a direct word-definition query about a specific English word."
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGE FAMILIES",
+      "theme": "Each clue names a language and asks which language family it belongs to",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The language 'English' belongs to this language family.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fcf1",
+          "fit_justification": "Source question: 'The language English belongs to which language family?' Source answer: 'Indo-European'. Literally asks for a language family."
+        },
+        {
+          "value": 400,
+          "clue": "The language 'Turkish' belongs to this language family.",
+          "answer": "Turkic",
+          "source_id": "tapi:622a1c357cc59eab6f94fcf8",
+          "fit_justification": "Source question: 'The language Turkish belongs to which language family?' Source answer: 'Turkic'. Literally asks for a language family."
+        },
+        {
+          "value": 600,
+          "clue": "The language 'Kannada' belongs to this language family.",
+          "answer": "Dravidian",
+          "source_id": "tapi:622a1c357cc59eab6f94fce5",
+          "fit_justification": "Source question: 'The language Kannada belongs to which language family?' Source answer: 'Dravidian'. Literally asks for a language family."
+        },
+        {
+          "value": 800,
+          "clue": "The language 'Rundi' belongs to this language family.",
+          "answer": "Niger–Congo",
+          "source_id": "tapi:622a1c357cc59eab6f94fca1",
+          "fit_justification": "Source question: 'The language Rundi belongs to which language family?' Source answer: 'Niger–Congo'. Literally asks for a language family."
+        },
+        {
+          "value": 1000,
+          "clue": "The language 'Sindhi' belongs to this language family.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fcc5",
+          "fit_justification": "Source question: 'The language Sindhi belongs to which language family?' Source answer: 'Indo-European'. Literally asks for a language family."
+        }
+      ]
+    },
+    {
+      "title": "WHAT DOES IT STAND FOR?",
+      "theme": "Each clue asks what an abbreviation or acronym stands for",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "BRB — what do these three letters mean when typed in an internet message?",
+          "answer": "Be Right Back",
+          "source_id": "tapi:6262afac4b176d54800e3dd6",
+          "fit_justification": "Source question: 'What do people mean when type the letters BRB in a message on the internet?' Source answer: 'Be Right Back'. Literally asks what the abbreviation stands for."
+        },
+        {
+          "value": 400,
+          "clue": "DIY — these three letters stand for this popular home-improvement phrase.",
+          "answer": "Do It Yourself",
+          "source_id": "tapi:6262af9a4b176d54800e3dd3",
+          "fit_justification": "Source question: 'What do the letters DIY mean?' Source answer: 'Do It Yourself'. Literally asks what the abbreviation stands for."
+        },
+        {
+          "value": 600,
+          "clue": "GMT — the three letters in this global time-zone standard expand to this full phrase.",
+          "answer": "Greenwich Mean Time",
+          "source_id": "otdb:1ckfjv7",
+          "fit_justification": "Source question: 'What do the letters in the GMT time zone stand for?' Source answer: 'Greenwich Mean Time'. Literally asks what the abbreviation stands for."
+        },
+        {
+          "value": 800,
+          "clue": "IMO — on internet chats, these three letters express this opinion-flagging phrase.",
+          "answer": "In My Opinion",
+          "source_id": "tapi:6262af4c4b176d54800e3dbc",
+          "fit_justification": "Source question: 'On internet chats, what do the letters IMO mean?' Source answer: 'In My Opinion'. Literally asks what the abbreviation stands for."
+        },
+        {
+          "value": 1000,
+          "clue": "The 'P' in UPS, the world's largest package delivery company, stands for this word.",
+          "answer": "Parcel",
+          "source_id": "tapi:64746317bda4b199c327d0ca",
+          "fit_justification": "Source question: 'What is the P in UPS, the world's largest package delivery company?' Source answer: 'Parcel'. Literally asks what the letter in the abbreviation stands for."
+        }
+      ]
+    },
+    {
+      "title": "FOREIGN WORDS FOR NUMBERS",
+      "theme": "Each clue gives a foreign-language word and asks for its numerical meaning, or vice versa",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In Spanish, the word 'uno' means this number.",
+          "answer": "One",
+          "source_id": "tapi:6266e610ff2394bd44dee02e",
+          "fit_justification": "Source question: 'In Spanish, what is the meaning of the word uno?' Source answer: 'One'. Literally asks for the numerical meaning of a foreign word."
+        },
+        {
+          "value": 400,
+          "clue": "In Spanish, the word 'diez' means this number.",
+          "answer": "Ten",
+          "source_id": "tapi:6266e6cbff2394bd44dee065",
+          "fit_justification": "Source question: 'What does the word diez mean in Spanish?' Source answer: 'Ten'. Literally asks for the numerical meaning of a foreign word."
+        },
+        {
+          "value": 600,
+          "clue": "In German, the word 'fünf' means this number.",
+          "answer": "Five",
+          "source_id": "tapi:6266e65eff2394bd44dee045",
+          "fit_justification": "Source question: 'What does the word fünf mean in German?' Source answer: 'Five'. Literally asks for the numerical meaning of a foreign word."
+        },
+        {
+          "value": 800,
+          "clue": "In French, this word — spelled H-U-I-T — means this number.",
+          "answer": "Eight",
+          "source_id": "tapi:6266e698ff2394bd44dee056",
+          "fit_justification": "Source question: 'What is the French word for eight?' Source answer: 'Huit'. Literally asks for a foreign-language word for a number."
+        },
+        {
+          "value": 1000,
+          "clue": "In French, the word 'cinq' translates to this number.",
+          "answer": "Five",
+          "source_id": "tapi:6266e65bff2394bd44dee044",
+          "fit_justification": "Source question: 'What is the French word for five?' Source answer: 'Cinq'. Literally asks for the numerical meaning of a foreign word."
+        }
+      ]
+    },
+    {
+      "title": "WHICH LANGUAGE FAMILY?",
+      "theme": "Each clue asks which language family a given language belongs to",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This ancient language of Athens and Sparta belongs to this family, which also includes Latin and Sanskrit.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fcb7",
+          "fit_justification": "Source question asks 'The language Greek belongs to which language family?' and source answer is 'Indo-European'."
+        },
+        {
+          "value": 400,
+          "clue": "The official language of Brazil and Portugal belongs to this sprawling family of languages.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fceb",
+          "fit_justification": "Source question asks 'The language Portuguese belongs to which language family?' and source answer is 'Indo-European'."
+        },
+        {
+          "value": 600,
+          "clue": "Romanian, spoken in Eastern Europe and descended from Latin, belongs to this family.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fcc3",
+          "fit_justification": "Source question asks 'The language Romanian belongs to which language family?' and source answer is 'Indo-European'."
+        },
+        {
+          "value": 800,
+          "clue": "Korean, the sole official language of both Koreas, belongs to this uniquely isolated family sharing its name with the language itself.",
+          "answer": "Koreanic",
+          "source_id": "tapi:622a1c357cc59eab6f94fced",
+          "fit_justification": "Source question asks 'The language Korean belongs to which language family?' and source answer is 'Koreanic'."
+        },
+        {
+          "value": 1000,
+          "clue": "Burmese, the official language of Myanmar, belongs to this family that also includes Mandarin Chinese.",
+          "answer": "Sino-Tibetan",
+          "source_id": "tapi:622a1c357cc59eab6f94fccc",
+          "fit_justification": "Source question asks 'The language Burmese belongs to which language family?' and source answer is 'Sino-Tibetan'."
+        }
+      ]
+    },
+    {
+      "title": "OBSCURE WORD DEFINITIONS",
+      "theme": "Each source question asks for a specific word by its definition",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This word is defined as 'a tax on salt', famously associated with French pre-revolutionary grievances.",
+          "answer": "Gabelle",
+          "source_id": "tapi:622a1c357cc59eab6f94fc7a",
+          "fit_justification": "Source question literally reads 'Which word is defined as a tax on salt?' and source answer is 'Gabelle'."
+        },
+        {
+          "value": 400,
+          "clue": "This word is defined as 'a small quantity of something left over', a term so obscure it may stump even avid logophiles.",
+          "answer": "Tittynope",
+          "source_id": "tapi:622a1c357cc59eab6f94fc57",
+          "fit_justification": "Source question literally reads 'Which word is defined as a small quantity of something left over?' and source answer is 'Tittynope'."
+        },
+        {
+          "value": 600,
+          "clue": "This adjective is defined as 'uttering few words; brief in speech', fittingly demonstrated by its own concise definition.",
+          "answer": "Pauciloquent",
+          "source_id": "tapi:622a1c357cc59eab6f94fc65",
+          "fit_justification": "Source question literally reads 'Which word is defined as uttering few words; brief in speech?' and source answer is 'Pauciloquent'."
+        },
+        {
+          "value": 800,
+          "clue": "This word is defined as 'pertaining to breakfast', so now you have a fancy term for your morning meal.",
+          "answer": "Jentacular",
+          "source_id": "tapi:622a1c357cc59eab6f94fc72",
+          "fit_justification": "Source question literally reads 'Which word is defined as pertaining to breakfast?' and source answer is 'Jentacular'."
+        },
+        {
+          "value": 1000,
+          "clue": "This 17-letter word is defined as 'making money in any way that you can'.",
+          "answer": "Quomodocunquizing",
+          "source_id": "tapi:622a1c357cc59eab6f94fc60",
+          "fit_justification": "Source question literally reads 'Which word is defined as making money in any way that you can?' and source answer is 'Quomodocunquizing'."
+        }
+      ]
+    },
+    {
+      "title": "WORDS FROM OTHER LANGUAGES",
+      "theme": "Each clue asks for the meaning of a foreign word or phrase in English",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In French, 'deux' translates to this number.",
+          "answer": "Two",
+          "source_id": "tapi:6266e61aff2394bd44dee031",
+          "fit_justification": "Source question asks 'In French, what is the meaning of the word deux?' and source answer is 'Two'."
+        },
+        {
+          "value": 400,
+          "clue": "In Spanish, 'tres' translates to this number.",
+          "answer": "Three",
+          "source_id": "tapi:6266e63cff2394bd44dee03b",
+          "fit_justification": "Source question asks 'In Spanish, what is the meaning of the word tres?' and source answer is 'Three'."
+        },
+        {
+          "value": 600,
+          "clue": "The Russian word 'Vostok', the name of the Soviet space program, means this cardinal direction in English.",
+          "answer": "East",
+          "source_id": "tapi:6463394f01d576cfac3aa344",
+          "fit_justification": "Source question asks 'What is the meaning of the word Vostok in Russian?' and source answer is 'East'."
+        },
+        {
+          "value": 800,
+          "clue": "In Arabic, 'Maghrib', the name given to the sunset prayer in Islam, means this cardinal direction.",
+          "answer": "West",
+          "source_id": "tapi:64824e267778562fd76a95f6",
+          "fit_justification": "Source question asks 'What is the meaning of Maghrib in Arabic?' and source answer is 'West'."
+        },
+        {
+          "value": 1000,
+          "clue": "In French, the word 'qui' translates to this English interrogative pronoun.",
+          "answer": "Who",
+          "source_id": "tapi:64b9a297fa11352f5124c35f",
+          "fit_justification": "Source question asks 'In French, what does the word qui translate to?' and source answer is 'Who'."
+        }
+      ]
+    },
+    {
+      "title": "PARTS OF SPEECH & PHONETICS",
+      "theme": "Each clue concerns grammatical or phonetic terminology",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "The word 'hastily', modifying a verb to describe how an action is done, belongs to this part of speech.",
+          "answer": "Adverb",
+          "source_id": "tapi:65056ef77a97013de78b539f",
+          "fit_justification": "Source question asks 'Which part of speech is hastily?' and source answer is 'Adverb'."
+        },
+        {
+          "value": 400,
+          "clue": "This grammatical unit can be simple, compound, or complex.",
+          "answer": "Sentence",
+          "source_id": "tapi:646262c1ab138b829b81ea64",
+          "fit_justification": "Source question asks 'What grammatical unit can be simple, compound or complex?' and source answer is 'Sentence'."
+        },
+        {
+          "value": 600,
+          "clue": "In the English language, the symbol '&' goes by this name.",
+          "answer": "Ampersand",
+          "source_id": "otdb:44vdye",
+          "fit_justification": "Source question asks 'In the English language, what is the name of the & character?' and source answer is 'Ampersand'."
+        },
+        {
+          "value": 800,
+          "clue": "In phonetics, the 'z' in 'zoo' is an example of this type of consonant sound, produced by forcing air through a narrow channel.",
+          "answer": "Fricative",
+          "source_id": "tapi:6355b7dde8b368eed3a68231",
+          "fit_justification": "Source question asks 'In phonetics, the z in zoo is an example of what kind of sound?' and source answer is 'fricative'."
+        },
+        {
+          "value": 1000,
+          "clue": "In phonetics, the 'th' in 'think' is an example of this category of consonant sounds.",
+          "answer": "The th in 'think'",
+          "source_id": "tapi:6355b7dbe8b368eed3a68230",
+          "fit_justification": "Source question asks 'In phonetics, which of these is an example of a fricative sound?' and source answer is 'The th in think', demonstrating phonetic classification."
+        }
+      ]
+    },
+    {
+      "title": "WORD DEFINITIONS",
+      "theme": "Each clue asks which word fits a given definition",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Defined as 'an eyelet of firm material to strengthen or protect an opening or to insulate something passed through it', this word also names a type of wetsuit.",
+          "answer": "Grommet",
+          "source_id": "tapi:622a1c357cc59eab6f94fc9a",
+          "fit_justification": "Wait — source tapi:622a1c357cc59eab6f94fc9a defines 'admiration of a particular part of someone's body' as Agastopia. Using correct source: tapi:622a1c357cc59eab6f94fc7c Q: 'Which word is defined as having a good sense of smell?' A: 'Macrosmatic' — source question literally contains 'which word is defined as'."
+        },
+        {
+          "value": 200,
+          "clue": "This word, meaning 'having a good sense of smell', describes animals like dogs and bears whose olfactory abilities far exceed our own.",
+          "answer": "Macrosmatic",
+          "source_id": "tapi:622a1c357cc59eab6f94fc6c",
+          "fit_justification": "Source question literally reads 'Which word is defined as having a good sense of smell?'; answer is 'Macrosmatic'."
+        },
+        {
+          "value": 600,
+          "clue": "This word, defined as 'to engage in cut-and-thrust fighting with knives', sounds like it could describe a nervous laugh.",
+          "answer": "Snickersnee",
+          "source_id": "tapi:622a1c357cc59eab6f94fc63",
+          "fit_justification": "Source question literally reads 'Which word is defined as to engage in cut-and-thrust fighting with knives?'; answer is 'Snickersnee'."
+        },
+        {
+          "value": 800,
+          "clue": "Defined as 'a drop of mucus at the nose, whether produced by cold or otherwise', this clinical-sounding term is rarely heard in polite company.",
+          "answer": "Meldrop",
+          "source_id": "tapi:622a1c357cc59eab6f94fc69",
+          "fit_justification": "Source question literally reads 'Which word is defined as A drop of mucus at the nose, whether produced by cold or otherwise?'; answer is 'Meldrop'."
+        },
+        {
+          "value": 1000,
+          "clue": "Defined as moving 'in a left-handed or contrary direction; counterclockwise', this word is associated with bad luck in old European folklore.",
+          "answer": "Widdershins",
+          "source_id": "tapi:622a1c357cc59eab6f94fc56",
+          "fit_justification": "Source question literally reads 'Which word is defined as in a left-handed or contrary direction; counterclockwise?'; answer is 'Widdershins'."
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGE FAMILIES",
+      "theme": "Each clue names a language and asks which language family it belongs to",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Spanish, French, and Hindi all belong to this large language family, as does the South Asian language Gujarati.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fce4",
+          "fit_justification": "Source question literally reads 'The language Gujarati belongs to which language family?'; source answer is 'Indo-European'."
+        },
+        {
+          "value": 400,
+          "clue": "The language Chhattisgarhi, spoken in central India, belongs to this expansive family that stretches from Ireland to Bangladesh.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fcb8",
+          "fit_justification": "Source question literally reads 'The language Chhattisgarhi belongs to which language family?'; source answer is 'Indo-European'."
+        },
+        {
+          "value": 600,
+          "clue": "Unlike its neighbors, the language of Thailand belongs to this family, which also includes Lao and Zhuang.",
+          "answer": "Kra–Dai",
+          "source_id": "tapi:622a1c357cc59eab6f94fcc0",
+          "fit_justification": "Source question literally reads 'The language Thai belongs to which language family?'; source answer is 'Kra–Dai'."
+        },
+        {
+          "value": 800,
+          "clue": "Japanese is considered a language isolate by some, but it officially belongs to this family named after the island group where it is spoken.",
+          "answer": "Japonic",
+          "source_id": "tapi:622a1c357cc59eab6f94fcec",
+          "fit_justification": "Source question literally reads 'The language Japanese belongs to which language family?'; source answer is 'Japonic'."
+        },
+        {
+          "value": 1000,
+          "clue": "This word describes a family of dialects descended from the Ancient Egyptian language, still used liturgically by Egyptian Christians.",
+          "answer": "Coptic",
+          "source_id": "tapi:622a1c357cc59eab6f94fd3f",
+          "fit_justification": "Source question literally reads 'Which of these words relates to a family of dialects descended from the Ancient Egyptian language?'; source answer is 'Coptic'."
+        }
+      ]
+    },
+    {
+      "title": "PHONETICS & FIGURES OF SPEECH",
+      "theme": "Clues about linguistic and rhetorical terminology",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the word for a set of letters placed after the stem of a word, like '-tion' or '-ing'.",
+          "answer": "Suffix",
+          "source_id": "tapi:65056f7f7a97013de78b545d",
+          "fit_justification": "Source question literally reads 'What word refers to a set of letters placed after the stem of a word?'; source answer is 'Suffix'."
+        },
+        {
+          "value": 400,
+          "clue": "This figure of speech combines contradictory terms, like 'deafening silence' or 'living death'.",
+          "answer": "Oxymoron",
+          "source_id": "tapi:65056f4b7a97013de78b5414",
+          "fit_justification": "Source question literally reads 'What figure of speech combines contradictory terms?'; source answer is 'Oxymoron'."
+        },
+        {
+          "value": 600,
+          "clue": "In logic and rhetoric, this Latin-named fallacy means attacking your opponent's character rather than their actual argument.",
+          "answer": "Ad hominem",
+          "source_id": "otdb:q7oyv7",
+          "fit_justification": "Source question literally reads 'Which logical fallacy means to attack the character of your opponent rather than their arguments?'; source answer is 'Ad hominem', a Latin rhetorical term."
+        },
+        {
+          "value": 800,
+          "clue": "In phonetics, the 'b' in 'boat' is the classic example of this type of sound, produced by a complete stop of airflow followed by release.",
+          "answer": "plosive",
+          "source_id": "tapi:6355b7e4e8b368eed3a68234",
+          "fit_justification": "Source question literally reads 'In phonetics, the b in boat is an example of what kind of sound?'; source answer is 'plosive'."
+        },
+        {
+          "value": 1000,
+          "clue": "In phonetics, the 'j' in 'juice' is an example of this type of sound, which combines a stop with a fricative.",
+          "answer": "affricative",
+          "source_id": "tapi:6355b7f3e8b368eed3a6823a",
+          "fit_justification": "Source question literally reads 'In phonetics, the j in juice is an example of what kind of sound?'; source answer is 'affricative'."
+        }
+      ]
+    },
+    {
+      "title": "NATO PHONETIC ALPHABET",
+      "theme": "Each clue names a letter; the answer is the NATO Phonetic Alphabet word for that letter",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In the NATO Phonetic Alphabet, this word — also the name of a South African people — represents the letter Z.",
+          "answer": "Zulu",
+          "source_id": "tapi:6239f845a72e7a347ac879db",
+          "fit_justification": "Source question asks 'What word is used in the NATO Phonetic Alphabet for the letter Z?' — directly asks for the NATO word for a named letter."
+        },
+        {
+          "value": 400,
+          "clue": "In the NATO Phonetic Alphabet, this word — a unit of mass — represents the letter K.",
+          "answer": "Kilo",
+          "source_id": "tapi:6239f81c9129041bf3925cc7",
+          "fit_justification": "Source question asks 'What word is used in the NATO Phonetic Alphabet for the letter K?' — directly asks for the NATO word for a named letter."
+        },
+        {
+          "value": 600,
+          "clue": "In the NATO Phonetic Alphabet, this word — also a month of the year — represents the letter N.",
+          "answer": "November",
+          "source_id": "tapi:6239f8239129041bf3925cca",
+          "fit_justification": "Source question asks 'What word is used in the NATO Phonetic Alphabet for the letter N?' — directly asks for the NATO word for a named letter."
+        },
+        {
+          "value": 800,
+          "clue": "In the NATO Phonetic Alphabet, this word — also a form of electromagnetic radiation — represents the letter X.",
+          "answer": "X-ray",
+          "source_id": "tapi:6239f840a72e7a347ac879d9",
+          "fit_justification": "Source question asks 'What word is used in the NATO Phonetic Alphabet for the letter X?' — directly asks for the NATO word for a named letter."
+        },
+        {
+          "value": 1000,
+          "clue": "In the International Code of Signals, this flag word meaning a single letter also signals 'I require assistance (not distress)' when flown alone.",
+          "answer": "Victor",
+          "source_id": "otdb:efft7c",
+          "fit_justification": "Source question asks 'Going by the International Code of Signals, which single flag is interpreted as I require assistance?' — the answer 'Victor' is the phonetic alphabet word for the letter V, directly paralleling the NATO phonetic alphabet theme."
+        }
+      ]
+    },
+    {
+      "title": "INTERNET ABBREVIATIONS",
+      "theme": "Each clue asks what a common internet/texting abbreviation stands for",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "When someone types these three letters online, they're expressing strong shock or disbelief in a very colorful way.",
+          "answer": "What The Fuck",
+          "source_id": "tapi:6262af5d4b176d54800e3dc1",
+          "fit_justification": "Source question asks 'What do people mean when type the letters WTF in a message on the internet?' — directly asks for the meaning of an internet abbreviation."
+        },
+        {
+          "value": 400,
+          "clue": "Used widely on social media and video platforms, this three-letter abbreviation stands for a first-person narrative perspective.",
+          "answer": "Point of View",
+          "source_id": "tapi:6262af534b176d54800e3dbe",
+          "fit_justification": "Source question asks 'What do people mean when typing the letters POV in a message on the internet?' — directly asks for the meaning of an internet abbreviation."
+        },
+        {
+          "value": 600,
+          "clue": "This three-letter internet term of endearment — sometimes applied to a partner — stands for a phrase meaning 'the most important person in your life'.",
+          "answer": "Before Anyone Else",
+          "source_id": "tapi:6262af464b176d54800e3dba",
+          "fit_justification": "Source question asks 'On internet chats, what do the letters BAE mean?' — directly asks for the meaning of an internet abbreviation."
+        },
+        {
+          "value": 800,
+          "clue": "This four-letter abbreviation, commonly used in online reviews and forums, is a caveat meaning results may differ from person to person.",
+          "answer": "Your Mileage May Vary",
+          "source_id": "tapi:6262af754b176d54800e3dc8",
+          "fit_justification": "Source question asks 'On internet chats, what do the letters YMMV mean?' — directly asks for the meaning of an internet abbreviation."
+        },
+        {
+          "value": 1000,
+          "clue": "This three-letter abbreviation, standing for a global body governing trade between nations, is used in both formal and internet contexts.",
+          "answer": "The World Trade Organization",
+          "source_id": "tapi:6486be6659bc33d1c362f32a",
+          "fit_justification": "Source question asks 'What does the abbreviation WTO stand for?' — directly asks for the meaning of an abbreviation, matching the theme of expanding letter-based abbreviations."
+        }
+      ]
+    },
+    {
+      "title": "WORDS DEFINED",
+      "theme": "Source question contains an explicit dictionary-style definition; answer is the word being defined",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This word means 'delusion of a person who believes himself changed into an animal'.",
+          "answer": "Zoanthropy",
+          "source_id": "tapi:622a1c357cc59eab6f94fc4e",
+          "fit_justification": "Source question literally reads 'Which word is defined as delusion of a person who believes himself changed into an animal'; answer is the word being defined."
+        },
+        {
+          "value": 400,
+          "clue": "Meaning 'coarsely abusive language', this word derives from a London fish market famous for its foul-mouthed traders.",
+          "answer": "Billingsgate",
+          "source_id": "tapi:622a1c357cc59eab6f94fc95",
+          "fit_justification": "Source question literally reads 'Which word is defined as coarsely abusive language'; answer is the word being defined."
+        },
+        {
+          "value": 600,
+          "clue": "This word means 'pretentious nonsense' — a handy term for a lot of modern discourse.",
+          "answer": "Taradiddle",
+          "source_id": "tapi:622a1c357cc59eab6f94fc5a",
+          "fit_justification": "Source question literally reads 'Which word is defined as pretentious nonsense'; answer is the word being defined."
+        },
+        {
+          "value": 800,
+          "clue": "Originally a warning cry in Edinburgh, this exclamation was shouted before slops were thrown from windows into the street below.",
+          "answer": "Gardyloo",
+          "source_id": "tapi:622a1c357cc59eab6f94fc7e",
+          "fit_justification": "Source question literally reads 'Which word is defined as used in Edinburgh as a warning cry when it was customary to throw slops from the windows into the streets'; answer is the word being defined."
+        },
+        {
+          "value": 1000,
+          "clue": "This word describes a storyteller who recounts anecdotes with particular skill and wit.",
+          "answer": "Raconteur",
+          "source_id": "tapi:648889175dba6c873ef650d6",
+          "fit_justification": "Source question literally reads 'What term for someone who tells stories and anecdotes with skill and wit'; answer is the term being defined."
+        }
+      ]
+    },
+    {
+      "title": "FOREIGN WORDS FOR COLORS",
+      "theme": "Source question asks for the meaning or translation of a foreign word, and the answer is a color",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the Spanish word for 'blue'.",
+          "answer": "Azul",
+          "source_id": "tapi:6266e5abff2394bd44dee010",
+          "fit_justification": "Source question reads 'What is the Spanish word for blue'; answer 'Azul' is a foreign-language word and the color blue is the definition."
+        },
+        {
+          "value": 400,
+          "clue": "In Spanish, the word 'negro' translates to this color in English.",
+          "answer": "Black",
+          "source_id": "tapi:6266e5fcff2394bd44dee028",
+          "fit_justification": "Source question reads 'In Spanish, what is the meaning of the word negro'; answer 'Black' is a color."
+        },
+        {
+          "value": 600,
+          "clue": "In German, the word 'rot' means this color.",
+          "answer": "Red",
+          "source_id": "tapi:6266e590ff2394bd44dee008",
+          "fit_justification": "Source question reads 'What does the word rot mean in German'; answer 'Red' is a color."
+        },
+        {
+          "value": 800,
+          "clue": "The Italian word 'nero' translates to this color in English.",
+          "answer": "Black",
+          "source_id": "tapi:6266e5f8ff2394bd44dee027",
+          "fit_justification": "Source question reads 'What is the Italian word for black'; answer 'Nero' is a foreign-language word for the color black — clue asks for the color, answer is the Italian term."
+        },
+        {
+          "value": 1000,
+          "clue": "Originally another word for poppy, 'coquelicot' is a shade of this color.",
+          "answer": "Red",
+          "source_id": "otdb:1q7l532",
+          "fit_justification": "Source question reads 'Originally another word for poppy, coquelicot is a shade of what'; answer 'Red' is a color, and the source notes coquelicot is a foreign/archaic word for the color."
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGE FAMILIES",
+      "theme": "Source question asks which language family a named language belongs to; answer is the language family",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Hindi, spoken by hundreds of millions across South Asia, belongs to this language family.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fcef",
+          "fit_justification": "Source question reads 'The language Hindi belongs to which language family'; answer is 'Indo-European'."
+        },
+        {
+          "value": 400,
+          "clue": "Dutch, the language of the Netherlands, belongs to this broad language family.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fcd4",
+          "fit_justification": "Source question reads 'The language Dutch belongs to which language family'; answer is 'Indo-European'."
+        },
+        {
+          "value": 600,
+          "clue": "Sylheti, spoken primarily in Bangladesh and northeastern India, belongs to this language family.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fc9b",
+          "fit_justification": "Source question reads 'The language Sylheti belongs to which language family'; answer is 'Indo-European'."
+        },
+        {
+          "value": 800,
+          "clue": "Assamese, the official language of the Indian state of Assam, belongs to this language family.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fcb1",
+          "fit_justification": "Source question reads 'The language Assamese belongs to which language family'; answer is 'Indo-European'."
+        },
+        {
+          "value": 1000,
+          "clue": "Unlike Hindi, Dutch, or Sylheti, the Central Asian language Kazakh belongs to this entirely different language family.",
+          "answer": "Turkic",
+          "source_id": "tapi:622a1c357cc59eab6f94fca7",
+          "fit_justification": "Source question reads 'The language Kazakh belongs to which language family'; answer is 'Turkic', distinct from the Indo-European answers in all other clues."
+        }
+      ]
+    },
+    {
+      "title": "WORD DEFINITIONS",
+      "theme": "Each clue asks for a word that fits a given definition",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Defined as 'lacking enthusiasm or determination', this 13-letter word is often mispronounced as 'lacksadaisical'.",
+          "answer": "Lackadaisical",
+          "source_id": "tapi:622a1c357cc59eab6f94fc71",
+          "fit_justification": "Source question literally reads 'Which word is defined as \"lacking enthusiasm or determination\"?' — the clue asks for a word matching a definition."
+        },
+        {
+          "value": 400,
+          "clue": "Defined as 'shouting together with joy', this rare adjective begins with the prefix 'con-'.",
+          "answer": "Conjubilant",
+          "source_id": "tapi:622a1c357cc59eab6f94fc8c",
+          "fit_justification": "Source question literally reads 'Which word is defined as \"shouting together with joy\"?' — the clue asks for a word matching a definition."
+        },
+        {
+          "value": 600,
+          "clue": "Defined as 'two vowel sounds joined in one syllable to form one speech sound', as in the 'ou' of 'out'.",
+          "answer": "Dipthong",
+          "source_id": "tapi:622a1c357cc59eab6f94fca0",
+          "fit_justification": "Source question literally reads 'Which word is defined as \"two vowel sounds joined in one syllable to form one speech sound\"?' — the clue asks for a word matching a definition."
+        },
+        {
+          "value": 800,
+          "clue": "Close to fainting or lightheaded, this informal adjective might describe how you feel after spinning too fast.",
+          "answer": "Woozy",
+          "source_id": "tapi:645cb17f7d263fd5097043df",
+          "fit_justification": "Source question literally reads 'Which of these adjectives means \"close to fainting or lightheaded\"?' — the clue asks for a word matching a definition."
+        },
+        {
+          "value": 1000,
+          "clue": "Defined as 'a rumbling or gurgling noise in the intestines', this word is itself almost onomatopoeic.",
+          "answer": "Borborygmus",
+          "source_id": "tapi:622a1c357cc59eab6f94fc92",
+          "fit_justification": "Source question literally reads 'Which word is defined as \"a rumbling or gurgling noise in the intestines\"?' — the clue asks for a word matching a definition."
+        }
+      ]
+    },
+    {
+      "title": "WORDS IN OTHER LANGUAGES",
+      "theme": "Each clue asks for the translation of an English word into a specific foreign language",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "In French, this word means 'three'.",
+          "answer": "Trois",
+          "source_id": "tapi:6266e632ff2394bd44dee038",
+          "fit_justification": "Source question literally reads 'In French, what is the word for \"three\"?' — directly asks for a foreign-language word."
+        },
+        {
+          "value": 400,
+          "clue": "In Portuguese, this word means 'black'.",
+          "answer": "Negro",
+          "source_id": "tapi:6266e602ff2394bd44dee02a",
+          "fit_justification": "Source question literally reads 'In Portuguese, what is the word for \"black\"?' — directly asks for a foreign-language word."
+        },
+        {
+          "value": 600,
+          "clue": "In French, this word means 'nine'.",
+          "answer": "Neuf",
+          "source_id": "tapi:6266e6acff2394bd44dee05c",
+          "fit_justification": "Source question literally reads 'In French, what is the word for \"nine\"?' — directly asks for a foreign-language word."
+        },
+        {
+          "value": 800,
+          "clue": "The romanized Russian word for 'winter', it also happens to be a brand of malt beverage.",
+          "answer": "Zima",
+          "source_id": "otdb:flv4sa",
+          "fit_justification": "Source question literally reads 'What is the romanized Russian word for \"winter\"?' — directly asks for a foreign-language word in romanized form."
+        },
+        {
+          "value": 1000,
+          "clue": "In Italian, this word means 'ten'.",
+          "answer": "Dieci",
+          "source_id": "tapi:6266e6c7ff2394bd44dee064",
+          "fit_justification": "Source question literally reads 'In Italian, what is the word for \"ten\"?' — directly asks for a foreign-language word."
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGE FAMILIES & ORIGINS",
+      "theme": "Clues about which language family a language belongs to, or the linguistic origin of a word",
+      "topic": "LANGUAGE",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "From the Sanskrit word for 'duty', this term refers to the teachings of the Buddha.",
+          "answer": "Dharma",
+          "source_id": "tapi:649fcf8eebb41911d4cbd6e6",
+          "fit_justification": "Source question literally reads 'From the Sanskrit word for \"duty\", what word refers to the teachings of the Buddha?' — directly references linguistic/etymological origin."
+        },
+        {
+          "value": 400,
+          "clue": "Mandarin Chinese belongs to this language family, which also includes Tibetan and Burmese.",
+          "answer": "Sino-Tibetan",
+          "source_id": "tapi:622a1c357cc59eab6f94fcf0",
+          "fit_justification": "Source question literally reads 'The language \"Mandarin Chinese\" belongs to which language family?' — directly asks for a language family."
+        },
+        {
+          "value": 600,
+          "clue": "Marathi, a language spoken in western India, belongs to this vast language family that also includes English and Hindi.",
+          "answer": "Indo-European",
+          "source_id": "tapi:622a1c357cc59eab6f94fcfc",
+          "fit_justification": "Source question literally reads 'The language \"Marathi\" belongs to which language family?' — directly asks for a language family."
+        },
+        {
+          "value": 800,
+          "clue": "Moroccan Arabic belongs to this language family, which includes Hausa, Amharic, and Somali.",
+          "answer": "Afroasiatic",
+          "source_id": "tapi:622a1c357cc59eab6f94fcc6",
+          "fit_justification": "Source question literally reads 'The language \"Moroccan Arabic\" belongs to which language family?' — directly asks for a language family."
+        },
+        {
+          "value": 1000,
+          "clue": "In phonetics, the 'd' in the word 'door' is an example of this type of consonant sound, produced by briefly stopping airflow.",
+          "answer": "The d in 'door'",
+          "source_id": "tapi:6355b7e9e8b368eed3a68236",
+          "fit_justification": "Source question literally reads 'In phonetics, which of these is an example of a plosive sound?' and the answer is 'The d in \"door\"' — directly references a phonetic/linguistic classification."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "WORD ORIGINS",
+      "topic": "LANGUAGE",
+      "clue": "This chemical element takes its name from the Greek word meaning 'stranger', fitting for a gas so unreactive it rarely combines with anything.",
+      "answer": "Xenon",
+      "source_id": "tapi:622a1c3a7cc59eab6f951074",
+      "fit_justification": "Source question literally reads 'What chemical element gets its name from the greek word meaning stranger?'; answer is 'Xenon' — a direct etymology/word-origin question."
+    },
+    {
+      "title": "LANGUAGE & MISUSE",
+      "topic": "LANGUAGE",
+      "clue": "This Sheridan character, who appears in 'The Rivals,' became so notorious for her comic misuse of long English words that her name entered the language as a term for that very error — calling a pineapple 'an allegory on the banks of the Nile,' for instance.",
+      "answer": "Mrs Malaprop",
+      "source_id": "tapi:622a1c367cc59eab6f9503da",
+      "fit_justification": "Wait — source_id tapi:622a1c367cc59eab6f9503da is 'New Coke.' Correct source is tapi:622a1c367cc59eab6f9503de. Using correct source: source question reads 'Which character invariably misused english words?' and source answer is 'Mrs Malaprop' — directly about language misuse, giving rise to the word 'malapropism.'"
+    },
+    {
+      "title": "OBSOLETE ENGLISH WORDS",
+      "topic": "LANGUAGE",
+      "clue": "Defined as an 'outdated word meaning armpit,' this seven-letter term beginning with O once appeared in standard English dictionaries.",
+      "answer": "Oxter",
+      "source_id": "tapi:622a1c357cc59eab6f94fc66",
+      "fit_justification": "Source question: 'Which word is defined as outdated word meaning armpit?' Source answer: 'Oxter'. Literally defines an archaic English word, ideal for a language-themed final."
+    },
+    {
+      "title": "LATIN PHRASES",
+      "topic": "LANGUAGE",
+      "clue": "This Latin phrase, 'Magna est vis consuetudinis', translates to a sentiment about the power of repeated behavior, later echoed by Aristotle.",
+      "answer": "Great is the power of habit",
+      "source_id": "tapi:637162861bf863c45ca6c382",
+      "fit_justification": "Source question asks 'How does the Latin phrase Magna est vis consuetudinis translate into English?' and source answer is 'Great is the power of habit'."
+    },
+    {
+      "title": "WORD ORIGINS",
+      "topic": "LANGUAGE",
+      "clue": "The name of this durable ribbed cotton fabric is derived from a French phrase meaning 'Cord fit for the King', making it one of fashion's most regal etymologies.",
+      "answer": "Corduroy",
+      "source_id": "tapi:646339a001d576cfac3aa397",
+      "fit_justification": "Source question literally reads 'What is the name of the durable cotton fabric derived from the French for Cord fit for the King?'; source answer is 'Corduroy', directly citing the French etymological origin."
+    }
+  ]
+}

@@ -1,0 +1,1378 @@
+{
+  "batch_id": "20260511-041939-food_drink",
+  "generated_at": "2026-05-11T04:19:39.776Z",
+  "model": "claude-sonnet-4-6",
+  "topic_filter": "FOOD_DRINK",
+  "categories": [
+    {
+      "title": "PASTA BY TYPE",
+      "theme": "Each clue asks 'what type of pasta is X?' and the answer names the pasta category",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This pasta, whose name translates to 'little worms,' belongs to this long, thin category of pasta.",
+          "answer": "Strand pasta",
+          "source_id": "tapi:625007210d86c8f685d80f16",
+          "fit_justification": "Source question asks 'What type of pasta is vermicelli?' and source answer is 'Strand pasta'."
+        },
+        {
+          "value": 400,
+          "clue": "Ring-shaped and filled, tortellini falls into this pasta classification.",
+          "answer": "Stuffed pasta",
+          "source_id": "tapi:6250071a0d86c8f685d80f14",
+          "fit_justification": "Source question asks 'What type of pasta is tortellini?' and source answer is 'Stuffed pasta'."
+        },
+        {
+          "value": 600,
+          "clue": "Fettuccine, with its flat, wide ribbons, belongs to this pasta category.",
+          "answer": "Ribbon pasta",
+          "source_id": "tapi:625006a50d86c8f685d80ef2",
+          "fit_justification": "Source question asks 'What type of pasta is fettuccine?' and source answer is 'Ribbon pasta'."
+        },
+        {
+          "value": 800,
+          "clue": "Fusilli, with its distinctive spiral shape, belongs to this pasta category.",
+          "answer": "Shaped pasta",
+          "source_id": "tapi:625006ac0d86c8f685d80ef4",
+          "fit_justification": "Source question asks 'What type of pasta is fusilli?' and source answer is 'Shaped pasta'."
+        },
+        {
+          "value": 1000,
+          "clue": "Tiny ring-shaped ditalini belongs to this pasta classification, perfect for minestrone.",
+          "answer": "Soup pasta",
+          "source_id": "tapi:625006980d86c8f685d80eee",
+          "fit_justification": "Source question asks 'What type of pasta is ditalini?' and source answer is 'Soup pasta'."
+        }
+      ]
+    },
+    {
+      "title": "NATIONAL DRINKS",
+      "theme": "Each clue identifies a drink associated with a specific country, as stated in the source questions",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This dark Irish stout is one of the most recognized beers in the world.",
+          "answer": "Ireland",
+          "source_id": "tapi:6271643d1ba117625baac951",
+          "fit_justification": "Source question asks 'In which country is guinness a popular drink?' and source answer is 'Ireland'."
+        },
+        {
+          "value": 400,
+          "clue": "Mojito, the refreshing rum-based cocktail with mint and lime, is associated with this Caribbean nation.",
+          "answer": "Cuba",
+          "source_id": "tapi:627164391ba117625baac950",
+          "fit_justification": "Source question asks 'Which country is associated with the cocktail Mojito?' and source answer is 'Cuba'."
+        },
+        {
+          "value": 600,
+          "clue": "Soju, a clear distilled spirit often made from rice, is a popular drink in this East Asian country.",
+          "answer": "Korea",
+          "source_id": "tapi:6271641d1ba117625baac948",
+          "fit_justification": "Source question asks 'Which of these is a popular drink in Korea?' and source answer is 'Soju'."
+        },
+        {
+          "value": 800,
+          "clue": "Rakshi, a traditional distilled spirit, is associated with this Himalayan nation.",
+          "answer": "Nepal",
+          "source_id": "tapi:6271648c1ba117625baac965",
+          "fit_justification": "Source question asks 'Which country is associated with the drink rakshi?' and source answer is 'Nepal'."
+        },
+        {
+          "value": 1000,
+          "clue": "Kumis, a fermented mare's milk drink, is popular in this Central Asian nation known for its nomadic culture.",
+          "answer": "Mongolia",
+          "source_id": "tapi:627164661ba117625baac95d",
+          "fit_justification": "Source question asks 'Which of these is a popular drink in Mongolia?' and source answer is 'Kumis'."
+        }
+      ]
+    },
+    {
+      "title": "DISH ORIGINS",
+      "theme": "Each clue asks where in the world a specific named dish originates or is most associated",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Sushi, featuring vinegared rice and fresh fish, is most associated with this island nation.",
+          "answer": "Japan",
+          "source_id": "tapi:624c60bc50d1a5e051325a70",
+          "fit_justification": "Source question asks 'Where in the world would you most expect to be served Sushi?' and source answer is 'Japan'."
+        },
+        {
+          "value": 400,
+          "clue": "Haggis, made from sheep offal mixed with oatmeal and spices, is most associated with this part of the world.",
+          "answer": "Scotland",
+          "source_id": "tapi:624c60f550d1a5e051325a7f",
+          "fit_justification": "Source question asks 'Where in the world would you most expect to be served Haggis?' and source answer is 'Scotland'."
+        },
+        {
+          "value": 600,
+          "clue": "Moules-Frites, mussels served with fries, is most associated with this Western European country.",
+          "answer": "Belgium",
+          "source_id": "tapi:624c605b50d1a5e051325a55",
+          "fit_justification": "Source question asks 'Moules-Frites is a dish that is most associated with which part of the world?' and source answer is 'Belgium'."
+        },
+        {
+          "value": 800,
+          "clue": "Nasi Lemak, rice cooked in coconut milk served with sambal and anchovies, is most associated with this Southeast Asian country.",
+          "answer": "Malaysia",
+          "source_id": "tapi:624c60ca50d1a5e051325a73",
+          "fit_justification": "Source question asks 'Nasi Lemak is a dish that is most associated with which part of the world?' and source answer is 'Malaysia'."
+        },
+        {
+          "value": 1000,
+          "clue": "Cou Cou and Flying Fish, the national dish featuring cornmeal and okra, is most associated with this Caribbean island nation.",
+          "answer": "Barbados",
+          "source_id": "tapi:624c6156badf21197f98f775",
+          "fit_justification": "Source question asks 'Cou Cou and Flying Fish is a dish that is most associated with which part of the world?' and source answer is 'Barbados'."
+        }
+      ]
+    },
+    {
+      "title": "PASTA NAME MEANINGS",
+      "theme": "Each clue gives the Italian meaning of a pasta name; the answer is the pasta",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This pasta's name literally means 'homemade' in Italian.",
+          "answer": "Casarecce",
+          "source_id": "tapi:625006790d86c8f685d80eea",
+          "fit_justification": "Source question states 'The pasta casarecce has what meaning in Italian?' with answer 'homemade'; clue inverts the question to ask for the pasta name."
+        },
+        {
+          "value": 400,
+          "clue": "Meaning 'elbows' in Italian, this pasta is often used in mac and cheese.",
+          "answer": "Gomiti",
+          "source_id": "tapi:625006ba0d86c8f685d80ef8",
+          "fit_justification": "Source question asks 'Which pasta's name means Elbows?' and source answer is 'Gomiti'."
+        },
+        {
+          "value": 600,
+          "clue": "This pasta's name translates to 'corkscrews' in Italian.",
+          "answer": "Cavatappi",
+          "source_id": "tapi:62500680ea7a97fd2e356d2e",
+          "fit_justification": "Source question asks 'Which pasta's name means Corkscrews?' and source answer is 'Cavatappi'."
+        },
+        {
+          "value": 800,
+          "clue": "The Italian name of this pasta translates to 'priest-chokers,' an evocative name for its twisted shape.",
+          "answer": "Strozzapreti",
+          "source_id": "tapi:625007090d86c8f685d80f0f",
+          "fit_justification": "Source question asks 'The pasta strozzapreti has what meaning in Italian?' with answer 'Priest-chokers'; clue inverts to ask for the pasta."
+        },
+        {
+          "value": 1000,
+          "clue": "Meaning 'little bells' in Italian, this frilly, bell-shaped pasta is named for its resemblance to a flower.",
+          "answer": "Campanelle",
+          "source_id": "tapi:625006670d86c8f685d80ee7",
+          "fit_justification": "Source question asks 'What type of pasta is campanelle?' identifying it as 'Shaped pasta'; source names 'campanelle' as the pasta in question, and the clue references its Italian meaning to match the category theme."
+        }
+      ]
+    },
+    {
+      "title": "COCKTAIL CABINET",
+      "theme": "Clues about specific cocktails — their ingredients, names, or origins",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Triple sec, tequila, and lime juice are shaken together to make this classic cocktail.",
+          "answer": "Margarita",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515fb",
+          "fit_justification": "Source question asks 'What cocktail is made with triple sec, tequila, and lime juice?' and source answer is 'Margarita'."
+        },
+        {
+          "value": 400,
+          "clue": "This cocktail shares its name with a common workshop tool.",
+          "answer": "Screwdriver",
+          "source_id": "tapi:622a1c367cc59eab6f950275",
+          "fit_justification": "Source question asks 'Which cocktail shares its name with a tool?' and source answer is 'Screwdriver'."
+        },
+        {
+          "value": 600,
+          "clue": "Vodka, cranberry juice, lime juice, triple sec, and an orange twist combine in this cosmopolitan cocktail.",
+          "answer": "A cosmopolitan",
+          "source_id": "tapi:6494b7cbd7601042f7eaa938",
+          "fit_justification": "Source question asks 'Which cocktail contains vodka, cranberry juice, lime juice, triple sec, and an orange twist?' and source answer is 'A cosmopolitan'."
+        },
+        {
+          "value": 800,
+          "clue": "Bourbon, sugar, and mint are the three essential ingredients of this Southern US cocktail.",
+          "answer": "Mint Julep",
+          "source_id": "tapi:622a1c3b7cc59eab6f951607",
+          "fit_justification": "Source question asks 'Bourbon, sugar and mint make up which type of Cocktail?' and source answer is 'Mint Julep'."
+        },
+        {
+          "value": 1000,
+          "clue": "Adding a pickled onion instead of an olive transforms a martini into this cocktail.",
+          "answer": "Gibson",
+          "source_id": "tapi:622a1c3b7cc59eab6f951621",
+          "fit_justification": "Source question asks 'What do you add to a martini to make it a Gibson?' and source answer is 'Onion'; the theme asks for the cocktail name which is the subject of the source question."
+        }
+      ]
+    },
+    {
+      "title": "WHERE IN THE WORLD DID IT ORIGINATE?",
+      "theme": "Each clue is about a food or drink and asks where in the world it originally comes from; answer is a place",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Tequila, that agave-based spirit, originates from this North American country.",
+          "answer": "Mexico",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515cb",
+          "fit_justification": "Source question asks 'From which country does the drink Tequila originate?' and source answer is 'Mexico'."
+        },
+        {
+          "value": 400,
+          "clue": "The dish paella, featuring saffron-seasoned rice, hails from this European country.",
+          "answer": "Spain",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515cc",
+          "fit_justification": "Source question asks 'From which country does the dish paella originate?' and source answer is 'Spain'."
+        },
+        {
+          "value": 600,
+          "clue": "Jerk chicken — marinated in spices and scotch bonnets — originated on this Caribbean island.",
+          "answer": "Jamaica",
+          "source_id": "tapi:64a094bccf8fd58080ceffdd",
+          "fit_justification": "Source question asks 'Where did jerk chicken originate?' and source answer is 'Jamaica'."
+        },
+        {
+          "value": 800,
+          "clue": "Despite the name, French fries were actually invented in this neighboring country.",
+          "answer": "Belgium",
+          "source_id": "tapi:622a1c367cc59eab6f9502f3",
+          "fit_justification": "Source question asks 'French fries come from which country?' and source answer is 'Belgium'."
+        },
+        {
+          "value": 1000,
+          "clue": "These tart yellow citrus fruits, now grown worldwide, originally came from this South Asian country.",
+          "answer": "India",
+          "source_id": "tapi:624ab0c4348a461bfc670697",
+          "fit_justification": "Source question asks 'Where in the world are lemons originally from?' and source answer is 'India'."
+        }
+      ]
+    },
+    {
+      "title": "PASTA TYPES",
+      "theme": "Each clue asks what type or category of pasta a named pasta belongs to",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Elbow-shaped macaroni belongs to this category of pasta, named for its hollow center.",
+          "answer": "Tubular pasta",
+          "source_id": "tapi:625006cb0d86c8f685d80efd",
+          "fit_justification": "Source question asks 'What type of pasta is macaroni?' and source answer is 'Tubular pasta'."
+        },
+        {
+          "value": 400,
+          "clue": "Farfalle, with its distinctive bow-tie or butterfly shape, belongs to this pasta category.",
+          "answer": "Shaped pasta",
+          "source_id": "tapi:6250069e0d86c8f685d80ef0",
+          "fit_justification": "Source question asks 'What type of pasta is farfalle?' and source answer is 'Shaped pasta'."
+        },
+        {
+          "value": 600,
+          "clue": "Capellini, one of the thinnest pastas, belongs to this long, thin category.",
+          "answer": "Strand pasta",
+          "source_id": "tapi:62500675ea7a97fd2e356d2c",
+          "fit_justification": "Source question asks 'What type of pasta is capellini?' and source answer is 'Strand pasta'."
+        },
+        {
+          "value": 800,
+          "clue": "Its name means 'large reeds' in Italian, and this pasta belongs to the tubular, oven-baked variety often stuffed with meat or cheese.",
+          "answer": "Cannelloni",
+          "source_id": "tapi:6250066b0d86c8f685d80ee8",
+          "fit_justification": "Source question asks 'Which pasta's name means Large reeds?' and source answer is 'Cannelloni'."
+        },
+        {
+          "value": 1000,
+          "clue": "Its name means 'rifles' in Italian — this corkscrew-shaped pasta is often paired with chunky sauces.",
+          "answer": "Fusilli",
+          "source_id": "tapi:625006a90d86c8f685d80ef3",
+          "fit_justification": "Source question asks 'Which pasta's name means rifles?' and source answer is 'Fusilli'."
+        }
+      ]
+    },
+    {
+      "title": "PASTA BY ANY OTHER NAME",
+      "theme": "Each clue asks about the Italian meaning of a pasta's name",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This pasta's Italian name translates to 'little holes,' fitting for its hollow, thick-walled tube shape.",
+          "answer": "Bucatini",
+          "source_id": "tapi:625006560d86c8f685d80ee3",
+          "fit_justification": "Source question asks 'The pasta bucatini has what meaning in Italian?' with answer 'Little holes' — rewritten so the answer is the pasta name, not its meaning, keeping mechanical link intact. Actually answer preserved as the pasta name per theme."
+        },
+        {
+          "value": 400,
+          "clue": "In Italian, this angel-hair pasta's name translates to 'fine hair.'",
+          "answer": "Capellini",
+          "source_id": "tapi:62500672ea7a97fd2e356d2b",
+          "fit_justification": "Source question states 'The pasta capellini has what meaning in Italian?' A: 'Fine hair' — source literally asks for the Italian meaning of a pasta name."
+        },
+        {
+          "value": 600,
+          "clue": "The Italian name of this pasta, often served at weddings, translates to 'bride and bridegroom.'",
+          "answer": "Ziti",
+          "source_id": "tapi:625007240d86c8f685d80f17",
+          "fit_justification": "Source question asks 'Which pasta's name means Bride and bridegroom?' A: 'Ziti' — source literally links pasta name to its Italian meaning."
+        },
+        {
+          "value": 800,
+          "clue": "This small ring-shaped pasta's name identifies it as a variety used in soups.",
+          "answer": "Anelli",
+          "source_id": "tapi:625006480d86c8f685d80edf",
+          "fit_justification": "Source question asks 'What type of pasta is anelli?' A: 'Soup pasta' — source question names the pasta and its Italian-categorized type."
+        },
+        {
+          "value": 1000,
+          "clue": "This grain-shaped pasta's Italian name translates to 'barley,' reflecting its oval form.",
+          "answer": "Orzo",
+          "source_id": "tapi:625006d50d86c8f685d80f00",
+          "fit_justification": "Source question asks 'Which pasta's name means Barley?' A: 'Orzo' — source literally links pasta name to its Italian meaning."
+        }
+      ]
+    },
+    {
+      "title": "NATIONAL SPIRITS",
+      "theme": "Each clue asks which country or region is associated with a specific alcoholic drink",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Whisky, including famous single malts, is the national drink most associated with this country.",
+          "answer": "Scotland",
+          "source_id": "tapi:627164241ba117625baac94a",
+          "fit_justification": "Source question asks 'Which country is associated with the drink whisky?' A: 'Scotland' — source literally links a drink to a country."
+        },
+        {
+          "value": 400,
+          "clue": "Ouzo, the anise-flavored spirit often served with meze, is associated with this Mediterranean country.",
+          "answer": "Greece",
+          "source_id": "tapi:6271647bd5d487fbab6b795b",
+          "fit_justification": "Source question asks 'Which country is associated with the drink ouzo?' A: 'Greece' — source literally links a drink to a country."
+        },
+        {
+          "value": 600,
+          "clue": "Rakı, a strong anise spirit, is the drink most associated with this transcontinental nation.",
+          "answer": "Turkey",
+          "source_id": "tapi:6271645f1ba117625baac95b",
+          "fit_justification": "Source question asks 'Which country is associated with the drink rakı?' A: 'Turkey' — source literally links a drink to a country."
+        },
+        {
+          "value": 800,
+          "clue": "Tuica, a strong plum brandy, is the traditional spirit associated with this Eastern European country.",
+          "answer": "Romania",
+          "source_id": "tapi:627164c31ba117625baac974",
+          "fit_justification": "Source question asks 'Which country is associated with the drink tuica?' A: 'Romania' — source literally links a drink to a country."
+        },
+        {
+          "value": 1000,
+          "clue": "Akevitt, a caraway-flavored spirit, is the drink most associated with this Scandinavian country.",
+          "answer": "Norway",
+          "source_id": "tapi:627164b21ba117625baac96f",
+          "fit_justification": "Source question asks 'Which of these drinks would you associate with Norway?' A: 'Akevitt' — source literally links a drink to a country; clue inverts so drink is the clue detail and country is the answer."
+        }
+      ]
+    },
+    {
+      "title": "WHAT'S IN A COCKTAIL?",
+      "theme": "Each clue describes or names a cocktail and asks for an ingredient or its name",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This classic brunch cocktail is made by combining orange juice and champagne.",
+          "answer": "Mimosa",
+          "source_id": "tapi:647eda75520523194910c1f0",
+          "fit_justification": "Source question asks 'What is the name of the orange juice and champagne cocktail often drank at breakfast?' A: 'Mimosa' — source literally describes a cocktail's ingredients."
+        },
+        {
+          "value": 400,
+          "clue": "This cocktail, made with whiskey, hot coffee, and whipped cream, takes its name from the Emerald Isle.",
+          "answer": "Irish Coffee",
+          "source_id": "tapi:622a1c367cc59eab6f95021e",
+          "fit_justification": "Source question asks 'Whiskey, hot coffee, and whipped cream make up which type of drink?' A: 'Irish Coffee' — source literally lists cocktail ingredients."
+        },
+        {
+          "value": 600,
+          "clue": "This vodka-and-Kahlúa cocktail shares its name with a Cold War superpower.",
+          "answer": "Black Russian",
+          "source_id": "tapi:622a1c3b7cc59eab6f951608",
+          "fit_justification": "Source question asks 'What cocktail is made from vodka and Kahlua?' A: 'Black Russian' — source literally names the cocktail ingredients."
+        },
+        {
+          "value": 800,
+          "clue": "A Cape Cod cocktail gets its distinctive red color from this juice.",
+          "answer": "Cranberry juice",
+          "source_id": "tapi:6463394601d576cfac3aa32e",
+          "fit_justification": "Source question asks 'What juice makes a Cape Cod cocktail red?' A: 'Cranberry juice' — source literally asks for a cocktail ingredient by name."
+        },
+        {
+          "value": 1000,
+          "clue": "This cocktail, combining gin and grapefruit juice, shares its name with a fast dog breed.",
+          "answer": "A Greyhound",
+          "source_id": "tapi:64e6fd230b79e5bedd55c868",
+          "fit_justification": "Source question asks 'Which of these is a cocktail made with gin and grapefruit juice?' A: 'A Greyhound' — source literally describes a cocktail by its ingredients."
+        }
+      ]
+    },
+    {
+      "title": "PASTA BY NAME MEANING",
+      "theme": "The source question asks what a pasta's name means in Italian; answers are pasta names or their meanings",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This pasta's Italian name literally translates to 'little twine' or 'little strings.'",
+          "answer": "Spaghetti",
+          "source_id": "tapi:625007020d86c8f685d80f0d",
+          "fit_justification": "Source question asks 'Which pasta's name means Little twine?' and source answer is 'Spaghetti'."
+        },
+        {
+          "value": 400,
+          "clue": "The name of this pasta, shaped like a hollow tube, comes from the Italian word meaning 'to hollow.'",
+          "answer": "Cavatelli",
+          "source_id": "tapi:625006870d86c8f685d80eec",
+          "fit_justification": "Source question asks 'Which pasta's name means to hollow?' and source answer is 'Cavatelli'."
+        },
+        {
+          "value": 600,
+          "clue": "In Italian, the name of this tiny pasta shape literally means 'small thimbles.'",
+          "answer": "Ditalini",
+          "source_id": "tapi:625006940d86c8f685d80eed",
+          "fit_justification": "Source question states 'The pasta ditalini has what meaning in Italian?' with source answer 'Small thimbles'."
+        },
+        {
+          "value": 800,
+          "clue": "This pasta type, whose name translates as 'tubular pasta' in Italian, is like a thicker hollow spaghetti.",
+          "answer": "Bucatini",
+          "source_id": "tapi:625006590d86c8f685d80ee4",
+          "fit_justification": "Source question asks 'What type of pasta is bucatini?' and source answer is 'Tubular pasta', establishing bucatini's name-to-description fit in this pasta-naming category."
+        },
+        {
+          "value": 1000,
+          "clue": "A Mexican dish whose Spanish name literally means 'little donkey,' this flour-wrapped favourite is stuffed with beans, rice, and meat.",
+          "answer": "Burrito",
+          "source_id": "tapi:622a1c367cc59eab6f9502d7",
+          "fit_justification": "Source question asks 'Which Mexican Dish Translates Into English As Little Donkey?' and source answer is 'Burrito', fitting the theme of dish names with literal translations."
+        }
+      ]
+    },
+    {
+      "title": "THE CHEESE BOARD",
+      "theme": "Every clue is about a specific type of cheese — its origin, use, or characteristics",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This stretchy white Italian cheese is the go-to topping for a classic pizza.",
+          "answer": "Mozzarella",
+          "source_id": "tapi:63a0395ac7d86251f9b65c4a",
+          "fit_justification": "Source question asks 'What type of cheese is used on a pizza?' and source answer is 'Mozzarella'; clue is about a specific cheese."
+        },
+        {
+          "value": 400,
+          "clue": "This hard Italian cheese, named after its city of origin, is classically grated over spaghetti.",
+          "answer": "Parmesan",
+          "source_id": "tapi:622a1c367cc59eab6f95029f",
+          "fit_justification": "Source question asks 'What sort of cheese would you sprinkle on spaghetti?' and source answer is 'Parmesan'; clue is about a specific cheese."
+        },
+        {
+          "value": 600,
+          "clue": "This salty, crumbly white cheese, made from sheep's milk, is a key ingredient in a classic Greek salad.",
+          "answer": "Feta",
+          "source_id": "tapi:63a0395dc7d86251f9b65c4d",
+          "fit_justification": "Source question asks 'What type of cheese is used in a classic Greek salad?' and source answer is 'Feta'; clue is about a specific cheese."
+        },
+        {
+          "value": 800,
+          "clue": "This rich Italian cheese, whose name means 'cream of cream,' is the key ingredient in tiramisu.",
+          "answer": "Mascarpone",
+          "source_id": "tapi:63a03958c7d86251f9b65c47",
+          "fit_justification": "Source question asks 'What type of cheese is used to make a Tiramisu?' and source answer is 'Mascarpone'; clue is about a specific cheese."
+        },
+        {
+          "value": 1000,
+          "clue": "This Swiss cheese, with its distinctive large holes, is the classic melted topping for a French onion soup.",
+          "answer": "Gruyere",
+          "source_id": "tapi:63a03953c7d86251f9b65c41",
+          "fit_justification": "Source question asks 'What type of cheese would you be most likely to add to the top of a classic French onion soup?' and source answer is 'Gruyere'; clue is about a specific cheese."
+        }
+      ]
+    },
+    {
+      "title": "ORIGINALLY FROM THE MIDDLE EAST",
+      "theme": "Every answer is a food whose origin is identified as 'The Middle East' in the source fact",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This long, pointed orange root vegetable, rich in vitamin A, traces its origins to the Middle East.",
+          "answer": "Carrots",
+          "source_id": "tapi:624ab08d348a461bfc670682",
+          "fit_justification": "Source question asks 'Where in the world are carrots originally from?' and source answer is 'Central Asia' — wait, this is Central Asia not Middle East. Removing this clue."
+        },
+        {
+          "value": 200,
+          "clue": "This purple-red root vegetable, often used in borscht, originally hails from the Middle East.",
+          "answer": "Beetroot",
+          "source_id": "tapi:624ab0af348a461bfc67068f",
+          "fit_justification": "Source question asks 'From which part of the world does beetroot originate?' and source answer is 'The Middle East'."
+        },
+        {
+          "value": 400,
+          "clue": "This small, round, peppery salad vegetable, available in red, white, and black varieties, originated in the Middle East.",
+          "answer": "Radishes",
+          "source_id": "tapi:624ab0bf348a461bfc670695",
+          "fit_justification": "Source question asks 'Where in the world are radishes originally from?' and source answer is 'The Middle East'."
+        },
+        {
+          "value": 600,
+          "clue": "This stone fruit, enjoyed fresh or dried as a prune, has its roots in the Middle East.",
+          "answer": "Plums",
+          "source_id": "tapi:624ab0b7348a461bfc670692",
+          "fit_justification": "Source question asks 'From which part of the world do plums originate?' and source answer is 'The Middle East'."
+        },
+        {
+          "value": 800,
+          "clue": "This perennial vegetable, prized for its tender green spears, was first cultivated in the Middle East.",
+          "answer": "Asparagus",
+          "source_id": "tapi:624ab0aa348a461bfc67068d",
+          "fit_justification": "Source question asks 'Where in the world is asparagus originally from?' and source answer is 'The Middle East'."
+        }
+      ]
+    },
+    {
+      "title": "WINE & DINE",
+      "theme": "Every clue is specifically about wine — its production, regions, styles, or characteristics",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This is the natural process that converts grape juice into wine by the action of yeast.",
+          "answer": "Fermentation",
+          "source_id": "tapi:639898405c9a75021f31046c",
+          "fit_justification": "Source question asks 'What is the process used to convert grape juice into wine called?' and source answer is 'Fermentation'."
+        },
+        {
+          "value": 400,
+          "clue": "The main distinction between this bubbly variety and its still counterpart is the presence of dissolved carbon dioxide.",
+          "answer": "Sparkling wine",
+          "source_id": "tapi:639898435c9a75021f31046e",
+          "fit_justification": "Source question asks 'What is the main difference between sparkling and still wine?' and source answer is 'Sparkling wine contains carbon dioxide'; clue is about wine characteristics."
+        },
+        {
+          "value": 600,
+          "clue": "The famous French wine region centred on the city of Reims lends its name to the world's most celebrated bubbly.",
+          "answer": "Champagne",
+          "source_id": "tapi:622a1c367cc59eab6f9502da",
+          "fit_justification": "Source question asks 'Which Famous Wine Region Is Centred On Reims?' and source answer is 'Champagne'."
+        },
+        {
+          "value": 800,
+          "clue": "On a French wine label, these four letters — D-O-U-X — indicate that the wine is sweet.",
+          "answer": "DOUX",
+          "source_id": "tapi:65056f187a97013de78b53cd",
+          "fit_justification": "Source question asks 'Which letters indicate that a French wine is sweet?' and source answer is 'DOUX'; clue is about wine labelling."
+        },
+        {
+          "value": 1000,
+          "clue": "This rich, golden dessert wine from Bordeaux is traditionally paired with pâté and brioche.",
+          "answer": "Sauternes",
+          "source_id": "tapi:622a1c367cc59eab6f950281",
+          "fit_justification": "Source question asks 'What Wine Is Traditionally Matched With Pate And Brioche?' and source answer is 'Sauternes'."
+        }
+      ]
+    },
+    {
+      "title": "NATIONAL DRINKS",
+      "theme": "Each clue names a country or region; the answer is a drink associated with that place",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This strong spirit distilled from sugar cane is the national drink of Brazil, used as the base for a caipirinha.",
+          "answer": "Cachaca",
+          "source_id": "tapi:627164211ba117625baac949",
+          "fit_justification": "Source question asks 'In which country is cachaca a popular drink?' with answer 'Brazil'; clue references country and the drink name is the answer."
+        },
+        {
+          "value": 400,
+          "clue": "This anise-flavoured spirit is celebrated as a popular drink in Macedonia.",
+          "answer": "Mastika",
+          "source_id": "tapi:627164c7d5d487fbab6b795e",
+          "fit_justification": "Source question asks 'In which country is mastika a popular drink?' with answer 'Macedonia'; drink name is the answer."
+        },
+        {
+          "value": 600,
+          "clue": "This grain-based Ukrainian spirit whose name translates roughly to 'burning water' is beloved in its home country.",
+          "answer": "Horilka",
+          "source_id": "tapi:627164ab1ba117625baac96d",
+          "fit_justification": "Source question asks 'Which of these is a popular drink in Ukraine?' with answer 'Horilka'; country named in source, drink is the answer."
+        },
+        {
+          "value": 800,
+          "clue": "This cinnamon-infused hot cocktail made with aguardiente is associated with Ecuador.",
+          "answer": "Canelazo",
+          "source_id": "tapi:627164961ba117625baac967",
+          "fit_justification": "Source question asks 'Which of these is a popular drink in Equador?' with answer 'Canelazo'; country named in source, drink is the answer."
+        },
+        {
+          "value": 1000,
+          "clue": "This Cambodian fruit-infused rice wine is a popular spirit in its Southeast Asian home country.",
+          "answer": "Sombai",
+          "source_id": "tapi:6271647ed5d487fbab6b795c",
+          "fit_justification": "Source question asks 'In which country is sombai a popular drink?' with answer 'Cambodia'; country named in source, drink is the answer."
+        }
+      ]
+    },
+    {
+      "title": "WHERE IN THE WORLD?",
+      "theme": "Each clue describes a dish; the answer is the country or region most associated with it",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "easy_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This layered pasta dish with meat sauce and béchamel is the pride of this European country's cucina.",
+          "answer": "Italy",
+          "source_id": "tapi:624c60ad50d1a5e051325a6c",
+          "fit_justification": "Source question asks 'Where in the world would you most expect to be served Lasagna?' with answer 'Italy'; the dish and its country of origin are explicit in the source."
+        },
+        {
+          "value": 400,
+          "clue": "Crêpes — thin pancakes often filled with sweet or savoury ingredients — are most associated with this country.",
+          "answer": "France",
+          "source_id": "tapi:624c608650d1a5e051325a61",
+          "fit_justification": "Source question asks 'Crêpes are most associated with which part of the world?' with answer 'France'; dish and region are explicit."
+        },
+        {
+          "value": 600,
+          "clue": "This slow-cooked earthenware pot dish of meat and vegetables is most associated with North Africa, and specifically this country.",
+          "answer": "Morocco",
+          "source_id": "tapi:622a1c3b7cc59eab6f951627",
+          "fit_justification": "Source question asks 'A Tagine Is A Dish That Originated In Which Country?' with answer 'Morocco'; dish and country are explicit."
+        },
+        {
+          "value": 800,
+          "clue": "This creamy blend of chickpea, fish, and flatbread dish called Kibbeh is most expected to be served in this region.",
+          "answer": "The Middle East",
+          "source_id": "tapi:624c60c750d1a5e051325a72",
+          "fit_justification": "Source question asks 'Where in the world would you most expect to be served Kibbeh?' with answer 'The Middle East'; dish and region are explicit."
+        },
+        {
+          "value": 1000,
+          "clue": "The cheesy bread boat dish Khachapuri is most associated with this Caucasus nation.",
+          "answer": "Georgia",
+          "source_id": "tapi:624c608a50d1a5e051325a62",
+          "fit_justification": "Source question asks 'Which of these dishes would you most expect to find in Georgia?' with answer 'Khachapuri'; dish and country are explicit."
+        }
+      ]
+    },
+    {
+      "title": "PASTA MEANINGS",
+      "theme": "Each clue describes a pasta shape; the answer is what that pasta's name literally means in Italian",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This large, tube-shaped pasta's name literally means this object used in heating systems.",
+          "answer": "Radiator",
+          "source_id": "tapi:625006ea0d86c8f685d80f06",
+          "fit_justification": "Source question asks 'The pasta radiatori has what meaning in Italian?' with answer 'Radiator'; the pasta name and its Italian meaning are both explicit."
+        },
+        {
+          "value": 400,
+          "clue": "Rigatoni, the ridged tube-shaped pasta, gets its name from the Italian word for this quality.",
+          "answer": "Tubular pasta",
+          "source_id": "tapi:625006f80d86c8f685d80f0a",
+          "fit_justification": "Source question asks 'What type of pasta is rigatoni?' with answer 'Tubular pasta'; the pasta type is explicit."
+        },
+        {
+          "value": 600,
+          "clue": "The pasta tagliatelle takes its name from the Italian verb meaning this action, reflecting how it is made.",
+          "answer": "To cut",
+          "source_id": "tapi:6250070f0d86c8f685d80f11",
+          "fit_justification": "Source question asks 'The pasta tagliatelle has what meaning in Italian?' with answer 'to cut'; the pasta name and its Italian meaning are both explicit."
+        },
+        {
+          "value": 800,
+          "clue": "Gnocchi, though not a pasta, are a staple Italian first course made from this starchy ingredient.",
+          "answer": "Potato dumplings",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515c8",
+          "fit_justification": "Source question asks 'What is gnocchi?' with answer 'Potato dumplings'; the Italian dish and its description are explicit."
+        },
+        {
+          "value": 1000,
+          "clue": "This Italian city lent its name to both a famous hard cheese and a cured ham, both protected designations of origin.",
+          "answer": "Parma",
+          "source_id": "tapi:622a1c367cc59eab6f950241",
+          "fit_justification": "Source question asks 'Which Italian city gave its name to a cheese and a type of ham?' with answer 'Parma'; the Italian food connection and city name are explicit."
+        }
+      ]
+    },
+    {
+      "title": "COCKTAIL CABINET",
+      "theme": "Each clue describes a cocktail; the answer is the cocktail's name or a key fact about it",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This tropical cocktail blends rum, pineapple juice, and coconut cream into a frothy island favourite.",
+          "answer": "Pina Colada",
+          "source_id": "tapi:622a1c3b7cc59eab6f951619",
+          "fit_justification": "Source question asks 'Which Cocktail contains rum, pineapple and coconut?' with answer 'Pina Colada'; cocktail ingredients and name are explicit."
+        },
+        {
+          "value": 400,
+          "clue": "This cocktail made with brandy and crème de menthe gets its name from a type of insect repellent device.",
+          "answer": "Stinger",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515fd",
+          "fit_justification": "Source question asks 'Which Cocktail is made with brandy and creme de menthe?' with answer 'Stinger'; cocktail ingredients and name are explicit."
+        },
+        {
+          "value": 600,
+          "clue": "A dirty martini is distinguished by a splash of this type of brine added to the classic gin or vodka mix.",
+          "answer": "Olive",
+          "source_id": "tapi:6477ba9d550bc819ad646aec",
+          "fit_justification": "Source question asks 'What type of brine is added to a traditional dirty martini?' with answer 'Olive'; cocktail name and brine type are explicit."
+        },
+        {
+          "value": 800,
+          "clue": "This rum-heavy cocktail is notorious for its potency, with its name suggesting what happens to those who drink too many.",
+          "answer": "Rum",
+          "source_id": "tapi:622a1c367cc59eab6f950276",
+          "fit_justification": "Source question asks 'Which Alcoholic drink is the main ingredient of the cocktail Zombie?' with answer 'Rum'; cocktail name and main ingredient are explicit."
+        },
+        {
+          "value": 1000,
+          "clue": "This gin-based cocktail was invented at the Raffles Hotel in Singapore and bears that city's name.",
+          "answer": "Singapore Sling",
+          "source_id": "tapi:6233880f0161109f922aac62",
+          "fit_justification": "Source question asks 'Which Cocktail Was Invented At The Raffles Hotel?' with answer 'Singapore Sling'; cocktail name and hotel of invention are explicit."
+        }
+      ]
+    },
+    {
+      "title": "IT'S A PASTA",
+      "theme": "Each clue is about a specific type or shape of pasta",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This pasta shares its name with its shape — a hollow tube often used in mac and cheese.",
+          "answer": "Tubular",
+          "source_id": "tapi:622a1c367cc59eab6f9502a2",
+          "fit_justification": "Source question 'What shape is macaroni?' with answer 'Tubular'; clue asks about the shape of macaroni pasta."
+        },
+        {
+          "value": 400,
+          "clue": "This pasta's Italian name literally means 'small little pies,' and it is traditionally stuffed with meat or cheese.",
+          "answer": "Tortellini",
+          "source_id": "tapi:625007160d86c8f685d80f13",
+          "fit_justification": "Source question 'The pasta tortellini has what meaning in Italian?' with answer 'Small little pies'; clue asks which pasta has that meaning."
+        },
+        {
+          "value": 600,
+          "clue": "This pasta's name means 'Rings' in Italian and it lives up to its name with its small circular shape.",
+          "answer": "Anelli",
+          "source_id": "tapi:625006450d86c8f685d80ede",
+          "fit_justification": "Source question 'Which pasta's name means Rings?' with answer 'Anelli'; clue asks which pasta has that Italian meaning."
+        },
+        {
+          "value": 800,
+          "clue": "Bigoli, a thick pasta from the Veneto region of Italy, falls into which broad pasta classification?",
+          "answer": "Strand pasta",
+          "source_id": "tapi:625006520d86c8f685d80ee2",
+          "fit_justification": "Source question 'What type of pasta is bigoli?' with answer 'Strand pasta'; clue asks the pasta classification of bigoli."
+        },
+        {
+          "value": 1000,
+          "clue": "Gemelli, whose name means 'twins' in Italian due to its two intertwined strands, belongs to which pasta category?",
+          "answer": "Shaped pasta",
+          "source_id": "tapi:625006b60d86c8f685d80ef7",
+          "fit_justification": "Source question 'What type of pasta is gemelli?' with answer 'Shaped pasta'; clue asks the pasta classification of gemelli."
+        }
+      ]
+    },
+    {
+      "title": "WINE & SPIRITS",
+      "theme": "Each clue is about wine regions, wine types, or distilled spirits",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This French sparkling wine region, centered on the city of Reims, lends its name to the world's most famous bubbly.",
+          "answer": "Champagne",
+          "source_id": "tapi:622a1c367cc59eab6f950255",
+          "fit_justification": "Source question 'Which Famous Wine Region Is Centred On Reims?' with answer 'Champagne'; clue asks for the French wine region centered on Reims."
+        },
+        {
+          "value": 400,
+          "clue": "Chablis, a dry white wine famous for its crisp mineral taste, comes from this French wine region.",
+          "answer": "Burgundy",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515fe",
+          "fit_justification": "Source question 'Chablis comes from which French wine region?' with answer 'Burgundy'; clue asks for the French wine region producing Chablis."
+        },
+        {
+          "value": 600,
+          "clue": "This brandy-based spirit is used to fortify red wine during the production of port in Portugal.",
+          "answer": "Aguardente",
+          "source_id": "tapi:622a1c367cc59eab6f95029d",
+          "fit_justification": "Source question 'What spirit is used in fortifying red wine to create port?' with answer 'Aguardente'; clue asks for the specific spirit used in port production."
+        },
+        {
+          "value": 800,
+          "clue": "A Methuselah is one of the largest standard bottle sizes in wine; how many regular 750ml bottles does it hold?",
+          "answer": "Eight",
+          "source_id": "tapi:622a1c367cc59eab6f9502e8",
+          "fit_justification": "Source question 'How many standard bottles of wine are in a Methuselah?' with answer 'Eight'; clue asks the number of bottles in a Methuselah."
+        },
+        {
+          "value": 1000,
+          "clue": "The small cask called a 'firkin,' used historically to measure ale and beer, holds how many gallons?",
+          "answer": "9",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515a5",
+          "fit_justification": "Source question 'How Many Gallons In A Firkin?' with answer '9'; clue asks for the gallon capacity of a firkin used in brewing."
+        }
+      ]
+    },
+    {
+      "title": "NATIONAL DRINKS",
+      "theme": "Each clue asks which drink is associated with a specific country or region; answer is that drink",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This spirit is the popular drink of Mexico, distilled from the blue agave plant.",
+          "answer": "Tequila",
+          "source_id": "tapi:627164361ba117625baac94f",
+          "fit_justification": "Source question asks 'Which of these is a popular drink in Mexico?' and source answer is 'Tequila'."
+        },
+        {
+          "value": 400,
+          "clue": "This amber whiskey-style spirit is the drink most associated with the USA, particularly Kentucky.",
+          "answer": "Bourbon",
+          "source_id": "tapi:627164281ba117625baac94b",
+          "fit_justification": "Source question asks 'Which of these is a popular drink in The USA?' and source answer is 'Bourbon'."
+        },
+        {
+          "value": 600,
+          "clue": "This aromatic herbal liqueur, a bitter digestif, is the drink most associated with the Czech Republic.",
+          "answer": "Becherovka",
+          "source_id": "tapi:627164401ba117625baac952",
+          "fit_justification": "Source question asks 'Which of these drinks would you associate with The Czech Republic?' and source answer is 'Becherovka'."
+        },
+        {
+          "value": 800,
+          "clue": "This anise-flavored spirit is the popular drink associated with Jordan and other Levantine countries.",
+          "answer": "Arak",
+          "source_id": "tapi:627164741ba117625baac961",
+          "fit_justification": "Source question asks 'Which of these is a popular drink in Jordan?' and source answer is 'Arak'."
+        },
+        {
+          "value": 1000,
+          "clue": "This dark, syrupy balsam liqueur flavored with herbs is Latvia's national drink, bottled in the capital city.",
+          "answer": "Riga Black Balsam",
+          "source_id": "tapi:627164b51ba117625baac970",
+          "fit_justification": "Source question asks 'Which of these drinks would you associate with Latvia?' and source answer is 'Riga Black Balsam'."
+        }
+      ]
+    },
+    {
+      "title": "FRUIT ORIGINS",
+      "theme": "Each clue asks where in the world a specific fruit originates; answer is a geographic region",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Papaya, the tropical fruit with orange flesh and black seeds, originally comes from this part of the world.",
+          "answer": "Central America",
+          "source_id": "tapi:624ab06dc64ce21c11f06e9a",
+          "fit_justification": "Source question asks 'From which part of the world does papaya originate?' and source answer is 'Central America'."
+        },
+        {
+          "value": 400,
+          "clue": "Pineapples, now grown across the tropics, originally hail from this continent.",
+          "answer": "South America",
+          "source_id": "tapi:624ab075c64ce21c11f06e9d",
+          "fit_justification": "Source question asks 'From which part of the world do pineapples originate?' and source answer is 'South America'."
+        },
+        {
+          "value": 600,
+          "clue": "The juicy peach, now cultivated worldwide, traces its roots to this Asian country.",
+          "answer": "China",
+          "source_id": "tapi:624ab0d6348a461bfc67069e",
+          "fit_justification": "Source question asks 'From which part of the world do peaches originate?' and source answer is 'China'."
+        },
+        {
+          "value": 800,
+          "clue": "The mango, king of tropical fruits, was first cultivated in this South Asian country.",
+          "answer": "India",
+          "source_id": "tapi:624ab0ce348a461bfc67069b",
+          "fit_justification": "Source question asks 'From which part of the world does mango originate?' and source answer is 'India'."
+        },
+        {
+          "value": 1000,
+          "clue": "Despite being a staple of Mediterranean cuisine, the orange actually originates from this part of the world.",
+          "answer": "Southeast Asia",
+          "source_id": "tapi:624ab0e1348a461bfc6706a2",
+          "fit_justification": "Source question asks 'From which part of the world do oranges originate?' and source answer is 'Southeast Asia'."
+        }
+      ]
+    },
+    {
+      "title": "WHAT'S IN YOUR GLASS?",
+      "theme": "Each clue is about an alcoholic drink — its ingredients, name meaning, or production method",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This type of alcoholic beverage is what bourbon is classified as.",
+          "answer": "Whiskey",
+          "source_id": "tapi:648b872108102f4e90f095cf",
+          "fit_justification": "Source question asks 'What type of alcoholic beverage is bourbon?' and source answer is 'Whiskey'."
+        },
+        {
+          "value": 400,
+          "clue": "The word 'vodka' is a diminutive of the Slavic word for this, literally meaning a small amount of it.",
+          "answer": "Little Water",
+          "source_id": "tapi:622a1c367cc59eab6f9502c9",
+          "fit_justification": "Source question asks 'What Does Vodka Actually Mean?' and source answer is 'Little Water'."
+        },
+        {
+          "value": 600,
+          "clue": "This German-origin word for a type of beer literally means 'to store', referring to its cold-conditioning process.",
+          "answer": "Lager",
+          "source_id": "tapi:622a1c367cc59eab6f950247",
+          "fit_justification": "Source question asks 'Which alcoholic beverage's name is German for to store?' and source answer is 'Lager'."
+        },
+        {
+          "value": 800,
+          "clue": "On a champagne bottle, the French term 'Demi Sec' indicates this taste profile.",
+          "answer": "Sweet",
+          "source_id": "tapi:622a1c367cc59eab6f9502cc",
+          "fit_justification": "Source question asks 'What Does Demi Sec Mean On A Champagne Bottle?' and source answer is 'Sweet'."
+        },
+        {
+          "value": 1000,
+          "clue": "The Solera process, involving fractional blending across barrels of different ages, is used in the production of this fortified wine.",
+          "answer": "Sherry",
+          "source_id": "tapi:622a1c367cc59eab6f9502d6",
+          "fit_justification": "Source question asks 'What would you use the solera process on?' and source answer is 'Sherry'."
+        }
+      ]
+    },
+    {
+      "title": "NAMED AFTER REAL PEOPLE",
+      "theme": "Dishes, desserts, or food items named after or invented for a specific real person",
+      "topic": "FOOD_DRINK",
+      "category_style": "themed",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Australian-born soprano gave her name to a classic dessert of ice cream, peaches, and raspberry sauce — as well as a type of thin crispy toast.",
+          "answer": "Nellie Melba",
+          "source_id": "tapi:622a1c367cc59eab6f950273",
+          "fit_justification": "Source question literally asks 'Which Opera Singer had a dessert named after her?' — the dessert is named after the real person Nellie Melba."
+        },
+        {
+          "value": 400,
+          "clue": "This legendary Russian ballerina's name graces a meringue dessert topped with whipped cream and fruit, invented in her honor during a tour of Australia and New Zealand.",
+          "answer": "Anna Pavlova",
+          "source_id": "tapi:622a1c367cc59eab6f950215",
+          "fit_justification": "Source question literally asks 'Who was the female Russian dancer who had a dessert named after her?' — the dessert is named after the real person Anna Pavlova."
+        },
+        {
+          "value": 600,
+          "clue": "This smoked-haddock omelette is named after the protagonist of a 1930 Arnold Bennett novel, created at the Savoy Hotel in London.",
+          "answer": "Smoked Haddock",
+          "source_id": "tapi:622a1c367cc59eab6f95029a",
+          "fit_justification": "Source question asks 'What type of fish is in an omelette Arnold Bennett?' — the dish omelette Arnold Bennett is named after the real person Arnold Bennett."
+        },
+        {
+          "value": 800,
+          "clue": "This apple and celery salad was created at a New York hotel and named after the estate of the Astor family in New York.",
+          "answer": "Apples",
+          "source_id": "tapi:648ef5e14fe93387161138b9",
+          "fit_justification": "Source question asks 'What is the main fruit ingredient in a Waldorf salad?' — the Waldorf salad is named after the Waldorf-Astoria hotel, a named-after-place/person themed dish."
+        },
+        {
+          "value": 1000,
+          "clue": "This egg and Canadian bacon breakfast sandwich was invented by Herb Peterson and first sold at a fast food chain in 1972.",
+          "answer": "Egg Mcmuffin",
+          "source_id": "tapi:622a1c367cc59eab6f9503ea",
+          "fit_justification": "Source question literally asks 'What did Herb Peterson invent?' — the Egg McMuffin is a food item invented by and named in association with a real person, Herb Peterson."
+        }
+      ]
+    },
+    {
+      "title": "NATIONAL DRINKS",
+      "theme": "Questions associating a specific alcoholic drink with the country it is popular in or associated with",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This Italian grape-based spirit, often enjoyed as a digestif, is distilled from the pomace left over after winemaking.",
+          "answer": "Italy",
+          "source_id": "tapi:62716477d5d487fbab6b795a",
+          "fit_justification": "Source question literally asks 'In which country is grappa a popular drink?' and source answer is 'Italy'."
+        },
+        {
+          "value": 400,
+          "clue": "Pisco, a grape brandy central to the Pisco Sour cocktail, is most strongly associated with this South American nation.",
+          "answer": "Peru",
+          "source_id": "tapi:6271642b1ba117625baac94c",
+          "fit_justification": "Source question literally asks 'In which country is pisco a popular drink?' and source answer is 'Peru'."
+        },
+        {
+          "value": 600,
+          "clue": "Aguardiente, an anise-flavored sugarcane spirit, is the national firewater of this South American country whose capital is Bogotá.",
+          "answer": "Colombia",
+          "source_id": "tapi:627164cd1ba117625baac976",
+          "fit_justification": "Source question literally asks 'Which country is associated with the drink aguardiente?' and source answer is 'Colombia'."
+        },
+        {
+          "value": 800,
+          "clue": "Waragi, a local gin distilled from bananas or cassava, is the popular spirit of this East African nation on the shores of Lake Victoria.",
+          "answer": "Uganda",
+          "source_id": "tapi:627164551ba117625baac958",
+          "fit_justification": "Source question literally asks 'Which country is associated with the drink waragi?' and source answer is 'Uganda'."
+        },
+        {
+          "value": 1000,
+          "clue": "Koskenkorva Viina, a strong grain spirit sometimes called 'Kossu', is a beloved and popular drink in this Nordic nation.",
+          "answer": "Finland",
+          "source_id": "tapi:62716490d5d487fbab6b795d",
+          "fit_justification": "Source question literally asks 'Which of these is a popular drink in Finland?' and source answer is 'Koskenkorva Viina'."
+        }
+      ]
+    },
+    {
+      "title": "APPLE A DAY",
+      "theme": "All five answers are 'Apple' or 'Apples' — every source fact's answer is literally the word Apple or Apples",
+      "topic": "FOOD_DRINK",
+      "category_style": "wordplay",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "An old proverb claims that eating one of these a day keeps the doctor away.",
+          "answer": "Apples",
+          "source_id": "tapi:64626214ab138b829b81e9bb",
+          "fit_justification": "Source question asks 'What fruit allegedly keeps the doctor away if you eat one per day?' and source answer is literally 'Apples'."
+        },
+        {
+          "value": 400,
+          "clue": "At a fairground, this fruit is traditionally dunked in hot toffee and left to harden on a stick.",
+          "answer": "Apple",
+          "source_id": "tapi:622a1c367cc59eab6f950248",
+          "fit_justification": "Source question asks 'Which fruit is traditionally covered with toffee at a fairground?' and source answer is literally 'Apple'."
+        },
+        {
+          "value": 600,
+          "clue": "James Grieve and Egremont Russet are two named varieties of this common pome fruit.",
+          "answer": "Apple",
+          "source_id": "tapi:622a1c3e7cc59eab6f9522d0",
+          "fit_justification": "Source question asks 'James Grieve and Egremont Russet are types of which fruit?' and source answer is literally 'Apple'."
+        },
+        {
+          "value": 800,
+          "clue": "The French brandy Calvados is distilled from the fermented juice of this fruit, grown in abundance in Normandy.",
+          "answer": "Apples",
+          "source_id": "tapi:622a1c367cc59eab6f950244",
+          "fit_justification": "Source question asks 'Which fruit is used to make Calvados?' and source answer is literally 'Apples'."
+        },
+        {
+          "value": 1000,
+          "clue": "The scientific name malus pumila belongs to this everyday orchard fruit.",
+          "answer": "Apple",
+          "source_id": "tapi:622a1c367cc59eab6f95024d",
+          "fit_justification": "Source question asks 'Which fruit has the scientific name of malus pumulia?' and source answer is literally 'Apple'."
+        }
+      ]
+    },
+    {
+      "title": "WHERE IN THE WORLD?",
+      "theme": "Source questions literally ask 'where in the world' a dish is served or expected — answer is a country or region",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "You'd most expect to find this hearty noodle soup on a menu in the Land of the Rising Sun.",
+          "answer": "Japan",
+          "source_id": "tapi:624c60c095b12387e142c79b",
+          "fit_justification": "Source question literally asks 'Which of these dishes would you most expect to find in Japan?' and source answer is 'Japan'; dish is Ramen."
+        },
+        {
+          "value": 400,
+          "clue": "Kushari, a mix of rice, lentils, and pasta, is the national dish of this North African country.",
+          "answer": "Egypt",
+          "source_id": "tapi:624c616bbadf21197f98f77b",
+          "fit_justification": "Source question literally asks 'Where in the world would you most expect to be served Kushari?' and source answer is 'Egypt'."
+        },
+        {
+          "value": 600,
+          "clue": "Dholl Puri, a flatbread stuffed with ground split peas, is the street-food staple of this Indian Ocean island nation.",
+          "answer": "Mauritius",
+          "source_id": "tapi:624c60ce50d1a5e051325a74",
+          "fit_justification": "Source question literally asks 'Where in the world would you most expect to be served Dholl Puri?' and source answer is 'Mauritius'."
+        },
+        {
+          "value": 800,
+          "clue": "Ema Datshi, a spicy stew of chili peppers and cheese, is the national dish of this small Himalayan kingdom.",
+          "answer": "Bhutan",
+          "source_id": "tapi:624c615dbadf21197f98f777",
+          "fit_justification": "Source question literally asks 'Where in the world would you most expect to be served Ema Datshi?' and source answer is 'Bhutan'."
+        },
+        {
+          "value": 1000,
+          "clue": "Ambuyat, a starchy dish made from sago palm, is the national staple of this oil-rich Southeast Asian sultanate.",
+          "answer": "Brunei",
+          "source_id": "tapi:624c6161badf21197f98f778",
+          "fit_justification": "Source question literally asks 'Where in the world would you most expect to be served Ambuyat?' and source answer is 'Brunei'."
+        }
+      ]
+    },
+    {
+      "title": "FRUIT ORIGINS",
+      "theme": "Source questions literally ask where in the world or from which part of the world a specific fruit originates — answer is a place",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "hard_leaning",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "Avocados, now beloved worldwide, originally hail from this continent, home to countries like Brazil and Peru.",
+          "answer": "South America",
+          "source_id": "tapi:624ab06fc64ce21c11f06e9b",
+          "fit_justification": "Source question literally asks 'Where in the world are avocados originally from?' and source answer is 'South America'."
+        },
+        {
+          "value": 400,
+          "clue": "Both blueberries and chia seeds trace their origins to this continent, also home to the United States and Canada.",
+          "answer": "North America",
+          "source_id": "tapi:624ab05fc64ce21c11f06e95",
+          "fit_justification": "Source question literally asks 'From which part of the world do blueberries originate?' and source answer is 'North America'."
+        },
+        {
+          "value": 600,
+          "clue": "Bananas, despite being associated with tropical regions worldwide, originally come from this part of the globe stretching from Myanmar to the Philippines.",
+          "answer": "Southeast Asia",
+          "source_id": "tapi:624ab0de348a461bfc6706a1",
+          "fit_justification": "Source question literally asks 'From which part of the world do bananas originate?' and source answer is 'Southeast Asia'."
+        },
+        {
+          "value": 800,
+          "clue": "Persimmons, the sweet orange fruit sometimes called 'the fruit of the gods', originally come from this most populous nation on Earth.",
+          "answer": "China",
+          "source_id": "tapi:624ab0d9348a461bfc67069f",
+          "fit_justification": "Source question literally asks 'From which part of the world do persimmons originate?' and source answer is 'China'."
+        },
+        {
+          "value": 1000,
+          "clue": "Cherries, now grown across temperate zones, trace their ancient origins to this region that also gave the world olives and figs.",
+          "answer": "The Middle East",
+          "source_id": "tapi:624ab0a7348a461bfc67068c",
+          "fit_justification": "Source question literally asks 'From which part of the world do cherries originate?' and source answer is 'The Middle East'."
+        }
+      ]
+    },
+    {
+      "title": "CHEESE, PLEASE",
+      "theme": "Facts whose source questions explicitly concern cheese — its origin, composition, or type",
+      "topic": "FOOD_DRINK",
+      "category_style": "knowledge",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "This stretchy white Italian cheese is the classic topping for a Margherita pizza.",
+          "answer": "Mozzarella",
+          "source_id": "tapi:63a03949c7d86251f9b65c35",
+          "fit_justification": "Source question literally asks 'What type of cheese is used on a pizza?' and source answer is 'Mozzarella'; source fact explicitly concerns cheese."
+        },
+        {
+          "value": 400,
+          "clue": "Emmental, the holey Swiss cheese, originates from this central European country.",
+          "answer": "Switzerland",
+          "source_id": "tapi:622a1c3b7cc59eab6f951564",
+          "fit_justification": "Source question literally asks 'From which country does emmental cheese originate?' and source answer is 'Switzerland'; source fact explicitly concerns cheese."
+        },
+        {
+          "value": 600,
+          "clue": "This blue-veined Italian cheese, named after a town near Milan, has a rich, creamy flavor.",
+          "answer": "Gorgonzola",
+          "source_id": "tapi:63a03940c7d86251f9b65c29",
+          "fit_justification": "Source question literally asks 'Which of these cheeses has a blue-green vein?' and source answer is 'Gorgonzola'; source fact explicitly concerns cheese."
+        },
+        {
+          "value": 800,
+          "clue": "Greek Feta is traditionally made from the milk of this animal, giving it its characteristic tangy flavor.",
+          "answer": "Sheep",
+          "source_id": "tapi:622a1c3b7cc59eab6f9515be",
+          "fit_justification": "Source question literally asks 'Greek Feta cheese is made from the milk of which animal?' and source answer is 'Sheep'; source fact explicitly concerns cheese."
+        },
+        {
+          "value": 1000,
+          "clue": "This Norwegian cheese, known for subtle nutty undertones, is one of the world's most exported specialty cheeses.",
+          "answer": "Jarlsberg",
+          "source_id": "tapi:64a32df9fc63594e30247829",
+          "fit_justification": "Source question literally asks 'Which of these is a Norwegian cheese with undertones of nuts?' and source answer is 'Jarlsberg'; source fact explicitly concerns cheese."
+        }
+      ]
+    },
+    {
+      "title": "WHERE IN THE WORLD IS IT SERVED?",
+      "theme": "Each clue asks which part of the world a specific dish is most associated with or expected to be served",
+      "topic": "FOOD_DRINK",
+      "category_style": "themed",
+      "difficulty_profile": "balanced",
+      "clues": [
+        {
+          "value": 200,
+          "clue": "You'd most expect to be served a taco in this North American country.",
+          "answer": "Mexico",
+          "source_id": "tapi:624c60d150d1a5e051325a75",
+          "fit_justification": "Source question literally asks 'Where in the world would you most expect to be served a taco?' and answer is 'Mexico'."
+        },
+        {
+          "value": 400,
+          "clue": "This South American country is where you'd most expect to be served ceviche.",
+          "answer": "Peru",
+          "source_id": "tapi:624c60e750d1a5e051325a7b",
+          "fit_justification": "Source question literally asks 'Where in the world would you most expect to be served Ceviche?' and answer is 'Peru'."
+        },
+        {
+          "value": 600,
+          "clue": "This Italian city-nation is most associated with polenta.",
+          "answer": "Italy",
+          "source_id": "tapi:624c60b550d1a5e051325a6e",
+          "fit_justification": "Source question literally asks 'Where in the world would you most expect to be served Polenta?' and answer is 'Italy'."
+        },
+        {
+          "value": 800,
+          "clue": "You'd most expect to be served chilli crab in this Southeast Asian city-state.",
+          "answer": "Singapore",
+          "source_id": "tapi:624c60f950d1a5e051325a80",
+          "fit_justification": "Source question literally asks 'Where in the world would you most expect to be served Chilli Crab?' and answer is 'Singapore'."
+        },
+        {
+          "value": 1000,
+          "clue": "Bigos, a hearty hunter's stew, is most associated with this Eastern European country.",
+          "answer": "Poland",
+          "source_id": "tapi:624c60ee50d1a5e051325a7d",
+          "fit_justification": "Source question literally asks 'Where in the world would you most expect to be served Bigos?' and answer is 'Poland'."
+        }
+      ]
+    }
+  ],
+  "finals": [
+    {
+      "title": "CHAMPAGNE BOTTLES",
+      "topic": "FOOD_DRINK",
+      "clue": "A Nebuchadnezzar, the largest standard Champagne bottle size named after a biblical king, holds the equivalent of this many standard 75cl bottles.",
+      "answer": "20",
+      "source_id": "tapi:622a1c3b7cc59eab6f9515a8",
+      "fit_justification": "Source question asks 'How many standard bottles of champagne are there in a Nebuchadnezzar?' and source answer is '20'; clue references the specific bottle name and the 75cl standard size."
+    },
+    {
+      "title": "FOOD & DRINK EPONYMS",
+      "topic": "FOOD_DRINK",
+      "clue": "This dish, a slow-braised veal shank served with gremolata, takes its name from the Italian for 'bone with a hole' and is a signature of Milanese cuisine.",
+      "answer": "Osso Bucco",
+      "source_id": "tapi:622a1c367cc59eab6f95028f",
+      "fit_justification": "Source question asks 'What type of meat is used in the preparation of Osso Bucco?' confirming Osso Bucco is the dish; clue reframes it as a final-worthy identification question without revealing the answer."
+    },
+    {
+      "title": "ITALIAN CULINARY TERMS",
+      "topic": "FOOD_DRINK",
+      "clue": "This Italian culinary phrase, describing pasta cooked so it still offers slight resistance when bitten, literally translates to 'to the tooth' in Italian.",
+      "answer": "Al dente",
+      "source_id": "tapi:622a1c367cc59eab6f95023f",
+      "fit_justification": "Source question asks 'Which Italian phrase is used to describe pasta cooked only until it offers a slight resistance when bitten?' A: 'Al dente' — source literally identifies the term as an Italian phrase with a culinary meaning."
+    },
+    {
+      "title": "CULINARY TERMS",
+      "topic": "FOOD_DRINK",
+      "clue": "From the French word for 'melting,' this pliable sugar paste is used by bakers and cake decorators to create smooth, sculpted icings.",
+      "answer": "Fondant",
+      "source_id": "tapi:647edafd520523194910c2d9",
+      "fit_justification": "Source question states 'What is the sugary paste used for icing and cake decor that comes from the French word for melting?' and source answer is 'Fondant'; a niche culinary term appropriate for a final clue."
+    },
+    {
+      "title": "FOOD & DRINK FINAL",
+      "topic": "FOOD_DRINK",
+      "clue": "This Scottish river, lending its name to a famous whisky region, supplies over 90% of the water used in Scotch whisky manufacturing.",
+      "answer": "Spey",
+      "source_id": "tapi:622a1c367cc59eab6f950236",
+      "fit_justification": "Source question asks 'Which Scottish river supplies over 90% of the water used in whiskey manufacturing?' with answer 'Spey'; the river and its whisky connection are explicit."
+    },
+    {
+      "title": "FOOD EPONYMS",
+      "topic": "FOOD_DRINK",
+      "clue": "This French chef, considered the 'king of chefs,' created the Peach Melba dessert in 1893 to honor a famous Australian opera singer.",
+      "answer": "Auguste Escoffier",
+      "source_id": "tapi:622a1c367cc59eab6f95024f",
+      "fit_justification": "Source question 'Which famous French chef invented the Peach Melba in 1893?' with answer 'Auguste Escoffier'; clue references the Peach Melba creation and the specific year from the source."
+    }
+  ]
+}
