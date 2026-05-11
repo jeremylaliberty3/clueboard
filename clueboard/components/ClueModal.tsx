@@ -83,7 +83,7 @@ export default function ClueModal({
   // After a result is shown, auto-close.
   useEffect(() => {
     if (!result) return;
-    const ms = result.kind === "correct" ? 1100 : 2400;
+    const ms = result.kind === "correct" ? 1100 : 1400;
     const t = setTimeout(onClose, ms);
     return () => clearTimeout(t);
   }, [result, onClose]);
