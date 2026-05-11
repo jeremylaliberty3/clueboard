@@ -57,32 +57,49 @@ const PLAN: {
   /** Topic-disallow list for the final clue (the board's topics). */
   finalAvoidTopics: string[];
 }[] = [
+  // Day 1 — TODAY. Reinstates the launch-state board.
+  {
+    date: "2026-05-11",
+    categories: [
+      "SPORTS TERMS & DEFINITIONS",
+      "ANSWERS ENDING IN -ISM",
+      "FAMOUS FILM QUOTES",
+      "WHICH BOOK CONTAINS THIS CHARACTER?",
+      "SONGS THAT START WITH...",
+      "ART TERMINOLOGY",
+    ],
+    dd: { title: "ANSWERS ENDING IN -ISM", value: 400 },
+    finalAvoidTopics: ["SPORTS", "WORDPLAY", "POP_CULTURE", "LITERATURE", "MUSIC", "ARTS"],
+  },
+  // Day 2 — uses #19 + #21 as the swap-ins for the previous #4/#6 conflicts.
   {
     date: "2026-05-12",
     categories: [
       "FAMOUS PAINTERS",
       "ASSASSINATIONS & THEIR AFTERMATH",
       "BEST PICTURE WINNERS",
-      "SPORTS TERMS & DEFINITIONS",
       "THE HUMAN BODY",
-      "ANSWERS ENDING IN -ISM",
+      "SPORT PLAYED AT THE...",
+      "ANCIENT ROME",
     ],
     dd: { title: "FAMOUS PAINTERS", value: 1000 },
-    finalAvoidTopics: ["ARTS", "HISTORY", "POP_CULTURE", "SPORTS", "SCIENCE", "WORDPLAY"],
+    finalAvoidTopics: ["ARTS", "HISTORY", "POP_CULTURE", "SCIENCE", "SPORTS"],
   },
+  // Day 3 — uses #23 as the swap-in for the previous #9 conflict.
   {
     date: "2026-05-13",
     categories: [
       "FIFA WORLD CUP WINNERS",
       "YOUNG ONES",
-      "FAMOUS FILM QUOTES",
       "BAND MEMBERS",
       "U.S. PRESIDENTS",
       "CAPITAL CITIES",
+      "RIVERS & MOUNTAINS",
     ],
-    dd: { title: "CAPITAL CITIES", value: 800 },
-    finalAvoidTopics: ["SPORTS", "SCIENCE", "POP_CULTURE", "MUSIC", "HISTORY", "GEOGRAPHY"],
+    dd: { title: "CAPITAL CITIES", value: 600 },
+    finalAvoidTopics: ["SPORTS", "SCIENCE", "MUSIC", "HISTORY", "GEOGRAPHY"],
   },
+  // Day 4 — unchanged from the original plan (no conflicts with today).
   {
     date: "2026-05-14",
     categories: [
@@ -93,21 +110,8 @@ const PLAN: {
       "CITY OF CHAMPIONS",
       "WHAT DOES IT STAND FOR?",
     ],
-    dd: { title: "WORLD WAR II FACTS", value: 600 },
+    dd: { title: "CITY OF CHAMPIONS", value: 800 },
     finalAvoidTopics: ["GEOGRAPHY", "HISTORY", "LITERATURE", "SCIENCE", "SPORTS"],
-  },
-  {
-    date: "2026-05-15",
-    categories: [
-      "SPORT PLAYED AT THE...",
-      "WHICH BOOK CONTAINS THIS CHARACTER?",
-      "ANCIENT ROME",
-      "SONGS THAT START WITH...",
-      "RIVERS & MOUNTAINS",
-      "ART TERMINOLOGY",
-    ],
-    dd: { title: "ANCIENT ROME", value: 800 },
-    finalAvoidTopics: ["SPORTS", "LITERATURE", "HISTORY", "MUSIC", "GEOGRAPHY", "ARTS"],
   },
 ];
 
