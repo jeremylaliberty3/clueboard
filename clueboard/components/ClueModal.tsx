@@ -64,11 +64,20 @@ export default function ClueModal({
   >(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const wagerInputRef = useRef<HTMLInputElement>(null);
+  // The scrollable inner box of the modal. We snap it to scrollTop=0
+  // on mount and phase change so the clue text is always visible from
+  // the top, regardless of where the browser might have auto-scrolled
+  // it to chase the focused input.
+  const scrollerRef = useRef<HTMLDivElement>(null);
 
   // Focus the wager input on open for DD, otherwise the answer input.
+  // `preventScroll: true` tells the browser to focus without scrolling
+  // any ancestor containers — without it, the modal's overflow-y-auto
+  // box would scroll the input into view and push the clue out of sight.
   useEffect(() => {
-    if (isDD && wager === null) wagerInputRef.current?.focus();
-    else inputRef.current?.focus();
+    if (scrollerRef.current) scrollerRef.current.scrollTop = 0;
+    if (isDD && wager === null) wagerInputRef.current?.focus({ preventScroll: true });
+    else inputRef.current?.focus({ preventScroll: true });
   }, [isDD, wager]);
 
   // After a result is shown, auto-close.
@@ -119,7 +128,7 @@ export default function ClueModal({
     const valid = !isNaN(n) && n >= 0 && n <= maxWager;
     return (
       <div className="fixed inset-0 bg-black/70 flex items-start sm:items-center justify-center p-2 sm:p-4 z-50 overflow-y-auto">
-        <div className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-4 sm:p-10 shadow-2xl text-center max-h-[calc(100dvh-1rem)] sm:max-h-[calc(100dvh-2rem)] overflow-y-auto">
+        <div ref={scrollerRef} className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-4 sm:p-10 shadow-2xl text-center max-h-[calc(100dvh-1rem)] sm:max-h-[calc(100dvh-2rem)] overflow-y-auto">
           <div className="text-gold-bright uppercase text-sm font-bold tracking-wide mb-2">
             {clue.category} · ${clue.value}
           </div>
@@ -168,7 +177,7 @@ export default function ClueModal({
   // ── Regular / DD answer phase ───────────────────────────────
   return (
     <div className="fixed inset-0 bg-black/70 flex items-start sm:items-center justify-center p-2 sm:p-4 z-50 overflow-y-auto">
-      <div className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-4 sm:p-10 shadow-2xl max-h-[calc(100dvh-1rem)] sm:max-h-[calc(100dvh-2rem)] overflow-y-auto">
+      <div ref={scrollerRef} className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-4 sm:p-10 shadow-2xl max-h-[calc(100dvh-1rem)] sm:max-h-[calc(100dvh-2rem)] overflow-y-auto">
         <div className="flex items-center justify-between text-gold-bright text-sm font-bold mb-2 sm:mb-4">
           <span className="uppercase tracking-wide">
             {clue.category}
