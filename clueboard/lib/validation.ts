@@ -18,6 +18,8 @@ const JEOPARDY_PREFIXES = [
 
 export function normalize(s: string): string {
   let out = (s || "").toLowerCase().trim();
+  // strip diacritics so "Dali" matches "Dalí", "naïve" matches "naive", etc.
+  out = out.normalize("NFD").replace(/\p{M}/gu, "");
   for (const p of JEOPARDY_PREFIXES) {
     if (out.startsWith(p + " ")) {
       out = out.slice(p.length + 1);
@@ -127,6 +129,31 @@ function soundexScore(user: string, correct: string): number {
   return matched / cCodes.length;
 }
 
+// Layer 3.5: token-level fuzzy match. Every user token (≥3 chars, non-stop)
+// must have Levenshtein similarity ≥ 0.75 to *some* correct-answer token
+// (≥3 chars). Catches:
+//   - last-name-only answers ("Ferdinand" → "Archduke Franz Ferdinand")
+//   - typos inside a multi-word answer ("van gogg" → "Vincent van Gogh")
+// without globally loosening thresholds. A single garbage token still
+// fails because it has to match *something* in the correct answer.
+function tokenFuzzy(user: string, correct: string): { ok: boolean; score: number } {
+  const uTokens = tokens(user).filter((t) => t.length >= 3);
+  const cTokens = tokens(correct).filter((t) => t.length >= 3);
+  if (!uTokens.length || !cTokens.length) return { ok: false, score: 0 };
+  let total = 0;
+  for (const ut of uTokens) {
+    let best = 0;
+    for (const ct of cTokens) {
+      const d = levenshtein(ut, ct);
+      const score = 1 - d / Math.max(ut.length, ct.length);
+      if (score > best) best = score;
+    }
+    if (best < 0.75) return { ok: false, score: best };
+    total += best;
+  }
+  return { ok: true, score: total / uTokens.length };
+}
+
 export type Verdict = {
   correct: boolean;
   layer: 1 | 2 | 3 | 4;
@@ -146,6 +173,10 @@ export function judgeAnswer(userAnswer: string, correctAnswer: string): Verdict 
   // Layer 3
   const jac = jaccard(userAnswer, correctAnswer);
   if (jac >= 0.6) return { correct: true, layer: 3, reason: `jaccard ${jac.toFixed(2)}` };
+
+  // Layer 3.5 — token-level fuzzy (handles partial answers + typos)
+  const tok = tokenFuzzy(userAnswer, correctAnswer);
+  if (tok.ok) return { correct: true, layer: 3, reason: `token-fuzzy ${tok.score.toFixed(2)}` };
 
   // Layer 4
   const snd = soundexScore(userAnswer, correctAnswer);
