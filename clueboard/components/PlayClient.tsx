@@ -18,6 +18,7 @@ import FinalClue from "./FinalClue";
 import ResultScreen from "./ResultScreen";
 import ReviewBoard from "./ReviewBoard";
 import SignOutButton from "./SignOutButton";
+import HowToPlayModal from "./HowToPlayModal";
 
 type View = "grid" | "accordion";
 
@@ -33,6 +34,7 @@ export default function PlayClient({
   const [activeClue, setActiveClue] = useState<ClueForClient | null>(null);
   const [hydrated, setHydrated] = useState(false);
   const [reviewing, setReviewing] = useState(false);
+  const [showHowTo, setShowHowTo] = useState(false);
 
   const isSignedIn = displayName !== null;
 
@@ -68,6 +70,8 @@ export default function PlayClient({
 
       const savedView = loadView();
       setView(savedView ?? (window.innerWidth >= 768 ? "grid" : "accordion"));
+      const answered = initial ? Object.keys(initial.answers).length : 0;
+      if (!isSignedIn && answered === 0) setShowHowTo(true);
       setHydrated(true);
     })();
     return () => { cancelled = true; };
@@ -327,6 +331,8 @@ export default function PlayClient({
           />
         )}
       </div>
+
+      {showHowTo && <HowToPlayModal onClose={() => setShowHowTo(false)} />}
 
       {activeClue && (
         <ClueModal
