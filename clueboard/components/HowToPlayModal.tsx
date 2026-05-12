@@ -1,9 +1,39 @@
 "use client";
 
+import { useEffect } from "react";
+
 export default function HowToPlayModal({ onClose }: { onClose: () => void }) {
+  useEffect(() => {
+    const scrollY = window.scrollY;
+    const original = {
+      position: document.body.style.position,
+      top: document.body.style.top,
+      width: document.body.style.width,
+      overflow: document.body.style.overflow,
+    };
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.width = "100%";
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.position = original.position;
+      document.body.style.top = original.top;
+      document.body.style.width = original.width;
+      document.body.style.overflow = original.overflow;
+      window.scrollTo(0, scrollY);
+    };
+  }, []);
+
   return (
-    <div className="fixed inset-0 bg-black/70 flex items-start sm:items-center justify-center p-2 sm:p-4 z-50 overflow-y-auto">
-      <div className="bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-5 sm:p-8 shadow-2xl max-h-[calc(100dvh-1rem)] sm:max-h-[calc(100dvh-2rem)] overflow-y-auto">
+    <div className="fixed inset-0 bg-black/70 flex items-start sm:items-center justify-center p-2 sm:p-4 z-50">
+      <div className="relative bg-board border-2 border-gold rounded-lg max-w-2xl w-full p-5 sm:p-8 shadow-2xl max-h-[calc(100dvh-1rem)] sm:max-h-[calc(100dvh-2rem)] overflow-hidden">
+        <button
+          onClick={onClose}
+          aria-label="Close"
+          className="absolute top-3 right-3 w-9 h-9 flex items-center justify-center rounded-full text-gold-bright hover:bg-white/10 hover:text-white text-xl leading-none"
+        >
+          &times;
+        </button>
         <div className="text-center mb-6">
           <h2 className="font-serif font-black text-3xl sm:text-4xl text-gold-bright">
             How to play
