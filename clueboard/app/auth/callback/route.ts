@@ -2,9 +2,9 @@ import { NextResponse, type NextRequest } from "next/server";
 import { getSupabaseServerClient } from "@/lib/supabase-server";
 
 /**
- * OAuth callback handler. Supabase's hosted auth redirects users back
- * here after Google sign-in completes; we exchange the `code` for a
- * session and then redirect to wherever they were headed.
+ * Auth callback handler. Used for password-reset links (Supabase emails
+ * a tokenized URL that lands here); exchanges the `code` for a session
+ * and redirects to wherever the email link asked for via `?next=`.
  */
 export async function GET(request: NextRequest) {
   const { searchParams, origin } = new URL(request.url);

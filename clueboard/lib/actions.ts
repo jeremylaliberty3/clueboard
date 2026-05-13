@@ -3,6 +3,7 @@
 import { getDailyBoard, getClueWithAnswer, todayDateString } from "./board";
 import { judgeAnswer } from "./validation";
 import { getSupabaseServerClient } from "./supabase-server";
+import { validateUsername } from "./username";
 import type { DailyBoard, GameState } from "./types";
 
 export async function submitAnswerAction(
@@ -133,4 +134,65 @@ export async function loadGameStateAction() {
     ok: true as const,
     state: (data?.state as GameState | null) ?? null,
   };
+}
+
+// ============================================================
+// Profile / username
+// ============================================================
+
+/**
+ * Check whether a username is available. Returns ok=true with
+ * `available: boolean`. Format errors come back as ok=false.
+ */
+export async function checkUsernameAction(raw: string) {
+  const formatError = validateUsername(raw);
+  if (formatError) return { ok: false as const, error: formatError };
+  const supabase = await getSupabaseServerClient();
+  const { data, error } = await supabase
+    .from("profiles")
+    .select("user_id")
+    .ilike("username", raw.trim())
+    .maybeSingle();
+  if (error) return { ok: false as const, error: error.message };
+  return { ok: true as const, available: !data };
+}
+
+/**
+ * Create or update the signed-in user's profile row. Called from the
+ * signup form (right after auth.signUp succeeds) and from /settings.
+ */
+export async function upsertProfileAction(raw: string) {
+  const formatError = validateUsername(raw);
+  if (formatError) return { ok: false as const, error: formatError };
+  const username = raw.trim();
+
+  const supabase = await getSupabaseServerClient();
+  const { data: userData } = await supabase.auth.getUser();
+  if (!userData.user) return { ok: false as const, error: "Not signed in" };
+
+  const { error } = await supabase.from("profiles").upsert(
+    { user_id: userData.user.id, username, updated_at: new Date().toISOString() },
+    { onConflict: "user_id" },
+  );
+  if (error) {
+    // Unique-constraint violation on username comes back as code 23505.
+    if (error.code === "23505") {
+      return { ok: false as const, error: "That username is taken." };
+    }
+    return { ok: false as const, error: error.message };
+  }
+  return { ok: true as const, username };
+}
+
+/** Look up the signed-in user's username (or null if not set). */
+export async function getMyUsernameAction() {
+  const supabase = await getSupabaseServerClient();
+  const { data: userData } = await supabase.auth.getUser();
+  if (!userData.user) return { ok: true as const, username: null };
+  const { data } = await supabase
+    .from("profiles")
+    .select("username")
+    .eq("user_id", userData.user.id)
+    .maybeSingle();
+  return { ok: true as const, username: (data?.username as string | undefined) ?? null };
 }

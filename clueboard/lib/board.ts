@@ -26,6 +26,13 @@ function shuffle<T>(arr: T[], rng: () => number): T[] {
 const STANDARD_VALUES = [200, 400, 600, 800, 1000];
 
 export function todayDateString(): string {
+  // Dev-only override: set DEV_DATE_OVERRIDE=YYYY-MM-DD in .env.local to
+  // load a future (or past) board locally without waiting for midnight.
+  // Guarded by NODE_ENV so it has no effect on a production deploy.
+  if (process.env.NODE_ENV !== "production") {
+    const override = process.env.DEV_DATE_OVERRIDE?.trim();
+    if (override && /^\d{4}-\d{2}-\d{2}$/.test(override)) return override;
+  }
   const fmt = new Intl.DateTimeFormat("en-CA", {
     timeZone: "America/New_York",
     year: "numeric",

@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getSupabaseServerClient } from "@/lib/supabase-server";
-import LoginForm from "./LoginForm";
+import SignupForm from "./SignupForm";
 
 export const dynamic = "force-dynamic";
 
-export default async function LoginPage({
+export default async function SignupPage({
   searchParams,
 }: {
   searchParams: Promise<{ next?: string }>;
@@ -27,20 +27,20 @@ export default async function LoginPage({
 
       <section className="flex-1 flex flex-col items-center justify-center px-6 text-center max-w-md mx-auto w-full">
         <h1 className="font-serif font-black text-4xl text-gold-bright mb-4">
-          Sign in
+          Create account
         </h1>
         <p className="text-white/80 mb-8">
-          Save your scores, build a streak, and track your stats across devices. You can also keep playing without an account.
+          Save your scores, build a streak, and track your stats across devices.
         </p>
 
-        <LoginForm next={next} />
+        <SignupForm next={next} />
 
         <Link href="/play" className="mt-6 text-sm text-white/60 hover:text-white">
           Skip and play anonymously &rarr;
         </Link>
 
         <p className="text-xs text-white/40 mt-10">
-          By signing in you agree to our{" "}
+          By signing up you agree to our{" "}
           <Link href="/terms" className="underline hover:text-white">Terms</Link>{" "}
           and{" "}
           <Link href="/privacy" className="underline hover:text-white">Privacy Policy</Link>.

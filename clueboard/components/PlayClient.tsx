@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useMemo, useCallback } from "react";
+import { useEffect, useState, useMemo, useCallback, useRef } from "react";
 import Link from "next/link";
 import type { DailyBoard, GameState, ClueForClient, AnswerRecord } from "@/lib/types";
 import {
@@ -77,22 +77,26 @@ export default function PlayClient({
     return () => { cancelled = true; };
   }, [board.date, isSignedIn]);
 
-  // Single helper for every state mutation: updates React state AND
-  // persists to the right backend. Replaces ad-hoc setState calls in the
-  // submit/skip/wager handlers.
-  const commitState = useCallback(
-    (next: GameState) => {
-      setState(next);
-      if (isSignedIn) {
-        // Fire-and-forget; failures here just mean the next save will
-        // catch up. No user-visible interruption.
-        void saveGameStateAction(next);
-      } else {
-        saveState(next);
-      }
-    },
-    [isSignedIn],
-  );
+  // Persistence is driven by an effect on `state` — never inside a
+  // setState updater. Updaters must be pure; doing IO inside them caused
+  // duplicate server-action invocations under React Strict Mode and a
+  // "Cannot update Router while rendering PlayClient" warning. The flag
+  // ref skips the very first commit (just-hydrated initial state) so we
+  // don't echo what we just loaded straight back to the backend.
+  const skipNextPersistRef = useRef(true);
+  useEffect(() => {
+    if (!hydrated || !state) return;
+    if (skipNextPersistRef.current) {
+      skipNextPersistRef.current = false;
+      return;
+    }
+    if (isSignedIn) void saveGameStateAction(state);
+    else saveState(state);
+  }, [state, hydrated, isSignedIn]);
+
+  // Replaces the old commitState helper. Pure setState — persistence is
+  // handled by the effect above.
+  const commitState = useCallback((next: GameState) => setState(next), []);
 
   const setViewPersist = (v: View) => {
     setView(v);
@@ -136,16 +140,10 @@ export default function PlayClient({
         correctAnswer: result.correctAnswer,
         answeredAt: new Date().toISOString(),
       };
-      setState((prev) => {
-        if (!prev) return prev;
-        const next = recordAnswer(prev, rec);
-        if (isSignedIn) void saveGameStateAction(next);
-        else saveState(next);
-        return next;
-      });
+      setState((prev) => (prev ? recordAnswer(prev, rec) : prev));
       return { correct: result.correct, correctAnswer: result.correctAnswer };
     },
-    [board.date, isSignedIn],
+    [board.date],
   );
 
   const handleSkipClue = useCallback(
@@ -164,16 +162,10 @@ export default function PlayClient({
         correctAnswer: result.correctAnswer,
         answeredAt: new Date().toISOString(),
       };
-      setState((prev) => {
-        if (!prev) return prev;
-        const next = recordAnswer(prev, rec);
-        if (isSignedIn) void saveGameStateAction(next);
-        else saveState(next);
-        return next;
-      });
+      setState((prev) => (prev ? recordAnswer(prev, rec) : prev));
       return { correctAnswer: result.correctAnswer };
     },
-    [board.date, isSignedIn],
+    [board.date],
   );
 
   const handleSetWager = (wager: number) => {

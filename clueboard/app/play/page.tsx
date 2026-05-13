@@ -11,12 +11,17 @@ export default async function PlayPage() {
   ]);
   const { data } = await supabase.auth.getUser();
   const user = data.user;
-  const displayName = user
-    ? ((user.user_metadata?.full_name as string | undefined) ??
-       (user.user_metadata?.name as string | undefined) ??
-       user.email?.split("@")[0] ??
-       "Player")
-    : null;
+  let displayName: string | null = null;
+  if (user) {
+    const { data: profile } = await supabase
+      .from("profiles")
+      .select("username")
+      .eq("user_id", user.id)
+      .maybeSingle();
+    displayName = (profile?.username as string | undefined) ??
+      user.email?.split("@")[0] ??
+      "Player";
+  }
 
   return <PlayClient board={board} displayName={displayName} />;
 }

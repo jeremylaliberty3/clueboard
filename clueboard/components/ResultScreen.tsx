@@ -95,13 +95,13 @@ export default function ResultScreen({
         {!isSignedIn && (
           <div className="mt-8 pt-6 border-t border-white/10">
             <p className="text-sm text-white/80 mb-3">
-              Sign up to save this score and start a streak.
+              Sign in to save this score and start a streak.
             </p>
             <Link
               href="/login?next=/play"
-              className="inline-block px-5 py-2.5 bg-white text-board font-bold rounded hover:brightness-95"
+              className="inline-block px-5 py-2.5 bg-gold-bright text-board font-bold rounded hover:brightness-110"
             >
-              Save with Google
+              Sign in
             </Link>
           </div>
         )}
