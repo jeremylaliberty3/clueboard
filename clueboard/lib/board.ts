@@ -72,11 +72,36 @@ async function loadAllClues(): Promise<{ single: Clue[]; final: Clue[] }> {
     return { single: _allCluesCache.single, final: _allCluesCache.final };
   }
   const supabase = getSupabase();
-  const { data, error } = await supabase
-    .from("clues")
-    .select("id, category, category_tag, clue, answer, value, round, topic, category_style, difficulty_profile");
-  if (error) throw new Error(`Supabase error loading clues: ${error.message}`);
-  if (!data) throw new Error("No clue data returned from Supabase.");
+  // Paginate. Supabase caps a single select at 1000 rows by default,
+  // which silently truncates the clue pool. Any daily_boards row whose
+  // clue_ids reference rows past that cap would fail to hydrate and
+  // fall back to algorithmic generation — exactly the bug that hit prod
+  // after the bank grew past 1000 clues.
+  type Row = {
+    id: number;
+    category: string;
+    category_tag: string | null;
+    clue: string;
+    answer: string;
+    value: number | null;
+    round: string;
+    topic: string | null;
+    category_style: string | null;
+    difficulty_profile: string | null;
+  };
+  const data: Row[] = [];
+  for (let from = 0; ; from += 1000) {
+    const { data: chunk, error } = await supabase
+      .from("clues")
+      .select("id, category, category_tag, clue, answer, value, round, topic, category_style, difficulty_profile")
+      .order("id", { ascending: true })
+      .range(from, from + 999);
+    if (error) throw new Error(`Supabase error loading clues: ${error.message}`);
+    if (!chunk || chunk.length === 0) break;
+    data.push(...(chunk as Row[]));
+    if (chunk.length < 1000) break;
+  }
+  if (data.length === 0) throw new Error("No clue data returned from Supabase.");
 
   const all: Clue[] = data.map((row) => ({
     id: row.id,

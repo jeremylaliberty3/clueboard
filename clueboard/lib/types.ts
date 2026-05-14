@@ -11,8 +11,8 @@ export type Clue = {
   // Optional category-level metadata used by the board generator's
   // variety rules. All five clues in a category share the same values.
   topic?: string | null;
-  categoryStyle?: "knowledge" | "wordplay" | "themed" | null;
-  difficultyProfile?: "easy_leaning" | "balanced" | "hard_leaning" | null;
+  categoryStyle?: string | null;
+  difficultyProfile?: string | null;
 };
 
 export type ClueForClient = {
